@@ -1,0 +1,575 @@
+{
+  "song_id": "6eUKZXaKkcviH0Ku9w2n3V::be-my-husband",
+  "title": "Be My Husband",
+  "artist": "Ed Sheeran",
+  "genre": "unknown",
+  "original_lyrics": "[bridge]\nLove and honour you for all your life\nIf you promise me you'll be my man\nIf you promise me you'll be my man\nIf you promise me you'll be my man\nI will love you the best I can yeah\nStick the promise man you made me\nStick the promise man that you made me\nYeah yeah yeah yeah yeah\nStick the promise man you made me\nThat you stay away from Rosalie yeah\nOh daddy love me good\nOh daddy now love me good\nOh daddy love me good\nOh daddy now love me good\nIf you want me to cook and sew\nIf you want me to cook and sew\nIf you want me to cook and sew yeah\n\n[outro]\nPlease don't treat me so goddamn mean\nPlease don't treat me so goddamn mean\nPlease don't treat me so goddamn mean mean yeah\nYou're the meanest man I have ever seen\nOh daddy love me good\nOh daddy now love me good\nOh daddy love me good\nOh daddy now love me good",
+  "cleaned_lyrics": "Love and honour you for all your life\nIf you promise me you'll be my man\nIf you promise me you'll be my man\nIf you promise me you'll be my man\nI will love you the best I can yeah\nStick the promise man you made me\nStick the promise man that you made me\nYeah yeah yeah yeah yeah\nStick the promise man you made me\nThat you stay away from Rosalie yeah\nOh daddy love me good\nOh daddy now love me good\nOh daddy love me good\nOh daddy now love me good\nIf you want me to cook and sew\nIf you want me to cook and sew\nIf you want me to cook and sew yeah\nPlease don't treat me so goddamn mean\nPlease don't treat me so goddamn mean\nPlease don't treat me so goddamn mean mean yeah\nYou're the meanest man I have ever seen\nOh daddy love me good\nOh daddy now love me good\nOh daddy love me good\nOh daddy now love me good",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 28,
+    "cleaned_lines": 25,
+    "removed_count": 2,
+    "retention_rate": 0.9259259259259259,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Love and honour you for all your life",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "I will love and respect you forever.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2,
+            3,
+            4
+          ],
+          "original_lyric": "If you promise me you'll be my man\nIf you promise me you'll be my man\nIf you promise me you'll be my man",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you say you'll be mine, I'll be happy.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "I will love you the best I can yeah",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "I will love you as much as I can.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7,
+            9
+          ],
+          "original_lyric": "Stick the promise man you made me\nStick the promise man that you made me\nStick the promise man you made me",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Keep your promise to me.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Yeah yeah yeah yeah yeah",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Just a sound of excitement.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "That you stay away from Rosalie yeah",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "jealousy",
+          "eli5_simplification": "Don't go near another girl.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            13,
+            15,
+            17
+          ],
+          "original_lyric": "Oh daddy love me good\nOh daddy love me good\nOh daddy love me good\nOh daddy love me good",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I want you to love me well.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12,
+            14,
+            16,
+            18
+          ],
+          "original_lyric": "Oh daddy now love me good\nOh daddy now love me good\nOh daddy now love me good\nOh daddy now love me good",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I want you to love me now.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19,
+            20,
+            21
+          ],
+          "original_lyric": "If you want me to cook and sew\nIf you want me to cook and sew\nIf you want me to cook and sew yeah",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you want me to do chores, I will.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22,
+            23,
+            24
+          ],
+          "original_lyric": "Please don't treat me so goddamn mean\nPlease don't treat me so goddamn mean\nPlease don't treat me so goddamn mean mean yeah",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "Don't be mean to me.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "You're the meanest man I have ever seen",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "You are the meanest person I know.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            28,
+            30,
+            32
+          ],
+          "original_lyric": "Oh daddy love me good\nOh daddy love me good\nOh daddy love me good\nOh daddy love me good",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I want you to love me well.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27,
+            29,
+            31,
+            33
+          ],
+          "original_lyric": "Oh daddy now love me good\nOh daddy now love me good\nOh daddy now love me good\nOh daddy now love me good",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I want you to love me now.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 33,
+        "covered_lines": 33,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 33,
+      "covered_lines": 33,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Love and honour you for all your life",
+            "If you promise me you'll be my man",
+            "If you promise me you'll be my man",
+            "If you promise me you'll be my man"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "life",
+            "man",
+            "man",
+            "man"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "man",
+              "word2": "man",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "man",
+              "word2": "man",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I will love you the best I can yeah",
+            "Stick the promise man you made me",
+            "Stick the promise man that you made me",
+            "Yeah yeah yeah yeah yeah"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            3,
+            5,
+            5,
+            5
+          ],
+          "end_words": [
+            "yeah",
+            "me",
+            "me",
+            "yeah"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "yeah",
+              "word2": "yeah",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Stick the promise man you made me",
+            "That you stay away from Rosalie yeah",
+            "Oh daddy love me good",
+            "Oh daddy now love me good"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            5
+          ],
+          "end_words": [
+            "me",
+            "yeah",
+            "good",
+            "good"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "good",
+              "word2": "good",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Oh daddy love me good",
+            "Oh daddy now love me good",
+            "If you want me to cook and sew",
+            "If you want me to cook and sew"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            5,
+            4,
+            4
+          ],
+          "end_words": [
+            "good",
+            "good",
+            "sew",
+            "sew"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "good",
+              "word2": "good",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UH), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "sew",
+              "word2": "sew",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "If you want me to cook and sew yeah",
+            "Please don't treat me so goddamn mean",
+            "Please don't treat me so goddamn mean",
+            "Please don't treat me so goddamn mean mean yeah"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            5,
+            5,
+            5,
+            7
+          ],
+          "end_words": [
+            "yeah",
+            "mean",
+            "mean",
+            "yeah"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "yeah",
+              "word2": "yeah",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "mean",
+              "word2": "mean",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "You're the meanest man I have ever seen",
+            "Oh daddy love me good",
+            "Oh daddy now love me good",
+            "Oh daddy love me good"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            5,
+            4,
+            5,
+            4
+          ],
+          "end_words": [
+            "seen",
+            "good",
+            "good",
+            "good"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "good",
+              "word2": "good",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UH), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "good",
+              "word2": "good",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UH), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Oh daddy now love me good"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            5
+          ],
+          "end_words": [
+            "good"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "chorus",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "chorus",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 25
+    }
+  }
+}

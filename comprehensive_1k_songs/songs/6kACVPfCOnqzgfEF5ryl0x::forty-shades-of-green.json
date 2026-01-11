@@ -1,0 +1,373 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::forty-shades-of-green",
+  "title": "Forty Shades Of Green",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI close my eyes and picture the emerald of the sea,\nFrom the fishing boats at Dingle,\nTo the shores of Donagha -dea;\nI miss the River Shannon,\nAnd the folks at Skibbereen,\nThe moorlands and the meadows\nWith their forty shades of green.\n\n[bridge]\nTipperary town.\nAnd most of all I miss her lips,\nAs soft as eider--down;\nAgain I want to see and do\nThe things we've done and seen,\nWith the breeze as sweet as shalamar,\nAnd there's forty shades of green.\nI wish that I could spend an hour\nAt Dublin's churning surf,\nI' love to watch the farmers drain\nThe bogs and spade the turf;\nTo see again the thatches\nOf the straw the women glean;\nI' walk from Cork to Laren to see\nThe forty shades of green.",
+  "cleaned_lyrics": "I close my eyes and picture the emerald of the sea\nFrom the fishing boats at Dingle\nTo the shores of Donagha -dea\nI miss the River Shannon\nAnd the folks at Skibbereen\nThe moorlands and the meadows\nWith their forty shades of green.\nTipperary town.\nAnd most of all I miss her lips\nAs soft as eider--down\nAgain I want to see and do\nThe things we've done and seen\nWith the breeze as sweet as shalamar\nAnd there's forty shades of green.\nI wish that I could spend an hour\nAt Dublin's churning surf\nI' love to watch the farmers drain\nThe bogs and spade the turf\nTo see again the thatches\nOf the straw the women glean\nI' walk from Cork to Laren to see\nThe forty shades of green.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 25,
+    "cleaned_lines": 22,
+    "removed_count": 2,
+    "retention_rate": 0.9166666666666666,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "original_lyric": "I close my eyes and picture the emerald of the sea\nFrom the fishing boats at Dingle\nTo the shores of Donagha -dea\nI miss the River Shannon",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is thinking about Ireland and missing it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "original_lyric": "And the folks at Skibbereen\nThe moorlands and the meadows\nWith their forty shades of green.\nTipperary town.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer misses the people and places in Ireland, especially the green landscapes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "And most of all I miss her lips\nAs soft as eider--down",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer misses his loved one's lips.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "original_lyric": "Again I want to see and do\nThe things we've done and seen\nWith the breeze as sweet as shalamar\nAnd there's forty shades of green.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer wants to relive happy memories in Ireland, with the beautiful scenery.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "original_lyric": "I wish that I could spend an hour\nAt Dublin's churning surf\nI' love to watch the farmers drain\nThe bogs and spade the turf",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wishes he could spend time in Dublin and watch the farmers working.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "To see again the thatches\nOf the straw the women glean\nI' walk from Cork to Laren to see\nThe forty shades of green.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to see the traditional Irish houses and the green landscape.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I close my eyes and picture the emerald of the sea",
+            "From the fishing boats at Dingle",
+            "To the shores of Donagha -dea",
+            "I miss the River Shannon"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "sea",
+            "dingle",
+            "dea",
+            "shannon"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "sea",
+              "word2": "dea",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "And the folks at Skibbereen",
+            "The moorlands and the meadows",
+            "With their forty shades of green.",
+            "Tipperary town."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            3,
+            3
+          ],
+          "end_words": [
+            "skibbereen",
+            "meadows",
+            "green",
+            "town"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "And most of all I miss her lips",
+            "As soft as eider--down",
+            "Again I want to see and do",
+            "The things we've done and seen"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "lips",
+            "down",
+            "do",
+            "seen"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "With the breeze as sweet as shalamar",
+            "And there's forty shades of green.",
+            "I wish that I could spend an hour",
+            "At Dublin's churning surf"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "shalamar",
+            "green",
+            "hour",
+            "surf"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I' love to watch the farmers drain",
+            "The bogs and spade the turf",
+            "To see again the thatches",
+            "Of the straw the women glean"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "drain",
+            "turf",
+            "thatches",
+            "glean"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I' walk from Cork to Laren to see",
+            "The forty shades of green."
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            3
+          ],
+          "end_words": [
+            "see",
+            "green"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "see",
+              "word2": "green",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 22
+    }
+  }
+}

@@ -1,0 +1,661 @@
+{
+  "song_id": "3eqjTLE0HfPfh78zjh6TqT::aint-got-no-home",
+  "title": "Aint Got No Home",
+  "artist": "Bruce Springsteen",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI ain't got no home, I'm just ramblin' around\nI work when I can get it, I roam from town to town\nThe police make it hard, boys wherever I may go\nI ain't got no home in this world anymore\nI was farmin' shares and always I was down\nMy debts they were so many, man, they wouldn't go around\nThe drought had got my crop and Mister banker got my loan\nI ain't got no home in this world anymore\nSix children I have raised they're scattered and they're gone\nAnd my darling wife to heaven she has flown\nShe died of fever yeah on the cabin floor\nI ain't got no home in this world anymore\nI mined in your mines and I guttered in your corn\nI've been workin' mister since the day that I was born\nI worry all the time like I never did before\n'Cause I ain't got no home in this world anymore\nWell now I just rambled ?round to see what I can see\nThis wide wicked world is sure funny place to be\nThe gamblin' man is rich and the workin' man is poor\nI ain't got no home in this world anymore\nWell I'm stranded on this road that goes from sea to sea\nHundred thousand others are stranded here with me\nHundred thousand others yes and hundred thousand more\nI ain't got no home in this world anymore\nOoohh (to fade out)",
+  "cleaned_lyrics": "I ain't got no home\nI'm just ramblin' around\nI work when I can get it\nI roam from town to town\nThe police make it hard\nboys wherever I may go\nI ain't got no home in this world anymore\nI was farmin' shares and always I was down\nMy debts they were so many\nman\nthey wouldn't go around\nThe drought had got my crop\nand Mister banker got my loan\nI ain't got no home in this world anymore\nSix children I have raised they're scattered and they're gone\nAnd my darling wife to heaven she has flown\nShe died of fever yeah on the cabin floor\nI ain't got no home in this world anymore\nI mined in your mines and I guttered in your corn\nI've been workin' mister since the day that I was born\nI worry all the time like I never did before\n'Cause I ain't got no home in this world anymore\nWell now I just rambled ?round\nto see what I can see\nThis wide wicked world is sure funny place to be\nThe gamblin' man is rich and the workin' man is poor\nI ain't got no home in this world anymore\nWell I'm stranded on this road that goes from sea to sea\nHundred thousand others are stranded here with me\nHundred thousand others yes and hundred thousand more\nI ain't got no home in this world anymore\nOoohh (to fade out)",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 26,
+    "cleaned_lines": 32,
+    "removed_count": 1,
+    "retention_rate": 1.2307692307692308,
+    "removal_reasons": {
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I ain't got no home\nI'm just ramblin' around",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "I don't have a home and I'm wandering.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I work when I can get it\nI roam from town to town",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "I work when I can, and I move from place to place.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "The police make it hard\nboys wherever I may go",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The police make it difficult for me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "I ain't got no home in this world anymore",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "I don't have a home anymore.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10
+          ],
+          "original_lyric": "I was farmin' shares and always I was down\nMy debts they were so many\nman\nthey wouldn't go around",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "I was a farmer, but I was always in debt.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "The drought had got my crop\nand Mister banker got my loan",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The drought ruined my crops, and the bank took my loan.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "I ain't got no home in this world anymore",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "I don't have a home anymore.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14,
+            15,
+            16
+          ],
+          "original_lyric": "Six children I have raised they're scattered and they're gone\nAnd my darling wife to heaven she has flown\nShe died of fever yeah on the cabin floor",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "grief",
+          "eli5_simplification": "My children are gone, and my wife died.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "I ain't got no home in this world anymore",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "I don't have a home anymore.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "I mined in your mines and I guttered in your corn\nI've been workin' mister since the day that I was born",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "I worked hard all my life.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "I worry all the time like I never did before",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anxiety",
+          "eli5_simplification": "I worry all the time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "'Cause I ain't got no home in this world anymore",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "I don't have a home anymore.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "Well now I just rambled ?round\nto see what I can see",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "curiosity",
+          "eli5_simplification": "I'm wandering around to see what's out there.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "This wide wicked world is sure funny place to be\nThe gamblin' man is rich and the workin' man is poor",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The world is unfair.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "I ain't got no home in this world anymore",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "I don't have a home anymore.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "Well I'm stranded on this road that goes from sea to sea\nHundred thousand others are stranded here with me",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "I'm stranded, and so are many others.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "Hundred thousand others yes and hundred thousand more",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "Many others are also stranded.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "I ain't got no home in this world anymore",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "I don't have a home anymore.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "Ooohh (to fade out)",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "null",
+          "eli5_simplification": "The song ends.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 31,
+        "covered_lines": 31,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 31,
+      "covered_lines": 31,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I ain't got no home",
+            "I'm just ramblin' around",
+            "I work when I can get it",
+            "I roam from town to town"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "home",
+            "around",
+            "it",
+            "town"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "around",
+              "word2": "town",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "The police make it hard",
+            "boys wherever I may go",
+            "I ain't got no home in this world anymore",
+            "I was farmin' shares and always I was down"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            6,
+            4
+          ],
+          "end_words": [
+            "hard",
+            "go",
+            "anymore",
+            "down"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "My debts they were so many",
+            "man",
+            "they wouldn't go around",
+            "The drought had got my crop"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "end_words": [
+            "many",
+            "man",
+            "around",
+            "crop"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "and Mister banker got my loan",
+            "I ain't got no home in this world anymore",
+            "Six children I have raised they're scattered and they're gone",
+            "And my darling wife to heaven she has flown"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            4,
+            6,
+            7,
+            4
+          ],
+          "end_words": [
+            "loan",
+            "anymore",
+            "gone",
+            "flown"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "loan",
+              "word2": "flown",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "anymore",
+              "word2": "gone",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "She died of fever yeah on the cabin floor",
+            "I ain't got no home in this world anymore",
+            "I mined in your mines and I guttered in your corn",
+            "I've been workin' mister since the day that I was born"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            5,
+            6,
+            4,
+            6
+          ],
+          "end_words": [
+            "floor",
+            "anymore",
+            "corn",
+            "born"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "floor",
+              "word2": "anymore",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "anymore",
+              "word2": "corn",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AO), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "corn",
+              "word2": "born",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I worry all the time like I never did before",
+            "'Cause I ain't got no home in this world anymore",
+            "Well now I just rambled ?round",
+            "to see what I can see"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            7,
+            5,
+            3
+          ],
+          "end_words": [
+            "before",
+            "anymore",
+            "round",
+            "see"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "before",
+              "word2": "anymore",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "This wide wicked world is sure funny place to be",
+            "The gamblin' man is rich and the workin' man is poor",
+            "I ain't got no home in this world anymore",
+            "Well I'm stranded on this road that goes from sea to sea"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            7,
+            6,
+            6,
+            7
+          ],
+          "end_words": [
+            "be",
+            "poor",
+            "anymore",
+            "sea"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "be",
+              "word2": "sea",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Hundred thousand others are stranded here with me",
+            "Hundred thousand others yes and hundred thousand more",
+            "I ain't got no home in this world anymore",
+            "Ooohh (to fade out)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            6,
+            7,
+            6,
+            3
+          ],
+          "end_words": [
+            "me",
+            "more",
+            "anymore",
+            "out"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "more",
+              "word2": "anymore",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 32
+    }
+  }
+}

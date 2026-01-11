@@ -1,0 +1,472 @@
+{
+  "song_id": "5W5bDNCqJ1jbCgTxDD0Cb3::a-moment-of-forever",
+  "title": "A Moment Of Forever",
+  "artist": "Willie Nelson",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWas it wonderful for you\nWas it holy as it was for me\nDid you feel the hand of destiny\nThat was guiding us together\nYou were young enough to dream\nI was old enough to learn something new\nI'm so glad I got to dance with you\nFor moment of forever\n\n[bridge]\nSometimes when you're crying\nYou're happy\nSometimes you're just crying\nI know, I know\n\n[chorus]\nAin't it nice to know that dreams still come true\nI'm so glad that I was close to you\nFor moment of forever\nSometimes when you're crying\nYou're happy\nSometimes you're just crying\nI know, I know\n\n[chorus]\nAin't it nice to know that dreams still come true\nI'm so glad that I was close to you\nFor moment of forever",
+  "cleaned_lyrics": "Was it wonderful for you\nWas it holy as it was for me\nDid you feel the hand of destiny\nThat was guiding us together\nYou were young enough to dream\nI was old enough to learn something new\nI'm so glad I got to dance with you\nFor moment of forever\nSometimes when you're crying\nYou're happy\nSometimes you're just crying\nI know\nI know\nAin't it nice to know that dreams still come true\nI'm so glad that I was close to you\nFor moment of forever\nSometimes when you're crying\nYou're happy\nSometimes you're just crying\nI know\nI know\nAin't it nice to know that dreams still come true\nI'm so glad that I was close to you\nFor moment of forever",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 29,
+    "cleaned_lines": 24,
+    "removed_count": 4,
+    "retention_rate": 0.9230769230769231,
+    "removal_reasons": {
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "original_lyric": "Was it wonderful for you\nWas it holy as it was for me\nDid you feel the hand of destiny\nThat was guiding us together",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "curiosity",
+          "eli5_simplification": "The singer is wondering if the other person felt the same way about their time together.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "You were young enough to dream\nI was old enough to learn something new",
+          "plot_function": "SETUP",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "nostalgia",
+          "eli5_simplification": "The singer and the other person were at different stages in life, but they both experienced something special.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "I'm so glad I got to dance with you\nFor moment of forever",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "gratitude",
+          "eli5_simplification": "The singer is happy they shared a special moment.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "Sometimes when you're crying\nYou're happy\nSometimes you're just crying",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "Sometimes crying can mean you're happy, and sometimes it just means you're sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "I know\nI know",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer understands.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Ain't it nice to know that dreams still come true",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "It's good to know that dreams can come true.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "I'm so glad that I was close to you\nFor moment of forever",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "gratitude",
+          "eli5_simplification": "The singer is happy they shared a special moment.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17,
+            18,
+            19
+          ],
+          "original_lyric": "Sometimes when you're crying\nYou're happy\nSometimes you're just crying",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "Sometimes crying can mean you're happy, and sometimes it just means you're sad.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "I know\nI know",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer understands.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Ain't it nice to know that dreams still come true",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "It's good to know that dreams can come true.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "I'm so glad that I was close to you\nFor moment of forever",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "gratitude",
+          "eli5_simplification": "The singer is happy they shared a special moment.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 23,
+        "covered_lines": 23,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 23,
+      "covered_lines": 23,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Was it wonderful for you",
+            "Was it holy as it was for me",
+            "Did you feel the hand of destiny",
+            "That was guiding us together"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "you",
+            "me",
+            "destiny",
+            "together"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "destiny",
+              "word2": "together",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "You were young enough to dream",
+            "I was old enough to learn something new",
+            "I'm so glad I got to dance with you",
+            "For moment of forever"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            5,
+            5,
+            2
+          ],
+          "end_words": [
+            "dream",
+            "new",
+            "you",
+            "forever"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "new",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Sometimes when you're crying",
+            "You're happy",
+            "Sometimes you're just crying",
+            "I know"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            2,
+            4,
+            1
+          ],
+          "end_words": [
+            "crying",
+            "happy",
+            "crying",
+            "know"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "crying",
+              "word2": "crying",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I know",
+            "Ain't it nice to know that dreams still come true",
+            "I'm so glad that I was close to you",
+            "For moment of forever"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            7,
+            4,
+            2
+          ],
+          "end_words": [
+            "know",
+            "true",
+            "you",
+            "forever"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "true",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Sometimes when you're crying",
+            "You're happy",
+            "Sometimes you're just crying",
+            "I know"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            2,
+            4,
+            1
+          ],
+          "end_words": [
+            "crying",
+            "happy",
+            "crying",
+            "know"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "crying",
+              "word2": "crying",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I know",
+            "Ain't it nice to know that dreams still come true",
+            "I'm so glad that I was close to you",
+            "For moment of forever"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            7,
+            4,
+            2
+          ],
+          "end_words": [
+            "know",
+            "true",
+            "you",
+            "forever"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "true",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 24
+    }
+  }
+}

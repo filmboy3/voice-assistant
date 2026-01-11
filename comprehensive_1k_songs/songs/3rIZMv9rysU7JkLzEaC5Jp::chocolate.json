@@ -1,0 +1,442 @@
+{
+  "song_id": "3rIZMv9rysU7JkLzEaC5Jp::chocolate",
+  "title": "Chocolate",
+  "artist": "Snow Patrol",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThis could be the very minute\nI'm aware I'm alive\nAll these places feel like home\nWith name I' never chosen\nI can make my first steps\nAs child of 25\nThis is the straw, final straw in the\nRoof of my mouth as I lie to you\nJust because I'm sorry doesn't mean\nI didn't enjoy it at the time\nYou're the only thing that I love\nIt scares me more every day\nOn my knees I think clearer\nGoodness I saw it coming\nOr at least I'll claim I did\n\n[bridge]\nWhat have I done it's too late for that\nWhat have become truth is nothing yet\nsimple mistake starts the hardest time\nI promise I'll do anything you ask..this time",
+  "cleaned_lyrics": "This could be the very minute\nI'm aware I'm alive\nAll these places feel like home\nWith name I' never chosen\nI can make my first steps\nAs child of 25\nThis is the straw\nfinal straw in the\nRoof of my mouth as I lie to you\nJust because I'm sorry doesn't mean\nI didn't enjoy it at the time\nYou're the only thing that I love\nIt scares me more every day\nOn my knees I think clearer\nGoodness I saw it coming\nOr at least I'll claim I did\nWhat have I done it's too late for that\nWhat have become truth is nothing yet\nsimple mistake starts the hardest time\nI promise I'll do anything you ask..this time",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 22,
+    "cleaned_lines": 20,
+    "removed_count": 2,
+    "retention_rate": 0.9523809523809523,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "This could be the very minute\nI'm aware I'm alive",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is feeling a sense of new beginnings and awareness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "All these places feel like home\nWith name I' never chosen",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer feels a sense of belonging, but also a lack of identity.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "I can make my first steps\nAs child of 25",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer feels like they are starting over.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "This is the straw\nfinal straw in the",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is at a breaking point.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Roof of my mouth as I lie to you",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "guilt",
+          "eli5_simplification": "The singer is lying.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "Just because I'm sorry doesn't mean\nI didn't enjoy it at the time",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "guilt",
+          "eli5_simplification": "The singer admits to enjoying something they shouldn't have.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "You're the only thing that I love",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer expresses love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "It scares me more every day",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is afraid.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "On my knees I think clearer",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is reflecting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "Goodness I saw it coming\nOr at least I'll claim I did",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer is reflecting on a past event.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "What have I done it's too late for that",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer realizes the consequences of their actions.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "What have become truth is nothing yet",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer is facing the truth.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "simple mistake starts the hardest time",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "A simple mistake has caused a difficult situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "I promise I'll do anything you ask..this time",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer is making a promise.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "This could be the very minute",
+            "I'm aware I'm alive",
+            "All these places feel like home",
+            "With name I' never chosen"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "minute",
+            "alive",
+            "home",
+            "chosen"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "home",
+              "word2": "chosen",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (OW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I can make my first steps",
+            "As child of 25",
+            "This is the straw",
+            "final straw in the"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            2,
+            1,
+            2
+          ],
+          "end_words": [
+            "steps",
+            "of",
+            "straw",
+            "the"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "of",
+              "word2": "the",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AH), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Roof of my mouth as I lie to you",
+            "Just because I'm sorry doesn't mean",
+            "I didn't enjoy it at the time",
+            "You're the only thing that I love"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            6,
+            3,
+            4
+          ],
+          "end_words": [
+            "you",
+            "mean",
+            "time",
+            "love"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "It scares me more every day",
+            "On my knees I think clearer",
+            "Goodness I saw it coming",
+            "Or at least I'll claim I did"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            4
+          ],
+          "end_words": [
+            "day",
+            "clearer",
+            "coming",
+            "did"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "clearer",
+              "word2": "did",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "What have I done it's too late for that",
+            "What have become truth is nothing yet",
+            "simple mistake starts the hardest time",
+            "I promise I'll do anything you ask..this time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            6,
+            5,
+            5,
+            6
+          ],
+          "end_words": [
+            "that",
+            "yet",
+            "time",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "time",
+              "word2": "time",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 20
+    }
+  }
+}

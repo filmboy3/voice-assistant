@@ -1,0 +1,581 @@
+{
+  "song_id": "3WrFJ7ztbogyGnTHbHJFl2::if-i-fell",
+  "title": "If I Fell",
+  "artist": "The Beatles",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nIf I fell in love with you\nWould you promise to be true\nAnd help me understand\n'Cause I've been in love before\nAnd I found that love was more\nThan just holding hands\nIf I give my heart to you\nI must be sure\nfrom the very start that you\nwould love me more than her\nIf I trust in you, oh please\ndon't run and hide\nIf I love you too, oh please\ndon't hurt my pride like her\n\n[chorus]\nwould be sad if our new love was in vain\nSo I hope you'll see, that I\nwould love to love you\nAnd that she will cry\nWhen she learns we are two\n\n[chorus]\nwould be sad if our new love was in vain\nSo I hope you'll see, that I\nwould love to love you\nAnd that she will cry\nWhen she learns we are two\nIf I fell in love with you",
+  "cleaned_lyrics": "If I fell in love with you\nWould you promise to be true\nAnd help me understand\n'Cause I've been in love before\nAnd I found that love was more\nThan just holding hands\nIf I give my heart to you\nI must be sure\nfrom the very start that you\nwould love me more than her\nIf I trust in you\noh please\ndon't run and hide\nIf I love you too\noh please\ndon't hurt my pride like her\nwould be sad if our new love was in vain\nSo I hope you'll see\nthat I\nwould love to love you\nAnd that she will cry\nWhen she learns we are two\nwould be sad if our new love was in vain\nSo I hope you'll see\nthat I\nwould love to love you\nAnd that she will cry\nWhen she learns we are two\nIf I fell in love with you",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 30,
+    "cleaned_lines": 29,
+    "removed_count": 3,
+    "retention_rate": 1.0357142857142858,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "If I fell in love with you\nWould you promise to be true",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "If I fall in love with you, will you be honest and stay with me?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "And help me understand",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Help me understand what love is.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5,
+            6
+          ],
+          "original_lyric": "'Cause I've been in love before\nAnd I found that love was more\nThan just holding hands",
+          "plot_function": "SETUP",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "I've been in love before, and it was more than just holding hands.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "original_lyric": "If I give my heart to you\nI must be sure\nfrom the very start that you\nwould love me more than her",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "If I give you my heart, I need to be sure you'll love me more than you loved someone else.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "If I trust in you\noh please\ndon't run and hide",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "If I trust you, please don't run away.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14,
+            15
+          ],
+          "original_lyric": "If I love you too\noh please\ndon't hurt my pride like her",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "If I love you too, please don't break my heart like she did.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "would be sad if our new love was in vain",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "It would be sad if our new love was for nothing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "So I hope you'll see\nthat I",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "I hope you see that I...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "would love to love you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "I would love to love you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "And that she will cry",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "And she will cry.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "When she learns we are two",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "When she finds out we are together.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "would be sad if our new love was in vain",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "It would be sad if our new love was for nothing.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "So I hope you'll see\nthat I",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "I hope you see that I...",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "would love to love you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "I would love to love you.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "And that she will cry",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "And she will cry.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "When she learns we are two",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "When she finds out we are together.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "If I fell in love with you",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "If I fell in love with you.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 28,
+        "covered_lines": 28,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 28,
+      "covered_lines": 28,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "If I fell in love with you",
+            "Would you promise to be true",
+            "And help me understand",
+            "'Cause I've been in love before"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            2,
+            3,
+            4
+          ],
+          "end_words": [
+            "you",
+            "true",
+            "understand",
+            "before"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "you",
+              "word2": "true",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "And I found that love was more",
+            "Than just holding hands",
+            "If I give my heart to you",
+            "I must be sure"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            1
+          ],
+          "end_words": [
+            "more",
+            "hands",
+            "you",
+            "sure"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "from the very start that you",
+            "would love me more than her",
+            "If I trust in you",
+            "oh please"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "you",
+            "her",
+            "you",
+            "please"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "you",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "don't run and hide",
+            "If I love you too",
+            "oh please",
+            "don't hurt my pride like her"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            5
+          ],
+          "end_words": [
+            "hide",
+            "too",
+            "please",
+            "her"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "would be sad if our new love was in vain",
+            "So I hope you'll see",
+            "that I",
+            "would love to love you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            3,
+            1,
+            3
+          ],
+          "end_words": [
+            "vain",
+            "see",
+            "i",
+            "you"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "And that she will cry",
+            "When she learns we are two",
+            "would be sad if our new love was in vain",
+            "So I hope you'll see"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            3,
+            5,
+            3
+          ],
+          "end_words": [
+            "cry",
+            "two",
+            "vain",
+            "see"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "that I",
+            "would love to love you",
+            "And that she will cry",
+            "When she learns we are two"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            1,
+            3,
+            1,
+            3
+          ],
+          "end_words": [
+            "i",
+            "you",
+            "cry",
+            "two"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "i",
+              "word2": "cry",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "you",
+              "word2": "two",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "If I fell in love with you"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "you"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 29
+    }
+  }
+}

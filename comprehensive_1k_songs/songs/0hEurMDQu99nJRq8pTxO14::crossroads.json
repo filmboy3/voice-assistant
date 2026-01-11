@@ -1,0 +1,480 @@
+{
+  "song_id": "0hEurMDQu99nJRq8pTxO14::crossroads",
+  "title": "Crossroads",
+  "artist": "John Mayer",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI went down to the crossroads, fell down on my knees\nI went down to the crossroads, fell down on my knees\nAsked the lord for mercy, said 'help me if you please'\n\n[verse]\nI went down to the crossroads, tried to flag ride\nI went down to the crossroads, tried to flag ride\nNo one seemed to know me, everybody passed me by\n\n[verse]\nYou can run, You can run, tell my friend Willy Brown\nYou can run, you can run, tell my friend Willy Brown\nThat I'm standing at the crossroads, I believe I'm sinking down",
+  "cleaned_lyrics": "I went down to the crossroads\nfell down on my knees\nI went down to the crossroads\nfell down on my knees\nAsked the lord for mercy\nsaid 'help me if you please'\nI went down to the crossroads\ntried to flag ride\nI went down to the crossroads\ntried to flag ride\nNo one seemed to know me\neverybody passed me by\nYou can run\nYou can run\ntell my friend Willy Brown\nYou can run\nyou can run\ntell my friend Willy Brown\nThat I'm standing at the crossroads\nI believe I'm sinking down",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 14,
+    "cleaned_lines": 20,
+    "removed_count": 3,
+    "retention_rate": 1.6666666666666667,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "I went down to the crossroads",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer went to a crossroads.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "fell down on my knees",
+          "plot_function": "SETUP",
+          "emotion_primary": "desperation",
+          "emotion_secondary": null,
+          "eli5_simplification": "He fell to his knees.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I went down to the crossroads\nfell down on my knees",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "The singer went to the crossroads and fell to his knees.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Asked the lord for mercy",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "desperation",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "He asked God for help.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "said 'help me if you please'",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "desperation",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "He begged for help.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "I went down to the crossroads",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He went to the crossroads again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "tried to flag ride",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "desperation",
+          "emotion_secondary": null,
+          "eli5_simplification": "He tried to hitchhike.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "I went down to the crossroads\ntried to flag ride",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "desperation",
+          "emotion_secondary": null,
+          "eli5_simplification": "He went to the crossroads and tried to hitchhike.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "No one seemed to know me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Nobody recognized him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "everybody passed me by",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Everyone ignored him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "You can run\nYou can run",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's telling someone they can run.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "tell my friend Willy Brown",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wants to tell his friend.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "You can run\nyou can run",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's telling someone they can run.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "tell my friend Willy Brown",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wants to tell his friend.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "That I'm standing at the crossroads",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "despair",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "He's still at the crossroads.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "I believe I'm sinking down",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "despair",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "He feels like he's giving up.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I went down to the crossroads",
+            "fell down on my knees",
+            "I went down to the crossroads",
+            "fell down on my knees"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "crossroads",
+            "knees",
+            "crossroads",
+            "knees"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "crossroads",
+              "word2": "crossroads",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "knees",
+              "word2": "knees",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Asked the lord for mercy",
+            "said 'help me if you please'",
+            "I went down to the crossroads",
+            "tried to flag ride"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "mercy",
+            "please",
+            "crossroads",
+            "ride"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I went down to the crossroads",
+            "tried to flag ride",
+            "No one seemed to know me",
+            "everybody passed me by"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            3,
+            5,
+            4
+          ],
+          "end_words": [
+            "crossroads",
+            "ride",
+            "me",
+            "by"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "ride",
+              "word2": "by",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "You can run",
+            "You can run",
+            "tell my friend Willy Brown",
+            "You can run"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            1,
+            1,
+            4,
+            1
+          ],
+          "end_words": [
+            "run",
+            "run",
+            "brown",
+            "run"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "run",
+              "word2": "run",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "run",
+              "word2": "run",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "you can run",
+            "tell my friend Willy Brown",
+            "That I'm standing at the crossroads",
+            "I believe I'm sinking down"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            1,
+            4,
+            3,
+            4
+          ],
+          "end_words": [
+            "run",
+            "brown",
+            "crossroads",
+            "down"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "brown",
+              "word2": "down",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "outro"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "outro",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 20
+    }
+  }
+}

@@ -1,0 +1,558 @@
+{
+  "song_id": "1w5Kfo2jwwIPruYS2UWh56::corduroy",
+  "title": "Corduroy",
+  "artist": "Pearl Jam",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\n(at 8) (at 7) (at 10)\nThe waiting drove me mad.\nYou're finally here and I'm mess.\nI'll take your interest back.\n\n[chorus]\n(1'st position)\nI don't want to take what you can give.\n(1'st position)\nI would rather starve than eat your bread.\n(1'st position)\nI would rather run but I can walk.\n(1'st position)\nGuess I'll lie alone just like before.\n(Intro)\nI'll take the firmest path.\nand I must refuse your test.\nPush me and I will resist.\nThis behavior's not unique.\n(1'st position)\nI don't want to live for those who know.\n(1'st position)\nThey can buy but can't put on my clothes.\n(1'st position)\nI don't want to wait for them to walk.\n(1'st position)\nNever would have known of me before.\n(1'st position)\nI don't want to be held in your debt.\n(1'st position)\nI'll pay it off in blood then I'll be wed.\n(1'st position)\nI'm already cut up and half dead.\n(1'st position)\nI'll end up alone like I began.\n(1'st position)\nI don't want to take what you can give.\n(1'st position)\nI would rather starve than eat your breast.\n(1'st position)\nAll the things that others want from me.\n(1'st position)\n\n[chorus]\n(1'st position)\n\n[chorus]\n(1'st position)",
+  "cleaned_lyrics": "(at 8) (at 7) (at 10)\nThe waiting drove me mad.\nYou're finally here and I'm mess.\nI'll take your interest back.\nI don't want to take what you can give.\nI would rather starve than eat your bread.\nI would rather run but I can walk.\nGuess I'll lie alone just like before.\nI'll take the firmest path.\nand I must refuse your test.\nPush me and I will resist.\nThis behavior's not unique.\nI don't want to live for those who know.\nThey can buy but can't put on my clothes.\nI don't want to wait for them to walk.\nNever would have known of me before.\nI don't want to be held in your debt.\nI'll pay it off in blood then I'll be wed.\nI'm already cut up and half dead.\nI'll end up alone like I began.\nI don't want to take what you can give.\nI would rather starve than eat your breast.\nAll the things that others want from me.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 49,
+    "cleaned_lines": 23,
+    "removed_count": 23,
+    "retention_rate": 0.5,
+    "removal_reasons": {
+      "artist_annotation": 19,
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "The waiting drove me mad.",
+          "plot_function": "SETUP",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "anxiety",
+          "eli5_simplification": "Waiting made me really upset.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "You're finally here and I'm mess.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anxiety",
+          "emotion_secondary": "vulnerability",
+          "eli5_simplification": "You're here, but I'm a wreck.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "I'll take your interest back.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "defiance",
+          "eli5_simplification": "I'm taking back what you want.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            20
+          ],
+          "original_lyric": "I don't want to take what you can give.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "rejection",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "I don't want what you're offering.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            5,
+            21
+          ],
+          "original_lyric": "I would rather starve than eat your bread.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "defiance",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "I'd rather go hungry than accept your help.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "I would rather run but I can walk.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "resignation",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "I'd rather escape, but I can only manage to walk.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            19
+          ],
+          "original_lyric": "Guess I'll lie alone just like before.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "I'll end up alone, like always.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "I'll take the firmest path.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "determination",
+          "emotion_secondary": "defiance",
+          "eli5_simplification": "I'll choose the hardest way.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "and I must refuse your test.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "defiance",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "I won't do what you want me to.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "Push me and I will resist.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "defiance",
+          "eli5_simplification": "If you push me, I'll fight back.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "This behavior's not unique.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "This isn't the first time I've felt this way.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "I don't want to live for those who know.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "rejection",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "I don't want to live to please others.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "They can buy but can't put on my clothes.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "resentment",
+          "emotion_secondary": "defiance",
+          "eli5_simplification": "They can't understand me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "I don't want to wait for them to walk.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "impatience",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "I don't want to wait for them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Never would have known of me before.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "isolation",
+          "emotion_secondary": "bitterness",
+          "eli5_simplification": "They wouldn't have known me before.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "I don't want to be held in your debt.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "rejection",
+          "emotion_secondary": "defiance",
+          "eli5_simplification": "I don't want to owe you anything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "I'll pay it off in blood then I'll be wed.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "I'll pay my dues, even if it hurts.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "I'm already cut up and half dead.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "despair",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "I'm already hurt and broken.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "I would rather starve than eat your breast.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "defiance",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "I'd rather go hungry than accept your love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "All the things that others want from me.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resentment",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "All the things other people want from me.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "(at 8) (at 7) (at 10)",
+            "The waiting drove me mad.",
+            "You're finally here and I'm mess.",
+            "I'll take your interest back."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            3,
+            5,
+            4
+          ],
+          "end_words": [
+            "at",
+            "mad",
+            "mess",
+            "back"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "at",
+              "word2": "mad",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AE), post-consonants in same family"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "mad",
+              "word2": "back",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AE), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I don't want to take what you can give.",
+            "I would rather starve than eat your bread.",
+            "I would rather run but I can walk.",
+            "Guess I'll lie alone just like before."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            4,
+            3,
+            7
+          ],
+          "end_words": [
+            "give",
+            "bread",
+            "walk",
+            "before"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "walk",
+              "word2": "before",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I'll take the firmest path.",
+            "and I must refuse your test.",
+            "Push me and I will resist.",
+            "This behavior's not unique."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            2,
+            2,
+            3
+          ],
+          "end_words": [
+            "path",
+            "test",
+            "resist",
+            "unique"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I don't want to live for those who know.",
+            "They can buy but can't put on my clothes.",
+            "I don't want to wait for them to walk.",
+            "Never would have known of me before."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "know",
+            "clothes",
+            "walk",
+            "before"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "know",
+              "word2": "clothes",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "walk",
+              "word2": "before",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I don't want to be held in your debt.",
+            "I'll pay it off in blood then I'll be wed.",
+            "I'm already cut up and half dead.",
+            "I'll end up alone like I began."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            6,
+            6,
+            6
+          ],
+          "end_words": [
+            "debt",
+            "wed",
+            "dead",
+            "began"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "debt",
+              "word2": "dead",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EH), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I don't want to take what you can give.",
+            "I would rather starve than eat your breast.",
+            "All the things that others want from me."
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            4,
+            5
+          ],
+          "end_words": [
+            "give",
+            "breast",
+            "me"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 23
+    }
+  }
+}

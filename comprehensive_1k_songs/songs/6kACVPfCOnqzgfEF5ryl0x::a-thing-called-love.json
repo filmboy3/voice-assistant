@@ -1,0 +1,422 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::a-thing-called-love",
+  "title": "A Thing Called Love",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nSix foot six, he stood on the ground\nHe weighed two hundred and thirty five pounds\n\n[bridge]\nHe was the kind of man that would gamble on luck\nLook you in the eye and never back up\n\n[bridge]\nYou can't see it with your eyes, hold it in your hand\n\n[bridge]\nStrong enough to rule the heart of any man, this thing called love\nIt can lift you up, never let you down\nTake your world and turn it all around\nEver since time nothing's ever been found that's stronger than love\nMost men are like me, they struggle in doubt\nThey trouble their mind day in and day out\nToo busy with living to worry about, word called love.\n\n[bridge]\nAs she holds her young close to her chest\nThen I thank God that this world's been blessed by thing called love",
+  "cleaned_lyrics": "Six foot six\nhe stood on the ground\nHe weighed two hundred and thirty five pounds\nHe was the kind of man that would gamble on luck\nLook you in the eye and never back up\nYou can't see it with your eyes\nhold it in your hand\nStrong enough to rule the heart of any man\nthis thing called love\nIt can lift you up\nnever let you down\nTake your world and turn it all around\nEver since time nothing's ever\nbeen found that's stronger than love\nMost men are like me\nthey struggle in doubt\nThey trouble their mind day in and day out\nToo busy with living to worry about\nword called love.\nAs she holds her young close to her chest",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 23,
+    "cleaned_lines": 20,
+    "removed_count": 6,
+    "retention_rate": 1.0526315789473684,
+    "removal_reasons": {
+      "section_marker": 5,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "original_lyric": "Six foot six\nhe stood on the ground\nHe weighed two hundred and thirty five pounds\nHe was the kind of man that would gamble on luck",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "This is describing a big, strong man.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Look you in the eye and never back up\nYou can't see it with your eyes",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's tough and you can't see love with your eyes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "hold it in your hand\nStrong enough to rule the heart of any man",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can't see love, but it's strong enough to rule anyone's heart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "this thing called love",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "This is about love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11,
+            12
+          ],
+          "original_lyric": "It can lift you up\nnever let you down\nTake your world and turn it all around",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "Love makes you feel good and changes everything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Ever since time nothing's ever",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "Since the beginning of time, nothing has been...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "been found that's stronger than love",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "...stronger than love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16,
+            17
+          ],
+          "original_lyric": "Most men are like me\nthey struggle in doubt\nThey trouble their mind day in and day out",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Most men, like the singer, struggle and worry.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Too busy with living to worry about",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "They are too busy with life to think about...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "word called love.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "...the word love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "As she holds her young close to her chest",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "A mother holding her child.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Six foot six",
+            "he stood on the ground",
+            "He weighed two hundred and thirty five pounds",
+            "He was the kind of man that would gamble on luck"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            2,
+            6,
+            4
+          ],
+          "end_words": [
+            "six",
+            "ground",
+            "pounds",
+            "luck"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "ground",
+              "word2": "pounds",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Look you in the eye and never back up",
+            "You can't see it with your eyes",
+            "hold it in your hand",
+            "Strong enough to rule the heart of any man"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            3,
+            2,
+            6
+          ],
+          "end_words": [
+            "up",
+            "eyes",
+            "hand",
+            "man"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "hand",
+              "word2": "man",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AE), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "this thing called love",
+            "It can lift you up",
+            "never let you down",
+            "Take your world and turn it all around"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            5
+          ],
+          "end_words": [
+            "love",
+            "up",
+            "down",
+            "around"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "love",
+              "word2": "up",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "down",
+              "word2": "around",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Ever since time nothing's ever",
+            "been found that's stronger than love",
+            "Most men are like me",
+            "they struggle in doubt"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            2
+          ],
+          "end_words": [
+            "ever",
+            "love",
+            "me",
+            "doubt"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "They trouble their mind day in and day out",
+            "Too busy with living to worry about",
+            "word called love.",
+            "As she holds her young close to her chest"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            5,
+            3,
+            4
+          ],
+          "end_words": [
+            "out",
+            "about",
+            "love",
+            "chest"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "out",
+              "word2": "about",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 20
+    }
+  }
+}

@@ -1,0 +1,459 @@
+{
+  "song_id": "0k17h0D3J5VfsdmQ1iZtE9::lucifer-sam",
+  "title": "Lucifer Sam",
+  "artist": "Pink Floyd",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\n(1/4)\nLucifer Sam, siam cat.\nAlways sitting by your side\nAlways by your side.\nThat cat's something I can't explain.\nGinger, ginger you're witch.\nYou're the left side\nHe's the right side.\nOh, no!\nThat cat's something I can't explain.\nLucifer go to sea.\n\n[bridge]\nSomewhere, anywhere.\nThat cat's something I can't explain.\nAt night prowling sifting sand.\nHiding around on the ground.\nHe'll be found when you're around.\nThat cat's something I can't explain.\nTrip on this!!!\nSee ya!",
+  "cleaned_lyrics": "Lucifer Sam\nsiam cat.\nThat cat's something I can't explain.\nGinger\nginger you're witch.\nYou're the left side\nHe's the right side.\nOh\nno!\nThat cat's something I can't explain.\nLucifer go to sea.\nSomewhere\nanywhere.\nThat cat's something I can't explain.\nAt night prowling sifting sand.\nHiding around on the ground.\nHe'll be found when you're around.\nThat cat's something I can't explain.\nTrip on this!!!\nSee ya!",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 22,
+    "cleaned_lines": 20,
+    "removed_count": 5,
+    "retention_rate": 0.9523809523809523,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "section_marker": 2,
+      "credits_metadata": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Lucifer Sam",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "This song is about a cat named Lucifer Sam.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "siam cat.",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Lucifer Sam is a Siamese cat.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            10,
+            13,
+            18
+          ],
+          "original_lyric": "That cat's something I can't explain.",
+          "plot_function": "SETUP",
+          "emotion_primary": "mystery",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer doesn't understand Lucifer Sam.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "Ginger",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "The cat is ginger colored.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "ginger you're witch.",
+          "plot_function": "SETUP",
+          "emotion_primary": "mystery",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer calls the cat a witch.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "You're the left side",
+          "plot_function": "SETUP",
+          "emotion_primary": "mystery",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is talking to the cat.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "He's the right side.",
+          "plot_function": "SETUP",
+          "emotion_primary": "mystery",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone else is involved.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Oh",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "surprise",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is surprised.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "no!",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is scared.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Lucifer go to sea.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants Lucifer Sam to go away.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Somewhere",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Anywhere.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "At night prowling sifting sand.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "mystery",
+          "emotion_secondary": null,
+          "eli5_simplification": "Lucifer Sam is active at night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Hiding around on the ground.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "mystery",
+          "emotion_secondary": null,
+          "eli5_simplification": "Lucifer Sam is hiding.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "He'll be found when you're around.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Lucifer Sam will be found when you are around.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Trip on this!!!",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "excitement",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is excited.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "See ya!",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Goodbye.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          {
+            "line_numbers": [
+              6
+            ],
+            "from": "I",
+            "to": "you"
+          }
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        {
+          "line_numbers": [
+            6
+          ],
+          "from": "I",
+          "to": "you"
+        }
+      ]
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Lucifer Sam",
+            "siam cat.",
+            "That cat's something I can't explain.",
+            "Ginger"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            1
+          ],
+          "end_words": [
+            "sam",
+            "cat",
+            "explain",
+            "ginger"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "sam",
+              "word2": "cat",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "ginger you're witch.",
+            "You're the left side",
+            "He's the right side.",
+            "Oh"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            1
+          ],
+          "end_words": [
+            "witch",
+            "side",
+            "side",
+            "oh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "side",
+              "word2": "side",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "no!",
+            "That cat's something I can't explain.",
+            "Lucifer go to sea.",
+            "Somewhere"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            4,
+            3,
+            1
+          ],
+          "end_words": [
+            "no",
+            "explain",
+            "sea",
+            "somewhere"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "anywhere.",
+            "That cat's something I can't explain.",
+            "At night prowling sifting sand.",
+            "Hiding around on the ground."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "anywhere",
+            "explain",
+            "sand",
+            "ground"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "He'll be found when you're around.",
+            "That cat's something I can't explain.",
+            "Trip on this!!!",
+            "See ya!"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            4,
+            2,
+            1
+          ],
+          "end_words": [
+            "around",
+            "explain",
+            "this",
+            "ya"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 20
+    }
+  }
+}

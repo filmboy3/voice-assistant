@@ -1,0 +1,774 @@
+{
+  "song_id": "2Kx7MNY7cI1ENniW7vT30N::day-is-done",
+  "title": "Day is done",
+  "artist": "Norah Jones",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWhen the day is done\nDown to earth then sinks the sun\nAlong with everything that was lost and won\nWhen the day is done\nWhen the day is done\nHope so much your race will be all run\nThen you find you jumped the gun\nHave to go back where you began\nWhen the day is done\nWhen the night is cold\nSome get by, but some get old\nJust to show life's not made of gold\nWhen the night is cold\nWhen the bird has flown\nYou got no one to call your own\nYou got no place to call your home\nWhen the bird has flown\nSolo (verse 3&4)\n(acapella)\nWhen the game's been fought\nYou speed the ball across the court\nLost much sooner than you would have thought\nNow the game's been fought\nWhen the party is through\nIt seems so very sad for you\nDidn't do the things you meant to do\nNow there's no time to start anew\nNow the party's through\nWhen the day is done\nDown to earth then sinks the sun\nAlong with everything that was lost and won\nWhen the day is done...\n(repeat & fade)",
+  "cleaned_lyrics": "When the day is done\nDown to earth then sinks the sun\nAlong with everything that was lost and won\nWhen the day is done\nWhen the day is done\nHope so much your race will be all run\nThen you find you jumped the gun\nHave to go back where you began\nWhen the day is done\nWhen the night is cold\nSome get by\nbut some get old\nJust to show life's not made of gold\nWhen the night is cold\nWhen the bird has flown\nYou got no one to call your own\nYou got no place to call your home\nWhen the bird has flown\nSolo (verse 3&4)\nWhen the game's been fought\nYou speed the ball across the court\nLost much sooner than you would have thought\nNow the game's been fought\nWhen the party is through\nIt seems so very sad for you\nDidn't do the things you meant to do\nNow there's no time to start anew\nNow the party's through\nWhen the day is done\nDown to earth then sinks the sun\nAlong with everything that was lost and won\nWhen the day is done...",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 34,
+    "cleaned_lines": 32,
+    "removed_count": 3,
+    "retention_rate": 0.9411764705882353,
+    "removal_reasons": {
+      "artist_annotation": 2,
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            4,
+            5,
+            10,
+            14,
+            19,
+            24
+          ],
+          "original_lyric": "When the day is done",
+          "plot_function": "SETUP",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts by talking about when the day ends.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2,
+            20
+          ],
+          "original_lyric": "Down to earth then sinks the sun",
+          "plot_function": "SETUP",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The sun goes down.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            21
+          ],
+          "original_lyric": "Along with everything that was lost and won",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Everything that happened during the day is over.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Hope so much your race will be all run",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "You hope you've finished everything you needed to do.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Then you find you jumped the gun",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "But you realize you started too early.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Have to go back where you began",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "You have to start over.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "When the day is done",
+          "plot_function": "SETUP",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts by talking about when the day ends.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "When the night is cold",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "When it's cold at night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Some get by\nbut some get old",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Some people are okay, but others struggle.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Just to show life's not made of gold",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Life isn't always easy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "When the bird has flown",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "When someone has left.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "You got no one to call your own",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "You are alone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "You got no place to call your home",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "You don't have a home.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "When the bird has flown",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "When someone has left.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "When the game's been fought",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "When the game is over.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "You speed the ball across the court",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "You played the game.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "Now the game's been fought",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The game is over.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "When the party is through",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "When the party is over.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "It seems so very sad for you",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's sad for you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "Didn't do the things you meant to do",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "You didn't do what you wanted.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "Now there's no time to start anew",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can't start over.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "Now the party's through",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The party is over.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 31,
+        "covered_lines": 31,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 31,
+      "covered_lines": 31,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "When the day is done",
+            "Down to earth then sinks the sun",
+            "Along with everything that was lost and won",
+            "When the day is done"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            3,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "done",
+            "sun",
+            "won",
+            "done"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "done",
+              "word2": "sun",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "sun",
+              "word2": "won",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "won",
+              "word2": "done",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "When the day is done",
+            "Hope so much your race will be all run",
+            "Then you find you jumped the gun",
+            "Have to go back where you began"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            3,
+            5,
+            3,
+            4
+          ],
+          "end_words": [
+            "done",
+            "run",
+            "gun",
+            "began"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "done",
+              "word2": "run",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "run",
+              "word2": "gun",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "When the day is done",
+            "When the night is cold",
+            "Some get by",
+            "but some get old"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "done",
+            "cold",
+            "by",
+            "old"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "cold",
+              "word2": "old",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Just to show life's not made of gold",
+            "When the night is cold",
+            "When the bird has flown",
+            "You got no one to call your own"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            6,
+            3,
+            3,
+            5
+          ],
+          "end_words": [
+            "gold",
+            "cold",
+            "flown",
+            "own"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "gold",
+              "word2": "cold",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "cold",
+              "word2": "flown",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (OW), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "flown",
+              "word2": "own",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "You got no place to call your home",
+            "When the bird has flown",
+            "Solo (verse 3&4)",
+            "When the game's been fought"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "home",
+            "flown",
+            "verse",
+            "fought"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "home",
+              "word2": "flown",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (OW), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "You speed the ball across the court",
+            "Lost much sooner than you would have thought",
+            "Now the game's been fought",
+            "When the party is through"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "court",
+            "thought",
+            "fought",
+            "through"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "court",
+              "word2": "thought",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "thought",
+              "word2": "fought",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "It seems so very sad for you",
+            "Didn't do the things you meant to do",
+            "Now there's no time to start anew",
+            "Now the party's through"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            4,
+            5,
+            6,
+            3
+          ],
+          "end_words": [
+            "you",
+            "do",
+            "anew",
+            "through"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "you",
+              "word2": "do",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "do",
+              "word2": "anew",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "anew",
+              "word2": "through",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "When the day is done",
+            "Down to earth then sinks the sun",
+            "Along with everything that was lost and won",
+            "When the day is done..."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            3,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "done",
+            "sun",
+            "won",
+            "done"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "done",
+              "word2": "sun",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "sun",
+              "word2": "won",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "won",
+              "word2": "done",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 32
+    }
+  }
+}

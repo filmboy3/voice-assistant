@@ -1,0 +1,751 @@
+{
+  "song_id": "08GQAI4eElDnROBrJRGE0X::little-lies",
+  "title": "Little Lies",
+  "artist": "Fleetwood Mac",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nIf I could turn the page\n\n[intro]\nJust day or two\n\n[bridge]\nSo I'll settle for one day\nTo believe in you\nTell me, tell me , tell me lies\nTell me lies\nTell me sweet little lies\n(Tell me lies, tell me, tell me lies)\nOh, no, no you can't disguise\n(You can't disguise, no you can't disguise)\nTell me lies\nTell me sweet little lies\n\n[verse]\nALthough I'm not making plans\nI hope that you understand\nThere's reason why\n\n[chorus]\nNo more broken hearts\nWe're better off apart\nLet's give it try\nTell me, tell me, tell me lies\nTell me lies\nTell me sweet little lies\n(Tell me lies, tell me, tell me lies)\nOh, no, no you can't disguise\n(You can't disguise, no you can't disguise)\nTell me lies\nTell me sweet little lies",
+  "cleaned_lyrics": "If I could turn the page\nJust day or two\nSo I'll settle for one day\nTo believe in you\nTell me\ntell me\ntell me lies\nTell me lies\nTell me sweet little lies\nOh\nno\nno you can't disguise\nTell me lies\nTell me sweet little lies\nALthough I'm not making plans\nI hope that you understand\nThere's reason why\nNo more broken hearts\nWe're better off apart\nLet's give it try\nTell me\ntell me\ntell me lies\nTell me lies\nTell me sweet little lies\nOh\nno\nno you can't disguise\nTell me lies\nTell me sweet little lies",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 35,
+    "cleaned_lines": 30,
+    "removed_count": 9,
+    "retention_rate": 0.967741935483871,
+    "removal_reasons": {
+      "artist_annotation": 4,
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "If I could turn the page\nJust day or two",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wishes they could change things.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "So I'll settle for one day\nTo believe in you",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "They hope to believe in the other person, even if just for a short time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7
+          ],
+          "original_lyric": "Tell me\ntell me\ntell me lies",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "They are asking to be lied to.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Tell me lies",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "They are asking to be lied to.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Tell me sweet little lies",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "They are asking to be lied to.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "Oh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "An expression of feeling.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "no",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "An expression of feeling.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "no you can't disguise",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "They know the truth can't be hidden.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Tell me lies",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "They are asking to be lied to.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Tell me sweet little lies",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "They are asking to be lied to.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "ALthough I'm not making plans\nI hope that you understand",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "They are not planning for the future, but hope the other person understands.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "There's reason why",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "There is a reason for their actions.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "No more broken hearts",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "They want to avoid further heartbreak.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "We're better off apart",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "They believe separation is best.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Let's give it try",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "They want to try to make things work.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22,
+            23
+          ],
+          "original_lyric": "Tell me\ntell me\ntell me lies",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "They are asking to be lied to.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "Tell me lies",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "They are asking to be lied to.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "Tell me sweet little lies",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "They are asking to be lied to.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "Oh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "An expression of feeling.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "no",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "An expression of feeling.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "no you can't disguise",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "They know the truth can't be hidden.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "Tell me lies",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "They are asking to be lied to.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "Tell me sweet little lies",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "They are asking to be lied to.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 30,
+        "covered_lines": 30,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 30,
+      "covered_lines": 30,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "If I could turn the page",
+            "Just day or two",
+            "So I'll settle for one day",
+            "To believe in you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            2
+          ],
+          "end_words": [
+            "page",
+            "two",
+            "day",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "page",
+              "word2": "day",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word adds post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "two",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Tell me",
+            "tell me",
+            "tell me lies",
+            "Tell me lies"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "me",
+            "me",
+            "lies",
+            "lies"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "lies",
+              "word2": "lies",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Tell me sweet little lies",
+            "Oh",
+            "no",
+            "no you can't disguise"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            4,
+            1,
+            1,
+            3
+          ],
+          "end_words": [
+            "lies",
+            "oh",
+            "no",
+            "disguise"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "lies",
+              "word2": "disguise",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "oh",
+              "word2": "no",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Tell me lies",
+            "Tell me sweet little lies",
+            "ALthough I'm not making plans",
+            "I hope that you understand"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "lies",
+            "lies",
+            "plans",
+            "understand"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "lies",
+              "word2": "lies",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "plans",
+              "word2": "understand",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "There's reason why",
+            "No more broken hearts",
+            "We're better off apart",
+            "Let's give it try"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "why",
+            "hearts",
+            "apart",
+            "try"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "why",
+              "word2": "try",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "hearts",
+              "word2": "apart",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AA), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Tell me",
+            "tell me",
+            "tell me lies",
+            "Tell me lies"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "me",
+            "me",
+            "lies",
+            "lies"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "lies",
+              "word2": "lies",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Tell me sweet little lies",
+            "Oh",
+            "no",
+            "no you can't disguise"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            4,
+            1,
+            1,
+            3
+          ],
+          "end_words": [
+            "lies",
+            "oh",
+            "no",
+            "disguise"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "lies",
+              "word2": "disguise",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "oh",
+              "word2": "no",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Tell me lies",
+            "Tell me sweet little lies"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            4
+          ],
+          "end_words": [
+            "lies",
+            "lies"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "lies",
+              "word2": "lies",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "chorus",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "chorus",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 30
+    }
+  }
+}

@@ -1,0 +1,494 @@
+{
+  "song_id": "70kkdajctXSbqSMJbQO424::dandelion",
+  "title": "Dandelion",
+  "artist": "Kacey Musgraves",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nHope you guys like it please rate!\n, 3, or 4. Depends on your voice. (I use 3).\nPicked you out and picked you up, hoping that my luck would change,\nI let the summer fill my lungs, and superstition fill my brain,\nDandelion, million little wishes float across the sky,\n\n[chorus]\nSent you dancing on the breeze, and like stupid little girl,\nI spent my wishes on weed, thinking it could change my world,\nDandelion, million little wishes float across the sky,\n\n[chorus]\nFalling stars and lucky pennies, have let me down so many times before,\nAnd you're just one more, oh dandelion,\nOh dandelion, I'm always blowing kisses out across the sky,\n\n[chorus]\nDandelion.",
+  "cleaned_lyrics": "Hope you guys like it please rate!\n3\nor 4. Depends on your voice. (I use 3).\nPicked you out and picked you up\nhoping that my luck would change\nI let the summer fill my lungs\nand superstition fill my brain\nDandelion\nmillion little wishes float across the sky\nSent you dancing on the breeze\nand like stupid little girl\nI spent my wishes on weed\nthinking it could change my world\nDandelion\nmillion little wishes float across the sky\nFalling stars and lucky pennies\nhave let me down so many times before\nAnd you're just one more\noh dandelion\nOh dandelion\nI'm always blowing kisses out across the sky\nDandelion.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 19,
+    "cleaned_lines": 22,
+    "removed_count": 4,
+    "retention_rate": 1.375,
+    "removal_reasons": {
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Hope you guys like it please rate!",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is hoping people will like the song.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2,
+            3
+          ],
+          "original_lyric": "3\nor 4. Depends on your voice. (I use 3).",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is giving instructions on how to sing the song.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "Picked you out and picked you up\nhoping that my luck would change",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer is trying to improve their luck.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "I let the summer fill my lungs\nand superstition fill my brain",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer is embracing summer and superstitions.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Dandelion",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is mentioning a dandelion.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "million little wishes float across the sky",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Wishes are being made.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "Sent you dancing on the breeze\nand like stupid little girl",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is reflecting on past actions.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "I spent my wishes on weed\nthinking it could change my world",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer made a wish and it didn't work.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Dandelion",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is mentioning a dandelion.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "million little wishes float across the sky",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Wishes are being made.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "Falling stars and lucky pennies\nhave let me down so many times before",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "Things that are supposed to bring luck haven't worked.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "And you're just one more",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "The singer feels like the dandelion is another disappointment.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "oh dandelion",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is mentioning a dandelion.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Oh dandelion",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is mentioning a dandelion.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "I'm always blowing kisses out across the sky",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer is sending out wishes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "Dandelion.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is mentioning a dandelion.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 22,
+        "covered_lines": 22,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 22,
+      "covered_lines": 22,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Hope you guys like it please rate!",
+            "3",
+            "or 4. Depends on your voice. (I use 3).",
+            "Picked you out and picked you up"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "AXBC",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            0,
+            3,
+            4
+          ],
+          "end_words": [
+            "rate",
+            "",
+            "use",
+            "up"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "hoping that my luck would change",
+            "I let the summer fill my lungs",
+            "and superstition fill my brain",
+            "Dandelion"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            1
+          ],
+          "end_words": [
+            "change",
+            "lungs",
+            "brain",
+            "dandelion"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "change",
+              "word2": "brain",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "million little wishes float across the sky",
+            "Sent you dancing on the breeze",
+            "and like stupid little girl",
+            "I spent my wishes on weed"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            6,
+            3,
+            4,
+            3
+          ],
+          "end_words": [
+            "sky",
+            "breeze",
+            "girl",
+            "weed"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "breeze",
+              "word2": "weed",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "thinking it could change my world",
+            "Dandelion",
+            "million little wishes float across the sky",
+            "Falling stars and lucky pennies"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            1,
+            6,
+            4
+          ],
+          "end_words": [
+            "world",
+            "dandelion",
+            "sky",
+            "pennies"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "have let me down so many times before",
+            "And you're just one more",
+            "oh dandelion",
+            "Oh dandelion"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            4,
+            2,
+            2
+          ],
+          "end_words": [
+            "before",
+            "more",
+            "dandelion",
+            "dandelion"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "before",
+              "word2": "more",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "dandelion",
+              "word2": "dandelion",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I'm always blowing kisses out across the sky",
+            "Dandelion."
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            7,
+            1
+          ],
+          "end_words": [
+            "sky",
+            "dandelion"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 22
+    }
+  }
+}

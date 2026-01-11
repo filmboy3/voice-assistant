@@ -1,0 +1,802 @@
+{
+  "song_id": "0ECwFtbIWEVNwjlrfc6xoL::get-over-it",
+  "title": "Get Over It",
+  "artist": "Eagles",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nGet over it - Eagles\nTom:\n\n[intro]\n|-----------------------------------------------------------------------------13---------------------------10-12b13-12b13-10~~----12-10-12-12b13-13-13--10-12b13-12b13--10~~-------12-10--------------10--12-------------------------------------------------------------------------------12b13-12-10-|========> (Entrar Direto\nno )\n|-12/14~~--12/14~~--12/14~~-|\nI Dturn on the tube\nWhat do I see\nwhole lotta people\n\n[chorus]\nAt everybody else\nSpend all of their time\nFeeling Sorry for themselves\n\n[verse]\nYour Amomma's too thin and Your daddy's too fat!\nGet over it Get over it All this whinin', cryin' Pitchin' fit Get over it Get over it\n|-12/14~~--12/14~~--12/14~~-|\nSolo 2: ( )===> MESMA VELOCIDADE DO Refrão\nYou said you Dhaven't been the same\nSince you had your little crash\n\n[bridge]\nIf they gave you some cash\nThe more I think about it\nOld Billy was right\nLet's kill all the lawyers\nKill ' tonight!\nDon't wanna work You want to live like king\n\n[bridge]\nGet over it Get over it If you don't want to play Then you might as well split Get over it Get over it\n|-12/14~~--12/14~~--12/14~~-|\nSOLO 3 SLIDE: ( )2x ===> MESMA VELOCIDADE DO Refrão\nIt's like goin' to confession Every time I hear you speak\nYou're makin' the mostOf your losin' streak\nSome call it sick I call it weak Yeah, Yeah Yeah!\nYou're Ddraggin' around\nLike ball and chain\nYou wallow in the guilt\nYou wallow in the pain\nYou wave it like flag\nYou wear it like crown\nGot your mind in the gutter\n\n[bridge]\nYou bitch about the present Blame it on the past\nI' like to Afind you in child And kick it's little ass!\nGet over it Get over it All this whinin', cryin' Pitchin' fit Get over it Get over it\n|-12/14~~--12/14~~--12/14~~-|\nGet over it Get over it It's gotta stop sometime So why don't you quit Get over it Get over it\n|-12/14~~--12/14~~--12/14~~-|\nSOLO 4: ( ) ===> MESMA VELOCIDADE DO Refrão",
+  "cleaned_lyrics": "Get over it - Eagles\nTom:\nno )\nI Dturn on the tube\nWhat do I see\nwhole lotta people\nAt everybody else\nSpend all of their time\nFeeling Sorry for themselves\nYour Amomma's too thin and Your daddy's too fat!\nGet over it Get over it All this whinin'\ncryin' Pitchin' fit Get\nover it Get over it\nSolo 2: ( )===> MESMA VELOCIDADE DO Refrão\nYou said you Dhaven't been the same\nSince you had your little crash\nIf they gave you some cash\nThe more I think about it\nOld Billy was right\nLet's kill all the lawyers\nKill ' tonight!\nDon't wanna work You want to live like king\nGet over it Get over it If you don't want to play Then you might as well split Get over it Get over it\nIt's like goin' to confession\nEvery time I hear you speak\nYou're makin' the mostOf your losin' streak\nSome call it sick I call it weak Yeah\nYeah Yeah!\nYou're Ddraggin' around\nLike ball and chain\nYou wallow in the guilt\nYou wallow in the pain\nYou wave it like flag\nYou wear it like crown\nGot your mind in the gutter\nYou bitch about the present Blame it on the past\nI' like to Afind you in child And kick it's little ass!\nGet over it Get over it All this whinin'\ncryin' Pitchin' fit Get\nover it Get over it\nGet over it Get over it It's gotta stop sometime So why don't you quit Get over it Get over it",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 56,
+    "cleaned_lines": 41,
+    "removed_count": 15,
+    "retention_rate": 0.82,
+    "removal_reasons": {
+      "guitar_tab": 6,
+      "section_marker": 7,
+      "caps_metadata": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Get over it - Eagles",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song is starting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "Tom:",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "This is the name of the person singing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I turn on the tube\nWhat do I see",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer turns on the TV and sees something.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "whole lotta people\nAt everybody else",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "He sees a lot of people looking at others.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Spend all of their time\nFeeling Sorry for themselves",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "They spend all their time feeling sorry for themselves.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Your Amomma's too thin and Your daddy's too fat!",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "They complain about their parents.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "original_lyric": "Get over it Get over it All this whinin'\ncryin' Pitchin' fit Get\nover it Get over it",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "Stop complaining!",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "You said you Dhaven't been the same\nSince you had your little crash",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "Someone is still upset about something that happened.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "If they gave you some cash\nThe more I think about it",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "They are still dwelling on the past.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "Old Billy was right\nLet's kill all the lawyers",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "The singer agrees with someone about lawyers.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Kill ' tonight!",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "They want to kill all the lawyers.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "Don't wanna work You want to live like king",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "They don't want to work and want to live like a king.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Get over it Get over it If you don't want to play Then you might as well split Get over it Get over it",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "Stop complaining and move on.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "It's like goin' to confession\nEvery time I hear you speak",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "Talking to them is like going to confession.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "You're makin' the mostOf your losin' streak\nSome call it sick I call it weak Yeah",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "disgust",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "They are making the most of their problems.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "Yeah Yeah!",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are emphasizing their point.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30,
+            31
+          ],
+          "original_lyric": "You're Ddraggin' around\nLike ball and chain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "They are dragging around like a ball and chain.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32,
+            33
+          ],
+          "original_lyric": "You wallow in the guilt\nYou wallow in the pain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "They are dwelling on their guilt and pain.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34,
+            35
+          ],
+          "original_lyric": "You wave it like flag\nYou wear it like crown",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "They are showing off their problems.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            36,
+            37
+          ],
+          "original_lyric": "Got your mind in the gutter\nYou bitch about the present Blame it on the past",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "They are focused on the negative and blaming the past.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            38
+          ],
+          "original_lyric": "I' like to Afind you in child And kick it's little ass!",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "The singer wants to hurt them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            39,
+            40,
+            41,
+            42
+          ],
+          "original_lyric": "Get over it Get over it All this whinin'\ncryin' Pitchin' fit Get\nover it Get over it",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "Stop complaining!",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            43,
+            44,
+            45,
+            46
+          ],
+          "original_lyric": "Get over it Get over it It's gotta stop sometime So why don't you quit Get over it Get over it",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "Stop complaining and move on.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 46,
+        "covered_lines": 46,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 46,
+      "covered_lines": 46,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Get over it - Eagles",
+            "Tom:",
+            "no )",
+            "I Dturn on the tube"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            1,
+            1,
+            2
+          ],
+          "end_words": [
+            "eagles",
+            "tom",
+            "no",
+            "tube"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "What do I see",
+            "whole lotta people",
+            "At everybody else",
+            "Spend all of their time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "see",
+            "people",
+            "else",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "see",
+              "word2": "people",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Feeling Sorry for themselves",
+            "Your Amomma's too thin and Your daddy's too fat!",
+            "Get over it Get over it All this whinin'",
+            "cryin' Pitchin' fit Get"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            6,
+            6,
+            4
+          ],
+          "end_words": [
+            "themselves",
+            "fat",
+            "whinin",
+            "get"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "themselves",
+              "word2": "get",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "over it Get over it",
+            "Solo 2: ( )===> MESMA VELOCIDADE DO Refrão",
+            "You said you Dhaven't been the same",
+            "Since you had your little crash"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            5,
+            3,
+            4
+          ],
+          "end_words": [
+            "it",
+            "o",
+            "same",
+            "crash"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "If they gave you some cash",
+            "The more I think about it",
+            "Old Billy was right",
+            "Let's kill all the lawyers"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            4
+          ],
+          "end_words": [
+            "cash",
+            "it",
+            "right",
+            "lawyers"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Kill ' tonight!",
+            "Don't wanna work You want to live like king",
+            "Get over it Get over it If you don't want to play Then you might as well split Get over it Get over it",
+            "It's like goin' to confession"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            7,
+            18,
+            4
+          ],
+          "end_words": [
+            "tonight",
+            "king",
+            "it",
+            "confession"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "king",
+              "word2": "it",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Every time I hear you speak",
+            "You're makin' the mostOf your losin' streak",
+            "Some call it sick I call it weak Yeah",
+            "Yeah Yeah!"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            5,
+            6,
+            2
+          ],
+          "end_words": [
+            "speak",
+            "streak",
+            "yeah",
+            "yeah"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "speak",
+              "word2": "streak",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "yeah",
+              "word2": "yeah",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "You're Ddraggin' around",
+            "Like ball and chain",
+            "You wallow in the guilt",
+            "You wallow in the pain"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            2
+          ],
+          "end_words": [
+            "around",
+            "chain",
+            "guilt",
+            "pain"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "chain",
+              "word2": "pain",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "You wave it like flag",
+            "You wear it like crown",
+            "Got your mind in the gutter",
+            "You bitch about the present Blame it on the past"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            5
+          ],
+          "end_words": [
+            "flag",
+            "crown",
+            "gutter",
+            "past"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "flag",
+              "word2": "past",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "I' like to Afind you in child And kick it's little ass!",
+            "Get over it Get over it All this whinin'",
+            "cryin' Pitchin' fit Get",
+            "over it Get over it"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            7,
+            6,
+            4,
+            5
+          ],
+          "end_words": [
+            "ass",
+            "whinin",
+            "get",
+            "it"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "Get over it Get over it It's gotta stop sometime So why don't you quit Get over it Get over it"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            19
+          ],
+          "end_words": [
+            "it"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 11,
+      "total_lines": 41
+    }
+  }
+}

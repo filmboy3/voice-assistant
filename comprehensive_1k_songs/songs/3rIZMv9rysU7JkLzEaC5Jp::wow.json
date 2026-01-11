@@ -1,0 +1,389 @@
+{
+  "song_id": "3rIZMv9rysU7JkLzEaC5Jp::wow",
+  "title": "Wow",
+  "artist": "Snow Patrol",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nDon't be scared of anything at all\nEverything we have is all we need\nAll the spotlights streaming into angry skies\nMeans there's no one watching as we leave\nSay the first thing that\n\n[chorus]\nIf it looks like it works and it feels like it works\nThen it works\nWith the sun on your face\nAll these worries will soon disappear\nJust follow me now\nI find careful patterns in the snow\nIt seems you did come round but changed your mind\nIf you' just take ten more steps to me\nI won't ever ask you again\nJust because I couldn't say doesn't make me liar\nI noticed change in the tone of your voice\nIt's so clear\nMy role in this mess\nIs not something that I can be proud of",
+  "cleaned_lyrics": "Don't be scared of anything at all\nEverything we have is all we need\nAll the spotlights streaming into angry skies\nMeans there's no one watching as we leave\nSay the first thing that\nIf it looks like it works and it feels like it works\nThen it works\nWith the sun on your face\nAll these worries will soon disappear\nJust follow me now\nI find careful patterns in the snow\nIt seems you did come round but changed your mind\nIf you' just take ten more steps to me\nI won't ever ask you again\nJust because I couldn't say doesn't make me liar\nI noticed change in the tone of your voice\nIt's so clear\nMy role in this mess\nIs not something that I can be proud of",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 22,
+    "cleaned_lines": 19,
+    "removed_count": 2,
+    "retention_rate": 0.9047619047619048,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Don't be scared of anything at all\nEverything we have is all we need",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Don't be afraid, we have everything we need.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "All the spotlights streaming into angry skies\nMeans there's no one watching as we leave",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The world is angry, and no one is watching us leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7
+          ],
+          "original_lyric": "Say the first thing that\nIf it looks like it works and it feels like it works\nThen it works",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Say what you think, if it seems right, it is.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10
+          ],
+          "original_lyric": "With the sun on your face\nAll these worries will soon disappear\nJust follow me now",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "With the sun shining, worries will go away, just follow me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "I find careful patterns in the snow",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I see patterns in the snow.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "It seems you did come round but changed your mind",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "You almost came, but changed your mind.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "If you' just take ten more steps to me\nI won't ever ask you again",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "If you take a few more steps, I won't ask again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Just because I couldn't say doesn't make me liar",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "Just because I couldn't say it doesn't mean I'm lying.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "I noticed change in the tone of your voice",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "I noticed a change in your voice.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "It's so clear",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's so clear.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19,
+            20
+          ],
+          "original_lyric": "My role in this mess\nIs not something that I can be proud of",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "I'm not proud of my part in this mess.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Don't be scared of anything at all",
+            "Everything we have is all we need",
+            "All the spotlights streaming into angry skies",
+            "Means there's no one watching as we leave"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            4,
+            6,
+            6
+          ],
+          "end_words": [
+            "all",
+            "need",
+            "skies",
+            "leave"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "need",
+              "word2": "leave",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Say the first thing that",
+            "If it looks like it works and it feels like it works",
+            "Then it works",
+            "With the sun on your face"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            7,
+            1,
+            2
+          ],
+          "end_words": [
+            "that",
+            "works",
+            "works",
+            "face"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "works",
+              "word2": "works",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (ER), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "All these worries will soon disappear",
+            "Just follow me now",
+            "I find careful patterns in the snow",
+            "It seems you did come round but changed your mind"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            3,
+            4,
+            5
+          ],
+          "end_words": [
+            "disappear",
+            "now",
+            "snow",
+            "mind"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "If you' just take ten more steps to me",
+            "I won't ever ask you again",
+            "Just because I couldn't say doesn't make me liar",
+            "I noticed change in the tone of your voice"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            7,
+            4,
+            7,
+            4
+          ],
+          "end_words": [
+            "me",
+            "again",
+            "liar",
+            "voice"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "It's so clear",
+            "My role in this mess",
+            "Is not something that I can be proud of"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            2,
+            4
+          ],
+          "end_words": [
+            "clear",
+            "mess",
+            "of"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 19
+    }
+  }
+}

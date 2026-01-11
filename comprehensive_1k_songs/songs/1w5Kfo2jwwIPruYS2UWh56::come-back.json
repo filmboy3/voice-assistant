@@ -1,0 +1,731 @@
+{
+  "song_id": "1w5Kfo2jwwIPruYS2UWh56::come-back",
+  "title": "Come back",
+  "artist": "Pearl Jam",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nIf I keep holding out will the light shine through under this\n\n[bridge]\nI've been wishing out the day\nOh oh oh come back\nI have been planning out all that I' say to you\nSince you slipped away, know that I still remain true\nI've been wishing out the day\nPlease say that if you had to go now\nI wouldn't have lost you another way\nFrom wherever you are\nOhh oh oh come back\nAnd these days they linger on\nAnd in the night I've been waiting for\nThe real possibility that I may meet you in my dreams\nThen I go to sleep\nIf I don't fall apart will my memory stay clear\nSo you had to go and I had to remain here\n\n[bridge]\nSo far away and yet you feel so close\nAnd I'm not gonna question any other way\nThere must be an open door for you to come back\nAnd the days they linger on\nAnd every night well I'm waiting for\nThe real possibility that I may meet you in my dreams\nSometimes you're there and you're talking back to me\n\n[chorus]\nIt's OK it's OK\nI'll be here come back come back\nI'll be here come back come back\nI'll be here come back come back\nOoh ooh ooh ooh ooooooooh\nOoh ooh ooh ooh ooooooooh",
+  "cleaned_lyrics": "If I keep holding out will\nthe light shine through under this\nI've been wishing out the day\nOh oh oh come back\nI have been planning out all that I' say to you\nSince you slipped away\nknow that I still remain true\nI've been wishing out the day\nPlease say that if you had to go now\nI wouldn't have lost you another way\nFrom wherever you are\nOhh oh oh come back\nAnd these days they linger on\nAnd in the night I've been waiting for\nThe real possibility that I may meet you in my dreams\nThen I go to sleep\nIf I don't fall apart will my memory stay clear\nSo you had to go and I had to remain here\nSo far away and yet you feel so close\nAnd I'm not gonna question any other way\nThere must be an open door for you to come back\nAnd the days they linger on\nAnd every night well I'm waiting for\nThe real possibility that I may meet you in my dreams\nSometimes you're there and you're talking back to me\nIt's OK it's OK\nI'll be here come back come back\nI'll be here come back come back\nI'll be here come back come back\nOoh ooh ooh ooh ooooooooh\nOoh ooh ooh ooh ooooooooh",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 36,
+    "cleaned_lines": 31,
+    "removed_count": 4,
+    "retention_rate": 0.9393939393939394,
+    "removal_reasons": {
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "If I keep holding out will\nthe light shine through under this",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "I'm hoping things will get better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "I've been wishing out the day",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I'm waiting for something to happen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "Oh oh oh come back",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I want you to come back.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "I have been planning out all that I' say to you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I'm thinking about what I would say if you came back.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Since you slipped away",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "You left.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "know that I still remain true",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "I still love you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "I've been wishing out the day",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I'm still waiting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Please say that if you had to go now",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "I'm afraid of losing you again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "I wouldn't have lost you another way",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "I don't want to lose you again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "From wherever you are",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking of where you are.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Ohh oh oh come back",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I want you to come back.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "And these days they linger on",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The days feel long and sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "And in the night I've been waiting for",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I wait at night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "The real possibility that I may meet you in my dreams",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Hoping to see you in my dreams.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Then I go to sleep",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "I go to sleep.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "If I don't fall apart will my memory stay clear",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "I'm afraid of forgetting you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "So you had to go and I had to remain here",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "You left and I stayed.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "So far away and yet you feel so close",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "You feel close even though you're far.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "And I'm not gonna question any other way",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "I accept things as they are.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "There must be an open door for you to come back",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Hoping you can come back.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "And the days they linger on",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The days feel long and sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "And every night well I'm waiting for",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I wait every night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "The real possibility that I may meet you in my dreams",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Hoping to see you in my dreams.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "Sometimes you're there and you're talking back to me",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Sometimes I dream you're here.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "It's OK it's OK",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's okay.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "I'll be here come back come back",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "I'll wait for you to come back.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "I'll be here come back come back",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "I'll wait for you to come back.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "I'll be here come back come back",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "I'll wait for you to come back.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            31,
+            32
+          ],
+          "original_lyric": "Ooh ooh ooh ooh ooooooooh\nOoh ooh ooh ooh ooooooooh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Just sounds.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 32,
+        "covered_lines": 32,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 32,
+      "covered_lines": 32,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "If I keep holding out will",
+            "the light shine through under this",
+            "I've been wishing out the day",
+            "Oh oh oh come back"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            5,
+            4,
+            5
+          ],
+          "end_words": [
+            "will",
+            "this",
+            "day",
+            "back"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "will",
+              "word2": "this",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I have been planning out all that I' say to you",
+            "Since you slipped away",
+            "know that I still remain true",
+            "I've been wishing out the day"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            5,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "you",
+            "away",
+            "true",
+            "day"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "you",
+              "word2": "true",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "away",
+              "word2": "day",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Please say that if you had to go now",
+            "I wouldn't have lost you another way",
+            "From wherever you are",
+            "Ohh oh oh come back"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            4,
+            2,
+            5
+          ],
+          "end_words": [
+            "now",
+            "way",
+            "are",
+            "back"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "And these days they linger on",
+            "And in the night I've been waiting for",
+            "The real possibility that I may meet you in my dreams",
+            "Then I go to sleep"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            2
+          ],
+          "end_words": [
+            "on",
+            "for",
+            "dreams",
+            "sleep"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "dreams",
+              "word2": "sleep",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "If I don't fall apart will my memory stay clear",
+            "So you had to go and I had to remain here",
+            "So far away and yet you feel so close",
+            "And I'm not gonna question any other way"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            7,
+            5,
+            4,
+            7
+          ],
+          "end_words": [
+            "clear",
+            "here",
+            "close",
+            "way"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "clear",
+              "word2": "here",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "There must be an open door for you to come back",
+            "And the days they linger on",
+            "And every night well I'm waiting for",
+            "The real possibility that I may meet you in my dreams"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            3,
+            6,
+            4
+          ],
+          "end_words": [
+            "back",
+            "on",
+            "for",
+            "dreams"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Sometimes you're there and you're talking back to me",
+            "It's OK it's OK",
+            "I'll be here come back come back",
+            "I'll be here come back come back"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            7,
+            4,
+            6,
+            6
+          ],
+          "end_words": [
+            "me",
+            "ok",
+            "back",
+            "back"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "back",
+              "word2": "back",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "I'll be here come back come back",
+            "Ooh ooh ooh ooh ooooooooh",
+            "Ooh ooh ooh ooh ooooooooh"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            6,
+            5,
+            5
+          ],
+          "end_words": [
+            "back",
+            "ooooooooh",
+            "ooooooooh"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 31
+    }
+  }
+}

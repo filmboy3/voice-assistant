@@ -1,0 +1,453 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::far-side-banks-of-jordan",
+  "title": "Far Side Banks Of Jordan",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI believe my steps are growing wearier each day\nStill i got another journey on my mind\nLures of this old world have ceased to make me wanna stay\nAnd my one regret is leaving you behind.\n\n[bridge]\nAnd somehow I'll be feeling it will be\nWhen it comes your time to travel like wise don't feel lost\nFor I will be the first one that you'll see.\nAnd I'll be waiting on the far side banks of Jordan\nI'll be sitting drawing pictures in the sand\nAnd when I see you coming I will rise up with shout\nAnd come running through the shallow water reaching for your hand.\nThrough this life we've labored hard to earn our meager fare\nIt's brought us trembling hands and failing eyes\nSo I'll just rest here on this shore and turn my eyes away\nUntil you come then we'll see paradise.",
+  "cleaned_lyrics": "I believe my steps are growing wearier each day\nStill i got another journey on my mind\nLures of this old world have ceased to make me wanna stay\nAnd my one regret is leaving you behind.\nAnd somehow I'll be feeling it will be\nWhen it comes your time to\ntravel like wise don't feel lost\nFor I will be the first one that you'll see.\nAnd I'll be waiting on the far side banks of Jordan\nI'll be sitting drawing pictures in the sand\nAnd when I see you coming I will rise up with shout\nAnd come running through the shallow water reaching for your hand.\nThrough this life we've labored\nhard to earn our meager fare\nIt's brought us trembling hands and failing eyes\nSo I'll just rest here on\nthis shore and turn my eyes away\nUntil you come then we'll see paradise.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 18,
+    "cleaned_lines": 18,
+    "removed_count": 2,
+    "retention_rate": 1.0588235294117647,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "I believe my steps are growing wearier each day",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer feels tired and worn out.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "Still i got another journey on my mind",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "But he's still thinking about another trip.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "Lures of this old world have ceased to make me wanna stay",
+          "plot_function": "SETUP",
+          "emotion_primary": "detachment",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "He doesn't want to stay in this world anymore.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "And my one regret is leaving you behind.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "His only sadness is leaving someone he loves.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7
+          ],
+          "original_lyric": "And somehow I'll be feeling it will be\nWhen it comes your time to\ntravel like wise don't feel lost",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "comfort",
+          "eli5_simplification": "He hopes his loved one won't feel lost when it's their time to go.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "For I will be the first one that you'll see.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "He will be there to greet them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "And I'll be waiting on the far side banks of Jordan",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "He'll be waiting for them on the other side.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "I'll be sitting drawing pictures in the sand",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "peace",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "He'll be happily waiting.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "And when I see you coming I will rise up with shout",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "joy",
+          "emotion_secondary": "love",
+          "eli5_simplification": "He'll be so happy to see them.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "And come running through the shallow water reaching for your hand.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "He'll run to them and hold their hand.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Through this life we've labored",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "They worked hard in this life.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "hard to earn our meager fare",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "They barely made enough to get by.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "It's brought us trembling hands and failing eyes",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "It made them old and tired.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "So I'll just rest here on",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "peace",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "So he will rest.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "this shore and turn my eyes away",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "peace",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "And look away.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Until you come then we'll see paradise.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Until they meet in paradise.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 18,
+        "covered_lines": 18,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 18,
+      "covered_lines": 18,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I believe my steps are growing wearier each day",
+            "Still i got another journey on my mind",
+            "Lures of this old world have ceased to make me wanna stay",
+            "And my one regret is leaving you behind."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.9,
+          "stress_counts": [
+            6,
+            5,
+            7,
+            4
+          ],
+          "end_words": [
+            "day",
+            "mind",
+            "stay",
+            "behind"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "day",
+              "word2": "stay",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "mind",
+              "word2": "behind",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "And somehow I'll be feeling it will be",
+            "When it comes your time to",
+            "travel like wise don't feel lost",
+            "For I will be the first one that you'll see."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            5,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "be",
+            "to",
+            "lost",
+            "see"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "be",
+              "word2": "see",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "And I'll be waiting on the far side banks of Jordan",
+            "I'll be sitting drawing pictures in the sand",
+            "And when I see you coming I will rise up with shout",
+            "And come running through the shallow water reaching for your hand."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            6,
+            5,
+            6,
+            7
+          ],
+          "end_words": [
+            "jordan",
+            "sand",
+            "shout",
+            "hand"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "sand",
+              "word2": "hand",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Through this life we've labored",
+            "hard to earn our meager fare",
+            "It's brought us trembling hands and failing eyes",
+            "So I'll just rest here on"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            6,
+            5
+          ],
+          "end_words": [
+            "labored",
+            "fare",
+            "eyes",
+            "on"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "this shore and turn my eyes away",
+            "Until you come then we'll see paradise."
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            4,
+            5
+          ],
+          "end_words": [
+            "away",
+            "paradise"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 18
+    }
+  }
+}

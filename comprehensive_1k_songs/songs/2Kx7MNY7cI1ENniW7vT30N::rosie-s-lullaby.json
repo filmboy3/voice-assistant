@@ -1,0 +1,399 @@
+{
+  "song_id": "2Kx7MNY7cI1ENniW7vT30N::rosie-s-lullaby",
+  "title": "Rosie's Lullaby",
+  "artist": "Norah Jones",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nShe walked by the ocean,\nAnd waited for star,\nTo carry her away.\nFeelin' so small,\nAt the bottom of the world,\nLookin' up to God.\nShe tries to take deep breaths,\nTo smell the salty sea,\nAs it moves over her feet.\nThe water pulls so strong,\nAnd no-one is around,\nAnd the moon is looking down.\nRosie - come with me,\n\n[chorus]\nThe big ships are rollin',\nAnd lightin' up the night,\nAnd she calls out, but they just pass her by.\nThe waves are crashin',\n\n[bridge]\nJust mouthing along.\nRosie - come with me,",
+  "cleaned_lyrics": "And waited for star\nTo carry her away.\nFeelin' so small\nAt the bottom of the world\nLookin' up to God.\nShe tries to take deep breaths\nTo smell the salty sea\nAs it moves over her feet.\nThe water pulls so strong\nAnd no-one is around\nAnd the moon is looking down.\nRosie - come with me\nThe big ships are rollin'\nAnd lightin' up the night\nAnd she calls out\nbut they just pass her by.\nThe waves are crashin'\nJust mouthing along.\nRosie - come with me",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 24,
+    "cleaned_lines": 19,
+    "removed_count": 4,
+    "retention_rate": 0.8636363636363636,
+    "removal_reasons": {
+      "section_marker": 3,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "And waited for star\nTo carry her away.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Rosie is waiting for something magical to happen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Feelin' so small\nAt the bottom of the world",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Rosie feels tiny and lost.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Lookin' up to God.",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Rosie is looking up to God.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7,
+            8
+          ],
+          "original_lyric": "She tries to take deep breaths\nTo smell the salty sea\nAs it moves over her feet.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "calm",
+          "emotion_secondary": null,
+          "eli5_simplification": "Rosie tries to relax and enjoy the sea.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "The water pulls so strong\nAnd no-one is around\nAnd the moon is looking down.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "The water is pulling Rosie, and she's alone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Rosie - come with me",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone is calling Rosie to come with them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "The big ships are rollin'\nAnd lightin' up the night",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "Big ships are sailing and lighting up the night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "And she calls out",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Rosie calls out.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "but they just pass her by.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "No one hears her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "The waves are crashin'\nJust mouthing along.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The waves are crashing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Rosie - come with me",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone is calling Rosie to come with them.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "And waited for star",
+            "To carry her away.",
+            "Feelin' so small",
+            "At the bottom of the world"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "star",
+            "away",
+            "small",
+            "world"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Lookin' up to God.",
+            "She tries to take deep breaths",
+            "To smell the salty sea",
+            "As it moves over her feet."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "god",
+            "breaths",
+            "sea",
+            "feet"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "sea",
+              "word2": "feet",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "The water pulls so strong",
+            "And no-one is around",
+            "And the moon is looking down.",
+            "Rosie - come with me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "strong",
+            "around",
+            "down",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "around",
+              "word2": "down",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "The big ships are rollin'",
+            "And lightin' up the night",
+            "And she calls out",
+            "but they just pass her by."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "rollin",
+            "night",
+            "out",
+            "by"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "night",
+              "word2": "by",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "The waves are crashin'",
+            "Just mouthing along.",
+            "Rosie - come with me"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            3,
+            3
+          ],
+          "end_words": [
+            "crashin",
+            "along",
+            "me"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 19
+    }
+  }
+}

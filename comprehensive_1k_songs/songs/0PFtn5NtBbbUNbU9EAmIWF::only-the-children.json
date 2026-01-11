@@ -1,0 +1,391 @@
+{
+  "song_id": "0PFtn5NtBbbUNbU9EAmIWF::only-the-children",
+  "title": "Only The Children",
+  "artist": "TOTO",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWe keep hurtin each other, when words can be easily said\nNo understanding or reason, just fear and confusion instead\nWe all need hope for the future and the young need chance to survive\nNo one knows the pain that's felt by the innocent\nWho are fighting to stay alive\n\n[chorus]\nOnly the children\nOnly the children cry\nOnly the children\nWhy do those who have plenty ignore those with nothing at all\nWhy must the ones just beginning stand with their backs to the wall\nThey keep asking for answers and we keep on telling them lies\nThey only want to understand what they feel inside\nThe hunger that tears them apart\nIt's the one thing they've known from the start",
+  "cleaned_lyrics": "We keep hurtin each other\nwhen words can be easily said\nNo understanding or reason\njust fear and confusion instead\nWe all need hope for the future\nand the young need chance to survive\nWho are fighting to stay alive\nOnly the children\nOnly the children cry\nOnly the children\nWhy do those who have plenty ignore those with nothing at all\nWhy must the ones just beginning stand with their backs to the wall\nThey keep asking for answers and we keep on telling them lies\nThey only want to understand what they feel inside\nThe hunger that tears them apart\nIt's the one thing they've known from the start",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 17,
+    "cleaned_lines": 16,
+    "removed_count": 3,
+    "retention_rate": 1.0,
+    "removal_reasons": {
+      "section_marker": 2,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "We keep hurtin each other\nwhen words can be easily said",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "People are hurting each other with words, even though it's easy to be kind.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "No understanding or reason\njust fear and confusion instead",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "confusion",
+          "eli5_simplification": "There's no understanding, just fear and being mixed up.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "We all need hope for the future\nand the young need chance to survive",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone needs hope, and kids need a chance to live.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Who are fighting to stay alive",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "Some people are struggling to stay alive.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "Only the children\nOnly the children cry",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "helplessness",
+          "eli5_simplification": "Only the children are crying.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "Only the children",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "helplessness",
+          "eli5_simplification": "Only the children.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "Why do those who have plenty ignore those with nothing at all\nWhy must the ones just beginning stand with their backs to the wall",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "confusion",
+          "eli5_simplification": "Why do rich people ignore the poor? Why are the young people struggling?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "They keep asking for answers and we keep on telling them lies\nThey only want to understand what they feel inside",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "They ask for truth, but we lie. They just want to understand their feelings.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "The hunger that tears them apart\nIt's the one thing they've known from the start",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "Hunger is tearing them apart, it's all they've ever known.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          {
+            "line_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "from": "we",
+            "to": "they",
+            "reason": "Shift from collective experience to focusing on the children's perspective."
+          }
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 16,
+        "covered_lines": 16,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "from": "we",
+          "to": "they",
+          "reason": "Shift from collective experience to focusing on the children's perspective."
+        }
+      ]
+    },
+    "coverage": {
+      "total_lines": 16,
+      "covered_lines": 16,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "We keep hurtin each other",
+            "when words can be easily said",
+            "No understanding or reason",
+            "just fear and confusion instead"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "other",
+            "said",
+            "reason",
+            "instead"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "said",
+              "word2": "instead",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "We all need hope for the future",
+            "and the young need chance to survive",
+            "Who are fighting to stay alive",
+            "Only the children"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            2
+          ],
+          "end_words": [
+            "future",
+            "survive",
+            "alive",
+            "children"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "survive",
+              "word2": "alive",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Only the children cry",
+            "Only the children",
+            "Why do those who have plenty ignore those with nothing at all",
+            "Why must the ones just beginning stand with their backs to the wall"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            2,
+            5,
+            7
+          ],
+          "end_words": [
+            "cry",
+            "children",
+            "all",
+            "wall"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "all",
+              "word2": "wall",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "They keep asking for answers and we keep on telling them lies",
+            "They only want to understand what they feel inside",
+            "The hunger that tears them apart",
+            "It's the one thing they've known from the start"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            7,
+            3,
+            6
+          ],
+          "end_words": [
+            "lies",
+            "inside",
+            "apart",
+            "start"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "lies",
+              "word2": "inside",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "apart",
+              "word2": "start",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 16
+    }
+  }
+}

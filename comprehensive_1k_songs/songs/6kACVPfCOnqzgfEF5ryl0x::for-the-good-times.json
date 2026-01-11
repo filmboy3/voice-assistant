@@ -1,0 +1,616 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::for-the-good-times",
+  "title": "For The Good Times",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nDon't look so sad, I know it's over, but life goes on.\nAnd this old world will keep on turning.\nLet's just be glad we had some time to spend together.\nThere's no need to watch the bridges that we're burning.\nLay your head, upon my pillow, hold your warm and tender body close to mine.\nHear the whisper of the raindrops blowing soft, against the window.\nAnd make believe you love me, one more time, for the good times.\nI'll get along. You'll find another. And I'll be here.\nIf you should find, you ever need me, don't say word about tomorrow, or forever.\nThere'll be time enough for sadness when you leave me.\nLay your head, upon my pillow, hold your warm and tender body close to mine.\nHear the whisper of the raindrops blowing soft, against the window.\nAnd make believe you love me, one more time, for the good times.",
+  "cleaned_lyrics": "Don't look so sad\nI know it's over\nbut life goes on.\nAnd this old world will keep on turning.\nLet's just be glad we\nhad some time to spend together.\nThere's no need to watch the bridges that we're burning.\nLay your head\nupon my pillow\nhold your warm and tender body close to mine.\nHear the whisper of the raindrops blowing soft\nagainst the window.\nAnd make believe you love me\none more time\nfor the good times.\nI'll get along. You'll find\nanother. And I'll be here.\nIf you should find\nyou ever need me\ndon't say word about tomorrow\nor forever.\nThere'll be time enough for sadness when you leave me.\nLay your head\nupon my pillow\nhold your warm and tender body close to mine.\nHear the whisper of the raindrops blowing soft\nagainst the window.\nAnd make believe you love me\none more time\nfor the good times.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 14,
+    "cleaned_lines": 30,
+    "removed_count": 1,
+    "retention_rate": 2.142857142857143,
+    "removal_reasons": {
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Don't look so sad\nI know it's over",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is telling someone not to be sad because it's over.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "but life goes on.\nAnd this old world will keep on turning.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Life continues, even though things have ended.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Let's just be glad we\nhad some time to spend together.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "gratitude",
+          "emotion_secondary": null,
+          "eli5_simplification": "They should be happy for the time they shared.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "There's no need to watch the bridges that we're burning.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Don't worry about the past, focus on the present.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10
+          ],
+          "original_lyric": "Lay your head\nupon my pillow\nhold your warm and tender body close to mine.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer wants to be close to the person one last time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Hear the whisper of the raindrops blowing soft",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Setting the scene with the sound of rain.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "against the window.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Continuing the scene setting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "And make believe you love me\none more time",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "The singer wants to pretend they are still loved.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "for the good times.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "For the sake of the good memories.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "I'll get along. You'll find\nanother. And I'll be here.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "They will move on, and the singer will be okay.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "If you should find\nyou ever need me",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer hopes the other person will remember them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "don't say word about tomorrow\nor forever.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Don't talk about the future, just the present.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "There'll be time enough for sadness when you leave me.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Sadness will come later.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24,
+            25
+          ],
+          "original_lyric": "Lay your head\nupon my pillow\nhold your warm and tender body close to mine.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer wants to be close to the person one last time.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "Hear the whisper of the raindrops blowing soft",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Setting the scene with the sound of rain.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "against the window.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Continuing the scene setting.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            28,
+            29
+          ],
+          "original_lyric": "And make believe you love me\none more time",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "The singer wants to pretend they are still loved.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "for the good times.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "For the sake of the good memories.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 30,
+        "covered_lines": 30,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 30,
+      "covered_lines": 30,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Don't look so sad",
+            "I know it's over",
+            "but life goes on.",
+            "And this old world will keep on turning."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            4
+          ],
+          "end_words": [
+            "sad",
+            "over",
+            "on",
+            "turning"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Let's just be glad we",
+            "had some time to spend together.",
+            "There's no need to watch the bridges that we're burning.",
+            "Lay your head"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            5,
+            7,
+            2
+          ],
+          "end_words": [
+            "we",
+            "together",
+            "burning",
+            "head"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "together",
+              "word2": "head",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "upon my pillow",
+            "hold your warm and tender body close to mine.",
+            "Hear the whisper of the raindrops blowing soft",
+            "against the window."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            6,
+            5,
+            2
+          ],
+          "end_words": [
+            "pillow",
+            "mine",
+            "soft",
+            "window"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "pillow",
+              "word2": "window",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "And make believe you love me",
+            "one more time",
+            "for the good times.",
+            "I'll get along. You'll find"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4,
+            3,
+            2,
+            5
+          ],
+          "end_words": [
+            "me",
+            "time",
+            "times",
+            "find"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "time",
+              "word2": "times",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "times",
+              "word2": "find",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "another. And I'll be here.",
+            "If you should find",
+            "you ever need me",
+            "don't say word about tomorrow"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            5
+          ],
+          "end_words": [
+            "here",
+            "find",
+            "me",
+            "tomorrow"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "or forever.",
+            "There'll be time enough for sadness when you leave me.",
+            "Lay your head",
+            "upon my pillow"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            1,
+            7,
+            2,
+            2
+          ],
+          "end_words": [
+            "forever",
+            "me",
+            "head",
+            "pillow"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "forever",
+              "word2": "head",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "hold your warm and tender body close to mine.",
+            "Hear the whisper of the raindrops blowing soft",
+            "against the window.",
+            "And make believe you love me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            5,
+            2,
+            4
+          ],
+          "end_words": [
+            "mine",
+            "soft",
+            "window",
+            "me"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "one more time",
+            "for the good times."
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            2
+          ],
+          "end_words": [
+            "time",
+            "times"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "time",
+              "word2": "times",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 30
+    }
+  }
+}

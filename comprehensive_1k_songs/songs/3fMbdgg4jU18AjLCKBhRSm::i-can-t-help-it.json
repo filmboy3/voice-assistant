@@ -1,0 +1,450 @@
+{
+  "song_id": "3fMbdgg4jU18AjLCKBhRSm::i-can-t-help-it",
+  "title": "I Can't Help It",
+  "artist": "Michael Jackson",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nLooking in my mirror\nTook me by surprise\nI can't help but see you\nRunning often through my mind\nHelpless like baby\nSensual disguise\nI can't help but love you\nIt's getting better all the time\n\n[chorus]\nI can't help it if I wanted to\nI wouldn't help it even if I could\nI can't help it if I wanted to\nI wouldn't help it, no\n{Chorus}\n{Intro}\n\n[verse]\nLove to run my fingers\nSoftly while you sigh\nLove came and possessed you\n\n[bridge]\nLike trip to heaven\nHeaven is the prize\nAnd I'm so glad I found you, girl\nYou're an angel in disguise\n{Chorus}\n\n[bridge]\nAnd I'm so glad I found you, girl\nYou're an angel in disguise\n{Outro}",
+  "cleaned_lyrics": "Looking in my mirror\nTook me by surprise\nI can't help but see you\nRunning often through my mind\nHelpless like baby\nSensual disguise\nI can't help but love you\nIt's getting better all the time\nI can't help it if I wanted to\nI wouldn't help it even if I could\nI can't help it if I wanted to\nI wouldn't help it\nno\nLove to run my fingers\nSoftly while you sigh\nLove came and possessed you\nLike trip to heaven\nHeaven is the prize\nAnd I'm so glad I found you\ngirl\nYou're an angel in disguise\nAnd I'm so glad I found you\ngirl\nYou're an angel in disguise",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 34,
+    "cleaned_lines": 24,
+    "removed_count": 9,
+    "retention_rate": 0.8,
+    "removal_reasons": {
+      "artist_annotation": 4,
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Looking in my mirror\nTook me by surprise",
+          "plot_function": "SETUP",
+          "emotion_primary": "surprise",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is looking in the mirror and is surprised.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I can't help but see you\nRunning often through my mind",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer can't stop thinking about someone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Helpless like baby\nSensual disguise",
+          "plot_function": "SETUP",
+          "emotion_primary": "vulnerability",
+          "emotion_secondary": "desire",
+          "eli5_simplification": "The singer feels helpless and sees someone as sensual.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "I can't help but love you\nIt's getting better all the time",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The singer can't help but love the person and it's getting better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "original_lyric": "I can't help it if I wanted to\nI wouldn't help it even if I could\nI can't help it if I wanted to\nI wouldn't help it",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is saying they can't stop loving this person.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "Love to run my fingers\nSoftly while you sigh",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "desire",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer wants to touch the person gently.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "Love came and possessed you\nLike trip to heaven",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "Love has taken over the person, like going to heaven.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "Heaven is the prize",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Being with the person is like winning a prize.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "And I'm so glad I found you",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is happy to have found the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "girl\nYou're an angel in disguise",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The person is like an angel.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "And I'm so glad I found you\ngirl\nYou're an angel in disguise",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer is happy to have found the person, who is like an angel.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Looking in my mirror",
+            "Took me by surprise",
+            "I can't help but see you",
+            "Running often through my mind"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            4
+          ],
+          "end_words": [
+            "mirror",
+            "surprise",
+            "you",
+            "mind"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "surprise",
+              "word2": "mind",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Helpless like baby",
+            "Sensual disguise",
+            "I can't help but love you",
+            "It's getting better all the time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            2,
+            4,
+            5
+          ],
+          "end_words": [
+            "baby",
+            "disguise",
+            "you",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "disguise",
+              "word2": "time",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I can't help it if I wanted to",
+            "I wouldn't help it even if I could",
+            "I can't help it if I wanted to",
+            "I wouldn't help it"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            5,
+            5,
+            3
+          ],
+          "end_words": [
+            "to",
+            "could",
+            "to",
+            "it"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "to",
+              "word2": "to",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "no",
+            "Love to run my fingers",
+            "Softly while you sigh",
+            "Love came and possessed you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            3,
+            3,
+            4
+          ],
+          "end_words": [
+            "no",
+            "fingers",
+            "sigh",
+            "you"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Like trip to heaven",
+            "Heaven is the prize",
+            "And I'm so glad I found you",
+            "girl"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            4,
+            1
+          ],
+          "end_words": [
+            "heaven",
+            "prize",
+            "you",
+            "girl"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "You're an angel in disguise",
+            "And I'm so glad I found you",
+            "girl",
+            "You're an angel in disguise"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            4,
+            1,
+            3
+          ],
+          "end_words": [
+            "disguise",
+            "you",
+            "girl",
+            "disguise"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "disguise",
+              "word2": "disguise",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 24
+    }
+  }
+}

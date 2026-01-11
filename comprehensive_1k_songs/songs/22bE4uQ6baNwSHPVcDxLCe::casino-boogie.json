@@ -1,0 +1,562 @@
+{
+  "song_id": "22bE4uQ6baNwSHPVcDxLCe::casino-boogie",
+  "title": "Casino boogie",
+  "artist": "The Rolling Stones",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\n( )\nNo good, can't speak, wound up, no sleep.\nSky diver insider her, skip rope, stunt flyer.\nWounded lover, got no time on hand.\nOne last cycle, thrill freak Uncle Sam.\nPause for bus'ness, hope you'll understand.\nJudge and jury walk out hand in hand.,\nDietrich movies, close up boogies,\nKissing cunt in Cannes.\nGrotesque music, million dollar sad.\nGot no tactics, got no time on hand.\nLeft shoe shuffle, right shoe muffle,\nSinking in the sand.\nFade out freedom, steaming heat on,\nWatch that hat in black.\nFinger twitching, got no time on hand.",
+  "cleaned_lyrics": "No good\ncan't speak\nwound up\nno sleep.\nSky diver insider her\nskip rope\nstunt flyer.\nWounded lover\ngot no time on hand.\nOne last cycle\nthrill freak Uncle Sam.\nPause for bus'ness\nhope you'll understand.\nJudge and jury walk out hand in hand.\nDietrich movies\nclose up boogies\nKissing cunt in Cannes.\nGrotesque music\nmillion dollar sad.\nGot no tactics\ngot no time on hand.\nLeft shoe shuffle\nright shoe muffle\nSinking in the sand.\nFade out freedom\nsteaming heat on\nWatch that hat in black.\nFinger twitching\ngot no time on hand.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 17,
+    "cleaned_lines": 29,
+    "removed_count": 1,
+    "retention_rate": 1.7058823529411764,
+    "removal_reasons": {
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "original_lyric": "No good\ncan't speak\nwound up\nno sleep.",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts with feeling bad and unable to do anything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7
+          ],
+          "original_lyric": "Sky diver insider her\nskip rope\nstunt flyer.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "excitement",
+          "eli5_simplification": "Things are getting a little crazy and dangerous.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10
+          ],
+          "original_lyric": "Wounded lover\ngot no time on hand.\nOne last cycle",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Someone is hurt and running out of time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "thrill freak Uncle Sam.\nPause for bus'ness",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "More crazy things are happening, maybe involving someone in charge.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "hope you'll understand.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Hoping things will be understood.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Judge and jury walk out hand in hand.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The people in charge are leaving together.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16,
+            17
+          ],
+          "original_lyric": "Dietrich movies\nclose up boogies\nKissing cunt in Cannes.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Things are getting more intense.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "Grotesque music\nmillion dollar sad.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "The music is bad and makes you sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "Got no tactics\ngot no time on hand.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "No plan and running out of time.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22,
+            23,
+            24
+          ],
+          "original_lyric": "Left shoe shuffle\nright shoe muffle\nSinking in the sand.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Things are getting worse.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26,
+            27
+          ],
+          "original_lyric": "Fade out freedom\nsteaming heat on\nWatch that hat in black.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "Freedom is fading, things are getting hot, and someone is watching.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28,
+            29,
+            30
+          ],
+          "original_lyric": "Finger twitching\ngot no time on hand.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Nerves are on edge and time is running out.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 30,
+        "covered_lines": 30,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 30,
+      "covered_lines": 30,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "No good",
+            "can't speak",
+            "wound up",
+            "no sleep."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "good",
+            "speak",
+            "up",
+            "sleep"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "speak",
+              "word2": "sleep",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (IY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Sky diver insider her",
+            "skip rope",
+            "stunt flyer.",
+            "Wounded lover"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "her",
+            "rope",
+            "flyer",
+            "lover"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "got no time on hand.",
+            "One last cycle",
+            "thrill freak Uncle Sam.",
+            "Pause for bus'ness"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            3,
+            4,
+            2
+          ],
+          "end_words": [
+            "hand",
+            "cycle",
+            "sam",
+            "bus'ness"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "hand",
+              "word2": "sam",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "hope you'll understand.",
+            "Judge and jury walk out hand in hand.",
+            "Dietrich movies",
+            "close up boogies"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            6,
+            2,
+            3
+          ],
+          "end_words": [
+            "understand",
+            "hand",
+            "movies",
+            "boogies"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "understand",
+              "word2": "hand",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Kissing cunt in Cannes.",
+            "Grotesque music",
+            "million dollar sad.",
+            "Got no tactics"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            3
+          ],
+          "end_words": [
+            "cannes",
+            "music",
+            "sad",
+            "tactics"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "cannes",
+              "word2": "sad",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "sad",
+              "word2": "tactics",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "got no time on hand.",
+            "Left shoe shuffle",
+            "right shoe muffle",
+            "Sinking in the sand."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "hand",
+            "shuffle",
+            "muffle",
+            "sand"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "hand",
+              "word2": "sand",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "shuffle",
+              "word2": "muffle",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Fade out freedom",
+            "steaming heat on",
+            "Watch that hat in black.",
+            "Finger twitching"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "freedom",
+            "on",
+            "black",
+            "twitching"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "got no time on hand."
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "hand"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 29
+    }
+  }
+}

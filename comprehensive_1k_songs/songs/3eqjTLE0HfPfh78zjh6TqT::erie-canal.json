@@ -1,0 +1,413 @@
+{
+  "song_id": "3eqjTLE0HfPfh78zjh6TqT::erie-canal",
+  "title": "Erie Canal",
+  "artist": "Bruce Springsteen",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nI've got mule and her name is Sal,\n15 miles on the Erie Canal\nShe's good old worker and good old pal,\n15 miles on the Erie Canal\nWe've hauled some barges in our day\nfilled with lumber, coal and hay\nAnd we know every inch of the way from Albany to Buffalo.\nLow bridge, everybody down\nLow bridge, we're coming to town\nYou'll always know your neighbor, you'll always know your pal\nIf you've ever navigated on the Erie Canal.\nLow bridge, everybody down\nLow bridge for we're coming to town\nYou'll always know your neighbor, you'll always know your pal\nIf you've ever navigated on the Erie Canal.",
+  "cleaned_lyrics": "I've got mule and her name is Sal\n15 miles on the Erie Canal\nShe's good old worker and good old pal\n15 miles on the Erie Canal\nWe've hauled some barges in our day\nfilled with lumber\ncoal and hay\nAnd we know every inch of the way from Albany to Buffalo.\nLow bridge\neverybody down\nLow bridge\nwe're coming to town\nYou'll always know your neighbor\nyou'll always know your pal\nIf you've ever navigated on the Erie Canal.\nLow bridge\neverybody down\nLow bridge for we're coming to town\nYou'll always know your neighbor\nyou'll always know your pal\nIf you've ever navigated on the Erie Canal.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 16,
+    "cleaned_lines": 21,
+    "removed_count": 1,
+    "retention_rate": 1.3125,
+    "removal_reasons": {
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            4
+          ],
+          "original_lyric": "I've got mule and her name is Sal\n15 miles on the Erie Canal\n15 miles on the Erie Canal",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song introduces the singer's mule, Sal, and talks about traveling on the Erie Canal.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "She's good old worker and good old pal",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer describes Sal as a good worker and friend.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7
+          ],
+          "original_lyric": "We've hauled some barges in our day\nfilled with lumber\ncoal and hay\nAnd we know every inch of the way from Albany to Buffalo.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The singer talks about the work they've done hauling barges on the canal.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "original_lyric": "Low bridge\neverybody down\nLow bridge\nwe're coming to town\nYou'll always know your neighbor\nyou'll always know your pal\nIf you've ever navigated on the Erie Canal.\nLow bridge\neverybody down\nLow bridge for we're coming to town\nYou'll always know your neighbor\nyou'll always know your pal\nIf you've ever navigated on the Erie Canal.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "belonging",
+          "eli5_simplification": "The song repeats the chorus about the low bridge and the sense of community on the canal.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I've got mule and her name is Sal",
+            "15 miles on the Erie Canal",
+            "She's good old worker and good old pal",
+            "15 miles on the Erie Canal"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            5,
+            3,
+            7,
+            3
+          ],
+          "end_words": [
+            "sal",
+            "canal",
+            "pal",
+            "canal"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "sal",
+              "word2": "canal",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "canal",
+              "word2": "pal",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "pal",
+              "word2": "canal",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "We've hauled some barges in our day",
+            "filled with lumber",
+            "coal and hay",
+            "And we know every inch of the way from Albany to Buffalo."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            5,
+            2,
+            2,
+            6
+          ],
+          "end_words": [
+            "day",
+            "lumber",
+            "hay",
+            "buffalo"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "day",
+              "word2": "hay",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "lumber",
+              "word2": "buffalo",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Low bridge",
+            "everybody down",
+            "Low bridge",
+            "we're coming to town"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            2,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "bridge",
+            "down",
+            "bridge",
+            "town"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "bridge",
+              "word2": "bridge",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "down",
+              "word2": "town",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "You'll always know your neighbor",
+            "you'll always know your pal",
+            "If you've ever navigated on the Erie Canal.",
+            "Low bridge"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            4,
+            7,
+            2
+          ],
+          "end_words": [
+            "neighbor",
+            "pal",
+            "canal",
+            "bridge"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "pal",
+              "word2": "canal",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "everybody down",
+            "Low bridge for we're coming to town",
+            "You'll always know your neighbor",
+            "you'll always know your pal"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            5,
+            4,
+            4
+          ],
+          "end_words": [
+            "down",
+            "town",
+            "neighbor",
+            "pal"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "down",
+              "word2": "town",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "If you've ever navigated on the Erie Canal."
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            7
+          ],
+          "end_words": [
+            "canal"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 21
+    }
+  }
+}

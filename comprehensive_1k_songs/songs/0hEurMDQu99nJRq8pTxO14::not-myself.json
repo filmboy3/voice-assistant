@@ -1,0 +1,379 @@
+{
+  "song_id": "0hEurMDQu99nJRq8pTxO14::not-myself",
+  "title": "Not Myself",
+  "artist": "John Mayer",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nSuppose I said\n+/9\nI on my best behavior\nAnd there are times\n+/9 +\nI lose my worried mind\nWould you want me when I'm not myself?\nWait it out while I someone else?\nSuppose I said\n+/9\n\n[chorus]\nAnd words will go\n+/9 +\nFrom poetry to prose\nWould you want me when I'm not myself?\nWait it out while I someone else?\nAnd I,\n\n[intro]\nI al.....ways do for you\nSOLO: (# +/9 ) 4x\nSuppose I said\n+/9 +\nYou're my saving grace?\nWould you...",
+  "cleaned_lyrics": "Suppose I said\nI on my best behavior\nAnd there are times\nI lose my worried mind\nWould you want me when I'm not myself?\nWait it out while I someone else?\nSuppose I said\nAnd words will go\nFrom poetry to prose\nWould you want me when I'm not myself?\nWait it out while I someone else?\nAnd I\nSuppose I said\nYou're my saving grace?\nWould you...",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 27,
+    "cleaned_lines": 15,
+    "removed_count": 10,
+    "retention_rate": 0.6,
+    "removal_reasons": {
+      "excessive_punctuation": 1,
+      "low_letter_ratio": 5,
+      "section_marker": 3,
+      "caps_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Suppose I said\nI on my best behavior",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Imagine I told you something, and I'm trying to be good.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "And there are times\nI lose my worried mind",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Sometimes I get scared and worried.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Would you want me when I'm not myself?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Would you still like me when I'm not acting like myself?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Wait it out while I someone else?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Would you wait for me while I become someone different?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Suppose I said\nAnd words will go",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Imagine I told you something, and the words will change.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "From poetry to prose",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The words will change from fancy to normal.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "Would you want me when I'm not myself?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Would you still like me when I'm not acting like myself?",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Wait it out while I someone else?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Would you wait for me while I become someone different?",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "And I",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "And me...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Suppose I said",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Imagine I told you something.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "You're my saving grace?",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "You are the most important person to me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Would you...",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Would you...",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 15,
+        "covered_lines": 15,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 15,
+      "covered_lines": 15,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Suppose I said",
+            "I on my best behavior",
+            "And there are times",
+            "I lose my worried mind"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            3
+          ],
+          "end_words": [
+            "said",
+            "behavior",
+            "times",
+            "mind"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "times",
+              "word2": "mind",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Would you want me when I'm not myself?",
+            "Wait it out while I someone else?",
+            "Suppose I said",
+            "And words will go"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            5,
+            5,
+            2,
+            2
+          ],
+          "end_words": [
+            "myself",
+            "else",
+            "said",
+            "go"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "myself",
+              "word2": "else",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "else",
+              "word2": "said",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "From poetry to prose",
+            "Would you want me when I'm not myself?",
+            "Wait it out while I someone else?",
+            "And I"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            5,
+            5,
+            1
+          ],
+          "end_words": [
+            "prose",
+            "myself",
+            "else",
+            "i"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "myself",
+              "word2": "else",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Suppose I said",
+            "You're my saving grace?",
+            "Would you..."
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            3,
+            1
+          ],
+          "end_words": [
+            "said",
+            "grace",
+            "you"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 15
+    }
+  }
+}

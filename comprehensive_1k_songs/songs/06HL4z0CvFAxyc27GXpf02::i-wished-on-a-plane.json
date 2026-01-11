@@ -1,0 +1,802 @@
+{
+  "song_id": "06HL4z0CvFAxyc27GXpf02::i-wished-on-a-plane",
+  "title": "I Wished On A Plane",
+  "artist": "Taylor Swift",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThrowing pennies at the fountain\nWhen you?re standing on mountain\nIt?s kinda hard to aim\nLike the tree we carved our names in\nThere must be an explanation\nI guess it didn?t get enough rain\nI need reasons why you?re leaving\nWell I guess I wished on plane\nI thought was star\nI guess what you wrote on paper\nWasn?t written on your heart\n\n[chorus]\nI guess I heard you wrong\nAnd I guess I wished on plane\nI thought was star\nDiving off into the deep end\nHonestly believed you? be there\nWhen I jumped in\nGuess it ain?t your territory\nWe had the perfect love story\nExcept the ending\nNothing comes true when it comes to you\nWell I guess I wished on plane\nI thought was star\nI guess what you wrote on paper\nWasn?t written on your heart\n\n[chorus]\nI guess I heard you wrong\nAnd I guess I wished on plane\nI thought was star\nThe night was so cloudy\nIt?s not my fault\nI just couldn?t see\nWell I guess I wished on plane\nI thought was star\nI guess what you wrote on paper\nWasn?t written on your heart\n\n[chorus]\nI guess I heard you wrong\nAnd I guess I wished on plane\nI thought was star\nThrowing pennies at the fountain\nWhen you?re standing on mountain\nIt?s kinda hard to aim",
+  "cleaned_lyrics": "Throwing pennies at the fountain\nWhen you?re standing on mountain\nIt?s kinda hard to aim\nLike the tree we carved our names in\nThere must be an explanation\nI guess it didn?t get enough rain\nI need reasons why you?re leaving\nWell I guess I wished on plane\nI thought was star\nI guess what you wrote on paper\nWasn?t written on your heart\nI guess I heard you wrong\nAnd I guess I wished on plane\nI thought was star\nDiving off into the deep end\nHonestly believed you? be there\nWhen I jumped in\nGuess it ain?t your territory\nWe had the perfect love story\nExcept the ending\nNothing comes true when it comes to you\nWell I guess I wished on plane\nI thought was star\nI guess what you wrote on paper\nWasn?t written on your heart\nI guess I heard you wrong\nAnd I guess I wished on plane\nI thought was star\nThe night was so cloudy\nIt?s not my fault\nI just couldn?t see\nWell I guess I wished on plane\nI thought was star\nI guess what you wrote on paper\nWasn?t written on your heart\nI guess I heard you wrong\nAnd I guess I wished on plane\nI thought was star\nThrowing pennies at the fountain\nWhen you?re standing on mountain\nIt?s kinda hard to aim",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 48,
+    "cleaned_lines": 41,
+    "removed_count": 4,
+    "retention_rate": 0.9111111111111111,
+    "removal_reasons": {
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Throwing pennies at the fountain\nWhen you?re standing on mountain",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is remembering a past moment, setting the scene.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "It?s kinda hard to aim",
+          "plot_function": "SETUP",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's difficult to achieve something.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "Like the tree we carved our names in",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Reminiscing about a shared memory.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "There must be an explanation\nI guess it didn?t get enough rain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is looking for a reason for the situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "I need reasons why you?re leaving",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer wants to know why the person is leaving.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            12,
+            17,
+            21,
+            25,
+            29
+          ],
+          "original_lyric": "Well I guess I wished on plane\nI thought was star",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer realizes a wish didn't come true.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9,
+            18,
+            22,
+            26,
+            30
+          ],
+          "original_lyric": "I guess what you wrote on paper\nWasn?t written on your heart",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "The singer realizes the other person's words weren't sincere.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10,
+            19,
+            23,
+            27,
+            31
+          ],
+          "original_lyric": "I guess I heard you wrong",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer thinks they misunderstood the situation.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11,
+            13
+          ],
+          "original_lyric": "And I guess I wished on plane\nI thought was star",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer realizes a wish didn't come true.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Diving off into the deep end",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Taking a risk.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Honestly believed you? be there",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Believing the other person would be there.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "When I jumped in",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Taking the leap.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Guess it ain?t your territory",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "Realizing the other person wasn't invested.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "We had the perfect love story",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Remembering a past relationship.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "Except the ending",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The relationship didn't last.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "Nothing comes true when it comes to you",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "disappointment",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Realizing the other person's words weren't sincere.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33
+          ],
+          "original_lyric": "The night was so cloudy",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is reflecting on the situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34
+          ],
+          "original_lyric": "It?s not my fault",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "defensiveness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is trying to find a reason.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35
+          ],
+          "original_lyric": "I just couldn?t see",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is reflecting on the situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            36,
+            37
+          ],
+          "original_lyric": "Throwing pennies at the fountain\nWhen you?re standing on mountain",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is remembering a past moment, setting the scene.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            38
+          ],
+          "original_lyric": "It?s kinda hard to aim",
+          "plot_function": "SETUP",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's difficult to achieve something.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 38,
+        "covered_lines": 38,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 38,
+      "covered_lines": 38,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Throwing pennies at the fountain",
+            "When you?re standing on mountain",
+            "It?s kinda hard to aim",
+            "Like the tree we carved our names in"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            5
+          ],
+          "end_words": [
+            "fountain",
+            "mountain",
+            "aim",
+            "in"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "fountain",
+              "word2": "mountain",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "There must be an explanation",
+            "I guess it didn?t get enough rain",
+            "I need reasons why you?re leaving",
+            "Well I guess I wished on plane"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            6,
+            5,
+            4
+          ],
+          "end_words": [
+            "explanation",
+            "rain",
+            "leaving",
+            "plane"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "explanation",
+              "word2": "rain",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "rain",
+              "word2": "plane",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I thought was star",
+            "I guess what you wrote on paper",
+            "Wasn?t written on your heart",
+            "I guess I heard you wrong"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "star",
+            "paper",
+            "heart",
+            "wrong"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "star",
+              "word2": "heart",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AA), one word removes post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "And I guess I wished on plane",
+            "I thought was star",
+            "Diving off into the deep end",
+            "Honestly believed you? be there"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            2,
+            5,
+            3
+          ],
+          "end_words": [
+            "plane",
+            "star",
+            "end",
+            "there"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "end",
+              "word2": "there",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "When I jumped in",
+            "Guess it ain?t your territory",
+            "We had the perfect love story",
+            "Except the ending"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            2
+          ],
+          "end_words": [
+            "in",
+            "territory",
+            "story",
+            "ending"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "territory",
+              "word2": "ending",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Nothing comes true when it comes to you",
+            "Well I guess I wished on plane",
+            "I thought was star",
+            "I guess what you wrote on paper"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            6,
+            4,
+            2,
+            4
+          ],
+          "end_words": [
+            "you",
+            "plane",
+            "star",
+            "paper"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "plane",
+              "word2": "paper",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Wasn?t written on your heart",
+            "I guess I heard you wrong",
+            "And I guess I wished on plane",
+            "I thought was star"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "heart",
+            "wrong",
+            "plane",
+            "star"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "heart",
+              "word2": "star",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AA), one word adds post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "The night was so cloudy",
+            "It?s not my fault",
+            "I just couldn?t see",
+            "Well I guess I wished on plane"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "cloudy",
+            "fault",
+            "see",
+            "plane"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "I thought was star",
+            "I guess what you wrote on paper",
+            "Wasn?t written on your heart",
+            "I guess I heard you wrong"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "star",
+            "paper",
+            "heart",
+            "wrong"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "star",
+              "word2": "heart",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AA), one word removes post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "And I guess I wished on plane",
+            "I thought was star",
+            "Throwing pennies at the fountain",
+            "When you?re standing on mountain"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            4
+          ],
+          "end_words": [
+            "plane",
+            "star",
+            "fountain",
+            "mountain"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "fountain",
+              "word2": "mountain",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "It?s kinda hard to aim"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "aim"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 11,
+      "total_lines": 41
+    }
+  }
+}

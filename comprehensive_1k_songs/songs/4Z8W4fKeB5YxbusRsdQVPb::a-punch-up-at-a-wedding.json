@@ -1,0 +1,299 @@
+{
+  "song_id": "4Z8W4fKeB5YxbusRsdQVPb::a-punch-up-at-a-wedding",
+  "title": "A Punch-up At A Wedding",
+  "artist": "Radiohead",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI don't know why you bother\nNothing's ever good enough for you (by the way)\nI was there and it wasn't like that\nYou have come here just to start fight\nYou had to piss on our parade\nYou had to shred our big day\nYou had to ruin it for all concerned\n\n[intro]\nHypocrite opportunist\nDon't infect me with your poison\n\n[bridge]\nWhen I turn around you stay frozen to the spot\nYou had the pointless snide remarks\nOf hammerheaded sharks\nThe pot will call the kettle black\nIt's drunken punch-up at wedding",
+  "cleaned_lyrics": "I don't know why you bother\nI was there and it wasn't like that\nYou have come here just to start fight\nYou had to piss on our parade\nYou had to shred our big day\nYou had to ruin it for all concerned\nHypocrite opportunist\nDon't infect me with your poison\nWhen I turn around you stay frozen to the spot\nYou had the pointless snide remarks\nOf hammerheaded sharks\nThe pot will call the kettle black\nIt's drunken punch-up at wedding",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 19,
+    "cleaned_lines": 13,
+    "removed_count": 4,
+    "retention_rate": 0.7647058823529411,
+    "removal_reasons": {
+      "section_marker": 3,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I don't know why you bother\nI was there and it wasn't like that",
+          "plot_function": "SETUP",
+          "emotion_primary": "confusion",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "The singer is confused why someone is acting this way, and says it wasn't like that before.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "original_lyric": "You have come here just to start fight\nYou had to piss on our parade\nYou had to shred our big day\nYou had to ruin it for all concerned",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "resentment",
+          "eli5_simplification": "The singer is angry because someone came to cause trouble and ruin the celebration.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Hypocrite opportunist\nDon't infect me with your poison",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "disgust",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer calls the person a hypocrite and wants them to stop their bad influence.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "When I turn around you stay frozen to the spot",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "annoyance",
+          "eli5_simplification": "The singer is frustrated because the person is still there.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "You had the pointless snide remarks\nOf hammerheaded sharks",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "contempt",
+          "eli5_simplification": "The singer describes the person's mean comments.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "The pot will call the kettle black",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sarcasm",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "The singer is being sarcastic.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "It's drunken punch-up at wedding",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "The singer is describing the fight at the wedding.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 13,
+        "covered_lines": 13,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 13,
+      "covered_lines": 13,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I don't know why you bother",
+            "I was there and it wasn't like that",
+            "You have come here just to start fight",
+            "You had to piss on our parade"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "bother",
+            "that",
+            "fight",
+            "parade"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "You had to shred our big day",
+            "You had to ruin it for all concerned",
+            "Hypocrite opportunist",
+            "Don't infect me with your poison"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            2,
+            3
+          ],
+          "end_words": [
+            "day",
+            "concerned",
+            "opportunist",
+            "poison"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "When I turn around you stay frozen to the spot",
+            "You had the pointless snide remarks",
+            "Of hammerheaded sharks",
+            "The pot will call the kettle black"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            6,
+            4,
+            2,
+            4
+          ],
+          "end_words": [
+            "spot",
+            "remarks",
+            "sharks",
+            "black"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "spot",
+              "word2": "remarks",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AA), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "remarks",
+              "word2": "sharks",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "It's drunken punch-up at wedding"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            5
+          ],
+          "end_words": [
+            "wedding"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 13
+    }
+  }
+}

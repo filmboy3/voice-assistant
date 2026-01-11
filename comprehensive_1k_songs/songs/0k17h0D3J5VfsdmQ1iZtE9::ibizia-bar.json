@@ -1,0 +1,345 @@
+{
+  "song_id": "0k17h0D3J5VfsdmQ1iZtE9::ibizia-bar",
+  "title": "Ibizia Bar",
+  "artist": "Pink Floyd",
+  "genre": "unknown",
+  "original_lyrics": "[bridge]\nIBIZA BAR\nIm so afraid of the mistakes that I made\nshaking every time that I awake\nI feel like cardboard cut-out man\n\n[bridge]\nand the story line is kind\nIve aged and aged since the first page\nI read every line that you wrote\ntake me down take me down shelf above your head\nand build me time when the charters ryme\nand the story line is kind\n{solo here}\nI live in the left on the shelf like the rest\nand the epilogue reads like sad song\nplease pick up your camera and use me again\n\n[bridge]\nand the story line is kind.",
+  "cleaned_lyrics": "IBIZA BAR\nIm so afraid of the mistakes that I made\nshaking every time that I awake\nI feel like cardboard cut-out man\nand the story line is kind\nIve aged and aged since the first page\nI read every line that you wrote\ntake me down take me down shelf above your head\nand build me time when the charters ryme\nand the story line is kind\nI live in the left on the shelf like the rest\nand the epilogue reads like sad song\nplease pick up your camera and use me again\nand the story line is kind.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 20,
+    "cleaned_lines": 14,
+    "removed_count": 4,
+    "retention_rate": 0.7777777777777778,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Im so afraid of the mistakes that I made\nshaking every time that I awake",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer is scared and feels bad about things they did.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "I feel like cardboard cut-out man",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer feels like they are not real.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            10,
+            14
+          ],
+          "original_lyric": "and the story line is kind",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The story is nice.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Ive aged and aged since the first page",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer has grown old since the beginning.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "I read every line that you wrote",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer read everything someone else wrote.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "take me down take me down shelf above your head",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "The singer wants to be taken down from the shelf.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "and build me time when the charters ryme",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to be part of something that rhymes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "and the story line is kind",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The story is nice.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "I live in the left on the shelf like the rest",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "The singer feels left behind.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "and the epilogue reads like sad song",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The end of the story is sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "please pick up your camera and use me again",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer wants to be used again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "and the story line is kind.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The story is nice.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 14,
+        "covered_lines": 14,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 14,
+      "covered_lines": 14,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "IBIZA BAR",
+            "Im so afraid of the mistakes that I made",
+            "shaking every time that I awake",
+            "I feel like cardboard cut-out man"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            6
+          ],
+          "end_words": [
+            "bar",
+            "made",
+            "awake",
+            "man"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "made",
+              "word2": "awake",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "and the story line is kind",
+            "Ive aged and aged since the first page",
+            "I read every line that you wrote",
+            "take me down take me down shelf above your head"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            6,
+            4,
+            6
+          ],
+          "end_words": [
+            "kind",
+            "page",
+            "wrote",
+            "head"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "and build me time when the charters ryme",
+            "and the story line is kind",
+            "I live in the left on the shelf like the rest",
+            "and the epilogue reads like sad song"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            3,
+            5,
+            5
+          ],
+          "end_words": [
+            "ryme",
+            "kind",
+            "rest",
+            "song"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "please pick up your camera and use me again",
+            "and the story line is kind."
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            6,
+            3
+          ],
+          "end_words": [
+            "again",
+            "kind"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 14
+    }
+  }
+}

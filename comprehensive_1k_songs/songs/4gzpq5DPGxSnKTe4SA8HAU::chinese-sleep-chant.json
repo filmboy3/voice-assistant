@@ -1,0 +1,591 @@
+{
+  "song_id": "4gzpq5DPGxSnKTe4SA8HAU::chinese-sleep-chant",
+  "title": "Chinese Sleep Chant",
+  "artist": "Coldplay",
+  "genre": "unknown",
+  "original_lyrics": "[bridge]\nDb7sus4 madd11\nDb7sus4 madd11\n\n[bridge]\nDb7sus4 madd11\nDb7sus4 madd11\n\n[bridge]\nFall asleep\n\n[bridge]\nFall asleep\nDb7sus4 madd11\nSleep satisfied\nDb7sus4 madd11\nSleep satisfied\n\n[bridge]\nFall asleep\n\n[bridge]\nFall asleep\nDb7sus4 madd11\nSleep satisfied\nDb7sus4 madd11\nSleep satisfied\n\n[chorus]\nSleep\nSleep\nDb7sus4 madd11\nSleep\nDb7sus4 madd11\n\n[verse]\nSleep\nSleep\nDb7sus4 madd11\nSleep satisfied\nDb7sus4 madd11\nSleep satisfied\n\n[bridge]\nFall asleep\n\n[bridge]\nFall asleep\nDb7sus4 madd11\nSleep satisfied\nDb7sus4 madd11\nSleep satisfied\n\n[bridge]\nFall asleep\n\n[bridge]\nFall asleep\nDb7sus4 madd11\nSleep satisfied\nDb7sus4 madd11\nSleep satisfied\n\n[chorus]\nSleep\nSleep\nDb7sus4 madd11\nSleep\nDb7sus4 madd11\n\n[bridge]\nFall asleep\n\n[bridge]\nFall asleep\nDb7sus4 madd11\nSleep satisfied\nDb7sus4 madd11\nSleep satisfied",
+  "cleaned_lyrics": "Fall asleep\nFall asleep\nSleep satisfied\nSleep satisfied\nFall asleep\nFall asleep\nSleep satisfied\nSleep satisfied\nSleep\nSleep\nSleep\nSleep\nSleep\nSleep satisfied\nSleep satisfied\nFall asleep\nFall asleep\nSleep satisfied\nSleep satisfied\nFall asleep\nFall asleep\nSleep satisfied\nSleep satisfied\nSleep\nSleep\nSleep\nFall asleep\nFall asleep\nSleep satisfied\nSleep satisfied",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 79,
+    "cleaned_lines": 30,
+    "removed_count": 35,
+    "retention_rate": 0.46153846153846156,
+    "removal_reasons": {
+      "section_marker": 15,
+      "chord_line": 20
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            5,
+            6,
+            17,
+            18,
+            21,
+            22,
+            29,
+            30
+          ],
+          "original_lyric": "Fall asleep",
+          "plot_function": "SETUP",
+          "emotion_primary": "calm",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's time to close your eyes and go to sleep.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            3,
+            4,
+            7,
+            8,
+            15,
+            16,
+            19,
+            20,
+            31,
+            32
+          ],
+          "original_lyric": "Sleep satisfied",
+          "plot_function": "SETUP",
+          "emotion_primary": "calm",
+          "emotion_secondary": "contentment",
+          "eli5_simplification": "You're sleeping well and feeling good.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            27,
+            28
+          ],
+          "original_lyric": "Sleep",
+          "plot_function": "SETUP",
+          "emotion_primary": "calm",
+          "emotion_secondary": null,
+          "eli5_simplification": "Just sleep.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Fall asleep",
+          "plot_function": "SETUP",
+          "emotion_primary": "calm",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's time to close your eyes and go to sleep.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "Sleep satisfied",
+          "plot_function": "SETUP",
+          "emotion_primary": "calm",
+          "emotion_secondary": "contentment",
+          "eli5_simplification": "You're sleeping well and feeling good.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 32,
+        "covered_lines": 32,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 32,
+      "covered_lines": 32,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Fall asleep",
+            "Fall asleep",
+            "Sleep satisfied",
+            "Sleep satisfied"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "asleep",
+            "asleep",
+            "satisfied",
+            "satisfied"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "asleep",
+              "word2": "asleep",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "satisfied",
+              "word2": "satisfied",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Fall asleep",
+            "Fall asleep",
+            "Sleep satisfied",
+            "Sleep satisfied"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "asleep",
+            "asleep",
+            "satisfied",
+            "satisfied"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "asleep",
+              "word2": "asleep",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "satisfied",
+              "word2": "satisfied",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Sleep",
+            "Sleep",
+            "Sleep",
+            "Sleep"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "end_words": [
+            "sleep",
+            "sleep",
+            "sleep",
+            "sleep"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "sleep",
+              "word2": "sleep",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "sleep",
+              "word2": "sleep",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "sleep",
+              "word2": "sleep",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Sleep",
+            "Sleep satisfied",
+            "Sleep satisfied",
+            "Fall asleep"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "sleep",
+            "satisfied",
+            "satisfied",
+            "asleep"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "sleep",
+              "word2": "asleep",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "satisfied",
+              "word2": "satisfied",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Fall asleep",
+            "Sleep satisfied",
+            "Sleep satisfied",
+            "Fall asleep"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "asleep",
+            "satisfied",
+            "satisfied",
+            "asleep"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "asleep",
+              "word2": "asleep",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "satisfied",
+              "word2": "satisfied",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Fall asleep",
+            "Sleep satisfied",
+            "Sleep satisfied",
+            "Sleep"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "end_words": [
+            "asleep",
+            "satisfied",
+            "satisfied",
+            "sleep"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "asleep",
+              "word2": "sleep",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "satisfied",
+              "word2": "satisfied",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Sleep",
+            "Sleep",
+            "Fall asleep",
+            "Fall asleep"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "end_words": [
+            "sleep",
+            "sleep",
+            "asleep",
+            "asleep"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "sleep",
+              "word2": "sleep",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "sleep",
+              "word2": "asleep",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "asleep",
+              "word2": "asleep",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Sleep satisfied",
+            "Sleep satisfied"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            2,
+            2
+          ],
+          "end_words": [
+            "satisfied",
+            "satisfied"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "satisfied",
+              "word2": "satisfied",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "chorus",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "chorus",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "line_count": 2,
+          "stability": 1.0
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 30
+    }
+  }
+}

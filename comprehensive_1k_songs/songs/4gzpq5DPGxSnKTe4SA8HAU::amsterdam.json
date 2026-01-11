@@ -1,0 +1,921 @@
+{
+  "song_id": "4gzpq5DPGxSnKTe4SA8HAU::amsterdam",
+  "title": "Amsterdam",
+  "artist": "Coldplay",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\n(sounds more original! but try ...)\n\n[intro]\n1. Come on, oh, my star is fading, and I swerve out of control.\nIf I, if I' only waited, I' not be stuck here in this hole.\n- - - corrections repeated in other verses\n2. Come here, oh my star is fading, and I swerve out of control.\nAnd I swear I waited and waited, I've got to get out of this hole.\n\n[bridge]\nnot pushing you down and all around, it's no cause for concern.\n3. Come on, oh my star is fading, and I see no chance of release,\nand I know, I'm dead on the surface, but I screaming underneath.\nAnd time is on your side, it's on your side now,\nnot pushing you down, and all around,\nno, it's no cause for concern.\nStuck on the end of this ball and chain,\nand I'm on my way back down again.\nStood on bridge, tied to the noose, sick to the sto?mach.\nYou can say what you mean, but it won't change thing,\nI'm sick of the secrets.\nStood on the edge, tied to noose,\nyou came along and you cut me loose.\nYou came along and you cut me loose.\nYou came along and you cut me loose.",
+  "cleaned_lyrics": "1. Come on\noh\nmy star is fading\nand I swerve out of control.\nIf I\nif I' only waited\nI' not be stuck here in this hole.\n- - - corrections repeated in other verses\n2. Come here\noh my star is fading\nand I swerve out of control.\nAnd I swear I waited and waited\nI've got to get out of this hole.\nnot pushing you down and all around\nit's no cause for concern.\n3. Come on\noh my star is fading\nand I see no chance of release\nand I know\nI'm dead on the surface\nbut I screaming underneath.\nAnd time is on your side\nit's on your side now\nnot pushing you down\nand all around\nno\nit's no cause for concern.\nStuck on the end of this ball and chain\nand I'm on my way back down again.\nStood on bridge\ntied to the noose\nsick to the sto?mach.\nYou can say what you mean\nbut it won't change thing\nI'm sick of the secrets.\nStood on the edge\ntied to noose\nyou came along and you cut me loose.\nYou came along and you cut me loose.\nYou came along and you cut me loose.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 26,
+    "cleaned_lines": 40,
+    "removed_count": 4,
+    "retention_rate": 1.6666666666666667,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Come on",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts with a call to action.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "oh my star is fading",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer feels like something important is disappearing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "and I swerve out of control.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer feels out of control.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "If I if I only waited",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is thinking about what could have been.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "I' not be stuck here in this hole.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer wishes they weren't in a bad situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Come here",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Another call to action.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "oh my star is fading",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer feels like something important is disappearing.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "and I swerve out of control.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer feels out of control.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "And I swear I waited and waited",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is thinking about waiting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "I've got to get out of this hole.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer wants to escape their bad situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "not pushing you down and all around",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is trying to be positive.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "it's no cause for concern.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is trying to reassure themselves.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Come on",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Another call to action.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "oh my star is fading",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer feels like something important is disappearing.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "and I see no chance of release",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer feels trapped.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "and I know",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is aware of their situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "I'm dead on the surface",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer feels numb.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "but I screaming underneath.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer is feeling angry and trapped.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "And time is on your side",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is trying to be positive.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "it's on your side now",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is trying to be positive.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "not pushing you down",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is trying to be positive.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "and all around",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is trying to be positive.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "no",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is feeling negative.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "it's no cause for concern.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is trying to reassure themselves.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "Stuck on the end of this ball and chain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer feels trapped.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "and I'm on my way back down again.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer feels like they are failing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "Stood on bridge",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is at a low point.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "tied to the noose",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is at a low point.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "sick to the sto?mach.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is at a low point.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "You can say what you mean",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is feeling hopeless.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "but it won't change thing",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is feeling hopeless.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "I'm sick of the secrets.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is feeling angry.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33
+          ],
+          "original_lyric": "Stood on the edge",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is at a low point.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34
+          ],
+          "original_lyric": "tied to noose",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is at a low point.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35
+          ],
+          "original_lyric": "you came along and you cut me loose.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "Someone helped the singer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            36
+          ],
+          "original_lyric": "You came along and you cut me loose.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "Someone helped the singer.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            37
+          ],
+          "original_lyric": "You came along and you cut me loose.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "Someone helped the singer.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          {
+            "line_numbers": [
+              35,
+              36,
+              37
+            ],
+            "shift_type": "you"
+          }
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 37,
+        "covered_lines": 37,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        {
+          "line_numbers": [
+            35,
+            36,
+            37
+          ],
+          "shift_type": "you"
+        }
+      ]
+    },
+    "coverage": {
+      "total_lines": 37,
+      "covered_lines": 37,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "1. Come on",
+            "oh",
+            "my star is fading",
+            "and I swerve out of control."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            1,
+            2,
+            3
+          ],
+          "end_words": [
+            "on",
+            "oh",
+            "fading",
+            "control"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "oh",
+              "word2": "control",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "If I",
+            "if I' only waited",
+            "I' not be stuck here in this hole.",
+            "- - - corrections repeated in other verses"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "i",
+            "waited",
+            "hole",
+            "verses"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "2. Come here",
+            "oh my star is fading",
+            "and I swerve out of control.",
+            "And I swear I waited and waited"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "here",
+            "fading",
+            "control",
+            "waited"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "fading",
+              "word2": "waited",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I've got to get out of this hole.",
+            "not pushing you down and all around",
+            "it's no cause for concern.",
+            "3. Come on"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            5,
+            4,
+            2
+          ],
+          "end_words": [
+            "hole",
+            "around",
+            "concern",
+            "on"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "oh my star is fading",
+            "and I see no chance of release",
+            "and I know",
+            "I'm dead on the surface"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            1,
+            3
+          ],
+          "end_words": [
+            "fading",
+            "release",
+            "know",
+            "surface"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "but I screaming underneath.",
+            "And time is on your side",
+            "it's on your side now",
+            "not pushing you down"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            3
+          ],
+          "end_words": [
+            "underneath",
+            "side",
+            "now",
+            "down"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "now",
+              "word2": "down",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "and all around",
+            "no",
+            "it's no cause for concern.",
+            "Stuck on the end of this ball and chain"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            1,
+            4,
+            4
+          ],
+          "end_words": [
+            "around",
+            "no",
+            "concern",
+            "chain"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "and I'm on my way back down again.",
+            "Stood on bridge",
+            "tied to the noose",
+            "sick to the sto?mach."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            2,
+            2,
+            3
+          ],
+          "end_words": [
+            "again",
+            "bridge",
+            "noose",
+            "mach"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "You can say what you mean",
+            "but it won't change thing",
+            "I'm sick of the secrets.",
+            "Stood on the edge"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "mean",
+            "thing",
+            "secrets",
+            "edge"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "mean",
+              "word2": "secrets",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "tied to noose",
+            "you came along and you cut me loose.",
+            "You came along and you cut me loose.",
+            "You came along and you cut me loose."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            2,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "noose",
+            "loose",
+            "loose",
+            "loose"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "noose",
+              "word2": "loose",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "loose",
+              "word2": "loose",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "loose",
+              "word2": "loose",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        }
+      ],
+      "total_stanzas": 10,
+      "total_lines": 40
+    }
+  }
+}

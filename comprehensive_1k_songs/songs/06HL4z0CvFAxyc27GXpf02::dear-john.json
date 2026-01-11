@@ -1,0 +1,925 @@
+{
+  "song_id": "06HL4z0CvFAxyc27GXpf02::dear-john",
+  "title": "Dear John",
+  "artist": "Taylor Swift",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\n(intro 2x)\nLong were the nights when my days once revolved around you\n\n[chorus]\nMy mother accused me of losing my mind\n\n[bridge]\nYou paint me blue sky and go back and turn it to rain\nAnd I lived in your chess game but you changed the rules every day\nWonderin' which version of you I might get on the phone, tonight.\nWell I stopped pickin' up and this song is to let you know why\nDear John, I see it all now that you're gone.\nDon't you think I was too young to be messed with?\nThe girl in the dress cried the whole way home.\nI shoulda known.\nWell maybe it's me and my blind optimism to blame.\nMaybe it's you and your sick need to give love then take it away.\nAnd you'll add my name to your long list of traitors\nWho don't understand.\nAnd I'll look back in regret how I ignored when they said\n\"Run as fast as you can.\"\nDear John, I see it all now that you're gone.\nDon't you think I was too young to be messed with?\nThe girl in the dress cried the whole way home.\nDear John, I see it all now it was wrong.\nDon't you think nineteen's too young to be played by your dark twisted games\nWhen I loved you so?\nI shoulda known.\nYou are an expert at sorry\nAnd keeping lines blurry\nAnd never impressed by me acing your tests\nAll the girls that you run dry\nHave tired lifeless eyes\n'Cause you burned them out\n\n[bridge]\nSo don't look now\nI'm shining like fireworks\nOver your sad empty town\nDear John, I see it all now that you're gone.\nDon't you think I was too young to be messed with?\nThe girl in the dress cried the whole way home.\nI see it all now that you're gone.\nDon't you think I was too young to be messed with?\nThe girl in the dress wrote you song.\nYou shoulda known.\nYou shoulda known.\nDon't you think I was too young?\nYou shoulda known.",
+  "cleaned_lyrics": "Long were the nights when\nmy days once revolved around you\nMy mother accused me of losing my mind\nYou paint me blue sky and go back and turn it to rain\nAnd I lived in your chess game but you changed the rules every day\nWonderin' which version of you I might get on the phone\ntonight.\nWell I stopped pickin' up and this\nsong is to let you know why\nDear John\nI see it all now that you're gone.\nDon't you think I was too young to be messed with?\nThe girl in the dress cried the whole way home.\nI shoulda known.\nWell maybe it's me and my blind optimism to blame.\nMaybe it's you and your sick need\nto give love then take it away.\nAnd you'll add my name to your long list of traitors\nWho don't understand.\nAnd I'll look back in regret\nhow I ignored when they said\n\"Run as fast as you can.\"\nDear John\nI see it all now that you're gone.\nDon't you think I was too young to be messed with?\nThe girl in the dress cried the whole way home.\nDear John\nI see it all now it was wrong.\nWhen I loved you so?\nI shoulda known.\nYou are an expert at sorry\nAnd keeping lines blurry\nAll the girls that you run dry\nHave tired lifeless eyes\n'Cause you burned them out\nSo don't look now\nI'm shining like fireworks\nOver your sad empty town\nDear John\nI see it all now that you're gone.\nDon't you think I was too young to be messed with?\nThe girl in the dress cried the whole way home.\nI see it all now that you're gone.\nDon't you think I was too young to be messed with?\nThe girl in the dress wrote you song.\nYou shoulda known.\nYou shoulda known.\nDon't you think I was too young?\nYou shoulda known.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 50,
+    "cleaned_lines": 49,
+    "removed_count": 7,
+    "retention_rate": 1.0425531914893618,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "section_marker": 4,
+      "credits_metadata": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Long were the nights when\nmy days once revolved around you",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is remembering a time when she was very focused on someone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "My mother accused me of losing my mind",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Her mom thought she was acting crazy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "You paint me blue sky and go back and turn it to rain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The person she's singing about was nice then mean.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "And I lived in your chess game but you changed the rules every day",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "She felt like she was playing a game with someone who kept changing the rules.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Wonderin' which version of you I might get on the phone\ntonight.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anxiety",
+          "eli5_simplification": "She was worried about what the person would be like when they talked.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Well I stopped pickin' up and this\nsong is to let you know why",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "relief",
+          "eli5_simplification": "She stopped answering the phone and is now explaining why.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            22,
+            36,
+            40
+          ],
+          "original_lyric": "Dear John\nI see it all now that you're gone.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "relief",
+          "eli5_simplification": "She's saying goodbye and realizing things.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10,
+            23,
+            37,
+            41
+          ],
+          "original_lyric": "Don't you think I was too young to be messed with?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "She feels she was too young to be treated badly.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11,
+            24,
+            38
+          ],
+          "original_lyric": "The girl in the dress cried the whole way home.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "She was very sad.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12,
+            18
+          ],
+          "original_lyric": "I shoulda known.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "She should have known better.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Well maybe it's me and my blind optimism to blame.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "Maybe she was too hopeful.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "Maybe it's you and your sick need\nto give love then take it away.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "She blames the other person for being mean.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "And you'll add my name to your long list of traitors",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "She thinks she'll be added to a list of people he's hurt.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "Who don't understand.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "People who don't understand.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "And I'll look back in regret\nhow I ignored when they said",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "She regrets not listening to advice.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "\"Run as fast as you can.\"",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "She should have run away.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "Dear John\nI see it all now it was wrong.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "relief",
+          "eli5_simplification": "She's saying goodbye and realizing things.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "When I loved you so?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "She wonders why she loved him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "I shoulda known.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "She should have known better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28,
+            29
+          ],
+          "original_lyric": "You are an expert at sorry\nAnd keeping lines blurry",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "She's calling him out for being insincere.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30,
+            31
+          ],
+          "original_lyric": "All the girls that you run dry\nHave tired lifeless eyes",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "She's saying he hurts other girls.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "'Cause you burned them out",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "He burned them out.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33,
+            34
+          ],
+          "original_lyric": "So don't look now\nI'm shining like fireworks",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "relief",
+          "eli5_simplification": "She's doing well now.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35
+          ],
+          "original_lyric": "Over your sad empty town",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "relief",
+          "eli5_simplification": "She's doing well now.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            39
+          ],
+          "original_lyric": "The girl in the dress wrote you song.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "She wrote a song about him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            42,
+            43
+          ],
+          "original_lyric": "You shoulda known.\nYou shoulda known.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "He should have known better.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            44
+          ],
+          "original_lyric": "Don't you think I was too young?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "She feels she was too young.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            45
+          ],
+          "original_lyric": "You shoulda known.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "He should have known better.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 45,
+        "covered_lines": 45,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 45,
+      "covered_lines": 45,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Long were the nights when",
+            "my days once revolved around you",
+            "My mother accused me of losing my mind",
+            "You paint me blue sky and go back and turn it to rain"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            5,
+            4,
+            7
+          ],
+          "end_words": [
+            "when",
+            "you",
+            "mind",
+            "rain"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "And I lived in your chess game but you changed the rules every day",
+            "Wonderin' which version of you I might get on the phone",
+            "tonight.",
+            "Well I stopped pickin' up and this"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            7,
+            4,
+            1,
+            5
+          ],
+          "end_words": [
+            "day",
+            "phone",
+            "tonight",
+            "this"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "song is to let you know why",
+            "Dear John",
+            "I see it all now that you're gone.",
+            "Don't you think I was too young to be messed with?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            2,
+            5,
+            6
+          ],
+          "end_words": [
+            "why",
+            "john",
+            "gone",
+            "with"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "The girl in the dress cried the whole way home.",
+            "I shoulda known.",
+            "Well maybe it's me and my blind optimism to blame.",
+            "Maybe it's you and your sick need"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            2,
+            6,
+            4
+          ],
+          "end_words": [
+            "home",
+            "known",
+            "blame",
+            "need"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "home",
+              "word2": "known",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (OW), post-consonants in same family"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "to give love then take it away.",
+            "And you'll add my name to your long list of traitors",
+            "Who don't understand.",
+            "And I'll look back in regret"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            6,
+            3,
+            4
+          ],
+          "end_words": [
+            "away",
+            "traitors",
+            "understand",
+            "regret"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "away",
+              "word2": "traitors",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "how I ignored when they said",
+            "\"Run as fast as you can.\"",
+            "Dear John",
+            "I see it all now that you're gone."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            3,
+            2,
+            5
+          ],
+          "end_words": [
+            "said",
+            "can",
+            "john",
+            "gone"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Don't you think I was too young to be messed with?",
+            "The girl in the dress cried the whole way home.",
+            "Dear John",
+            "I see it all now it was wrong."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            6,
+            2,
+            4
+          ],
+          "end_words": [
+            "with",
+            "home",
+            "john",
+            "wrong"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "When I loved you so?",
+            "I shoulda known.",
+            "You are an expert at sorry",
+            "And keeping lines blurry"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            2,
+            2,
+            3
+          ],
+          "end_words": [
+            "so",
+            "known",
+            "sorry",
+            "blurry"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "so",
+              "word2": "known",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "All the girls that you run dry",
+            "Have tired lifeless eyes",
+            "'Cause you burned them out",
+            "So don't look now"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "dry",
+            "eyes",
+            "out",
+            "now"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "dry",
+              "word2": "eyes",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "out",
+              "word2": "now",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "I'm shining like fireworks",
+            "Over your sad empty town",
+            "Dear John",
+            "I see it all now that you're gone."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            2,
+            5
+          ],
+          "end_words": [
+            "fireworks",
+            "town",
+            "john",
+            "gone"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "Don't you think I was too young to be messed with?",
+            "The girl in the dress cried the whole way home.",
+            "I see it all now that you're gone.",
+            "Don't you think I was too young to be messed with?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            6,
+            6,
+            5,
+            6
+          ],
+          "end_words": [
+            "with",
+            "home",
+            "gone",
+            "with"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "with",
+              "word2": "with",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 12,
+          "lines": [
+            "The girl in the dress wrote you song.",
+            "You shoulda known.",
+            "You shoulda known.",
+            "Don't you think I was too young?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            2,
+            2,
+            4
+          ],
+          "end_words": [
+            "song",
+            "known",
+            "known",
+            "young"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "known",
+              "word2": "known",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 13,
+          "lines": [
+            "You shoulda known."
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2
+          ],
+          "end_words": [
+            "known"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 12,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 13,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 13,
+      "total_lines": 49
+    }
+  }
+}

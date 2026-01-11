@@ -1,0 +1,987 @@
+{
+  "song_id": "74ASZWbe4lXaubB36ztrGX::tell-me",
+  "title": "Tell Me",
+  "artist": "Bob Dylan",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nTell me, I've got to know.\nTell me, tell me before I go.\nDoes that fire still burn? Does that flame still glow?\nOr has it died out and melted like the snow.\nTell me. Tell me.\nTell me, what are you focused upon?\nTell me, will it come to me after you're gone?\nTell me now with glance on the side.\nShall I hold you close or let you go by?\nTell me. Tell me.\nIs that the heat and the beat of your pulse that I feel?\nIf it's not that, then what is it that you're trying to conceal?\nDo you have any secrets that will only come out in time?\nDo you lie in your bed do you stare at the stars?\nIs your main friend someone who's an old acquaintance of ours?\nTell me. Yes, tell me.\nTell me, are those rock 'n' roll dreams in your eyes?\nTell me behind what door your treasure lies.\nEver gone broke in big way?\nEver done the opposite of what the experts say?\nTell me. Tell me.\nIs it some kind of game that you're playin' with my heart\nHow deep must I go, where do I start?\nDo you have any morals? Do you have any point of view?\nIs that smile that I see on your face?\nWill it lead me to glory or lead me to disgrace?\nTell me. Tell me.\nTell me, is that my name in your book?\nTell me, will you go back and take another look?\nTell me the truth, don't tell me no lies.\nAre you anybody, someone, prays for, or cries?\nTell me. Tell me.",
+  "cleaned_lyrics": "Tell me\nI've got to know.\nTell me\ntell me before I go.\nDoes that fire still burn? Does that flame still glow?\nOr has it died out and melted like the snow.\nTell me. Tell me.\nTell me\nwhat are you focused upon?\nTell me\nwill it come to me after you're gone?\nTell me now with glance on the side.\nShall I hold you close or let you go by?\nTell me. Tell me.\nIs that the heat and the beat of your pulse that I feel?\nIf it's not that\nthen what is it that you're trying to conceal?\nDo you have any secrets that will only come out in time?\nDo you lie in your bed do you stare at the stars?\nIs your main friend someone who's an old acquaintance of ours?\nTell me. Yes\ntell me.\nTell me\nare those rock 'n' roll dreams in your eyes?\nTell me behind what door your treasure lies.\nEver gone broke in big way?\nEver done the opposite of what the experts say?\nTell me. Tell me.\nIs it some kind of game that you're playin' with my heart\nHow deep must I go\nwhere do I start?\nDo you have any morals? Do you have any point of view?\nIs that smile that I see on your face?\nWill it lead me to glory or lead me to disgrace?\nTell me. Tell me.\nTell me\nis that my name in your book?\nTell me\nwill you go back and take another look?\nTell me the truth\ndon't tell me no lies.\nAre you anybody\nsomeone\nprays for\nor cries?\nTell me. Tell me.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 33,
+    "cleaned_lines": 46,
+    "removed_count": 1,
+    "retention_rate": 1.393939393939394,
+    "removal_reasons": {
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Tell me\nI've got to know.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to know something important.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Tell me\ntell me before I go.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to know before they leave.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Does that fire still burn? Does that flame still glow?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Is the love still there?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Or has it died out and melted like the snow.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Or has the love disappeared?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Tell me. Tell me.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to know.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "Tell me\nwhat are you focused upon?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "What is the other person thinking about?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "Tell me\nwill it come to me after you're gone?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Will the singer still be remembered?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Tell me now with glance on the side.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to know now.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Shall I hold you close or let you go by?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Should the singer stay or leave?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Tell me. Tell me.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to know.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Is that the heat and the beat of your pulse that I feel?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Is the singer feeling the other person's emotions?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "If it's not that",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "If it's not love...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "then what is it that you're trying to conceal?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "What is the other person hiding?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Do you have any secrets that will only come out in time?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Does the other person have secrets?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Do you lie in your bed do you stare at the stars?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "What does the other person do?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Is your main friend someone who's an old acquaintance of ours?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Is the other person with someone else?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "Tell me. Yes\ntell me.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to know.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Tell me\nare those rock 'n' roll dreams in your eyes?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "What is the other person dreaming of?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "Tell me behind what door your treasure lies.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Where is the other person's happiness?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "Ever gone broke in big way?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Has the other person failed?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "Ever done the opposite of what the experts say?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Has the other person taken risks?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "Tell me. Tell me.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to know.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "Is it some kind of game that you're playin' with my heart",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "Is the other person toying with the singer's feelings?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "How deep must I go",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "How far should the singer go?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "where do I start?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Where should the singer begin?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "Do you have any morals? Do you have any point of view?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Does the other person have values?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33
+          ],
+          "original_lyric": "Is that smile that I see on your face?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Is the other person happy?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34
+          ],
+          "original_lyric": "Will it lead me to glory or lead me to disgrace?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Will the relationship be good or bad?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35
+          ],
+          "original_lyric": "Tell me. Tell me.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to know.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            36,
+            37
+          ],
+          "original_lyric": "Tell me\nis that my name in your book?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Does the other person care?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            38,
+            39
+          ],
+          "original_lyric": "Tell me\nwill you go back and take another look?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Will the other person reconsider?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            40
+          ],
+          "original_lyric": "Tell me the truth\ndon't tell me no lies.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants the truth.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            41,
+            42,
+            43,
+            44
+          ],
+          "original_lyric": "Are you anybody\nsomeone\nprays for\nor cries?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Is the other person important to anyone?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            45
+          ],
+          "original_lyric": "Tell me. Tell me.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to know.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 45,
+        "covered_lines": 45,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 45,
+      "covered_lines": 45,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Tell me",
+            "I've got to know.",
+            "Tell me",
+            "tell me before I go."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            2,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "me",
+            "know",
+            "me",
+            "go"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "know",
+              "word2": "go",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Does that fire still burn? Does that flame still glow?",
+            "Or has it died out and melted like the snow.",
+            "Tell me. Tell me.",
+            "Tell me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            5,
+            4,
+            2
+          ],
+          "end_words": [
+            "glow",
+            "snow",
+            "me",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "glow",
+              "word2": "snow",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "what are you focused upon?",
+            "Tell me",
+            "will it come to me after you're gone?",
+            "Tell me now with glance on the side."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            4,
+            4
+          ],
+          "end_words": [
+            "upon",
+            "me",
+            "gone",
+            "side"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Shall I hold you close or let you go by?",
+            "Tell me. Tell me.",
+            "Is that the heat and the beat of your pulse that I feel?",
+            "If it's not that"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "by",
+            "me",
+            "feel",
+            "that"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "me",
+              "word2": "feel",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "then what is it that you're trying to conceal?",
+            "Do you have any secrets that will only come out in time?",
+            "Do you lie in your bed do you stare at the stars?",
+            "Is your main friend someone who's an old acquaintance of ours?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            6,
+            4,
+            7
+          ],
+          "end_words": [
+            "conceal",
+            "time",
+            "stars",
+            "ours"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Tell me. Yes",
+            "tell me.",
+            "Tell me",
+            "are those rock 'n' roll dreams in your eyes?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            5
+          ],
+          "end_words": [
+            "yes",
+            "me",
+            "me",
+            "eyes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Tell me behind what door your treasure lies.",
+            "Ever gone broke in big way?",
+            "Ever done the opposite of what the experts say?",
+            "Tell me. Tell me."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            6,
+            5,
+            6,
+            4
+          ],
+          "end_words": [
+            "lies",
+            "way",
+            "say",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "way",
+              "word2": "say",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Is it some kind of game that you're playin' with my heart",
+            "How deep must I go",
+            "where do I start?",
+            "Do you have any morals? Do you have any point of view?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            6,
+            3,
+            2,
+            5
+          ],
+          "end_words": [
+            "heart",
+            "go",
+            "start",
+            "view"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "heart",
+              "word2": "start",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "Is that smile that I see on your face?",
+            "Will it lead me to glory or lead me to disgrace?",
+            "Tell me. Tell me.",
+            "Tell me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            2
+          ],
+          "end_words": [
+            "face",
+            "disgrace",
+            "me",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "face",
+              "word2": "disgrace",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "is that my name in your book?",
+            "Tell me",
+            "will you go back and take another look?",
+            "Tell me the truth"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            2,
+            5,
+            2
+          ],
+          "end_words": [
+            "book",
+            "me",
+            "look",
+            "truth"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "book",
+              "word2": "look",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "don't tell me no lies.",
+            "Are you anybody",
+            "someone",
+            "prays for"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            2,
+            1,
+            2
+          ],
+          "end_words": [
+            "lies",
+            "anybody",
+            "someone",
+            "for"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 12,
+          "lines": [
+            "or cries?",
+            "Tell me. Tell me."
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            1,
+            4
+          ],
+          "end_words": [
+            "cries",
+            "me"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 12,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 12,
+      "total_lines": 46
+    }
+  }
+}

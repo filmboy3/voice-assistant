@@ -1,0 +1,477 @@
+{
+  "song_id": "4bthk9UfsYUYdcFyqxmSUU::swords-and-knives",
+  "title": "Swords And Knives",
+  "artist": "Tears For Fears",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nwaking world of innocence\nSo grave those first born cries\nWhen life begins with needles and pins\nIt ends with swords and knives\nOh danger man, oh danger man\nYour blade fits like glove\nWhen forged in steel\nTime cannot heal\nThat blood red bond of love\n\n[intro]\nWith the change in the way you look\nAnd it's sad love's not enough to make things better\nTurn the tables, we'll burn the fables\nLies beneath the visions and daydreams\nFooled by now, we mystify the past\nLike dream, like it never happened\nWhen life begins with needles and pins\nit ends with Swords and Knives\nGod save those born to die",
+  "cleaned_lyrics": "waking world of innocence\nSo grave those first born cries\nWhen life begins with needles and pins\nIt ends with swords and knives\nOh danger man\noh danger man\nYour blade fits like glove\nWhen forged in steel\nTime cannot heal\nThat blood red bond of love\nWith the change in the way you look\nAnd it's sad love's not\nenough to make things better\nTurn the tables\nwe'll burn the fables\nLies beneath the visions and daydreams\nFooled by now\nwe mystify the past\nLike dream\nlike it never happened\nWhen life begins with needles and pins\nit ends with Swords and Knives\nGod save those born to die",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 21,
+    "cleaned_lines": 23,
+    "removed_count": 2,
+    "retention_rate": 1.15,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "waking world of innocence\nSo grave those first born cries",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts by talking about how sad the world is when you are born.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "When life begins with needles and pins\nIt ends with swords and knives",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Life starts with small hurts (needles) and ends with big hurts (swords and knives).",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Oh danger man\noh danger man",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "Someone is being warned about danger.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Your blade fits like glove\nWhen forged in steel",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The danger man is good at hurting people.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "Time cannot heal\nThat blood red bond of love\nWith the change in the way you look",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Time doesn't fix the bad things that happen in love, and things are changing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13,
+            14
+          ],
+          "original_lyric": "And it's sad love's not\nenough to make things better\nTurn the tables",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "It's sad that love isn't enough to fix things, and now things are going to change.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "we'll burn the fables\nLies beneath the visions and daydreams",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "They are going to destroy the lies and false hopes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "Fooled by now\nwe mystify the past",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "They were tricked, and now they are making the past seem mysterious.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "Like dream\nlike it never happened",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "It's like a dream, like it never happened.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "When life begins with needles and pins\nit ends with Swords and Knives",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Life starts with small hurts and ends with big hurts.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "God save those born to die",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "A prayer for those who are going to die.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 23,
+        "covered_lines": 23,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 23,
+      "covered_lines": 23,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "waking world of innocence",
+            "So grave those first born cries",
+            "When life begins with needles and pins",
+            "It ends with swords and knives"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            3,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "innocence",
+            "cries",
+            "pins",
+            "knives"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "innocence",
+              "word2": "pins",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IH), one word removes post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "cries",
+              "word2": "knives",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Oh danger man",
+            "oh danger man",
+            "Your blade fits like glove",
+            "When forged in steel"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            3
+          ],
+          "end_words": [
+            "man",
+            "man",
+            "glove",
+            "steel"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "man",
+              "word2": "man",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Time cannot heal",
+            "That blood red bond of love",
+            "With the change in the way you look",
+            "And it's sad love's not"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            4
+          ],
+          "end_words": [
+            "heal",
+            "love",
+            "look",
+            "not"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "enough to make things better",
+            "Turn the tables",
+            "we'll burn the fables",
+            "Lies beneath the visions and daydreams"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4,
+            2,
+            3,
+            3
+          ],
+          "end_words": [
+            "better",
+            "tables",
+            "fables",
+            "daydreams"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "tables",
+              "word2": "fables",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "fables",
+              "word2": "daydreams",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Fooled by now",
+            "we mystify the past",
+            "Like dream",
+            "like it never happened"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            3
+          ],
+          "end_words": [
+            "now",
+            "past",
+            "dream",
+            "happened"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "past",
+              "word2": "happened",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "When life begins with needles and pins",
+            "it ends with Swords and Knives",
+            "God save those born to die"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XAA",
+          "raw_rhyme_scheme": "ABB",
+          "pattern": "3_ABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            3,
+            4
+          ],
+          "end_words": [
+            "pins",
+            "knives",
+            "die"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "knives",
+              "word2": "die",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAA",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 23
+    }
+  }
+}

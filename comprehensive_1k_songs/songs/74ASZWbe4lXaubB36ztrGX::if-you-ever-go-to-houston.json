@@ -1,0 +1,827 @@
+{
+  "song_id": "74ASZWbe4lXaubB36ztrGX::if-you-ever-go-to-houston",
+  "title": "If You Ever Go To Houston",
+  "artist": "Bob Dylan",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nIf you ever go to Houston\n\n[bridge]\nKeep your hands in your pockets\nAnd your gun belt tight\nIf you?re asking for trouble\nIf you?re looking for fight\nIf you ever go to Houston\n\n[bridge]\nIf you're ever down there\nOn back near Lamar\nYou better watch out for\nThe man with the shining star\n\n[bridge]\nOr stay where you are\nIf you?re ever down there\nOn back near Lamar\nWell I know these streets\nI?ve been here before\nI nearly got killed here\nDuring the Mexican War\nSomething always\nKeeps me coming back for more\nI know these streets\nI?ve been here before\nIf you ever go to Dallas\nSay hello to Mary Ann\nSay I?m still looking along the trigger\nHanging on the best I can\nIf you see her sister Lucy\nSay I?m sorry I?m not there\nTell her other sister Betsy\nto pray the sinner's prayer\nI got restless fever\n\n[bridge]\nGot to keep right forward,\n\n[chorus]\nThe same way I'll leave here\nwill be the way that I came\nGot restless fever\n\n[bridge]\nMister policeman,\n\n[chorus]\nLast time I saw her\nwas at the Magnolia Motel\nIf you help me find her,\nyou can be my pal\nMister policeman, can you help me\nfind my gal?\nIf you ever go to Austin,\nFort Worth or San Antone\nFind the barrooms I got lost\n\n[intro]\nPut my tears in bottle,\nscrew the top on tight\nIf you ever go to Houston,",
+  "cleaned_lyrics": "If you ever go to Houston\nKeep your hands in your pockets\nAnd your gun belt tight\nIf you?re asking for trouble\nIf you?re looking for fight\nIf you ever go to Houston\nIf you're ever down there\nOn back near Lamar\nYou better watch out for\nThe man with the shining star\nOr stay where you are\nIf you?re ever down there\nOn back near Lamar\nWell I know these streets\nI?ve been here before\nI nearly got killed here\nDuring the Mexican War\nSomething always\nKeeps me coming back for more\nI know these streets\nI?ve been here before\nIf you ever go to Dallas\nSay hello to Mary Ann\nSay I?m still looking along the trigger\nHanging on the best I can\nIf you see her sister Lucy\nSay I?m sorry I?m not there\nTell her other sister Betsy\nto pray the sinner's prayer\nI got restless fever\nGot to keep right forward\nThe same way I'll leave here\nwill be the way that I came\nGot restless fever\nMister policeman\nLast time I saw her\nwas at the Magnolia Motel\nIf you help me find her\nyou can be my pal\nMister policeman\ncan you help me\nfind my gal?\nIf you ever go to Austin\nFort Worth or San Antone\nFind the barrooms I got lost\nPut my tears in bottle\nscrew the top on tight\nIf you ever go to Houston",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 64,
+    "cleaned_lines": 48,
+    "removed_count": 9,
+    "retention_rate": 0.8571428571428571,
+    "removal_reasons": {
+      "section_marker": 9
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3
+          ],
+          "original_lyric": "If you ever go to Houston\nKeep your hands in your pockets\nAnd your gun belt tight",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you go to Houston, be careful and keep your hands safe.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "If you?re asking for trouble\nIf you?re looking for fight",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you want to get into trouble, you might get into a fight.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7,
+            8
+          ],
+          "original_lyric": "If you ever go to Houston\nIf you're ever down there\nOn back near Lamar",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you go to Houston, especially near Lamar street...",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "You better watch out for\nThe man with the shining star",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Watch out for the police.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Or stay where you are",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Or just stay where you are.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "If you?re ever down there\nOn back near Lamar",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you're ever in Houston, near Lamar...",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "Well I know these streets\nI?ve been here before",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "I know these streets, I've been here before.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "I nearly got killed here\nDuring the Mexican War",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "I almost died here during the war.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Something always\nKeeps me coming back for more",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Something keeps bringing me back.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "I know these streets\nI?ve been here before",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "I know these streets, I've been here before.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "If you ever go to Dallas\nSay hello to Mary Ann",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you go to Dallas, say hello to Mary Ann.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Say I?m still looking along the trigger\nHanging on the best I can",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Tell her I'm still trying my best.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "If you see her sister Lucy\nSay I?m sorry I?m not there",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "If you see Lucy, tell her I'm sorry I'm not there.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "Tell her other sister Betsy\nto pray the sinner's prayer",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Tell Betsy to pray for me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "I got restless fever\nGot to keep right forward",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I'm restless, I have to keep moving.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31,
+            32
+          ],
+          "original_lyric": "The same way I'll leave here\nwill be the way that I came",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "I'll leave the same way I came.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33,
+            34
+          ],
+          "original_lyric": "Got restless fever\nMister policeman",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I'm restless, Mister Policeman...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35,
+            36
+          ],
+          "original_lyric": "Last time I saw her\nwas at the Magnolia Motel",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "I last saw her at the motel.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            37,
+            38
+          ],
+          "original_lyric": "If you help me find her\nyou can be my pal",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you help me find her, you'll be my friend.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            39,
+            40
+          ],
+          "original_lyric": "Mister policeman\ncan you help me\nfind my gal?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Mister Policeman, can you help me find my girl?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            41,
+            42,
+            43
+          ],
+          "original_lyric": "If you ever go to Austin\nFort Worth or San Antone\nFind the barrooms I got lost",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "If you go to Austin, Fort Worth, or San Antonio, find the bars where I got lost.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            44,
+            45
+          ],
+          "original_lyric": "Put my tears in bottle\nscrew the top on tight",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Put my tears in a bottle and seal it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            46
+          ],
+          "original_lyric": "If you ever go to Houston",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you go to Houston...",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 46,
+        "covered_lines": 46,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 46,
+      "covered_lines": 46,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "If you ever go to Houston",
+            "Keep your hands in your pockets",
+            "And your gun belt tight",
+            "If you?re asking for trouble"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            4
+          ],
+          "end_words": [
+            "houston",
+            "pockets",
+            "tight",
+            "trouble"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "If you?re looking for fight",
+            "If you ever go to Houston",
+            "If you're ever down there",
+            "On back near Lamar"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "fight",
+            "houston",
+            "there",
+            "lamar"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "You better watch out for",
+            "The man with the shining star",
+            "Or stay where you are",
+            "If you?re ever down there"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            5
+          ],
+          "end_words": [
+            "for",
+            "star",
+            "are",
+            "there"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "star",
+              "word2": "are",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "On back near Lamar",
+            "Well I know these streets",
+            "I?ve been here before",
+            "I nearly got killed here"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            4
+          ],
+          "end_words": [
+            "lamar",
+            "streets",
+            "before",
+            "here"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "During the Mexican War",
+            "Something always",
+            "Keeps me coming back for more",
+            "I know these streets"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            2,
+            4,
+            2
+          ],
+          "end_words": [
+            "war",
+            "always",
+            "more",
+            "streets"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "war",
+              "word2": "more",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I?ve been here before",
+            "If you ever go to Dallas",
+            "Say hello to Mary Ann",
+            "Say I?m still looking along the trigger"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            6
+          ],
+          "end_words": [
+            "before",
+            "dallas",
+            "ann",
+            "trigger"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "dallas",
+              "word2": "ann",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Hanging on the best I can",
+            "If you see her sister Lucy",
+            "Say I?m sorry I?m not there",
+            "Tell her other sister Betsy"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "can",
+            "lucy",
+            "there",
+            "betsy"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "there",
+              "word2": "betsy",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "to pray the sinner's prayer",
+            "I got restless fever",
+            "Got to keep right forward",
+            "The same way I'll leave here"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            5
+          ],
+          "end_words": [
+            "prayer",
+            "fever",
+            "forward",
+            "here"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "will be the way that I came",
+            "Got restless fever",
+            "Mister policeman",
+            "Last time I saw her"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            3,
+            2,
+            4
+          ],
+          "end_words": [
+            "came",
+            "fever",
+            "policeman",
+            "her"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "fever",
+              "word2": "policeman",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "was at the Magnolia Motel",
+            "If you help me find her",
+            "you can be my pal",
+            "Mister policeman"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            4,
+            1,
+            2
+          ],
+          "end_words": [
+            "motel",
+            "her",
+            "pal",
+            "policeman"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "can you help me",
+            "find my gal?",
+            "If you ever go to Austin",
+            "Fort Worth or San Antone"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            4
+          ],
+          "end_words": [
+            "me",
+            "gal",
+            "austin",
+            "antone"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 12,
+          "lines": [
+            "Find the barrooms I got lost",
+            "Put my tears in bottle",
+            "screw the top on tight",
+            "If you ever go to Houston"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            4
+          ],
+          "end_words": [
+            "lost",
+            "bottle",
+            "tight",
+            "houston"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 12,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        }
+      ],
+      "total_stanzas": 12,
+      "total_lines": 48
+    }
+  }
+}

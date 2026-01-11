@@ -1,0 +1,749 @@
+{
+  "song_id": "4YLtscXsxbVgi031ovDDdh::traveller",
+  "title": "Traveller",
+  "artist": "Chris Stapleton",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nThe intro riff is the same basic riff used throughout the song. Hammer on and off the string\non the chord (alternating between and ), and hammer on the string on the as soon\nas you make the chord, then hammer on and off on the string (alternating between and B7sus2).\nHere's the basic idea, as well as the weird way he plays the in the final line of each verse\n|-------2------0---------------------------2h3------3-----------------------------2------0---------------------------2h4------4-----------------------------2------2------------------------------------0----------------------|\n\n[verse]\nI see the sunrise creeping in\nEverything changes like the desert wind\nHere she comes and then she's gone again\n\n[chorus]\nI'm just traveller on this earth\nShut my heart behind the pocket of my shirt\nI just keep rolling till I'm in the dirt\nâ??Cause I'm traveller, oh, I'm traveller\nI couldn't tell you honey, I don't know\nWhere I'm going but I've got to go\nâ??Cause every turn reveals some other road\nAnd I'm traveller, oh, I'm traveller\n\n[verse]\nMy heartbeat's rhythm is lonesome sound\nJust like the rubber turning on the ground\nAlways lost and nowhere bound\n\n[bridge]\nWhen I'm gone\nSomebody else will have to feel this wrong\nSomebody else will have to sing this song\nSomebody else will have to sing along, sing along\n\n[chorus]\nIf you have any input or corrections, hit me up on Twitter and let me know\nif you have any songs you need help with. God bless!",
+  "cleaned_lyrics": "The intro riff is the same basic riff used\nthroughout the song. Hammer on and off the string\non the chord (alternating between and )\nand hammer on the string on the as soon\nas you make the chord\nthen hammer on and off on the string (alternating between and B7sus2).\nHere's the basic idea\nas well as the weird way he plays\nthe in the final line of each verse\nI see the sunrise creeping in\nEverything changes like the desert wind\nHere she comes and then she's gone again\nI'm just traveller on this earth\nShut my heart behind the pocket of my shirt\nI just keep rolling till I'm in the dirt\nâ??Cause I'm traveller\noh\nI'm traveller\nI couldn't tell you honey\nI don't know\nWhere I'm going but I've got to go\nâ??Cause every turn reveals some other road\nAnd I'm traveller\noh\nI'm traveller\nMy heartbeat's rhythm is lonesome sound\nJust like the rubber turning on the ground\nAlways lost and nowhere bound\nWhen I'm gone\nSomebody else will have to feel this wrong\nSomebody else will have to sing this song\nSomebody else will have to sing along\nsing along\nIf you have any input or corrections\nhit me up on Twitter and let me know\nif you have any songs you need help with. God bless!",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 36,
+    "cleaned_lines": 36,
+    "removed_count": 7,
+    "retention_rate": 1.1612903225806452,
+    "removal_reasons": {
+      "guitar_tab": 1,
+      "section_marker": 6
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3
+          ],
+          "original_lyric": "I see the sunrise creeping in\nEverything changes like the desert wind\nHere she comes and then she's gone again",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer sees the sunrise and things changing, like a woman who comes and goes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "I'm just traveller on this earth",
+          "plot_function": "SETUP",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is a traveler on Earth.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Shut my heart behind the pocket of my shirt",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer hides his feelings.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "I just keep rolling till I'm in the dirt",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "The singer keeps going until he dies.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "â??Cause I'm traveller",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Because I am a traveler.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "oh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "An expression of feeling.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "I'm traveller",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "I am a traveler.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "I couldn't tell you honey\nI don't know",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "uncertainty",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "The singer doesn't know where he's going.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Where I'm going but I've got to go",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "He has to keep moving.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "â??Cause every turn reveals some other road",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Every turn shows a new path.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "And I'm traveller",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "And I am a traveler.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "oh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "An expression of feeling.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "I'm traveller",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "I am a traveler.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "My heartbeat's rhythm is lonesome sound",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "His heartbeat sounds lonely.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Just like the rubber turning on the ground",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Like tires on the road, always moving.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Always lost and nowhere bound",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Always lost and with no destination.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "When I'm gone",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "When I am gone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Somebody else will have to feel this wrong",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Someone else will feel this pain.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "Somebody else will have to sing this song",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "reflection",
+          "eli5_simplification": "Someone else will sing this song.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Somebody else will have to sing along\nsing along",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "reflection",
+          "eli5_simplification": "Someone else will sing along.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 24,
+        "covered_lines": 24,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 24,
+      "covered_lines": 24,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "The intro riff is the same basic riff used",
+            "throughout the song. Hammer on and off the string",
+            "on the chord (alternating between and )",
+            "and hammer on the string on the as soon"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            6,
+            5,
+            4,
+            3
+          ],
+          "end_words": [
+            "used",
+            "string",
+            "and",
+            "soon"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "used",
+              "word2": "soon",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (UW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "as you make the chord",
+            "then hammer on and off on the string (alternating between and B7sus2).",
+            "Here's the basic idea",
+            "as well as the weird way he plays"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            7,
+            3,
+            4
+          ],
+          "end_words": [
+            "chord",
+            "sus",
+            "idea",
+            "plays"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "the in the final line of each verse",
+            "I see the sunrise creeping in",
+            "Everything changes like the desert wind",
+            "Here she comes and then she's gone again"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            4,
+            6,
+            5
+          ],
+          "end_words": [
+            "verse",
+            "in",
+            "wind",
+            "again"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "in",
+              "word2": "wind",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IH), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I'm just traveller on this earth",
+            "Shut my heart behind the pocket of my shirt",
+            "I just keep rolling till I'm in the dirt",
+            "â??Cause I'm traveller"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            4,
+            5,
+            6,
+            3
+          ],
+          "end_words": [
+            "earth",
+            "shirt",
+            "dirt",
+            "traveller"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "earth",
+              "word2": "shirt",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (ER), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "shirt",
+              "word2": "dirt",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (ER), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "oh",
+            "I'm traveller",
+            "I couldn't tell you honey",
+            "I don't know"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            1,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "oh",
+            "traveller",
+            "honey",
+            "know"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "oh",
+              "word2": "know",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Where I'm going but I've got to go",
+            "â??Cause every turn reveals some other road",
+            "And I'm traveller",
+            "oh"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            6,
+            7,
+            2,
+            1
+          ],
+          "end_words": [
+            "go",
+            "road",
+            "traveller",
+            "oh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "go",
+              "word2": "road",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word removes post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "go",
+              "word2": "oh",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "road",
+              "word2": "oh",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "I'm traveller",
+            "My heartbeat's rhythm is lonesome sound",
+            "Just like the rubber turning on the ground",
+            "Always lost and nowhere bound"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2,
+            4,
+            5,
+            4
+          ],
+          "end_words": [
+            "traveller",
+            "sound",
+            "ground",
+            "bound"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "sound",
+              "word2": "ground",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "ground",
+              "word2": "bound",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "When I'm gone",
+            "Somebody else will have to feel this wrong",
+            "Somebody else will have to sing this song",
+            "Somebody else will have to sing along"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            3,
+            5,
+            5,
+            5
+          ],
+          "end_words": [
+            "gone",
+            "wrong",
+            "song",
+            "along"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "gone",
+              "word2": "wrong",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AO), post-consonants in same family"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "wrong",
+              "word2": "song",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "song",
+              "word2": "along",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "sing along",
+            "If you have any input or corrections",
+            "hit me up on Twitter and let me know",
+            "if you have any songs you need help with. God bless!"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            4,
+            5,
+            7
+          ],
+          "end_words": [
+            "along",
+            "corrections",
+            "know",
+            "bless"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "corrections",
+              "word2": "bless",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 36
+    }
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "song_id": "3WrFJ7ztbogyGnTHbHJFl2::i-will",
+  "title": "I Will",
+  "artist": "The Beatles",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWho knows how long I've loved you\nYou know I love you still\nWill I wait lonely lifetime\nIf you want me to I will\nFor if I ever saw you\nI didn't catch your name\n\n[bridge]\nI will always feel the same\nLove you forever and forever\nLove you with all my heart\nLove you whenever we're together\nLove you when we're apart\nAnd when at last I find you\nYour song will fill the air\nSing it loud so I can hear you\nMake it easy to be near you\nFor the things you do endear you to me\nAh, you know I will\nI will\nhmmm...",
+  "cleaned_lyrics": "Who knows how long I've loved you\nYou know I love you still\nWill I wait lonely lifetime\nIf you want me to I will\nFor if I ever saw you\nI didn't catch your name\nI will always feel the same\nLove you forever and forever\nLove you with all my heart\nLove you whenever we're together\nLove you when we're apart\nAnd when at last I find you\nYour song will fill the air\nSing it loud so I can hear you\nMake it easy to be near you\nFor the things you do endear you to me\nAh\nyou know I will\nI will\nhmmm...",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 22,
+    "cleaned_lines": 20,
+    "removed_count": 2,
+    "retention_rate": 0.9523809523809523,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Who knows how long I've loved you\nYou know I love you still",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is saying they've loved someone for a long time and still do.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Will I wait lonely lifetime\nIf you want me to I will",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer is willing to wait a long time for the person they love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "For if I ever saw you\nI didn't catch your name",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer is saying they might have seen the person before but didn't get to know them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "I will always feel the same",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer will always love the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "Love you forever and forever\nLove you with all my heart\nLove you whenever we're together\nLove you when we're apart",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer repeats how much they love the person, no matter what.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "original_lyric": "And when at last I find you\nYour song will fill the air\nSing it loud so I can hear you\nMake it easy to be near you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer is looking forward to finding the person and wants to be close to them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "For the things you do endear you to me",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer loves the person because of their actions.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "Ah",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "An expression of feeling.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "you know I will",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reaffirms their love.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "I will",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reaffirms their love.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "hmmm...",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "An expression of feeling.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Who knows how long I've loved you",
+            "You know I love you still",
+            "Will I wait lonely lifetime",
+            "If you want me to I will"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            6,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "you",
+            "still",
+            "lifetime",
+            "will"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "still",
+              "word2": "will",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "For if I ever saw you",
+            "I didn't catch your name",
+            "I will always feel the same",
+            "Love you forever and forever"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "you",
+            "name",
+            "same",
+            "forever"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "name",
+              "word2": "same",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Love you with all my heart",
+            "Love you whenever we're together",
+            "Love you when we're apart",
+            "And when at last I find you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "heart",
+            "together",
+            "apart",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "heart",
+              "word2": "apart",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Your song will fill the air",
+            "Sing it loud so I can hear you",
+            "Make it easy to be near you",
+            "For the things you do endear you to me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "air",
+            "you",
+            "you",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "you",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Ah",
+            "you know I will",
+            "I will",
+            "hmmm..."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "end_words": [
+            "ah",
+            "will",
+            "will",
+            "hmmm"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "will",
+              "word2": "will",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 20
+    }
+  }
+}

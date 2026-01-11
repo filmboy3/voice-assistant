@@ -1,0 +1,263 @@
+{
+  "song_id": "5K4W6rqBFWDnAN6FQUkS6x::stronger",
+  "title": "Stronger",
+  "artist": "Kanye West",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\n{Intro}\n(Work it, make it, do it)\n(Makes us harder, better, faster, stronger)\n{Chorus}\nNow that don't kill me,\n(Work it harder make it better)\n\n[chorus]\n(Do it faster makes us stronger)\nI need you to hurry up now\n(More than ever, hour after hour)\n'Cause I can't wait much longer.\n(Work is never over)\nI know I got to be right now\n(Work it harder make it better)\n'Cause I can't get much wronger.\n(Do it faster makes us stronger)\nMan, I been waiting all night now,\n(More than ever, hour after hour)\nThat's how long I've been on ya.\n(Work it harder make it better)\nI need you right now,\n(Do it faster makes us stronger)\n(More than ever, hour after hour)\nI need you right now.",
+  "cleaned_lyrics": "Now that don't kill me\nI need you to hurry up now\n'Cause I can't wait much longer.\nI know I got to be right now\n'Cause I can't get much wronger.\nMan\nI been waiting all night now\nThat's how long I've been on ya.\nI need you right now\nI need you right now.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 26,
+    "cleaned_lines": 10,
+    "removed_count": 16,
+    "retention_rate": 0.4,
+    "removal_reasons": {
+      "artist_annotation": 14,
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Now that don't kill me",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker is saying something that doesn't hurt them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2,
+            3
+          ],
+          "original_lyric": "I need you to hurry up now\n'Cause I can't wait much longer.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker wants someone to come quickly because they are impatient.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "I know I got to be right now\n'Cause I can't get much wronger.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker knows they need to be correct now because they can't be more incorrect.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Man",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker is pausing to reflect.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "I been waiting all night now",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker has been waiting all night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "That's how long I've been on ya.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker has been focused on someone for a long time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "I need you right now\nI need you right now.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker really needs someone right now.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 10,
+        "covered_lines": 10,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 10,
+      "covered_lines": 10,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Now that don't kill me",
+            "I need you to hurry up now",
+            "'Cause I can't wait much longer.",
+            "I know I got to be right now"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            4,
+            5,
+            4
+          ],
+          "end_words": [
+            "me",
+            "now",
+            "longer",
+            "now"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "now",
+              "word2": "now",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "'Cause I can't get much wronger.",
+            "Man",
+            "I been waiting all night now",
+            "That's how long I've been on ya."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            1,
+            4,
+            4
+          ],
+          "end_words": [
+            "wronger",
+            "man",
+            "now",
+            "ya"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I need you right now",
+            "I need you right now."
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            3,
+            3
+          ],
+          "end_words": [
+            "now",
+            "now"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "now",
+              "word2": "now",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "line_count": 2,
+          "stability": 1.0
+        }
+      ],
+      "total_stanzas": 3,
+      "total_lines": 10
+    }
+  }
+}

@@ -1,0 +1,800 @@
+{
+  "song_id": "3PhoLpVuITZKcymswpck5b::candle-in-the-wind-original-version",
+  "title": "Candle In The Wind - Original Version",
+  "artist": "Elton John",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nGoodbye Norma Jean, though I never knew you at all\nYou had the grace to hold yourself while those around you crawled\nThey crawled out of the woodwork and they whispered into your brain\nThey sent you on treadmill and they made you change your name\nAnd it seems to me you lived your life\nLike candle in the wind\nNever knowing who to cling to when the rain set in\nAnd I would have liked to've known you but I was just kid\nYour candle burned out long before your legend ever did\n\n[verse]\nLoneliness was tough, the toughest role you ever played\nHollywood created superstar and pain was the price you paid\nAnd even when you died, oh, the press still hounded you\nAll the papers had to say was that Marilyn was found in the nude\nAnd it seems to me you lived your life\nLike candle in the wind\nNever knowing who to cling to when the rain set in\nAnd I would have liked to've known you but I was just kid\nYour candle burned out long before your legend ever did\n\n[verse]\nGoodbye Norma Jean, though I never knew you at all\nYou had the grace to hold yourself while those around you crawled\nGoodbye Norma Jean, from young man in the twenty second row\nWho sees you as something more than sexual, more than just our Marilyn Monroe\nAnd it seems to me you lived your life\nLike candle in the wind\nNever knowing who to cling to when the rain set in\nAnd I would have liked to've known you but I was just kid\nYour candle burned out long before your legend ever did",
+  "cleaned_lyrics": "Goodbye Norma Jean\nthough I never knew you at all\nYou had the grace to hold yourself while those around you crawled\nThey crawled out of the woodwork and they whispered into your brain\nThey sent you on treadmill and they made you change your name\nAnd it seems to me you lived your life\nLike candle in the wind\nNever knowing who to cling to when the rain set in\nAnd I would have liked to've known you but I was just kid\nYour candle burned out long\nbefore your legend ever did\nLoneliness was tough\nthe toughest role you ever played\nHollywood created superstar and pain was the price you paid\nAnd even when you died\noh\nthe press still hounded you\nAll the papers had to say was that Marilyn was found in the nude\nAnd it seems to me you lived your life\nLike candle in the wind\nNever knowing who to cling to when the rain set in\nAnd I would have liked to've known you but I was just kid\nYour candle burned out long\nbefore your legend ever did\nGoodbye Norma Jean\nthough I never knew you at all\nYou had the grace to hold yourself while those around you crawled\nGoodbye Norma Jean\nfrom young man in the twenty second row\nWho sees you as something more than sexual\nmore than just our Marilyn Monroe\nAnd it seems to me you lived your life\nLike candle in the wind\nNever knowing who to cling to when the rain set in\nAnd I would have liked to've known you but I was just kid\nYour candle burned out long\nbefore your legend ever did",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 32,
+    "cleaned_lines": 37,
+    "removed_count": 3,
+    "retention_rate": 1.2333333333333334,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Goodbye Norma Jean",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts by saying goodbye to someone named Norma Jean.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "though I never knew you at all",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer never met her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "You had the grace to hold yourself while those around you crawled",
+          "plot_function": "SETUP",
+          "emotion_primary": "admiration",
+          "emotion_secondary": null,
+          "eli5_simplification": "She was strong while others were not.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "They crawled out of the woodwork and they whispered into your brain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "Bad people influenced her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "They sent you on treadmill and they made you change your name",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "They made her change who she was.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            17,
+            28
+          ],
+          "original_lyric": "And it seems to me you lived your life",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer is reflecting on her life.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            7,
+            18,
+            29
+          ],
+          "original_lyric": "Like candle in the wind",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Her life was like a candle burning out.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            8,
+            19,
+            30
+          ],
+          "original_lyric": "Never knowing who to cling to when the rain set in",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "She didn't have anyone to help her.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9,
+            20,
+            31
+          ],
+          "original_lyric": "And I would have liked to've known you but I was just kid",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer wishes he knew her.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10,
+            21,
+            32
+          ],
+          "original_lyric": "Your candle burned out long",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "Her life ended too soon.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11,
+            22,
+            33
+          ],
+          "original_lyric": "before your legend ever did",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "Her fame outlasted her life.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Loneliness was tough",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "She was very lonely.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "the toughest role you ever played",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Being lonely was the hardest thing she did.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Hollywood created superstar and pain was the price you paid",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Hollywood made her famous, but it caused her pain.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "And even when you died",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "shock",
+          "eli5_simplification": "Even after she died...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "oh the press still hounded you",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The press still bothered her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "Goodbye Norma Jean",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts by saying goodbye to someone named Norma Jean.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "though I never knew you at all",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer never met her.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "You had the grace to hold yourself while those around you crawled",
+          "plot_function": "SETUP",
+          "emotion_primary": "admiration",
+          "emotion_secondary": null,
+          "eli5_simplification": "She was strong while others were not.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "Goodbye Norma Jean",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song ends by saying goodbye to Norma Jean.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "from young man in the twenty second row",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "respect",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is a young man.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34
+          ],
+          "original_lyric": "Who sees you as something more than sexual",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "respect",
+          "emotion_secondary": null,
+          "eli5_simplification": "He sees her as more than just a sex symbol.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35
+          ],
+          "original_lyric": "more than just our Marilyn Monroe",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "respect",
+          "emotion_secondary": null,
+          "eli5_simplification": "He sees her as more than just Marilyn Monroe.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 35,
+        "covered_lines": 35,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 35,
+      "covered_lines": 35,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Goodbye Norma Jean",
+            "though I never knew you at all",
+            "You had the grace to hold yourself while those around you crawled",
+            "They crawled out of the woodwork and they whispered into your brain"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            4,
+            7,
+            6
+          ],
+          "end_words": [
+            "jean",
+            "all",
+            "crawled",
+            "brain"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "all",
+              "word2": "crawled",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AO), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "They sent you on treadmill and they made you change your name",
+            "And it seems to me you lived your life",
+            "Like candle in the wind",
+            "Never knowing who to cling to when the rain set in"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            3,
+            3,
+            7
+          ],
+          "end_words": [
+            "name",
+            "life",
+            "wind",
+            "in"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "wind",
+              "word2": "in",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IH), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "And I would have liked to've known you but I was just kid",
+            "Your candle burned out long",
+            "before your legend ever did",
+            "Loneliness was tough"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            2
+          ],
+          "end_words": [
+            "kid",
+            "long",
+            "did",
+            "tough"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "kid",
+              "word2": "did",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "the toughest role you ever played",
+            "Hollywood created superstar and pain was the price you paid",
+            "And even when you died",
+            "oh"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            6,
+            3,
+            1
+          ],
+          "end_words": [
+            "played",
+            "paid",
+            "died",
+            "oh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "played",
+              "word2": "paid",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "the press still hounded you",
+            "All the papers had to say was that Marilyn was found in the nude",
+            "And it seems to me you lived your life",
+            "Like candle in the wind"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            7,
+            3,
+            3
+          ],
+          "end_words": [
+            "you",
+            "nude",
+            "life",
+            "wind"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "you",
+              "word2": "nude",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Never knowing who to cling to when the rain set in",
+            "And I would have liked to've known you but I was just kid",
+            "Your candle burned out long",
+            "before your legend ever did"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            7,
+            5,
+            4,
+            4
+          ],
+          "end_words": [
+            "in",
+            "kid",
+            "long",
+            "did"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "in",
+              "word2": "kid",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "kid",
+              "word2": "did",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Goodbye Norma Jean",
+            "though I never knew you at all",
+            "You had the grace to hold yourself while those around you crawled",
+            "Goodbye Norma Jean"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            3,
+            4,
+            7,
+            3
+          ],
+          "end_words": [
+            "jean",
+            "all",
+            "crawled",
+            "jean"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "jean",
+              "word2": "jean",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "all",
+              "word2": "crawled",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AO), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "from young man in the twenty second row",
+            "Who sees you as something more than sexual",
+            "more than just our Marilyn Monroe",
+            "And it seems to me you lived your life"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "row",
+            "sexual",
+            "monroe",
+            "life"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "row",
+              "word2": "monroe",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "Like candle in the wind",
+            "Never knowing who to cling to when the rain set in",
+            "And I would have liked to've known you but I was just kid",
+            "Your candle burned out long"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            3,
+            7,
+            5,
+            4
+          ],
+          "end_words": [
+            "wind",
+            "in",
+            "kid",
+            "long"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "wind",
+              "word2": "in",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IH), one word adds post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "in",
+              "word2": "kid",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "before your legend ever did"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "did"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "chorus",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 10,
+      "total_lines": 37
+    }
+  }
+}

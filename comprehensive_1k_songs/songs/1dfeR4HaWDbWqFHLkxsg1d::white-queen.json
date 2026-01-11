@@ -1,0 +1,729 @@
+{
+  "song_id": "1dfeR4HaWDbWqFHLkxsg1d::white-queen",
+  "title": "White Queen",
+  "artist": "Queen",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nSo sad her eyes\nSmiling dark eyes\nSo sad her eyes\nAs it began\nOn such breathless night as this\nUpon my brow the lightest kiss\nI walked alone\nAnd all around the air did say\nMy lady soon will stir this way\n\n[intro]\nThe white queen walks and\nThe night grows pale\nStars of lovingmess in her hair\nNeeding - unheard\nPleading - one word\nSo sad my eyes\nShe cannot see\nHow did thee fare, what have thee seen\nThe mother of the willow green\nI call her name\nAnd ?neath her window have I stayed\nI loved the footsteps that she made\nAnd when she came\nWhite queen how my heart did ache\nAnd dry my lips no word would make\nSo still I wait\nMy goddess hear my darkest fear\nI speak too late\nIt?s for evermore that I wait\nDear friend goodbye\nNo tear in my eyes\nSo sad it ends\nAs it began",
+  "cleaned_lyrics": "So sad her eyes\nSmiling dark eyes\nSo sad her eyes\nAs it began\nOn such breathless night as this\nUpon my brow the lightest kiss\nI walked alone\nAnd all around the air did say\nMy lady soon will stir this way\nThe white queen walks and\nThe night grows pale\nStars of lovingmess in her hair\nNeeding - unheard\nPleading - one word\nSo sad my eyes\nShe cannot see\nHow did thee fare\nwhat have thee seen\nThe mother of the willow green\nI call her name\nAnd ?neath her window have I stayed\nI loved the footsteps that she made\nAnd when she came\nWhite queen how my heart did ache\nAnd dry my lips no word would make\nSo still I wait\nMy goddess hear my darkest fear\nI speak too late\nIt?s for evermore that I wait\nDear friend goodbye\nNo tear in my eyes\nSo sad it ends\nAs it began",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 35,
+    "cleaned_lines": 33,
+    "removed_count": 2,
+    "retention_rate": 0.9705882352941176,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3
+          ],
+          "original_lyric": "So sad her eyes\nSmiling dark eyes\nSo sad her eyes",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person is feeling sad about the white queen's eyes.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "As it began\nOn such breathless night as this",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's the beginning of a story on a special night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "Upon my brow the lightest kiss\nI walked alone",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone kissed the person, and they were alone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "And all around the air did say\nMy lady soon will stir this way",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The air seems to be saying that the lady will come soon.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "The white queen walks and\nThe night grows pale",
+          "plot_function": "SETUP",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The white queen is coming, and the night is getting lighter.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Stars of lovingmess in her hair",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The white queen has stars of love in her hair.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "Needing - unheard\nPleading - one word",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "The person is needing and pleading, but no one hears.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "So sad my eyes",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person's eyes are sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "She cannot see\nHow did thee fare",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "The white queen can't see the person's feelings. Asking how she is.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "what have thee seen\nThe mother of the willow green",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Asking what the white queen has seen. Referring to her as the mother of the willow green.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "I call her name\nAnd ?neath her window have I stayed",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person calls the white queen's name and stays near her window.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "I loved the footsteps that she made",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person loved the sound of the white queen's footsteps.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "And when she came\nWhite queen how my heart did ache",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "pain",
+          "eli5_simplification": "When the white queen came, the person's heart ached.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "And dry my lips no word would make",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "helplessness",
+          "eli5_simplification": "The person's lips were dry, and they couldn't speak.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "So still I wait\nMy goddess hear my darkest fear",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "The person waits and asks the white queen to hear their fear.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "I speak too late",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person realizes they are speaking too late.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "It?s for evermore that I wait",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person will wait forever.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30,
+            31
+          ],
+          "original_lyric": "Dear friend goodbye\nNo tear in my eyes",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "Saying goodbye without tears.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32,
+            33
+          ],
+          "original_lyric": "So sad it ends\nAs it began",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The story ends sadly, just like it began.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 33,
+        "covered_lines": 33,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 33,
+      "covered_lines": 33,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "So sad her eyes",
+            "Smiling dark eyes",
+            "So sad her eyes",
+            "As it began"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            2,
+            3,
+            2,
+            1
+          ],
+          "end_words": [
+            "eyes",
+            "eyes",
+            "eyes",
+            "began"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "eyes",
+              "word2": "eyes",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "eyes",
+              "word2": "eyes",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "On such breathless night as this",
+            "Upon my brow the lightest kiss",
+            "I walked alone",
+            "And all around the air did say"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            2,
+            4
+          ],
+          "end_words": [
+            "this",
+            "kiss",
+            "alone",
+            "say"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "this",
+              "word2": "kiss",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "My lady soon will stir this way",
+            "The white queen walks and",
+            "The night grows pale",
+            "Stars of lovingmess in her hair"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "way",
+            "and",
+            "pale",
+            "hair"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "way",
+              "word2": "pale",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Needing - unheard",
+            "Pleading - one word",
+            "So sad my eyes",
+            "She cannot see"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "end_words": [
+            "unheard",
+            "word",
+            "eyes",
+            "see"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "unheard",
+              "word2": "word",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (ER), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "How did thee fare",
+            "what have thee seen",
+            "The mother of the willow green",
+            "I call her name"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "fare",
+            "seen",
+            "green",
+            "name"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "seen",
+              "word2": "green",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "And ?neath her window have I stayed",
+            "I loved the footsteps that she made",
+            "And when she came",
+            "White queen how my heart did ache"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            5
+          ],
+          "end_words": [
+            "stayed",
+            "made",
+            "came",
+            "ache"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "stayed",
+              "word2": "made",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "made",
+              "word2": "came",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "made",
+              "word2": "ache",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EY), post-consonants in same family"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "came",
+              "word2": "ache",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "And dry my lips no word would make",
+            "So still I wait",
+            "My goddess hear my darkest fear",
+            "I speak too late"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            2,
+            4,
+            3
+          ],
+          "end_words": [
+            "make",
+            "wait",
+            "fear",
+            "late"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "make",
+              "word2": "wait",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EY), post-consonants in same family"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "wait",
+              "word2": "late",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "It?s for evermore that I wait",
+            "Dear friend goodbye",
+            "No tear in my eyes",
+            "So sad it ends"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "wait",
+            "goodbye",
+            "eyes",
+            "ends"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "goodbye",
+              "word2": "eyes",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "As it began"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            1
+          ],
+          "end_words": [
+            "began"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 33
+    }
+  }
+}

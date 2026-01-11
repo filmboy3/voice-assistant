@@ -1,0 +1,452 @@
+{
+  "song_id": "0ECwFtbIWEVNwjlrfc6xoL::witchy-woman",
+  "title": "Witchy Woman",
+  "artist": "Eagles",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nRaven hair and ruby lips, Sparks fly from her finger tips,\nEchoed voices in the night, She's restless spriit on and endless flight\nWoo-hoo witchy woman, see how high she flies\nWoo-hoo witchy woman, see got the moon in her eyes\n- - | (to coda (+)\nShe had me spell-bound in the night. Dancing shadows in the fire light\n\n[chorus]\nAnd she drove herself to madness with silver spoon. (al coda (+)\nah__ ah__\nAh____________________________________________\nI know you want to love her, but let me tell you brother,\nShe's been sleepin in the devil's bed.\nThere's some rumors goin round. Someone's underground,\nShe can rock you in the night until your skin turns red\nWoo-hoo witchy woman, see how high she flies\nWoo-hoo witchy woman, see got the moon in her eyes",
+  "cleaned_lyrics": "Raven hair and ruby lips\nSparks fly from her finger tips\nEchoed voices in the night\nShe's restless spriit on and endless flight\nWoo-hoo witchy woman\nsee how high she flies\nWoo-hoo witchy woman\nsee got the moon in her eyes\nShe had me spell-bound in the\nnight. Dancing shadows in the fire light\nah__ ah__\nI know you want to love her\nbut let me tell you brother\nShe's been sleepin in the devil's bed.\nThere's some rumors goin round. Someone's underground\nShe can rock you in the night until your skin turns red\nWoo-hoo witchy woman\nsee how high she flies\nWoo-hoo witchy woman\nsee got the moon in her eyes",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 18,
+    "cleaned_lines": 20,
+    "removed_count": 5,
+    "retention_rate": 1.1764705882352942,
+    "removal_reasons": {
+      "separator_line": 1,
+      "musical_direction": 2,
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Raven hair and ruby lips\nSparks fly from her finger tips",
+          "plot_function": "SETUP",
+          "emotion_primary": "fascination",
+          "emotion_secondary": null,
+          "eli5_simplification": "A woman with dark hair and red lips is doing magic.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Echoed voices in the night\nShe's restless spriit on and endless flight",
+          "plot_function": "SETUP",
+          "emotion_primary": "mystery",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can hear voices at night, and she's always moving.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Woo-hoo witchy woman\nsee how high she flies",
+          "plot_function": "SETUP",
+          "emotion_primary": "fascination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The witchy woman is flying high.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Woo-hoo witchy woman\nsee got the moon in her eyes",
+          "plot_function": "SETUP",
+          "emotion_primary": "fascination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The witchy woman has the moon in her eyes.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "She had me spell-bound in the\nnight. Dancing shadows in the fire light",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "fascination",
+          "eli5_simplification": "She put a spell on me, and there are shadows dancing in the fire.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            11
+          ],
+          "original_lyric": "ah__ ah__",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "awe",
+          "emotion_secondary": null,
+          "eli5_simplification": "Just a sound of awe.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "I know you want to love her\nbut let me tell you brother",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "warning",
+          "emotion_secondary": null,
+          "eli5_simplification": "I know you want to love her, but listen to me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "She's been sleepin in the devil's bed.\nThere's some rumors goin round. Someone's underground",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "warning",
+          "eli5_simplification": "She's been with the devil, and there are rumors.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            16
+          ],
+          "original_lyric": "She can rock you in the night until your skin turns red",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "warning",
+          "eli5_simplification": "She can hurt you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "Woo-hoo witchy woman\nsee how high she flies",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "fascination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The witchy woman is flying high.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "Woo-hoo witchy woman\nsee got the moon in her eyes",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "fascination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The witchy woman has the moon in her eyes.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Raven hair and ruby lips",
+            "Sparks fly from her finger tips",
+            "Echoed voices in the night",
+            "She's restless spriit on and endless flight"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            5
+          ],
+          "end_words": [
+            "lips",
+            "tips",
+            "night",
+            "flight"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "lips",
+              "word2": "tips",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "night",
+              "word2": "flight",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Woo-hoo witchy woman",
+            "see how high she flies",
+            "Woo-hoo witchy woman",
+            "see got the moon in her eyes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "woman",
+            "flies",
+            "woman",
+            "eyes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "woman",
+              "word2": "woman",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "flies",
+              "word2": "eyes",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "She had me spell-bound in the",
+            "night. Dancing shadows in the fire light",
+            "ah__ ah__",
+            "I know you want to love her"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            5,
+            2,
+            4
+          ],
+          "end_words": [
+            "the",
+            "light",
+            "ah",
+            "her"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "but let me tell you brother",
+            "She's been sleepin in the devil's bed.",
+            "There's some rumors goin round. Someone's underground",
+            "She can rock you in the night until your skin turns red"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            3,
+            4,
+            7,
+            6
+          ],
+          "end_words": [
+            "brother",
+            "bed",
+            "underground",
+            "red"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "brother",
+              "word2": "underground",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "bed",
+              "word2": "red",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Woo-hoo witchy woman",
+            "see how high she flies",
+            "Woo-hoo witchy woman",
+            "see got the moon in her eyes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "woman",
+            "flies",
+            "woman",
+            "eyes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "woman",
+              "word2": "woman",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "flies",
+              "word2": "eyes",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 20
+    }
+  }
+}

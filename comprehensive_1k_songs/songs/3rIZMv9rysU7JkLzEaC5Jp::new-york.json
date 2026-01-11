@@ -1,0 +1,732 @@
+{
+  "song_id": "3rIZMv9rysU7JkLzEaC5Jp::new-york",
+  "title": "New York",
+  "artist": "Snow Patrol",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nIf you were here beside me\n\n[intro]\nIf the curve of you was curved on me\nI' tell you that I loved you\n\n[chorus]\nIf our hearts are never broken\nWell there's no joy in the mending\nThere's so much this hurt can teach us both\nThough there's distance and there's silence\nYour words have never left me\nThey're the prayer that I say every day.\n\n[chorus]\nThe lone neon nights\nAnd the ache of the ocean\nAnd the fire that was starting to spark\nI miss it all, from the love to the lightning\nAnd the lack of it snaps, me in two\n\n[verse]\nIf you were here beside me\n\n[intro]\nOf the arms you said you' never leave\nI' tell you that it's simple\nAnd it was only ever us\nThere is nowhere else that I belong\n\n[chorus]\nThe lone neon nights\nAnd the ache of the ocean\nAnd the fire that was starting to spark\nI miss it all from the love to the lightning\nAnd the lack of it snaps, me in two\nJust give me sign\nThere's an end and beginning\nTo the quiet chaos driving me mad\nThe lone neon nights\nAnd the want of the ocean\nAnd the fire that was starting to go out",
+  "cleaned_lyrics": "If you were here beside me\nIf the curve of you was curved on me\nI' tell you that I loved you\nIf our hearts are never broken\nWell there's no joy in the mending\nThere's so much this hurt can teach us both\nThough there's distance and there's silence\nYour words have never left me\nThey're the prayer that I say every day.\nThe lone neon nights\nAnd the ache of the ocean\nAnd the fire that was starting to spark\nI miss it all\nfrom the love to the lightning\nAnd the lack of it snaps\nme in two\nIf you were here beside me\nOf the arms you said you' never leave\nI' tell you that it's simple\nAnd it was only ever us\nThere is nowhere else that I belong\nThe lone neon nights\nAnd the ache of the ocean\nAnd the fire that was starting to spark\nI miss it all from the love to the lightning\nAnd the lack of it snaps\nme in two\nJust give me sign\nThere's an end and beginning\nTo the quiet chaos driving me mad\nThe lone neon nights\nAnd the want of the ocean\nAnd the fire that was starting to go out",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 43,
+    "cleaned_lines": 33,
+    "removed_count": 7,
+    "retention_rate": 0.8918918918918919,
+    "removal_reasons": {
+      "section_marker": 7
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "If you were here beside me\nIf the curve of you was curved on me",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is imagining being with someone they miss.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "I' tell you that I loved you",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer would tell the person they love them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "If our hearts are never broken",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about what would happen if they never broke up.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Well there's no joy in the mending",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "There's no happiness in fixing a broken heart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "There's so much this hurt can teach us both",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The pain has lessons for both of them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Though there's distance and there's silence\nYour words have never left me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Even though they are apart, the singer still remembers the words.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "They're the prayer that I say every day.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The words are like a prayer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "The lone neon nights",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the nights.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "And the ache of the ocean",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the ocean.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "And the fire that was starting to spark",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the fire.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "I miss it all",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer misses everything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "from the love to the lightning",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Missing the love and the excitement.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "And the lack of it snaps\nme in two",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The absence of those things is breaking the singer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "If you were here beside me",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is imagining being with someone they miss.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "Of the arms you said you' never leave",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the arms of the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "I' tell you that it's simple",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer would tell the person that it's simple.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "And it was only ever us",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "It was only ever them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "There is nowhere else that I belong",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer doesn't belong anywhere else.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "The lone neon nights",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the nights.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "And the ache of the ocean",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the ocean.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "And the fire that was starting to spark",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the fire.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "I miss it all from the love to the lightning",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer misses everything.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "And the lack of it snaps\nme in two",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The absence of those things is breaking the singer.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "Just give me sign",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer wants a sign.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "There's an end and beginning",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "There is an end and a beginning.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "To the quiet chaos driving me mad",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The chaos is driving the singer mad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "The lone neon nights",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the nights.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "And the want of the ocean",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the ocean.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "And the fire that was starting to go out",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the fire.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 31,
+        "covered_lines": 31,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 31,
+      "covered_lines": 31,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "If you were here beside me",
+            "If the curve of you was curved on me",
+            "I' tell you that I loved you",
+            "If our hearts are never broken"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "me",
+            "me",
+            "you",
+            "broken"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Well there's no joy in the mending",
+            "There's so much this hurt can teach us both",
+            "Though there's distance and there's silence",
+            "Your words have never left me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            5,
+            5,
+            4
+          ],
+          "end_words": [
+            "mending",
+            "both",
+            "silence",
+            "me"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "They're the prayer that I say every day.",
+            "The lone neon nights",
+            "And the ache of the ocean",
+            "And the fire that was starting to spark"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "day",
+            "nights",
+            "ocean",
+            "spark"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I miss it all",
+            "from the love to the lightning",
+            "And the lack of it snaps",
+            "me in two"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "end_words": [
+            "all",
+            "lightning",
+            "snaps",
+            "two"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "If you were here beside me",
+            "Of the arms you said you' never leave",
+            "I' tell you that it's simple",
+            "And it was only ever us"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "me",
+            "leave",
+            "simple",
+            "us"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "me",
+              "word2": "leave",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "There is nowhere else that I belong",
+            "The lone neon nights",
+            "And the ache of the ocean",
+            "And the fire that was starting to spark"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "belong",
+            "nights",
+            "ocean",
+            "spark"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "I miss it all from the love to the lightning",
+            "And the lack of it snaps",
+            "me in two",
+            "Just give me sign"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            2,
+            1,
+            3
+          ],
+          "end_words": [
+            "lightning",
+            "snaps",
+            "two",
+            "sign"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "lightning",
+              "word2": "sign",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "There's an end and beginning",
+            "To the quiet chaos driving me mad",
+            "The lone neon nights",
+            "And the want of the ocean"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            2
+          ],
+          "end_words": [
+            "beginning",
+            "mad",
+            "nights",
+            "ocean"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "And the fire that was starting to go out"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "out"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 33
+    }
+  }
+}

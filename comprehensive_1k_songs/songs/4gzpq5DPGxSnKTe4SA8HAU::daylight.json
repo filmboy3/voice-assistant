@@ -1,0 +1,436 @@
+{
+  "song_id": "4gzpq5DPGxSnKTe4SA8HAU::daylight",
+  "title": "Daylight",
+  "artist": "Coldplay",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\n# x 4\nTo my sur - prise My de - light\nI saw sun rise I saw sun light\nI nothing In the dark\nAnd the clouds burst To show day light\nooooh and the sun will shine Yeah, on this heart of mine\nooooh then I realise Who cannot live without\nOoooh come apart without it\nOn hilltop on sky rise\nLike first born Child\nAnd at full tilt And in full flight\ndefeat darkness breaking daylight\nooooh and the sun will shine Yeah, on this heart of mine\nooooh and I realise Who cannot live without\nOoooh and come apart without Daylight\nSlowly breaking through daylight Slowly breaking through daylight\n(repeat to end)",
+  "cleaned_lyrics": "# x 4\nTo my sur - prise My de - light\nI saw sun rise I saw sun light\nI nothing In the dark\nAnd the clouds burst To show day light\nooooh and the sun will shine Yeah\non this heart of mine\nooooh then I realise Who cannot live without\nOoooh come apart without it\nOn hilltop on sky rise\nLike first born Child\nAnd at full tilt And in full flight\ndefeat darkness breaking daylight\nooooh and the sun will shine Yeah\non this heart of mine\nooooh and I realise Who cannot live without\nOoooh and come apart without Daylight\nSlowly breaking through daylight\nSlowly breaking through daylight",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 18,
+    "cleaned_lines": 19,
+    "removed_count": 2,
+    "retention_rate": 1.0555555555555556,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "To my sur - prise My de - light\nI saw sun rise I saw sun light",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is happy and surprised to see the sun.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "I nothing In the dark",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer felt nothing in the dark.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "And the clouds burst To show day light",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The clouds are breaking, and the sun is coming out.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "ooooh and the sun will shine Yeah\non this heart of mine",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The sun will shine on the singer's heart.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "ooooh then I realise Who cannot live without",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "realization",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer realizes something important.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Ooooh come apart without it",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer feels lost without it.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "On hilltop on sky rise\nLike first born Child",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is on top of the world, like a newborn.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "And at full tilt And in full flight\ndefeat darkness breaking daylight",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "hope",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The singer is overcoming the darkness with the daylight.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "ooooh and the sun will shine Yeah\non this heart of mine",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The sun shines on the singer's heart.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "ooooh and I realise Who cannot live without",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "realization",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer realizes something important.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Ooooh and come apart without Daylight",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer feels lost without daylight.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "Slowly breaking through daylight\nSlowly breaking through daylight",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Daylight is slowly breaking through.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "# x 4",
+            "To my sur - prise My de - light",
+            "I saw sun rise I saw sun light",
+            "I nothing In the dark"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            4,
+            6,
+            2
+          ],
+          "end_words": [
+            "x",
+            "light",
+            "light",
+            "dark"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "light",
+              "word2": "light",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "And the clouds burst To show day light",
+            "ooooh and the sun will shine Yeah",
+            "on this heart of mine",
+            "ooooh then I realise Who cannot live without"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            4,
+            2,
+            5
+          ],
+          "end_words": [
+            "light",
+            "yeah",
+            "mine",
+            "without"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "light",
+              "word2": "mine",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Ooooh come apart without it",
+            "On hilltop on sky rise",
+            "Like first born Child",
+            "And at full tilt And in full flight"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            5,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "it",
+            "rise",
+            "child",
+            "flight"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "rise",
+              "word2": "child",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "child",
+              "word2": "flight",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "defeat darkness breaking daylight",
+            "ooooh and the sun will shine Yeah",
+            "on this heart of mine",
+            "ooooh and I realise Who cannot live without"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            2,
+            5
+          ],
+          "end_words": [
+            "daylight",
+            "yeah",
+            "mine",
+            "without"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Ooooh and come apart without Daylight",
+            "Slowly breaking through daylight",
+            "Slowly breaking through daylight"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AAA",
+          "raw_rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.7,
+          "stress_counts": [
+            5,
+            4,
+            4
+          ],
+          "end_words": [
+            "daylight",
+            "daylight",
+            "daylight"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "daylight",
+              "word2": "daylight",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "daylight",
+              "word2": "daylight",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "line_count": 3,
+          "stability": 0.7
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 19
+    }
+  }
+}

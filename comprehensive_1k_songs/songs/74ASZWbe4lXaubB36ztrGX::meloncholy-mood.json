@@ -1,0 +1,550 @@
+{
+  "song_id": "74ASZWbe4lXaubB36ztrGX::meloncholy-mood",
+  "title": "Meloncholy Mood",
+  "artist": "Bob Dylan",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nMelancholy mood forever haunts me\nSteals upon me in the night, forever taunts me\nOh, what lonely soul I, stranded high and dry\n\n[verse]\nGone is every joy and inspiration\nTears are all I have to show, no consolation\nAll I can see is grief and gloom, till the crack of doom\nOh, melancholy mood\nDeep in the night I search for trace\nOf lingering kiss, warm embrace\n\n[bridge]\nAnd my arms embrace an empty space\n\n[verse]\nMelancholy mood, why must you blind me\nPity me and break the chains, the chains that bind me\nWon't you release me, set me free, bring him to me\nAh my melancholy mood",
+  "cleaned_lyrics": "Melancholy mood forever haunts me\nSteals upon me in the night\nforever taunts me\nOh\nwhat lonely soul I\nstranded high and dry\nGone is every joy and inspiration\nTears are all I have to show\nno consolation\nAll I can see is grief and gloom\ntill the crack of doom\nOh\nmelancholy mood\nDeep in the night I search for trace\nOf lingering kiss\nwarm embrace\nAnd my arms embrace an empty space\nMelancholy mood\nwhy must you blind me\nPity me and break the chains\nthe chains that bind me\nWon't you release me\nset me free\nbring him to me\nAh my melancholy mood",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 21,
+    "cleaned_lines": 25,
+    "removed_count": 4,
+    "retention_rate": 1.3888888888888888,
+    "removal_reasons": {
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Melancholy mood forever haunts me\nSteals upon me in the night",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer is feeling very sad and scared, and it's always with them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "forever taunts me\nOh",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "The sadness keeps bothering the singer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "what lonely soul I\nstranded high and dry",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "The singer feels alone and helpless.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Gone is every joy and inspiration\nTears are all I have to show",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "The singer has lost all happiness and only has tears.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "no consolation\nAll I can see is grief and gloom",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "Nothing can make the singer feel better, and everything looks sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "till the crack of doom\nOh",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "despair",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer feels doomed and scared.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "melancholy mood",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is thinking about their sadness.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "Deep in the night I search for trace\nOf lingering kiss",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is looking for a memory of love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "warm embrace\nAnd my arms embrace an empty space",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer finds nothing but emptiness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Melancholy mood",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is thinking about their sadness.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "why must you blind me\nPity me and break the chains",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "desperation",
+          "emotion_secondary": "pleading",
+          "eli5_simplification": "The singer is begging for help.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "the chains that bind me\nWon't you release me",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "desperation",
+          "emotion_secondary": "pleading",
+          "eli5_simplification": "The singer is begging to be freed.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "set me free\nbring him to me",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer wants to be free and reunited with someone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "Ah my melancholy mood",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "The singer accepts their sadness.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 25,
+        "covered_lines": 25,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 25,
+      "covered_lines": 25,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Melancholy mood forever haunts me",
+            "Steals upon me in the night",
+            "forever taunts me",
+            "Oh"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            3,
+            3,
+            1
+          ],
+          "end_words": [
+            "me",
+            "night",
+            "me",
+            "oh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "what lonely soul I",
+            "stranded high and dry",
+            "Gone is every joy and inspiration",
+            "Tears are all I have to show"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            3,
+            4,
+            3
+          ],
+          "end_words": [
+            "i",
+            "dry",
+            "inspiration",
+            "show"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "i",
+              "word2": "dry",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "no consolation",
+            "All I can see is grief and gloom",
+            "till the crack of doom",
+            "Oh"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            4,
+            3,
+            1
+          ],
+          "end_words": [
+            "consolation",
+            "gloom",
+            "doom",
+            "oh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "gloom",
+              "word2": "doom",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "melancholy mood",
+            "Deep in the night I search for trace",
+            "Of lingering kiss",
+            "warm embrace"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            4,
+            2,
+            2
+          ],
+          "end_words": [
+            "mood",
+            "trace",
+            "kiss",
+            "embrace"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "trace",
+              "word2": "embrace",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "And my arms embrace an empty space",
+            "Melancholy mood",
+            "why must you blind me",
+            "Pity me and break the chains"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            2,
+            3,
+            3
+          ],
+          "end_words": [
+            "space",
+            "mood",
+            "me",
+            "chains"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "space",
+              "word2": "chains",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "the chains that bind me",
+            "Won't you release me",
+            "set me free",
+            "bring him to me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            2
+          ],
+          "end_words": [
+            "me",
+            "me",
+            "free",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "me",
+              "word2": "free",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "free",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Ah my melancholy mood"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3
+          ],
+          "end_words": [
+            "mood"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 25
+    }
+  }
+}

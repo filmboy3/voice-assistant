@@ -1,0 +1,713 @@
+{
+  "song_id": "7jy3rLJdDQY21OgRLCZ9sD::danny-says",
+  "title": "Danny Says",
+  "artist": "Foo Fighters",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nDanny says we've gotta go\nGotta go to idaho,\n\n[bridge]\n'cause its 20 below\n(IntroX1)\nSound checks at 5 o' 2\nRecord stores and interviews\nOh but i can't wait.. to be with you\ntomorrow\n\n[bridge]\nwe got nowhere to goooo\nand it may sound funny\n\n[bridge]\nHanging out in 100 feet\nwatchin get smart on tv\nthinkin about you and me and you and me\nHangin out in here\nhaving nowhere to go oh\ni aint christmas if there aint no snow\nlistening to sheena on the radio oh oh wuh huh oh\nDanny says we've gotta go\ngotta go to idaho\n\n[bridge]\nwe got nowhere to goooo\nand it may sound funny\n\n[bridge]\nHanging out in 100 feet\nwatchin get smart on tv\nthinkin about you and me and you and me\nooooo ooo,ooo ooooo\n| / slide up\n| \\ slide down\n| h hammer-on\n| p pull-off\n| ~ vibrato\n| + harmonic\n| x Mute note",
+  "cleaned_lyrics": "Danny says we've gotta go\nGotta go to idaho\n'cause its 20 below\nSound checks at 5 o' 2\nRecord stores and interviews\nOh but i can't wait.. to be with you\ntomorrow\nwe got nowhere to goooo\nand it may sound funny\nHanging out in 100 feet\nwatchin get smart on tv\nthinkin about you and me and you and me\nHangin out in here\nhaving nowhere to go oh\ni aint christmas if there aint no snow\nlistening to sheena on the\nradio oh oh wuh huh oh\nDanny says we've gotta go\ngotta go to idaho\nwe got nowhere to goooo\nand it may sound funny\nHanging out in 100 feet\nwatchin get smart on tv\nthinkin about you and me and you and me\nooooo ooo\nooo ooooo\n| / slide up\n| \\ slide down\n| h hammer-on\n| p pull-off\n| ~ vibrato\n| + harmonic\n| x Mute note",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 43,
+    "cleaned_lines": 33,
+    "removed_count": 7,
+    "retention_rate": 0.868421052631579,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "section_marker": 6
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Danny says we've gotta go",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Danny is telling them they have to leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2,
+            3
+          ],
+          "original_lyric": "Gotta go to idaho\n'cause its 20 below",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "They have to go to Idaho because it's very cold.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "Sound checks at 5 o' 2",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "They have sound checks at a specific time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Record stores and interviews",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "They have to do record stores and interviews.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Oh but i can't wait.. to be with you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is looking forward to being with someone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "tomorrow",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is looking forward to tomorrow.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "we got nowhere to goooo\nand it may sound funny",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "They don't have anywhere to go, which might seem strange.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "Hanging out in 100 feet\nwatchin get smart on tv",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are hanging out and watching TV.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "thinkin about you and me and you and me",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are thinking about each other.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Hangin out in here",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are hanging out.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "having nowhere to go oh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "They have nowhere to go.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "i aint christmas if there aint no snow",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's not Christmas if there is no snow.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "listening to sheena on the",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are listening to music.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "radio oh oh wuh huh oh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are listening to the radio.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Danny says we've gotta go",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Danny is telling them they have to leave.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "gotta go to idaho\nwe got nowhere to goooo",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "They have to go to Idaho and they have nowhere to go.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "and it may sound funny",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "It might sound funny.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "Hanging out in 100 feet\nwatchin get smart on tv",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are hanging out and watching TV.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "thinkin about you and me and you and me",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are thinking about each other.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "ooooo ooo\nooo ooooo",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Vocalizations.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Danny says we've gotta go",
+            "Gotta go to idaho",
+            "'cause its 20 below",
+            "Sound checks at 5 o' 2"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            5,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "go",
+            "idaho",
+            "below",
+            "o"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "go",
+              "word2": "below",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "below",
+              "word2": "o",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Record stores and interviews",
+            "Oh but i can't wait.. to be with you",
+            "tomorrow",
+            "we got nowhere to goooo"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            1,
+            3
+          ],
+          "end_words": [
+            "interviews",
+            "you",
+            "tomorrow",
+            "goooo"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "and it may sound funny",
+            "Hanging out in 100 feet",
+            "watchin get smart on tv",
+            "thinkin about you and me and you and me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2,
+            3,
+            5,
+            4
+          ],
+          "end_words": [
+            "funny",
+            "feet",
+            "tv",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "feet",
+              "word2": "tv",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "tv",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Hangin out in here",
+            "having nowhere to go oh",
+            "i aint christmas if there aint no snow",
+            "listening to sheena on the"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            4,
+            7,
+            2
+          ],
+          "end_words": [
+            "here",
+            "oh",
+            "snow",
+            "the"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "oh",
+              "word2": "snow",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "radio oh oh wuh huh oh",
+            "Danny says we've gotta go",
+            "gotta go to idaho",
+            "we got nowhere to goooo"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            5,
+            3,
+            3
+          ],
+          "end_words": [
+            "oh",
+            "go",
+            "idaho",
+            "goooo"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "oh",
+              "word2": "go",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "and it may sound funny",
+            "Hanging out in 100 feet",
+            "watchin get smart on tv",
+            "thinkin about you and me and you and me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2,
+            3,
+            5,
+            4
+          ],
+          "end_words": [
+            "funny",
+            "feet",
+            "tv",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "feet",
+              "word2": "tv",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "tv",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "ooooo ooo",
+            "ooo ooooo",
+            "| / slide up",
+            "| \\ slide down"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "ooo",
+            "ooooo",
+            "up",
+            "down"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "| h hammer-on",
+            "| p pull-off",
+            "| ~ vibrato",
+            "| + harmonic"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            3,
+            1,
+            1
+          ],
+          "end_words": [
+            "on",
+            "off",
+            "vibrato",
+            "harmonic"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "on",
+              "word2": "vibrato",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AA), unrelated post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "on",
+              "word2": "harmonic",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "vibrato",
+              "word2": "harmonic",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AA), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "| x Mute note"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3
+          ],
+          "end_words": [
+            "note"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 33
+    }
+  }
+}

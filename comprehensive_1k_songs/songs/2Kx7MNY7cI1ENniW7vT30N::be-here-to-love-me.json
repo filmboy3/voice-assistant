@@ -1,0 +1,447 @@
+{
+  "song_id": "2Kx7MNY7cI1ENniW7vT30N::be-here-to-love-me",
+  "title": "Be here to love me",
+  "artist": "Norah Jones",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nYour eyes seek conclusion in all this confusion of mine\nThough you and I both know it's only the warm glow of wine\nThat's got you to feeling this way, but\nI don't care, I want you to stay\nJust hold me and tell me you'll be here to love me today\n\n[chorus]\nThe window's accusing the door of abusing the wall\n\n[bridge]\nThe stage has been set for the play\nSo just hold me and tell me you'll be here to love me today\nGuitar Solo:\n(progession x2)\nThe moon's come and gone but few stars hang on to the sky\nThe wind's runnin' free but it ain't up to me ask why\nThe poets are demanding their pay\nThey've left me with nothin' to say\n'cept hold me and tell me you'll be here to love me today\nJust hold me and tell me that you'll be here to love me today\nJust hold me and tell me that you'll be here to love me today",
+  "cleaned_lyrics": "Your eyes seek conclusion in all this confusion of mine\nThough you and I both know\nit's only the warm glow of wine\nThat's got you to feeling this way\nbut\nI don't care\nI want you to stay\nJust hold me and tell me you'll be here to love me today\nThe window's accusing the door of abusing the wall\nThe stage has been set for the play\nSo just hold me and tell me you'll be here to love me today\nGuitar Solo:\nThe moon's come and gone but few stars hang on to the sky\nThe wind's runnin' free but it ain't up to me ask why\nThe poets are demanding their pay\nThey've left me with nothin' to say\n'cept hold me and tell me you'll be here to love me today\nJust hold me and tell me that you'll be here to love me today\nJust hold me and tell me that you'll be here to love me today",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 22,
+    "cleaned_lines": 19,
+    "removed_count": 4,
+    "retention_rate": 0.95,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Your eyes seek conclusion in all this confusion of mine\nThough you and I both know",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "confusion",
+          "eli5_simplification": "Someone is looking for answers in a confusing situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "it's only the warm glow of wine\nThat's got you to feeling this way",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "The reason for the feelings is the wine.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "but\nI don't care",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker doesn't mind the reason.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "I want you to stay",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker wants the other person to stay.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Just hold me and tell me you'll be here to love me today",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The speaker wants to be held and reassured.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "The window's accusing the door of abusing the wall\nThe stage has been set for the play\nSo just hold me and tell me you'll be here to love me today",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The scene is set, and the speaker repeats their desire for reassurance.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Guitar Solo:",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "null",
+          "emotion_secondary": null,
+          "eli5_simplification": "Instrumental break.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "The moon's come and gone but few stars hang on to the sky\nThe wind's runnin' free but it ain't up to me ask why",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "The speaker reflects on the passage of time and things outside their control.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "The poets are demanding their pay\nThey've left me with nothin' to say",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "The speaker feels unable to express themselves.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "'cept hold me and tell me you'll be here to love me today",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The speaker repeats their desire for reassurance.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Just hold me and tell me that you'll be here to love me today",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The speaker repeats their desire for reassurance.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Just hold me and tell me that you'll be here to love me today",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The speaker repeats their desire for reassurance.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Your eyes seek conclusion in all this confusion of mine",
+            "Though you and I both know",
+            "it's only the warm glow of wine",
+            "That's got you to feeling this way"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            6,
+            3,
+            5,
+            4
+          ],
+          "end_words": [
+            "mine",
+            "know",
+            "wine",
+            "way"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "mine",
+              "word2": "wine",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "but",
+            "I don't care",
+            "I want you to stay",
+            "Just hold me and tell me you'll be here to love me today"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            1,
+            2,
+            2,
+            7
+          ],
+          "end_words": [
+            "but",
+            "care",
+            "stay",
+            "today"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "stay",
+              "word2": "today",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "The window's accusing the door of abusing the wall",
+            "The stage has been set for the play",
+            "So just hold me and tell me you'll be here to love me today",
+            "Guitar Solo:"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            3,
+            7,
+            2
+          ],
+          "end_words": [
+            "wall",
+            "play",
+            "today",
+            "solo"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "play",
+              "word2": "today",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "The moon's come and gone but few stars hang on to the sky",
+            "The wind's runnin' free but it ain't up to me ask why",
+            "The poets are demanding their pay",
+            "They've left me with nothin' to say"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            7,
+            7,
+            3,
+            4
+          ],
+          "end_words": [
+            "sky",
+            "why",
+            "pay",
+            "say"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "sky",
+              "word2": "why",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "pay",
+              "word2": "say",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "'cept hold me and tell me you'll be here to love me today",
+            "Just hold me and tell me that you'll be here to love me today",
+            "Just hold me and tell me that you'll be here to love me today"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AAA",
+          "raw_rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.7,
+          "stress_counts": [
+            7,
+            7,
+            7
+          ],
+          "end_words": [
+            "today",
+            "today",
+            "today"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "today",
+              "word2": "today",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "today",
+              "word2": "today",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "line_count": 3,
+          "stability": 0.7
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 19
+    }
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::busted",
+  "title": "Busted",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nMy bills are all do and the babies need shoes but I'm Busted\n\n[chorus]\nI got cow that went dry and hen that won't lay\n\n[bridge]\nThe county will haul my belongin's away I'm Busted.\nI went to my brother to ask for loan I was Busted\nI hate to beg like dog for bone but I'm Busted\nMy brother said there ain't thing I can do\nMy wife and my kids are all down with the flu\nAnd I was just thinkin' of callin' on you I'm Busted.\nLord I'm no theif but man can go wrong when he's Busted\nThe food that we canned last summer is gone and I'm Busted\nThe fields are all bare and the cotton won't grow\nMe and my family gotta pack up and go\nWhere I'll make livin' the Lord only knows but I'm Busted.\n?'s [email protected]",
+  "cleaned_lyrics": "My bills are all do and the babies need shoes but I'm Busted\nI got cow that went dry and hen that won't lay\nThe county will haul my belongin's away I'm Busted.\nI went to my brother to ask for loan I was Busted\nI hate to beg like dog for bone but I'm Busted\nMy brother said there ain't thing I can do\nMy wife and my kids are all down with the flu\nAnd I was just thinkin' of callin' on you I'm Busted.\nLord I'm no theif but man\ncan go wrong when he's Busted\nThe food that we canned last summer is gone and I'm Busted\nThe fields are all bare and the cotton won't grow\nMe and my family gotta pack up and go\nWhere I'll make livin' the\nLord only knows but I'm Busted.\n?'s [email protected]",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 19,
+    "cleaned_lines": 16,
+    "removed_count": 3,
+    "retention_rate": 0.9411764705882353,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "My bills are all do and the babies need shoes but I'm Busted\nI got cow that went dry and hen that won't lay",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "worry",
+          "eli5_simplification": "The singer has no money and his kids need shoes. His animals aren't producing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "The county will haul my belongin's away I'm Busted.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "The government is going to take his things because he can't pay.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "I went to my brother to ask for loan I was Busted\nI hate to beg like dog for bone but I'm Busted",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "shame",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "He asked his brother for help, but he's ashamed to beg.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            6,
+            7,
+            8
+          ],
+          "original_lyric": "My brother said there ain't thing I can do\nMy wife and my kids are all down with the flu\nAnd I was just thinkin' of callin' on you I'm Busted.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "hopelessness",
+          "eli5_simplification": "His brother can't help, his family is sick, and he's thinking of asking someone else for help.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Lord I'm no theif but man",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "He's reflecting on his situation and the choices he might make.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "can go wrong when he's Busted",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Things can go wrong when you are broke.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "The food that we canned last summer is gone and I'm Busted\nThe fields are all bare and the cotton won't grow",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "They have no food left and the crops failed.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "Me and my family gotta pack up and go\nWhere I'll make livin' the",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "uncertainty",
+          "eli5_simplification": "They have to leave and he doesn't know where they will go.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Lord only knows but I'm Busted.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hopelessness",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "He doesn't know what will happen, but he's still broke.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 15,
+        "covered_lines": 15,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 15,
+      "covered_lines": 15,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "My bills are all do and the babies need shoes but I'm Busted",
+            "I got cow that went dry and hen that won't lay",
+            "The county will haul my belongin's away I'm Busted.",
+            "I went to my brother to ask for loan I was Busted"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            7,
+            7,
+            6,
+            5
+          ],
+          "end_words": [
+            "busted",
+            "lay",
+            "busted",
+            "busted"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "busted",
+              "word2": "busted",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "busted",
+              "word2": "busted",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I hate to beg like dog for bone but I'm Busted",
+            "My brother said there ain't thing I can do",
+            "My wife and my kids are all down with the flu",
+            "And I was just thinkin' of callin' on you I'm Busted."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            7,
+            6,
+            5,
+            5
+          ],
+          "end_words": [
+            "busted",
+            "do",
+            "flu",
+            "busted"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "busted",
+              "word2": "busted",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "do",
+              "word2": "flu",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Lord I'm no theif but man",
+            "can go wrong when he's Busted",
+            "The food that we canned last summer is gone and I'm Busted",
+            "The fields are all bare and the cotton won't grow"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            5,
+            7,
+            6
+          ],
+          "end_words": [
+            "man",
+            "busted",
+            "busted",
+            "grow"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "busted",
+              "word2": "busted",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Me and my family gotta pack up and go",
+            "Where I'll make livin' the",
+            "Lord only knows but I'm Busted.",
+            "?'s [email protected]"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "go",
+            "the",
+            "busted",
+            "protected"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "the",
+              "word2": "busted",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AH), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 16
+    }
+  }
+}

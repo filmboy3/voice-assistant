@@ -1,0 +1,677 @@
+{
+  "song_id": "22bE4uQ6baNwSHPVcDxLCe::mixed-emotions",
+  "title": "Mixed Emotions",
+  "artist": "The Rolling Stones",
+  "genre": "unknown",
+  "original_lyrics": "[bridge]\nLet's go out dancing\nGo for the throat NOTE: IMPROVISE\nLet's bury the hatchet CHORD AT\nWipe out the past\nMake love together\nStay on the path\nYou're not the only one\nWith mixed emotions\nYou're not the only ship\nAdrift on this ocean\n\n[verse]\nThis coming and going\nIs driving me nuts\nThis to-ing and fro-ing\nIs hurting my guts\nSo get off the fence\nIt's creasing your butt\nLife is party\nLet's get out and strut\n\n[chorus]\nYou're not the only one\nWith mixed emotions\nYou're not the only ship\nAdrift on this ocean\nYou're not the only one\nThat's feeling lonesome\nYou're not the only one\nWith mixed emo-----tions -- SING THIS LINE TWICE AT END\nOF SONG.\n\n[bridge]\nYou're not the only one\nYou're not the only one\n\n[verse]\nMOSTLY IMPROVISES ON\nAnd drink it down deeply\nLet's love it to death\nSo button your lip\nAnd button your coat\nLet's go out dancing\nLet's rock 'n' roll",
+  "cleaned_lyrics": "Let's go out dancing\nGo for the throat NOTE: IMPROVISE\nLet's bury the hatchet CHORD AT\nWipe out the past\nMake love together\nStay on the path\nYou're not the only one\nWith mixed emotions\nYou're not the only ship\nAdrift on this ocean\nThis coming and going\nIs driving me nuts\nThis to-ing and fro-ing\nIs hurting my guts\nSo get off the fence\nIt's creasing your butt\nLife is party\nLet's get out and strut\nYou're not the only one\nWith mixed emotions\nYou're not the only ship\nAdrift on this ocean\nYou're not the only one\nThat's feeling lonesome\nYou're not the only one\nOF SONG.\nYou're not the only one\nYou're not the only one\nMOSTLY IMPROVISES ON\nAnd drink it down deeply\nLet's love it to death\nSo button your lip\nAnd button your coat\nLet's go out dancing\nLet's rock 'n' roll",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 45,
+    "cleaned_lines": 35,
+    "removed_count": 6,
+    "retention_rate": 0.8536585365853658,
+    "removal_reasons": {
+      "excessive_punctuation": 1,
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Let's go out dancing",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Let's go have fun and dance!",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "Go for the throat NOTE: IMPROVISE",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "Let's fight!",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Let's bury the hatchet CHORD AT\nWipe out the past",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Let's forget the bad things and start over.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Make love together\nStay on the path",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "Let's be together and stay on the right track.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "You're not the only one\nWith mixed emotions",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "You're not the only one feeling sad and confused.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "You're not the only ship\nAdrift on this ocean",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "You're not the only one feeling lost.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "This coming and going\nIs driving me nuts\nThis to-ing and fro-ing\nIs hurting my guts",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "All this back and forth is making me crazy and upset.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "So get off the fence\nIt's creasing your butt",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "Stop being indecisive!",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "Life is party\nLet's get out and strut",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Life is fun, let's go out and enjoy it!",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "You're not the only one\nWith mixed emotions",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "You're not the only one feeling sad and confused.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "You're not the only ship\nAdrift on this ocean",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "You're not the only one feeling lost.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "You're not the only one\nThat's feeling lonesome",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "You're not the only one feeling lonely.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23,
+            24,
+            25
+          ],
+          "original_lyric": "You're not the only one\nOF SONG.\nYou're not the only one\nYou're not the only one",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "You're not the only one.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "And drink it down deeply",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Feel it deeply.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "Let's love it to death",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "Let's love each other.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28,
+            29
+          ],
+          "original_lyric": "So button your lip\nAnd button your coat",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Be quiet and get ready.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30,
+            31
+          ],
+          "original_lyric": "Let's go out dancing\nLet's rock 'n' roll",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Let's go have fun and dance!",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 31,
+        "covered_lines": 31,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 31,
+      "covered_lines": 31,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Let's go out dancing",
+            "Go for the throat NOTE: IMPROVISE",
+            "Let's bury the hatchet CHORD AT",
+            "Wipe out the past"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "dancing",
+            "improvise",
+            "at",
+            "past"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "dancing",
+              "word2": "at",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "at",
+              "word2": "past",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Make love together",
+            "Stay on the path",
+            "You're not the only one",
+            "With mixed emotions"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            4,
+            2
+          ],
+          "end_words": [
+            "together",
+            "path",
+            "one",
+            "emotions"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "You're not the only ship",
+            "Adrift on this ocean",
+            "This coming and going",
+            "Is driving me nuts"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "ship",
+            "ocean",
+            "going",
+            "nuts"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "ocean",
+              "word2": "going",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "This to-ing and fro-ing",
+            "Is hurting my guts",
+            "So get off the fence",
+            "It's creasing your butt"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            3
+          ],
+          "end_words": [
+            "ing",
+            "guts",
+            "fence",
+            "butt"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "guts",
+              "word2": "butt",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AH), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Life is party",
+            "Let's get out and strut",
+            "You're not the only one",
+            "With mixed emotions"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            4,
+            4,
+            2
+          ],
+          "end_words": [
+            "party",
+            "strut",
+            "one",
+            "emotions"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "strut",
+              "word2": "one",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "You're not the only ship",
+            "Adrift on this ocean",
+            "You're not the only one",
+            "That's feeling lonesome"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 1.0,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            2,
+            4,
+            3
+          ],
+          "end_words": [
+            "ship",
+            "ocean",
+            "one",
+            "lonesome"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "ocean",
+              "word2": "lonesome",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (OW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "You're not the only one",
+            "OF SONG.",
+            "You're not the only one",
+            "You're not the only one"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            1,
+            4,
+            4
+          ],
+          "end_words": [
+            "one",
+            "song",
+            "one",
+            "one"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "one",
+              "word2": "one",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "one",
+              "word2": "one",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "MOSTLY IMPROVISES ON",
+            "And drink it down deeply",
+            "Let's love it to death",
+            "So button your lip"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "on",
+            "deeply",
+            "death",
+            "lip"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "And button your coat",
+            "Let's go out dancing",
+            "Let's rock 'n' roll"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AXA",
+          "raw_rhyme_scheme": "ABA",
+          "pattern": "3_ABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            4,
+            4
+          ],
+          "end_words": [
+            "coat",
+            "dancing",
+            "roll"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "coat",
+              "word2": "roll",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (OW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AXA",
+          "pattern": "3_ABA",
+          "line_count": 3,
+          "stability": 0.2
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 35
+    }
+  }
+}

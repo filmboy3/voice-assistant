@@ -1,0 +1,1216 @@
+{
+  "song_id": "7jy3rLJdDQY21OgRLCZ9sD::sunday-rain",
+  "title": "Sunday Rain",
+  "artist": "Foo Fighters",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nYou say I take it for granted\nI say you've taken it all\nSay you can take it or leave it\nYou got your head in the ceiling\nWhen are you gonna come down?\nWhen you're that high can you feel it?\nDon't leave me drowning in your Sunday rain\nIt's right down the drain, I go\nDon't leave me drowning in your Sunday rain\nIt's always shame, oh no\n\n[verse]\nYou wanna tell me secret\nYou think I'm gonna find out\nYou tell the lie, you should keep it\nDon't wanna know where it's leading\nDon't want to follow you 'round\nMy first mistake was believing\nDon't leave me drowning in your Sunday rain\nIt's right down the drain, I go\nDon't leave me drowning in your Sunday rain\nIt's always shame, oh no\n\n[bridge]\nAre you little afraid?\nlittle alone?\nlittle exhausted?\nDo you give it away?\nDo you let go?\nWhere do you find it?\nDon't leave me drowning in your Sunday rain\nIt's right down the drain, I go\nDon't leave me drowning in your Sunday rain\nIt's always shame, oh no\nDon't leave me drowning in your Sunday rain\nIt's right down the drain, I go\nDon't leave me drowning in your Sunday rain\nIt's always shame, oh no\n\n[bridge]\nAre you little afraid?\nlittle alone?\nlittle exhausted?\nDo you give it away?\nDo you let go?\nWhere do you find it?\nAre you little afraid?\nlittle alone?\nlittle exhausted?\nDo you give it away?\nDo you let go?\nWhere do you find it?\nAre you little afraid?\nlittle alone?\nlittle exhausted?\nDo you give it away?\nDo you let go?\nWhere do you find it?",
+  "cleaned_lyrics": "You say I take it for granted\nI say you've taken it all\nSay you can take it or leave it\nYou got your head in the ceiling\nWhen are you gonna come down?\nWhen you're that high can you feel it?\nDon't leave me drowning in your Sunday rain\nIt's right down the drain\nI go\nDon't leave me drowning in your Sunday rain\nIt's always shame\noh no\nYou wanna tell me secret\nYou think I'm gonna find out\nYou tell the lie\nyou should keep it\nDon't wanna know where it's leading\nDon't want to follow you 'round\nMy first mistake was believing\nDon't leave me drowning in your Sunday rain\nIt's right down the drain\nI go\nDon't leave me drowning in your Sunday rain\nIt's always shame\noh no\nAre you little afraid?\nlittle alone?\nlittle exhausted?\nDo you give it away?\nDo you let go?\nWhere do you find it?\nDon't leave me drowning in your Sunday rain\nIt's right down the drain\nI go\nDon't leave me drowning in your Sunday rain\nIt's always shame\noh no\nDon't leave me drowning in your Sunday rain\nIt's right down the drain\nI go\nDon't leave me drowning in your Sunday rain\nIt's always shame\noh no\nAre you little afraid?\nlittle alone?\nlittle exhausted?\nDo you give it away?\nDo you let go?\nWhere do you find it?\nAre you little afraid?\nlittle alone?\nlittle exhausted?\nDo you give it away?\nDo you let go?\nWhere do you find it?\nAre you little afraid?\nlittle alone?\nlittle exhausted?\nDo you give it away?\nDo you let go?\nWhere do you find it?",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 59,
+    "cleaned_lines": 61,
+    "removed_count": 4,
+    "retention_rate": 1.0892857142857142,
+    "removal_reasons": {
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "You say I take it for granted\nI say you've taken it all",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "You are mad at me, and I am mad at you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Say you can take it or leave it\nYou got your head in the ceiling",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "annoyance",
+          "eli5_simplification": "You can leave if you want, you're being silly.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "When are you gonna come down?\nWhen you're that high can you feel it?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "concern",
+          "eli5_simplification": "When are you going to stop being so out of it? Can you even feel anything?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Don't leave me drowning in your Sunday rain\nIt's right down the drain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Don't make me feel bad, it's all going to waste.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "I go",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "I give up.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "Don't leave me drowning in your Sunday rain\nIt's always shame",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Don't make me feel bad, it's always a bad feeling.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "oh no",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Oh no!",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "You wanna tell me secret\nYou think I'm gonna find out",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "suspicion",
+          "emotion_secondary": "annoyance",
+          "eli5_simplification": "You want to tell me a secret, but I'll find out anyway.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "You tell the lie\nyou should keep it",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "You're lying, you should keep it to yourself.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "Don't wanna know where it's leading\nDon't want to follow you 'round",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "disinterest",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "I don't want to know where this is going, I don't want to be involved.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "My first mistake was believing",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "I regret believing you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "Don't leave me drowning in your Sunday rain\nIt's right down the drain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Don't make me feel bad, it's all going to waste.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "I go",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "I give up.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Don't leave me drowning in your Sunday rain\nIt's always shame",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Don't make me feel bad, it's always a bad feeling.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "oh no",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Oh no!",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27,
+            28
+          ],
+          "original_lyric": "Are you little afraid?\nlittle alone?\nlittle exhausted?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "concern",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Are you scared, lonely, and tired?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "Do you give it away?\nDo you let go?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Do you give up? Do you let go?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "Where do you find it?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Where do you find what you need?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32,
+            33
+          ],
+          "original_lyric": "Don't leave me drowning in your Sunday rain\nIt's right down the drain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Don't make me feel bad, it's all going to waste.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            34
+          ],
+          "original_lyric": "I go",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "I give up.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35,
+            36
+          ],
+          "original_lyric": "Don't leave me drowning in your Sunday rain\nIt's always shame",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Don't make me feel bad, it's always a bad feeling.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            37
+          ],
+          "original_lyric": "oh no",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Oh no!",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            38,
+            39
+          ],
+          "original_lyric": "Don't leave me drowning in your Sunday rain\nIt's right down the drain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Don't make me feel bad, it's all going to waste.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            40
+          ],
+          "original_lyric": "I go",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "I give up.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            41,
+            42
+          ],
+          "original_lyric": "Don't leave me drowning in your Sunday rain\nIt's always shame",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Don't make me feel bad, it's always a bad feeling.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            43
+          ],
+          "original_lyric": "oh no",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Oh no!",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            44,
+            45,
+            46
+          ],
+          "original_lyric": "Are you little afraid?\nlittle alone?\nlittle exhausted?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "concern",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Are you scared, lonely, and tired?",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            47,
+            48
+          ],
+          "original_lyric": "Do you give it away?\nDo you let go?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Do you give up? Do you let go?",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            49
+          ],
+          "original_lyric": "Where do you find it?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Where do you find what you need?",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            50,
+            51,
+            52
+          ],
+          "original_lyric": "Are you little afraid?\nlittle alone?\nlittle exhausted?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "concern",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Are you scared, lonely, and tired?",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            53,
+            54
+          ],
+          "original_lyric": "Do you give it away?\nDo you let go?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Do you give up? Do you let go?",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            55
+          ],
+          "original_lyric": "Where do you find it?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Where do you find what you need?",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            56,
+            57,
+            58
+          ],
+          "original_lyric": "Are you little afraid?\nlittle alone?\nlittle exhausted?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "concern",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Are you scared, lonely, and tired?",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            59,
+            60
+          ],
+          "original_lyric": "Do you give it away?\nDo you let go?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Do you give up? Do you let go?",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            61
+          ],
+          "original_lyric": "Where do you find it?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Where do you find what you need?",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 61,
+        "covered_lines": 61,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 61,
+      "covered_lines": 61,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "You say I take it for granted",
+            "I say you've taken it all",
+            "Say you can take it or leave it",
+            "You got your head in the ceiling"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "granted",
+            "all",
+            "it",
+            "ceiling"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "When are you gonna come down?",
+            "When you're that high can you feel it?",
+            "Don't leave me drowning in your Sunday rain",
+            "It's right down the drain"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            5,
+            5,
+            4
+          ],
+          "end_words": [
+            "down",
+            "it",
+            "rain",
+            "drain"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "rain",
+              "word2": "drain",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I go",
+            "Don't leave me drowning in your Sunday rain",
+            "It's always shame",
+            "oh no"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            1,
+            5,
+            3,
+            2
+          ],
+          "end_words": [
+            "go",
+            "rain",
+            "shame",
+            "no"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "go",
+              "word2": "no",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "rain",
+              "word2": "shame",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EY), post-consonants in same family"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "You wanna tell me secret",
+            "You think I'm gonna find out",
+            "You tell the lie",
+            "you should keep it"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            5,
+            2,
+            2
+          ],
+          "end_words": [
+            "secret",
+            "out",
+            "lie",
+            "it"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Don't wanna know where it's leading",
+            "Don't want to follow you 'round",
+            "My first mistake was believing",
+            "Don't leave me drowning in your Sunday rain"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            6,
+            4,
+            3,
+            5
+          ],
+          "end_words": [
+            "leading",
+            "round",
+            "believing",
+            "rain"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "leading",
+              "word2": "believing",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "It's right down the drain",
+            "I go",
+            "Don't leave me drowning in your Sunday rain",
+            "It's always shame"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            1,
+            5,
+            3
+          ],
+          "end_words": [
+            "drain",
+            "go",
+            "rain",
+            "shame"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "drain",
+              "word2": "rain",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "rain",
+              "word2": "shame",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EY), post-consonants in same family"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "oh no",
+            "Are you little afraid?",
+            "little alone?",
+            "little exhausted?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "no",
+            "afraid",
+            "alone",
+            "exhausted"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "no",
+              "word2": "alone",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Do you give it away?",
+            "Do you let go?",
+            "Where do you find it?",
+            "Don't leave me drowning in your Sunday rain"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            2,
+            3,
+            5
+          ],
+          "end_words": [
+            "away",
+            "go",
+            "it",
+            "rain"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "away",
+              "word2": "rain",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "It's right down the drain",
+            "I go",
+            "Don't leave me drowning in your Sunday rain",
+            "It's always shame"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            1,
+            5,
+            3
+          ],
+          "end_words": [
+            "drain",
+            "go",
+            "rain",
+            "shame"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "drain",
+              "word2": "rain",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "rain",
+              "word2": "shame",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EY), post-consonants in same family"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "oh no",
+            "Don't leave me drowning in your Sunday rain",
+            "It's right down the drain",
+            "I go"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            2,
+            5,
+            4,
+            1
+          ],
+          "end_words": [
+            "no",
+            "rain",
+            "drain",
+            "go"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "no",
+              "word2": "go",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "rain",
+              "word2": "drain",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "Don't leave me drowning in your Sunday rain",
+            "It's always shame",
+            "oh no",
+            "Are you little afraid?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            3,
+            2,
+            2
+          ],
+          "end_words": [
+            "rain",
+            "shame",
+            "no",
+            "afraid"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "rain",
+              "word2": "shame",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EY), post-consonants in same family"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "shame",
+              "word2": "afraid",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 12,
+          "lines": [
+            "little alone?",
+            "little exhausted?",
+            "Do you give it away?",
+            "Do you let go?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "alone",
+            "exhausted",
+            "away",
+            "go"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "alone",
+              "word2": "go",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 13,
+          "lines": [
+            "Where do you find it?",
+            "Are you little afraid?",
+            "little alone?",
+            "little exhausted?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "it",
+            "afraid",
+            "alone",
+            "exhausted"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 14,
+          "lines": [
+            "Do you give it away?",
+            "Do you let go?",
+            "Where do you find it?",
+            "Are you little afraid?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "away",
+            "go",
+            "it",
+            "afraid"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "away",
+              "word2": "afraid",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 15,
+          "lines": [
+            "little alone?",
+            "little exhausted?",
+            "Do you give it away?",
+            "Do you let go?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "alone",
+            "exhausted",
+            "away",
+            "go"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "alone",
+              "word2": "go",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 16,
+          "lines": [
+            "Where do you find it?"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3
+          ],
+          "end_words": [
+            "it"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 12,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 13,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 14,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 15,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 16,
+          "section_type": "chorus",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 16,
+      "total_lines": 61
+    }
+  }
+}

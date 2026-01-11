@@ -1,0 +1,603 @@
+{
+  "song_id": "32vWCbZh0xZ4o9gkz4PsEU::something-special",
+  "title": "Something Special",
+  "artist": "Dolly Parton",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nYou may not know it\nI don't always show it\n\n[bridge]\nSo much that we've shared\nYou've always been there\nI hope you always will be\n\n[chorus]\nYes, you are something special to me\n\n[verse]\nWhen I'm around you\nThe love that surrounds you\n\n[bridge]\nGod-given treasure\nYou give me such pleasure\nYou are true work of art\n\n[chorus]\nYes, you are something special to me\n\n[bridge]\nYou're the wind 'neath my wings\nLike the song that they sing\n\n[bridge]\nAn angel in my life\nYou are the sunlight\nAnd you hung the moon and the stars\nYes, you're special\n\n[chorus]\nYes, you are something special to me\n\n[outro]\nYou are something special\nMM-MM, you're something special\nYou are something special to me",
+  "cleaned_lyrics": "You may not know it\nI don't always show it\nSo much that we've shared\nYou've always been there\nI hope you always will be\nYes\nyou are something special to me\nWhen I'm around you\nThe love that surrounds you\nGod-given treasure\nYou give me such pleasure\nYou are true work of art\nYes\nyou are something special to me\nYou're the wind 'neath my wings\nLike the song that they sing\nAn angel in my life\nYou are the sunlight\nAnd you hung the moon and the stars\nYes\nyou're special\nYes\nyou are something special to me\nYou are something special\nMM-MM\nyou're something special\nYou are something special to me",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 41,
+    "cleaned_lines": 27,
+    "removed_count": 10,
+    "retention_rate": 0.84375,
+    "removal_reasons": {
+      "section_marker": 10
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "You may not know it\nI don't always show it",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is saying that the person they are singing to might not know how much they care.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "So much that we've shared\nYou've always been there",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": "gratitude",
+          "eli5_simplification": "They've shared a lot together, and the other person has always been supportive.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "I hope you always will be",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer hopes the other person will always be in their life.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Yes\nyou are something special to me",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is directly telling the person they are special to them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "When I'm around you\nThe love that surrounds you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer feels happy and loved when they are with the other person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "God-given treasure\nYou give me such pleasure",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer feels the other person is a gift and brings them happiness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "You are true work of art",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer thinks the other person is beautiful and special.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Yes\nyou are something special to me",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is directly telling the person they are special to them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "You're the wind 'neath my wings",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer feels supported and uplifted by the other person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Like the song that they sing",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "Referring to a well-known song about support.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "An angel in my life\nYou are the sunlight",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer sees the other person as a positive and guiding force.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "And you hung the moon and the stars",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer feels the other person is amazing and brings light to their life.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Yes\nyou're special",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is emphasizing how special the person is.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Yes\nyou are something special to me",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is directly telling the person they are special to them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "You are something special",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is reiterating the main point.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "MM-MM",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "Vocal interlude, expressing the feeling.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "you're something special",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is reiterating the main point.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "You are something special to me",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is directly telling the person they are special to them.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 23,
+        "covered_lines": 23,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 23,
+      "covered_lines": 23,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "You may not know it",
+            "I don't always show it",
+            "So much that we've shared",
+            "You've always been there"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "it",
+            "it",
+            "shared",
+            "there"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "it",
+              "word2": "it",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "shared",
+              "word2": "there",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EH), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I hope you always will be",
+            "Yes",
+            "you are something special to me",
+            "When I'm around you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            1,
+            3,
+            4
+          ],
+          "end_words": [
+            "be",
+            "yes",
+            "me",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "be",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "The love that surrounds you",
+            "God-given treasure",
+            "You give me such pleasure",
+            "You are true work of art"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "you",
+            "treasure",
+            "pleasure",
+            "art"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "treasure",
+              "word2": "pleasure",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Yes",
+            "you are something special to me",
+            "You're the wind 'neath my wings",
+            "Like the song that they sing"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            1,
+            3,
+            4,
+            3
+          ],
+          "end_words": [
+            "yes",
+            "me",
+            "wings",
+            "sing"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "wings",
+              "word2": "sing",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IH), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "An angel in my life",
+            "You are the sunlight",
+            "And you hung the moon and the stars",
+            "Yes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            1,
+            3,
+            1
+          ],
+          "end_words": [
+            "life",
+            "sunlight",
+            "stars",
+            "yes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "life",
+              "word2": "sunlight",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "you're special",
+            "Yes",
+            "you are something special to me",
+            "You are something special"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            1,
+            3,
+            2
+          ],
+          "end_words": [
+            "special",
+            "yes",
+            "me",
+            "special"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "special",
+              "word2": "yes",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EH), post-consonants in same family"
+            },
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "special",
+              "word2": "special",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "yes",
+              "word2": "special",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EH), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "MM-MM",
+            "you're something special",
+            "You are something special to me"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            0,
+            3,
+            3
+          ],
+          "end_words": [
+            "mm",
+            "special",
+            "me"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 27
+    }
+  }
+}

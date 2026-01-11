@@ -1,0 +1,652 @@
+{
+  "song_id": "74ASZWbe4lXaubB36ztrGX::one-for-the-road",
+  "title": "One For The Road",
+  "artist": "Bob Dylan",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nOne for the road\nOne for my baby\nAnd one for the road\nI cry alone at night\nPlease tell me it's only night\nAnd she's calling me back at night\nAnd she's already home\nOne for my baby\nOne for the road\nOne for my baby\nAnd one for the road\nI cry alone at night\nThere is no friend in sight\nI love getting back at night\n\n[bridge]\nOne for my baby\nOne for the road\nOne for my baby\nAnd one for the road\nThis bottle is dried up too\nAnd I'll be all cried up soon\nI can't see no God on the moon\nIt's long way to go\nOne for my baby\nOne for the road\nOne for my baby\nAnd one for the road\nI cry alone at night\nHe's not alone at night\nI'll be there my whole night\n\n[bridge]\nOne for my baby\nOne for the road\nOne for my baby\nAnd one for the road",
+  "cleaned_lyrics": "One for the road\nOne for my baby\nAnd one for the road\nI cry alone at night\nPlease tell me it's only night\nAnd she's calling me back at night\nAnd she's already home\nOne for my baby\nOne for the road\nOne for my baby\nAnd one for the road\nI cry alone at night\nThere is no friend in sight\nI love getting back at night\nOne for my baby\nOne for the road\nOne for my baby\nAnd one for the road\nThis bottle is dried up too\nAnd I'll be all cried up soon\nI can't see no God on the moon\nIt's long way to go\nOne for my baby\nOne for the road\nOne for my baby\nAnd one for the road\nI cry alone at night\nHe's not alone at night\nI'll be there my whole night\nOne for my baby\nOne for the road\nOne for my baby\nAnd one for the road",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 38,
+    "cleaned_lines": 33,
+    "removed_count": 3,
+    "retention_rate": 0.9166666666666666,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            3,
+            9,
+            11,
+            17,
+            19,
+            25,
+            27,
+            33,
+            35
+          ],
+          "original_lyric": "One for the road\nAnd one for the road\nOne for my baby\nOne for the road\nOne for my baby\nAnd one for the road\nOne for my baby\nAnd one for the road\nOne for my baby\nAnd one for the road",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is drinking a drink for the road, meaning they are leaving or missing someone.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            2,
+            8,
+            10,
+            16,
+            18,
+            24,
+            26,
+            32,
+            34
+          ],
+          "original_lyric": "One for my baby\nOne for my baby\nOne for my baby\nOne for my baby\nOne for my baby\nOne for my baby\nOne for my baby\nOne for my baby\nOne for my baby",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is drinking a drink for their baby, meaning they are missing their baby.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            4,
+            12,
+            28
+          ],
+          "original_lyric": "I cry alone at night\nI cry alone at night\nI cry alone at night",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "The singer is sad and crying by themselves at night.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Please tell me it's only night",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer is scared and wants to be reassured that it's just night time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "And she's calling me back at night",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer is hopeful because someone is calling them back.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "And she's already home",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person the singer is missing is already home.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "There is no friend in sight",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is alone and has no friends around.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "I love getting back at night",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer enjoys returning home at night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "This bottle is dried up too",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "The singer's bottle is empty.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "And I'll be all cried up soon",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "The singer is going to cry soon.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "I can't see no God on the moon",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "despair",
+          "emotion_secondary": "doubt",
+          "eli5_simplification": "The singer is losing faith.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "It's long way to go",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer has a long journey ahead.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "He's not alone at night",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone is not alone at night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "I'll be there my whole night",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer will be there all night.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          {
+            "line_numbers": [
+              29
+            ],
+            "original_lyric": "He's not alone at night",
+            "shift_type": "third person to first person",
+            "details": "The shift from the general 'I' to 'He' and then back to 'I'"
+          }
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 36,
+        "covered_lines": 36,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "He's not alone at night",
+          "shift_type": "third person to first person",
+          "details": "The shift from the general 'I' to 'He' and then back to 'I'"
+        }
+      ]
+    },
+    "coverage": {
+      "total_lines": 36,
+      "covered_lines": 36,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "One for the road",
+            "One for my baby",
+            "And one for the road",
+            "I cry alone at night"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            3
+          ],
+          "end_words": [
+            "road",
+            "baby",
+            "road",
+            "night"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "road",
+              "word2": "road",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Please tell me it's only night",
+            "And she's calling me back at night",
+            "And she's already home",
+            "One for my baby"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            4,
+            3,
+            2
+          ],
+          "end_words": [
+            "night",
+            "night",
+            "home",
+            "baby"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "night",
+              "word2": "night",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "One for the road",
+            "One for my baby",
+            "And one for the road",
+            "I cry alone at night"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            3
+          ],
+          "end_words": [
+            "road",
+            "baby",
+            "road",
+            "night"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "road",
+              "word2": "road",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "There is no friend in sight",
+            "I love getting back at night",
+            "One for my baby",
+            "One for the road"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            2,
+            2
+          ],
+          "end_words": [
+            "sight",
+            "night",
+            "baby",
+            "road"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "sight",
+              "word2": "night",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "One for my baby",
+            "And one for the road",
+            "This bottle is dried up too",
+            "And I'll be all cried up soon"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            5
+          ],
+          "end_words": [
+            "baby",
+            "road",
+            "too",
+            "soon"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "too",
+              "word2": "soon",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I can't see no God on the moon",
+            "It's long way to go",
+            "One for my baby",
+            "One for the road"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            4,
+            2,
+            2
+          ],
+          "end_words": [
+            "moon",
+            "go",
+            "baby",
+            "road"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "go",
+              "word2": "road",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "One for my baby",
+            "And one for the road",
+            "I cry alone at night",
+            "He's not alone at night"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            2,
+            3,
+            4
+          ],
+          "end_words": [
+            "baby",
+            "road",
+            "night",
+            "night"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "night",
+              "word2": "night",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "I'll be there my whole night",
+            "One for my baby",
+            "One for the road",
+            "One for my baby"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "night",
+            "baby",
+            "road",
+            "baby"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "baby",
+              "word2": "baby",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "And one for the road"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2
+          ],
+          "end_words": [
+            "road"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "chorus",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "chorus",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 33
+    }
+  }
+}

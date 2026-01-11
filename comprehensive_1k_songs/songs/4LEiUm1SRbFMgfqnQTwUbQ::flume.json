@@ -1,0 +1,470 @@
+{
+  "song_id": "4LEiUm1SRbFMgfqnQTwUbQ::flume",
+  "title": "Flume",
+  "artist": "Bon Iver",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nI my mother's only one\nIt's enough\nI wear my garment so it shows\nNow you know\nOnly love is all maroon\nGluey feathers on flume\nSky is womb and she's the moon\n\n[intro]\nI my mother on the wall, with us all\nI move in water, shore to shore;\nNothing's more\nOnly love is all maroon\nLapping lakes like leary loons\nLeaving rope burns\nReddish ruse\n\n[intro]\nOnly love is all maroon\nGluey feathers on flume\nSky is womb and she's the moon",
+  "cleaned_lyrics": "I my mother's only one\nIt's enough\nI wear my garment so it shows\nNow you know\nOnly love is all maroon\nGluey feathers on flume\nSky is womb and she's the moon\nI my mother on the wall\nwith us all\nI move in water\nshore to shore\nNothing's more\nOnly love is all maroon\nLapping lakes like leary loons\nLeaving rope burns\nReddish ruse\nOnly love is all maroon\nGluey feathers on flume\nSky is womb and she's the moon",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 22,
+    "cleaned_lines": 19,
+    "removed_count": 3,
+    "retention_rate": 0.95,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I my mother's only one\nIt's enough",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is talking about their mother and saying that's all they need.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I wear my garment so it shows\nNow you know",
+          "plot_function": "SETUP",
+          "emotion_primary": "vulnerability",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is showing something about themselves, and now the listener knows.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7
+          ],
+          "original_lyric": "Only love is all maroon\nGluey feathers on flume\nSky is womb and she's the moon",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "wonder",
+          "eli5_simplification": "Love is the only thing that matters, like feathers on a stream, and the sky is like a mother.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "I my mother on the wall\nwith us all",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is thinking about their mother, and how they are all together.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "I move in water\nshore to shore",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "peace",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is moving through life, from place to place.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Nothing's more",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Nothing else matters.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14,
+            15
+          ],
+          "original_lyric": "Only love is all maroon\nLapping lakes like leary loons\nLeaving rope burns",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "wonder",
+          "eli5_simplification": "Love is the only thing that matters, like the water and the birds, leaving marks.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Reddish ruse",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "ambiguity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Something is not what it seems.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18,
+            19
+          ],
+          "original_lyric": "Only love is all maroon\nGluey feathers on flume\nSky is womb and she's the moon",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "wonder",
+          "eli5_simplification": "Love is the only thing that matters, like feathers on a stream, and the sky is like a mother.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I my mother's only one",
+            "It's enough",
+            "I wear my garment so it shows",
+            "Now you know"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "one",
+            "enough",
+            "shows",
+            "know"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "one",
+              "word2": "enough",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "shows",
+              "word2": "know",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Only love is all maroon",
+            "Gluey feathers on flume",
+            "Sky is womb and she's the moon",
+            "I my mother on the wall"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            4,
+            3,
+            4,
+            2
+          ],
+          "end_words": [
+            "maroon",
+            "flume",
+            "moon",
+            "wall"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "maroon",
+              "word2": "flume",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (UW), post-consonants in same family"
+            },
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "maroon",
+              "word2": "moon",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "flume",
+              "word2": "moon",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (UW), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "with us all",
+            "I move in water",
+            "shore to shore",
+            "Nothing's more"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "all",
+            "water",
+            "shore",
+            "more"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "all",
+              "word2": "water",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "water",
+              "word2": "shore",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "shore",
+              "word2": "more",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Only love is all maroon",
+            "Lapping lakes like leary loons",
+            "Leaving rope burns",
+            "Reddish ruse"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            5,
+            3,
+            2
+          ],
+          "end_words": [
+            "maroon",
+            "loons",
+            "burns",
+            "ruse"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "maroon",
+              "word2": "loons",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word removes post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "loons",
+              "word2": "ruse",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (UW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Only love is all maroon",
+            "Gluey feathers on flume",
+            "Sky is womb and she's the moon"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AAA",
+          "raw_rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.7,
+          "stress_counts": [
+            4,
+            3,
+            4
+          ],
+          "end_words": [
+            "maroon",
+            "flume",
+            "moon"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "maroon",
+              "word2": "flume",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (UW), post-consonants in same family"
+            },
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "maroon",
+              "word2": "moon",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "flume",
+              "word2": "moon",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (UW), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "line_count": 3,
+          "stability": 0.7
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 19
+    }
+  }
+}

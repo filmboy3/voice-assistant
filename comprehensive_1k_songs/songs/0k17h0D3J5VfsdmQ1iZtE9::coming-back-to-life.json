@@ -1,0 +1,393 @@
+{
+  "song_id": "0k17h0D3J5VfsdmQ1iZtE9::coming-back-to-life",
+  "title": "Coming Back To Life",
+  "artist": "Pink Floyd",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWhere were you when I was burned and broken\nWhile the days slipped by from my window watching\nWhere were you when I was hurt and I was helpless\n\n[bridge]\nWhile you were hanging yourself on someone else's words\nDying to believe in what you heard\nI was staring straight into the shining sun\nLost in thought and lost in time\nWhile the seeds of life and the seeds of change were planted\n\n[outro]\nWhile I pondered on this dangerous but irresistible pastime\nI took heavenly ride through our silence\nI knew the moment had arrived\nFor killing the past and coming back to life\nI took aheavenly ride through our silence\nI knew the waiting had begun\nAnd headed straight... Into the shining sun\nWords & Lyrics: David Gilmour\nFrom _The Division Bell_ 1994",
+  "cleaned_lyrics": "Where were you when I was burned and broken\nWhere were you when I was hurt and I was helpless\nWhile you were hanging yourself on someone else's words\nDying to believe in what you heard\nI was staring straight into the shining sun\nLost in thought and lost in time\nWhile the seeds of life and the seeds of change were planted\nWhile I pondered on this dangerous but irresistible pastime\nI took heavenly ride through our silence\nI knew the moment had arrived\nFor killing the past and coming back to life\nI took aheavenly ride through our silence\nI knew the waiting had begun\nAnd headed straight... Into the shining sun\nWords & Lyrics: David Gilmour\nFrom _The Division Bell_ 1994",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 22,
+    "cleaned_lines": 16,
+    "removed_count": 4,
+    "retention_rate": 0.8,
+    "removal_reasons": {
+      "section_marker": 3,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Where were you when I was burned and broken\nWhere were you when I was hurt and I was helpless",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is angry and sad because someone wasn't there for them when they were in trouble.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "While you were hanging yourself on someone else's words\nDying to believe in what you heard",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "The singer is angry because the other person was focused on other people's opinions.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "I was staring straight into the shining sun\nLost in thought and lost in time",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "melancholy",
+          "eli5_simplification": "The singer was lost in their own thoughts, looking towards something hopeful.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "While the seeds of life and the seeds of change were planted\nWhile I pondered on this dangerous but irresistible pastime",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "curiosity",
+          "eli5_simplification": "The singer is thinking about new beginnings and something exciting but risky.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "I took heavenly ride through our silence\nI knew the moment had arrived",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "hope",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "The singer felt a sense of peace and knew it was time for a change.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "For killing the past and coming back to life",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "relief",
+          "eli5_simplification": "The singer is letting go of the past and starting anew.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "I took aheavenly ride through our silence",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "hope",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "The singer felt a sense of peace and knew it was time for a change.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "I knew the waiting had begun",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "anticipation",
+          "eli5_simplification": "The singer knows the process of change has started.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "And headed straight... Into the shining sun",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "The singer is moving forward towards something hopeful.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "original_lyric": "Words & Lyrics: David Gilmour\nFrom _The Division Bell_ 1994",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "null",
+          "emotion_secondary": "null",
+          "eli5_simplification": "Information about the song's author and album.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Where were you when I was burned and broken",
+            "Where were you when I was hurt and I was helpless",
+            "While you were hanging yourself on someone else's words",
+            "Dying to believe in what you heard"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "broken",
+            "helpless",
+            "words",
+            "heard"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "words",
+              "word2": "heard",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (ER), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I was staring straight into the shining sun",
+            "Lost in thought and lost in time",
+            "While the seeds of life and the seeds of change were planted",
+            "While I pondered on this dangerous but irresistible pastime"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            4,
+            6,
+            5
+          ],
+          "end_words": [
+            "sun",
+            "time",
+            "planted",
+            "pastime"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "planted",
+              "word2": "pastime",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I took heavenly ride through our silence",
+            "I knew the moment had arrived",
+            "For killing the past and coming back to life",
+            "I took aheavenly ride through our silence"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            5,
+            4,
+            5,
+            5
+          ],
+          "end_words": [
+            "silence",
+            "arrived",
+            "life",
+            "silence"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "silence",
+              "word2": "arrived",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "silence",
+              "word2": "silence",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "arrived",
+              "word2": "life",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "life",
+              "word2": "silence",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I knew the waiting had begun",
+            "And headed straight... Into the shining sun",
+            "Words & Lyrics: David Gilmour",
+            "From _The Division Bell_ 1994"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            5,
+            4,
+            2
+          ],
+          "end_words": [
+            "begun",
+            "sun",
+            "gilmour",
+            "bell"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "begun",
+              "word2": "sun",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 16
+    }
+  }
+}

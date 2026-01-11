@@ -1,0 +1,487 @@
+{
+  "song_id": "3WrFJ7ztbogyGnTHbHJFl2::martha-my-dear-ver-2",
+  "title": "Martha my dear (ver. 2)",
+  "artist": "The Beatles",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\n()\nMartha my dear, though I spend my days in conversation, please:\nRemember me, Martha, my love, don't forget me,\nMartha, my dear.\nHold your head up, you silly girl, look what you've done!\nWhen you find yourself in the thick of it,\nhelp yourself to bit of what is all around you, silly girl!\nTake good look around you,\ntake good look around to see, that you and me\nwere meant to be with each other, silly girl.\n(Chorus)\nMartha, my dear, you have always been my inspiration, please:\n\n[bridge]\nMartha, my dear!",
+  "cleaned_lyrics": "Martha my dear\nthough I spend my days in conversation\nplease:\nRemember me\nMartha\nmy love\ndon't forget me\nMartha\nmy dear.\nHold your head up\nyou silly girl\nlook what you've done!\nWhen you find yourself in the thick of it\nhelp yourself to bit of what is all around you\nsilly girl!\nTake good look around you\ntake good look around to see\nthat you and me\nwere meant to be with each other\nsilly girl.\nMartha\nmy dear\nyou have always been my inspiration\nplease:\nMartha\nmy dear!",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 16,
+    "cleaned_lines": 26,
+    "removed_count": 3,
+    "retention_rate": 1.7333333333333334,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "original_lyric": "Martha my dear\nthough I spend my days in conversation\nplease:\nRemember me\nMartha\nmy love\ndon't forget me\nMartha",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer is talking to Martha, asking her to remember him and expressing his love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "my dear.\nHold your head up\nyou silly girl",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "concern",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer is telling Martha to be strong, possibly because she's upset.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "look what you've done!",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "concern",
+          "emotion_secondary": "null",
+          "eli5_simplification": "The singer is acknowledging something Martha has done.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "When you find yourself in the thick of it\nhelp yourself to bit of what is all around you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer is offering advice to Martha to help her through a difficult situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "silly girl!",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "null",
+          "eli5_simplification": "The singer is affectionately calling Martha 'silly girl'.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17,
+            18
+          ],
+          "original_lyric": "Take good look around you\ntake good look around to see\nthat you and me",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer is encouraging Martha to see their relationship.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "were meant to be with each other",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer is expressing that they are meant to be together.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "silly girl.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "null",
+          "eli5_simplification": "The singer is affectionately calling Martha 'silly girl'.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "original_lyric": "Martha\nmy dear\nyou have always been my inspiration\nplease:",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "gratitude",
+          "eli5_simplification": "The singer is expressing his love and gratitude for Martha.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "Martha\nmy dear!",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "null",
+          "eli5_simplification": "The singer is expressing his love for Martha.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 26,
+        "covered_lines": 26,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 26,
+      "covered_lines": 26,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Martha my dear",
+            "though I spend my days in conversation",
+            "please:",
+            "Remember me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            4,
+            1,
+            2
+          ],
+          "end_words": [
+            "dear",
+            "conversation",
+            "please",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "please",
+              "word2": "me",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Martha",
+            "my love",
+            "don't forget me",
+            "Martha"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            1,
+            1,
+            3,
+            1
+          ],
+          "end_words": [
+            "martha",
+            "love",
+            "me",
+            "martha"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "martha",
+              "word2": "martha",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "my dear.",
+            "Hold your head up",
+            "you silly girl",
+            "look what you've done!"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            1,
+            3,
+            2,
+            4
+          ],
+          "end_words": [
+            "dear",
+            "up",
+            "girl",
+            "done"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "up",
+              "word2": "done",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "When you find yourself in the thick of it",
+            "help yourself to bit of what is all around you",
+            "silly girl!",
+            "Take good look around you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            7,
+            2,
+            5
+          ],
+          "end_words": [
+            "it",
+            "you",
+            "girl",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "you",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "take good look around to see",
+            "that you and me",
+            "were meant to be with each other",
+            "silly girl."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            1,
+            3,
+            2
+          ],
+          "end_words": [
+            "see",
+            "me",
+            "other",
+            "girl"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "see",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Martha",
+            "my dear",
+            "you have always been my inspiration",
+            "please:"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "end_words": [
+            "martha",
+            "dear",
+            "inspiration",
+            "please"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Martha",
+            "my dear!"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX",
+          "pattern_confidence": 1.0,
+          "stability": 0.8,
+          "stress_counts": [
+            1,
+            1
+          ],
+          "end_words": [
+            "martha",
+            "dear"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX",
+          "line_count": 2,
+          "stability": 0.8
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 26
+    }
+  }
+}

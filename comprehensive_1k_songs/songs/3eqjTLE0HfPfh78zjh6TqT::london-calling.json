@@ -1,0 +1,663 @@
+{
+  "song_id": "3eqjTLE0HfPfh78zjh6TqT::london-calling",
+  "title": "London Calling",
+  "artist": "Bruce Springsteen",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nLondon calling to the faraway towns\nNow that war is declared-and battle come down\nLondon calling to the underworld\n\n[chorus]\nLondon calling, now don't look at us\nAll that phoney Beatlemania has bitten the dust\nLondon calling, see we ain't got no swing\n'Cept for the ring of that truncheon thing\nThe ice age is coming, the sun is zooming in\nEngines stop running, the wheat is growing thin\nnuclear error, but I have no fear\nLondon is drowning-and I live by the river\nLondon calling to the imitation zone\nForget it, brother, an' go it alone\nLondon calling upon the zombies of death\nQuit holding out-and draw another breath\nLondon calling-and I don't wanna shout\n\n[bridge]\nLondon calling, see we ain't got no highs\nExcept for that one with the yellowy eyes\nSolo: ,\nLondon calling, I was there, too\nAn' you know what baby? Well, some of it was true!\nLondon calling at the top of the dial\nAfter all this, won't you give me smile?\nLondon Calling\nI never felt so much ' like",
+  "cleaned_lyrics": "London calling to the faraway towns\nNow that war is declared-and battle come down\nLondon calling to the underworld\nLondon calling\nnow don't look at us\nAll that phoney Beatlemania has bitten the dust\nLondon calling\nsee we ain't got no swing\n'Cept for the ring of that truncheon thing\nThe ice age is coming\nthe sun is zooming in\nEngines stop running\nthe wheat is growing thin\nnuclear error\nbut I have no fear\nLondon calling to the imitation zone\nForget it\nbrother\nan' go it alone\nLondon calling upon the zombies of death\nQuit holding out-and draw another breath\nLondon calling-and I don't wanna shout\nLondon calling\nsee we ain't got no highs\nExcept for that one with the yellowy eyes\nSolo:\nLondon calling\nI was there\ntoo\nAn' you know what baby? Well\nsome of it was true!\nLondon calling at the top of the dial\nAfter all this\nwon't you give me smile?\nLondon Calling\nI never felt so much ' like",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 30,
+    "cleaned_lines": 36,
+    "removed_count": 4,
+    "retention_rate": 1.2857142857142858,
+    "removal_reasons": {
+      "section_marker": 3,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "London calling to the faraway towns\nNow that war is declared-and battle come down",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anxiety",
+          "eli5_simplification": "The song starts by warning everyone about something bad happening, like a war.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "London calling to the underworld\nLondon calling",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anxiety",
+          "eli5_simplification": "The song is calling out to everyone, even those in dark places.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "now don't look at us\nAll that phoney Beatlemania has bitten the dust",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "disgust",
+          "emotion_secondary": "cynicism",
+          "eli5_simplification": "The song is saying that fake things are gone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "London calling\nsee we ain't got no swing\n'Cept for the ring of that truncheon thing",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "The song says there's nothing fun left, except for the sound of police.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "The ice age is coming\nthe sun is zooming in",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "dread",
+          "eli5_simplification": "Something bad is getting closer, like the world is changing in a scary way.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "Engines stop running\nthe wheat is growing thin",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "dread",
+          "eli5_simplification": "Things are breaking down, and food is running out.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "nuclear error\nbut I have no fear",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "defiance",
+          "eli5_simplification": "Even with a nuclear problem, the singer says they aren't scared.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "London calling to the imitation zone\nForget it\nbrother\nan' go it alone",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "disappointment",
+          "emotion_secondary": "isolation",
+          "eli5_simplification": "The song is calling out to a place of fakes, and telling people to go their own way.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "London calling upon the zombies of death\nQuit holding out-and draw another breath",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "urgency",
+          "eli5_simplification": "The song is calling out to those who are like zombies, telling them to live.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "London calling-and I don't wanna shout\nLondon calling",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": "weariness",
+          "eli5_simplification": "The song is calling out, but the singer is tired of shouting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "see we ain't got no highs\nExcept for that one with the yellowy eyes",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The song says there's nothing good left, except for something with yellow eyes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "Solo:",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "null",
+          "emotion_secondary": "null",
+          "eli5_simplification": "Instrumental break.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "London calling\nI was there",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "nostalgia",
+          "eli5_simplification": "The singer was there.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "too\nAn' you know what baby? Well",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "nostalgia",
+          "eli5_simplification": "The singer was there.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28,
+            29
+          ],
+          "original_lyric": "some of it was true!\nLondon calling at the top of the dial",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "nostalgia",
+          "eli5_simplification": "Some of what happened was real.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30,
+            31
+          ],
+          "original_lyric": "After all this\nwon't you give me smile?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "After all this, can you smile?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32,
+            33
+          ],
+          "original_lyric": "London Calling\nI never felt so much ' like",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer is reflecting on the situation.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 33,
+        "covered_lines": 33,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 33,
+      "covered_lines": 33,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "London calling to the faraway towns",
+            "Now that war is declared-and battle come down",
+            "London calling to the underworld",
+            "London calling"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            6,
+            3,
+            2
+          ],
+          "end_words": [
+            "towns",
+            "down",
+            "underworld",
+            "calling"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "towns",
+              "word2": "down",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "now don't look at us",
+            "All that phoney Beatlemania has bitten the dust",
+            "London calling",
+            "see we ain't got no swing"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            5,
+            2,
+            5
+          ],
+          "end_words": [
+            "us",
+            "dust",
+            "calling",
+            "swing"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "us",
+              "word2": "dust",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AH), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "'Cept for the ring of that truncheon thing",
+            "The ice age is coming",
+            "the sun is zooming in",
+            "Engines stop running"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "thing",
+            "coming",
+            "in",
+            "running"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "thing",
+              "word2": "in",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (IH), post-consonants in same family"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "coming",
+              "word2": "running",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AH), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "the wheat is growing thin",
+            "nuclear error",
+            "but I have no fear",
+            "London calling to the imitation zone"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            2,
+            2,
+            4
+          ],
+          "end_words": [
+            "thin",
+            "error",
+            "fear",
+            "zone"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "thin",
+              "word2": "fear",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Forget it",
+            "brother",
+            "an' go it alone",
+            "London calling upon the zombies of death"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            1,
+            2,
+            5
+          ],
+          "end_words": [
+            "it",
+            "brother",
+            "alone",
+            "death"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Quit holding out-and draw another breath",
+            "London calling-and I don't wanna shout",
+            "London calling",
+            "see we ain't got no highs"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            5,
+            2,
+            5
+          ],
+          "end_words": [
+            "breath",
+            "shout",
+            "calling",
+            "highs"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Except for that one with the yellowy eyes",
+            "Solo:",
+            "London calling",
+            "I was there"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            1,
+            2,
+            1
+          ],
+          "end_words": [
+            "eyes",
+            "solo",
+            "calling",
+            "there"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "too",
+            "An' you know what baby? Well",
+            "some of it was true!",
+            "London calling at the top of the dial"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            1,
+            4,
+            2,
+            4
+          ],
+          "end_words": [
+            "too",
+            "well",
+            "true",
+            "dial"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "too",
+              "word2": "true",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "After all this",
+            "won't you give me smile?",
+            "London Calling",
+            "I never felt so much ' like"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            4
+          ],
+          "end_words": [
+            "this",
+            "smile",
+            "calling",
+            "like"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "smile",
+              "word2": "like",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 36
+    }
+  }
+}

@@ -1,0 +1,663 @@
+{
+  "song_id": "6eUKZXaKkcviH0Ku9w2n3V::hands-of-gold",
+  "title": "Hands Of Gold",
+  "artist": "Ed Sheeran",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nHe rode through the streets of the city\nDown from his hill on high\nO'er the winds and the steps and the cobble\nHe rode to woman's sigh\nFor she was his secret treasure\nShe was his shame and his bliss\nAnd chain and keep are nothing\n\n[chorus]\nFor hands of gold are always cold\n\n[bridge]\nFor hands of gold are always cold\n\n[bridge]\nAnd there he stood with sword in hand\nThe last of darry's tem\nAnd red the grass beneath his feet\nAnd red his banners bright\nAnd red the glow of setting sun\nThat bathed him in its light\n\"Come on, come on\" the great lord called\n\"My sword is hungry still\"\nAnd with cry of savage rage\nThey swarmed across the rill\nAnd with cry of savage rage\nThey swarmed across the rill\nHe rode through the streets of the city\nDown from his hill on high\nO'er the winds and the steps and the cobble\nHe rode to woman's sigh\nFor she was his secret treasure\nShe was his shame and his bliss\nAnd chain and keep are nothing\n\n[chorus]\nFor hands of gold are always cold\n\n[bridge]\nFor hands of gold are always cold\n\n[bridge]\nFor hands of gold are always cold\n\n[bridge]\nFor hands of gold are always cold",
+  "cleaned_lyrics": "He rode through the streets of the city\nDown from his hill on high\nO'er the winds and the steps and the cobble\nHe rode to woman's sigh\nFor she was his secret treasure\nShe was his shame and his bliss\nAnd chain and keep are nothing\nFor hands of gold are always cold\nFor hands of gold are always cold\nAnd there he stood with sword in hand\nThe last of darry's tem\nAnd red the grass beneath his feet\nAnd red his banners bright\nAnd red the glow of setting sun\nThat bathed him in its light\n\"Come on\ncome on\" the great lord called\n\"My sword is hungry still\"\nAnd with cry of savage rage\nThey swarmed across the rill\nAnd with cry of savage rage\nThey swarmed across the rill\nHe rode through the streets of the city\nDown from his hill on high\nO'er the winds and the steps and the cobble\nHe rode to woman's sigh\nFor she was his secret treasure\nShe was his shame and his bliss\nAnd chain and keep are nothing\nFor hands of gold are always cold\nFor hands of gold are always cold\nFor hands of gold are always cold\nFor hands of gold are always cold",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 47,
+    "cleaned_lines": 33,
+    "removed_count": 8,
+    "retention_rate": 0.825,
+    "removal_reasons": {
+      "section_marker": 8
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "He rode through the streets of the city\nDown from his hill on high",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "A man is riding through the city from his home.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "O'er the winds and the steps and the cobble\nHe rode to woman's sigh",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's traveling to see a woman.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "For she was his secret treasure\nShe was his shame and his bliss",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "He loves her, but it's a secret and maybe a problem.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "And chain and keep are nothing\nFor hands of gold are always cold",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Money and power don't matter; love is cold.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "For hands of gold are always cold",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Money and power don't matter; love is cold.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "And there he stood with sword in hand\nThe last of darry's tem",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's ready for a fight.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "And red the grass beneath his feet\nAnd red his banners bright",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The scene is set for battle.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "And red the glow of setting sun\nThat bathed him in its light",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The sun sets, adding to the tension.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "\"Come on\ncome on\" the great lord called",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The leader calls for the fight to begin.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "\"My sword is hungry still\"",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The leader is eager to fight.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "And with cry of savage rage\nThey swarmed across the rill",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The battle begins.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "And with cry of savage rage\nThey swarmed across the rill",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The battle continues.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "He rode through the streets of the city\nDown from his hill on high",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "A man is riding through the city from his home.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "O'er the winds and the steps and the cobble\nHe rode to woman's sigh",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's traveling to see a woman.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "For she was his secret treasure\nShe was his shame and his bliss",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "He loves her, but it's a secret and maybe a problem.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "And chain and keep are nothing\nFor hands of gold are always cold",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Money and power don't matter; love is cold.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "For hands of gold are always cold",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Money and power don't matter; love is cold.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "For hands of gold are always cold",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Money and power don't matter; love is cold.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            33
+          ],
+          "original_lyric": "For hands of gold are always cold",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Money and power don't matter; love is cold.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 33,
+        "covered_lines": 33,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 33,
+      "covered_lines": 33,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "He rode through the streets of the city",
+            "Down from his hill on high",
+            "O'er the winds and the steps and the cobble",
+            "He rode to woman's sigh"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 1.0,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            3,
+            4,
+            3
+          ],
+          "end_words": [
+            "city",
+            "high",
+            "cobble",
+            "sigh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "high",
+              "word2": "sigh",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "For she was his secret treasure",
+            "She was his shame and his bliss",
+            "And chain and keep are nothing",
+            "For hands of gold are always cold"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            3,
+            4
+          ],
+          "end_words": [
+            "treasure",
+            "bliss",
+            "nothing",
+            "cold"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "For hands of gold are always cold",
+            "And there he stood with sword in hand",
+            "The last of darry's tem",
+            "And red the grass beneath his feet"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "cold",
+            "hand",
+            "tem",
+            "feet"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "And red his banners bright",
+            "And red the glow of setting sun",
+            "That bathed him in its light",
+            "\"Come on"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            4,
+            2,
+            2
+          ],
+          "end_words": [
+            "bright",
+            "sun",
+            "light",
+            "on"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "bright",
+              "word2": "light",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "come on\" the great lord called",
+            "\"My sword is hungry still\"",
+            "And with cry of savage rage",
+            "They swarmed across the rill"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "called",
+            "still",
+            "rage",
+            "rill"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "still",
+              "word2": "rill",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "And with cry of savage rage",
+            "They swarmed across the rill",
+            "He rode through the streets of the city",
+            "Down from his hill on high"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            3
+          ],
+          "end_words": [
+            "rage",
+            "rill",
+            "city",
+            "high"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "rill",
+              "word2": "city",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "O'er the winds and the steps and the cobble",
+            "He rode to woman's sigh",
+            "For she was his secret treasure",
+            "She was his shame and his bliss"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            3,
+            2,
+            2
+          ],
+          "end_words": [
+            "cobble",
+            "sigh",
+            "treasure",
+            "bliss"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "And chain and keep are nothing",
+            "For hands of gold are always cold",
+            "For hands of gold are always cold",
+            "For hands of gold are always cold"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "nothing",
+            "cold",
+            "cold",
+            "cold"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "cold",
+              "word2": "cold",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "cold",
+              "word2": "cold",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "For hands of gold are always cold"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "cold"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "chorus",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 33
+    }
+  }
+}

@@ -1,0 +1,592 @@
+{
+  "song_id": "4dpARuHxo51G3z768sgnrY::to-make-you-feel-my-love",
+  "title": "To Make You Feel My Love",
+  "artist": "Adele",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWhen the rain is blowing in your face\nAnd the hole world is on your chase\nI would offer you warm embrace\nTo make you feel my love\nWhen evening shadows and the stars appear\nAnd there is no one there to dry your tears\nI could hold you for million years\nTo make you feel my love\n\n[bridge]\nI know you haven't made your mind up yet\n\n[bridge]\nI've known it from the moment that we met\nNo doubt in my mind where you belong\n,>VERSE\nI' go hungry, I' go black and blue\nI' go crawling down the avenue\nNo there's nothing that I wouldn't do\nTo make you feel my love\n\n[bridge]\nThe storms are raging on the rollin' sea\nAnd on the highway of regret\nThe winds of change ar blowing wild and free\nYou ain't seen nothing like me yet\n\n[verse]\nI could make you happy, make your dreams come true\nThere's nothing that I would not do\nGo to the ends of the earth for you\nTo make you feel my love\nTo make you feel my love",
+  "cleaned_lyrics": "When the rain is blowing in your face\nAnd the hole world is on your chase\nI would offer you warm embrace\nTo make you feel my love\nWhen evening shadows and the stars appear\nAnd there is no one there to dry your tears\nI could hold you for million years\nTo make you feel my love\nI know you haven't made your mind up yet\nI've known it from the moment that we met\nNo doubt in my mind where you belong\nI' go hungry\nI' go black and blue\nI' go crawling down the avenue\nNo there's nothing that I wouldn't do\nTo make you feel my love\nThe storms are raging on the rollin' sea\nAnd on the highway of regret\nThe winds of change ar blowing wild and free\nYou ain't seen nothing like me yet\nI could make you happy\nmake your dreams come true\nThere's nothing that I would not do\nGo to the ends of the earth for you\nTo make you feel my love\nTo make you feel my love",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 34,
+    "cleaned_lines": 26,
+    "removed_count": 6,
+    "retention_rate": 0.8666666666666667,
+    "removal_reasons": {
+      "section_marker": 5,
+      "caps_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "When the rain is blowing in your face\nAnd the hole world is on your chase",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "When you're feeling down and the world is against you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I would offer you warm embrace\nTo make you feel my love",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "I want to comfort you and show you my love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "When evening shadows and the stars appear\nAnd there is no one there to dry your tears",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "When it's dark and you're all alone and sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "I could hold you for million years\nTo make you feel my love",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "I want to comfort you and show you my love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "I know you haven't made your mind up yet\nI've known it from the moment that we met",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "I know you're not sure about us, but I've always known.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "No doubt in my mind where you belong",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "I know you belong with me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13,
+            14
+          ],
+          "original_lyric": "I' go hungry\nI' go black and blue\nI' go crawling down the avenue",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "I would do anything, even if it hurts, to be with you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "No there's nothing that I wouldn't do\nTo make you feel my love",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "I would do anything to make you feel my love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "The storms are raging on the rollin' sea\nAnd on the highway of regret",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Life is hard and full of regrets.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "The winds of change ar blowing wild and free",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "uncertainty",
+          "eli5_simplification": "Things are changing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "You ain't seen nothing like me yet",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "confidence",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "You haven't seen the best of me yet.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "I could make you happy\nmake your dreams come true",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "I can make you happy and make your dreams come true.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "There's nothing that I would not do",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "I would do anything for you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "Go to the ends of the earth for you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "I would go anywhere for you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "To make you feel my love\nTo make you feel my love",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "I want to make you feel my love.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 25,
+        "covered_lines": 25,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 25,
+      "covered_lines": 25,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "When the rain is blowing in your face",
+            "And the hole world is on your chase",
+            "I would offer you warm embrace",
+            "To make you feel my love"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "face",
+            "chase",
+            "embrace",
+            "love"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "face",
+              "word2": "chase",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "chase",
+              "word2": "embrace",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "When evening shadows and the stars appear",
+            "And there is no one there to dry your tears",
+            "I could hold you for million years",
+            "To make you feel my love"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            5,
+            6,
+            3,
+            3
+          ],
+          "end_words": [
+            "appear",
+            "tears",
+            "years",
+            "love"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "appear",
+              "word2": "tears",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IH), one word removes post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "tears",
+              "word2": "years",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I know you haven't made your mind up yet",
+            "I've known it from the moment that we met",
+            "No doubt in my mind where you belong",
+            "I' go hungry"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            4,
+            5,
+            2
+          ],
+          "end_words": [
+            "yet",
+            "met",
+            "belong",
+            "hungry"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "yet",
+              "word2": "met",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I' go black and blue",
+            "I' go crawling down the avenue",
+            "No there's nothing that I wouldn't do",
+            "To make you feel my love"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "blue",
+            "avenue",
+            "do",
+            "love"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "blue",
+              "word2": "do",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "The storms are raging on the rollin' sea",
+            "And on the highway of regret",
+            "The winds of change ar blowing wild and free",
+            "You ain't seen nothing like me yet"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            4,
+            2,
+            6,
+            5
+          ],
+          "end_words": [
+            "sea",
+            "regret",
+            "free",
+            "yet"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "sea",
+              "word2": "free",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "regret",
+              "word2": "yet",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I could make you happy",
+            "make your dreams come true",
+            "There's nothing that I would not do",
+            "Go to the ends of the earth for you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "happy",
+            "true",
+            "do",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "true",
+              "word2": "do",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "do",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "To make you feel my love",
+            "To make you feel my love"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            3,
+            3
+          ],
+          "end_words": [
+            "love",
+            "love"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "love",
+              "word2": "love",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "chorus",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "line_count": 2,
+          "stability": 1.0
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 26
+    }
+  }
+}

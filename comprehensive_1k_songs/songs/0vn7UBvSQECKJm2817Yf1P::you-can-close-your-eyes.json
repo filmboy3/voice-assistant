@@ -1,0 +1,373 @@
+{
+  "song_id": "0vn7UBvSQECKJm2817Yf1P::you-can-close-your-eyes",
+  "title": "You can close your eyes",
+  "artist": "James Taylor",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWell, the sun is surely sinking down\n\n[bridge]\nSo this old world must still be spinning 'round\nAnd I still love you\nSo close your eyes\nYou can close your eyes, it's all right\nI don't know no love songs\nAnd I can't sing the blues anymore\n\n[bridge]\nAnd you can sing this song when I'm gone\nIt won't be long before another day\nWe're gonna have good time\nAnd no one's gonna take that time away\nYou can stay as long as you like\n{chorus}",
+  "cleaned_lyrics": "Well\nthe sun is surely sinking down\nSo this old world must still be spinning 'round\nAnd I still love you\nSo close your eyes\nYou can close your eyes\nit's all right\nI don't know no love songs\nAnd I can't sing the blues anymore\nAnd you can sing this song when I'm gone\nIt won't be long before another day\nWe're gonna have good time\nAnd no one's gonna take that time away\nYou can stay as long as you like",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 18,
+    "cleaned_lines": 14,
+    "removed_count": 4,
+    "retention_rate": 0.875,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Well\nthe sun is surely sinking down",
+          "plot_function": "SETUP",
+          "emotion_primary": "calm",
+          "emotion_secondary": null,
+          "eli5_simplification": "The sun is setting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "So this old world must still be spinning 'round",
+          "plot_function": "SETUP",
+          "emotion_primary": "calm",
+          "emotion_secondary": null,
+          "eli5_simplification": "The world keeps turning.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "And I still love you",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "I still love you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "So close your eyes\nYou can close your eyes",
+          "plot_function": "SETUP",
+          "emotion_primary": "calm",
+          "emotion_secondary": null,
+          "eli5_simplification": "Close your eyes.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "it's all right",
+          "plot_function": "SETUP",
+          "emotion_primary": "calm",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everything is okay.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "I don't know no love songs",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "I don't know how to sing love songs.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "And I can't sing the blues anymore",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "I can't sing the blues anymore.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "And you can sing this song when I'm gone",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can sing this song when I'm gone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "It won't be long before another day",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "It won't be long until the next day.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "We're gonna have good time",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "We're going to have a good time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "And no one's gonna take that time away",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "No one will take away our good time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "You can stay as long as you like",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can stay as long as you want.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 14,
+        "covered_lines": 14,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 14,
+      "covered_lines": 14,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Well",
+            "the sun is surely sinking down",
+            "So this old world must still be spinning 'round",
+            "And I still love you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "well",
+            "down",
+            "round",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "down",
+              "word2": "round",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "So close your eyes",
+            "You can close your eyes",
+            "it's all right",
+            "I don't know no love songs"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            2,
+            2,
+            3,
+            5
+          ],
+          "end_words": [
+            "eyes",
+            "eyes",
+            "right",
+            "songs"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "eyes",
+              "word2": "eyes",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "eyes",
+              "word2": "right",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "And I can't sing the blues anymore",
+            "And you can sing this song when I'm gone",
+            "It won't be long before another day",
+            "We're gonna have good time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            5,
+            5,
+            4
+          ],
+          "end_words": [
+            "anymore",
+            "gone",
+            "day",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "anymore",
+              "word2": "gone",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "And no one's gonna take that time away",
+            "You can stay as long as you like"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            6,
+            3
+          ],
+          "end_words": [
+            "away",
+            "like"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 14
+    }
+  }
+}

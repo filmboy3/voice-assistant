@@ -1,0 +1,468 @@
+{
+  "song_id": "32vWCbZh0xZ4o9gkz4PsEU::mama-say-a-prayer",
+  "title": "Mama Say A Prayer",
+  "artist": "Dolly Parton",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThe bright lights of the city are pretty sight to see\nPerhaps they're extra pretty to country girl like me\nTemptation waits at every turn and it won't let me be\nSo mama when you pray tonight\nSay special prayer for me\nI miss your tender goodnight kiss of love and understanding\nThe goodnight kisses I get now are cruel and so demanding\nSo mama when you pray tonight\nAnd while you're on your knees\nMama say special prayer for me\n\n[verse]\nThe nights get cold and lonely\nWhen you're far away from home\nAnd lonely makes it easy for good girl to go wrong\nEvil eyes search through the night for lonely girls like me\nSo mama when you pray tonight\nSay special prayer for me\nI miss your tender goodnight kiss of love and understanding\nThe goodnight kisses I get now are cruel and so demanding\nSo mama when you pray tonight\nAnd while you're on your knees\nMama say special prayer for me",
+  "cleaned_lyrics": "The bright lights of the city are pretty sight to see\nPerhaps they're extra pretty\nto country girl like me\nTemptation waits at every turn and it won't let me be\nSo mama when you pray tonight\nSay special prayer for me\nI miss your tender goodnight kiss of love and understanding\nThe goodnight kisses I get now are cruel and so demanding\nSo mama when you pray tonight\nAnd while you're on your knees\nMama say special prayer for me\nThe nights get cold and lonely\nWhen you're far away from home\nAnd lonely makes it easy for good girl to go wrong\nEvil eyes search through the\nnight for lonely girls like me\nSo mama when you pray tonight\nSay special prayer for me\nI miss your tender goodnight kiss of love and understanding\nThe goodnight kisses I get now are cruel and so demanding\nSo mama when you pray tonight\nAnd while you're on your knees\nMama say special prayer for me",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 24,
+    "cleaned_lines": 23,
+    "removed_count": 2,
+    "retention_rate": 1.0,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "The bright lights of the city are pretty sight to see\nPerhaps they're extra pretty",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is looking at the city lights.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "to country girl like me",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "She's a country girl.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5,
+            6
+          ],
+          "original_lyric": "Temptation waits at every turn and it won't let me be\nSo mama when you pray tonight\nSay special prayer for me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "She's worried about being tempted and asks her mom to pray for her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "I miss your tender goodnight kiss of love and understanding\nThe goodnight kisses I get now are cruel and so demanding",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "She misses her mom's love and the kisses she gets now are bad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "So mama when you pray tonight\nAnd while you're on your knees\nMama say special prayer for me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "She asks her mom to pray for her again.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "The nights get cold and lonely\nWhen you're far away from home",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "She feels lonely and cold away from home.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "And lonely makes it easy for good girl to go wrong",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Loneliness makes it easy to make bad choices.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Evil eyes search through the\nnight for lonely girls like me",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Bad people are looking for girls like her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17,
+            18
+          ],
+          "original_lyric": "So mama when you pray tonight\nSay special prayer for me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "She asks her mom to pray for her again.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "I miss your tender goodnight kiss of love and understanding\nThe goodnight kisses I get now are cruel and so demanding",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "She misses her mom's love and the kisses she gets now are bad.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21,
+            22,
+            23
+          ],
+          "original_lyric": "So mama when you pray tonight\nAnd while you're on your knees\nMama say special prayer for me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "She asks her mom to pray for her again.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 23,
+        "covered_lines": 23,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 23,
+      "covered_lines": 23,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "The bright lights of the city are pretty sight to see",
+            "Perhaps they're extra pretty",
+            "to country girl like me",
+            "Temptation waits at every turn and it won't let me be"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            6,
+            4,
+            4,
+            7
+          ],
+          "end_words": [
+            "see",
+            "pretty",
+            "me",
+            "be"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "see",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "me",
+              "word2": "be",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "So mama when you pray tonight",
+            "Say special prayer for me",
+            "I miss your tender goodnight kiss of love and understanding",
+            "The goodnight kisses I get now are cruel and so demanding"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            4,
+            7,
+            6
+          ],
+          "end_words": [
+            "tonight",
+            "me",
+            "understanding",
+            "demanding"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "understanding",
+              "word2": "demanding",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "So mama when you pray tonight",
+            "And while you're on your knees",
+            "Mama say special prayer for me",
+            "The nights get cold and lonely"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            3,
+            5,
+            4
+          ],
+          "end_words": [
+            "tonight",
+            "knees",
+            "me",
+            "lonely"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "knees",
+              "word2": "me",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "When you're far away from home",
+            "And lonely makes it easy for good girl to go wrong",
+            "Evil eyes search through the",
+            "night for lonely girls like me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            7,
+            4,
+            5
+          ],
+          "end_words": [
+            "home",
+            "wrong",
+            "the",
+            "me"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "So mama when you pray tonight",
+            "Say special prayer for me",
+            "I miss your tender goodnight kiss of love and understanding",
+            "The goodnight kisses I get now are cruel and so demanding"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            4,
+            7,
+            6
+          ],
+          "end_words": [
+            "tonight",
+            "me",
+            "understanding",
+            "demanding"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "understanding",
+              "word2": "demanding",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "So mama when you pray tonight",
+            "And while you're on your knees",
+            "Mama say special prayer for me"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XAA",
+          "raw_rhyme_scheme": "ABB",
+          "pattern": "3_ABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            3,
+            5
+          ],
+          "end_words": [
+            "tonight",
+            "knees",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "knees",
+              "word2": "me",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAA",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 23
+    }
+  }
+}

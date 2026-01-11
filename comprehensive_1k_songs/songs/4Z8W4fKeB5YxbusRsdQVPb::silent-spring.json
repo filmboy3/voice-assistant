@@ -1,0 +1,662 @@
+{
+  "song_id": "4Z8W4fKeB5YxbusRsdQVPb::silent-spring",
+  "title": "Silent Spring",
+  "artist": "Radiohead",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\n--10----8-----7--5----x-----x-----8--7--|--6---5----3--3--------------5----5-----7----7--5h7---5---4----4--2--2-0---------0----0-----0----0--0-----0---0----0--0------3-2-0---0----0-----0----0--0-----0---0----0--0--------------0----0-----0----0--0-----0---0----0--0--------------0-----------------------------------------1---3---3---------------------------------0---0---3----------9----7---7---7---7-----2---0---0----------0----0---0---0---0-----3---x---x----------x----x---x---x---0---------5---5---6--8---10---9---8---7---0---|\n\n[chorus]\nPoses like phantom\nTouches like breeze\n\n[chorus]\nShines its under---standing\nSee the moon smiling\nOpen arm channels\nReady to receive\n\n[chorus]\nAnd we are not at the mercy\nOf your shimmerers and spells\nYour shimmerers and spells\nYour shimmerers and spells, hmmmm mmmm\n\n[chorus]\nAnd we are of the Earth\nTo her we do return\n\n[chorus]\nAnd the future is inside us\nIt?s not somewhere else\nIt?s not somewhere else\nIt?s not somewhere else\nOoooooh aaaaaaaaaaaaaaaaaaah\nOne day at time\nWe call upon the people\nPeople have the power\n\n[chorus]\nPeople have this power\n\n[chorus]\nAnd the numbers don?t decide\nYour system is lie\nriver running dry\nThe wings of butterflies\n\n[chorus]\nAnd you may pour us away like soup\nLike we?re pretty broken flowers\nWe?ll take back what is ours\nWe?ll take back what is ours\nOne day at time",
+  "cleaned_lyrics": "Poses like phantom\nTouches like breeze\nShines its under---standing\nSee the moon smiling\nOpen arm channels\nReady to receive\nAnd we are not at the mercy\nOf your shimmerers and spells\nYour shimmerers and spells\nYour shimmerers and spells\nhmmmm mmmm\nAnd we are of the Earth\nTo her we do return\nAnd the future is inside us\nIt?s not somewhere else\nIt?s not somewhere else\nIt?s not somewhere else\nOoooooh aaaaaaaaaaaaaaaaaaah\nOne day at time\nWe call upon the people\nPeople have the power\nPeople have this power\nAnd the numbers don?t decide\nYour system is lie\nriver running dry\nThe wings of butterflies\nAnd you may pour us away like soup\nLike we?re pretty broken flowers\nWe?ll take back what is ours\nWe?ll take back what is ours\nOne day at time",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 48,
+    "cleaned_lines": 31,
+    "removed_count": 10,
+    "retention_rate": 0.775,
+    "removal_reasons": {
+      "guitar_tab": 1,
+      "section_marker": 9
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Poses like phantom\nTouches like breeze",
+          "plot_function": "SETUP",
+          "emotion_primary": "calm",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts by describing something that feels light and airy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "Shines its under---standing",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Something is showing its understanding.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "See the moon smiling",
+          "plot_function": "SETUP",
+          "emotion_primary": "peace",
+          "emotion_secondary": null,
+          "eli5_simplification": "The moon is smiling.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Open arm channels\nReady to receive",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Something is ready to accept.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "And we are not at the mercy\nOf your shimmerers and spells",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "defiance",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "We are not controlled by something.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "Your shimmerers and spells\nYour shimmerers and spells\nYour shimmerers and spells",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "defiance",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Repeating the idea of not being controlled.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "hmmmm mmmm\nAnd we are of the Earth",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "peace",
+          "emotion_secondary": null,
+          "eli5_simplification": "We belong to the Earth.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "To her we do return",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "peace",
+          "emotion_secondary": null,
+          "eli5_simplification": "We go back to the Earth.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "And the future is inside us\nIt?s not somewhere else",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The future is within us, not somewhere far away.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18,
+            19
+          ],
+          "original_lyric": "It?s not somewhere else\nIt?s not somewhere else\nOoooooh aaaaaaaaaaaaaaaaaaah",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the idea that the future is within us.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "One day at time",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Taking things one step at a time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "We call upon the people",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Asking people for help.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "People have the power",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "People have the ability to make a change.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "People have this power",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "People have the ability to make a change.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "And the numbers don?t decide",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "defiance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Numbers don't control us.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "Your system is lie",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The system is a lie.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "river running dry",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The river is drying up.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "The wings of butterflies",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Butterflies are affected.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "And you may pour us away like soup",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "They might get rid of us.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "Like we?re pretty broken flowers",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "We are like broken flowers.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30,
+            31
+          ],
+          "original_lyric": "We?ll take back what is ours\nWe?ll take back what is ours",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "defiance",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "We will take back what belongs to us.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "One day at time",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Taking things one step at a time.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 32,
+        "covered_lines": 32,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 32,
+      "covered_lines": 32,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Poses like phantom",
+            "Touches like breeze",
+            "Shines its under---standing",
+            "See the moon smiling"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "phantom",
+            "breeze",
+            "standing",
+            "smiling"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "phantom",
+              "word2": "standing",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AE), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Open arm channels",
+            "Ready to receive",
+            "And we are not at the mercy",
+            "Of your shimmerers and spells"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "channels",
+            "receive",
+            "mercy",
+            "spells"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Your shimmerers and spells",
+            "Your shimmerers and spells",
+            "hmmmm mmmm",
+            "And we are of the Earth"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "end_words": [
+            "spells",
+            "spells",
+            "mmmm",
+            "earth"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "spells",
+              "word2": "spells",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "To her we do return",
+            "And the future is inside us",
+            "It?s not somewhere else",
+            "It?s not somewhere else"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            1,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "return",
+            "us",
+            "else",
+            "else"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "else",
+              "word2": "else",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "It?s not somewhere else",
+            "Ooooooh aaaaaaaaaaaaaaaaaaah",
+            "One day at time",
+            "We call upon the people"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            2,
+            3,
+            3
+          ],
+          "end_words": [
+            "else",
+            "aaaaaaaaaaaaaaaaaaah",
+            "time",
+            "people"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "People have the power",
+            "People have this power",
+            "And the numbers don?t decide",
+            "Your system is lie"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            2
+          ],
+          "end_words": [
+            "power",
+            "power",
+            "decide",
+            "lie"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "power",
+              "word2": "power",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "decide",
+              "word2": "lie",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "river running dry",
+            "The wings of butterflies",
+            "And you may pour us away like soup",
+            "Like we?re pretty broken flowers"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            4,
+            5
+          ],
+          "end_words": [
+            "dry",
+            "butterflies",
+            "soup",
+            "flowers"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "We?ll take back what is ours",
+            "We?ll take back what is ours",
+            "One day at time"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AAX",
+          "raw_rhyme_scheme": "AAB",
+          "pattern": "3_AAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            5,
+            5,
+            3
+          ],
+          "end_words": [
+            "ours",
+            "ours",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "ours",
+              "word2": "ours",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AAX",
+          "pattern": "3_AAB",
+          "line_count": 3,
+          "stability": 0.4
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 31
+    }
+  }
+}

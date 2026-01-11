@@ -1,0 +1,334 @@
+{
+  "song_id": "6tbjWDEIzxoDsBA1FuhfPW::another-suitcase-in-another-hall",
+  "title": "Another Suitcase In Another Hall",
+  "artist": "Madonna",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nI don`t expect my love affairs to last for long,\nnever fool myself that my dreams will come true.\n\n[bridge]\nSo what happens now ? Another suitcase in anoth(er hall)\nSo what happens now? Take your picture off anoth(er wall)\nWhere I going to? You`ll get by, you always have (before!)\nWhere I going to ?\nTime and time again I`ve said that I don`t care,\nthat I`m immune to gloom, that I`m hard through and through.\n\n[bridge]\nso anyone can hurt me - and they do.\n(CHORUS)\n\n[chorus]\nwell, maybe not that fine, but I`ll survive anyhow.\nI won`t recall the names and places of this sad occasion,\n\n[bridge]\n(CHORUS)",
+  "cleaned_lyrics": "I don`t expect my love affairs to last for long\nnever fool myself that my dreams will come true.\nSo what happens now ? Another suitcase in anoth(er hall)\nSo what happens now? Take\nyour picture off anoth(er wall)\nWhere I going to? You`ll get by\nyou always have (before!)\nWhere I going to ?\nTime and time again I`ve\nsaid that I don`t care\nthat I`m immune to gloom\nthat I`m hard through and through.\nso anyone can hurt me - and they do.\nI won`t recall the names and places of this sad occasion",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 22,
+    "cleaned_lines": 14,
+    "removed_count": 8,
+    "retention_rate": 0.7777777777777778,
+    "removal_reasons": {
+      "musical_direction": 1,
+      "artist_annotation": 2,
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "I don`t expect my love affairs to last for long",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "The singer doesn't think her relationships will last.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "never fool myself that my dreams will come true.",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "She doesn't believe her dreams will come true.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "So what happens now ? Another suitcase in anoth(er hall)\nSo what happens now? Take your picture off anoth(er wall)",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "She's moving on again, another relationship over.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Where I going to? You`ll get by\nyou always have (before!)",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "She's asking where she's going, but knows she'll be okay.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Where I going to ?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "null",
+          "eli5_simplification": "She's asking where she's going.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "Time and time again I`ve\nsaid that I don`t care",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "denial",
+          "eli5_simplification": "She keeps saying she doesn't care.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "that I`m immune to gloom\nthat I`m hard through and through.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "denial",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "She pretends she's not affected by sadness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "so anyone can hurt me - and they do.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "People hurt her, even though she pretends not to care.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "I won`t recall the names and places of this sad occasion",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "She won't remember the details of her sad experiences.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 13,
+        "covered_lines": 13,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 13,
+      "covered_lines": 13,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I don`t expect my love affairs to last for long",
+            "never fool myself that my dreams will come true.",
+            "So what happens now ? Another suitcase in anoth(er hall)",
+            "So what happens now? Take"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            6,
+            6,
+            7,
+            4
+          ],
+          "end_words": [
+            "long",
+            "true",
+            "hall",
+            "take"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "long",
+              "word2": "hall",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "your picture off anoth(er wall)",
+            "Where I going to? You`ll get by",
+            "you always have (before!)",
+            "Where I going to ?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            5,
+            2,
+            3
+          ],
+          "end_words": [
+            "wall",
+            "by",
+            "before",
+            "to"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "wall",
+              "word2": "before",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Time and time again I`ve",
+            "said that I don`t care",
+            "that I`m immune to gloom",
+            "that I`m hard through and through."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            4
+          ],
+          "end_words": [
+            "ive",
+            "care",
+            "gloom",
+            "through"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "gloom",
+              "word2": "through",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "so anyone can hurt me - and they do.",
+            "I won`t recall the names and places of this sad occasion"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            4,
+            6
+          ],
+          "end_words": [
+            "do",
+            "occasion"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 14
+    }
+  }
+}

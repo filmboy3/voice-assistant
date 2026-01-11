@@ -1,0 +1,647 @@
+{
+  "song_id": "0ECwFtbIWEVNwjlrfc6xoL::desperado",
+  "title": "Desperado",
+  "artist": "Eagles",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nDesperado, why don't you come to your senses ?\nYou been out ridin' fences for so long now\nOh, you're hard one, I know that you got your reasons,\nThese things that are pleasin' you can hurt you somehow\nDon't you draw the queen of diamonds boy,\nShe'll beat you if she's able,\nYou know the queen of hearts is always your best bet\nNow it seems to me some fine things have been laid upon your table\n\n[bridge]\nDesperado, oh you ain't gettin' no younger,\nYour pain and your hunger, they're drivin' you home\nAnd freedom, well, that's just some people talkin'\nYour prison is walkin' through this world all alone\nDon't your feet get cold in the winter time ?\nThe sky won't snow and the sun won't shine\nIt's hard to tell the night time from the day\nYou're losin' all your highs and lows\nAin't it funny how the feelin' goes away\nDesperado, why don't you come to your senses\n\n[chorus]\nIt may be rainin', but there's rainbow above you\nYou better let somebody love you,\nYou better let somebody love you before it's too late",
+  "cleaned_lyrics": "Desperado\nwhy don't you come to your senses ?\nYou been out ridin' fences for so long now\nOh\nyou're hard one\nI know that you got your reasons\nThese things that are pleasin' you can hurt you somehow\nDon't you draw the queen of diamonds boy\nShe'll beat you if she's able\nYou know the queen of hearts is always your best bet\nDesperado\noh you ain't gettin' no younger\nYour pain and your hunger\nthey're drivin' you home\nAnd freedom\nwell\nthat's just some people talkin'\nYour prison is walkin' through this world all alone\nDon't your feet get cold in the winter time ?\nThe sky won't snow and the sun won't shine\nIt's hard to tell the night time from the day\nYou're losin' all your highs and lows\nAin't it funny how the feelin' goes away\nDesperado\nwhy don't you come to your senses\nIt may be rainin'\nbut there's rainbow above you\nYou better let somebody love you\nYou better let somebody love\nyou before it's too late",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 26,
+    "cleaned_lines": 30,
+    "removed_count": 4,
+    "retention_rate": 1.25,
+    "removal_reasons": {
+      "musical_direction": 1,
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Desperado",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song is starting and talking to someone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2,
+            3
+          ],
+          "original_lyric": "why don't you come to your senses ?\nYou been out ridin' fences for so long now",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "concern",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is asking the person to stop doing what they're doing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "Oh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Just a sound.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "you're hard one\nI know that you got your reasons",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "understanding",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer acknowledges the person's difficulties.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "These things that are pleasin' you can hurt you somehow\nDon't you draw the queen of diamonds boy",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "warning",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer warns the person about the dangers of their choices.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "She'll beat you if she's able",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer warns the person about the dangers of their choices.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "You know the queen of hearts is always your best bet",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer offers a glimmer of hope.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Desperado",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the title.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "oh you ain't gettin' no younger",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "concern",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reminds the person of the passage of time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "Your pain and your hunger\nthey're drivin' you home",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer describes the person's suffering.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "And freedom\nwell",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reflects on the meaning of freedom.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "that's just some people talkin'",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "disappointment",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reflects on the meaning of freedom.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Your prison is walkin' through this world all alone",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reflects on the meaning of freedom.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Don't your feet get cold in the winter time ?",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "concern",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer asks a rhetorical question.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "The sky won't snow and the sun won't shine",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer describes a bleak situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "It's hard to tell the night time from the day",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer describes a bleak situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "You're losin' all your highs and lows",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer describes a bleak situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "Ain't it funny how the feelin' goes away",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer describes a bleak situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "Desperado",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the title.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "why don't you come to your senses",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer repeats the plea.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "It may be rainin'\nbut there's rainbow above you",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer offers a glimmer of hope.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27,
+            28,
+            29
+          ],
+          "original_lyric": "You better let somebody love you\nYou better let somebody love\nyou before it's too late",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer urges the person to accept love.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 29,
+        "covered_lines": 29,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 29,
+      "covered_lines": 29,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Desperado",
+            "why don't you come to your senses ?",
+            "You been out ridin' fences for so long now",
+            "Oh"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            4,
+            5,
+            1
+          ],
+          "end_words": [
+            "desperado",
+            "senses",
+            "now",
+            "oh"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "you're hard one",
+            "I know that you got your reasons",
+            "These things that are pleasin' you can hurt you somehow",
+            "Don't you draw the queen of diamonds boy"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            5
+          ],
+          "end_words": [
+            "one",
+            "reasons",
+            "somehow",
+            "boy"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "one",
+              "word2": "somehow",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "She'll beat you if she's able",
+            "You know the queen of hearts is always your best bet",
+            "Desperado",
+            "oh you ain't gettin' no younger"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            6,
+            1,
+            5
+          ],
+          "end_words": [
+            "able",
+            "bet",
+            "desperado",
+            "younger"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Your pain and your hunger",
+            "they're drivin' you home",
+            "And freedom",
+            "well"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            3,
+            1,
+            1
+          ],
+          "end_words": [
+            "hunger",
+            "home",
+            "freedom",
+            "well"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "freedom",
+              "word2": "well",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "that's just some people talkin'",
+            "Your prison is walkin' through this world all alone",
+            "Don't your feet get cold in the winter time ?",
+            "The sky won't snow and the sun won't shine"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            6,
+            6,
+            6
+          ],
+          "end_words": [
+            "talkin",
+            "alone",
+            "time",
+            "shine"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "time",
+              "word2": "shine",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "It's hard to tell the night time from the day",
+            "You're losin' all your highs and lows",
+            "Ain't it funny how the feelin' goes away",
+            "Desperado"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            6,
+            5,
+            6,
+            1
+          ],
+          "end_words": [
+            "day",
+            "lows",
+            "away",
+            "desperado"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "day",
+              "word2": "away",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "why don't you come to your senses",
+            "It may be rainin'",
+            "but there's rainbow above you",
+            "You better let somebody love you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            1,
+            3,
+            7
+          ],
+          "end_words": [
+            "senses",
+            "rainin",
+            "you",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "you",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "You better let somebody love",
+            "you before it's too late"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            5,
+            4
+          ],
+          "end_words": [
+            "love",
+            "late"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 30
+    }
+  }
+}

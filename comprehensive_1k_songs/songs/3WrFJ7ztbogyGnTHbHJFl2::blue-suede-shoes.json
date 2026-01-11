@@ -1,0 +1,593 @@
+{
+  "song_id": "3WrFJ7ztbogyGnTHbHJFl2::blue-suede-shoes",
+  "title": "Blue Suede Shoes",
+  "artist": "The Beatles",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nWell it's one for the money, two for the show,\nthree to get ready now go, cat ,go,\n\n[bridge]\nYou can do anything, but lay off of my blue suede shoes.\nWell you can knock me down, step in my face,\nslander my name all over the place,\nand do anything that you want to do.\n\n[bridge]\nand don't you step on my blue suede shoes.\nYou can do anything, but lay off of my blue suede shoes.\nWell you can burn my house, steal my car,\ndrink my liquor from an old fruit jar,\nand do anything that you want to do.\n\n[bridge]\nand don't you step on my blue suede shoes.\nYou can do anything but lay off of my blue suede shoes.\nIt`s blue blue, blue suede shoes, blue blue, blue suede shoes,\n\n[bridge]\nWell, you can do anything but lay off of my blue suede shoes.\nEnjoy!",
+  "cleaned_lyrics": "Well it's one for the money\ntwo for the show\nthree to get ready now go\ncat\ngo\nYou can do anything\nbut lay off of my blue suede shoes.\nWell you can knock me down\nstep in my face\nslander my name all over the place\nand do anything that you want to do.\nand don't you step on my blue suede shoes.\nYou can do anything\nbut lay off of my blue suede shoes.\nWell you can burn my house\nsteal my car\ndrink my liquor from an old fruit jar\nand do anything that you want to do.\nand don't you step on my blue suede shoes.\nYou can do anything but lay off of my blue suede shoes.\nIt`s blue blue\nblue suede shoes\nblue blue\nblue suede shoes\nWell\nyou can do anything but lay off of my blue suede shoes.\nEnjoy!",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 25,
+    "cleaned_lines": 27,
+    "removed_count": 5,
+    "retention_rate": 1.2857142857142858,
+    "removal_reasons": {
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3
+          ],
+          "original_lyric": "Well it's one for the money\ntwo for the show\nthree to get ready now go",
+          "plot_function": "SETUP",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song is starting, getting ready to go!",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "cat\ngo",
+          "plot_function": "SETUP",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "More getting ready!",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "You can do anything",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "warning",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can do anything...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "but lay off of my blue suede shoes.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "possessiveness",
+          "eli5_simplification": "...but don't touch my shoes!",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10
+          ],
+          "original_lyric": "Well you can knock me down\nstep in my face\nslander my name all over the place",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can hurt me, say bad things...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "and do anything that you want to do.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "...do whatever you want.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "and don't you step on my blue suede shoes.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "possessiveness",
+          "eli5_simplification": "But don't touch my shoes!",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "You can do anything",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "warning",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can do anything...",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "but lay off of my blue suede shoes.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "possessiveness",
+          "eli5_simplification": "...but don't touch my shoes!",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15,
+            16,
+            17
+          ],
+          "original_lyric": "Well you can burn my house\nsteal my car\ndrink my liquor from an old fruit jar",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can take my stuff...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "and do anything that you want to do.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "...do whatever you want.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "and don't you step on my blue suede shoes.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "possessiveness",
+          "eli5_simplification": "But don't touch my shoes!",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "You can do anything but lay off of my blue suede shoes.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "possessiveness",
+          "eli5_simplification": "But don't touch my shoes!",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "original_lyric": "It`s blue blue\nblue suede shoes\nblue blue\nblue suede shoes",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the shoes.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "Well",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the shoes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "you can do anything but lay off of my blue suede shoes.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "possessiveness",
+          "eli5_simplification": "But don't touch my shoes!",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 26,
+        "covered_lines": 26,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 26,
+      "covered_lines": 26,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Well it's one for the money",
+            "two for the show",
+            "three to get ready now go",
+            "cat"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            2,
+            5,
+            1
+          ],
+          "end_words": [
+            "money",
+            "show",
+            "go",
+            "cat"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "show",
+              "word2": "go",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "go",
+            "You can do anything",
+            "but lay off of my blue suede shoes.",
+            "Well you can knock me down"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            2,
+            5,
+            3
+          ],
+          "end_words": [
+            "go",
+            "anything",
+            "shoes",
+            "down"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "step in my face",
+            "slander my name all over the place",
+            "and do anything that you want to do.",
+            "and don't you step on my blue suede shoes."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            5,
+            5,
+            5
+          ],
+          "end_words": [
+            "face",
+            "place",
+            "do",
+            "shoes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "face",
+              "word2": "place",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "do",
+              "word2": "shoes",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "You can do anything",
+            "but lay off of my blue suede shoes.",
+            "Well you can burn my house",
+            "steal my car"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            5,
+            3,
+            2
+          ],
+          "end_words": [
+            "anything",
+            "shoes",
+            "house",
+            "car"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "drink my liquor from an old fruit jar",
+            "and do anything that you want to do.",
+            "and don't you step on my blue suede shoes.",
+            "You can do anything but lay off of my blue suede shoes."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            5,
+            5,
+            5,
+            7
+          ],
+          "end_words": [
+            "jar",
+            "do",
+            "shoes",
+            "shoes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "do",
+              "word2": "shoes",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "shoes",
+              "word2": "shoes",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "It`s blue blue",
+            "blue suede shoes",
+            "blue blue",
+            "blue suede shoes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            2,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "blue",
+            "shoes",
+            "blue",
+            "shoes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "blue",
+              "word2": "shoes",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word removes post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "blue",
+              "word2": "blue",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "shoes",
+              "word2": "blue",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word adds post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "shoes",
+              "word2": "shoes",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "blue",
+              "word2": "shoes",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Well",
+            "you can do anything but lay off of my blue suede shoes.",
+            "Enjoy!"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            1,
+            7,
+            1
+          ],
+          "end_words": [
+            "well",
+            "shoes",
+            "enjoy"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 27
+    }
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "song_id": "29kkCKKGXheHuoO829FxWK::smokin",
+  "title": "Smokin",
+  "artist": "Boston",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWe're gonna play you song, little bit of rock-n-roll\nYou gotta let yourself go, the band's gonna take control.\nWe're gettin' down today\nWe'll pick you up and take you away\nGet down tonight\nSmokin', Smokin'\nWe're cookin' tonight, just keep on talkin'\nSmokin', Smokin'\nI feel alright, mamma I'm not jokin', yeah.\n\n[verse]\nGet your feet to the floor, everybody rock and roll\nYou've got nothing to lose just the rhythm and blues, that's all, yeah\nWe're gonna feel ok\nWe'll pick you up and take you away\nGet down tonight.",
+  "cleaned_lyrics": "We're gonna play you song\nlittle bit of rock-n-roll\nYou gotta let yourself go\nthe band's gonna take control.\nWe're gettin' down today\nWe'll pick you up and take you away\nGet down tonight\nSmokin'\nSmokin'\nWe're cookin' tonight\njust keep on talkin'\nSmokin'\nSmokin'\nI feel alright\nmamma I'm not jokin'\nyeah.\nGet your feet to the floor\neverybody rock and roll\nYou've got nothing to lose just the rhythm and blues\nthat's all\nyeah\nWe're gonna feel ok\nWe'll pick you up and take you away\nGet down tonight.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 17,
+    "cleaned_lines": 24,
+    "removed_count": 2,
+    "retention_rate": 1.5,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "original_lyric": "We're gonna play you song\nlittle bit of rock-n-roll\nYou gotta let yourself go\nthe band's gonna take control.",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The band is about to play a rock and roll song and wants you to enjoy it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "We're gettin' down today\nWe'll pick you up and take you away",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The band is getting ready to have fun and take you on a musical journey.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Get down tonight",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's time to dance and have fun tonight!",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            12,
+            13
+          ],
+          "original_lyric": "Smokin'\nSmokin'\nSmokin'\nSmokin'",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song is really good!",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "We're cookin' tonight\njust keep on talkin'",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The band is playing well, and the music is great.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15,
+            16
+          ],
+          "original_lyric": "I feel alright\nmamma I'm not jokin'\nyeah.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer feels good and is not kidding.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18,
+            19
+          ],
+          "original_lyric": "Get your feet to the floor\neverybody rock and roll\nYou've got nothing to lose just the rhythm and blues",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone should dance and enjoy the music.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "that's all",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "That's all there is to it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "yeah\nWe're gonna feel ok",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everything is going to be alright.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "We'll pick you up and take you away\nGet down tonight.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The band is ready to take you on a musical journey and have fun.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 24,
+        "covered_lines": 24,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 24,
+      "covered_lines": 24,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "We're gonna play you song",
+            "little bit of rock-n-roll",
+            "You gotta let yourself go",
+            "the band's gonna take control."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4,
+            5,
+            4,
+            4
+          ],
+          "end_words": [
+            "song",
+            "roll",
+            "go",
+            "control"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "roll",
+              "word2": "go",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word adds post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "roll",
+              "word2": "control",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "go",
+              "word2": "control",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "We're gettin' down today",
+            "We'll pick you up and take you away",
+            "Get down tonight",
+            "Smokin'"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            5,
+            3,
+            1
+          ],
+          "end_words": [
+            "today",
+            "away",
+            "tonight",
+            "smokin"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "today",
+              "word2": "away",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Smokin'",
+            "We're cookin' tonight",
+            "just keep on talkin'",
+            "Smokin'"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            1,
+            3,
+            3,
+            1
+          ],
+          "end_words": [
+            "smokin",
+            "tonight",
+            "talkin",
+            "smokin"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "smokin",
+              "word2": "smokin",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Smokin'",
+            "I feel alright",
+            "mamma I'm not jokin'",
+            "yeah."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            2,
+            4,
+            1
+          ],
+          "end_words": [
+            "smokin",
+            "alright",
+            "jokin",
+            "yeah"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Get your feet to the floor",
+            "everybody rock and roll",
+            "You've got nothing to lose just the rhythm and blues",
+            "that's all"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            4,
+            7,
+            2
+          ],
+          "end_words": [
+            "floor",
+            "roll",
+            "blues",
+            "all"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "floor",
+              "word2": "all",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "yeah",
+            "We're gonna feel ok",
+            "We'll pick you up and take you away",
+            "Get down tonight."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "yeah",
+            "ok",
+            "away",
+            "tonight"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "ok",
+              "word2": "away",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 24
+    }
+  }
+}

@@ -1,0 +1,797 @@
+{
+  "song_id": "74ASZWbe4lXaubB36ztrGX::masters-of-war",
+  "title": "Masters Of War",
+  "artist": "Bob Dylan",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nYou that build the death planes, you that build all the bombs\nYou that hide behind walls, you that hide behind desks\nI just want you to know I can see through your masks\nYou that never have done nothin' but build to destroy\nYou play with my world like it's your little toy\nYou put gun in my hand then you hide from my eyes\nThen you turn and run farther when the fast bullets fly\nLike Judas of old you lie and deceive\nworld war can't be won, and you want me to believe\n\n[bridge]\nLike I see through the water that runs down my drain\nYou that fasten all the triggers for the others to fire\nThen you sit back and watch while the death count gets higher\nYou hide in your mansions while the young people's blood\nFlows out of their bodies and gets buried in the mud\nYou've thrown the worst fear that can ever be hurled\nFear to bring children into the world\nFor threatening my baby, unborn and unnamed\nYou ain't worth the blood that runs in your veins\nHow much do I know to talk out of turn\nYou might say that I'm young, you might say I'm unlearned\n\n[bridge]\nEven Jesus would never forgive what you do\nLet me ask you one question: is your money that good?\nWill it buy you forgiveness? Do you think that it could?\nI think you will find when your death takes its toll\nAll the money you made won't ever buy back your soul\nAnd I hope that you die and your death will come soon\nI'll follow your casket through the pale afternoon\nAnd I'll watch while you're lowered into your death bed\nThen I'll stand over your grave till I'm sure that you're dead",
+  "cleaned_lyrics": "You that build the death planes\nyou that build all the bombs\nYou that hide behind walls\nyou that hide behind desks\nI just want you to know I can see through your masks\nYou that never have done nothin' but build to destroy\nYou play with my world like it's your little toy\nYou put gun in my hand then you hide from my eyes\nThen you turn and run farther when the fast bullets fly\nLike Judas of old you lie and deceive\nworld war can't be won\nand you want me to believe\nLike I see through the water that runs down my drain\nYou that fasten all the triggers for the others to fire\nThen you sit back and watch\nwhile the death count gets higher\nYou hide in your mansions while the young people's blood\nFlows out of their bodies and gets buried in the mud\nYou've thrown the worst fear that can ever be hurled\nFear to bring children into the world\nFor threatening my baby\nunborn and unnamed\nYou ain't worth the blood that runs in your veins\nHow much do I know to talk out of turn\nYou might say that I'm young\nyou might say I'm unlearned\nEven Jesus would never forgive what you do\nLet me ask you one question: is your money that good?\nWill it buy you forgiveness? Do you think that it could?\nI think you will find when your death takes its toll\nAll the money you made\nwon't ever buy back your soul\nAnd I hope that you die and your death will come soon\nI'll follow your casket through the pale afternoon\nAnd I'll watch while you're\nlowered into your death bed\nThen I'll stand over your grave\ntill I'm sure that you're dead",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 34,
+    "cleaned_lines": 38,
+    "removed_count": 3,
+    "retention_rate": 1.1875,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "You that build the death planes\nyou that build all the bombs",
+          "plot_function": "SETUP",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts by pointing fingers at the people who make weapons.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "You that hide behind walls\nyou that hide behind desks",
+          "plot_function": "SETUP",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "These people are also hiding and not taking responsibility.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "I just want you to know I can see through your masks",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "defiance",
+          "eli5_simplification": "The singer is saying he sees through their lies.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "You that never have done nothin' but build to destroy",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "They only know how to destroy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "You play with my world like it's your little toy",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are playing with the world like it's a game.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "You put gun in my hand then you hide from my eyes\nThen you turn and run farther when the fast bullets fly",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "They give people weapons and then run away from the consequences.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "Like Judas of old you lie and deceive\nworld war can't be won",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are liars and war is unwinnable.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "and you want me to believe",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "They want the singer to believe their lies.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Like I see through the water that runs down my drain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "defiance",
+          "eli5_simplification": "The singer sees through their lies.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "You that fasten all the triggers for the others to fire",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "They make others fight.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "Then you sit back and watch\nwhile the death count gets higher",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "They watch people die.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "You hide in your mansions while the young people's blood\nFlows out of their bodies and gets buried in the mud",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "They hide while young people die.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "You've thrown the worst fear that can ever be hurled\nFear to bring children into the world",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "They make people afraid to have children.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "For threatening my baby",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "They are threatening the singer's unborn child.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "unborn and unnamed",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The child is unborn.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "You ain't worth the blood that runs in your veins",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are worthless.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "How much do I know to talk out of turn\nYou might say that I'm young",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "doubt",
+          "eli5_simplification": "The singer questions his own ability to speak out.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "you might say I'm unlearned",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "doubt",
+          "eli5_simplification": "The singer questions his own knowledge.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "Even Jesus would never forgive what you do",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "Even Jesus wouldn't forgive them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28,
+            29
+          ],
+          "original_lyric": "Let me ask you one question: is your money that good?\nWill it buy you forgiveness? Do you think that it could?",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "contempt",
+          "eli5_simplification": "The singer asks if their money can buy forgiveness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30,
+            31
+          ],
+          "original_lyric": "I think you will find when your death takes its toll\nAll the money you made",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "contempt",
+          "eli5_simplification": "They will find that money can't save them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "won't ever buy back your soul",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "contempt",
+          "eli5_simplification": "Money can't buy their soul back.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33,
+            34
+          ],
+          "original_lyric": "And I hope that you die and your death will come soon\nI'll follow your casket through the pale afternoon",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "contempt",
+          "eli5_simplification": "The singer hopes they die and will follow their coffin.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35,
+            36
+          ],
+          "original_lyric": "And I'll watch while you're\nlowered into your death bed",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "contempt",
+          "eli5_simplification": "The singer will watch them be buried.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            37,
+            38
+          ],
+          "original_lyric": "Then I'll stand over your grave\ntill I'm sure that you're dead",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "contempt",
+          "eli5_simplification": "The singer will stand over their grave until they are sure they are dead.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 38,
+        "covered_lines": 38,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 38,
+      "covered_lines": 38,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "You that build the death planes",
+            "you that build all the bombs",
+            "You that hide behind walls",
+            "you that hide behind desks"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "planes",
+            "bombs",
+            "walls",
+            "desks"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I just want you to know I can see through your masks",
+            "You that never have done nothin' but build to destroy",
+            "You play with my world like it's your little toy",
+            "You put gun in my hand then you hide from my eyes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            6,
+            5,
+            6,
+            5
+          ],
+          "end_words": [
+            "masks",
+            "destroy",
+            "toy",
+            "eyes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "destroy",
+              "word2": "toy",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Then you turn and run farther when the fast bullets fly",
+            "Like Judas of old you lie and deceive",
+            "world war can't be won",
+            "and you want me to believe"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            7,
+            5,
+            4,
+            2
+          ],
+          "end_words": [
+            "fly",
+            "deceive",
+            "won",
+            "believe"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "deceive",
+              "word2": "believe",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Like I see through the water that runs down my drain",
+            "You that fasten all the triggers for the others to fire",
+            "Then you sit back and watch",
+            "while the death count gets higher"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            7,
+            5,
+            3,
+            5
+          ],
+          "end_words": [
+            "drain",
+            "fire",
+            "watch",
+            "higher"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "fire",
+              "word2": "higher",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "You hide in your mansions while the young people's blood",
+            "Flows out of their bodies and gets buried in the mud",
+            "You've thrown the worst fear that can ever be hurled",
+            "Fear to bring children into the world"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            6,
+            6,
+            5
+          ],
+          "end_words": [
+            "blood",
+            "mud",
+            "hurled",
+            "world"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "blood",
+              "word2": "mud",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "hurled",
+              "word2": "world",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (ER), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "For threatening my baby",
+            "unborn and unnamed",
+            "You ain't worth the blood that runs in your veins",
+            "How much do I know to talk out of turn"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            2,
+            3,
+            5,
+            6
+          ],
+          "end_words": [
+            "baby",
+            "unnamed",
+            "veins",
+            "turn"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "baby",
+              "word2": "unnamed",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "unnamed",
+              "word2": "veins",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "You might say that I'm young",
+            "you might say I'm unlearned",
+            "Even Jesus would never forgive what you do",
+            "Let me ask you one question: is your money that good?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            6,
+            6
+          ],
+          "end_words": [
+            "young",
+            "unlearned",
+            "do",
+            "good"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Will it buy you forgiveness? Do you think that it could?",
+            "I think you will find when your death takes its toll",
+            "All the money you made",
+            "won't ever buy back your soul"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            6,
+            3,
+            5
+          ],
+          "end_words": [
+            "could",
+            "toll",
+            "made",
+            "soul"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "toll",
+              "word2": "soul",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "And I hope that you die and your death will come soon",
+            "I'll follow your casket through the pale afternoon",
+            "And I'll watch while you're",
+            "lowered into your death bed"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            7,
+            4,
+            4
+          ],
+          "end_words": [
+            "soon",
+            "afternoon",
+            "you're",
+            "bed"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "soon",
+              "word2": "afternoon",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "Then I'll stand over your grave",
+            "till I'm sure that you're dead"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            4,
+            5
+          ],
+          "end_words": [
+            "grave",
+            "dead"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 10,
+      "total_lines": 38
+    }
+  }
+}

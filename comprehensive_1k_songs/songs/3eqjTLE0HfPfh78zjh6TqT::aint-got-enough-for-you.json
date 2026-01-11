@@ -1,0 +1,789 @@
+{
+  "song_id": "3eqjTLE0HfPfh78zjh6TqT::aint-got-enough-for-you",
+  "title": "Aint Got Enough For You",
+  "artist": "Bruce Springsteen",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWell you don't like,don't like the way I walk Well you don't like,don't\nlike the way I talk\nYou criticize about me endlessly logic defis how you get stuck with me\nand you complain about the clothes I wear and you explain there's other boys out there\nYou complain my car makes too much noise, and you cry I?m always out with the boys\nRit.Woha Whoa I give up little darling, yeah no matter what I do,\ngirl you know it's true ain't good enough for you\nYou complain the way I love you at night You explain I'm really not your type\nif we go out you say I'm such bore if we stay in you say what are we living for\nI dont' understand there's nothing I can do,there ain't no way I can satisfy you.\nEnd of the night I lean in for kiss, here comes the pitch, swing and miss.\nRit.\nI tried to change, I got job in sales, I bought shirt uptown in Bloomingsdale\nand babe I tried to make the latest scene, hittin' cool just like Jimmy Iovine, I bought\nrecord with all the latest grooves, book of love with all the latest moves, I bought\nsome flowers and I wait at your door and you came out didn't want to see me no more\nRit.\n?no matter what I do, girl you know it's true ain't good enough for you.\nno matter what I do, girl you know it's true ain't good enough for you.",
+  "cleaned_lyrics": "Well you don't like\ndon't like the way I walk Well you don't like\ndon't\nlike the way I talk\nYou criticize about me endlessly logic\ndefis how you get stuck with me\nand you complain about the clothes I wear\nand you explain there's other boys out there\nYou complain my car makes too much noise\nand you cry I?m always out with the boys\nRit.Woha Whoa I give up little darling\nyeah no matter what I do\ngirl you know it's true\nain't good enough for you\nYou complain the way I love you at\nnight You explain I'm really not your type\nif we go out you say I'm such bore if we stay in you say what are we living for\nI dont' understand there's nothing I can do\nthere ain't no way I can satisfy you.\nEnd of the night I lean in for kiss\nhere comes the pitch\nswing and miss.\nRit.\nI tried to change\nI got job in sales\nI bought shirt uptown in Bloomingsdale\nand babe I tried to make the latest scene\nhittin' cool just like Jimmy Iovine\nI bought\nrecord with all the latest grooves\nbook of love with all the latest moves\nI bought\nsome flowers and I wait at your door and\nyou came out didn't want to see me no more\nRit.\n?no matter what I do\ngirl you know it's true\nain't good enough for you.\nno matter what I do\ngirl you know it's true\nain't good enough for you.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 20,
+    "cleaned_lines": 41,
+    "removed_count": 1,
+    "retention_rate": 2.05,
+    "removal_reasons": {
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Well you don't like\ndon't like the way I walk Well you don't like\ndon't\nlike the way I talk",
+          "plot_function": "SETUP",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "annoyance",
+          "eli5_simplification": "The singer's partner doesn't like how he walks or talks.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "You criticize about me endlessly logic\ndefis how you get stuck with me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "resentment",
+          "eli5_simplification": "The partner always criticizes him, and he wonders why she's with him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "and you complain about the clothes I wear\nand you explain there's other boys out there",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "rejection",
+          "eli5_simplification": "She complains about his clothes and hints at other guys.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "You complain my car makes too much noise\nand you cry I?m always out with the boys",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "irritation",
+          "eli5_simplification": "She complains about his car and his friends.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Rit.Woha Whoa I give up little darling",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "despair",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "He gives up.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11,
+            12
+          ],
+          "original_lyric": "yeah no matter what I do\ngirl you know it's true\nain't good enough for you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "No matter what he does, he's not good enough.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "You complain the way I love you at\nnight You explain I'm really not your type",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "rejection",
+          "eli5_simplification": "She complains about his love and says he's not her type.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "if we go out you say I'm such bore if we stay in you say what are we living for",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "confusion",
+          "eli5_simplification": "She's unhappy whether they go out or stay in.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "I dont' understand there's nothing I can do\nthere ain't no way I can satisfy you.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "despair",
+          "emotion_secondary": "helplessness",
+          "eli5_simplification": "He doesn't know what to do to make her happy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "End of the night I lean in for kiss\nhere comes the pitch\nswing and miss.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "rejection",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "He tries to kiss her, but she rejects him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Rit.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Chorus.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22,
+            23,
+            24
+          ],
+          "original_lyric": "I tried to change\nI got job in sales\nI bought shirt uptown in Bloomingsdale",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "He tries to change to please her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "and babe I tried to make the latest scene\nhittin' cool just like Jimmy Iovine",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "eagerness",
+          "eli5_simplification": "He tries to be cool.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "I bought\nrecord with all the latest grooves\nbook of love with all the latest moves",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "effort",
+          "eli5_simplification": "He buys things to impress her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "I bought\nsome flowers and I wait at your door and\nyou came out didn't want to see me no more",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "rejection",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "She doesn't want to see him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "Rit.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Chorus.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            32,
+            33,
+            34
+          ],
+          "original_lyric": "?no matter what I do\ngirl you know it's true\nain't good enough for you.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "He accepts that he's not good enough.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            35,
+            36,
+            37
+          ],
+          "original_lyric": "no matter what I do\ngirl you know it's true\nain't good enough for you.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "He accepts that he's not good enough.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 37,
+        "covered_lines": 37,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 37,
+      "covered_lines": 37,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Well you don't like",
+            "don't like the way I walk Well you don't like",
+            "don't",
+            "like the way I talk"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            7,
+            1,
+            3
+          ],
+          "end_words": [
+            "like",
+            "like",
+            "don't",
+            "talk"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "like",
+              "word2": "like",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "You criticize about me endlessly logic",
+            "defis how you get stuck with me",
+            "and you complain about the clothes I wear",
+            "and you explain there's other boys out there"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            5,
+            4,
+            6
+          ],
+          "end_words": [
+            "logic",
+            "me",
+            "wear",
+            "there"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "wear",
+              "word2": "there",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "You complain my car makes too much noise",
+            "and you cry I?m always out with the boys",
+            "Rit.Woha Whoa I give up little darling",
+            "yeah no matter what I do"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            5,
+            7,
+            5
+          ],
+          "end_words": [
+            "noise",
+            "boys",
+            "darling",
+            "do"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "noise",
+              "word2": "boys",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "girl you know it's true",
+            "ain't good enough for you",
+            "You complain the way I love you at",
+            "night You explain I'm really not your type"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            6
+          ],
+          "end_words": [
+            "true",
+            "you",
+            "at",
+            "type"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "true",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "if we go out you say I'm such bore if we stay in you say what are we living for",
+            "I dont' understand there's nothing I can do",
+            "there ain't no way I can satisfy you.",
+            "End of the night I lean in for kiss"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            13,
+            6,
+            6,
+            4
+          ],
+          "end_words": [
+            "for",
+            "do",
+            "you",
+            "kiss"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "do",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "here comes the pitch",
+            "swing and miss.",
+            "Rit.",
+            "I tried to change"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            2,
+            1,
+            2
+          ],
+          "end_words": [
+            "pitch",
+            "miss",
+            "rit",
+            "change"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "pitch",
+              "word2": "miss",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (IH), post-consonants in same family"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "I got job in sales",
+            "I bought shirt uptown in Bloomingsdale",
+            "and babe I tried to make the latest scene",
+            "hittin' cool just like Jimmy Iovine"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            5,
+            5,
+            6
+          ],
+          "end_words": [
+            "sales",
+            "bloomingsdale",
+            "scene",
+            "iovine"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "scene",
+              "word2": "iovine",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "I bought",
+            "record with all the latest grooves",
+            "book of love with all the latest moves",
+            "I bought"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            1,
+            4,
+            5,
+            1
+          ],
+          "end_words": [
+            "bought",
+            "grooves",
+            "moves",
+            "bought"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "bought",
+              "word2": "bought",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "grooves",
+              "word2": "moves",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "some flowers and I wait at your door and",
+            "you came out didn't want to see me no more",
+            "Rit.",
+            "?no matter what I do"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            7,
+            1,
+            4
+          ],
+          "end_words": [
+            "and",
+            "more",
+            "rit",
+            "do"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "girl you know it's true",
+            "ain't good enough for you.",
+            "no matter what I do",
+            "girl you know it's true"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "true",
+            "you",
+            "do",
+            "true"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "true",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "you",
+              "word2": "do",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "do",
+              "word2": "true",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "ain't good enough for you."
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "you"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 11,
+      "total_lines": 41
+    }
+  }
+}

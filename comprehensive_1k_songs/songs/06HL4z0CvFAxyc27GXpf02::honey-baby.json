@@ -1,0 +1,611 @@
+{
+  "song_id": "06HL4z0CvFAxyc27GXpf02::honey-baby",
+  "title": "Honey Baby",
+  "artist": "Taylor Swift",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI think of you every single evening\nAs I lay awake at night\nI try to think, try to walk away\n\n[bridge]\nHoney baby, don't do nothing crazy\nWhen I say that everything will be fine\nHoney baby how can you blame me\nWhen I say I want to make you mine\n'Cause everybody else in the world is driving me crazy\nExcept you honey baby\nFlying high I can see you smiling\nAs we walk down private drives\nTake my hand, take my breath away\n'Cause you make me feel like flying\nHoney baby, don't do nothing crazy\nWhen I say that everything will be fine\nHoney baby how can you blame me\nWhen I say I want to make you mine\n'Cause everybody else in the world is driving me crazy\nExcept you honey baby\nOh you are everything I've ever needed\nOh you are everything I wanted\nYou drive me crazy, help me baby\nAll I really want to say is\nHoney baby, don't do nothing crazy\nWhen I say that everything will be fine\nHoney baby how can you blame me\nWhen I say I want to make you mine\n'Cause everybody else in the world is driving me crazy\nExcept you honey baby",
+  "cleaned_lyrics": "I think of you every single evening\nAs I lay awake at night\nI try to think\ntry to walk away\nHoney baby\ndon't do nothing crazy\nWhen I say I want to make you mine\n'Cause everybody else in the world is driving me crazy\nExcept you honey baby\nFlying high I can see you smiling\nAs we walk down private drives\nTake my hand\ntake my breath away\n'Cause you make me feel like flying\nHoney baby\ndon't do nothing crazy\nWhen I say I want to make you mine\n'Cause everybody else in the world is driving me crazy\nExcept you honey baby\nOh you are everything I've ever needed\nOh you are everything I wanted\nYou drive me crazy\nhelp me baby\nAll I really want to say is\nHoney baby\ndon't do nothing crazy\nWhen I say I want to make you mine\n'Cause everybody else in the world is driving me crazy\nExcept you honey baby",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 32,
+    "cleaned_lines": 29,
+    "removed_count": 8,
+    "retention_rate": 0.9354838709677419,
+    "removal_reasons": {
+      "musical_direction": 3,
+      "section_marker": 2,
+      "credits_metadata": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I think of you every single evening\nAs I lay awake at night",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer thinks about someone every night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I try to think\ntry to walk away",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer tries to forget about the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "original_lyric": "Honey baby\ndon't do nothing crazy\nWhen I say I want to make you mine\n'Cause everybody else in the world is driving me crazy",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer is telling the 'honey baby' not to do anything silly because the rest of the world is making them crazy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Except you honey baby",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The 'honey baby' is the exception.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "Flying high I can see you smiling\nAs we walk down private drives",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is happy and imagines walking with the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "Take my hand\ntake my breath away",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to be close to the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "'Cause you make me feel like flying",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person makes the singer feel happy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "original_lyric": "Honey baby\ndon't do nothing crazy\nWhen I say I want to make you mine\n'Cause everybody else in the world is driving me crazy",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer is telling the 'honey baby' not to do anything silly because the rest of the world is making them crazy.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Except you honey baby",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The 'honey baby' is the exception.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "Oh you are everything I've ever needed\nOh you are everything I wanted",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is saying the person is everything they need and want.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "You drive me crazy\nhelp me baby",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "love",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The person makes the singer crazy, but they need help.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "All I really want to say is",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to say something important.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "original_lyric": "Honey baby\ndon't do nothing crazy\nWhen I say I want to make you mine\n'Cause everybody else in the world is driving me crazy",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer is telling the 'honey baby' not to do anything silly because the rest of the world is making them crazy.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "Except you honey baby",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The 'honey baby' is the exception.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 29,
+        "covered_lines": 29,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 29,
+      "covered_lines": 29,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I think of you every single evening",
+            "As I lay awake at night",
+            "I try to think",
+            "try to walk away"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "evening",
+            "night",
+            "think",
+            "away"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Honey baby",
+            "don't do nothing crazy",
+            "When I say I want to make you mine",
+            "'Cause everybody else in the world is driving me crazy"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            3,
+            5,
+            7
+          ],
+          "end_words": [
+            "baby",
+            "crazy",
+            "mine",
+            "crazy"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "baby",
+              "word2": "crazy",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "crazy",
+              "word2": "crazy",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Except you honey baby",
+            "Flying high I can see you smiling",
+            "As we walk down private drives",
+            "Take my hand"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            2
+          ],
+          "end_words": [
+            "baby",
+            "smiling",
+            "drives",
+            "hand"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "smiling",
+              "word2": "drives",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "take my breath away",
+            "'Cause you make me feel like flying",
+            "Honey baby",
+            "don't do nothing crazy"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            5,
+            2,
+            3
+          ],
+          "end_words": [
+            "away",
+            "flying",
+            "baby",
+            "crazy"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "away",
+              "word2": "baby",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word removes post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "away",
+              "word2": "crazy",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "baby",
+              "word2": "crazy",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "When I say I want to make you mine",
+            "'Cause everybody else in the world is driving me crazy",
+            "Except you honey baby",
+            "Oh you are everything I've ever needed"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            7,
+            3,
+            6
+          ],
+          "end_words": [
+            "mine",
+            "crazy",
+            "baby",
+            "needed"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "crazy",
+              "word2": "baby",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Oh you are everything I wanted",
+            "You drive me crazy",
+            "help me baby",
+            "All I really want to say is"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            2,
+            2,
+            5
+          ],
+          "end_words": [
+            "wanted",
+            "crazy",
+            "baby",
+            "is"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "crazy",
+              "word2": "baby",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Honey baby",
+            "don't do nothing crazy",
+            "When I say I want to make you mine",
+            "'Cause everybody else in the world is driving me crazy"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            3,
+            5,
+            7
+          ],
+          "end_words": [
+            "baby",
+            "crazy",
+            "mine",
+            "crazy"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "baby",
+              "word2": "crazy",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "crazy",
+              "word2": "crazy",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Except you honey baby"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3
+          ],
+          "end_words": [
+            "baby"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 29
+    }
+  }
+}

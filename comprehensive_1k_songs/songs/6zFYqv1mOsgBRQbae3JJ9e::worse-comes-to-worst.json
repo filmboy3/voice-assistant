@@ -1,0 +1,787 @@
+{
+  "song_id": "6zFYqv1mOsgBRQbae3JJ9e::worse-comes-to-worst",
+  "title": "Worse Comes To Worst",
+  "artist": "Billy Joel",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\n{Verse}\nToday I'm livin' like rich man's son\nTomorrow mornin' I could be bum\nIt doesn't matter which direction though\nI know woman in New Mexico\n{Chorus}\nWorse comes to worst\nI'll get along\nI don't know how but sometimes\nI can be strong\n{Verse}\nAnd if I don't have car I'll hitch\nI got thumb and she's son of bitch\nI'll do my writing on my road guitar\nAnd make living at piano bar\n{Chorus}\nWorse comes to worst\nI'll get along\nI don't know how but sometimes\nI can be strong\n{Bridge}\nOh, lighting and thunder\nFlashed across the roads we drove up on\nOh but it's clear skies we're under\nWhen we are together, when I sing my song\n{Chorus}\nWorse comes to worst\nI'll get along\nI don't know how but sometimes\nI can be strong\n{Verse}\nFun ain't easy if it free\nToo many people got hold on me\n\n[bridge]\nI know woman in New Mexico\n{Chorus}\nWorse comes to worst\nI'll get along\nI don't know how but sometimes\nI can be strong (repeat and fade Chorus)",
+  "cleaned_lyrics": "Today I'm livin' like rich man's son\nTomorrow mornin' I could be bum\nIt doesn't matter which direction though\nI know woman in New Mexico\nWorse comes to worst\nI'll get along\nI don't know how but sometimes\nI can be strong\nAnd if I don't have car I'll hitch\nI got thumb and she's son of bitch\nI'll do my writing on my road guitar\nWorse comes to worst\nI'll get along\nI don't know how but sometimes\nI can be strong\nOh\nlighting and thunder\nFlashed across the roads we drove up on\nOh but it's clear skies we're under\nWhen we are together\nwhen I sing my song\nWorse comes to worst\nI'll get along\nI don't know how but sometimes\nI can be strong\nFun ain't easy if it free\nToo many people got hold on me\nI know woman in New Mexico\nWorse comes to worst\nI'll get along\nI don't know how but sometimes\nI can be strong (repeat and fade Chorus)",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 42,
+    "cleaned_lines": 32,
+    "removed_count": 11,
+    "retention_rate": 0.7804878048780488,
+    "removal_reasons": {
+      "musical_direction": 1,
+      "artist_annotation": 8,
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Today I'm livin' like rich man's son",
+          "plot_function": "SETUP",
+          "emotion_primary": "contentment",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is living well today.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "Tomorrow mornin' I could be bum",
+          "plot_function": "SETUP",
+          "emotion_primary": "uncertainty",
+          "emotion_secondary": null,
+          "eli5_simplification": "But things could change quickly.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "It doesn't matter which direction though",
+          "plot_function": "SETUP",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "It doesn't matter what happens.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "I know woman in New Mexico",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer knows someone in New Mexico.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Worse comes to worst",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resilience",
+          "emotion_secondary": null,
+          "eli5_simplification": "Even if things get bad...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "I'll get along",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resilience",
+          "emotion_secondary": null,
+          "eli5_simplification": "...the singer will be okay.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "I don't know how but sometimes",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer doesn't know how, but...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "I can be strong",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "...the singer can be strong.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "And if I don't have car I'll hitch",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "resourcefulness",
+          "emotion_secondary": null,
+          "eli5_simplification": "If the singer doesn't have a car, they'll hitchhike.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "I got thumb and she's son of bitch",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is angry at someone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "I'll do my writing on my road guitar",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer will write songs on the road.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Worse comes to worst",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resilience",
+          "emotion_secondary": null,
+          "eli5_simplification": "Even if things get bad...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "I'll get along",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resilience",
+          "emotion_secondary": null,
+          "eli5_simplification": "...the singer will be okay.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "I don't know how but sometimes",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer doesn't know how, but...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "I can be strong",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "...the singer can be strong.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Oh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "contemplation",
+          "emotion_secondary": null,
+          "eli5_simplification": "A moment of reflection.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "lighting and thunder",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "There is a storm.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Flashed across the roads we drove up on",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The storm is on the road.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Oh but it's clear skies we're under",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "relief",
+          "emotion_secondary": null,
+          "eli5_simplification": "But now the skies are clear.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "When we are together",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "When they are together.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "when I sing my song",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "When the singer sings.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "Worse comes to worst",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resilience",
+          "emotion_secondary": null,
+          "eli5_simplification": "Even if things get bad...",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "I'll get along",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resilience",
+          "emotion_secondary": null,
+          "eli5_simplification": "...the singer will be okay.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "I don't know how but sometimes",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer doesn't know how, but...",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "I can be strong",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "...the singer can be strong.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "Fun ain't easy if it free",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's not easy to have fun if it's free.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "Too many people got hold on me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "Too many people are bothering the singer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "I know woman in New Mexico",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer knows someone in New Mexico.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "Worse comes to worst",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resilience",
+          "emotion_secondary": null,
+          "eli5_simplification": "Even if things get bad...",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "I'll get along",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resilience",
+          "emotion_secondary": null,
+          "eli5_simplification": "...the singer will be okay.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "I don't know how but sometimes",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer doesn't know how, but...",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "I can be strong (repeat and fade Chorus)",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "...the singer can be strong.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 32,
+        "covered_lines": 32,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 32,
+      "covered_lines": 32,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Today I'm livin' like rich man's son",
+            "Tomorrow mornin' I could be bum",
+            "It doesn't matter which direction though",
+            "I know woman in New Mexico"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            7,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "son",
+            "bum",
+            "though",
+            "mexico"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "son",
+              "word2": "bum",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AH), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Worse comes to worst",
+            "I'll get along",
+            "I don't know how but sometimes",
+            "I can be strong"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            1
+          ],
+          "end_words": [
+            "worst",
+            "along",
+            "sometimes",
+            "strong"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "along",
+              "word2": "strong",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "And if I don't have car I'll hitch",
+            "I got thumb and she's son of bitch",
+            "I'll do my writing on my road guitar",
+            "Worse comes to worst"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            5,
+            4,
+            3
+          ],
+          "end_words": [
+            "hitch",
+            "bitch",
+            "guitar",
+            "worst"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "hitch",
+              "word2": "bitch",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I'll get along",
+            "I don't know how but sometimes",
+            "I can be strong",
+            "Oh"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            4,
+            1,
+            1
+          ],
+          "end_words": [
+            "along",
+            "sometimes",
+            "strong",
+            "oh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "along",
+              "word2": "strong",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "lighting and thunder",
+            "Flashed across the roads we drove up on",
+            "Oh but it's clear skies we're under",
+            "When we are together"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            6,
+            6,
+            2
+          ],
+          "end_words": [
+            "thunder",
+            "on",
+            "under",
+            "together"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "thunder",
+              "word2": "under",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "when I sing my song",
+            "Worse comes to worst",
+            "I'll get along",
+            "I don't know how but sometimes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            4
+          ],
+          "end_words": [
+            "song",
+            "worst",
+            "along",
+            "sometimes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "song",
+              "word2": "along",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "I can be strong",
+            "Fun ain't easy if it free",
+            "Too many people got hold on me",
+            "I know woman in New Mexico"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            5,
+            6,
+            4
+          ],
+          "end_words": [
+            "strong",
+            "free",
+            "me",
+            "mexico"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "free",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Worse comes to worst",
+            "I'll get along",
+            "I don't know how but sometimes",
+            "I can be strong (repeat and fade Chorus)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "worst",
+            "along",
+            "sometimes",
+            "chorus"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "along",
+              "word2": "chorus",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "chorus",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 32
+    }
+  }
+}

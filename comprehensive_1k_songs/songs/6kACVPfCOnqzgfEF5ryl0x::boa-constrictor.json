@@ -1,0 +1,614 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::boa-constrictor",
+  "title": "Boa Constrictor",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nJohnny Cash:\n\n[bridge]\nJohnny Cash - Boa Constrictor\nI'm gettin' swallered, by Boa Constrictor\n\n[bridge]\nI'm gettin' swallered, by Boa Constrictor\nAnd I don't like snakes one bit.\nWhat do you know (What do you know)\nHe swallowed my toe (he swallowed my toe)\nOh gee (oh gee)\nHe's up to my knee (he's up to my knee)\nOh my (oh my)\nHe's up to my thigh (he's up to my thigh)\nOh yummy (oh yummy)\nHe's up to my tummy (he's up to my tummy)\nOh fiddle (oh fiddle)\nHe's reached my middle (he's reached my middle)\nOh glum (oh glum)\nHe's mashin' my lungs (he's mashin' my lungs).\nNow look here snake, I don't look good with this long tail on me\nThat's about all I can say snake except give me break snake give me break\nMy torsos cold and is startin' to mold Boa Constrictor how much can you hold.\nOh yes (oh yes)\nHe's up to my chest (he's up to my chest)\nOh heck (oh heck)\nHe's up to my neck (he's up to my neck)\nNearly all in (I'm nearly all in)\nHe's up to my chin (he's up to my chin)\nOh dread (oh dread)\nHe swallowed my.... schlirppp\n\n[bridge]\n?' [email protected]",
+  "cleaned_lyrics": "Johnny Cash:\nJohnny Cash - Boa Constrictor\nAnd I don't like snakes one bit.\nWhat do you know (What do you know)\nHe swallowed my toe (he swallowed my toe)\nOh gee (oh gee)\nHe's up to my knee (he's up to my knee)\nOh my (oh my)\nHe's up to my thigh (he's up to my thigh)\nOh yummy (oh yummy)\nHe's up to my tummy (he's up to my tummy)\nOh fiddle (oh fiddle)\nHe's reached my middle (he's reached my middle)\nOh glum (oh glum)\nHe's mashin' my lungs (he's mashin' my lungs).\nNow look here snake\nI don't look good with this long tail on me\nThat's about all I can say snake\nexcept give me break snake give me break\nMy torsos cold and is startin' to\nmold Boa Constrictor how much can you hold.\nOh yes (oh yes)\nHe's up to my chest (he's up to my chest)\nOh heck (oh heck)\nHe's up to my neck (he's up to my neck)\nNearly all in (I'm nearly all in)\nHe's up to my chin (he's up to my chin)\nOh dread (oh dread)\nHe swallowed my.... schlirppp\n?' [email protected]",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 36,
+    "cleaned_lines": 30,
+    "removed_count": 6,
+    "retention_rate": 0.9090909090909091,
+    "removal_reasons": {
+      "section_marker": 4,
+      "credits_metadata": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Johnny Cash - Boa Constrictor",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "This is the title of the song.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "And I don't like snakes one bit.",
+          "plot_function": "SETUP",
+          "emotion_primary": "disgust",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer doesn't like snakes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "What do you know (What do you know)\nHe swallowed my toe (he swallowed my toe)",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "surprise",
+          "eli5_simplification": "A snake ate the singer's toe!",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Oh gee (oh gee)\nHe's up to my knee (he's up to my knee)",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "surprise",
+          "eli5_simplification": "The snake is eating more of the singer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Oh my (oh my)\nHe's up to my thigh (he's up to my thigh)",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "surprise",
+          "eli5_simplification": "The snake is eating more of the singer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Oh yummy (oh yummy)\nHe's up to my tummy (he's up to my tummy)",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "The snake is eating more of the singer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "Oh fiddle (oh fiddle)\nHe's reached my middle (he's reached my middle)",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "The snake is eating more of the singer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "Oh glum (oh glum)\nHe's mashin' my lungs (he's mashin' my lungs).",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "The snake is eating more of the singer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "Now look here snake\nI don't look good with this long tail on me",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "The singer is confronting the snake.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "That's about all I can say snake\nexcept give me break snake give me break",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "desperation",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer is begging the snake to stop.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "My torsos cold and is startin' to\nmold Boa Constrictor how much can you hold.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "The singer is accepting his fate.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "Oh yes (oh yes)\nHe's up to my chest (he's up to my chest)",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "The snake is eating more of the singer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Oh heck (oh heck)\nHe's up to my neck (he's up to my neck)",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "The snake is eating more of the singer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "Nearly all in (I'm nearly all in)\nHe's up to my chin (he's up to my chin)",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "The snake is eating more of the singer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "Oh dread (oh dread)\nHe swallowed my.... schlirppp",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "null",
+          "eli5_simplification": "The snake ate the singer.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 28,
+        "covered_lines": 28,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 28,
+      "covered_lines": 28,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Johnny Cash:",
+            "Johnny Cash - Boa Constrictor",
+            "And I don't like snakes one bit.",
+            "What do you know (What do you know)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            4,
+            5,
+            4
+          ],
+          "end_words": [
+            "cash",
+            "constrictor",
+            "bit",
+            "know"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "constrictor",
+              "word2": "bit",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "He swallowed my toe (he swallowed my toe)",
+            "Oh gee (oh gee)",
+            "He's up to my knee (he's up to my knee)",
+            "Oh my (oh my)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "toe",
+            "gee",
+            "knee",
+            "my"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "gee",
+              "word2": "knee",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "He's up to my thigh (he's up to my thigh)",
+            "Oh yummy (oh yummy)",
+            "He's up to my tummy (he's up to my tummy)",
+            "Oh fiddle (oh fiddle)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            6,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "thigh",
+            "yummy",
+            "tummy",
+            "fiddle"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "yummy",
+              "word2": "tummy",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "He's reached my middle (he's reached my middle)",
+            "Oh glum (oh glum)",
+            "He's mashin' my lungs (he's mashin' my lungs).",
+            "Now look here snake"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            6,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "middle",
+            "glum",
+            "lungs",
+            "snake"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "glum",
+              "word2": "lungs",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I don't look good with this long tail on me",
+            "That's about all I can say snake",
+            "except give me break snake give me break",
+            "My torsos cold and is startin' to"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            6,
+            5,
+            6,
+            4
+          ],
+          "end_words": [
+            "me",
+            "snake",
+            "break",
+            "to"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "snake",
+              "word2": "break",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "mold Boa Constrictor how much can you hold.",
+            "Oh yes (oh yes)",
+            "He's up to my chest (he's up to my chest)",
+            "Oh heck (oh heck)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            6,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "hold",
+            "yes",
+            "chest",
+            "heck"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "yes",
+              "word2": "chest",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EH), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "chest",
+              "word2": "heck",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "He's up to my neck (he's up to my neck)",
+            "Nearly all in (I'm nearly all in)",
+            "He's up to my chin (he's up to my chin)",
+            "Oh dread (oh dread)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            6,
+            7,
+            6,
+            4
+          ],
+          "end_words": [
+            "neck",
+            "in",
+            "chin",
+            "dread"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "neck",
+              "word2": "dread",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EH), post-consonants in same family"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "in",
+              "word2": "chin",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "He swallowed my.... schlirppp",
+            "?' [email protected]"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX",
+          "pattern_confidence": 1.0,
+          "stability": 0.8,
+          "stress_counts": [
+            2,
+            2
+          ],
+          "end_words": [
+            "schlirppp",
+            "protected"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX",
+          "line_count": 2,
+          "stability": 0.8
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 30
+    }
+  }
+}

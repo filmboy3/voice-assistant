@@ -1,0 +1,642 @@
+{
+  "song_id": "60df5JBRRPcnSpsIMxxwQm::mr-pitiful",
+  "title": "Mr. Pitiful",
+  "artist": "Otis Redding",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\n( )\nThey call me Mr. Pitiful; baby that's my name now\nThey call me Mr. Pitiful; that's how I got my fame.\n\n[bridge]\nThey call me Mr. Pitiful 'cos I lost someone just like you.\nThe call me Mr. Pitiful; this everybody know now\nThey call me Mr. Pitiful; most every place I go.\n\n[bridge]\nWhen he lost everything that he had.\nHow can I explain to you how somebody can get so very blue?\nHow can I tell you about my past if all things won't end?\nMr. Pitiful; that's my name now\nThey call me Mr. Pitiful; that's how I got my fame.\n\n[bridge]\nThey call me Mr. Pitiful 'cos I lost someone just like you.\n\n[chorus]\nEverything is going wrong; I've lost everything I had.\nI have to sing this sad song to get back to her.\nAnd I'm gonna sing this song to you;\nAnd I want you and I want you and I want you and I want you.\nAnd I wanna tell you everything is going through my mind\nAnd I want to sing and I want to sing\nAnd I want to sing and I want to sing this song with you\nAnd I wanna sing this song to everyone.\n'Cos I want them to understand what I talkin' about\nI want you to understand what I'm sayin'...",
+  "cleaned_lyrics": "They call me Mr. Pitiful\nbaby that's my name now\nThey call me Mr. Pitiful\nthat's how I got my fame.\nThey call me Mr. Pitiful 'cos\nI lost someone just like you.\nThe call me Mr. Pitiful\nthis everybody know now\nThey call me Mr. Pitiful\nmost every place I go.\nWhen he lost everything that he had.\nHow can I explain to you\nhow somebody can get so very blue?\nHow can I tell you about\nmy past if all things won't end?\nMr. Pitiful\nthat's my name now\nThey call me Mr. Pitiful\nthat's how I got my fame.\nThey call me Mr. Pitiful 'cos\nI lost someone just like you.\nEverything is going wrong\nI've lost everything I had.\nI have to sing this sad song to get back to her.\nAnd I'm gonna sing this song to you\nAnd I want you and I want you\nand I want you and I want you.\nAnd I wanna tell you everything is going through my mind\nAnd I want to sing and I want to sing\nAnd I want to sing and I want to sing this song with you\nAnd I wanna sing this song to everyone.\n'Cos I want them to understand what I talkin' about\nI want you to understand what I'm sayin'...",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 31,
+    "cleaned_lines": 33,
+    "removed_count": 5,
+    "retention_rate": 1.2222222222222223,
+    "removal_reasons": {
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "original_lyric": "They call me Mr. Pitiful\nbaby that's my name now\nThey call me Mr. Pitiful\nthat's how I got my fame.",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is introducing himself as Mr. Pitiful, which is what everyone calls him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "They call me Mr. Pitiful 'cos\nI lost someone just like you.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "He's called Mr. Pitiful because he lost someone he loved.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "The call me Mr. Pitiful\nthis everybody know now",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone knows him as Mr. Pitiful.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "They call me Mr. Pitiful\nmost every place I go.",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "He is known as Mr. Pitiful everywhere he goes.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "When he lost everything that he had.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "He lost everything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "How can I explain to you\nhow somebody can get so very blue?",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "He wonders how to explain his sadness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "How can I tell you about\nmy past if all things won't end?",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "He wonders how to talk about his past if things won't get better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Mr. Pitiful",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "He is Mr. Pitiful.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "that's my name now",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "That's his name.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "They call me Mr. Pitiful\nthat's how I got my fame.",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "He is called Mr. Pitiful, and that's how he became famous.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "They call me Mr. Pitiful 'cos\nI lost someone just like you.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "He is called Mr. Pitiful because he lost someone.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "Everything is going wrong\nI've lost everything I had.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Everything is bad, and he lost everything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "I have to sing this sad song to get back to her.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "He sings a sad song to try and get back to the person he lost.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "And I'm gonna sing this song to you\nAnd I want you and I want you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "He's singing the song to someone, and he wants them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "and I want you and I want you.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "He wants them.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "And I wanna tell you everything is going through my mind",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "He wants to tell them everything on his mind.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28,
+            29
+          ],
+          "original_lyric": "And I want to sing and I want to sing\nAnd I want to sing and I want to sing this song with you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "He wants to sing the song with them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "And I wanna sing this song to everyone.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "He wants to sing the song to everyone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "'Cos I want them to understand what I talkin' about",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "He wants everyone to understand.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "I want you to understand what I'm sayin'...",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "He wants them to understand.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 32,
+        "covered_lines": 32,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 32,
+      "covered_lines": 32,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "They call me Mr. Pitiful",
+            "baby that's my name now",
+            "They call me Mr. Pitiful",
+            "that's how I got my fame."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            4
+          ],
+          "end_words": [
+            "pitiful",
+            "now",
+            "pitiful",
+            "fame"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "pitiful",
+              "word2": "pitiful",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "They call me Mr. Pitiful 'cos",
+            "I lost someone just like you.",
+            "The call me Mr. Pitiful",
+            "this everybody know now"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            5,
+            3,
+            4
+          ],
+          "end_words": [
+            "cos",
+            "you",
+            "pitiful",
+            "now"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "They call me Mr. Pitiful",
+            "most every place I go.",
+            "When he lost everything that he had.",
+            "How can I explain to you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "pitiful",
+            "go",
+            "had",
+            "you"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "how somebody can get so very blue?",
+            "How can I tell you about",
+            "my past if all things won't end?",
+            "Mr. Pitiful"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            3,
+            6,
+            2
+          ],
+          "end_words": [
+            "blue",
+            "about",
+            "end",
+            "pitiful"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "that's my name now",
+            "They call me Mr. Pitiful",
+            "that's how I got my fame.",
+            "They call me Mr. Pitiful 'cos"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "now",
+            "pitiful",
+            "fame",
+            "cos"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I lost someone just like you.",
+            "Everything is going wrong",
+            "I've lost everything I had.",
+            "I have to sing this sad song to get back to her."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            4,
+            5,
+            6
+          ],
+          "end_words": [
+            "you",
+            "wrong",
+            "had",
+            "her"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "And I'm gonna sing this song to you",
+            "And I want you and I want you",
+            "and I want you and I want you.",
+            "And I wanna tell you everything is going through my mind"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            7
+          ],
+          "end_words": [
+            "you",
+            "you",
+            "you",
+            "mind"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "you",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "you",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "And I want to sing and I want to sing",
+            "And I want to sing and I want to sing this song with you",
+            "And I wanna sing this song to everyone.",
+            "'Cos I want them to understand what I talkin' about"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            6,
+            5,
+            7
+          ],
+          "end_words": [
+            "sing",
+            "you",
+            "everyone",
+            "about"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "I want you to understand what I'm sayin'..."
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            6
+          ],
+          "end_words": [
+            "sayin"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 33
+    }
+  }
+}

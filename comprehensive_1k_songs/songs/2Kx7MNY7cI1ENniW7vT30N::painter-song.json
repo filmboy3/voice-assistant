@@ -1,0 +1,523 @@
+{
+  "song_id": "2Kx7MNY7cI1ENniW7vT30N::painter-song",
+  "title": "Painter Song",
+  "artist": "Norah Jones",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nTUNE DOWN 3 HALF STEPS\n(#5)\nIf I were painter\nI would paint my reverie\nIf that's the only way for you to be with me\n(#5)\nWe' be there together\nJust like we used to be\nUnderneath the swirling skies for all to see\nAnd I'm dreaming of place\nWhere I could see your face\nAnd - I - think - my - brush - would - take - me - there\n\n[bridge]\n(#5)\nIf I were painter\nAnd could paint memory\nI' climb inside the swirling skies to be with you\nI' climb inside the skies to be with you\nAnd I'm dreaming of place\nWhere I could see your face\nAnd - I - think - my - brush - would - take - me - there\n\n[bridge]\n(#5)\nIf I were painter\nAnd could paint memory\nI' climb inside the swirling skies to be with you\nI' climb inside the skies to be with you",
+  "cleaned_lyrics": "If I were painter\nI would paint my reverie\nIf that's the only way for you to be with me\nWe' be there together\nJust like we used to be\nUnderneath the swirling skies for all to see\nAnd I'm dreaming of place\nWhere I could see your face\nAnd - I - think - my - brush - would - take - me - there\nIf I were painter\nAnd could paint memory\nI' climb inside the swirling skies to be with you\nI' climb inside the skies to be with you\nAnd I'm dreaming of place\nWhere I could see your face\nAnd - I - think - my - brush - would - take - me - there\nIf I were painter\nAnd could paint memory\nI' climb inside the swirling skies to be with you\nI' climb inside the skies to be with you",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 30,
+    "cleaned_lines": 20,
+    "removed_count": 8,
+    "retention_rate": 0.7142857142857143,
+    "removal_reasons": {
+      "technical_instruction": 1,
+      "section_marker": 3,
+      "low_letter_ratio": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "If I were painter",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is imagining being a painter.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "I would paint my reverie",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer would paint their dreams.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "If that's the only way for you to be with me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer wishes they could be with someone, and painting is the only way.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "We' be there together",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They would be together in the painting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Just like we used to be",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Remembering how things used to be.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Underneath the swirling skies for all to see",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They would be together in a beautiful place.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "And I'm dreaming of place",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer dreams of a place.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Where I could see your face",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Where they could see the person they miss.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "And - I - think - my - brush - would - take - me - there",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The brush would take them to that place.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "If I were painter",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the idea of being a painter.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "And could paint memory",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "If they could paint memories.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "I' climb inside the swirling skies to be with you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "They would go into the painting to be with the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "I' climb inside the skies to be with you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "They would go into the painting to be with the person.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "And I'm dreaming of place",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer dreams of a place.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Where I could see your face",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Where they could see the person they miss.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "And - I - think - my - brush - would - take - me - there",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The brush would take them to that place.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "If I were painter",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the idea of being a painter.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "And could paint memory",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "If they could paint memories.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "I' climb inside the swirling skies to be with you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "They would go into the painting to be with the person.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "I' climb inside the skies to be with you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "They would go into the painting to be with the person.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "If I were painter",
+            "I would paint my reverie",
+            "If that's the only way for you to be with me",
+            "We' be there together"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            2,
+            5,
+            2
+          ],
+          "end_words": [
+            "painter",
+            "reverie",
+            "me",
+            "together"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "reverie",
+              "word2": "together",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EH), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Just like we used to be",
+            "Underneath the swirling skies for all to see",
+            "And I'm dreaming of place",
+            "Where I could see your face"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            6,
+            3,
+            3
+          ],
+          "end_words": [
+            "be",
+            "see",
+            "place",
+            "face"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "be",
+              "word2": "see",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "place",
+              "word2": "face",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "And - I - think - my - brush - would - take - me - there",
+            "If I were painter",
+            "And could paint memory",
+            "I' climb inside the swirling skies to be with you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            2,
+            2,
+            5
+          ],
+          "end_words": [
+            "there",
+            "painter",
+            "memory",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "there",
+              "word2": "memory",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I' climb inside the skies to be with you",
+            "And I'm dreaming of place",
+            "Where I could see your face",
+            "And - I - think - my - brush - would - take - me - there"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            4
+          ],
+          "end_words": [
+            "you",
+            "place",
+            "face",
+            "there"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "place",
+              "word2": "face",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "If I were painter",
+            "And could paint memory",
+            "I' climb inside the swirling skies to be with you",
+            "I' climb inside the skies to be with you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            2,
+            5,
+            4
+          ],
+          "end_words": [
+            "painter",
+            "memory",
+            "you",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "you",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 20
+    }
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "song_id": "5W5bDNCqJ1jbCgTxDD0Cb3::till-i-gain-can-control-again",
+  "title": "Till I Gain Can Control Again",
+  "artist": "Willie Nelson",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nJust like the sun over the mountain top,\nyou know I'll always come again.\nYou know I love to spend my morning time\nlike sunlight dancing on your skin.\n\n[verse]\nI have never gone so wrong as for telling lies to you.\nWhat you've seen is what I've been.\nThere is nothing that I can hide from you.\nYou see me better than I can.\n\n[outro]\nthere are some turns where I will spin.\nI only hope that you will hold me now,\ntill I can gain control again.\n\n[verse]\nJust like lighthouse, you must stand alone,\nlandmark sailor's journey's end.\nNo matter what sea I've been sailing on,\nI'll always roll this way again.\n\n[outro]\nthere are some turns where I will spin.\nI only hope that you will hold me now,\ntil I can gain control again.",
+  "cleaned_lyrics": "Just like the sun over the mountain top\nyou know I'll always come again.\nYou know I love to spend my morning time\nlike sunlight dancing on your skin.\nI have never gone so wrong as for telling lies to you.\nWhat you've seen is what I've been.\nThere is nothing that I can hide from you.\nYou see me better than I can.\nthere are some turns where I will spin.\nI only hope that you will hold me now\ntill I can gain control again.\nJust like lighthouse\nyou must stand alone\nlandmark sailor's journey's end.\nNo matter what sea I've been sailing on\nI'll always roll this way again.\nthere are some turns where I will spin.\nI only hope that you will hold me now\ntil I can gain control again.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 27,
+    "cleaned_lines": 19,
+    "removed_count": 5,
+    "retention_rate": 0.8260869565217391,
+    "removal_reasons": {
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Just like the sun over the mountain top\nyou know I'll always come again.",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Like the sun, I'll always come back to you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "You know I love to spend my morning time\nlike sunlight dancing on your skin.",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "I love being with you, like the sun on your skin.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "I have never gone so wrong as for telling lies to you.\nWhat you've seen is what I've been.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "I'm sorry for lying. You know who I really am.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "There is nothing that I can hide from you.\nYou see me better than I can.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "vulnerability",
+          "emotion_secondary": "love",
+          "eli5_simplification": "You know me completely, even better than I know myself.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "there are some turns where I will spin.\nI only hope that you will hold me now",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "I get confused sometimes. Please hold me close.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "till I can gain control again.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "I want to get myself together again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "Just like lighthouse\nyou must stand alone",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Like a lighthouse, you must be strong on your own.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "landmark sailor's journey's end.\nNo matter what sea I've been sailing on",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "You are the end of my journey. No matter what I've been through.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "I'll always roll this way again.\nthere are some turns where I will spin.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "I'll always come back to you, even when I'm confused.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "I only hope that you will hold me now\ntil I can gain control again.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Please hold me until I can get myself together.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Just like the sun over the mountain top",
+            "you know I'll always come again.",
+            "You know I love to spend my morning time",
+            "like sunlight dancing on your skin."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            5,
+            5,
+            4
+          ],
+          "end_words": [
+            "top",
+            "again",
+            "time",
+            "skin"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I have never gone so wrong as for telling lies to you.",
+            "What you've seen is what I've been.",
+            "There is nothing that I can hide from you.",
+            "You see me better than I can."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            6,
+            6,
+            4,
+            3
+          ],
+          "end_words": [
+            "you",
+            "been",
+            "you",
+            "can"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "you",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "there are some turns where I will spin.",
+            "I only hope that you will hold me now",
+            "till I can gain control again.",
+            "Just like lighthouse"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "spin",
+            "now",
+            "again",
+            "lighthouse"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "you must stand alone",
+            "landmark sailor's journey's end.",
+            "No matter what sea I've been sailing on",
+            "I'll always roll this way again."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            4,
+            7,
+            5
+          ],
+          "end_words": [
+            "alone",
+            "end",
+            "on",
+            "again"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "end",
+              "word2": "again",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EH), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "there are some turns where I will spin.",
+            "I only hope that you will hold me now",
+            "til I can gain control again."
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            4,
+            4
+          ],
+          "end_words": [
+            "spin",
+            "now",
+            "again"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 19
+    }
+  }
+}

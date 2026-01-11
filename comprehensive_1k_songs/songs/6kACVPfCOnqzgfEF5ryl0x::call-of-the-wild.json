@@ -1,0 +1,751 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::call-of-the-wild",
+  "title": "Call Of The Wild",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[bridge]\nNow, here's little tale about flock of geese,\nlookin' for home and lookin' for peace,\n\n[bridge]\nthey gotta watch out for that critter called man.\nThere's goose and gander and goslin' child,\nheadin' on south at the call of the wild.\nHonk and holler as we go, gonna see the Gulf of Mexico.\nWay up high, don't fly low, the long toms will get you from the old bayou.\nWell, the wind from the north it chills you to the bone,\nand the call of the wild is callin' me : come home !\nI'll lead my band of geese marry trip,\nwe'll navigate that mighty Mississipp'.\nHonk and holler as we go, gonna see the Gulf of Mexico.\nWay up high, don't fly low, the long toms will get you from the old bayou.\n\n[bridge]\nHonk and holler as we go, gonna see the Gulf of Mexico.\nWay up high, don't fly low, the long toms will get you from the old bayou.\n\n[bridge]\nMy pappy led this band of twenty-three,\nand the second in command included me.\nHe made one fatal slip and he flew too low,\nthe long toms got him from the old bayou.\nHonk and holler as we go, gonna see the Gulf of Mexico.\nWay up high, don't fly low, the long toms will get you from the old bayou.",
+  "cleaned_lyrics": "Now\nhere's little tale about flock of geese\nlookin' for home and lookin' for peace\nthey gotta watch out for that critter called man.\nThere's goose and gander and goslin' child\nheadin' on south at the call of the wild.\nHonk and holler as we go\ngonna see the Gulf of Mexico.\nWay up high\ndon't fly low\nthe long toms will get you from the old bayou.\nWell\nthe wind from the north it chills you to the bone\nand the call of the wild is callin' me : come home !\nI'll lead my band of geese marry trip\nwe'll navigate that mighty Mississipp'.\nHonk and holler as we go\ngonna see the Gulf of Mexico.\nWay up high\ndon't fly low\nthe long toms will get you from the old bayou.\nHonk and holler as we go\ngonna see the Gulf of Mexico.\nWay up high\ndon't fly low\nthe long toms will get you from the old bayou.\nMy pappy led this band of twenty-three\nand the second in command included me.\nHe made one fatal slip and he flew too low\nthe long toms got him from the old bayou.\nHonk and holler as we go\ngonna see the Gulf of Mexico.\nWay up high\ndon't fly low\nthe long toms will get you from the old bayou.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 28,
+    "cleaned_lines": 35,
+    "removed_count": 4,
+    "retention_rate": 1.4,
+    "removal_reasons": {
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Now\nhere's little tale about flock of geese\nlookin' for home and lookin' for peace",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "This is a story about geese looking for a safe place to live.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "they gotta watch out for that critter called man.",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The geese need to be careful of people.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "There's goose and gander and goslin' child",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The geese family is introduced.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "headin' on south at the call of the wild.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are going south because they feel the call of the wild.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "Honk and holler as we go\ngonna see the Gulf of Mexico.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The geese are happy and excited to go to the Gulf of Mexico.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "Way up high\ndon't fly low",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "They need to fly high to be safe.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "the long toms will get you from the old bayou.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "If they fly low, they will be shot.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Well",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "A transition.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "the wind from the north it chills you to the bone",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The weather is cold.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "and the call of the wild is callin' me : come home !",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The geese feel the call of the wild.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "I'll lead my band of geese marry trip\nwe'll navigate that mighty Mississipp'.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The goose is leading the flock.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "Honk and holler as we go\ngonna see the Gulf of Mexico.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The geese are happy and excited to go to the Gulf of Mexico.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "Way up high\ndon't fly low",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "They need to fly high to be safe.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "the long toms will get you from the old bayou.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "If they fly low, they will be shot.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "Honk and holler as we go\ngonna see the Gulf of Mexico.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The geese are happy and excited to go to the Gulf of Mexico.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Way up high\ndon't fly low",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "They need to fly high to be safe.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "the long toms will get you from the old bayou.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "If they fly low, they will be shot.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "My pappy led this band of twenty-three",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The goose is remembering his father.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "and the second in command included me.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The goose was second in command.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "He made one fatal slip and he flew too low",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "His father flew too low.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "the long toms got him from the old bayou.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "His father was shot.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30,
+            31
+          ],
+          "original_lyric": "Honk and holler as we go\ngonna see the Gulf of Mexico.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The geese are continuing their journey.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            32,
+            33
+          ],
+          "original_lyric": "Way up high\ndon't fly low",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "They need to fly high to be safe.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            34
+          ],
+          "original_lyric": "the long toms will get you from the old bayou.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "If they fly low, they will be shot.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 34,
+        "covered_lines": 34,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 34,
+      "covered_lines": 34,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Now",
+            "here's little tale about flock of geese",
+            "lookin' for home and lookin' for peace",
+            "they gotta watch out for that critter called man."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            6,
+            4,
+            6
+          ],
+          "end_words": [
+            "now",
+            "geese",
+            "peace",
+            "man"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "geese",
+              "word2": "peace",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "There's goose and gander and goslin' child",
+            "headin' on south at the call of the wild.",
+            "Honk and holler as we go",
+            "gonna see the Gulf of Mexico."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            4,
+            3,
+            4
+          ],
+          "end_words": [
+            "child",
+            "wild",
+            "go",
+            "mexico"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "child",
+              "word2": "wild",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Way up high",
+            "don't fly low",
+            "the long toms will get you from the old bayou.",
+            "Well"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            3,
+            5,
+            1
+          ],
+          "end_words": [
+            "high",
+            "low",
+            "bayou",
+            "well"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "high",
+              "word2": "bayou",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "the wind from the north it chills you to the bone",
+            "and the call of the wild is callin' me : come home !",
+            "I'll lead my band of geese marry trip",
+            "we'll navigate that mighty Mississipp'."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            5,
+            6,
+            4
+          ],
+          "end_words": [
+            "bone",
+            "home",
+            "trip",
+            "mississipp"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "bone",
+              "word2": "home",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (OW), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Honk and holler as we go",
+            "gonna see the Gulf of Mexico.",
+            "Way up high",
+            "don't fly low"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "go",
+            "mexico",
+            "high",
+            "low"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "go",
+              "word2": "low",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "the long toms will get you from the old bayou.",
+            "Honk and holler as we go",
+            "gonna see the Gulf of Mexico.",
+            "Way up high"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            5,
+            3,
+            4,
+            3
+          ],
+          "end_words": [
+            "bayou",
+            "go",
+            "mexico",
+            "high"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "bayou",
+              "word2": "high",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "don't fly low",
+            "the long toms will get you from the old bayou.",
+            "My pappy led this band of twenty-three",
+            "and the second in command included me."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            5,
+            5,
+            4
+          ],
+          "end_words": [
+            "low",
+            "bayou",
+            "three",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "three",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "He made one fatal slip and he flew too low",
+            "the long toms got him from the old bayou.",
+            "Honk and holler as we go",
+            "gonna see the Gulf of Mexico."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            7,
+            5,
+            3,
+            4
+          ],
+          "end_words": [
+            "low",
+            "bayou",
+            "go",
+            "mexico"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "low",
+              "word2": "go",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "Way up high",
+            "don't fly low",
+            "the long toms will get you from the old bayou."
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AXA",
+          "raw_rhyme_scheme": "ABA",
+          "pattern": "3_ABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            5
+          ],
+          "end_words": [
+            "high",
+            "low",
+            "bayou"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "high",
+              "word2": "bayou",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AXA",
+          "pattern": "3_ABA",
+          "line_count": 3,
+          "stability": 0.2
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 35
+    }
+  }
+}

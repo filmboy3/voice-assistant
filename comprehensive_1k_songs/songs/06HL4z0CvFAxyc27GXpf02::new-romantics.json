@@ -1,0 +1,920 @@
+{
+  "song_id": "06HL4z0CvFAxyc27GXpf02::new-romantics",
+  "title": "New Romantics",
+  "artist": "Taylor Swift",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWe're all bored\nWe're all so tired of everything\nWe wait for trains that just aren't coming\nWe show off our different scarlet letters\nTrust me mine is better\nWe're so young that we're on the run to ruin\nWe play dumb\n\n[bridge]\nWe cry tears\nOf mascara in the bathroom\nHoney life is just classroom\n\n[outro]\nAnd every day it's like battle\n\n[chorus]\nHeartbreak is the national anthem\nWe sing it properly\nWe are too busy dancing\nTo get knocked off our feet\n\n[bridge]\nThe best people in life are free\n\n[verse]\nWe're all here\nThe light and noise are blinding\nWe hang back\nIt's all in the timing\nIt's poker, you can't see in my face\n\n[bridge]\nWe need love, but all we want is danger\nWe team up and switch up sides like record changer\nThe rumours are terrible and cruel\n\n[outro]\nAnd every day it's like battle\n\n[chorus]\nHeartbreak is the national anthem\nWe sing it properly\nWe are too busy dancing\nTo get knocked off our feet\n\n[bridge]\nThe best people in life are free\nSo come on, come on along with me\nThe best people in life are free\n\n[bridge]\nPlease take my hand\nAnd please take me dancing\nAnd please leave me stranded it's so romantic\n\n[outro]\nAnd every day it's like battle\n\n[outro]\nAnd every day it's like battle\n\n[chorus]\nHeartbreak is the national anthem\nWe sing it proudly\nWe are too busy dancing\nTo get knocked off our feet\n\n[bridge]\nThe best people in life are free",
+  "cleaned_lyrics": "We're all bored\nWe're all so tired of everything\nWe wait for trains that just aren't coming\nWe show off our different scarlet letters\nTrust me mine is better\nWe're so young that we're on the run to ruin\nWe play dumb\nWe cry tears\nOf mascara in the bathroom\nHoney life is just classroom\nAnd every day it's like battle\nHeartbreak is the national anthem\nWe sing it properly\nWe are too busy dancing\nTo get knocked off our feet\nThe best people in life are free\nWe're all here\nThe light and noise are blinding\nWe hang back\nIt's all in the timing\nIt's poker\nyou can't see in my face\nWe need love\nbut all we want is danger\nWe team up and switch\nup sides like record changer\nThe rumours are terrible and cruel\nAnd every day it's like battle\nHeartbreak is the national anthem\nWe sing it properly\nWe are too busy dancing\nTo get knocked off our feet\nThe best people in life are free\nSo come on\ncome on along with me\nThe best people in life are free\nPlease take my hand\nAnd please take me dancing\nAnd please leave me stranded it's so romantic\nAnd every day it's like battle\nAnd every day it's like battle\nHeartbreak is the national anthem\nWe sing it proudly\nWe are too busy dancing\nTo get knocked off our feet\nThe best people in life are free",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 71,
+    "cleaned_lines": 46,
+    "removed_count": 15,
+    "retention_rate": 0.8070175438596491,
+    "removal_reasons": {
+      "section_marker": 15
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "We're all bored\nWe're all so tired of everything",
+          "plot_function": "SETUP",
+          "emotion_primary": "boredom",
+          "emotion_secondary": "tiredness",
+          "eli5_simplification": "Everyone is feeling bored and tired of everything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "We wait for trains that just aren't coming",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are waiting for something that will never arrive.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "We show off our different scarlet letters\nTrust me mine is better",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "pride",
+          "emotion_secondary": "competition",
+          "eli5_simplification": "They are showing off their mistakes and trying to prove theirs are the best.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "We're so young that we're on the run to ruin",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "recklessness",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are young and heading towards trouble.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8,
+            9
+          ],
+          "original_lyric": "We play dumb\nWe cry tears\nOf mascara in the bathroom",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "vulnerability",
+          "eli5_simplification": "They pretend to be silly and cry in the bathroom.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "Honey life is just classroom",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "realization",
+          "emotion_secondary": null,
+          "eli5_simplification": "Life is like a school.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            18,
+            29,
+            30,
+            34
+          ],
+          "original_lyric": "And every day it's like battle",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "stress",
+          "emotion_secondary": null,
+          "eli5_simplification": "Every day feels like a fight.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12,
+            31
+          ],
+          "original_lyric": "Heartbreak is the national anthem",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Sadness and heartbreak are everywhere.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13,
+            32
+          ],
+          "original_lyric": "We sing it properly",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "They accept and embrace the sadness.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14,
+            33,
+            37
+          ],
+          "original_lyric": "We are too busy dancing",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are too busy having fun.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15,
+            38
+          ],
+          "original_lyric": "To get knocked off our feet",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are too busy dancing to be hurt.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16,
+            20,
+            39
+          ],
+          "original_lyric": "The best people in life are free",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The best people are free.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "We're all here",
+          "plot_function": "SETUP",
+          "emotion_primary": "belonging",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone is here together.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "The light and noise are blinding",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "overwhelm",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everything is too much.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "We hang back",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are holding back.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "It's all in the timing",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's all about the right moment.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "It's poker\nyou can't see in my face",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "guardedness",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are hiding their feelings.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "We need love\nbut all we want is danger",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "rebellion",
+          "eli5_simplification": "They want danger instead of love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "We team up and switch\nup sides like record changer",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "rebellion",
+          "emotion_secondary": null,
+          "eli5_simplification": "They change sides like a record.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "The rumours are terrible and cruel",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The rumors are bad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35,
+            36
+          ],
+          "original_lyric": "So come on\ncome on along with me",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "invitation",
+          "eli5_simplification": "Come with me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            40,
+            41
+          ],
+          "original_lyric": "Please take my hand\nAnd please take me dancing",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Take my hand and dance with me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            42
+          ],
+          "original_lyric": "And please leave me stranded it's so romantic",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "Leave me stranded, it's romantic.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 43,
+        "covered_lines": 43,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 43,
+      "covered_lines": 43,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "We're all bored",
+            "We're all so tired of everything",
+            "We wait for trains that just aren't coming",
+            "We show off our different scarlet letters"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            5,
+            5,
+            5
+          ],
+          "end_words": [
+            "bored",
+            "everything",
+            "coming",
+            "letters"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Trust me mine is better",
+            "We're so young that we're on the run to ruin",
+            "We play dumb",
+            "We cry tears"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            5,
+            2,
+            2
+          ],
+          "end_words": [
+            "better",
+            "ruin",
+            "dumb",
+            "tears"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Of mascara in the bathroom",
+            "Honey life is just classroom",
+            "And every day it's like battle",
+            "Heartbreak is the national anthem"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            2,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "bathroom",
+            "classroom",
+            "battle",
+            "anthem"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "bathroom",
+              "word2": "classroom",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "classroom",
+              "word2": "battle",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "battle",
+              "word2": "anthem",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "We sing it properly",
+            "We are too busy dancing",
+            "To get knocked off our feet",
+            "The best people in life are free"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "properly",
+            "dancing",
+            "feet",
+            "free"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "feet",
+              "word2": "free",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "We're all here",
+            "The light and noise are blinding",
+            "We hang back",
+            "It's all in the timing"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "here",
+            "blinding",
+            "back",
+            "timing"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "blinding",
+              "word2": "timing",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "It's poker",
+            "you can't see in my face",
+            "We need love",
+            "but all we want is danger"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "poker",
+            "face",
+            "love",
+            "danger"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "face",
+              "word2": "danger",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "We team up and switch",
+            "up sides like record changer",
+            "The rumours are terrible and cruel",
+            "And every day it's like battle"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            5,
+            2,
+            5
+          ],
+          "end_words": [
+            "switch",
+            "changer",
+            "cruel",
+            "battle"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Heartbreak is the national anthem",
+            "We sing it properly",
+            "We are too busy dancing",
+            "To get knocked off our feet"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            4
+          ],
+          "end_words": [
+            "anthem",
+            "properly",
+            "dancing",
+            "feet"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "anthem",
+              "word2": "dancing",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AE), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "The best people in life are free",
+            "So come on",
+            "come on along with me",
+            "The best people in life are free"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            2,
+            3,
+            4
+          ],
+          "end_words": [
+            "free",
+            "on",
+            "me",
+            "free"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "free",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "me",
+              "word2": "free",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "Please take my hand",
+            "And please take me dancing",
+            "And please leave me stranded it's so romantic",
+            "And every day it's like battle"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            3,
+            3,
+            5,
+            5
+          ],
+          "end_words": [
+            "hand",
+            "dancing",
+            "romantic",
+            "battle"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "hand",
+              "word2": "dancing",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "hand",
+              "word2": "romantic",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AE), post-consonants in same family"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "dancing",
+              "word2": "romantic",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "romantic",
+              "word2": "battle",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "And every day it's like battle",
+            "Heartbreak is the national anthem",
+            "We sing it proudly",
+            "We are too busy dancing"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "battle",
+            "anthem",
+            "proudly",
+            "dancing"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "battle",
+              "word2": "anthem",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "anthem",
+              "word2": "dancing",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AE), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 12,
+          "lines": [
+            "To get knocked off our feet",
+            "The best people in life are free"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            4,
+            4
+          ],
+          "end_words": [
+            "feet",
+            "free"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "feet",
+              "word2": "free",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 12,
+          "section_type": "verse",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "line_count": 2,
+          "stability": 1.0
+        }
+      ],
+      "total_stanzas": 12,
+      "total_lines": 46
+    }
+  }
+}

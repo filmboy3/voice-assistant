@@ -1,0 +1,515 @@
+{
+  "song_id": "4BxCuXFJrSWGi1KHcVqaU4::unclear",
+  "title": "Unclear",
+  "artist": "Kodaline",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nIâ??m trying to learn and Iâ??m dying to know\nWhen to move on and when to let go\n\n[chorus]\nI just donâ??t know if Iâ??ll risk it again\nWhen the futureâ??s so unsure\nWhen the futureâ??s so unclear\nOhh Ohh Ohhh Ohh Ohhh Ohhh\nSo you swallowed your heart and you swallowed your pride\nYouâ??ve gotta be tough if you wanna survive\nTheyâ??ll chew you up and theyâ??ll eat you alive\nYou shouldnâ??t give up on the dreams in your mind\nWhen the futureâ??s so unsure\nWhen the futureâ??s so unclear\nWhen the futureâ??s so unsure\nWhen the futureâ??s so unclear\nWe walk we walk on\nOur time our time will come\nWe walk we walk on\nOur time\nWhen the futureâ??s so unsure\nWhen the futureâ??s so unclear\nWhen the futureâ??s so unsure\nWhen the futureâ??s so unclear\nOhh Ohh Ohhh Ohh Ohhh Ohhh",
+  "cleaned_lyrics": "Iâ??m trying to learn and Iâ??m dying to know\nWhen to move on and when to let go\nI just donâ??t know\nif Iâ??ll risk it again\nWhen the futureâ??s so unsure\nWhen the futureâ??s so unclear\nOhh Ohh Ohhh Ohh Ohhh Ohhh\nSo you swallowed your heart and you swallowed your pride\nYouâ??ve gotta be tough if you wanna survive\nTheyâ??ll chew you up and theyâ??ll eat you alive\nYou shouldnâ??t give up on the dreams in your mind\nWhen the futureâ??s so unsure\nWhen the futureâ??s so unclear\nWhen the futureâ??s so unsure\nWhen the futureâ??s so unclear\nWe walk we walk on\nOur time our time will come\nWe walk we walk on\nOur time\nWhen the futureâ??s so unsure\nWhen the futureâ??s so unclear\nWhen the futureâ??s so unsure\nWhen the futureâ??s so unclear\nOhh Ohh Ohhh Ohh Ohhh Ohhh",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 26,
+    "cleaned_lines": 24,
+    "removed_count": 2,
+    "retention_rate": 0.96,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Iâ??m trying to learn and Iâ??m dying to know\nWhen to move on and when to let go",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "uncertainty",
+          "eli5_simplification": "The singer wants to understand when to move forward and when to give up.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "I just donâ??t know",
+          "plot_function": "SETUP",
+          "emotion_primary": "uncertainty",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer doesn't know what to do.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "if Iâ??ll risk it again",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "hesitation",
+          "eli5_simplification": "The singer is afraid to take a risk again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "When the futureâ??s so unsure\nWhen the futureâ??s so unclear",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "uncertainty",
+          "emotion_secondary": null,
+          "eli5_simplification": "The future is uncertain and unclear.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Ohh Ohh Ohhh Ohh Ohhh Ohhh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Just a sound of feeling.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10
+          ],
+          "original_lyric": "So you swallowed your heart and you swallowed your pride\nYouâ??ve gotta be tough if you wanna survive\nTheyâ??ll chew you up and theyâ??ll eat you alive",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "You have to be strong to survive because people can be cruel.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "You shouldnâ??t give up on the dreams in your mind",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Don't give up on your dreams.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "When the futureâ??s so unsure\nWhen the futureâ??s so unclear",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "uncertainty",
+          "emotion_secondary": null,
+          "eli5_simplification": "The future is uncertain and unclear.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "When the futureâ??s so unsure\nWhen the futureâ??s so unclear",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "uncertainty",
+          "emotion_secondary": null,
+          "eli5_simplification": "The future is uncertain and unclear.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "We walk we walk on\nOur time our time will come",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "We keep going, our time will come.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "We walk we walk on",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "We keep going.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Our time",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Our time will come.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "When the futureâ??s so unsure\nWhen the futureâ??s so unclear",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "uncertainty",
+          "emotion_secondary": null,
+          "eli5_simplification": "The future is uncertain and unclear.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "When the futureâ??s so unsure\nWhen the futureâ??s so unclear",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "uncertainty",
+          "emotion_secondary": null,
+          "eli5_simplification": "The future is uncertain and unclear.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "Ohh Ohh Ohhh Ohh Ohhh Ohhh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Just a sound of feeling.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          "Shift from 'I' to 'you' and 'they' in lines 8-10"
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 24,
+        "covered_lines": 24,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        "Shift from 'I' to 'you' and 'they' in lines 8-10"
+      ]
+    },
+    "coverage": {
+      "total_lines": 24,
+      "covered_lines": 24,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Iâ??m trying to learn and Iâ??m dying to know",
+            "When to move on and when to let go",
+            "I just donâ??t know",
+            "if Iâ??ll risk it again"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            6,
+            5,
+            4,
+            4
+          ],
+          "end_words": [
+            "know",
+            "go",
+            "know",
+            "again"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "know",
+              "word2": "go",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "go",
+              "word2": "know",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "When the futureâ??s so unsure",
+            "When the futureâ??s so unclear",
+            "Ohh Ohh Ohhh Ohh Ohhh Ohhh",
+            "So you swallowed your heart and you swallowed your pride"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "unsure",
+            "unclear",
+            "ohhh",
+            "pride"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Youâ??ve gotta be tough if you wanna survive",
+            "Theyâ??ll chew you up and theyâ??ll eat you alive",
+            "You shouldnâ??t give up on the dreams in your mind",
+            "When the futureâ??s so unsure"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            6,
+            6,
+            6,
+            4
+          ],
+          "end_words": [
+            "survive",
+            "alive",
+            "mind",
+            "unsure"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "survive",
+              "word2": "alive",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "alive",
+              "word2": "mind",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "When the futureâ??s so unclear",
+            "When the futureâ??s so unsure",
+            "When the futureâ??s so unclear",
+            "We walk we walk on"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "unclear",
+            "unsure",
+            "unclear",
+            "on"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "unclear",
+              "word2": "unclear",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Our time our time will come",
+            "We walk we walk on",
+            "Our time",
+            "When the futureâ??s so unsure"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            1,
+            4
+          ],
+          "end_words": [
+            "come",
+            "on",
+            "time",
+            "unsure"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "When the futureâ??s so unclear",
+            "When the futureâ??s so unsure",
+            "When the futureâ??s so unclear",
+            "Ohh Ohh Ohhh Ohh Ohhh Ohhh"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            6
+          ],
+          "end_words": [
+            "unclear",
+            "unsure",
+            "unclear",
+            "ohhh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "unclear",
+              "word2": "unclear",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 24
+    }
+  }
+}

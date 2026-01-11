@@ -1,0 +1,431 @@
+{
+  "song_id": "5W5bDNCqJ1jbCgTxDD0Cb3::waiting-time-acoustic",
+  "title": "Waiting Time (acoustic)",
+  "artist": "Willie Nelson",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThis is the waiting time: I wait for you.\nWhile you make up your mind just what you wanna do.\nThey say that things worthwhile are worth waiting for,\nAnd you're worth so much to me, I'll wait for ever more.\n\n[verse]\nThere was hurting time, I hurt you so;\nThen came the parting time, I watched you go.\n\n[bridge]\nSo this is the waiting time, and I'll just wait and see.\n\n[verse]\nThere was hurting time, I hurt you so;\nThen came the parting time, I watched you go.\n\n[bridge]\nSo this is the waiting time, and I'll just wait and see.",
+  "cleaned_lyrics": "This is the waiting time: I wait for you.\nWhile you make up your\nmind just what you wanna do.\nThey say that things worthwhile are worth waiting for\nAnd you're worth so much to me\nI'll wait for ever more.\nThere was hurting time\nI hurt you so\nThen came the parting time\nI watched you go.\nSo this is the waiting time\nand I'll just wait and see.\nThere was hurting time\nI hurt you so\nThen came the parting time\nI watched you go.\nSo this is the waiting time\nand I'll just wait and see.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 19,
+    "cleaned_lines": 18,
+    "removed_count": 5,
+    "retention_rate": 1.2,
+    "removal_reasons": {
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "This is the waiting time: I wait for you.\nWhile you make up your\nmind just what you wanna do.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer is waiting for someone to decide what they want to do.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "They say that things worthwhile are worth waiting for\nAnd you're worth so much to me",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer believes the person is worth waiting for.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "I'll wait for ever more.",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer promises to wait forever.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "There was hurting time",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "There was a time when they hurt each other.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "I hurt you so",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer admits to hurting the other person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Then came the parting time",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Then they broke up.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "I watched you go.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer watched the other person leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "So this is the waiting time\nand I'll just wait and see.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Now the singer is waiting again and will see what happens.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "There was hurting time",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "There was a time when they hurt each other.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "I hurt you so",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer admits to hurting the other person.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Then came the parting time",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Then they broke up.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "I watched you go.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer watched the other person leave.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "So this is the waiting time\nand I'll just wait and see.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Now the singer is waiting again and will see what happens.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 17,
+        "covered_lines": 17,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 17,
+      "covered_lines": 17,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "This is the waiting time: I wait for you.",
+            "While you make up your",
+            "mind just what you wanna do.",
+            "They say that things worthwhile are worth waiting for"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            4,
+            4,
+            5,
+            7
+          ],
+          "end_words": [
+            "you",
+            "your",
+            "do",
+            "for"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "you",
+              "word2": "do",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "your",
+              "word2": "for",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "And you're worth so much to me",
+            "I'll wait for ever more.",
+            "There was hurting time",
+            "I hurt you so"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            2
+          ],
+          "end_words": [
+            "me",
+            "more",
+            "time",
+            "so"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Then came the parting time",
+            "I watched you go.",
+            "So this is the waiting time",
+            "and I'll just wait and see."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            2,
+            2,
+            4
+          ],
+          "end_words": [
+            "time",
+            "go",
+            "time",
+            "see"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "time",
+              "word2": "time",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "There was hurting time",
+            "I hurt you so",
+            "Then came the parting time",
+            "I watched you go."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.9,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "time",
+            "so",
+            "time",
+            "go"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "time",
+              "word2": "time",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "so",
+              "word2": "go",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "So this is the waiting time",
+            "and I'll just wait and see."
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            2,
+            4
+          ],
+          "end_words": [
+            "time",
+            "see"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 18
+    }
+  }
+}

@@ -1,0 +1,768 @@
+{
+  "song_id": "4x1nvY2FN8jxqAFA0DA02H::all-my-loving",
+  "title": "All My Loving",
+  "artist": "John Lennon",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nTomorrow I'll miss you\nRemember I'll always be true\nAnd then while I'm away\nI'll write home every day\nAnd I'll send all my loving to you\nSECOND VERSE\nI'll pretend that I'm kissing\nThe lips I missing\nAnd hope that my dreams will Come true\nAnd then while I'm away I'll write home every day\nAnd I'll send all my loving to you\nGHORUS\nAll my loving I will send to you\nAll my loving, Darling I'll be true\n\n[verse]\nGlose your eyes and I'll kiss you\nTomorrow I'll miss you\nRemember I'll always be true\nAnd then while I'm away\nI'll write home every day\nAnd I'll send all my loving to you\nGHORUS\nAll my loving I will send to you\nAll my loving, Darling I'll be true\nEnding\nAll my loving\nAll my loving\nOoh, ooh, all my loving\nI will send to you",
+  "cleaned_lyrics": "Tomorrow I'll miss you\nRemember I'll always be true\nAnd then while I'm away\nI'll write home every day\nAnd I'll send all my loving to you\nI'll pretend that I'm kissing\nThe lips I missing\nAnd hope that my dreams will Come true\nAnd then while I'm away\nI'll write home every day\nAnd I'll send all my loving to you\nGHORUS\nAll my loving I will send to you\nAll my loving\nDarling I'll be true\nGlose your eyes and I'll kiss you\nTomorrow I'll miss you\nRemember I'll always be true\nAnd then while I'm away\nI'll write home every day\nAnd I'll send all my loving to you\nGHORUS\nAll my loving I will send to you\nAll my loving\nDarling I'll be true\nEnding\nAll my loving\nAll my loving\nOoh\nooh\nall my loving\nI will send to you",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 31,
+    "cleaned_lines": 32,
+    "removed_count": 3,
+    "retention_rate": 1.0666666666666667,
+    "removal_reasons": {
+      "section_marker": 2,
+      "caps_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Tomorrow I'll miss you",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer says they will miss someone tomorrow.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "Remember I'll always be true",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer promises to always be faithful.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "And then while I'm away\nI'll write home every day",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer says they will write letters while they are away.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "And I'll send all my loving to you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer will send all their love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "I'll pretend that I'm kissing",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer will pretend to kiss the person they miss.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "The lips I missing",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer misses the person's lips.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "And hope that my dreams will Come true",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer hopes their dreams will come true.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "And then while I'm away\nI'll write home every day",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer will write letters while they are away.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "And I'll send all my loving to you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer will send all their love.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "All my loving I will send to you",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer will send all their love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "All my loving",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "All the singer's love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Darling I'll be true",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer promises to be true.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Glose your eyes and I'll kiss you",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to kiss the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Tomorrow I'll miss you",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer says they will miss someone tomorrow.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "Remember I'll always be true",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer promises to always be faithful.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "And then while I'm away\nI'll write home every day",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer says they will write letters while they are away.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "And I'll send all my loving to you",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer will send all their love.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "All my loving I will send to you",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer will send all their love.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "All my loving",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "All the singer's love.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "Darling I'll be true",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer promises to be true.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "All my loving",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "All the singer's love.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "All my loving",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "All the singer's love.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "Ooh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "An expression of love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "ooh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "An expression of love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "all my loving",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "All the singer's love.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "I will send to you",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer will send their love.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 29,
+        "covered_lines": 29,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 29,
+      "covered_lines": 29,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Tomorrow I'll miss you",
+            "Remember I'll always be true",
+            "And then while I'm away",
+            "I'll write home every day"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            5
+          ],
+          "end_words": [
+            "you",
+            "true",
+            "away",
+            "day"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "you",
+              "word2": "true",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "away",
+              "word2": "day",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "And I'll send all my loving to you",
+            "I'll pretend that I'm kissing",
+            "The lips I missing",
+            "And hope that my dreams will Come true"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            5,
+            4,
+            2,
+            4
+          ],
+          "end_words": [
+            "you",
+            "kissing",
+            "missing",
+            "true"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "you",
+              "word2": "true",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "kissing",
+              "word2": "missing",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "And then while I'm away",
+            "I'll write home every day",
+            "And I'll send all my loving to you",
+            "GHORUS"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            5,
+            5,
+            1
+          ],
+          "end_words": [
+            "away",
+            "day",
+            "you",
+            "ghorus"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "away",
+              "word2": "day",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "All my loving I will send to you",
+            "All my loving",
+            "Darling I'll be true",
+            "Glose your eyes and I'll kiss you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            2,
+            3,
+            5
+          ],
+          "end_words": [
+            "you",
+            "loving",
+            "true",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "you",
+              "word2": "true",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "true",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Tomorrow I'll miss you",
+            "Remember I'll always be true",
+            "And then while I'm away",
+            "I'll write home every day"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            5
+          ],
+          "end_words": [
+            "you",
+            "true",
+            "away",
+            "day"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "you",
+              "word2": "true",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "away",
+              "word2": "day",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "And I'll send all my loving to you",
+            "GHORUS",
+            "All my loving I will send to you",
+            "All my loving"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            1,
+            4,
+            2
+          ],
+          "end_words": [
+            "you",
+            "ghorus",
+            "you",
+            "loving"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "you",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Darling I'll be true",
+            "Ending",
+            "All my loving",
+            "All my loving"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            1,
+            2,
+            2
+          ],
+          "end_words": [
+            "true",
+            "ending",
+            "loving",
+            "loving"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "loving",
+              "word2": "loving",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Ooh",
+            "ooh",
+            "all my loving",
+            "I will send to you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "end_words": [
+            "ooh",
+            "ooh",
+            "loving",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "ooh",
+              "word2": "ooh",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "ooh",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 32
+    }
+  }
+}

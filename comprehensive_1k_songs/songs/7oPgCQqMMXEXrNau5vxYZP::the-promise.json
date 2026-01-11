@@ -1,0 +1,765 @@
+{
+  "song_id": "7oPgCQqMMXEXrNau5vxYZP::the-promise",
+  "title": "The Promise",
+  "artist": "Tracy Chapman",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nIf you wait for me\nThen I'll come for you\nAlthough I've travelled far\n{} -- repete introdução 2x\nI always hold place for you in my heart\nIf you think of me\nIf you miss me once in while\nThen I'll return to you\nI'll return and fill that space in your heart\nRemembering your touch, your kiss, your warm embrace,\nI'll find my way back to you\n-- repeat intro as before\nIf you' be waiting\n\n[verse]\nIf you dream of me\nLike I dream of you\n\n[intro]\nOh I've longed for you\nAnd I have desired\nTo see your face, your smile\nTo be with you wherever you are\nREPEAT REFRÃO\n\n[verse]\nI've longed for you\nAnd I have desired\nTo see your face your smile\nTo be with you wherever you are\nRemembering your touch, your kiss, your warm embrace,\nI'll find my way back to you\nPlease say you'll be waiting\nFINALE:\nTogether again, it would feel so good to be\n\n[intro]\nIf you can make promise If it's one that you can keep\nI vow to come for you If you wait for me\nAnd say you'll hold\nplace for me in your heart",
+  "cleaned_lyrics": "If you wait for me\nThen I'll come for you\nAlthough I've travelled far\n{} -- repete introdução 2x\nI always hold place for you in my heart\nIf you think of me\nIf you miss me once in while\nThen I'll return to you\nI'll return and fill that space in your heart\nRemembering your touch\nyour kiss\nyour warm embrace\nI'll find my way back to you\n-- repeat intro as before\nIf you' be waiting\nIf you dream of me\nLike I dream of you\nOh I've longed for you\nAnd I have desired\nTo see your face\nyour smile\nTo be with you wherever you are\nI've longed for you\nAnd I have desired\nTo see your face your smile\nTo be with you wherever you are\nRemembering your touch\nyour kiss\nyour warm embrace\nI'll find my way back to you\nPlease say you'll be waiting\nFINALE:\nTogether again\nit would feel so good to be\nIf you can make promise If it's one that you can keep\nI vow to come for you If you wait for me\nAnd say you'll hold\nplace for me in your heart",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 42,
+    "cleaned_lines": 38,
+    "removed_count": 6,
+    "retention_rate": 1.0,
+    "removal_reasons": {
+      "section_marker": 5,
+      "caps_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "If you wait for me\nThen I'll come for you",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you wait, I will come.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "Although I've travelled far",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Even though I've been away.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "I always hold place for you in my heart",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "I always keep a place for you in my heart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "If you think of me\nIf you miss me once in while",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you think of me and miss me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Then I'll return to you",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Then I will come back to you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "I'll return and fill that space in your heart",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "I will come back and fill the space in your heart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "Remembering your touch\nyour kiss\nyour warm embrace",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Thinking about your touch, kiss, and hug.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "I'll find my way back to you",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "I will find my way back to you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "If you' be waiting",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you are waiting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "If you dream of me",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you dream of me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Like I dream of you",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Like I dream of you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Oh I've longed for you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I have really missed you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "And I have desired\nTo see your face",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "And I have wanted to see your face.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "your smile\nTo be with you wherever you are",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Your smile and to be with you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "I've longed for you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I have really missed you.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "And I have desired\nTo see your face your smile",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "And I have wanted to see your face and smile.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "To be with you wherever you are",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "love",
+          "eli5_simplification": "To be with you wherever you are.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25,
+            26,
+            27
+          ],
+          "original_lyric": "Remembering your touch\nyour kiss\nyour warm embrace",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Thinking about your touch, kiss, and hug.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "I'll find my way back to you",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "I will find my way back to you.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "Please say you'll be waiting",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Please say you'll be waiting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "Together again",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Together again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "it would feel so good to be",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "It would feel so good to be.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "If you can make promise If it's one that you can keep",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you can make a promise and keep it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33
+          ],
+          "original_lyric": "I vow to come for you If you wait for me",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "I promise to come for you if you wait for me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34,
+            35
+          ],
+          "original_lyric": "And say you'll hold\nplace for me in your heart",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "And say you'll hold a place for me in your heart.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 35,
+        "covered_lines": 35,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 35,
+      "covered_lines": 35,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "If you wait for me",
+            "Then I'll come for you",
+            "Although I've travelled far",
+            "{} -- repete introdução 2x"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "me",
+            "you",
+            "far",
+            "x"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I always hold place for you in my heart",
+            "If you think of me",
+            "If you miss me once in while",
+            "Then I'll return to you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            3,
+            4,
+            3
+          ],
+          "end_words": [
+            "heart",
+            "me",
+            "while",
+            "you"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I'll return and fill that space in your heart",
+            "Remembering your touch",
+            "your kiss",
+            "your warm embrace"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            2,
+            1,
+            2
+          ],
+          "end_words": [
+            "heart",
+            "touch",
+            "kiss",
+            "embrace"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I'll find my way back to you",
+            "-- repeat intro as before",
+            "If you' be waiting",
+            "If you dream of me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "you",
+            "before",
+            "waiting",
+            "me"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Like I dream of you",
+            "Oh I've longed for you",
+            "And I have desired",
+            "To see your face"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            4,
+            1,
+            2
+          ],
+          "end_words": [
+            "you",
+            "you",
+            "desired",
+            "face"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "you",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "your smile",
+            "To be with you wherever you are",
+            "I've longed for you",
+            "And I have desired"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            1,
+            2,
+            3,
+            1
+          ],
+          "end_words": [
+            "smile",
+            "are",
+            "you",
+            "desired"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "smile",
+              "word2": "desired",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "To see your face your smile",
+            "To be with you wherever you are",
+            "Remembering your touch",
+            "your kiss"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            2,
+            1
+          ],
+          "end_words": [
+            "smile",
+            "are",
+            "touch",
+            "kiss"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "your warm embrace",
+            "I'll find my way back to you",
+            "Please say you'll be waiting",
+            "FINALE:"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            5,
+            4,
+            1
+          ],
+          "end_words": [
+            "embrace",
+            "you",
+            "waiting",
+            "finale"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "embrace",
+              "word2": "waiting",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "Together again",
+            "it would feel so good to be",
+            "If you can make promise If it's one that you can keep",
+            "I vow to come for you If you wait for me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2,
+            3,
+            7,
+            5
+          ],
+          "end_words": [
+            "again",
+            "be",
+            "keep",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "be",
+              "word2": "keep",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "be",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "keep",
+              "word2": "me",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "And say you'll hold",
+            "place for me in your heart"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            3,
+            2
+          ],
+          "end_words": [
+            "hold",
+            "heart"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 10,
+      "total_lines": 38
+    }
+  }
+}

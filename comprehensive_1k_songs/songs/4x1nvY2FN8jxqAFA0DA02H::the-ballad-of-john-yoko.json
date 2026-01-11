@@ -1,0 +1,723 @@
+{
+  "song_id": "4x1nvY2FN8jxqAFA0DA02H::the-ballad-of-john-yoko",
+  "title": "The Ballad of John & Yoko",
+  "artist": "John Lennon",
+  "genre": "unknown",
+  "original_lyrics": "[bridge]\nStanding in the dock at Southampton, trying to get to Holland Or France\nThe Man In the Mac said, 'You gotta go back'\nYou know they didn't even give us chance\nYou know it ain't easy you know how hard it can be\nThe way things are going ...they're gonna crucify me.\nFinally made the plane into paris, honeymooning down by the seine\nPeter Brown called to say, you can make it ok\nYou can get married in Gibraltar near spain ..\nYou know it aint easy you know how hard it can be\nThe way things are going ...they're gonna crucify me.\nDrove from paris to the amsterdam hilton, talking in our beds for week\nThe newspapers said 'What're you doing in bed'\nI said we're only trying to get us some peace ...\nYou know it aint easy you know how hard it can be\nThe way things are going ...they're gonna crucify me.\nSaving all your money for rainy day\nGiving all your clothes to charity\nLast nite the wife said, oh boy when you're dead\nYou don't take nothing with you but your soul\nThink!\nMade lightning trip to Vienna\nEating chocolate cake in bag\nThe newspapers said, \"She's gone to his head\nThey look just like two gurus in drag\"\nYou know it aint easy you know how hard it can be\nThe way things are going ...they're gonna crucify me.\n\n[chorus]\nFifty acorns tied in sack\nThe men from the press say \"We wish you success\nIt's good to have the both of you back\"\nYou know it aint easy you know how hard it can be\nThe way things are going ...they're gonna crucify me.",
+  "cleaned_lyrics": "Standing in the dock at Southampton\ntrying to get to Holland Or France\nThe Man In the Mac said\n'You gotta go back'\nYou know they didn't even give us chance\nYou know it ain't easy you know how hard it can be\nThe way things are going ...they're gonna crucify me.\nPeter Brown called to say\nyou can make it ok\nYou can get married in Gibraltar near spain ..\nYou know it aint easy you know how hard it can be\nThe way things are going ...they're gonna crucify me.\nDrove from paris to the amsterdam hilton\ntalking in our beds for week\nThe newspapers said 'What're you doing in bed'\nI said we're only trying to get us some peace ...\nYou know it aint easy you know how hard it can be\nThe way things are going ...they're gonna crucify me.\nSaving all your money for rainy day\nGiving all your clothes to charity\nLast nite the wife said\noh boy when you're dead\nYou don't take nothing with you but your soul\nThink!\nMade lightning trip to Vienna\nEating chocolate cake in bag\nThe newspapers said\n\"She's gone to his head\nThey look just like two gurus in drag\"\nYou know it aint easy you know how hard it can be\nThe way things are going ...they're gonna crucify me.\nFifty acorns tied in sack\nThe men from the press say \"We wish you success\nIt's good to have the both of you back\"\nYou know it aint easy you know how hard it can be\nThe way things are going ...they're gonna crucify me.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 34,
+    "cleaned_lines": 36,
+    "removed_count": 3,
+    "retention_rate": 1.0909090909090908,
+    "removal_reasons": {
+      "section_marker": 2,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Standing in the dock at Southampton\ntrying to get to Holland Or France",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "John and Yoko are trying to leave Southampton to go to other countries.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "The Man In the Mac said\n'You gotta go back'\nYou know they didn't even give us chance",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "Someone in authority tells them they can't leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "You know it ain't easy you know how hard it can be\nThe way things are going ...they're gonna crucify me.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "It's hard, and they feel like they're being treated unfairly.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8,
+            9
+          ],
+          "original_lyric": "Peter Brown called to say\nyou can make it ok\nYou can get married in Gibraltar near spain ..",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone offers a solution: they can get married.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "You know it aint easy you know how hard it can be\nThe way things are going ...they're gonna crucify me.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "It's hard, and they feel like they're being treated unfairly.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "Drove from paris to the amsterdam hilton\ntalking in our beds for week",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "peace",
+          "emotion_secondary": null,
+          "eli5_simplification": "They travel and spend time together.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15,
+            16
+          ],
+          "original_lyric": "The newspapers said 'What're you doing in bed'\nI said we're only trying to get us some peace ...",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "defiance",
+          "eli5_simplification": "The newspapers criticize them for staying in bed, but they just want peace.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "You know it aint easy you know how hard it can be\nThe way things are going ...they're gonna crucify me.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "It's hard, and they feel like they're being treated unfairly.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "Saving all your money for rainy day\nGiving all your clothes to charity",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "contemplation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about life and what matters.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22,
+            23
+          ],
+          "original_lyric": "Last nite the wife said\noh boy when you're dead\nYou don't take nothing with you but your soul",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "contemplation",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "Thinking about death and what's important.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "Think!",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "contemplation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Think!",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "Made lightning trip to Vienna\nEating chocolate cake in bag",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "They travel and enjoy themselves.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27,
+            28,
+            29
+          ],
+          "original_lyric": "The newspapers said\n\"She's gone to his head\nThey look just like two gurus in drag\"",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The newspapers criticize them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30,
+            31
+          ],
+          "original_lyric": "You know it aint easy you know how hard it can be\nThe way things are going ...they're gonna crucify me.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "It's hard, and they feel like they're being treated unfairly.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            32,
+            33
+          ],
+          "original_lyric": "Fifty acorns tied in sack\nThe men from the press say \"We wish you success",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are wished success.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34,
+            35
+          ],
+          "original_lyric": "It's good to have the both of you back\"\nYou know it aint easy you know how hard it can be",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are welcomed back.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            36
+          ],
+          "original_lyric": "The way things are going ...they're gonna crucify me.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "It's hard, and they feel like they're being treated unfairly.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 36,
+        "covered_lines": 36,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 36,
+      "covered_lines": 36,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Standing in the dock at Southampton",
+            "trying to get to Holland Or France",
+            "The Man In the Mac said",
+            "'You gotta go back'"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "southampton",
+            "france",
+            "said",
+            "back"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "southampton",
+              "word2": "france",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "france",
+              "word2": "back",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "You know they didn't even give us chance",
+            "You know it ain't easy you know how hard it can be",
+            "The way things are going ...they're gonna crucify me.",
+            "Peter Brown called to say"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            7,
+            7,
+            4
+          ],
+          "end_words": [
+            "chance",
+            "be",
+            "me",
+            "say"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "be",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "you can make it ok",
+            "You can get married in Gibraltar near spain ..",
+            "You know it aint easy you know how hard it can be",
+            "The way things are going ...they're gonna crucify me."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            5,
+            7,
+            7
+          ],
+          "end_words": [
+            "ok",
+            "spain",
+            "be",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "ok",
+              "word2": "spain",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "be",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Drove from paris to the amsterdam hilton",
+            "talking in our beds for week",
+            "The newspapers said 'What're you doing in bed'",
+            "I said we're only trying to get us some peace ..."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            3,
+            5,
+            7
+          ],
+          "end_words": [
+            "hilton",
+            "week",
+            "bed",
+            "peace"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "week",
+              "word2": "peace",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "You know it aint easy you know how hard it can be",
+            "The way things are going ...they're gonna crucify me.",
+            "Saving all your money for rainy day",
+            "Giving all your clothes to charity"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            7,
+            7,
+            5,
+            4
+          ],
+          "end_words": [
+            "be",
+            "me",
+            "day",
+            "charity"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "be",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Last nite the wife said",
+            "oh boy when you're dead",
+            "You don't take nothing with you but your soul",
+            "Think!"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            5,
+            4,
+            1
+          ],
+          "end_words": [
+            "said",
+            "dead",
+            "soul",
+            "think"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "said",
+              "word2": "dead",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Made lightning trip to Vienna",
+            "Eating chocolate cake in bag",
+            "The newspapers said",
+            "\"She's gone to his head"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            4,
+            2,
+            3
+          ],
+          "end_words": [
+            "vienna",
+            "bag",
+            "said",
+            "head"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "vienna",
+              "word2": "said",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "said",
+              "word2": "head",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "They look just like two gurus in drag\"",
+            "You know it aint easy you know how hard it can be",
+            "The way things are going ...they're gonna crucify me.",
+            "Fifty acorns tied in sack"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            6,
+            7,
+            7,
+            4
+          ],
+          "end_words": [
+            "drag",
+            "be",
+            "me",
+            "sack"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "drag",
+              "word2": "sack",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AE), post-consonants in same family"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "be",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "The men from the press say \"We wish you success",
+            "It's good to have the both of you back\"",
+            "You know it aint easy you know how hard it can be",
+            "The way things are going ...they're gonna crucify me."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            4,
+            7,
+            7
+          ],
+          "end_words": [
+            "success",
+            "back",
+            "be",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "be",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 36
+    }
+  }
+}

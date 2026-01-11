@@ -1,0 +1,475 @@
+{
+  "song_id": "3fMbdgg4jU18AjLCKBhRSm::working-day-night",
+  "title": "Working Day Night",
+  "artist": "Michael Jackson",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\n(7/9)\n(7/9)\n(7/9)\n(7/9)\n(7/9)\n(7/9)\nOoh, my honey\n(7/9)\nyou got me workin' day and night\n(7/9)\nOoh, my sugar\n(7/9)\nYou got me workin' day night\n(7/9)\nScratch my shoulder\n(7/9)\nIt's aching make it feel alright\n(7/9)\nWhen this is over\n(7/9)\nLovin' you will be so right\n(7/9)\nI often wonder\n(7/9)\nIf lovin' you will be tonight\n(7/9)\n\n[bridge]\n(7/9)\nIf I'm always out of sight\nThat's why\nD7M C7M D7M C7M\nYou got me workin' day and night\nD7M C7M\nAnd I'll be workin'\nFrom sun up to midnight\n(You got me workin')\n(7/9)\n(Workin' day and night)\n(You got me workin')\n(7/9)\n(Workin' day and night)\nHard\n(You got me workin')\n(7/9)\n(Workin' day and night)\nHard, hard\n(You got me workin')\n(7/9)\n(Workin' day and night)",
+  "cleaned_lyrics": "Ooh\nmy honey\nyou got me workin' day and night\nOoh\nmy sugar\nYou got me workin' day night\nScratch my shoulder\nIt's aching make it feel alright\nWhen this is over\nLovin' you will be so right\nI often wonder\nIf lovin' you will be tonight\nIf I'm always out of sight\nThat's why\nD7M C7M\nD7M C7M\nYou got me workin' day and night\nD7M C7M\nAnd I'll be workin'\nFrom sun up to midnight\nHard\nHard\nhard",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 51,
+    "cleaned_lines": 23,
+    "removed_count": 31,
+    "retention_rate": 0.46,
+    "removal_reasons": {
+      "artist_annotation": 29,
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Ooh\nmy honey",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is calling out to their loved one.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "you got me workin' day and night\nOoh\nmy sugar",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is saying that their loved one makes them work all the time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "You got me workin' day night\nScratch my shoulder",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is still working hard and wants some comfort.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "It's aching make it feel alright\nWhen this is over",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer's shoulder hurts and they hope for relief.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Lovin' you will be so right\nI often wonder",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer is looking forward to being with their loved one.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "If lovin' you will be tonight\nIf I'm always out of sight",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer wonders if they will get to be with their loved one tonight and expresses a fear of being away.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "That's why\nD7M C7M",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is explaining why they are working so hard.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "D7M C7M\nYou got me workin' day and night",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is repeating that they are working hard.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "D7M C7M\nAnd I'll be workin'",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is saying they will continue to work.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "From sun up to midnight\nHard\nHard\nhard",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is emphasizing how hard they work.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Ooh",
+            "my honey",
+            "you got me workin' day and night",
+            "Ooh"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            1,
+            1,
+            4,
+            1
+          ],
+          "end_words": [
+            "ooh",
+            "honey",
+            "night",
+            "ooh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "ooh",
+              "word2": "ooh",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "my sugar",
+            "You got me workin' day night",
+            "Scratch my shoulder",
+            "It's aching make it feel alright"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            1,
+            4,
+            2,
+            5
+          ],
+          "end_words": [
+            "sugar",
+            "night",
+            "shoulder",
+            "alright"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "night",
+              "word2": "alright",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "When this is over",
+            "Lovin' you will be so right",
+            "I often wonder",
+            "If lovin' you will be tonight"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            3
+          ],
+          "end_words": [
+            "over",
+            "right",
+            "wonder",
+            "tonight"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "right",
+              "word2": "tonight",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "If I'm always out of sight",
+            "That's why",
+            "D7M C7M",
+            "D7M C7M"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            2,
+            4,
+            4
+          ],
+          "end_words": [
+            "sight",
+            "why",
+            "m",
+            "m"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "sight",
+              "word2": "why",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word adds post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "m",
+              "word2": "m",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "You got me workin' day and night",
+            "D7M C7M",
+            "And I'll be workin'",
+            "From sun up to midnight"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            4,
+            2,
+            3
+          ],
+          "end_words": [
+            "night",
+            "m",
+            "workin",
+            "midnight"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "night",
+              "word2": "midnight",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Hard",
+            "Hard",
+            "hard"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AAA",
+          "raw_rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.7,
+          "stress_counts": [
+            1,
+            1,
+            1
+          ],
+          "end_words": [
+            "hard",
+            "hard",
+            "hard"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "hard",
+              "word2": "hard",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "hard",
+              "word2": "hard",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "line_count": 3,
+          "stability": 0.7
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 23
+    }
+  }
+}

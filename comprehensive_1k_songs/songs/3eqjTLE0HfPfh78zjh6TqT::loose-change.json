@@ -1,0 +1,636 @@
+{
+  "song_id": "3eqjTLE0HfPfh78zjh6TqT::loose-change",
+  "title": "Loose Change",
+  "artist": "Bruce Springsteen",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nMet her at friendly little bar down along the coast\nShe said it was her birthday so we had us nice little toast\nDrove around for while, smoked few cigarettes\nTook her back to my place, she slipped off her party dress\nShe sat for while on the edge of the bed just talkin'\nLoose change in my pocket\nLoose change in my pocket\nPint of gin in my boot cuff, I'm drivin' for drink and dance\nSittin' on the next stool, miss -little-time-on-her-hands\nYeah I knew she was trouble, but trouble sure was lookin' fine\nAnd when I pulled her close what I knew kinda slipped my mind\nWe lay in bed and watched the moon come up crawling\nLoose change in my pocket\nLoose change in my pocket\nI pour another drink, wait for the night to get through\nStars are burning in that black void so far away and blue\nNow I'm sittin' at red light I feel somethin' tickin' way down\nThe night's moving like slow train crawling through this shithole town\nGot my bags packed in the back and I'm tryin' to get going again\n\n[bridge]\nThen all I hear's the clock on the dash tick-tocking\nLoose change in my pocket\nLoose change in my pocket",
+  "cleaned_lyrics": "Met her at friendly little bar down along the coast\nShe said it was her birthday so we had us nice little toast\nDrove around for while\nsmoked few cigarettes\nTook her back to my place\nshe slipped off her party dress\nShe sat for while on the edge of the bed just talkin'\nLoose change in my pocket\nLoose change in my pocket\nPint of gin in my boot cuff\nI'm drivin' for drink and dance\nSittin' on the next stool\nmiss -little-time-on-her-hands\nAnd when I pulled her close\nwhat I knew kinda slipped my mind\nWe lay in bed and watched the moon come up crawling\nLoose change in my pocket\nLoose change in my pocket\nI pour another drink\nwait for the night to get through\nStars are burning in that black void so far away and blue\nNow I'm sittin' at red light\nI feel somethin' tickin' way down\nThe night's moving like slow\ntrain crawling through this shithole town\nGot my bags packed in the back\nand I'm tryin' to get going again\nThen all I hear's the clock on the dash tick-tocking\nLoose change in my pocket\nLoose change in my pocket",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 25,
+    "cleaned_lines": 30,
+    "removed_count": 3,
+    "retention_rate": 1.25,
+    "removal_reasons": {
+      "musical_direction": 1,
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Met her at friendly little bar down along the coast",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "A man meets a woman at a bar.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "She said it was her birthday so we had us nice little toast",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "They celebrate her birthday.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Drove around for while\nsmoked few cigarettes",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "They spend time together, driving and smoking.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Took her back to my place",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "They go back to his place.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "she slipped off her party dress",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "She takes off her dress.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "She sat for while on the edge of the bed just talkin'",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "They talk on the bed.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            10,
+            19,
+            21
+          ],
+          "original_lyric": "Loose change in my pocket",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He has loose change in his pocket.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9,
+            11
+          ],
+          "original_lyric": "Pint of gin in my boot cuff\nI'm drivin' for drink and dance",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He has gin and is driving.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Sittin' on the next stool",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "He is sitting on the next stool.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "miss -little-time-on-her-hands",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "He is with a woman.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "And when I pulled her close",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "He pulls her close.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "what I knew kinda slipped my mind",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "He forgets something.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "We lay in bed and watched the moon come up crawling",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "They watch the moon.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "I pour another drink",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "He pours another drink.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "wait for the night to get through",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He waits for the night to end.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Stars are burning in that black void so far away and blue",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He looks at the stars.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "Now I'm sittin' at red light",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "He is at a red light.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "I feel somethin' tickin' way down",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "He feels something is wrong.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "The night's moving like slow",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The night feels slow.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "train crawling through this shithole town",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "He is in a bad town.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "Got my bags packed in the back",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "He has his bags packed.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "and I'm tryin' to get going again",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wants to leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "Then all I hear's the clock on the dash tick-tocking",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He hears the clock ticking.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 28,
+        "covered_lines": 28,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 28,
+      "covered_lines": 28,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Met her at friendly little bar down along the coast",
+            "She said it was her birthday so we had us nice little toast",
+            "Drove around for while",
+            "smoked few cigarettes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            7,
+            6,
+            3,
+            3
+          ],
+          "end_words": [
+            "coast",
+            "toast",
+            "while",
+            "cigarettes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "coast",
+              "word2": "toast",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Took her back to my place",
+            "she slipped off her party dress",
+            "She sat for while on the edge of the bed just talkin'",
+            "Loose change in my pocket"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            6,
+            3
+          ],
+          "end_words": [
+            "place",
+            "dress",
+            "talkin",
+            "pocket"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Loose change in my pocket",
+            "Pint of gin in my boot cuff",
+            "I'm drivin' for drink and dance",
+            "Sittin' on the next stool"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "pocket",
+            "cuff",
+            "dance",
+            "stool"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "miss -little-time-on-her-hands",
+            "And when I pulled her close",
+            "what I knew kinda slipped my mind",
+            "We lay in bed and watched the moon come up crawling"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            3,
+            5,
+            7
+          ],
+          "end_words": [
+            "hands",
+            "close",
+            "mind",
+            "crawling"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Loose change in my pocket",
+            "Loose change in my pocket",
+            "I pour another drink",
+            "wait for the night to get through"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            4
+          ],
+          "end_words": [
+            "pocket",
+            "pocket",
+            "drink",
+            "through"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "pocket",
+              "word2": "pocket",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Stars are burning in that black void so far away and blue",
+            "Now I'm sittin' at red light",
+            "I feel somethin' tickin' way down",
+            "The night's moving like slow"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            7,
+            5,
+            5,
+            4
+          ],
+          "end_words": [
+            "blue",
+            "light",
+            "down",
+            "slow"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "train crawling through this shithole town",
+            "Got my bags packed in the back",
+            "and I'm tryin' to get going again",
+            "Then all I hear's the clock on the dash tick-tocking"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            4,
+            5,
+            6
+          ],
+          "end_words": [
+            "town",
+            "back",
+            "again",
+            "tocking"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Loose change in my pocket",
+            "Loose change in my pocket"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            3,
+            3
+          ],
+          "end_words": [
+            "pocket",
+            "pocket"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "pocket",
+              "word2": "pocket",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "line_count": 2,
+          "stability": 1.0
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 30
+    }
+  }
+}

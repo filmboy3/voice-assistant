@@ -1,0 +1,736 @@
+{
+  "song_id": "0oSGxfWSnnOXhD2fKuz2Gy::i-d-rather-be-high",
+  "title": "I'd Rather Be High",
+  "artist": "David Bowie",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nNobokov is sun-licked now\nUpon the beach at Gruenwald\n\n[bridge]\nThe way that authors looks\n\n[chorus]\nUntil the other cows go home\nGossip till their lips are bleeding\nPolitics and all\nI' rather be high\nI' rather be flying\nI' rather be dead\nOr out of my head\nThan training these guns on those men in the sand\nI' rather be high\nThe Thames was black, the tower dark\nI flew to Cairo, find my regiment\n\n[chorus]\nAnd generals full of shit\nI stumble to the graveyard and I\nLay down by my parents, whisper\nJust remember duckies\nEverybody gets got\nI' rather be high\nI' rather be flying\nI' rather be dead\nOr out of my head\nThan training these guns of those men in the sand\nI' rather be high\nI'm seventeen and my looks can prove it\nI'm so afraid that I will lose it\nI' rather smoke and phone my ex\n\n[bridge]\nYeah\nI' rather be high\nI' rather be flying\nI' rather be dead\nOr out of my head\nThan training these guns on the men in the sand\nI' rather be high",
+  "cleaned_lyrics": "Nobokov is sun-licked now\nUpon the beach at Gruenwald\nThe way that authors looks\nUntil the other cows go home\nGossip till their lips are bleeding\nPolitics and all\nI' rather be high\nI' rather be flying\nI' rather be dead\nOr out of my head\nThan training these guns on those men in the sand\nI' rather be high\nThe Thames was black\nthe tower dark\nI flew to Cairo\nfind my regiment\nAnd generals full of shit\nI stumble to the graveyard and I\nJust remember duckies\nEverybody gets got\nI' rather be high\nI' rather be flying\nI' rather be dead\nOr out of my head\nThan training these guns of those men in the sand\nI' rather be high\nI'm seventeen and my looks can prove it\nI'm so afraid that I will lose it\nI' rather smoke and phone my ex\nYeah\nI' rather be high\nI' rather be flying\nI' rather be dead\nOr out of my head\nThan training these guns on the men in the sand\nI' rather be high",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 44,
+    "cleaned_lines": 36,
+    "removed_count": 6,
+    "retention_rate": 0.9,
+    "removal_reasons": {
+      "section_marker": 5,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Nobokov is sun-licked now\nUpon the beach at Gruenwald",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts with a scene setting, mentioning a place and a person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "The way that authors looks\nUntil the other cows go home",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "More scene setting, describing how authors look.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Gossip till their lips are bleeding\nPolitics and all",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "disgust",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is disgusted by gossip and politics.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "I' rather be high\nI' rather be flying",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer expresses a desire to escape.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "I' rather be dead\nOr out of my head",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "despair",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer expresses a desire to escape.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Than training these guns on those men in the sand",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "The singer is afraid of war.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "I' rather be high",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer expresses a desire to escape.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "The Thames was black\nthe tower dark",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer describes a dark and sad setting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "I flew to Cairo\nfind my regiment",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is going to war.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "And generals full of shit",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "disgust",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is disgusted by the generals.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "I stumble to the graveyard and I\nJust remember duckies",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is sad and remembers something.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Everybody gets got",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone dies.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "I' rather be high\nI' rather be flying",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer expresses a desire to escape.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "I' rather be dead\nOr out of my head",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "despair",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer expresses a desire to escape.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "Than training these guns of those men in the sand",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "The singer is afraid of war.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "I' rather be high",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer expresses a desire to escape.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "I'm seventeen and my looks can prove it\nI'm so afraid that I will lose it",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is afraid of losing their looks.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "I' rather smoke and phone my ex",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer expresses a desire to escape.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "Yeah",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Agreement.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31,
+            32
+          ],
+          "original_lyric": "I' rather be high\nI' rather be flying",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer expresses a desire to escape.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            33,
+            34
+          ],
+          "original_lyric": "I' rather be dead\nOr out of my head",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "despair",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer expresses a desire to escape.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            35
+          ],
+          "original_lyric": "Than training these guns on the men in the sand",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "The singer is afraid of war.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            36
+          ],
+          "original_lyric": "I' rather be high",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer expresses a desire to escape.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 36,
+        "covered_lines": 36,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 36,
+      "covered_lines": 36,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Nobokov is sun-licked now",
+            "Upon the beach at Gruenwald",
+            "The way that authors looks",
+            "Until the other cows go home"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            5
+          ],
+          "end_words": [
+            "now",
+            "gruenwald",
+            "looks",
+            "home"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "gruenwald",
+              "word2": "looks",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (UH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Gossip till their lips are bleeding",
+            "Politics and all",
+            "I' rather be high",
+            "I' rather be flying"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "bleeding",
+            "all",
+            "high",
+            "flying"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "high",
+              "word2": "flying",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I' rather be dead",
+            "Or out of my head",
+            "Than training these guns on those men in the sand",
+            "I' rather be high"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            2
+          ],
+          "end_words": [
+            "dead",
+            "head",
+            "sand",
+            "high"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "dead",
+              "word2": "head",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "The Thames was black",
+            "the tower dark",
+            "I flew to Cairo",
+            "find my regiment"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "black",
+            "dark",
+            "cairo",
+            "regiment"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "And generals full of shit",
+            "I stumble to the graveyard and I",
+            "Just remember duckies",
+            "Everybody gets got"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            4
+          ],
+          "end_words": [
+            "shit",
+            "i",
+            "duckies",
+            "got"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I' rather be high",
+            "I' rather be flying",
+            "I' rather be dead",
+            "Or out of my head"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "high",
+            "flying",
+            "dead",
+            "head"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "high",
+              "word2": "flying",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "dead",
+              "word2": "head",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Than training these guns of those men in the sand",
+            "I' rather be high",
+            "I'm seventeen and my looks can prove it",
+            "I'm so afraid that I will lose it"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            2,
+            6,
+            4
+          ],
+          "end_words": [
+            "sand",
+            "high",
+            "it",
+            "it"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "it",
+              "word2": "it",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "I' rather smoke and phone my ex",
+            "Yeah",
+            "I' rather be high",
+            "I' rather be flying"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            1,
+            2,
+            2
+          ],
+          "end_words": [
+            "ex",
+            "yeah",
+            "high",
+            "flying"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "high",
+              "word2": "flying",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "I' rather be dead",
+            "Or out of my head",
+            "Than training these guns on the men in the sand",
+            "I' rather be high"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            2
+          ],
+          "end_words": [
+            "dead",
+            "head",
+            "sand",
+            "high"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "dead",
+              "word2": "head",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "chorus",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 36
+    }
+  }
+}

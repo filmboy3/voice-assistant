@@ -1,0 +1,514 @@
+{
+  "song_id": "74ASZWbe4lXaubB36ztrGX::blind-willie-mctell",
+  "title": "Blind Willie Mctell",
+  "artist": "Bob Dylan",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nSeen the arrow on the doorpost\nSaying this land is condemned\nAll the way from New Orleans to Jeruselem\nI travelled to East Texas\nWhere many martyrs fell\nAnd I know no one can sing the blues\nLike Blind Willie McTell\nWell I heard that hooter singing\nAs they were taking down the tents\nThe stars above the barren trees\nWere his only audience\nThem charcoal gypsy maidens\n\n[bridge]\nSee them big plantations burning\nHear the cracking of the whips\nSmell that sweet magnolia blooming\nSee the ghosts of slavery ships\nI can hear them tribes moaning\nHear that undertaker's bell\nNobody can sing the blues like Blind Willie McTell\nThere's woman by the river\nWith some fine young handsome man\nHe's dressed up like squire\n\n[bridge]\nThere's chain gang on highway\nI can hear them rebels yell\n\n[bridge]\nWell God is up in Heaven\nAnd we are what was his\n\n[bridge]\nSeem to be all that there is\nI'm gazing out the window\nof the St. James Hotel\nAnd I know no one can sing the blues like Blind Willie McTell",
+  "cleaned_lyrics": "Seen the arrow on the doorpost\nSaying this land is condemned\nAll the way from New Orleans to Jeruselem\nI travelled to East Texas\nWhere many martyrs fell\nAnd I know no one can sing the blues\nLike Blind Willie McTell\nWell I heard that hooter singing\nAs they were taking down the tents\nThe stars above the barren trees\nWere his only audience\nThem charcoal gypsy maidens\nSee them big plantations burning\nHear the cracking of the whips\nSmell that sweet magnolia blooming\nSee the ghosts of slavery ships\nI can hear them tribes moaning\nHear that undertaker's bell\nNobody can sing the blues like Blind Willie McTell\nHe's dressed up like squire\nThere's chain gang on highway\nI can hear them rebels yell\nWell God is up in Heaven\nAnd we are what was his\nSeem to be all that there is\nI'm gazing out the window\nof the St. James Hotel\nAnd I know no one can\nsing the blues like Blind Willie McTell",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 39,
+    "cleaned_lines": 29,
+    "removed_count": 7,
+    "retention_rate": 0.8285714285714286,
+    "removal_reasons": {
+      "musical_direction": 1,
+      "section_marker": 5,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3
+          ],
+          "original_lyric": "Seen the arrow on the doorpost\nSaying this land is condemned\nAll the way from New Orleans to Jeruselem",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer sees a sign that says the land is bad and travels a long way.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "I travelled to East Texas\nWhere many martyrs fell",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer went to East Texas where people died for their beliefs.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "And I know no one can sing the blues\nLike Blind Willie McTell",
+          "plot_function": "SETUP",
+          "emotion_primary": "admiration",
+          "emotion_secondary": "respect",
+          "eli5_simplification": "The singer says that nobody sings the blues as well as Blind Willie McTell.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "Well I heard that hooter singing\nAs they were taking down the tents\nThe stars above the barren trees\nWere his only audience",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer remembers hearing a train whistle and seeing the stars as the only audience.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "original_lyric": "Them charcoal gypsy maidens\nSee them big plantations burning\nHear the cracking of the whips\nSmell that sweet magnolia blooming",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The singer sees images of the past, including burning plantations and whips.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "See the ghosts of slavery ships\nI can hear them tribes moaning",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer sees ghosts of slave ships and hears the sounds of suffering.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "Hear that undertaker's bell\nNobody can sing the blues like Blind Willie McTell",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "admiration",
+          "eli5_simplification": "The singer hears a bell and repeats that nobody sings the blues like Blind Willie McTell.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21,
+            22
+          ],
+          "original_lyric": "He's dressed up like squire\nThere's chain gang on highway\nI can hear them rebels yell",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The singer sees a man dressed like a squire, a chain gang, and hears rebels yelling.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24,
+            25
+          ],
+          "original_lyric": "Well God is up in Heaven\nAnd we are what was his\nSeem to be all that there is",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "The singer reflects on God and the current state of things.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27,
+            28
+          ],
+          "original_lyric": "I'm gazing out the window\nof the St. James Hotel\nAnd I know no one can\nsing the blues like Blind Willie McTell",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "admiration",
+          "eli5_simplification": "The singer looks out the window and repeats that nobody sings the blues like Blind Willie McTell.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 28,
+        "covered_lines": 28,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 28,
+      "covered_lines": 28,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Seen the arrow on the doorpost",
+            "Saying this land is condemned",
+            "All the way from New Orleans to Jeruselem",
+            "I travelled to East Texas"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            3,
+            5,
+            3
+          ],
+          "end_words": [
+            "doorpost",
+            "condemned",
+            "jeruselem",
+            "texas"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "condemned",
+              "word2": "texas",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Where many martyrs fell",
+            "And I know no one can sing the blues",
+            "Like Blind Willie McTell",
+            "Well I heard that hooter singing"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            5,
+            4,
+            4
+          ],
+          "end_words": [
+            "fell",
+            "blues",
+            "mctell",
+            "singing"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "As they were taking down the tents",
+            "The stars above the barren trees",
+            "Were his only audience",
+            "Them charcoal gypsy maidens"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "tents",
+            "trees",
+            "audience",
+            "maidens"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "See them big plantations burning",
+            "Hear the cracking of the whips",
+            "Smell that sweet magnolia blooming",
+            "See the ghosts of slavery ships"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "burning",
+            "whips",
+            "blooming",
+            "ships"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "whips",
+              "word2": "ships",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I can hear them tribes moaning",
+            "Hear that undertaker's bell",
+            "Nobody can sing the blues like Blind Willie McTell",
+            "He's dressed up like squire"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            7,
+            5
+          ],
+          "end_words": [
+            "moaning",
+            "bell",
+            "mctell",
+            "squire"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "There's chain gang on highway",
+            "I can hear them rebels yell",
+            "Well God is up in Heaven",
+            "And we are what was his"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            3,
+            4,
+            2
+          ],
+          "end_words": [
+            "highway",
+            "yell",
+            "heaven",
+            "his"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "yell",
+              "word2": "heaven",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Seem to be all that there is",
+            "I'm gazing out the window",
+            "of the St. James Hotel",
+            "And I know no one can"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            4
+          ],
+          "end_words": [
+            "is",
+            "window",
+            "hotel",
+            "can"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "is",
+              "word2": "window",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "sing the blues like Blind Willie McTell"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            6
+          ],
+          "end_words": [
+            "mctell"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 29
+    }
+  }
+}

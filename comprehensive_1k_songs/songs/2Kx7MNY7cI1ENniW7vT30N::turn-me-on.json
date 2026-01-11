@@ -1,0 +1,326 @@
+{
+  "song_id": "2Kx7MNY7cI1ENniW7vT30N::turn-me-on",
+  "title": "Turn me On",
+  "artist": "Norah Jones",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nLike flower waiting to bloom like\nlight bulb in dark room I'm just sitting\nhere waiting for you to come on home and\nturn me on\nLike the desert waiting for the rain like\nschool kid waiting for the spring I'm\njust sitting here waiting for you to\n\n[intro]\nsince you've been gone after all you're\nthe one who turns me off but you're\nthe only one who can turn me back on\nMy high fi's awaiting for new tune my\nglass is waiting for some fresh ice cubes\nI'm just sitting here waiting for you to",
+  "cleaned_lyrics": "Like flower waiting to bloom like\nlight bulb in dark room I'm just sitting\nhere waiting for you to come on home and\nturn me on\nLike the desert waiting for the rain like\nschool kid waiting for the spring I'm\njust sitting here waiting for you to\nsince you've been gone after all you're\nthe one who turns me off but you're\nthe only one who can turn me back on\nMy high fi's awaiting for new tune my\nglass is waiting for some fresh ice cubes\nI'm just sitting here waiting for you to",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 16,
+    "cleaned_lines": 13,
+    "removed_count": 2,
+    "retention_rate": 0.8666666666666667,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Like flower waiting to bloom like\nlight bulb in dark room I'm just sitting",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Like a flower or a light, I'm waiting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "here waiting for you to come on home and\nturn me on",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "I'm waiting for you to come home and make me feel good.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Like the desert waiting for the rain like\nschool kid waiting for the spring I'm",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Like the desert or a kid, I'm waiting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "just sitting here waiting for you to\nsince you've been gone after all you're",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "I'm waiting for you, since you've been gone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "the one who turns me off but you're\nthe only one who can turn me back on",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "conflict",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "You make me feel bad, but you're the only one who can make me feel good again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "My high fi's awaiting for new tune my\nglass is waiting for some fresh ice cubes",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "My stereo and my drink are waiting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "I'm just sitting here waiting for you to\ncome on home and turn me on",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "I'm waiting for you to come home and make me feel good.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "Like the desert waiting for the rain like\nschool kid waiting for the spring I'm",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Like the desert or a kid, I'm waiting.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "just sitting here waiting for you to\nsince you've been gone after all you're",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "I'm waiting for you, since you've been gone.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "the one who turns me off but you're\nthe only one who can turn me back on",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "conflict",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "You make me feel bad, but you're the only one who can make me feel good again.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Like flower waiting to bloom like",
+            "light bulb in dark room I'm just sitting",
+            "here waiting for you to come on home and",
+            "turn me on"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            7,
+            5,
+            2
+          ],
+          "end_words": [
+            "like",
+            "sitting",
+            "and",
+            "on"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Like the desert waiting for the rain like",
+            "school kid waiting for the spring I'm",
+            "just sitting here waiting for you to",
+            "since you've been gone after all you're"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            5,
+            5,
+            6
+          ],
+          "end_words": [
+            "like",
+            "i'm",
+            "to",
+            "you're"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "like",
+              "word2": "i'm",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "the one who turns me off but you're",
+            "the only one who can turn me back on",
+            "My high fi's awaiting for new tune my",
+            "glass is waiting for some fresh ice cubes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            5,
+            7,
+            6
+          ],
+          "end_words": [
+            "you're",
+            "on",
+            "my",
+            "cubes"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I'm just sitting here waiting for you to"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            6
+          ],
+          "end_words": [
+            "to"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 13
+    }
+  }
+}

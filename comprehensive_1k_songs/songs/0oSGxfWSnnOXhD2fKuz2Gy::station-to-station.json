@@ -1,0 +1,454 @@
+{
+  "song_id": "0oSGxfWSnnOXhD2fKuz2Gy::station-to-station",
+  "title": "Station To Station",
+  "artist": "David Bowie",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nRiff 2:\n\"The return of the Thin White Duke, throwing darts in lovers eyes\"\nrepete riff 1 no verso\nrepete riff 2 3X\nriff 3:\n\"Once there were mountains on mountains and once there were sunbirds to soar with\nand once I would never be down\"\n....\"wonder who wonder who wonder when\"\nriff 4\n\"Have you sought fortune evasive and shy\nDrink to the men who protect you and I\nDrink drink drain your glass\nRaise your glass high\n\n[chorus]\nriff 5\n\"It's not the side effects of the cocaine, I'm thinking that it must be love\nIt's too late to be grateful\nIt's too late to be late again\nIt's too late to hateful\nThe European cannon is here\"\nriff 6\n|--7/9-9--7-6-7-6------------------------------7------------------------------------------------------------------------------------------------------------------------------------------------------------9b11-9--7---7--9---9b11-9--7---7--9--7--------------9------------------9-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------4---5-4-2--------------------------------------------5-4-2--------------------------------------------3-----------------------------------------------------------------------------------------------------------------------------------------------7b9--7b9-7-5-4-----8b9--------------------------------7-5-----------------------------------------------------------------------------------------------------------------------------6-------------8b9-----------8b9-----8-6----8b9-6-------10b11-8-------------7----------------------------------------------------------------------------------------------------------|\n|--7/9-9--7-6-7-6----------------------------7----------------------------------------------------------------------------------------------------------------------------------------------------9b11-9--7---7--9---9b11-9--7---7--9----------------9------------------9------------------------------------------------------------------------------------------|\nalgo assim:\n|------------8-8-10--10-10-------------7h8-7-10--10-10-------------8-8-10--10-10--7-7-7---------------------7-7-7------------------------7-7-7--------------------------9-7------------------------9-7-------------------------9-7---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\nrepete Chorus",
+  "cleaned_lyrics": "Riff 2:\n\"The return of the Thin White Duke\nthrowing darts in lovers eyes\"\nrepete riff 1 no verso\nrepete riff 2 3X\nriff 3:\n\"Once there were mountains on mountains and\nonce there were sunbirds to soar with\nand once I would never be down\"\n....\"wonder who wonder who wonder when\"\nriff 4\n\"Have you sought fortune evasive and shy\nDrink to the men who protect you and I\nDrink drink drain your glass\nRaise your glass high\nriff 5\n\"It's not the side effects of the cocaine\nI'm thinking that it must be love\nIt's too late to be grateful\nIt's too late to be late again\nIt's too late to hateful\nThe European cannon is here\"\nriff 6\nalgo assim:\nrepete Chorus",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 28,
+    "cleaned_lines": 25,
+    "removed_count": 5,
+    "retention_rate": 0.9259259259259259,
+    "removal_reasons": {
+      "guitar_tab": 3,
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "The return of the Thin White Duke\nthrowing darts in lovers eyes",
+          "plot_function": "SETUP",
+          "emotion_primary": "intrigue",
+          "emotion_secondary": "unease",
+          "eli5_simplification": "A mysterious figure is back and causing trouble.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4,
+            5
+          ],
+          "original_lyric": "Once there were mountains on mountains and\nonce there were sunbirds to soar with\nand once I would never be down",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "nostalgia",
+          "eli5_simplification": "The singer remembers a better time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "....\"wonder who wonder who wonder when\"",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is wondering about something.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "original_lyric": "Have you sought fortune evasive and shy\nDrink to the men who protect you and I\nDrink drink drain your glass\nRaise your glass high",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "defiance",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "A call to action, perhaps a toast to those in power.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "original_lyric": "It's not the side effects of the cocaine\nI'm thinking that it must be love\nIt's too late to be grateful\nIt's too late to be late again\nIt's too late to hateful",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "The singer is questioning his feelings and the situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "The European cannon is here",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "foreboding",
+          "eli5_simplification": "Something dangerous is arriving.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "original_lyric": "repete Chorus",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "nostalgia",
+          "eli5_simplification": "The singer remembers a better time.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          {
+            "line_numbers": [
+              7
+            ],
+            "from": "I",
+            "to": "you"
+          }
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        {
+          "line_numbers": [
+            7
+          ],
+          "from": "I",
+          "to": "you"
+        }
+      ]
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Riff 2:",
+            "\"The return of the Thin White Duke",
+            "throwing darts in lovers eyes\"",
+            "repete riff 1 no verso"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "riff",
+            "duke",
+            "eyes",
+            "verso"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "repete riff 2 3X",
+            "riff 3:",
+            "\"Once there were mountains on mountains and",
+            "once there were sunbirds to soar with"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            1,
+            5,
+            5
+          ],
+          "end_words": [
+            "x",
+            "riff",
+            "and",
+            "with"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "riff",
+              "word2": "with",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (IH), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "and once I would never be down\"",
+            "....\"wonder who wonder who wonder when\"",
+            "riff 4",
+            "\"Have you sought fortune evasive and shy"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            1,
+            4
+          ],
+          "end_words": [
+            "down",
+            "when",
+            "riff",
+            "shy"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Drink to the men who protect you and I",
+            "Drink drink drain your glass",
+            "Raise your glass high",
+            "riff 5"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            1
+          ],
+          "end_words": [
+            "i",
+            "glass",
+            "high",
+            "riff"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "i",
+              "word2": "high",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "\"It's not the side effects of the cocaine",
+            "I'm thinking that it must be love",
+            "It's too late to be grateful",
+            "It's too late to be late again"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            3,
+            4,
+            5
+          ],
+          "end_words": [
+            "cocaine",
+            "love",
+            "grateful",
+            "again"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "cocaine",
+              "word2": "grateful",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "It's too late to hateful",
+            "The European cannon is here\"",
+            "riff 6",
+            "algo assim:"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            3,
+            1,
+            2
+          ],
+          "end_words": [
+            "hateful",
+            "here",
+            "riff",
+            "assim"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "here",
+              "word2": "riff",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "repete Chorus"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2
+          ],
+          "end_words": [
+            "chorus"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 25
+    }
+  }
+}

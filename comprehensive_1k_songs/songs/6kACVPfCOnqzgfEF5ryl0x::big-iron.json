@@ -1,0 +1,803 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::big-iron",
+  "title": "Big Iron",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nTo the town of Aqua Fria rode stranger one fine day\nHardly spoke to folks around him didn't have too much to say\nNo one dared to ask his business no one dared to make slip\nFor the stranger there among them had big iron on his hip\n\n[bridge]\nIt was early in the morning when he rode into the town\nHe came riding from the southside slowly looking all around\nHe's an outlaw loose and running came the whisper from each\nlip\nAnd he's here to do some business with the big iron on his\nhip\n\n[intro]\nMany men had tried to take him and that many men were dead\nHe was vicious and killer though youth of twenty four\nAnd the notches on his pistol numbered one and nineteen more\nOne and nineteen more\nNow the stranger started talking made it plain to folks around\nHe was an Arizona Ranger wouldn't be too long in town\nHe came here to take an outlaw back alive or maybe dead\nAnd he said it didn't matter he was after Texas Red\nAfter Texas Red\nThe morning passed so quckly it was time for them to meet\nIt was twenty past eleven when they walked out on the street\nFolks were watching from their windows everybody held their breath\nThey knew this handsome ranger was about to meet his death\nWas about to meet his death\nThere was forty fet between them when they stopped to make their play\nAnd the swiftness of the ranger is still talked about today\nTexas Red had not cleared leather when bullet fairly ripped\nAnd the ranger's aim was deadly with the big iron on his hip\nthe Big iron on his hip\n\n[bridge]\nWhen he tried to match the ranger with the Big iron on his\nhip",
+  "cleaned_lyrics": "Hardly spoke to folks around him\ndidn't have too much to say\nNo one dared to ask his\nbusiness no one dared to make slip\nFor the stranger there among them had big iron on his hip\nIt was early in the morning when he rode into the town\nHe came riding from the southside slowly looking all around\nHe's an outlaw loose and running came the whisper from each\nlip\nAnd he's here to do some business with the big iron on his\nhip\nMany men had tried to take\nhim and that many men were dead\nHe was vicious and killer though youth of twenty four\nAnd the notches on his pistol numbered one and nineteen more\nOne and nineteen more\nNow the stranger started talking\nmade it plain to folks around\nHe was an Arizona Ranger wouldn't be too long in town\nHe came here to take an\noutlaw back alive or maybe dead\nAnd he said it didn't matter he was after Texas Red\nAfter Texas Red\nThe morning passed so quckly it was time for them to meet\nIt was twenty past eleven when they walked out on the street\nFolks were watching from their windows everybody held their breath\nThey knew this handsome ranger was about to meet his death\nWas about to meet his death\nThere was forty fet between them\nwhen they stopped to make their play\nAnd the swiftness of the ranger is still talked about today\nTexas Red had not cleared\nleather when bullet fairly ripped\nAnd the ranger's aim was deadly with the big iron on his hip\nthe Big iron on his hip\nWhen he tried to match the ranger with the Big iron on his\nhip",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 38,
+    "cleaned_lines": 37,
+    "removed_count": 5,
+    "retention_rate": 1.0571428571428572,
+    "removal_reasons": {
+      "musical_direction": 1,
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Hardly spoke to folks around him\ndidn't have too much to say",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "A mysterious man doesn't talk much.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "No one dared to ask his\nbusiness no one dared to make slip",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "People are scared to bother him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "For the stranger there among them had big iron on his hip",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "He has a big gun.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "It was early in the morning when he rode into the town\nHe came riding from the southside slowly looking all around",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "He rides into town.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "He's an outlaw loose and running came the whisper from each\nlip\nAnd he's here to do some business with the big iron on his\nhip",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "People realize he's a dangerous outlaw.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11,
+            12
+          ],
+          "original_lyric": "Many men had tried to take\nhim and that many men were dead\nHe was vicious and killer though youth of twenty four",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's killed many people.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "And the notches on his pistol numbered one and nineteen more\nOne and nineteen more",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "His gun has many notches, meaning he's killed many.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "Now the stranger started talking\nmade it plain to folks around",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The stranger starts talking.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "He was an Arizona Ranger wouldn't be too long in town\nHe came here to take an\noutlaw back alive or maybe dead",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's a ranger here to catch the outlaw.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "And he said it didn't matter he was after Texas Red",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's after Texas Red.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "After Texas Red",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's after Texas Red.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "The morning passed so quckly it was time for them to meet\nIt was twenty past eleven when they walked out on the street",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "tension",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's time for the showdown.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Folks were watching from their windows everybody held their breath\nThey knew this handsome ranger was about to meet his death",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone is scared, thinking the ranger will die.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "Was about to meet his death",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The ranger is about to die.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "There was forty fet between them\nwhen they stopped to make their play",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "tension",
+          "emotion_secondary": null,
+          "eli5_simplification": "They face each other.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "And the swiftness of the ranger is still talked about today",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "awe",
+          "emotion_secondary": null,
+          "eli5_simplification": "The ranger is very fast.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "Texas Red had not cleared\nleather when bullet fairly ripped\nAnd the ranger's aim was deadly with the big iron on his hip",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "awe",
+          "emotion_secondary": null,
+          "eli5_simplification": "The ranger shoots first and kills Texas Red.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "the Big iron on his hip",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "awe",
+          "emotion_secondary": null,
+          "eli5_simplification": "The ranger's gun.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "When he tried to match the ranger with the Big iron on his\nhip",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "awe",
+          "emotion_secondary": null,
+          "eli5_simplification": "Texas Red tried to fight back.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 32,
+        "covered_lines": 32,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 32,
+      "covered_lines": 32,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Hardly spoke to folks around him",
+            "didn't have too much to say",
+            "No one dared to ask his",
+            "business no one dared to make slip"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            5,
+            4,
+            5,
+            6
+          ],
+          "end_words": [
+            "him",
+            "say",
+            "his",
+            "slip"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "him",
+              "word2": "his",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "his",
+              "word2": "slip",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "For the stranger there among them had big iron on his hip",
+            "It was early in the morning when he rode into the town",
+            "He came riding from the southside slowly looking all around",
+            "He's an outlaw loose and running came the whisper from each"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            7,
+            6,
+            7,
+            7
+          ],
+          "end_words": [
+            "hip",
+            "town",
+            "around",
+            "each"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "town",
+              "word2": "around",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "lip",
+            "And he's here to do some business with the big iron on his",
+            "hip",
+            "Many men had tried to take"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            1,
+            7,
+            1,
+            5
+          ],
+          "end_words": [
+            "lip",
+            "his",
+            "hip",
+            "take"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "lip",
+              "word2": "his",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "lip",
+              "word2": "hip",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "his",
+              "word2": "hip",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "him and that many men were dead",
+            "He was vicious and killer though youth of twenty four",
+            "And the notches on his pistol numbered one and nineteen more",
+            "One and nineteen more"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3,
+            6,
+            7,
+            4
+          ],
+          "end_words": [
+            "dead",
+            "four",
+            "more",
+            "more"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "four",
+              "word2": "more",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "more",
+              "word2": "more",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Now the stranger started talking",
+            "made it plain to folks around",
+            "He was an Arizona Ranger wouldn't be too long in town",
+            "He came here to take an"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "talking",
+            "around",
+            "town",
+            "an"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "around",
+              "word2": "town",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "outlaw back alive or maybe dead",
+            "And he said it didn't matter he was after Texas Red",
+            "After Texas Red",
+            "The morning passed so quckly it was time for them to meet"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            5,
+            6,
+            3,
+            5
+          ],
+          "end_words": [
+            "dead",
+            "red",
+            "red",
+            "meet"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "dead",
+              "word2": "red",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "red",
+              "word2": "red",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "It was twenty past eleven when they walked out on the street",
+            "Folks were watching from their windows everybody held their breath",
+            "They knew this handsome ranger was about to meet his death",
+            "Was about to meet his death"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            7,
+            7,
+            6,
+            3
+          ],
+          "end_words": [
+            "street",
+            "breath",
+            "death",
+            "death"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "breath",
+              "word2": "death",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "death",
+              "word2": "death",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "There was forty fet between them",
+            "when they stopped to make their play",
+            "And the swiftness of the ranger is still talked about today",
+            "Texas Red had not cleared"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            4,
+            6,
+            5
+          ],
+          "end_words": [
+            "them",
+            "play",
+            "today",
+            "cleared"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "play",
+              "word2": "today",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "leather when bullet fairly ripped",
+            "And the ranger's aim was deadly with the big iron on his hip",
+            "the Big iron on his hip",
+            "When he tried to match the ranger with the Big iron on his"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            5,
+            6,
+            3,
+            7
+          ],
+          "end_words": [
+            "ripped",
+            "hip",
+            "hip",
+            "his"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "ripped",
+              "word2": "hip",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IH), one word adds post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "hip",
+              "word2": "hip",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "hip",
+              "word2": "his",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "hip"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            1
+          ],
+          "end_words": [
+            "hip"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 10,
+      "total_lines": 37
+    }
+  }
+}

@@ -1,0 +1,559 @@
+{
+  "song_id": "4Z8W4fKeB5YxbusRsdQVPb::decks-dark",
+  "title": "Decks Dark",
+  "artist": "Radiohead",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nPart 1\nAnd in your life ----- there comes darkness\nThis spacecraft, blocking out the sky\nAnd there's nowhere ----- to hide\nYou run to look back, and you cover your ears\n\n[bridge]\nNow we're trapped, we're dark clouds people\nWe are helpless ----- to resist\n\n[intro]\nPart 2\n\n[bridge]\nEven at this angle\nAnd so we crumble\nStill turning heads, you know where it's at, this dread still covers us\nYou gotta be kidding me\nThe grass grows over me\nYour face in the glass, in the glass, it was just laugh, just laugh\nIt's whatever you say it is\nSplit infinite\nPart 3\nAnd in your life ----- there comes darkness\nThis spacecraft, blocking out the sky\nAnd there's nowhere ----- to hide\nYou run to look back, and you cover your ears",
+  "cleaned_lyrics": "Part 1\nThis spacecraft\nblocking out the sky\nYou run to look back\nand you cover your ears\nNow we're trapped\nwe're dark clouds people\nPart 2\nEven at this angle\nAnd so we crumble\nStill turning heads\nyou know where it's at\nthis dread still covers us\nYou gotta be kidding me\nThe grass grows over me\nYour face in the glass\nin the glass\nit was just laugh\njust laugh\nIt's whatever you say it is\nSplit infinite\nPart 3\nThis spacecraft\nblocking out the sky\nYou run to look back\nand you cover your ears",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 28,
+    "cleaned_lines": 26,
+    "removed_count": 9,
+    "retention_rate": 1.04,
+    "removal_reasons": {
+      "excessive_punctuation": 5,
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "This spacecraft\nblocking out the sky",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "A spaceship is blocking the sky, which is scary.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "You run to look back\nand you cover your ears",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anxiety",
+          "eli5_simplification": "Someone is running away and covering their ears because they are scared.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Now we're trapped\nwe're dark clouds people",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Now they are stuck and feel like dark clouds.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Even at this angle",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "Even from this point of view.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "And so we crumble",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "They are falling apart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Still turning heads",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "People are still looking.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "you know where it's at",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "You know what's happening.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "this dread still covers us",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Fear still surrounds them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "You gotta be kidding me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "disbelief",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "They can't believe what's happening.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "The grass grows over me",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "They are being forgotten.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Your face in the glass",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Seeing a reflection of someone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "in the glass\nit was just laugh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Remembering a laugh.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "just laugh\nIt's whatever you say it is",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "It is what you make it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Split infinite",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "Dividing something that never ends.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "This spacecraft\nblocking out the sky",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "A spaceship is blocking the sky, which is scary.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "You run to look back\nand you cover your ears",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anxiety",
+          "eli5_simplification": "Someone is running away and covering their ears because they are scared.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          {
+            "line_numbers": [
+              3
+            ],
+            "from": "we",
+            "to": "you"
+          }
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 23,
+        "covered_lines": 23,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        {
+          "line_numbers": [
+            3
+          ],
+          "from": "we",
+          "to": "you"
+        }
+      ]
+    },
+    "coverage": {
+      "total_lines": 23,
+      "covered_lines": 23,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Part 1",
+            "This spacecraft",
+            "blocking out the sky",
+            "You run to look back"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            1,
+            1,
+            3,
+            3
+          ],
+          "end_words": [
+            "part",
+            "spacecraft",
+            "sky",
+            "back"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "spacecraft",
+              "word2": "back",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "and you cover your ears",
+            "Now we're trapped",
+            "we're dark clouds people",
+            "Part 2"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            3,
+            4,
+            1
+          ],
+          "end_words": [
+            "ears",
+            "trapped",
+            "people",
+            "part"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Even at this angle",
+            "And so we crumble",
+            "Still turning heads",
+            "you know where it's at"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "end_words": [
+            "angle",
+            "crumble",
+            "heads",
+            "at"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "angle",
+              "word2": "at",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "this dread still covers us",
+            "You gotta be kidding me",
+            "The grass grows over me",
+            "Your face in the glass"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            3,
+            4,
+            2
+          ],
+          "end_words": [
+            "us",
+            "me",
+            "me",
+            "glass"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "in the glass",
+            "it was just laugh",
+            "just laugh",
+            "It's whatever you say it is"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            1,
+            2,
+            2,
+            4
+          ],
+          "end_words": [
+            "glass",
+            "laugh",
+            "laugh",
+            "is"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "glass",
+              "word2": "laugh",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AE), post-consonants in same family"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "laugh",
+              "word2": "laugh",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Split infinite",
+            "Part 3",
+            "This spacecraft",
+            "blocking out the sky"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "end_words": [
+            "infinite",
+            "part",
+            "spacecraft",
+            "sky"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "You run to look back",
+            "and you cover your ears"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            3,
+            2
+          ],
+          "end_words": [
+            "back",
+            "ears"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 26
+    }
+  }
+}

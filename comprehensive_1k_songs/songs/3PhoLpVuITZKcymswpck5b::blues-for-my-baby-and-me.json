@@ -1,0 +1,787 @@
+{
+  "song_id": "3PhoLpVuITZKcymswpck5b::blues-for-my-baby-and-me",
+  "title": "Blues For My Baby And Me",
+  "artist": "Elton John",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nYour old man got mad when I told him we were leaving\nHe cursed and he raged and he swore at the ceiling\nHe called you his child, said honey get wise to his game\nHe'll get you in trouble I know it, those bums are all the same\nThere's greyhound outside in the lane, it's waiting for us\nSo tell him goodbye, we got to go west on that bus\nAnd it's all over now\nDon't you worry no more\nGoing to go west to the sea\nThe greyhound is swaying\nAnd the radio is playing\nSome blues for baby and me\nAnd the highway looks like it never did\nLord it looks so sweet and so free\nAnd I can't forget that trip to the west\nSinging blues for baby and me\n\n[verse]\nSaw your hands trembling, your eyes opened in surprise\nIt's ninety in the shade babe, and there ain't cloud in the sky\nI called you my child, said honey now this is our game\nThere's two of us to play it and I'm happy to be home again\nThere's greyhound outside in the lane, it's waiting for us\nSo tell him goodbye, we got to go west on that bus\nAnd it's all over now\nDon't you worry no more\nGoing to go west to the sea\nThe greyhound is swaying\nAnd the radio is playing\nSome blues for baby and me\nAnd the highway looks like it never did\nLord it looks so sweet and so free\nAnd I can't forget that trip to the west\nSinging blues for baby and me\n\n[bridge]\nAnd it's all over now\nDon't you worry no more\nGoing to go west to the sea\nThe greyhound is swaying\nAnd the radio is playing\nSome blues for baby and me\nAnd the highway looks like it never did\nLord it looks so sweet and so free\nAnd I can't forget that trip to the west\nSinging blues for baby and me",
+  "cleaned_lyrics": "Your old man got mad when I told him we were leaving\nHe cursed and he raged and he swore at the ceiling\nHe called you his child\nsaid honey get wise to his game\nHe'll get you in trouble I know it\nthose bums are all the same\nThere's greyhound outside in the lane\nit's waiting for us\nSo tell him goodbye\nwe got to go west on that bus\nAnd it's all over now\nDon't you worry no more\nGoing to go west to the sea\nThe greyhound is swaying\nAnd the radio is playing\nAnd the highway looks like it never did\nLord it looks so sweet and so free\nAnd I can't forget that trip to the west\nSaw your hands trembling\nyour eyes opened in surprise\nIt's ninety in the shade babe\nand there ain't cloud in the sky\nI called you my child\nsaid honey now this is our game\nThere's two of us to play it and I'm happy to be home again\nThere's greyhound outside in the lane\nit's waiting for us\nSo tell him goodbye\nwe got to go west on that bus\nAnd it's all over now\nDon't you worry no more\nGoing to go west to the sea\nThe greyhound is swaying\nAnd the radio is playing\nAnd the highway looks like it never did\nLord it looks so sweet and so free\nAnd I can't forget that trip to the west\nAnd it's all over now\nDon't you worry no more\nGoing to go west to the sea\nThe greyhound is swaying\nAnd the radio is playing\nAnd the highway looks like it never did\nLord it looks so sweet and so free\nAnd I can't forget that trip to the west",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 47,
+    "cleaned_lines": 45,
+    "removed_count": 9,
+    "retention_rate": 1.0,
+    "removal_reasons": {
+      "section_marker": 3,
+      "credits_metadata": 6
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Your old man got mad when I told him we were leaving\nHe cursed and he raged and he swore at the ceiling",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The girl's father is angry because they are leaving.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4,
+            5
+          ],
+          "original_lyric": "He called you his child\nsaid honey get wise to his game\nHe'll get you in trouble I know it",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The father warns his daughter about the man she's with.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "those bums are all the same",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "The father insults the man.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "There's greyhound outside in the lane",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The bus is waiting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "it's waiting for us\nSo tell him goodbye",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": "resolve",
+          "eli5_simplification": "They are leaving and saying goodbye.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "we got to go west on that bus",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are going west.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12,
+            13
+          ],
+          "original_lyric": "And it's all over now\nDon't you worry no more\nGoing to go west to the sea",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "relief",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Everything is okay now, they are going to the sea.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "original_lyric": "The greyhound is swaying\nAnd the radio is playing\nAnd the highway looks like it never did\nLord it looks so sweet and so free",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "nostalgia",
+          "eli5_simplification": "They are on the bus, enjoying the ride.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "And I can't forget that trip to the west",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": null,
+          "eli5_simplification": "They remember the trip.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20,
+            21
+          ],
+          "original_lyric": "Saw your hands trembling\nyour eyes opened in surprise\nIt's ninety in the shade babe",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": "love",
+          "eli5_simplification": "They remember the girl's reaction to the trip.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "and there ain't cloud in the sky",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "It was a beautiful day.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "I called you my child\nsaid honey now this is our game",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "He calls her his child and says they are in this together.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "There's two of us to play it and I'm happy to be home again",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "love",
+          "eli5_simplification": "He is happy to be with her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "original_lyric": "There's greyhound outside in the lane\nit's waiting for us\nSo tell him goodbye\nwe got to go west on that bus\nAnd it's all over now\nDon't you worry no more\nGoing to go west to the sea\nThe greyhound is swaying",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Repeating the chorus.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            34,
+            35,
+            36,
+            37
+          ],
+          "original_lyric": "And the radio is playing\nAnd the highway looks like it never did\nLord it looks so sweet and so free\nAnd I can't forget that trip to the west",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "Repeating the chorus.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            38,
+            39,
+            40,
+            41
+          ],
+          "original_lyric": "And it's all over now\nDon't you worry no more\nGoing to go west to the sea\nThe greyhound is swaying",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Repeating the chorus.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            42,
+            43,
+            44,
+            45
+          ],
+          "original_lyric": "And the radio is playing\nAnd the highway looks like it never did\nLord it looks so sweet and so free\nAnd I can't forget that trip to the west",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "Repeating the chorus.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 45,
+        "covered_lines": 45,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 45,
+      "covered_lines": 45,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Your old man got mad when I told him we were leaving",
+            "He cursed and he raged and he swore at the ceiling",
+            "He called you his child",
+            "said honey get wise to his game"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            7,
+            4,
+            2,
+            5
+          ],
+          "end_words": [
+            "leaving",
+            "ceiling",
+            "child",
+            "game"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "leaving",
+              "word2": "ceiling",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "He'll get you in trouble I know it",
+            "those bums are all the same",
+            "There's greyhound outside in the lane",
+            "it's waiting for us"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            3,
+            5,
+            3
+          ],
+          "end_words": [
+            "it",
+            "same",
+            "lane",
+            "us"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "same",
+              "word2": "lane",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "So tell him goodbye",
+            "we got to go west on that bus",
+            "And it's all over now",
+            "Don't you worry no more"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "goodbye",
+            "bus",
+            "now",
+            "more"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Going to go west to the sea",
+            "The greyhound is swaying",
+            "And the radio is playing",
+            "And the highway looks like it never did"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            2,
+            2,
+            5
+          ],
+          "end_words": [
+            "sea",
+            "swaying",
+            "playing",
+            "did"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "swaying",
+              "word2": "playing",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Lord it looks so sweet and so free",
+            "And I can't forget that trip to the west",
+            "Saw your hands trembling",
+            "your eyes opened in surprise"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "free",
+            "west",
+            "trembling",
+            "surprise"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "west",
+              "word2": "trembling",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "It's ninety in the shade babe",
+            "and there ain't cloud in the sky",
+            "I called you my child",
+            "said honey now this is our game"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            4,
+            4,
+            2,
+            4
+          ],
+          "end_words": [
+            "babe",
+            "sky",
+            "child",
+            "game"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "babe",
+              "word2": "game",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "sky",
+              "word2": "child",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "There's two of us to play it and I'm happy to be home again",
+            "There's greyhound outside in the lane",
+            "it's waiting for us",
+            "So tell him goodbye"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            7,
+            5,
+            3,
+            2
+          ],
+          "end_words": [
+            "again",
+            "lane",
+            "us",
+            "goodbye"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "we got to go west on that bus",
+            "And it's all over now",
+            "Don't you worry no more",
+            "Going to go west to the sea"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "bus",
+            "now",
+            "more",
+            "sea"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "The greyhound is swaying",
+            "And the radio is playing",
+            "And the highway looks like it never did",
+            "Lord it looks so sweet and so free"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            5,
+            4
+          ],
+          "end_words": [
+            "swaying",
+            "playing",
+            "did",
+            "free"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "swaying",
+              "word2": "playing",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "And I can't forget that trip to the west",
+            "And it's all over now",
+            "Don't you worry no more",
+            "Going to go west to the sea"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "west",
+            "now",
+            "more",
+            "sea"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "The greyhound is swaying",
+            "And the radio is playing",
+            "And the highway looks like it never did",
+            "Lord it looks so sweet and so free"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            5,
+            4
+          ],
+          "end_words": [
+            "swaying",
+            "playing",
+            "did",
+            "free"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "swaying",
+              "word2": "playing",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 12,
+          "lines": [
+            "And I can't forget that trip to the west"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "west"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 12,
+          "section_type": "chorus",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 12,
+      "total_lines": 45
+    }
+  }
+}

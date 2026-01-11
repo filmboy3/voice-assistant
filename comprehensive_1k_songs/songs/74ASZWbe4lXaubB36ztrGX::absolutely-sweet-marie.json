@@ -1,0 +1,882 @@
+{
+  "song_id": "74ASZWbe4lXaubB36ztrGX::absolutely-sweet-marie",
+  "title": "Absolutely Sweet Marie",
+  "artist": "Bob Dylan",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWell, your railroad gate, you know I just can't jump it.\nSometimes it gets so hard, you see.\nI'm just sitting here beating on my trumpet,\nwith all these promises you left for me.\n\n[bridge]\nWell, I waited for you when I was half sick.\nYes I waited for you when you hated me.\nWell, I waited for you inside of the frozen traffic\nWhen you knew I had some other place to be.\nNow, where are you tonight, sweet Marie ?\nWell, anybody can be just like me, obviously,\n\n[bridge]\nWell, six white horses that you did promise me\nWhere finally delivered down to the penitentiary.\n\n[bridge]\nI know you always say that you agree,\n\n[bridge]\nNow, I been in jail when all my mail showed\nThat man can't give his address out to bad company,\nAnd now I stand here lookin' at your yellow railroad\n\n[intro]\nWond'ring where are you tonight, sweet Marie ?\nWell I don't know how it happened,But the riverboat captain,he knows my fate\n\n[bridge]\nWell, I got the fever down in my pockets,\nThe Persian drunkard, he follows me.\nYes, I can take him to your house, but I can't unlock it.\nYou see, you forgot to leave me with the key.\nOh, where are you tonight, sweet Marie ?",
+  "cleaned_lyrics": "Well\nyour railroad gate\nyou know I just can't jump it.\nSometimes it gets so hard\nyou see.\nI'm just sitting here beating on my trumpet\nwith all these promises you left for me.\nWell\nI waited for you when I was half sick.\nYes I waited for you when you hated me.\nWell\nI waited for you inside of the frozen traffic\nWhen you knew I had some other place to be.\nNow\nwhere are you tonight\nsweet Marie ?\nWell\nanybody can be just like me\nobviously\nWell\nsix white horses that you did promise me\nWhere finally delivered down to the penitentiary.\nI know you always say that you agree\nNow\nI been in jail when all my mail showed\nThat man can't give his address out to bad company\nAnd now I stand here lookin' at your yellow railroad\nWond'ring where are you tonight\nsweet Marie ?\nWell I don't know how it happened\nBut the riverboat captain\nhe knows my fate\nWell\nI got the fever down in my pockets\nThe Persian drunkard\nhe follows me.\nYes\nI can take him to your house\nbut I can't unlock it.\nYou see\nyou forgot to leave me with the key.\nOh\nwhere are you tonight\nsweet Marie ?",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 36,
+    "cleaned_lines": 44,
+    "removed_count": 7,
+    "retention_rate": 1.4666666666666666,
+    "removal_reasons": {
+      "section_marker": 7
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Well",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2,
+            3
+          ],
+          "original_lyric": "your railroad gate\nyou know I just can't jump it.",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "The singer can't get past something, like a gate.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "Sometimes it gets so hard\nyou see.",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Things are tough.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "I'm just sitting here beating on my trumpet\nwith all these promises you left for me.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer is sad about broken promises.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Well",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song continues.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "I waited for you when I was half sick.\nYes I waited for you when you hated me.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer waited for someone, even when things were bad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "Well\nI waited for you inside of the frozen traffic",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer waited for someone, even in difficult situations.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "When you knew I had some other place to be.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resentment",
+          "eli5_simplification": "The singer waited even when the other person knew he had other things to do.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "Now\nwhere are you tonight\nsweet Marie ?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer wonders where Marie is.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Well",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song continues.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "anybody can be just like me\nobviously",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer feels anyone could be in his situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "Well\nsix white horses that you did promise me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer remembers a broken promise.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Where finally delivered down to the penitentiary.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The broken promise led to jail.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "I know you always say that you agree",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer feels unheard.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Now\nI been in jail when all my mail showed",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer was in jail.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "That man can't give his address out to bad company",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer couldn't share his address.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "And now I stand here lookin' at your yellow railroad\nWond'ring where are you tonight\nsweet Marie ?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is still wondering where Marie is.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "Well I don't know how it happened",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is confused.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "But the riverboat captain\nhe knows my fate",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Someone else knows the singer's destiny.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "Well",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song continues.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32,
+            33
+          ],
+          "original_lyric": "I got the fever down in my pockets\nThe Persian drunkard",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "The singer feels ill.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34
+          ],
+          "original_lyric": "he follows me.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "Someone is following the singer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35,
+            36
+          ],
+          "original_lyric": "Yes\nI can take him to your house",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "The singer can take someone to Marie's house.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            37
+          ],
+          "original_lyric": "but I can't unlock it.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "The singer can't get inside.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            38
+          ],
+          "original_lyric": "You see",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer explains.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            39
+          ],
+          "original_lyric": "you forgot to leave me with the key.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resentment",
+          "eli5_simplification": "Marie forgot to give the singer the key.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            40,
+            41
+          ],
+          "original_lyric": "Oh\nwhere are you tonight\nsweet Marie ?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer wonders where Marie is.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 41,
+        "covered_lines": 41,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 41,
+      "covered_lines": 41,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Well",
+            "your railroad gate",
+            "you know I just can't jump it.",
+            "Sometimes it gets so hard"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            2,
+            5,
+            3
+          ],
+          "end_words": [
+            "well",
+            "gate",
+            "it",
+            "hard"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "you see.",
+            "I'm just sitting here beating on my trumpet",
+            "with all these promises you left for me.",
+            "Well"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            1,
+            6,
+            4,
+            1
+          ],
+          "end_words": [
+            "see",
+            "trumpet",
+            "me",
+            "well"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "see",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "me",
+              "word2": "well",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I waited for you when I was half sick.",
+            "Yes I waited for you when you hated me.",
+            "Well",
+            "I waited for you inside of the frozen traffic"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            5,
+            1,
+            4
+          ],
+          "end_words": [
+            "sick",
+            "me",
+            "well",
+            "traffic"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "me",
+              "word2": "well",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "When you knew I had some other place to be.",
+            "Now",
+            "where are you tonight",
+            "sweet Marie ?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            7,
+            1,
+            2,
+            2
+          ],
+          "end_words": [
+            "be",
+            "now",
+            "tonight",
+            "marie"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "be",
+              "word2": "marie",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Well",
+            "anybody can be just like me",
+            "obviously",
+            "Well"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            1,
+            5,
+            1,
+            1
+          ],
+          "end_words": [
+            "well",
+            "me",
+            "obviously",
+            "well"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "well",
+              "word2": "me",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "well",
+              "word2": "well",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "me",
+              "word2": "well",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "six white horses that you did promise me",
+            "Where finally delivered down to the penitentiary.",
+            "I know you always say that you agree",
+            "Now"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            5,
+            4,
+            1
+          ],
+          "end_words": [
+            "me",
+            "penitentiary",
+            "agree",
+            "now"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "me",
+              "word2": "agree",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "I been in jail when all my mail showed",
+            "That man can't give his address out to bad company",
+            "And now I stand here lookin' at your yellow railroad",
+            "Wond'ring where are you tonight"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            7,
+            6,
+            3
+          ],
+          "end_words": [
+            "showed",
+            "company",
+            "railroad",
+            "tonight"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "sweet Marie ?",
+            "Well I don't know how it happened",
+            "But the riverboat captain",
+            "he knows my fate"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            5,
+            2,
+            2
+          ],
+          "end_words": [
+            "marie",
+            "happened",
+            "captain",
+            "fate"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "happened",
+              "word2": "captain",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AE), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "Well",
+            "I got the fever down in my pockets",
+            "The Persian drunkard",
+            "he follows me."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            1,
+            4,
+            2,
+            2
+          ],
+          "end_words": [
+            "well",
+            "pockets",
+            "drunkard",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "well",
+              "word2": "me",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "Yes",
+            "I can take him to your house",
+            "but I can't unlock it.",
+            "You see"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            2,
+            3,
+            1
+          ],
+          "end_words": [
+            "yes",
+            "house",
+            "it",
+            "see"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "you forgot to leave me with the key.",
+            "Oh",
+            "where are you tonight",
+            "sweet Marie ?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            1,
+            2,
+            2
+          ],
+          "end_words": [
+            "key",
+            "oh",
+            "tonight",
+            "marie"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "key",
+              "word2": "marie",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        }
+      ],
+      "total_stanzas": 11,
+      "total_lines": 44
+    }
+  }
+}

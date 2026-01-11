@@ -1,0 +1,418 @@
+{
+  "song_id": "0vn7UBvSQECKJm2817Yf1P::bartender-s-blues",
+  "title": "Bartender's Blues",
+  "artist": "James Taylor",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nNow I'm just bartender\nAnd I don't like my work\n\n[bridge]\nI see lots of sad faces\nAnd lots of bad cases\nOf folks with their backs to the wall\n\n[chorus]\nTo keep me from going -stray\nAnd honky-tonk angel to hold me tight\nTo keep me from slipping away\nI can light up your smokes\nI can laugh at your jokes\nI can watch you fall down on your knees\nI can close down this bar\nI can gas up my car\nI can pack up and mail in my key\n\n[chorus]\nNow, the smoke fills the air\n\n[intro]\nAnd I'm thinking 'bout where I' rather be\n\n[bridge]\nI sank all my ships\nAnd I'm stranded at the edge of the sea",
+  "cleaned_lyrics": "Now I'm just bartender\nAnd I don't like my work\nI see lots of sad faces\nAnd lots of bad cases\nOf folks with their backs to the wall\nTo keep me from going -stray\nAnd honky-tonk angel to hold me tight\nTo keep me from slipping away\nI can light up your smokes\nI can laugh at your jokes\nI can watch you fall down on your knees\nI can close down this bar\nI can gas up my car\nI can pack up and mail in my key\nNow\nthe smoke fills the air\nAnd I'm thinking 'bout where I' rather be\nI sank all my ships\nAnd I'm stranded at the edge of the sea",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 29,
+    "cleaned_lines": 19,
+    "removed_count": 6,
+    "retention_rate": 0.7916666666666666,
+    "removal_reasons": {
+      "section_marker": 6
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Now I'm just bartender\nAnd I don't like my work",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is a bartender and doesn't enjoy his job.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I see lots of sad faces\nAnd lots of bad cases",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "He sees unhappy people and difficult situations.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Of folks with their backs to the wall",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "People are struggling.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "To keep me from going -stray",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "He's trying to stay on the right path.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "And honky-tonk angel to hold me tight",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wants someone to comfort him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "To keep me from slipping away",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "He's afraid of losing himself.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "I can light up your smokes\nI can laugh at your jokes\nI can watch you fall down on your knees",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "He does things for others, even when they're in a bad state.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13,
+            14
+          ],
+          "original_lyric": "I can close down this bar\nI can gas up my car\nI can pack up and mail in my key",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "He considers leaving his job.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Now",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "A pause.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "the smoke fills the air",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The atmosphere is heavy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "And I'm thinking 'bout where I' rather be",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's dreaming of a better place.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "I sank all my ships\nAnd I'm stranded at the edge of the sea",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "He feels lost and alone.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 19,
+        "covered_lines": 19,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 19,
+      "covered_lines": 19,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Now I'm just bartender",
+            "And I don't like my work",
+            "I see lots of sad faces",
+            "And lots of bad cases"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            3,
+            4,
+            3
+          ],
+          "end_words": [
+            "bartender",
+            "work",
+            "faces",
+            "cases"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "faces",
+              "word2": "cases",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Of folks with their backs to the wall",
+            "To keep me from going -stray",
+            "And honky-tonk angel to hold me tight",
+            "To keep me from slipping away"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            3,
+            5,
+            3
+          ],
+          "end_words": [
+            "wall",
+            "stray",
+            "tight",
+            "away"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "stray",
+              "word2": "away",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I can light up your smokes",
+            "I can laugh at your jokes",
+            "I can watch you fall down on your knees",
+            "I can close down this bar"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            2,
+            4,
+            3
+          ],
+          "end_words": [
+            "smokes",
+            "jokes",
+            "knees",
+            "bar"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "smokes",
+              "word2": "jokes",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I can gas up my car",
+            "I can pack up and mail in my key",
+            "Now",
+            "the smoke fills the air"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            1,
+            3
+          ],
+          "end_words": [
+            "car",
+            "key",
+            "now",
+            "air"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "And I'm thinking 'bout where I' rather be",
+            "I sank all my ships",
+            "And I'm stranded at the edge of the sea"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AXA",
+          "raw_rhyme_scheme": "ABA",
+          "pattern": "3_ABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            3,
+            4
+          ],
+          "end_words": [
+            "be",
+            "ships",
+            "sea"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "be",
+              "word2": "sea",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXA",
+          "pattern": "3_ABA",
+          "line_count": 3,
+          "stability": 0.2
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 19
+    }
+  }
+}

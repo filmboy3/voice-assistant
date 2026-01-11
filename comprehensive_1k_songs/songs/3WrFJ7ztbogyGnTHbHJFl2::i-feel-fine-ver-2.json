@@ -1,0 +1,313 @@
+{
+  "song_id": "3WrFJ7ztbogyGnTHbHJFl2::i-feel-fine-ver-2",
+  "title": "I Feel Fine (ver. 2)",
+  "artist": "The Beatles",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nguitar to me, which builds in feedback until the string is vibrating\nhard enough to cause buzz.\n\n[bridge]\nYou know she said so\nI'm in love with her and I feel fine\n\n[bridge]\nYou know she said so\nI'm in love with her and I feel fine\nMiddle:\nI'm so glad that she's my little girl\nShe's so glad she's telling all the world\n\n[verse]\nThat her baby buys her things you know he buys her diamond rings\nYou know she said so\nI'm in love with her and I feel fine\nThen play magic \"I Feel Fine\" riff as band comes back in.\nThen repeat from verse 2 to the end of verse 3, except instead\nof the very last line of verse 3, substitute:\nShe's in love with me and I feel fine\nShe's in love with me and I feel fine\nundefined, judge by ear)\nundefined, judge by ear)\nthree",
+  "cleaned_lyrics": "guitar to me\nwhich builds in feedback until the string is vibrating\nhard enough to cause buzz.\nYou know she said so\nYou know she said so\nMiddle:\nI'm so glad that she's my little girl\nShe's so glad she's telling all the world\nYou know she said so\nThen repeat from verse 2 to the end of verse 3\nexcept instead\nof the very last line of verse 3\nsubstitute:\nthree",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 27,
+    "cleaned_lines": 14,
+    "removed_count": 13,
+    "retention_rate": 0.5833333333333334,
+    "removal_reasons": {
+      "musical_direction": 8,
+      "section_marker": 4,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3
+          ],
+          "original_lyric": "guitar to me\nwhich builds in feedback until the string is vibrating\nhard enough to cause buzz.",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts with a guitar sound.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5,
+            9
+          ],
+          "original_lyric": "You know she said so\nYou know she said so\nYou know she said so",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone is happy because a girl said something.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "I'm so glad that she's my little girl",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer is happy to have a girlfriend.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "She's so glad she's telling all the world",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The girlfriend is happy and telling everyone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Then repeat from verse 2 to the end of verse 3",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song repeats the previous parts.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "except instead",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song changes slightly.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "of the very last line of verse 3",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The last line is different.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "substitute:\nthree",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The last line is 'three'.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 12,
+        "covered_lines": 12,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 12,
+      "covered_lines": 12,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "guitar to me",
+            "which builds in feedback until the string is vibrating",
+            "hard enough to cause buzz.",
+            "You know she said so"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            5,
+            4,
+            3
+          ],
+          "end_words": [
+            "me",
+            "vibrating",
+            "buzz",
+            "so"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "You know she said so",
+            "Middle:",
+            "I'm so glad that she's my little girl",
+            "She's so glad she's telling all the world"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            1,
+            5,
+            6
+          ],
+          "end_words": [
+            "so",
+            "middle",
+            "girl",
+            "world"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "girl",
+              "word2": "world",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (ER), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "You know she said so",
+            "Then repeat from verse 2 to the end of verse 3",
+            "except instead",
+            "of the very last line of verse 3"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            4,
+            2,
+            4
+          ],
+          "end_words": [
+            "so",
+            "verse",
+            "instead",
+            "verse"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "verse",
+              "word2": "verse",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (ER), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "substitute:",
+            "three"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX",
+          "pattern_confidence": 1.0,
+          "stability": 0.8,
+          "stress_counts": [
+            1,
+            1
+          ],
+          "end_words": [
+            "substitute",
+            "three"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX",
+          "line_count": 2,
+          "stability": 0.8
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 14
+    }
+  }
+}

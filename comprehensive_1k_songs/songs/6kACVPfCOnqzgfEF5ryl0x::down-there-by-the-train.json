@@ -1,0 +1,641 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::down-there-by-the-train",
+  "title": "Down There By The Train",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThere's place I know where the train goes slow\nWhere the sinner can be washed in the blood of the lamb\nThere's river by the trestle down by Sinner's Grove\nDown where the willow and the dogwood grow\nYou can hear the whistle, you can hear the bell\nFrom the halls of heaven to the gates of hell\nAnd there's room for the forsaken if you're there on time\nYou'll be washed of all your sins and all of your crimes\nIf you're down there by the train\nDown there by the train\nDown there by the train\nDown there by the train\n|Down there where the train goes slow\nThere's golden moon that shines up through the mist\nAnd I know that your name can be on that list\nThere's no eye for an eye, there's no tooth for tooth\nI saw Judas Iscariot carrying John Wilkes Booth\nHe was...\n{chorus}\nIf you've lost all your hope, if you've lost all your faith\nI know you can be cared for and I know you can be safe\nAnd all the shamefuls and all of the whores\nAnd even the soldier who pierced the side of the Lord\nIs...\n{chorus}\nWell, I've never asked forgiveness and I've never said prayer\nNever given of myself, never truly cared\nI've left the ones who loved me and I'm still raising Cain\nI've taken the low road and if you've done the same\nMeet me...\n{chorus (twice)}",
+  "cleaned_lyrics": "There's place I know where the train goes slow\nWhere the sinner can be washed in the blood of the lamb\nDown where the willow and the dogwood grow\nYou can hear the whistle\nyou can hear the bell\nFrom the halls of heaven to the gates of hell\nAnd there's room for the forsaken if you're there on time\nYou'll be washed of all your sins and all of your crimes\n|Down there where the train goes slow\nThere's golden moon that shines up through the mist\nAnd I know that your name can be on that list\nThere's no eye for an eye\nthere's no tooth for tooth\nI saw Judas Iscariot carrying John Wilkes Booth\nHe was...\nIf you've lost all your hope\nif you've lost all your faith\nI know you can be cared for and I know you can be safe\nAnd all the shamefuls and all of the whores\nAnd even the soldier who pierced the side of the Lord\nIs...\nWell\nI've never asked forgiveness\nand I've never said prayer\nNever given of myself\nnever truly cared\nI've left the ones who loved\nme and I'm still raising Cain\nI've taken the low road\nand if you've done the same\nMeet me...",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 32,
+    "cleaned_lines": 31,
+    "removed_count": 9,
+    "retention_rate": 0.96875,
+    "removal_reasons": {
+      "artist_annotation": 3,
+      "section_marker": 1,
+      "credits_metadata": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "There's place I know where the train goes slow\nWhere the sinner can be washed in the blood of the lamb",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "There's a special place where bad people can become good.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "Down where the willow and the dogwood grow",
+          "plot_function": "SETUP",
+          "emotion_primary": "peace",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's a peaceful place.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5,
+            6
+          ],
+          "original_lyric": "You can hear the whistle\nyou can hear the bell\nFrom the halls of heaven to the gates of hell",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "You can hear the train, which goes between heaven and hell.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "And there's room for the forsaken if you're there on time\nYou'll be washed of all your sins and all of your crimes",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "There's room for everyone, and you can be forgiven.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Down there where the train goes slow",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the idea of the place.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "There's golden moon that shines up through the mist",
+          "plot_function": "SETUP",
+          "emotion_primary": "peace",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The place is beautiful.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "And I know that your name can be on that list",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can be saved too.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "There's no eye for an eye\nthere's no tooth for tooth",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": "peace",
+          "eli5_simplification": "No revenge.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "I saw Judas Iscariot carrying John Wilkes Booth",
+          "plot_function": "SETUP",
+          "emotion_primary": "surprise",
+          "emotion_secondary": null,
+          "eli5_simplification": "He saw two bad people together.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "He was...",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Waiting for the next part of the story.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "If you've lost all your hope\nif you've lost all your faith",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "If you're feeling hopeless.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "I know you can be cared for and I know you can be safe\nAnd all the shamefuls and all of the whores",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "You can be helped.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "And even the soldier who pierced the side of the Lord",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Even the worst people.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Is...",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Waiting for the next part of the story.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23,
+            24,
+            25
+          ],
+          "original_lyric": "Well\nI've never asked forgiveness\nand I've never said prayer\nNever given of myself\nnever truly cared",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is talking about his own bad deeds.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "I've left the ones who loved\nme and I'm still raising Cain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "shame",
+          "eli5_simplification": "He hurt the people who loved him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28,
+            29
+          ],
+          "original_lyric": "I've taken the low road\nand if you've done the same",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "He's been bad, and asks if you have too.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "Meet me...",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "He wants to meet you.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 30,
+        "covered_lines": 30,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 30,
+      "covered_lines": 30,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "There's place I know where the train goes slow",
+            "Where the sinner can be washed in the blood of the lamb",
+            "Down where the willow and the dogwood grow",
+            "You can hear the whistle"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            7,
+            5,
+            5,
+            2
+          ],
+          "end_words": [
+            "slow",
+            "lamb",
+            "grow",
+            "whistle"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "slow",
+              "word2": "grow",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "you can hear the bell",
+            "From the halls of heaven to the gates of hell",
+            "And there's room for the forsaken if you're there on time",
+            "You'll be washed of all your sins and all of your crimes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            4,
+            7,
+            6
+          ],
+          "end_words": [
+            "bell",
+            "hell",
+            "time",
+            "crimes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "time",
+              "word2": "crimes",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "|Down there where the train goes slow",
+            "There's golden moon that shines up through the mist",
+            "And I know that your name can be on that list",
+            "There's no eye for an eye"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            6,
+            7,
+            3,
+            4
+          ],
+          "end_words": [
+            "slow",
+            "mist",
+            "list",
+            "eye"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "mist",
+              "word2": "list",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "there's no tooth for tooth",
+            "I saw Judas Iscariot carrying John Wilkes Booth",
+            "He was...",
+            "If you've lost all your hope"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            7,
+            1,
+            5
+          ],
+          "end_words": [
+            "tooth",
+            "booth",
+            "was",
+            "hope"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "tooth",
+              "word2": "booth",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "if you've lost all your faith",
+            "I know you can be cared for and I know you can be safe",
+            "And all the shamefuls and all of the whores",
+            "And even the soldier who pierced the side of the Lord"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            5
+          ],
+          "end_words": [
+            "faith",
+            "safe",
+            "whores",
+            "lord"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "faith",
+              "word2": "safe",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EY), post-consonants in same family"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "whores",
+              "word2": "lord",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Is...",
+            "Well",
+            "I've never asked forgiveness",
+            "and I've never said prayer"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            1,
+            1,
+            4,
+            4
+          ],
+          "end_words": [
+            "is",
+            "well",
+            "forgiveness",
+            "prayer"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "is",
+              "word2": "forgiveness",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Never given of myself",
+            "never truly cared",
+            "I've left the ones who loved",
+            "me and I'm still raising Cain"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "myself",
+            "cared",
+            "loved",
+            "cain"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "myself",
+              "word2": "cared",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "I've taken the low road",
+            "and if you've done the same",
+            "Meet me..."
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            4,
+            2
+          ],
+          "end_words": [
+            "road",
+            "same",
+            "me"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 31
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "song_id": "0k17h0D3J5VfsdmQ1iZtE9::breathe-reprise",
+  "title": "Breathe Reprise",
+  "artist": "Pink Floyd",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nHome, home again\nI like to be here when I can\nWhen I come in cold and tired\nIt?s good to warm my bones beside the fire\nFar away across the field\nThe tolling of the iron bell\n\n[chorus]\nTo hear the softly spoken magic spells\n( Far away across the field...spoken magic spells)\nEsta Música é tocada após ?TIME?.",
+  "cleaned_lyrics": "Home\nhome again\nI like to be here when I can\nWhen I come in cold and tired\nIt?s good to warm my bones beside the fire\nFar away across the field\nThe tolling of the iron bell\nTo hear the softly spoken magic spells\n( Far away across the field...spoken magic spells)\nEsta Música é tocada após ?TIME?.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 12,
+    "cleaned_lines": 10,
+    "removed_count": 2,
+    "retention_rate": 0.9090909090909091,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Home",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts by talking about home.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "home again",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is back home.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "I like to be here when I can",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer likes being at home.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "When I come in cold and tired",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is tired and cold.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "It?s good to warm my bones beside the fire",
+          "plot_function": "SETUP",
+          "emotion_primary": "comfort",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "It feels good to warm up by the fire.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Far away across the field",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about something far away.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "The tolling of the iron bell",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Hearing a bell ringing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "To hear the softly spoken magic spells",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Listening to magic spells.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "( Far away across the field...spoken magic spells)",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the previous thoughts.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 9,
+        "covered_lines": 9,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 9,
+      "covered_lines": 9,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Home",
+            "home again",
+            "I like to be here when I can",
+            "When I come in cold and tired"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            2,
+            4,
+            4
+          ],
+          "end_words": [
+            "home",
+            "again",
+            "can",
+            "tired"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "It?s good to warm my bones beside the fire",
+            "Far away across the field",
+            "The tolling of the iron bell",
+            "To hear the softly spoken magic spells"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            6,
+            4,
+            3,
+            5
+          ],
+          "end_words": [
+            "fire",
+            "field",
+            "bell",
+            "spells"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "bell",
+              "word2": "spells",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EH), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "( Far away across the field...spoken magic spells)",
+            "Esta Música é tocada após ?TIME?."
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX",
+          "pattern_confidence": 1.0,
+          "stability": 0.8,
+          "stress_counts": [
+            7,
+            7
+          ],
+          "end_words": [
+            "spells",
+            "time"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX",
+          "line_count": 2,
+          "stability": 0.8
+        }
+      ],
+      "total_stanzas": 3,
+      "total_lines": 10
+    }
+  }
+}

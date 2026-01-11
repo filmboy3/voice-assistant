@@ -1,0 +1,440 @@
+{
+  "song_id": "6eUKZXaKkcviH0Ku9w2n3V::the-parting-glass",
+  "title": "The Parting Glass",
+  "artist": "Ed Sheeran",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nOf all the money that 'er I had\nI've spent it in good company\nAnd all the harm that 'er I've done\nAlas it was to none but me\nAnd all I've done for want of wit\nTo memory now I can't recall\nSo fill to me the parting glass\nGood night and joy be with you all\nOf all the comrades that 'er I had\nThey are sorry for my going away\nAnd all the sweethearts that 'er I had\nThey would wish me one more day to stay\n\n[bridge]\nThat I should rise and you should not\nI'll gently rise and I'll softly call\nGood night and joy be with you all\nman may drink and not be drunk\nman may fight and not be slain\nman may court pretty girl\nAnd perhaps be welcomed back again\n\n[chorus]\nGoodnight and joy be with you all\nGoodnight and joy be with you all",
+  "cleaned_lyrics": "Of all the money that 'er I had\nI've spent it in good company\nAnd all the harm that 'er I've done\nAlas it was to none but me\nAnd all I've done for want of wit\nTo memory now I can't recall\nSo fill to me the parting glass\nGood night and joy be with you all\nOf all the comrades that 'er I had\nThey are sorry for my going away\nAnd all the sweethearts that 'er I had\nThey would wish me one more day to stay\nThat I should rise and you should not\nI'll gently rise and I'll softly call\nGood night and joy be with you all\nman may drink and not be drunk\nman may fight and not be slain\nman may court pretty girl\nAnd perhaps be welcomed back again\nGoodnight and joy be with you all\nGoodnight and joy be with you all",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 26,
+    "cleaned_lines": 21,
+    "removed_count": 3,
+    "retention_rate": 0.875,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Of all the money that 'er I had\nI've spent it in good company",
+          "plot_function": "SETUP",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is thinking about the money they spent with friends.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "And all the harm that 'er I've done\nAlas it was to none but me",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer regrets any harm they may have caused, but it only affected them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "And all I've done for want of wit\nTo memory now I can't recall",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer can't remember things they did because they weren't thinking clearly.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "So fill to me the parting glass\nGood night and joy be with you all",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer asks for a final drink and wishes everyone well.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Of all the comrades that 'er I had\nThey are sorry for my going away",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer's friends are sad that they are leaving.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "And all the sweethearts that 'er I had\nThey would wish me one more day to stay",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer's sweethearts wish they could stay longer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "That I should rise and you should not\nI'll gently rise and I'll softly call",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer accepts their fate and will leave peacefully.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Good night and joy be with you all",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer wishes everyone well.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "man may drink and not be drunk\nman may fight and not be slain",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Life has its ups and downs.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "man may court pretty girl\nAnd perhaps be welcomed back again",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "There is always hope for a second chance.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "Goodnight and joy be with you all\nGoodnight and joy be with you all",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer wishes everyone well.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 21,
+        "covered_lines": 21,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 21,
+      "covered_lines": 21,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Of all the money that 'er I had",
+            "I've spent it in good company",
+            "And all the harm that 'er I've done",
+            "Alas it was to none but me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "had",
+            "company",
+            "done",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "company",
+              "word2": "done",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "And all I've done for want of wit",
+            "To memory now I can't recall",
+            "So fill to me the parting glass",
+            "Good night and joy be with you all"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            4,
+            3,
+            4
+          ],
+          "end_words": [
+            "wit",
+            "recall",
+            "glass",
+            "all"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Of all the comrades that 'er I had",
+            "They are sorry for my going away",
+            "And all the sweethearts that 'er I had",
+            "They would wish me one more day to stay"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            5
+          ],
+          "end_words": [
+            "had",
+            "away",
+            "had",
+            "stay"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "had",
+              "word2": "had",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "away",
+              "word2": "stay",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "That I should rise and you should not",
+            "I'll gently rise and I'll softly call",
+            "Good night and joy be with you all",
+            "man may drink and not be drunk"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            6,
+            4,
+            4
+          ],
+          "end_words": [
+            "not",
+            "call",
+            "all",
+            "drunk"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "call",
+              "word2": "all",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "man may fight and not be slain",
+            "man may court pretty girl",
+            "And perhaps be welcomed back again",
+            "Goodnight and joy be with you all"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "slain",
+            "girl",
+            "again",
+            "all"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Goodnight and joy be with you all"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3
+          ],
+          "end_words": [
+            "all"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 21
+    }
+  }
+}

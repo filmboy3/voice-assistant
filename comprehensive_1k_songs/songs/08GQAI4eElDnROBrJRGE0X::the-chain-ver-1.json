@@ -1,0 +1,447 @@
+{
+  "song_id": "08GQAI4eElDnROBrJRGE0X::the-chain-ver-1",
+  "title": "The Chain (ver. 1)",
+  "artist": "Fleetwood Mac",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nListen to the wind blow, watch the sunrise\nRun in the shadow, damn your love,\ndamn your lies\nPlayed as:\n\n[chorus]\nAnd if you don't love me now,\nYou will never love me again\nI can still here you saying\nYou would never break the chain\nAnd if you don't love me now\nYou will never love me again\nI can still hear you saying\nYou would never break the chain\n(Fill in here is similar to intro)\n2nd Verse\nListen to the wind blow\nDown comes the night\nRun in the shadow\nDamn your love, damn your lies\n\n[bridge]\nDamn the dark damn the night\n\n[chorus]\nRunning in the shadows\nRepeat to end",
+  "cleaned_lyrics": "Listen to the wind blow\nwatch the sunrise\nRun in the shadow\ndamn your love\ndamn your lies\nPlayed as:\nAnd if you don't love me now\nYou will never love me again\nI can still here you saying\nYou would never break the chain\nAnd if you don't love me now\nYou will never love me again\nI can still hear you saying\nYou would never break the chain\n2nd Verse\nListen to the wind blow\nDown comes the night\nRun in the shadow\nDamn your love\ndamn your lies\nDamn the dark damn the night\nRunning in the shadows\nRepeat to end",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 28,
+    "cleaned_lines": 23,
+    "removed_count": 5,
+    "retention_rate": 0.92,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Listen to the wind blow\nwatch the sunrise",
+          "plot_function": "SETUP",
+          "emotion_primary": "peace",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts with a calm scene, like watching the wind and the sun.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Run in the shadow\ndamn your love",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Something bad is happening, and the singer is angry about a lost love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "damn your lies",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is angry about lies.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "And if you don't love me now\nYou will never love me again",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is afraid of losing love forever.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "I can still here you saying\nYou would never break the chain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer remembers promises that were made.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "And if you don't love me now\nYou will never love me again",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is afraid of losing love forever.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "I can still hear you saying\nYou would never break the chain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer remembers promises that were made.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "Listen to the wind blow\nDown comes the night",
+          "plot_function": "SETUP",
+          "emotion_primary": "peace",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts with a calm scene, like watching the wind and the sun.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "Run in the shadow\nDamn your love",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Something bad is happening, and the singer is angry about a lost love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "damn your lies",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is angry about lies.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Damn the dark damn the night",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer is angry and afraid of the darkness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Running in the shadows",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is afraid and running away.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Listen to the wind blow",
+            "watch the sunrise",
+            "Run in the shadow",
+            "damn your love"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "blow",
+            "sunrise",
+            "shadow",
+            "love"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "damn your lies",
+            "Played as:",
+            "And if you don't love me now",
+            "You will never love me again"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            3
+          ],
+          "end_words": [
+            "lies",
+            "as",
+            "now",
+            "again"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I can still here you saying",
+            "You would never break the chain",
+            "And if you don't love me now",
+            "You will never love me again"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            3
+          ],
+          "end_words": [
+            "saying",
+            "chain",
+            "now",
+            "again"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "saying",
+              "word2": "chain",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I can still hear you saying",
+            "You would never break the chain",
+            "2nd Verse",
+            "Listen to the wind blow"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "saying",
+            "chain",
+            "verse",
+            "blow"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "saying",
+              "word2": "chain",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Down comes the night",
+            "Run in the shadow",
+            "Damn your love",
+            "damn your lies"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "night",
+            "shadow",
+            "love",
+            "lies"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "night",
+              "word2": "lies",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Damn the dark damn the night",
+            "Running in the shadows",
+            "Repeat to end"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            2,
+            2
+          ],
+          "end_words": [
+            "night",
+            "shadows",
+            "end"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 23
+    }
+  }
+}

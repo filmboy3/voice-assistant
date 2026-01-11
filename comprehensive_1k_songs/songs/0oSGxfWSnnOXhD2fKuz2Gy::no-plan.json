@@ -1,0 +1,647 @@
+{
+  "song_id": "0oSGxfWSnnOXhD2fKuz2Gy::no-plan",
+  "title": "No Plan",
+  "artist": "David Bowie",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nHere, there's no music here\nI'm lost in streams of sound\nHere, I nowhere now?\nNo plan\nWherever I may go\nJust where, just there I\nAll of the things that are my life\nMy desire, my beliefs, my moods\nHere is my place without plan\nHere, second avenue\nJust out of view\nHere, is no traffic here?\nNo plan\nAll the things that are my life\nMy moods, my beliefs\nMy desires, me alone\nNothing to regret\nThis is no place, but here I\nThis is not quite yet",
+  "cleaned_lyrics": "Here\nthere's no music here\nI'm lost in streams of sound\nHere\nI nowhere now?\nNo plan\nWherever I may go\nJust where\njust there I\nAll of the things that are my life\nMy desire\nmy beliefs\nmy moods\nHere is my place without plan\nHere\nsecond avenue\nJust out of view\nHere\nis no traffic here?\nNo plan\nAll the things that are my life\nMy moods\nmy beliefs\nMy desires\nme alone\nNothing to regret\nThis is no place\nbut here I\nThis is not quite yet",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 20,
+    "cleaned_lines": 29,
+    "removed_count": 1,
+    "retention_rate": 1.45,
+    "removal_reasons": {
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            4
+          ],
+          "original_lyric": "Here\nHere",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts here.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "there's no music here",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "There is no music.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "I'm lost in streams of sound",
+          "plot_function": "SETUP",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is lost in sounds.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "I nowhere now?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "confusion",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer is questioning where they are.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            17
+          ],
+          "original_lyric": "No plan\nNo plan",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "uncertainty",
+          "emotion_secondary": null,
+          "eli5_simplification": "There is no plan.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Wherever I may go",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "uncertainty",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer doesn't know where they are going.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Just where",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "uncertainty",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is questioning where.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "just there I",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "uncertainty",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is questioning being there.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            18
+          ],
+          "original_lyric": "All of the things that are my life\nAll the things that are my life",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the things that make up their life.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11,
+            19
+          ],
+          "original_lyric": "My desire\nMy moods",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about their desires and moods.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12,
+            20
+          ],
+          "original_lyric": "my beliefs\nmy beliefs",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about their beliefs.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13,
+            21
+          ],
+          "original_lyric": "my moods\nMy desires",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about their moods and desires.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Here is my place without plan",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "This is where they are, without a plan.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Here",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Here.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "second avenue",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Second avenue.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "me alone",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is alone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "Nothing to regret",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer has nothing to regret.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "This is no place",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "uncertainty",
+          "emotion_secondary": null,
+          "eli5_simplification": "This is not a place.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "but here I",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "uncertainty",
+          "emotion_secondary": null,
+          "eli5_simplification": "But here they are.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "This is not quite yet",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "uncertainty",
+          "emotion_secondary": null,
+          "eli5_simplification": "This is not quite yet.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 26,
+        "covered_lines": 26,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 26,
+      "covered_lines": 26,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Here",
+            "there's no music here",
+            "I'm lost in streams of sound",
+            "Here"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            1,
+            4,
+            4,
+            1
+          ],
+          "end_words": [
+            "here",
+            "here",
+            "sound",
+            "here"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "here",
+              "word2": "here",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "here",
+              "word2": "here",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I nowhere now?",
+            "No plan",
+            "Wherever I may go",
+            "Just where"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "now",
+            "plan",
+            "go",
+            "where"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "just there I",
+            "All of the things that are my life",
+            "My desire",
+            "my beliefs"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            3,
+            3,
+            1,
+            1
+          ],
+          "end_words": [
+            "i",
+            "life",
+            "desire",
+            "beliefs"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "i",
+              "word2": "life",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "i",
+              "word2": "desire",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "life",
+              "word2": "desire",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "my moods",
+            "Here is my place without plan",
+            "Here",
+            "second avenue"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            1,
+            4,
+            1,
+            2
+          ],
+          "end_words": [
+            "moods",
+            "plan",
+            "here",
+            "avenue"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "plan",
+              "word2": "avenue",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Just out of view",
+            "Here",
+            "is no traffic here?",
+            "No plan"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            1,
+            3,
+            2
+          ],
+          "end_words": [
+            "view",
+            "here",
+            "here",
+            "plan"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "here",
+              "word2": "here",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "All the things that are my life",
+            "My moods",
+            "my beliefs",
+            "My desires"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            1,
+            1,
+            1
+          ],
+          "end_words": [
+            "life",
+            "moods",
+            "beliefs",
+            "desires"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "life",
+              "word2": "desires",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "me alone",
+            "Nothing to regret",
+            "This is no place",
+            "but here I"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "alone",
+            "regret",
+            "place",
+            "i"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "This is not quite yet"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3
+          ],
+          "end_words": [
+            "yet"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 29
+    }
+  }
+}

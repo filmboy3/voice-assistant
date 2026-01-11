@@ -1,0 +1,878 @@
+{
+  "song_id": "3eqjTLE0HfPfh78zjh6TqT::local-hero",
+  "title": "Local Hero",
+  "artist": "Bruce Springsteen",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nI was driving through my hometown\nI was just kinda killin' time\nWhen I seen face staring out of black velvet painting\nFrom the window of the five and dime\nI couldn't quite recall the name\n\n[bridge]\nSo I asked the salesgirl, \"Who was that man\n\n[bridge]\nShe said, \"Just local hero\"\n\"Local hero,\" she said with smile\n\"Yeah local hero he used to live here for while.\"\nI met stranger dressed in black\nAt the train station\nHe said, \"Son your soul can be saved\"\nThere's beautiful women nights of low livin'\nAnd some dangerous money to be made\nThere's big town 'cross the whiskey line\nAnd if we turn the right cards up\nThey make us boss the devil pays off\nAnd them folks that are real hard up\nThey get their local hero\nYeah, somebody with the right style\nThey get their local hero\nSomebody with just the right smile\nWell I learned my job I learned it well\nFit myself with religion and story to tell\nFirst they made me the king then they made me pope\nWell, then they brought the rope\nI woke to gypsy girl sayin', \"Drink this\"\nWell my hands had lost all sensation\nThese days I'm feeling all right\n'Cept I can't tell my courge from my desperation\nFrom the tainted chalice\nWel I drunk some heady wine\nTonight I'm layin' here\n\n[bridge]\nSayin' there's little town just beneath the floodline\nNeeds local hero\nYeah, somebody with the right style\nLookin' for local hero\nYeah, someone with the right smile\nLookin' for local hero, yeah somebody woth the right smile",
+  "cleaned_lyrics": "I was driving through my hometown\nI was just kinda killin' time\nWhen I seen face staring\nout of black velvet painting\nFrom the window of the five and dime\nI couldn't quite recall the name\nSo I asked the salesgirl\n\"Who was that man\nShe said\n\"Just local hero\"\n\"Local hero\n\" she said with smile\n\"Yeah local hero he used to live here for while.\"\nI met stranger dressed in black\nAt the train station\nHe said\n\"Son your soul can be saved\"\nThere's beautiful women nights of low livin'\nAnd some dangerous money to be made\nThere's big town 'cross the whiskey line\nAnd if we turn the right cards up\nThey make us boss the devil pays off\nAnd them folks that are real hard up\nThey get their local hero\nYeah\nsomebody with the right style\nThey get their local hero\nSomebody with just the right smile\nWell I learned my job I learned it well\nFit myself with religion and story to tell\nFirst they made me the king then they made me pope\nWell\nthen they brought the rope\nI woke to gypsy girl sayin'\n\"Drink this\"\nWell my hands had lost all sensation\nThese days I'm feeling all right\n'Cept I can't tell my courge from my desperation\nFrom the tainted chalice\nWel I drunk some heady wine\nTonight I'm layin' here\nSayin' there's little town just beneath the floodline\nNeeds local hero\nYeah\nsomebody with the right style\nLookin' for local hero\nYeah\nsomeone with the right smile\nLookin' for local hero\nyeah somebody woth the right smile",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 46,
+    "cleaned_lines": 50,
+    "removed_count": 4,
+    "retention_rate": 1.1627906976744187,
+    "removal_reasons": {
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I was driving through my hometown\nI was just kinda killin' time",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is driving around his hometown, bored.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4,
+            5
+          ],
+          "original_lyric": "When I seen face staring\nout of black velvet painting\nFrom the window of the five and dime",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "He sees a picture of a man in a shop window.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "original_lyric": "I couldn't quite recall the name\nSo I asked the salesgirl\n\"Who was that man\nShe said\n\"Just local hero\"",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "He asks the salesgirl who the man in the picture is, and she says he's a local hero.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "\"Local hero\n\" she said with smile",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The salesgirl repeats the phrase with a smile.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "\"Yeah local hero he used to live here for while.\"",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The salesgirl explains the local hero used to live there.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14,
+            15
+          ],
+          "original_lyric": "I met stranger dressed in black\nAt the train station\nHe said\n\"Son your soul can be saved\"",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer meets a stranger who offers to save his soul.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17,
+            18
+          ],
+          "original_lyric": "There's beautiful women nights of low livin'\nAnd some dangerous money to be made\nThere's big town 'cross the whiskey line",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "temptation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The stranger describes a life of pleasure and danger.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20,
+            21
+          ],
+          "original_lyric": "And if we turn the right cards up\nThey make us boss the devil pays off\nAnd them folks that are real hard up",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "temptation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The stranger describes how they can become powerful.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "They get their local hero",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They get a local hero.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Yeah\nsomebody with the right style",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone with the right style.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "They get their local hero\nSomebody with just the right smile",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They get a local hero, someone with the right smile.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27,
+            28,
+            29
+          ],
+          "original_lyric": "Well I learned my job I learned it well\nFit myself with religion and story to tell\nFirst they made me the king then they made me pope",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "pride",
+          "emotion_secondary": "deception",
+          "eli5_simplification": "The singer learned his job and rose to power.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "Well\nthen they brought the rope",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Then he was going to be killed.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31,
+            32
+          ],
+          "original_lyric": "I woke to gypsy girl sayin'\n\"Drink this\"",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wakes up and is told to drink something.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33,
+            34
+          ],
+          "original_lyric": "Well my hands had lost all sensation\nThese days I'm feeling all right",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "numbness",
+          "emotion_secondary": null,
+          "eli5_simplification": "His hands are numb, and he feels alright.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35,
+            36
+          ],
+          "original_lyric": "'Cept I can't tell my courge from my desperation\nFrom the tainted chalice",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "confusion",
+          "eli5_simplification": "He can't tell courage from desperation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            37,
+            38
+          ],
+          "original_lyric": "Wel I drunk some heady wine\nTonight I'm layin' here",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "He drank wine and is laying there.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            39,
+            40
+          ],
+          "original_lyric": "Sayin' there's little town just beneath the floodline\nNeeds local hero",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The town needs a local hero.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            41,
+            42
+          ],
+          "original_lyric": "Yeah\nsomebody with the right style",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone with the right style.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            43,
+            44
+          ],
+          "original_lyric": "Lookin' for local hero\nYeah\nsomeone with the right smile",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Looking for a local hero, someone with the right smile.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            45,
+            46
+          ],
+          "original_lyric": "Lookin' for local hero\nyeah somebody woth the right smile",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Looking for a local hero, someone with the right smile.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 46,
+        "covered_lines": 46,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 46,
+      "covered_lines": 46,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I was driving through my hometown",
+            "I was just kinda killin' time",
+            "When I seen face staring",
+            "out of black velvet painting"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "hometown",
+            "time",
+            "staring",
+            "painting"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "From the window of the five and dime",
+            "I couldn't quite recall the name",
+            "So I asked the salesgirl",
+            "\"Who was that man"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            2,
+            1
+          ],
+          "end_words": [
+            "dime",
+            "name",
+            "salesgirl",
+            "man"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "She said",
+            "\"Just local hero\"",
+            "\"Local hero",
+            "\" she said with smile"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            3,
+            2,
+            2
+          ],
+          "end_words": [
+            "said",
+            "hero",
+            "hero",
+            "smile"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "hero",
+              "word2": "hero",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "\"Yeah local hero he used to live here for while.\"",
+            "I met stranger dressed in black",
+            "At the train station",
+            "He said"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            7,
+            4,
+            2,
+            1
+          ],
+          "end_words": [
+            "while",
+            "black",
+            "station",
+            "said"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "\"Son your soul can be saved\"",
+            "There's beautiful women nights of low livin'",
+            "And some dangerous money to be made",
+            "There's big town 'cross the whiskey line"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            6,
+            4,
+            6
+          ],
+          "end_words": [
+            "saved",
+            "livin",
+            "made",
+            "line"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "saved",
+              "word2": "made",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "And if we turn the right cards up",
+            "They make us boss the devil pays off",
+            "And them folks that are real hard up",
+            "They get their local hero"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            5,
+            4,
+            3
+          ],
+          "end_words": [
+            "up",
+            "off",
+            "up",
+            "hero"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "up",
+              "word2": "up",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Yeah",
+            "somebody with the right style",
+            "They get their local hero",
+            "Somebody with just the right smile"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            1,
+            4,
+            3,
+            5
+          ],
+          "end_words": [
+            "yeah",
+            "style",
+            "hero",
+            "smile"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "style",
+              "word2": "smile",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Well I learned my job I learned it well",
+            "Fit myself with religion and story to tell",
+            "First they made me the king then they made me pope",
+            "Well"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            5,
+            5,
+            5,
+            1
+          ],
+          "end_words": [
+            "well",
+            "tell",
+            "pope",
+            "well"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "well",
+              "word2": "well",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "then they brought the rope",
+            "I woke to gypsy girl sayin'",
+            "\"Drink this\"",
+            "Well my hands had lost all sensation"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            4,
+            2,
+            6
+          ],
+          "end_words": [
+            "rope",
+            "sayin",
+            "this",
+            "sensation"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "sayin",
+              "word2": "sensation",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "These days I'm feeling all right",
+            "'Cept I can't tell my courge from my desperation",
+            "From the tainted chalice",
+            "Wel I drunk some heady wine"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            5,
+            5,
+            2,
+            5
+          ],
+          "end_words": [
+            "right",
+            "desperation",
+            "chalice",
+            "wine"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "right",
+              "word2": "wine",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "Tonight I'm layin' here",
+            "Sayin' there's little town just beneath the floodline",
+            "Needs local hero",
+            "Yeah"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            6,
+            3,
+            1
+          ],
+          "end_words": [
+            "here",
+            "floodline",
+            "hero",
+            "yeah"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "here",
+              "word2": "hero",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 12,
+          "lines": [
+            "somebody with the right style",
+            "Lookin' for local hero",
+            "Yeah",
+            "someone with the right smile"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            3,
+            1,
+            3
+          ],
+          "end_words": [
+            "style",
+            "hero",
+            "yeah",
+            "smile"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "style",
+              "word2": "smile",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 13,
+          "lines": [
+            "Lookin' for local hero",
+            "yeah somebody woth the right smile"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            3,
+            6
+          ],
+          "end_words": [
+            "hero",
+            "smile"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 12,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 13,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 13,
+      "total_lines": 50
+    }
+  }
+}

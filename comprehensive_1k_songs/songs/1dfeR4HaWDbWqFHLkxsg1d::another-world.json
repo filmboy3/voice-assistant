@@ -1,0 +1,472 @@
+{
+  "song_id": "1dfeR4HaWDbWqFHLkxsg1d::another-world",
+  "title": "Another World",
+  "artist": "Queen",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nUnder another sky\nI see another story waiting\nTo be told\nAnd another You - wakes up -\nWith another Me\nFor that's the way we've come to be\n\n[intro]\nWay 'cross Time and Space\nThe door is open wide\nDrawn to different light\nMaybe we'll step inside\n\n[intro]\nWe can show we care\nYou can be sure I'm waiting there -\n\n[intro]\nsolo part goes up one like this:\n(play this twice)\nWhen the dice were cast\nThey laid crazy path we follow to our graves\n\n[bridge]\n?????(most likely 7 of major chord)\nWe journey different way\nSo we live but life\nIsn't what it seems\nWe're only living in our dreams\n\n[intro]\nYou can believe I'll meet you here",
+  "cleaned_lyrics": "Under another sky\nI see another story waiting\nTo be told\nAnd another You - wakes up -\nWith another Me\nFor that's the way we've come to be\nWay 'cross Time and Space\nThe door is open wide\nDrawn to different light\nMaybe we'll step inside\nWe can show we care\nYou can be sure I'm waiting there -\nsolo part goes up one like this:\nWhen the dice were cast\nThey laid crazy path we follow to our graves\nWe journey different way\nSo we live but life\nIsn't what it seems\nWe're only living in our dreams\nYou can believe I'll meet you here",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 33,
+    "cleaned_lines": 20,
+    "removed_count": 8,
+    "retention_rate": 0.7142857142857143,
+    "removal_reasons": {
+      "excessive_punctuation": 1,
+      "artist_annotation": 1,
+      "section_marker": 6
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Under another sky\nI see another story waiting",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Imagine a new place with a new story.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "To be told",
+          "plot_function": "SETUP",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The story is ready to be told.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "And another You - wakes up -\nWith another Me",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "You and I are different in this new story.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "For that's the way we've come to be",
+          "plot_function": "SETUP",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "That's how things are.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Way 'cross Time and Space\nThe door is open wide",
+          "plot_function": "SETUP",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "The door to a new place is open.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Drawn to different light",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "We are pulled towards something new.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "Maybe we'll step inside",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Perhaps we will go inside.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "We can show we care",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "We can show that we care about each other.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "You can be sure I'm waiting there -",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "reassurance",
+          "emotion_secondary": null,
+          "eli5_simplification": "I will be waiting for you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "When the dice were cast",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "When choices were made.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "They laid crazy path we follow to our graves",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The choices led to a difficult path.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "We journey different way",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "We are on different paths.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "So we live but life",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "We live our lives.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "Isn't what it seems",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "Life is not always as it appears.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "We're only living in our dreams",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "We are living in a dream.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "You can believe I'll meet you here",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "reassurance",
+          "eli5_simplification": "I will meet you here.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 19,
+        "covered_lines": 19,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 19,
+      "covered_lines": 19,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Under another sky",
+            "I see another story waiting",
+            "To be told",
+            "And another You - wakes up -"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            1,
+            3
+          ],
+          "end_words": [
+            "sky",
+            "waiting",
+            "told",
+            "up"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "With another Me",
+            "For that's the way we've come to be",
+            "Way 'cross Time and Space",
+            "The door is open wide"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            5,
+            4,
+            3
+          ],
+          "end_words": [
+            "me",
+            "be",
+            "space",
+            "wide"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "me",
+              "word2": "be",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Drawn to different light",
+            "Maybe we'll step inside",
+            "We can show we care",
+            "You can be sure I'm waiting there -"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            4,
+            2,
+            4
+          ],
+          "end_words": [
+            "light",
+            "inside",
+            "care",
+            "there"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "light",
+              "word2": "inside",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "care",
+              "word2": "there",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "solo part goes up one like this:",
+            "When the dice were cast",
+            "They laid crazy path we follow to our graves",
+            "We journey different way"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            7,
+            3,
+            5,
+            3
+          ],
+          "end_words": [
+            "this",
+            "cast",
+            "graves",
+            "way"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "graves",
+              "word2": "way",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "So we live but life",
+            "Isn't what it seems",
+            "We're only living in our dreams",
+            "You can believe I'll meet you here"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "life",
+            "seems",
+            "dreams",
+            "here"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "seems",
+              "word2": "dreams",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 20
+    }
+  }
+}

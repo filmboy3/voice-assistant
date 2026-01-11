@@ -1,0 +1,297 @@
+{
+  "song_id": "4Z8W4fKeB5YxbusRsdQVPb::planet-telex",
+  "title": "Planet Telex",
+  "artist": "Radiohead",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nYou can force it but it will not come\nYou can taste it but it will not form\nYou can crush it but it's always here\nYou can crush it but it's always near\n\n[chorus]\nE7M E7M\nEveryone is broken\nYou can force it but it will stay stung\nYou can crush it as dry as bone\nYou can walk it home straight from school\nYou can kiss it you can break all the rules\n\n[bridge]\nEveryone is broken\n|--0-------------2-----0--------------2--2----------3-----1-0h1h0-------2---2--2-------2----------------------2----0------------------0----------------------------------------------------------------|",
+  "cleaned_lyrics": "You can force it but it will not come\nYou can taste it but it will not form\nYou can crush it but it's always here\nYou can crush it but it's always near\nE7M E7M\nEveryone is broken\nYou can force it but it will stay stung\nYou can crush it as dry as bone\nYou can walk it home straight from school\nYou can kiss it you can break all the rules\nEveryone is broken",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 17,
+    "cleaned_lines": 11,
+    "removed_count": 4,
+    "retention_rate": 0.7333333333333333,
+    "removal_reasons": {
+      "guitar_tab": 1,
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "You can force it but it will not come\nYou can taste it but it will not form",
+          "plot_function": "SETUP",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "Something is wanted, but it's not happening.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "You can crush it but it's always here\nYou can crush it but it's always near",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "helplessness",
+          "eli5_simplification": "Even if you try to get rid of it, it's still there.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "E7M E7M",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Musical interlude.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Everyone is broken",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone is hurt or damaged.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "You can force it but it will stay stung",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "helplessness",
+          "eli5_simplification": "Trying to fix it won't work, it will still hurt.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "You can crush it as dry as bone",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "helplessness",
+          "eli5_simplification": "You can try to destroy it, but it's still there.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "You can walk it home straight from school",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can take it home, like a burden.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "You can kiss it you can break all the rules",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "desperation",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can try anything, but it won't change things.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Everyone is broken",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone is hurt or damaged.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 11,
+        "covered_lines": 11,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 11,
+      "covered_lines": 11,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "You can force it but it will not come",
+            "You can taste it but it will not form",
+            "You can crush it but it's always here",
+            "You can crush it but it's always near"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "come",
+            "form",
+            "here",
+            "near"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "here",
+              "word2": "near",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "E7M E7M",
+            "Everyone is broken",
+            "You can force it but it will stay stung",
+            "You can crush it as dry as bone"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "m",
+            "broken",
+            "stung",
+            "bone"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "broken",
+              "word2": "bone",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (OW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "You can walk it home straight from school",
+            "You can kiss it you can break all the rules",
+            "Everyone is broken"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AAX",
+          "raw_rhyme_scheme": "AAB",
+          "pattern": "3_AAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "school",
+            "rules",
+            "broken"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "school",
+              "word2": "rules",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAX",
+          "pattern": "3_AAB",
+          "line_count": 3,
+          "stability": 0.4
+        }
+      ],
+      "total_stanzas": 3,
+      "total_lines": 11
+    }
+  }
+}

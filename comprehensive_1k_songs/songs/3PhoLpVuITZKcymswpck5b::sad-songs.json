@@ -1,0 +1,631 @@
+{
+  "song_id": "3PhoLpVuITZKcymswpck5b::sad-songs",
+  "title": "Sad Songs",
+  "artist": "Elton John",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nGuess there are times when we all need to share little pain\nAnd ironing out the rough spots\nIs the hardest part when memories remain\nAnd it's times like these when we all need to hear the radio\n`Cause from the lips of some old singer\nWe can share the troubles we already know\nTurn them on, turn them on\nTurn on those sad songs\nWhen all hope is gone\nWhy don't you tune in and turn them on\nThey reach into your room\nJust feel their gentle touch\nWhen all hope is gone\nSad songs say so much\nIf someone else is suffering enough to write it down\nWhen every single word makes sense\nThen it's easier to have those songs around\nThe kick inside is in the line that finally gets to you\nand it feels so good to hurt so bad\nAnd suffer just enough to sing the blues\nSad songs, they say\nSad songs, they say\nSad songs, they say\nSad songs, they say so much\n(CHORUS)\nWhen all hope is gone, sad songs say so much.\n(REPEAT, AD LIB ON LYRICS, FADE)",
+  "cleaned_lyrics": "Guess there are times when we\nall need to share little pain\nAnd ironing out the rough spots\nIs the hardest part when memories remain\nAnd it's times like these when\nwe all need to hear the radio\n`Cause from the lips of some old singer\nWe can share the troubles we already know\nTurn them on\nturn them on\nTurn on those sad songs\nWhen all hope is gone\nWhy don't you tune in and turn them on\nThey reach into your room\nJust feel their gentle touch\nWhen all hope is gone\nSad songs say so much\nIf someone else is suffering enough to write it down\nWhen every single word makes sense\nThen it's easier to have those songs around\nThe kick inside is in the line that finally gets to you\nand it feels so good to hurt so bad\nAnd suffer just enough to sing the blues\nSad songs\nthey say\nSad songs\nthey say\nSad songs\nthey say\nSad songs\nthey say so much\nWhen all hope is gone\nsad songs say so much.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 28,
+    "cleaned_lines": 33,
+    "removed_count": 3,
+    "retention_rate": 1.1785714285714286,
+    "removal_reasons": {
+      "artist_annotation": 2,
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Guess there are times when we\nall need to share little pain",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Sometimes we all feel sad and need to share our feelings.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "And ironing out the rough spots\nIs the hardest part when memories remain",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "It's hard to deal with the bad memories.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "And it's times like these when\nwe all need to hear the radio",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "When we feel sad, we want to listen to the radio.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Cause from the lips of some old singer\nWe can share the troubles we already know",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "comfort",
+          "eli5_simplification": "The singer helps us feel better by singing about things we understand.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "original_lyric": "Turn them on\nturn them on\nTurn on those sad songs\nWhen all hope is gone",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Turn on the sad songs when you feel sad.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Why don't you tune in and turn them on",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Listen to the sad songs.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "They reach into your room\nJust feel their gentle touch",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "comfort",
+          "emotion_secondary": null,
+          "eli5_simplification": "The songs make you feel better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "When all hope is gone\nSad songs say so much",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "comfort",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "Sad songs help you when you feel hopeless.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "If someone else is suffering enough to write it down\nWhen every single word makes sense",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "empathy",
+          "emotion_secondary": "understanding",
+          "eli5_simplification": "When someone else writes a sad song, it helps you feel understood.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "Then it's easier to have those songs around\nThe kick inside is in the line that finally gets to you",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "comfort",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Sad songs make you feel better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "and it feels so good to hurt so bad\nAnd suffer just enough to sing the blues",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "catharsis",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "It feels good to sing about your sadness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "original_lyric": "Sad songs\nthey say\nSad songs\nthey say",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Sad songs help you.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            28,
+            29
+          ],
+          "original_lyric": "Sad songs\nthey say so much",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Sad songs help you.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            30,
+            31
+          ],
+          "original_lyric": "When all hope is gone\nsad songs say so much.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "comfort",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "Sad songs help you when you feel hopeless.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 31,
+        "covered_lines": 31,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 31,
+      "covered_lines": 31,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Guess there are times when we",
+            "all need to share little pain",
+            "And ironing out the rough spots",
+            "Is the hardest part when memories remain"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            5,
+            4,
+            5
+          ],
+          "end_words": [
+            "we",
+            "pain",
+            "spots",
+            "remain"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "pain",
+              "word2": "remain",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "And it's times like these when",
+            "we all need to hear the radio",
+            "`Cause from the lips of some old singer",
+            "We can share the troubles we already know"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            5,
+            4
+          ],
+          "end_words": [
+            "when",
+            "radio",
+            "singer",
+            "know"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Turn them on",
+            "turn them on",
+            "Turn on those sad songs",
+            "When all hope is gone"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            3,
+            4
+          ],
+          "end_words": [
+            "on",
+            "on",
+            "songs",
+            "gone"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "on",
+              "word2": "on",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "songs",
+              "word2": "gone",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Why don't you tune in and turn them on",
+            "They reach into your room",
+            "Just feel their gentle touch",
+            "When all hope is gone"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "on",
+            "room",
+            "touch",
+            "gone"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Sad songs say so much",
+            "If someone else is suffering enough to write it down",
+            "When every single word makes sense",
+            "Then it's easier to have those songs around"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            7,
+            6,
+            4
+          ],
+          "end_words": [
+            "much",
+            "down",
+            "sense",
+            "around"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "down",
+              "word2": "around",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "The kick inside is in the line that finally gets to you",
+            "and it feels so good to hurt so bad",
+            "And suffer just enough to sing the blues",
+            "Sad songs"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            6,
+            4,
+            5,
+            2
+          ],
+          "end_words": [
+            "you",
+            "bad",
+            "blues",
+            "songs"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "you",
+              "word2": "blues",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "they say",
+            "Sad songs",
+            "they say",
+            "Sad songs"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "end_words": [
+            "say",
+            "songs",
+            "say",
+            "songs"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "say",
+              "word2": "say",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "songs",
+              "word2": "songs",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "they say",
+            "Sad songs",
+            "they say so much",
+            "When all hope is gone"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            1,
+            2,
+            2,
+            4
+          ],
+          "end_words": [
+            "say",
+            "songs",
+            "much",
+            "gone"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "songs",
+              "word2": "gone",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "sad songs say so much."
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "much"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 33
+    }
+  }
+}

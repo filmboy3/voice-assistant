@@ -1,0 +1,933 @@
+{
+  "song_id": "4LEiUm1SRbFMgfqnQTwUbQ::holocene",
+  "title": "Holocene",
+  "artist": "Bon Iver",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nSomeway, baby, it's part of me, apart from me.\nyou're laying waste to Halloween\nyou fucked it friend, it's on it's head, it struck the street\nyou're in Milwaukee, off your feet\nand at once I knew I was not magnificent\nstrayed above the highway aisle\njagged vacance, thick with ice\nI could see for miles, miles, miles\n3rd and Lake it burnt away, the hallway\nwas where we learned to celebrate\nautomatic bought the years you' talk for me\nthat night you played me ?Lip Parade?\nnot the needle, nor the thread, the lost decree\nsaying nothing, that's enough for me\nAnd at once I knew I was not magnificent\nhulled far from the highway aisle\njagged, vacance, thick with ice\nI could see for miles, miles, miles\n\n[chorus]\nabove my brother, I and tangled spines\nwe smoked the screen to make it what it was to be\nnow to know it in my memory:\nAnd at once I knew I was not magnificent\nhigh above the highway aisle\njagged vacance, thick with ice\nI could see for miles, miles, miles",
+  "cleaned_lyrics": "Someway\nbaby\nit's part of me\napart from me.\nyou're laying waste to Halloween\nyou fucked it friend\nit's on it's head\nit struck the street\nyou're in Milwaukee\noff your feet\nand at once I knew I was not magnificent\nstrayed above the highway aisle\njagged vacance\nthick with ice\nI could see for miles\nmiles\nmiles\n3rd and Lake it burnt away\nthe hallway\nwas where we learned to celebrate\nautomatic bought the years you' talk for me\nthat night you played me ?Lip Parade?\nnot the needle\nnor the thread\nthe lost decree\nsaying nothing\nthat's enough for me\nAnd at once I knew I was not magnificent\nhulled far from the highway aisle\njagged\nvacance\nthick with ice\nI could see for miles\nmiles\nmiles\nabove my brother\nI and tangled spines\nwe smoked the screen to make it what it was to be\nnow to know it in my memory:\nAnd at once I knew I was not magnificent\nhigh above the highway aisle\njagged vacance\nthick with ice\nI could see for miles\nmiles\nmiles",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 28,
+    "cleaned_lines": 46,
+    "removed_count": 2,
+    "retention_rate": 1.7037037037037037,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Someway\nbaby",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts with a feeling of distance and a gentle address.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "it's part of me\napart from me.",
+          "plot_function": "SETUP",
+          "emotion_primary": "ambivalence",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker feels connected and disconnected at the same time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "original_lyric": "you're laying waste to Halloween\nyou fucked it friend\nit's on it's head\nit struck the street",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "Something bad happened, ruining a fun time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "you're in Milwaukee\noff your feet",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "concern",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person is in a bad situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "and at once I knew I was not magnificent",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker realizes they are not perfect.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13,
+            14
+          ],
+          "original_lyric": "strayed above the highway aisle\njagged vacance\nthick with ice",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "isolation",
+          "eli5_simplification": "The speaker feels lost and cold.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "I could see for miles",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker can see far away.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17,
+            18
+          ],
+          "original_lyric": "miles\nmiles\n3rd and Lake it burnt away",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "More distance and a memory of something lost.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "the hallway\nwas where we learned to celebrate",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "Remembering a happy time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "automatic bought the years you' talk for me\nthat night you played me ?Lip Parade?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Remembering a specific moment.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24,
+            25
+          ],
+          "original_lyric": "not the needle\nnor the thread\nthe lost decree",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Focusing on what is missing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "saying nothing\nthat's enough for me",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Accepting the situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "And at once I knew I was not magnificent",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker realizes they are not perfect.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29,
+            30,
+            31
+          ],
+          "original_lyric": "hulled far from the highway aisle\njagged\nvacance",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "isolation",
+          "eli5_simplification": "The speaker feels lost and cold.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "thick with ice",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "isolation",
+          "eli5_simplification": "The speaker feels lost and cold.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            33
+          ],
+          "original_lyric": "I could see for miles",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker can see far away.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            34,
+            35,
+            36
+          ],
+          "original_lyric": "miles\nmiles\nabove my brother",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "More distance and a memory of something lost.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            37,
+            38
+          ],
+          "original_lyric": "I and tangled spines\nwe smoked the screen to make it what it was to be",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "Remembering a happy time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            39
+          ],
+          "original_lyric": "now to know it in my memory:",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Remembering a specific moment.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            40
+          ],
+          "original_lyric": "And at once I knew I was not magnificent",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker realizes they are not perfect.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            41,
+            42,
+            43
+          ],
+          "original_lyric": "high above the highway aisle\njagged vacance\nthick with ice",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "isolation",
+          "eli5_simplification": "The speaker feels lost and cold.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            44
+          ],
+          "original_lyric": "I could see for miles",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker can see far away.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            45,
+            46,
+            47
+          ],
+          "original_lyric": "miles\nmiles\nmiles",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "More distance and a memory of something lost.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          {
+            "line_numbers": [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "from": "I",
+            "to": "you"
+          }
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 47,
+        "covered_lines": 47,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        {
+          "line_numbers": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "from": "I",
+          "to": "you"
+        }
+      ]
+    },
+    "coverage": {
+      "total_lines": 47,
+      "covered_lines": 47,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Someway",
+            "baby",
+            "it's part of me",
+            "apart from me."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            1,
+            1,
+            3,
+            2
+          ],
+          "end_words": [
+            "someway",
+            "baby",
+            "me",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "you're laying waste to Halloween",
+            "you fucked it friend",
+            "it's on it's head",
+            "it struck the street"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            4,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "halloween",
+            "friend",
+            "head",
+            "street"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "halloween",
+              "word2": "street",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "friend",
+              "word2": "head",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "you're in Milwaukee",
+            "off your feet",
+            "and at once I knew I was not magnificent",
+            "strayed above the highway aisle"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            3
+          ],
+          "end_words": [
+            "milwaukee",
+            "feet",
+            "magnificent",
+            "aisle"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "jagged vacance",
+            "thick with ice",
+            "I could see for miles",
+            "miles"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "end_words": [
+            "vacance",
+            "ice",
+            "miles",
+            "miles"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "ice",
+              "word2": "miles",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "miles",
+              "word2": "miles",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "miles",
+            "3rd and Lake it burnt away",
+            "the hallway",
+            "was where we learned to celebrate"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            4,
+            1,
+            3
+          ],
+          "end_words": [
+            "miles",
+            "away",
+            "hallway",
+            "celebrate"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "automatic bought the years you' talk for me",
+            "that night you played me ?Lip Parade?",
+            "not the needle",
+            "nor the thread"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            4,
+            2,
+            1
+          ],
+          "end_words": [
+            "me",
+            "parade",
+            "needle",
+            "thread"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "me",
+              "word2": "needle",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "the lost decree",
+            "saying nothing",
+            "that's enough for me",
+            "And at once I knew I was not magnificent"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            2,
+            3,
+            4
+          ],
+          "end_words": [
+            "decree",
+            "nothing",
+            "me",
+            "magnificent"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "decree",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "hulled far from the highway aisle",
+            "jagged",
+            "vacance",
+            "thick with ice"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            1,
+            1,
+            2
+          ],
+          "end_words": [
+            "aisle",
+            "jagged",
+            "vacance",
+            "ice"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "aisle",
+              "word2": "ice",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "I could see for miles",
+            "miles",
+            "miles",
+            "above my brother"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            2,
+            1,
+            1,
+            1
+          ],
+          "end_words": [
+            "miles",
+            "miles",
+            "miles",
+            "brother"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "miles",
+              "word2": "miles",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "miles",
+              "word2": "miles",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "I and tangled spines",
+            "we smoked the screen to make it what it was to be",
+            "now to know it in my memory:",
+            "And at once I knew I was not magnificent"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            5,
+            3,
+            4
+          ],
+          "end_words": [
+            "spines",
+            "be",
+            "memory",
+            "magnificent"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "high above the highway aisle",
+            "jagged vacance",
+            "thick with ice",
+            "I could see for miles"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "aisle",
+            "vacance",
+            "ice",
+            "miles"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "aisle",
+              "word2": "ice",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "aisle",
+              "word2": "miles",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "ice",
+              "word2": "miles",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 12,
+          "lines": [
+            "miles",
+            "miles"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            1,
+            1
+          ],
+          "end_words": [
+            "miles",
+            "miles"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "miles",
+              "word2": "miles",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 12,
+          "section_type": "chorus",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "line_count": 2,
+          "stability": 1.0
+        }
+      ],
+      "total_stanzas": 12,
+      "total_lines": 46
+    }
+  }
+}

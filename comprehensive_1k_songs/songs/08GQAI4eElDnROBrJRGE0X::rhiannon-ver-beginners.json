@@ -1,0 +1,603 @@
+{
+  "song_id": "08GQAI4eElDnROBrJRGE0X::rhiannon-ver-beginners",
+  "title": "Rhiannon (ver. Beginners)",
+  "artist": "Fleetwood Mac",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nRhiannon rings like bell through the night.\nF7M\nAnd wouldn't you love to love her\nTakes to the sky like bird in flight\nF7M\nAnd who will be her lover\nF7M\nAll your life you've never seen woman taken by the wind\nWould you stay if she promised you heaven\nF7M\nWill you ever win\n\n[verse]\nShe is like cat in the night\nF7M\nAnd then she is the darkness\nShe rules her life like fine skylark\nF7M\nAnd when the sky is starless\nF7M\nAll your life you've never seen woman taken by the wind\nWould you stay if she promised you heaven\nF7M\nWill you ever win\nF7M\nWill you ever win\n\n[bridge]\nF7M\nRhi - an non\nF7M\nRhi - an non\nF7M\nTaken by, Taken by the sky - - - - - -\nF7M F7M\nTaken by, Taken by the sky - - - - - - - - - - - -\nF7M\nDreams unwind, loves state of mind\n(repeat and fade)",
+  "cleaned_lyrics": "Rhiannon rings like bell through the night.\nF7M\nAnd wouldn't you love to love her\nTakes to the sky like bird in flight\nF7M\nAnd who will be her lover\nF7M\nWould you stay if she promised you heaven\nF7M\nWill you ever win\nShe is like cat in the night\nF7M\nAnd then she is the darkness\nF7M\nAnd when the sky is starless\nF7M\nWould you stay if she promised you heaven\nF7M\nWill you ever win\nF7M\nWill you ever win\nF7M\nRhi - an non\nF7M\nRhi - an non\nF7M\nF7M F7M\nF7M\nDreams unwind\nloves state of mind",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 40,
+    "cleaned_lines": 30,
+    "removed_count": 9,
+    "retention_rate": 0.7894736842105263,
+    "removal_reasons": {
+      "musical_direction": 1,
+      "artist_annotation": 1,
+      "section_marker": 3,
+      "credits_metadata": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Rhiannon rings like bell through the night.",
+          "plot_function": "SETUP",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "This song is about a mysterious woman named Rhiannon.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "original_lyric": "F7M",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "This is a musical chord, not a lyric.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "Takes to the sky like bird in flight",
+          "plot_function": "SETUP",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "Rhiannon is free and soaring.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Would you stay if she promised you heaven",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Would you give up everything for her?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "She is like cat in the night",
+          "plot_function": "SETUP",
+          "emotion_primary": "mystery",
+          "emotion_secondary": null,
+          "eli5_simplification": "Rhiannon is secretive and elusive.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "And when the sky is starless",
+          "plot_function": "SETUP",
+          "emotion_primary": "mystery",
+          "emotion_secondary": null,
+          "eli5_simplification": "Rhiannon is connected to darkness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "Would you stay if she promised you heaven",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Would you give up everything for her?",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "Will you ever win",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "doubt",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Can you ever truly have her?",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "Rhi - an non",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating Rhiannon's name.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Dreams unwind",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about dreams.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "loves state of mind",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about love.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Rhiannon rings like bell through the night.",
+            "F7M",
+            "And wouldn't you love to love her",
+            "Takes to the sky like bird in flight"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            6,
+            2,
+            4,
+            5
+          ],
+          "end_words": [
+            "night",
+            "m",
+            "her",
+            "flight"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "night",
+              "word2": "flight",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "F7M",
+            "And who will be her lover",
+            "F7M",
+            "Would you stay if she promised you heaven"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            1,
+            2,
+            4
+          ],
+          "end_words": [
+            "m",
+            "lover",
+            "m",
+            "heaven"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "m",
+              "word2": "m",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "m",
+              "word2": "heaven",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "F7M",
+            "Will you ever win",
+            "She is like cat in the night",
+            "F7M"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "m",
+            "win",
+            "night",
+            "m"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "m",
+              "word2": "m",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "And then she is the darkness",
+            "F7M",
+            "And when the sky is starless",
+            "F7M"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            1,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "darkness",
+            "m",
+            "starless",
+            "m"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "darkness",
+              "word2": "starless",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AA), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "m",
+              "word2": "m",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Would you stay if she promised you heaven",
+            "F7M",
+            "Will you ever win",
+            "F7M"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "heaven",
+            "m",
+            "win",
+            "m"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "heaven",
+              "word2": "m",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "m",
+              "word2": "m",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Will you ever win",
+            "F7M",
+            "Rhi - an non",
+            "F7M"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "win",
+            "m",
+            "non",
+            "m"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "m",
+              "word2": "m",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Rhi - an non",
+            "F7M",
+            "F7M F7M",
+            "F7M"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            2
+          ],
+          "end_words": [
+            "non",
+            "m",
+            "m",
+            "m"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "m",
+              "word2": "m",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "m",
+              "word2": "m",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Dreams unwind",
+            "loves state of mind"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            3
+          ],
+          "end_words": [
+            "unwind",
+            "mind"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "unwind",
+              "word2": "mind",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "chorus",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 30
+    }
+  }
+}

@@ -1,0 +1,495 @@
+{
+  "song_id": "0ECwFtbIWEVNwjlrfc6xoL::all-night-long",
+  "title": "All Night Long",
+  "artist": "Eagles",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWe get up early and we work all day\nWe put our time in because we like to stay up\n\n[chorus]\nAll night long All night long\n\n[verse]\nWe keep on grinning until the weekend comes\nJust pinch between your cheek and gum\n\n[chorus]\nAll night long All night long\n\n[verse]\nStart in the morning and get the job done\nTake care of business and we have some fun\n\n[chorus]\nAll night long All night long\n\n[verse]\nWe like long neck and good old song\nTurn it up and then we sing along, sing along\nWe're all staying up all night long\nGuitar Solo\n\n[chorus]\nAll night long All night long\nAll night long All night long\n\n[outro]\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nMark W",
+  "cleaned_lyrics": "We get up early and we work all day\nWe put our time in because we like to stay up\nAll night long All night long\nWe keep on grinning until the weekend comes\nJust pinch between your cheek and gum\nAll night long All night long\nStart in the morning and get the job done\nTake care of business and we have some fun\nAll night long All night long\nWe like long neck and good old song\nTurn it up and then we sing along\nsing along\nWe're all staying up all night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nMark W",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 41,
+    "cleaned_lines": 24,
+    "removed_count": 10,
+    "retention_rate": 0.7272727272727273,
+    "removal_reasons": {
+      "performance_instruction": 1,
+      "section_marker": 9
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "We get up early and we work all day\nWe put our time in because we like to stay up",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "They wake up early and work hard because they enjoy it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "original_lyric": "All night long All night long\nWe keep on grinning until the weekend comes\nJust pinch between your cheek and gum\nAll night long All night long",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are happy and excited, looking forward to the weekend.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            7,
+            8,
+            9
+          ],
+          "original_lyric": "Start in the morning and get the job done\nTake care of business and we have some fun\nAll night long All night long",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "They work hard and then have fun.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10,
+            11,
+            12
+          ],
+          "original_lyric": "We like long neck and good old song\nTurn it up and then we sing along\nsing along",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "They enjoy music and singing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "We're all staying up all night long",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are all staying up all night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "original_lyric": "All night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long\nAll night long All night long",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the phrase 'All night long'.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 23,
+        "covered_lines": 23,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 23,
+      "covered_lines": 23,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "We get up early and we work all day",
+            "We put our time in because we like to stay up",
+            "All night long All night long",
+            "We keep on grinning until the weekend comes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            6,
+            6,
+            6,
+            5
+          ],
+          "end_words": [
+            "day",
+            "up",
+            "long",
+            "comes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "up",
+              "word2": "comes",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Just pinch between your cheek and gum",
+            "All night long All night long",
+            "Start in the morning and get the job done",
+            "Take care of business and we have some fun"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            5,
+            6,
+            5,
+            5
+          ],
+          "end_words": [
+            "gum",
+            "long",
+            "done",
+            "fun"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "gum",
+              "word2": "done",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AH), post-consonants in same family"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "done",
+              "word2": "fun",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "All night long All night long",
+            "We like long neck and good old song",
+            "Turn it up and then we sing along",
+            "sing along"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            6,
+            6,
+            4,
+            2
+          ],
+          "end_words": [
+            "long",
+            "song",
+            "along",
+            "along"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "long",
+              "word2": "song",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "song",
+              "word2": "along",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "along",
+              "word2": "along",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "We're all staying up all night long",
+            "All night long All night long",
+            "All night long All night long",
+            "All night long All night long"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            7,
+            6,
+            6,
+            6
+          ],
+          "end_words": [
+            "long",
+            "long",
+            "long",
+            "long"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "long",
+              "word2": "long",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "long",
+              "word2": "long",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "long",
+              "word2": "long",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "All night long All night long",
+            "All night long All night long",
+            "All night long All night long",
+            "All night long All night long"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            6,
+            6,
+            6,
+            6
+          ],
+          "end_words": [
+            "long",
+            "long",
+            "long",
+            "long"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "long",
+              "word2": "long",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "long",
+              "word2": "long",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "long",
+              "word2": "long",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "All night long All night long",
+            "All night long All night long",
+            "All night long All night long",
+            "Mark W"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            6,
+            6,
+            6,
+            2
+          ],
+          "end_words": [
+            "long",
+            "long",
+            "long",
+            "w"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "long",
+              "word2": "long",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "long",
+              "word2": "long",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 24
+    }
+  }
+}

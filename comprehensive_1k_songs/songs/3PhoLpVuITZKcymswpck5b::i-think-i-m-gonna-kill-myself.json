@@ -1,0 +1,568 @@
+{
+  "song_id": "3PhoLpVuITZKcymswpck5b::i-think-i-m-gonna-kill-myself",
+  "title": "I Think I'm Gonna Kill Myself",
+  "artist": "Elton John",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI'm getting bored being part of mankind\nThere's not lot to do no more\nThis race is waste of time\nPeople rushing everywhere\nSwarming around like flies\nThink I'll buy forty four\nGive them all surprise\nThink I'm gonna kill myself\n\n[chorus]\nStick around for couple of days\nWhat scandal if I died\nYeah I'm gonna kill myself\nGet little headline news\nI' like to see what the papers say\nOn the state of teenage blues\nrift in my family\nI can't use the car\nI gotta be in by ten o'clock\nWho do they think they are\nI' make an exception\nIf you want to save my life\n\n[bridge]\nAnd see me every night\nThink I'm gonna kill myself\n\n[chorus]\nStick around for couple of days\nWhat scandal if I died\nYeah I'm gonna kill myself\nGet little headline news\nI' like to see what the papers say\nOn the state of teenage blues\n...on the state of teenage blues.\nKill myself....Suicide..... What scandal if I died\nSuicide........Headline news...\nOn the state of teenage blues...(fade out)",
+  "cleaned_lyrics": "I'm getting bored being part of mankind\nThere's not lot to do no more\nThis race is waste of time\nPeople rushing everywhere\nSwarming around like flies\nThink I'll buy forty four\nGive them all surprise\nThink I'm gonna kill myself\nStick around for couple of days\nWhat scandal if I died\nYeah I'm gonna kill myself\nGet little headline news\nI' like to see what the papers say\nOn the state of teenage blues\nrift in my family\nI can't use the car\nI gotta be in by ten o'clock\nWho do they think they are\nI' make an exception\nIf you want to save my life\nAnd see me every night\nThink I'm gonna kill myself\nStick around for couple of days\nWhat scandal if I died\nYeah I'm gonna kill myself\nGet little headline news\nI' like to see what the papers say\nOn the state of teenage blues\n...on the state of teenage blues.\nOn the state of teenage blues...(fade out)",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 39,
+    "cleaned_lines": 30,
+    "removed_count": 6,
+    "retention_rate": 0.8333333333333334,
+    "removal_reasons": {
+      "excessive_punctuation": 2,
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3
+          ],
+          "original_lyric": "I'm getting bored being part of mankind\nThere's not lot to do no more\nThis race is waste of time",
+          "plot_function": "SETUP",
+          "emotion_primary": "boredom",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "The singer is bored with being a human and thinks life is pointless.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "People rushing everywhere\nSwarming around like flies",
+          "plot_function": "SETUP",
+          "emotion_primary": "disgust",
+          "emotion_secondary": "irritation",
+          "eli5_simplification": "The singer is annoyed by how busy and annoying people are.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7,
+            8
+          ],
+          "original_lyric": "Think I'll buy forty four\nGive them all surprise\nThink I'm gonna kill myself",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "despair",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The singer is thinking about killing themself to surprise everyone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "Stick around for couple of days\nWhat scandal if I died\nYeah I'm gonna kill myself",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "despair",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The singer is thinking about killing themself and what people would say.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "Get little headline news\nI' like to see what the papers say",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "despair",
+          "emotion_secondary": "curiosity",
+          "eli5_simplification": "The singer wants to see what the newspapers would say if they died.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "On the state of teenage blues",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is sad about being a teenager.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "original_lyric": "rift in my family\nI can't use the car\nI gotta be in by ten o'clock\nWho do they think they are",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "The singer is angry about family problems and rules.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20,
+            21
+          ],
+          "original_lyric": "I' make an exception\nIf you want to save my life\nAnd see me every night",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "desperation",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer is asking for help and wants someone to save them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23,
+            24
+          ],
+          "original_lyric": "Think I'm gonna kill myself\nStick around for couple of days\nWhat scandal if I died",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "despair",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The singer is thinking about killing themself and what people would say.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "Yeah I'm gonna kill myself\nGet little headline news",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "despair",
+          "emotion_secondary": "curiosity",
+          "eli5_simplification": "The singer wants to see what the newspapers would say if they died.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "I' like to see what the papers say",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "despair",
+          "emotion_secondary": "curiosity",
+          "eli5_simplification": "The singer wants to see what the newspapers would say if they died.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "On the state of teenage blues",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is sad about being a teenager.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "...on the state of teenage blues.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is sad about being a teenager.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "On the state of teenage blues...(fade out)",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is sad about being a teenager.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 30,
+        "covered_lines": 30,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 30,
+      "covered_lines": 30,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I'm getting bored being part of mankind",
+            "There's not lot to do no more",
+            "This race is waste of time",
+            "People rushing everywhere"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            7,
+            5,
+            3,
+            4
+          ],
+          "end_words": [
+            "mankind",
+            "more",
+            "time",
+            "everywhere"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "mankind",
+              "word2": "time",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Swarming around like flies",
+            "Think I'll buy forty four",
+            "Give them all surprise",
+            "Think I'm gonna kill myself"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            5,
+            3,
+            5
+          ],
+          "end_words": [
+            "flies",
+            "four",
+            "surprise",
+            "myself"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "flies",
+              "word2": "surprise",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Stick around for couple of days",
+            "What scandal if I died",
+            "Yeah I'm gonna kill myself",
+            "Get little headline news"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            5,
+            4
+          ],
+          "end_words": [
+            "days",
+            "died",
+            "myself",
+            "news"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I' like to see what the papers say",
+            "On the state of teenage blues",
+            "rift in my family",
+            "I can't use the car"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "say",
+            "blues",
+            "family",
+            "car"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I gotta be in by ten o'clock",
+            "Who do they think they are",
+            "I' make an exception",
+            "If you want to save my life"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            2,
+            2,
+            4
+          ],
+          "end_words": [
+            "o'clock",
+            "are",
+            "exception",
+            "life"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "o'clock",
+              "word2": "are",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AA), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "And see me every night",
+            "Think I'm gonna kill myself",
+            "Stick around for couple of days",
+            "What scandal if I died"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            5,
+            4,
+            4
+          ],
+          "end_words": [
+            "night",
+            "myself",
+            "days",
+            "died"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "night",
+              "word2": "died",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Yeah I'm gonna kill myself",
+            "Get little headline news",
+            "I' like to see what the papers say",
+            "On the state of teenage blues"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 1.0,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "myself",
+            "news",
+            "say",
+            "blues"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "news",
+              "word2": "blues",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "...on the state of teenage blues.",
+            "On the state of teenage blues...(fade out)"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            3,
+            5
+          ],
+          "end_words": [
+            "blues",
+            "out"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 30
+    }
+  }
+}

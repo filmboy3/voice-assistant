@@ -1,0 +1,507 @@
+{
+  "song_id": "0oSGxfWSnnOXhD2fKuz2Gy::changes",
+  "title": "Changes",
+  "artist": "David Bowie",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nI Still don't know what I was waiting for\nAnd my time was running wild,\nmillion dead-end streets.\nAnd every time I thought I' got it made\nIt seems the taste was not so sweet,\nSo I turned my self to face me\n\n[bridge]\nOf how the others must see the faker\nI'm much too fast to take that test\n\n[chorus]\nTime may change me -- but I can't trace time\n-- oh yeah --\nI watch the ripples change their size\n\n[bridge]\nOf warm impermanence.\nAnd so the days flow through my eyes\n\n[bridge]\nAnd this children you spit on\nAs they try to change their worlds,\nAre immune to your consultations.\nThey're quite aware of what they're going through.\n\n[chorus]\nyou've left us up yo our neck in it.\nTime may change me, but you can't trace time.\nStrange fascination fascinating me.\nOh changes are taking the place I'm going through.\n\n[chorus]\nTime may change me, But I can't trace time.",
+  "cleaned_lyrics": "I Still don't know what I was waiting for\nAnd my time was running wild\nmillion dead-end streets.\nAnd every time I thought I' got it made\nIt seems the taste was not so sweet\nSo I turned my self to face me\nOf how the others must see the faker\nI'm much too fast to take that test\nTime may change me -- but I can't trace time\n-- oh yeah --\nI watch the ripples change their size\nOf warm impermanence.\nAnd so the days flow through my eyes\nAnd this children you spit on\nAs they try to change their worlds\nAre immune to your consultations.\nThey're quite aware of what they're going through.\nyou've left us up yo our neck in it.\nTime may change me\nbut you can't trace time.\nStrange fascination fascinating me.\nOh changes are taking the place I'm going through.\nTime may change me\nBut I can't trace time.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 35,
+    "cleaned_lines": 24,
+    "removed_count": 7,
+    "retention_rate": 0.8275862068965517,
+    "removal_reasons": {
+      "section_marker": 7
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I Still don't know what I was waiting for\nAnd my time was running wild",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "uncertainty",
+          "eli5_simplification": "I don't know what I'm waiting for, and time is flying by.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "million dead-end streets.",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "There are many paths that lead nowhere.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "And every time I thought I' got it made\nIt seems the taste was not so sweet",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "disappointment",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "Every time I thought I succeeded, it wasn't as good as I hoped.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "So I turned my self to face me\nOf how the others must see the faker",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "self-doubt",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "I looked at myself and wondered how others see me, maybe as a fake.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "I'm much too fast to take that test",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anxiety",
+          "emotion_secondary": "null",
+          "eli5_simplification": "I'm too quick to be tested.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Time may change me -- but I can't trace time",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Time changes me, but I can't control time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "-- oh yeah --",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "null",
+          "emotion_secondary": "null",
+          "eli5_simplification": "Just a sound.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "I watch the ripples change their size\nOf warm impermanence.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "observation",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "I see things changing, nothing lasts forever.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "And so the days flow through my eyes",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Time passes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "And this children you spit on\nAs they try to change their worlds",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "You treat the young badly as they try to make things better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Are immune to your consultations.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "null",
+          "eli5_simplification": "They don't care what you think.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "They're quite aware of what they're going through.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "null",
+          "eli5_simplification": "They know what's happening.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "you've left us up yo our neck in it.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "blame",
+          "eli5_simplification": "You've caused us problems.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Time may change me\nbut you can't trace time.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Time changes me, but you can't control time.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Strange fascination fascinating me.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": "fascination",
+          "eli5_simplification": "I'm strangely fascinated.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Oh changes are taking the place I'm going through.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Changes are happening to me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23,
+            24
+          ],
+          "original_lyric": "Time may change me\nBut I can't trace time.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Time changes me, but I can't control time.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          "I/you"
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 24,
+        "covered_lines": 24,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        "I/you"
+      ]
+    },
+    "coverage": {
+      "total_lines": 24,
+      "covered_lines": 24,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I Still don't know what I was waiting for",
+            "And my time was running wild",
+            "million dead-end streets.",
+            "And every time I thought I' got it made"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            3,
+            4,
+            5
+          ],
+          "end_words": [
+            "for",
+            "wild",
+            "streets",
+            "made"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "It seems the taste was not so sweet",
+            "So I turned my self to face me",
+            "Of how the others must see the faker",
+            "I'm much too fast to take that test"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            6
+          ],
+          "end_words": [
+            "sweet",
+            "me",
+            "faker",
+            "test"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "sweet",
+              "word2": "me",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Time may change me -- but I can't trace time",
+            "-- oh yeah --",
+            "I watch the ripples change their size",
+            "Of warm impermanence."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            2,
+            4,
+            2
+          ],
+          "end_words": [
+            "time",
+            "yeah",
+            "size",
+            "impermanence"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "time",
+              "word2": "size",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "And so the days flow through my eyes",
+            "And this children you spit on",
+            "As they try to change their worlds",
+            "Are immune to your consultations."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "eyes",
+            "on",
+            "worlds",
+            "consultations"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "They're quite aware of what they're going through.",
+            "you've left us up yo our neck in it.",
+            "Time may change me",
+            "but you can't trace time."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            7,
+            6,
+            3,
+            3
+          ],
+          "end_words": [
+            "through",
+            "it",
+            "me",
+            "time"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Strange fascination fascinating me.",
+            "Oh changes are taking the place I'm going through.",
+            "Time may change me",
+            "But I can't trace time."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            7,
+            3,
+            3
+          ],
+          "end_words": [
+            "me",
+            "through",
+            "me",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 24
+    }
+  }
+}

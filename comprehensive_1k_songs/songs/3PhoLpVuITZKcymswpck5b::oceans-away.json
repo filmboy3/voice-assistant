@@ -1,0 +1,552 @@
+{
+  "song_id": "3PhoLpVuITZKcymswpck5b::oceans-away",
+  "title": "Oceans Away",
+  "artist": "Elton John",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI hung out with the old folks, in the hope that I' get wise.\nI was trying to bridge the gap, between the great divide.\nHung on every recollection, in the theatre of their eyes\nPicking up on this and that, in the few that still survive.\n\n[chorus]\nDust off\nLet shine\nThe ones who hold onto the ones, they had to leave behind\nThose that flew, those that fell,\nThe ones that had to stay,\n\n[bridge]\nOceans away\nREPEAT INTRO\nThey bend like trees in winter, these shuffling old gray lions\nThough snow white start to gather, like the belt around Orion.\nJust touch of faded lightning, of the powerful design,\nOf the generation gathered, for maybe the last time.\nREPEAT Chorus\n\n[bridge]\nOceans away where the green grass sways and the cool wind blows across the shadow of their graves.\n#\nshoulder to shoulder, back in the day, sleeping bones to rest in Earth\nO - ceans away\nO - ceans away\nREPEAT Chorus\nREPEAT INTRO",
+  "cleaned_lyrics": "I hung out with the old folks\nin the hope that I' get wise.\nI was trying to bridge the gap\nbetween the great divide.\nHung on every recollection\nin the theatre of their eyes\nPicking up on this and that\nin the few that still survive.\nDust off\nLet shine\nThe ones who hold onto the ones\nthey had to leave behind\nThose that flew\nthose that fell\nThe ones that had to stay\nOceans away\nThey bend like trees in winter\nthese shuffling old gray lions\nThough snow white start to gather\nlike the belt around Orion.\nJust touch of faded lightning\nof the powerful design\nOf the generation gathered\nfor maybe the last time.\nOceans away where the green grass sways and the\ncool wind blows across the shadow of their graves.\nshoulder to shoulder\nback in the day\nsleeping bones to rest in Earth\nO - ceans away\nO - ceans away",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 30,
+    "cleaned_lines": 31,
+    "removed_count": 8,
+    "retention_rate": 1.1481481481481481,
+    "removal_reasons": {
+      "performance_instruction": 4,
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "original_lyric": "I hung out with the old folks\nin the hope that I' get wise.\nI was trying to bridge the gap\nbetween the great divide.",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is spending time with older people to learn from them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "original_lyric": "Hung on every recollection\nin the theatre of their eyes\nPicking up on this and that\nin the few that still survive.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is listening closely to the stories of the older people, trying to understand their experiences.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "original_lyric": "Dust off\nLet shine\nThe ones who hold onto the ones\nthey had to leave behind",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "Remembering and honoring those who are gone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "original_lyric": "Those that flew\nthose that fell\nThe ones that had to stay\nOceans away",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Thinking about those who are gone, far away.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "original_lyric": "They bend like trees in winter\nthese shuffling old gray lions\nThough snow white start to gather\nlike the belt around Orion.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "reflection",
+          "eli5_simplification": "Describing the old people and their aging.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "original_lyric": "Just touch of faded lightning\nof the powerful design\nOf the generation gathered\nfor maybe the last time.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Remembering the past and the older generation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "original_lyric": "Oceans away where the green grass sways and the\ncool wind blows across the shadow of their graves.\nshoulder to shoulder\nback in the day",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Thinking about the distance and the graves.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "original_lyric": "sleeping bones to rest in Earth\nO - ceans away\nO - ceans away",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "The finality of death and the distance.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 32,
+        "covered_lines": 32,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 32,
+      "covered_lines": 32,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I hung out with the old folks",
+            "in the hope that I' get wise.",
+            "I was trying to bridge the gap",
+            "between the great divide."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "folks",
+            "wise",
+            "gap",
+            "divide"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "wise",
+              "word2": "divide",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Hung on every recollection",
+            "in the theatre of their eyes",
+            "Picking up on this and that",
+            "in the few that still survive."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            3
+          ],
+          "end_words": [
+            "recollection",
+            "eyes",
+            "that",
+            "survive"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "eyes",
+              "word2": "survive",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Dust off",
+            "Let shine",
+            "The ones who hold onto the ones",
+            "they had to leave behind"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            3
+          ],
+          "end_words": [
+            "off",
+            "shine",
+            "ones",
+            "behind"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "shine",
+              "word2": "behind",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Those that flew",
+            "those that fell",
+            "The ones that had to stay",
+            "Oceans away"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            1,
+            1,
+            3,
+            2
+          ],
+          "end_words": [
+            "flew",
+            "fell",
+            "stay",
+            "away"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "stay",
+              "word2": "away",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "They bend like trees in winter",
+            "these shuffling old gray lions",
+            "Though snow white start to gather",
+            "like the belt around Orion."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            4,
+            5,
+            4
+          ],
+          "end_words": [
+            "winter",
+            "lions",
+            "gather",
+            "orion"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "lions",
+              "word2": "orion",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Just touch of faded lightning",
+            "of the powerful design",
+            "Of the generation gathered",
+            "for maybe the last time."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            2,
+            2,
+            3
+          ],
+          "end_words": [
+            "lightning",
+            "design",
+            "gathered",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "lightning",
+              "word2": "design",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "design",
+              "word2": "time",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Oceans away where the green grass sways and the",
+            "cool wind blows across the shadow of their graves.",
+            "shoulder to shoulder",
+            "back in the day"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            6,
+            6,
+            2,
+            2
+          ],
+          "end_words": [
+            "the",
+            "graves",
+            "shoulder",
+            "day"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "graves",
+              "word2": "day",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "sleeping bones to rest in Earth",
+            "O - ceans away",
+            "O - ceans away"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XAA",
+          "raw_rhyme_scheme": "ABB",
+          "pattern": "3_ABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "earth",
+            "away",
+            "away"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "away",
+              "word2": "away",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAA",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 31
+    }
+  }
+}

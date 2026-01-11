@@ -1,0 +1,740 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::drink-to-me",
+  "title": "Drink To Me",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nDrink to me, drink to me\nDrink to me, drink to me\nDrink to me\n\n[verse]\nrose, carnation, the lily and an orchid\nMake such pretty bouquet (drink to me, drink to me)\n\n[bridge]\nSo I threw all the others away (drink to me, drink to me)\nThen you took the orchid and you breathed on its petals\nAnd after day or two\nThe flower still blooms but the scent's not the orchids\nIt carries the savor of you\nDrink to me, drink to me\nDrink to me, drink to me\nDrink to me\n\n[verse]\nSo if you are going to drink to me, drink with your eyes\nAnd I will never cry for wine (drink to me, drink to me)\nOr leave kiss in an empty coffee cup\nThen pass it from your lips to mine (drink to me, drink to me)\n\n[bridge]\nAnd honey from sugar tree\nIs not half as sweet as the air that you breathe\nHoney come here and drink to me\nDrink to me, drink to me\nDrink to me, drink to me\nDrink to me",
+  "cleaned_lyrics": "Drink to me\ndrink to me\nDrink to me\ndrink to me\nDrink to me\nrose\ncarnation\nthe lily and an orchid\nMake such pretty bouquet (drink to me\ndrink to me)\nSo I threw all the others away (drink to me\ndrink to me)\nThen you took the orchid and you breathed on its petals\nAnd after day or two\nThe flower still blooms but the scent's not the orchids\nIt carries the savor of you\nDrink to me\ndrink to me\nDrink to me\ndrink to me\nDrink to me\nSo if you are going to drink to me\ndrink with your eyes\nAnd I will never cry for wine (drink to me\ndrink to me)\nOr leave kiss in an empty coffee cup\nThen pass it from your lips to mine (drink to me\ndrink to me)\nAnd honey from sugar tree\nIs not half as sweet as the air that you breathe\nHoney come here and drink to me\nDrink to me\ndrink to me\nDrink to me\ndrink to me\nDrink to me",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 32,
+    "cleaned_lines": 36,
+    "removed_count": 5,
+    "retention_rate": 1.2857142857142858,
+    "removal_reasons": {
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "original_lyric": "Drink to me\ndrink to me\nDrink to me\ndrink to me\nDrink to me",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is asking someone to drink to them.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "original_lyric": "rose\ncarnation\nthe lily and an orchid\nMake such pretty bouquet (drink to me\ndrink to me)",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is describing a beautiful bouquet of flowers.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "So I threw all the others away (drink to me\ndrink to me)",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer got rid of other things.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "Then you took the orchid and you breathed on its petals\nAnd after day or two",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone else interacted with the orchid.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "The flower still blooms but the scent's not the orchids\nIt carries the savor of you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The flower smells like the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "original_lyric": "Drink to me\ndrink to me\nDrink to me\ndrink to me",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is asking someone to drink to them.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "So if you are going to drink to me\ndrink with your eyes",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer wants the person to drink to them with their eyes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "And I will never cry for wine (drink to me\ndrink to me)",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer won't cry for wine.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "Or leave kiss in an empty coffee cup\nThen pass it from your lips to mine (drink to me\ndrink to me)",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer wants a kiss.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "And honey from sugar tree\nIs not half as sweet as the air that you breathe",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer thinks the person is sweeter than honey.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28,
+            29
+          ],
+          "original_lyric": "Honey come here and drink to me\nDrink to me",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer wants the person to come and drink to them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "original_lyric": "drink to me\ndrink to me\ndrink to me\ndrink to me",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is asking someone to drink to them.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 33,
+        "covered_lines": 33,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 33,
+      "covered_lines": 33,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Drink to me",
+            "drink to me",
+            "Drink to me",
+            "drink to me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "me",
+            "me",
+            "me",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Drink to me",
+            "rose",
+            "carnation",
+            "the lily and an orchid"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "end_words": [
+            "me",
+            "rose",
+            "carnation",
+            "orchid"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Make such pretty bouquet (drink to me",
+            "drink to me)",
+            "So I threw all the others away (drink to me",
+            "drink to me)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            6,
+            2,
+            6,
+            2
+          ],
+          "end_words": [
+            "me",
+            "me",
+            "me",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Then you took the orchid and you breathed on its petals",
+            "And after day or two",
+            "The flower still blooms but the scent's not the orchids",
+            "It carries the savor of you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            3,
+            6,
+            3
+          ],
+          "end_words": [
+            "petals",
+            "two",
+            "orchids",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "two",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Drink to me",
+            "drink to me",
+            "Drink to me",
+            "drink to me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "me",
+            "me",
+            "me",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Drink to me",
+            "So if you are going to drink to me",
+            "drink with your eyes",
+            "And I will never cry for wine (drink to me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            4,
+            2,
+            5
+          ],
+          "end_words": [
+            "me",
+            "me",
+            "eyes",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "drink to me)",
+            "Or leave kiss in an empty coffee cup",
+            "Then pass it from your lips to mine (drink to me",
+            "drink to me)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            5,
+            5,
+            2
+          ],
+          "end_words": [
+            "me",
+            "cup",
+            "me",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "And honey from sugar tree",
+            "Is not half as sweet as the air that you breathe",
+            "Honey come here and drink to me",
+            "Drink to me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            3,
+            5,
+            5,
+            2
+          ],
+          "end_words": [
+            "tree",
+            "breathe",
+            "me",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "tree",
+              "word2": "breathe",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "tree",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "breathe",
+              "word2": "me",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "drink to me",
+            "Drink to me",
+            "drink to me",
+            "Drink to me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "me",
+            "me",
+            "me",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 36
+    }
+  }
+}

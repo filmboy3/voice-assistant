@@ -1,0 +1,470 @@
+{
+  "song_id": "3PhoLpVuITZKcymswpck5b::island-girl",
+  "title": "Island Girl",
+  "artist": "Elton John",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI see your teeth flash, Jamaican honey so sweet\nDown where Lexington cross 47th Street\nShe's big girl, she's standing six foot three\nTurning tricks for the dudes in the big city\nIsland girl\nWhat you wanting with the white man's world\nIsland girl\n\n[bridge]\nHe want to take you from the racket boss\nHe want to save you but the cause is lost\nIsland girl, island girl, island girl\nTell me what you wanting with the white man's world\nShe's black as coal but she burn like fire\nAnd she wrap herself around you like well worn tire\nYou feel her nail scratch your back just like rake\nHe one more gone, he one more John who make the mistake\nrepeat chorus\nrepeat chous again",
+  "cleaned_lyrics": "I see your teeth flash\nJamaican honey so sweet\nDown where Lexington cross 47th Street\nShe's big girl\nshe's standing six foot three\nTurning tricks for the dudes in the big city\nIsland girl\nWhat you wanting with the white man's world\nIsland girl\nHe want to take you from the racket boss\nHe want to save you but the cause is lost\nIsland girl\nisland girl\nisland girl\nTell me what you wanting with the white man's world\nShe's black as coal but she burn like fire\nAnd she wrap herself around you like well worn tire\nYou feel her nail scratch your back just like rake\nHe one more gone\nhe one more John who make the mistake\nrepeat chous again",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 20,
+    "cleaned_lines": 21,
+    "removed_count": 3,
+    "retention_rate": 1.105263157894737,
+    "removal_reasons": {
+      "performance_instruction": 1,
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I see your teeth flash\nJamaican honey so sweet",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone is noticing how pretty a girl is.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "Down where Lexington cross 47th Street",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "This is where the girl is.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "She's big girl\nshe's standing six foot three",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The girl is tall.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Turning tricks for the dudes in the big city",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The girl is doing something she shouldn't be.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Island girl\nWhat you wanting with the white man's world",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Why is she doing this?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Island girl\nHe want to take you from the racket boss",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Someone wants to help her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "He want to save you but the cause is lost",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "It's too late to save her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13,
+            14
+          ],
+          "original_lyric": "Island girl\nisland girl\nisland girl",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the girl.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Tell me what you wanting with the white man's world",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Why is she doing this?",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "She's black as coal but she burn like fire\nAnd she wrap herself around you like well worn tire",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "Describing the girl's beauty and allure.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "You feel her nail scratch your back just like rake",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Describing a physical interaction.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "He one more gone\nhe one more John who make the mistake",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Another person is hurt.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I see your teeth flash",
+            "Jamaican honey so sweet",
+            "Down where Lexington cross 47th Street",
+            "She's big girl"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            3,
+            7,
+            3
+          ],
+          "end_words": [
+            "flash",
+            "sweet",
+            "street",
+            "girl"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "sweet",
+              "word2": "street",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "she's standing six foot three",
+            "Turning tricks for the dudes in the big city",
+            "Island girl",
+            "What you wanting with the white man's world"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            5,
+            2,
+            5
+          ],
+          "end_words": [
+            "three",
+            "city",
+            "girl",
+            "world"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "girl",
+              "word2": "world",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (ER), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Island girl",
+            "He want to take you from the racket boss",
+            "He want to save you but the cause is lost",
+            "Island girl"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            4,
+            4,
+            2
+          ],
+          "end_words": [
+            "girl",
+            "boss",
+            "lost",
+            "girl"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "girl",
+              "word2": "girl",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (ER), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "island girl",
+            "island girl",
+            "Tell me what you wanting with the white man's world",
+            "She's black as coal but she burn like fire"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            2,
+            2,
+            6,
+            6
+          ],
+          "end_words": [
+            "girl",
+            "girl",
+            "world",
+            "fire"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "girl",
+              "word2": "girl",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (ER), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "girl",
+              "word2": "world",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (ER), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "And she wrap herself around you like well worn tire",
+            "You feel her nail scratch your back just like rake",
+            "He one more gone",
+            "he one more John who make the mistake"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            7,
+            7,
+            3,
+            5
+          ],
+          "end_words": [
+            "tire",
+            "rake",
+            "gone",
+            "mistake"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "rake",
+              "word2": "mistake",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "repeat chous again"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3
+          ],
+          "end_words": [
+            "again"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 21
+    }
+  }
+}

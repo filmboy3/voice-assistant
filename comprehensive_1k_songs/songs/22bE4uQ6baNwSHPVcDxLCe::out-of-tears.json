@@ -1,0 +1,990 @@
+{
+  "song_id": "22bE4uQ6baNwSHPVcDxLCe::out-of-tears",
+  "title": "Out Of Tears",
+  "artist": "The Rolling Stones",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI can't feel\nFeel thing\nI can't shout\nI can't scream\n\n[bridge]\nAll this love\nFrom within\nI won't cry when you say goodbye\nI'm out of tears\nI won't die when you wave goodbye\nI'm out of tears\n- 2x's\n\n[verse]\nI won't drink\nI won't eat\nI can't hear\nI won't speak\nLet it out\nLet it in\nAll this pain\nFrom within\nAnd I just can't pour my heart out\nTo another living thing\nI'm whisper\nI'm shadow\n\n[bridge]\nI won't cry when you say goodbye\nI'm out of tears\nI won't die when you wave goodbye\nI'm out of tears\nI won't cry, I swear my eyes are dry\nI'm out of tears\nI won't cry, I'm going to tell you why\nI'm out of tears\n\n[verse]\nLet it out\nFrom within\nSome you lose\nSome you win\nI can drift\nI can dream\nTil I float\nOff your screen\nAnd I just can't pour my heart out\nTo another living thing\nI'm whisper\nI'm shadow\n\n[chorus]\nany questions, comments or corrections -mail me at:\n[email protected]",
+  "cleaned_lyrics": "I can't feel\nFeel thing\nI can't shout\nI can't scream\nAll this love\nFrom within\nI won't cry when you say goodbye\nI'm out of tears\nI won't die when you wave goodbye\nI'm out of tears\n- 2x's\nI won't drink\nI won't eat\nI can't hear\nI won't speak\nLet it out\nLet it in\nAll this pain\nFrom within\nAnd I just can't pour my heart out\nTo another living thing\nI'm whisper\nI'm shadow\nI won't cry when you say goodbye\nI'm out of tears\nI won't die when you wave goodbye\nI'm out of tears\nI won't cry\nI swear my eyes are dry\nI'm out of tears\nI won't cry\nI'm going to tell you why\nI'm out of tears\nLet it out\nFrom within\nSome you lose\nSome you win\nI can drift\nI can dream\nTil I float\nOff your screen\nAnd I just can't pour my heart out\nTo another living thing\nI'm whisper\nI'm shadow\n[email protected]",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 56,
+    "cleaned_lines": 46,
+    "removed_count": 7,
+    "retention_rate": 0.9019607843137255,
+    "removal_reasons": {
+      "navigation": 1,
+      "section_marker": 6
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I can't feel\nFeel thing",
+          "plot_function": "SETUP",
+          "emotion_primary": "numbness",
+          "emotion_secondary": null,
+          "eli5_simplification": "I don't feel anything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I can't shout\nI can't scream",
+          "plot_function": "SETUP",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "I can't yell or make any noise.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "All this love\nFrom within",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I have a lot of love inside me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "I won't cry when you say goodbye",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "defiance",
+          "eli5_simplification": "I won't cry when you leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "I'm out of tears",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "I have no more tears to cry.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "I won't die when you wave goodbye",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "defiance",
+          "eli5_simplification": "I won't die when you leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "I'm out of tears",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "I have no more tears to cry.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "I won't cry when you say goodbye\nI'm out of tears",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "defiance",
+          "eli5_simplification": "I won't cry when you leave, because I have no tears left.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "I won't drink\nI won't eat",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "despair",
+          "emotion_secondary": null,
+          "eli5_simplification": "I won't do anything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "I can't hear\nI won't speak",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "despair",
+          "emotion_secondary": null,
+          "eli5_simplification": "I can't hear or talk.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "Let it out\nLet it in",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Let the feelings out and in.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "All this pain\nFrom within",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "pain",
+          "emotion_secondary": null,
+          "eli5_simplification": "I have a lot of pain inside me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "And I just can't pour my heart out",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "I can't share my feelings.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "To another living thing",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "isolation",
+          "emotion_secondary": null,
+          "eli5_simplification": "I can't share my feelings with anyone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "I'm whisper\nI'm shadow",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "isolation",
+          "emotion_secondary": null,
+          "eli5_simplification": "I am like a whisper and a shadow.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "I won't cry when you say goodbye",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "defiance",
+          "eli5_simplification": "I won't cry when you leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "I'm out of tears",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "I have no more tears to cry.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "I won't die when you wave goodbye",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "defiance",
+          "eli5_simplification": "I won't die when you leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "I'm out of tears",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "I have no more tears to cry.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "I won't cry",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "I won't cry.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "I swear my eyes are dry",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "My eyes are dry.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "I'm out of tears",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "I have no more tears to cry.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "I won't cry",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "I won't cry.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33
+          ],
+          "original_lyric": "I'm going to tell you why",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "I'm going to tell you why.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34
+          ],
+          "original_lyric": "I'm out of tears",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "I have no more tears to cry.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35,
+            36
+          ],
+          "original_lyric": "Let it out\nFrom within",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Let the feelings out.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            37,
+            38
+          ],
+          "original_lyric": "Some you lose\nSome you win",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "You win some, you lose some.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            39,
+            40
+          ],
+          "original_lyric": "I can drift\nI can dream",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "I can drift and dream.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            41,
+            42
+          ],
+          "original_lyric": "Til I float\nOff your screen",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Until I float away.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            43
+          ],
+          "original_lyric": "And I just can't pour my heart out",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "I can't share my feelings.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            44
+          ],
+          "original_lyric": "To another living thing",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "isolation",
+          "emotion_secondary": null,
+          "eli5_simplification": "I can't share my feelings with anyone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            45,
+            46
+          ],
+          "original_lyric": "I'm whisper\nI'm shadow",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "isolation",
+          "emotion_secondary": null,
+          "eli5_simplification": "I am like a whisper and a shadow.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 46,
+        "covered_lines": 46,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 46,
+      "covered_lines": 46,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I can't feel",
+            "Feel thing",
+            "I can't shout",
+            "I can't scream"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "feel",
+            "thing",
+            "shout",
+            "scream"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "feel",
+              "word2": "scream",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "All this love",
+            "From within",
+            "I won't cry when you say goodbye",
+            "I'm out of tears"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            1,
+            5,
+            3
+          ],
+          "end_words": [
+            "love",
+            "within",
+            "goodbye",
+            "tears"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "within",
+              "word2": "tears",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I won't die when you wave goodbye",
+            "I'm out of tears",
+            "- 2x's",
+            "I won't drink"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            3,
+            1,
+            2
+          ],
+          "end_words": [
+            "goodbye",
+            "tears",
+            "x's",
+            "drink"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "tears",
+              "word2": "drink",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I won't eat",
+            "I can't hear",
+            "I won't speak",
+            "Let it out"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "eat",
+            "hear",
+            "speak",
+            "out"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "eat",
+              "word2": "speak",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (IY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Let it in",
+            "All this pain",
+            "From within",
+            "And I just can't pour my heart out"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            2,
+            1,
+            5
+          ],
+          "end_words": [
+            "in",
+            "pain",
+            "within",
+            "out"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "in",
+              "word2": "within",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "To another living thing",
+            "I'm whisper",
+            "I'm shadow",
+            "I won't cry when you say goodbye"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            2,
+            2,
+            5
+          ],
+          "end_words": [
+            "thing",
+            "whisper",
+            "shadow",
+            "goodbye"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "thing",
+              "word2": "whisper",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "I'm out of tears",
+            "I won't die when you wave goodbye",
+            "I'm out of tears",
+            "I won't cry"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            3,
+            5,
+            3,
+            2
+          ],
+          "end_words": [
+            "tears",
+            "goodbye",
+            "tears",
+            "cry"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "tears",
+              "word2": "tears",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "goodbye",
+              "word2": "cry",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "I swear my eyes are dry",
+            "I'm out of tears",
+            "I won't cry",
+            "I'm going to tell you why"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            4
+          ],
+          "end_words": [
+            "dry",
+            "tears",
+            "cry",
+            "why"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "dry",
+              "word2": "cry",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "cry",
+              "word2": "why",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "I'm out of tears",
+            "Let it out",
+            "From within",
+            "Some you lose"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            2,
+            1,
+            2
+          ],
+          "end_words": [
+            "tears",
+            "out",
+            "within",
+            "lose"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "tears",
+              "word2": "within",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "Some you win",
+            "I can drift",
+            "I can dream",
+            "Til I float"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "end_words": [
+            "win",
+            "drift",
+            "dream",
+            "float"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "win",
+              "word2": "drift",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "Off your screen",
+            "And I just can't pour my heart out",
+            "To another living thing",
+            "I'm whisper"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            5,
+            3,
+            2
+          ],
+          "end_words": [
+            "screen",
+            "out",
+            "thing",
+            "whisper"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "thing",
+              "word2": "whisper",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 12,
+          "lines": [
+            "I'm shadow",
+            "[email protected]"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX",
+          "pattern_confidence": 1.0,
+          "stability": 0.8,
+          "stress_counts": [
+            2,
+            2
+          ],
+          "end_words": [
+            "shadow",
+            "protected"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 12,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX",
+          "line_count": 2,
+          "stability": 0.8
+        }
+      ],
+      "total_stanzas": 12,
+      "total_lines": 46
+    }
+  }
+}

@@ -1,0 +1,430 @@
+{
+  "song_id": "3PhoLpVuITZKcymswpck5b::candy-by-the-pound",
+  "title": "Candy by the pound",
+  "artist": "Elton John",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWell I'm keeping off the streets - since you came to town.\nSince you claimed my heart - from the lost and found.\nI - I - I have said 'goodbye' to my foolin' around.\nNow you and me, babe, we got can - dy by the pound.\nYou and me, babe, we got can - dy by the pound.\nWell I never knew - it could feel so good.\n\n[bridge]\nRain on my roof - what sweet sound.\nOh, with you underneath it's like can - dy by the pound.\nWith you underneath it's like can - dy by the pound.\nYou can tell everybody that this girl of mine -\nis sweeter than the grapes hanging from the vine.\nLove like wine honey drinking till I drown.\nKeep it coming baby like can - dy by the pound.\nOh no, what's come over me? If I dreaming then let me sleep.\nOh wow - I'm heaven bound. Love is getting sweeter than can - dy by\nthe pound.\nNow I'm ducking in the alley of common sense.\nHiding from the claws of my old girl friend.\nShe's screaming murder beating my door down.\nWhile I'm right behind it I'm eating candy by the pound.\nI'm right behind it eating I'm candy by the pound.",
+  "cleaned_lyrics": "Well I'm keeping off the streets\n- since you came to town.\nSince you claimed my heart - from the lost and found.\nI - I - I have said 'goodbye' to my foolin' around.\nWell I never knew - it could feel so good.\nRain on my roof - what sweet sound.\nYou can tell everybody that this girl of mine -\nis sweeter than the grapes hanging from the vine.\nLove like wine honey drinking till I drown.\nOh no\nwhat's come over me? If I dreaming then let me sleep.\nOh wow - I'm heaven bound. Love\nis getting sweeter than can - dy by\nthe pound.\nNow I'm ducking in the alley of common sense.\nHiding from the claws of my old girl friend.\nShe's screaming murder beating my door down.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 24,
+    "cleaned_lines": 17,
+    "removed_count": 9,
+    "retention_rate": 0.7391304347826086,
+    "removal_reasons": {
+      "section_marker": 2,
+      "credits_metadata": 7
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Well I'm keeping off the streets\n- since you came to town.",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is happy because someone special came to town and they are staying out of trouble.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "Since you claimed my heart - from the lost and found.",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer feels like their heart was found by this special person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "I - I - I have said 'goodbye' to my foolin' around.",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": "relief",
+          "eli5_simplification": "The singer has stopped doing bad things.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Well I never knew - it could feel so good.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is feeling great.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Rain on my roof - what sweet sound.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is enjoying the simple things.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "You can tell everybody that this girl of mine -\nis sweeter than the grapes hanging from the vine.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "pride",
+          "eli5_simplification": "The singer is bragging about how great their girl is.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Love like wine honey drinking till I drown.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is deeply in love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "Oh no",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Something bad is about to happen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "what's come over me? If I dreaming then let me sleep.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "confusion",
+          "eli5_simplification": "The singer is scared and confused.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Oh wow - I'm heaven bound. Love",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "joy",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer is feeling great again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "is getting sweeter than can - dy by\nthe pound.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Love is the best feeling.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Now I'm ducking in the alley of common sense.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer is hiding.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Hiding from the claws of my old girl friend.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is hiding from their ex.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "She's screaming murder beating my door down.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The ex is very angry.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 17,
+        "covered_lines": 17,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 17,
+      "covered_lines": 17,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Well I'm keeping off the streets",
+            "- since you came to town.",
+            "Since you claimed my heart - from the lost and found.",
+            "I - I - I have said 'goodbye' to my foolin' around."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            5,
+            3,
+            5,
+            4
+          ],
+          "end_words": [
+            "streets",
+            "town",
+            "found",
+            "around"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "town",
+              "word2": "found",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "found",
+              "word2": "around",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Well I never knew - it could feel so good.",
+            "Rain on my roof - what sweet sound.",
+            "You can tell everybody that this girl of mine -",
+            "is sweeter than the grapes hanging from the vine."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            5,
+            5,
+            4
+          ],
+          "end_words": [
+            "good",
+            "sound",
+            "mine",
+            "vine"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "mine",
+              "word2": "vine",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Love like wine honey drinking till I drown.",
+            "Oh no",
+            "what's come over me? If I dreaming then let me sleep.",
+            "Oh wow - I'm heaven bound. Love"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            7,
+            2,
+            7,
+            6
+          ],
+          "end_words": [
+            "drown",
+            "no",
+            "sleep",
+            "love"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "is getting sweeter than can - dy by",
+            "the pound.",
+            "Now I'm ducking in the alley of common sense.",
+            "Hiding from the claws of my old girl friend."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            1,
+            6,
+            5
+          ],
+          "end_words": [
+            "by",
+            "pound",
+            "sense",
+            "friend"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "sense",
+              "word2": "friend",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "She's screaming murder beating my door down."
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            6
+          ],
+          "end_words": [
+            "down"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 17
+    }
+  }
+}

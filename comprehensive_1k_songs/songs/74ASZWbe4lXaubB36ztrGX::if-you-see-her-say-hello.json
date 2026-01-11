@@ -1,0 +1,701 @@
+{
+  "song_id": "74ASZWbe4lXaubB36ztrGX::if-you-see-her-say-hello",
+  "title": "If You See Her, Say Hello",
+  "artist": "Bob Dylan",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nIf you see her say hello, she might be in Tangiers\nShe left here last early spring, is living there I hear\nSay for me that I'm alright, though things get kind of slow\nShe might think that I've forgotten her\nDon't tell her it isn't so\nWe had falling out, like lovers often will\nAnd to think of how she left that night, it still brings me chill\nAnd though our separation, it pierced me to the heart\nShe still lives inside of me,\nWe've never been apart\nIf you get close to her, kiss her once for me\nI always have respected her, for doin' what she did and gettin' free\nWhatever makes her happy, I won't stand in the way\nThough the bitter taste still lingers on\nFrom the night I tried to make her stay\nI see lot of people, as I make the rounds\nAnd I hear her name here and there as I go from town to town\nAnd I've never gotten used to it, I've just learned to turn it off\nMaybe I'm too sensitive,\nOr else I'm gettin'' soft\nSundown, yellow moon, I replay the past\nI know every scene by heart, it all went by so fast\nIf she's goin' by this way, I'm not that hard to find\nTell her she can look me up\nIf she's got the time",
+  "cleaned_lyrics": "If you see her say hello\nshe might be in Tangiers\nShe left here last early spring\nis living there I hear\nSay for me that I'm alright\nthough things get kind of slow\nShe might think that I've forgotten her\nDon't tell her it isn't so\nWe had falling out\nlike lovers often will\nAnd to think of how she left that night\nit still brings me chill\nAnd though our separation\nit pierced me to the heart\nShe still lives inside of me\nWe've never been apart\nIf you get close to her\nkiss her once for me\nI always have respected her\nfor doin' what she did and gettin' free\nWhatever makes her happy\nI won't stand in the way\nThough the bitter taste still lingers on\nFrom the night I tried to make her stay\nI see lot of people\nas I make the rounds\nAnd I hear her name here and there as I go from town to town\nAnd I've never gotten used to it\nI've just learned to turn it off\nMaybe I'm too sensitive\nOr else I'm gettin'' soft\nSundown\nyellow moon\nI replay the past\nTell her she can look me up\nIf she's got the time",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 26,
+    "cleaned_lines": 36,
+    "removed_count": 3,
+    "retention_rate": 1.3846153846153846,
+    "removal_reasons": {
+      "section_marker": 1,
+      "credits_metadata": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "If you see her say hello\nshe might be in Tangiers",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants someone to tell his ex-lover hello if they see her, and she might be in a faraway place.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "She left here last early spring\nis living there I hear",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer knows where she went and that she is living there.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Say for me that I'm alright\nthough things get kind of slow",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer wants her to know he is doing okay, even though things are slow.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "She might think that I've forgotten her\nDon't tell her it isn't so",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer is afraid she thinks he forgot her, and wants her to know he hasn't.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "We had falling out\nlike lovers often will\nAnd to think of how she left that night\nit still brings me chill",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "They had a fight, like couples do, and the singer still feels sad when he remembers how she left.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "And though our separation\nit pierced me to the heart\nShe still lives inside of me",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Even though they are apart, it hurt him, and he still thinks about her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "We've never been apart",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He feels like they are still together in his heart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "If you get close to her\nkiss her once for me",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you see her, give her a kiss for him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "I always have respected her\nfor doin' what she did and gettin' free",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "respect",
+          "eli5_simplification": "He respects her for leaving and being free.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "Whatever makes her happy\nI won't stand in the way",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wants her to be happy and won't stop her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "Though the bitter taste still lingers on\nFrom the night I tried to make her stay",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "He still feels bad about the night he tried to make her stay.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "I see lot of people\nas I make the rounds\nAnd I hear her name here and there as I go from town to town",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "He sees people and hears her name as he travels.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "And I've never gotten used to it\nI've just learned to turn it off",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "He never got used to it, but he learned to ignore it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "Maybe I'm too sensitive\nOr else I'm gettin'' soft",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wonders if he is too sensitive or becoming soft.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "Sundown\nyellow moon",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He is reflecting on the past.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "I replay the past",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He is replaying the past.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32,
+            33
+          ],
+          "original_lyric": "Tell her she can look me up\nIf she's got the time",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "He wants her to contact him if she wants to.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 33,
+        "covered_lines": 33,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 33,
+      "covered_lines": 33,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "If you see her say hello",
+            "she might be in Tangiers",
+            "She left here last early spring",
+            "is living there I hear"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4,
+            1,
+            5,
+            3
+          ],
+          "end_words": [
+            "hello",
+            "tangiers",
+            "spring",
+            "hear"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "tangiers",
+              "word2": "spring",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "tangiers",
+              "word2": "hear",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IH), one word adds post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "spring",
+              "word2": "hear",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Say for me that I'm alright",
+            "though things get kind of slow",
+            "She might think that I've forgotten her",
+            "Don't tell her it isn't so"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            5,
+            4,
+            4
+          ],
+          "end_words": [
+            "alright",
+            "slow",
+            "her",
+            "so"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "slow",
+              "word2": "so",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "We had falling out",
+            "like lovers often will",
+            "And to think of how she left that night",
+            "it still brings me chill"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "out",
+            "will",
+            "night",
+            "chill"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "will",
+              "word2": "chill",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "And though our separation",
+            "it pierced me to the heart",
+            "She still lives inside of me",
+            "We've never been apart"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            3
+          ],
+          "end_words": [
+            "separation",
+            "heart",
+            "me",
+            "apart"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "heart",
+              "word2": "apart",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "If you get close to her",
+            "kiss her once for me",
+            "I always have respected her",
+            "for doin' what she did and gettin' free"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            4
+          ],
+          "end_words": [
+            "her",
+            "me",
+            "her",
+            "free"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "her",
+              "word2": "her",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (ER), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "me",
+              "word2": "free",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Whatever makes her happy",
+            "I won't stand in the way",
+            "Though the bitter taste still lingers on",
+            "From the night I tried to make her stay"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            3,
+            6,
+            4
+          ],
+          "end_words": [
+            "happy",
+            "way",
+            "on",
+            "stay"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "way",
+              "word2": "stay",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "I see lot of people",
+            "as I make the rounds",
+            "And I hear her name here and there as I go from town to town",
+            "And I've never gotten used to it"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            2,
+            7,
+            5
+          ],
+          "end_words": [
+            "people",
+            "rounds",
+            "town",
+            "it"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "rounds",
+              "word2": "town",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "I've just learned to turn it off",
+            "Maybe I'm too sensitive",
+            "Or else I'm gettin'' soft",
+            "Sundown"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            1
+          ],
+          "end_words": [
+            "off",
+            "sensitive",
+            "soft",
+            "sundown"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "off",
+              "word2": "soft",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AO), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "yellow moon",
+            "I replay the past",
+            "Tell her she can look me up",
+            "If she's got the time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            3,
+            4
+          ],
+          "end_words": [
+            "moon",
+            "past",
+            "up",
+            "time"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 36
+    }
+  }
+}

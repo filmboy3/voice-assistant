@@ -1,0 +1,677 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::ballard-of-a-teenage-queen",
+  "title": "Ballard of a teenage queen",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\n(Dream on dream on teenage queen)\n(The prettiest girl we've ever seen)\nThere's story in this town\nOf the prettiest girl around\nGolden hair and eyes of blue\nHow these eyes could blush off you\n(How these eyes could blush off you, aaahaaahaa....)\n\n[bridge]\nWho worked at the candy store\n(Dream on.......prettiest girl we've ever seen)\nShe was tops for all they said\nIt never once went to her head\nShe had everything it seems\nNot care this teenage queen (repeat in backing)\nOther boys could offer more\n\n[bridge]\n(Dream on, dream on teenage queen\nYou should be movie queen)\nHe would merry her next spring\nSaved his money bought ring\nTen one day movy scout\n\n[chorus]\nHolywood could offer more\nSo she left the boy next door who worked..etc.\n(Dream on dream on teenage queen\nSee you on the movie screen)\n\n[verse]\nPretty house and fancy car\nSwimming pool and fence around\n\n[bridge]\nAll the world was at her door\n\n[bridge]\n(Dream on....queen\nSaddest girl we've ever seen)\nThen one day the teenage star\nSold her house and all her cars\nGave up all her wealth and fame\nLeft it all and cought train (---)\nDo I have to tell you more\nShe came back to the boy next door who worked...etc.\n(Now this story has moral\nhear it all at the candy store)",
+  "cleaned_lyrics": "There's story in this town\nOf the prettiest girl around\nGolden hair and eyes of blue\nHow these eyes could blush off you\nWho worked at the candy store\nShe was tops for all they said\nIt never once went to her head\nShe had everything it seems\nNot care this teenage queen (repeat in backing)\nOther boys could offer more\n(Dream on\ndream on teenage queen\nYou should be movie queen)\nHe would merry her next spring\nSaved his money bought ring\nTen one day movy scout\nHolywood could offer more\nSo she left the boy next door who worked..etc.\n(Dream on dream on teenage queen\nSee you on the movie screen)\nPretty house and fancy car\nSwimming pool and fence around\nAll the world was at her door\n(Dream on....queen\nSaddest girl we've ever seen)\nThen one day the teenage star\nSold her house and all her cars\nGave up all her wealth and fame\nLeft it all and cought train (---)\nDo I have to tell you more\nShe came back to the boy next door who worked...etc.\n(Now this story has moral\nhear it all at the candy store)",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 49,
+    "cleaned_lines": 33,
+    "removed_count": 11,
+    "retention_rate": 0.7674418604651163,
+    "removal_reasons": {
+      "artist_annotation": 4,
+      "section_marker": 7
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "There's story in this town\nOf the prettiest girl around",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "This song is about a girl who is very pretty and lives in a town.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Golden hair and eyes of blue\nHow these eyes could blush off you",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "She has pretty features and is shy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Who worked at the candy store",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "She worked at a candy store.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "She was tops for all they said\nIt never once went to her head",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone thought she was great, but she wasn't conceited.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "She had everything it seems\nNot care this teenage queen (repeat in backing)",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "She seemed to have everything, but she didn't care.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "Other boys could offer more",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Other boys wanted to be with her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12,
+            13
+          ],
+          "original_lyric": "(Dream on\ndream on teenage queen\nYou should be movie queen)",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone is dreaming that she should be a movie star.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "He would merry her next spring\nSaved his money bought ring",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "A boy wants to marry her and saved money for a ring.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "Ten one day movy scout\nHolywood could offer more",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "A movie scout saw her and Hollywood offered her more.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "So she left the boy next door who worked..etc.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "She left the boy she was going to marry.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20,
+            21
+          ],
+          "original_lyric": "(Dream on dream on teenage queen\nSee you on the movie screen)",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "She is dreaming of being on the movie screen.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "Pretty house and fancy car\nSwimming pool and fence around",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "She has a nice house and car.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "All the world was at her door",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "She has everything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26,
+            27
+          ],
+          "original_lyric": "(Dream on....queen\nSaddest girl we've ever seen)",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "She is the saddest girl.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            28,
+            29
+          ],
+          "original_lyric": "Then one day the teenage star\nSold her house and all her cars",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "She sold everything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30,
+            31
+          ],
+          "original_lyric": "Gave up all her wealth and fame\nLeft it all and cought train (---)",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "She gave up everything and left.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "Do I have to tell you more",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Do I need to tell you what happened next?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33
+          ],
+          "original_lyric": "She came back to the boy next door who worked...etc.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "She went back to the boy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34,
+            35,
+            36
+          ],
+          "original_lyric": "(Now this story has moral\nhear it all at the candy store)",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The story has a lesson.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 36,
+        "covered_lines": 36,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 36,
+      "covered_lines": 36,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "There's story in this town",
+            "Of the prettiest girl around",
+            "Golden hair and eyes of blue",
+            "How these eyes could blush off you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            5
+          ],
+          "end_words": [
+            "town",
+            "around",
+            "blue",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "town",
+              "word2": "around",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "blue",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Who worked at the candy store",
+            "She was tops for all they said",
+            "It never once went to her head",
+            "She had everything it seems"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "store",
+            "said",
+            "head",
+            "seems"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "said",
+              "word2": "head",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Not care this teenage queen (repeat in backing)",
+            "Other boys could offer more",
+            "(Dream on",
+            "dream on teenage queen"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            4,
+            2,
+            3
+          ],
+          "end_words": [
+            "backing",
+            "more",
+            "on",
+            "queen"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "You should be movie queen)",
+            "He would merry her next spring",
+            "Saved his money bought ring",
+            "Ten one day movy scout"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_words": [
+            "queen",
+            "spring",
+            "ring",
+            "scout"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "spring",
+              "word2": "ring",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Holywood could offer more",
+            "So she left the boy next door who worked..etc.",
+            "(Dream on dream on teenage queen",
+            "See you on the movie screen)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            6,
+            4,
+            3
+          ],
+          "end_words": [
+            "more",
+            "etc",
+            "queen",
+            "screen"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "queen",
+              "word2": "screen",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Pretty house and fancy car",
+            "Swimming pool and fence around",
+            "All the world was at her door",
+            "(Dream on....queen"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            2
+          ],
+          "end_words": [
+            "car",
+            "around",
+            "door",
+            "queen"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Saddest girl we've ever seen)",
+            "Then one day the teenage star",
+            "Sold her house and all her cars",
+            "Gave up all her wealth and fame"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            5
+          ],
+          "end_words": [
+            "seen",
+            "star",
+            "cars",
+            "fame"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "star",
+              "word2": "cars",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AA), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Left it all and cought train (---)",
+            "Do I have to tell you more",
+            "She came back to the boy next door who worked...etc.",
+            "(Now this story has moral"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            2,
+            7,
+            3
+          ],
+          "end_words": [
+            "train",
+            "more",
+            "etc",
+            "moral"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "more",
+              "word2": "moral",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "hear it all at the candy store)"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "store"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 33
+    }
+  }
+}

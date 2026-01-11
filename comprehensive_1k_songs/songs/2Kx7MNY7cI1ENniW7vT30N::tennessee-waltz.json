@@ -1,0 +1,196 @@
+{
+  "song_id": "2Kx7MNY7cI1ENniW7vT30N::tennessee-waltz",
+  "title": "Tennessee Waltz",
+  "artist": "Norah Jones",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\n(verse 1)\nI was dancin' with my baby to the tennessee waltz\nWhen an old friend i happened to see.\nI introduced him to my darlin' and while they were waltzing\nMy friend stole my sweetheart from me.\n(Chorus 1)\nI remember the night and the tennessee waltz\nAnd i knew just how much i had lost\nYes i lost my little darlin' the night they were playin'\n\n[bridge]\n(solo - same as verse)\n(Chorus 1)",
+  "cleaned_lyrics": "When an old friend i happened to see.\nI introduced him to my darlin' and while they were waltzing\nMy friend stole my sweetheart from me.\nI remember the night and the tennessee waltz\nAnd i knew just how much i had lost\nYes i lost my little darlin' the night they were playin'",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 14,
+    "cleaned_lines": 6,
+    "removed_count": 7,
+    "retention_rate": 0.46153846153846156,
+    "removal_reasons": {
+      "artist_annotation": 4,
+      "section_marker": 2,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "When an old friend i happened to see.",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer saw an old friend.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "I introduced him to my darlin' and while they were waltzing",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer introduced the friend to their sweetheart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "My friend stole my sweetheart from me.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The friend took the singer's sweetheart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "I remember the night and the tennessee waltz",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer remembers the night and the song.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "And i knew just how much i had lost",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer knew how much they had lost.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Yes i lost my little darlin' the night they were playin'",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer lost their sweetheart that night.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 6,
+        "covered_lines": 6,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 6,
+      "covered_lines": 6,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "When an old friend i happened to see.",
+            "I introduced him to my darlin' and while they were waltzing",
+            "My friend stole my sweetheart from me.",
+            "I remember the night and the tennessee waltz",
+            "And i knew just how much i had lost",
+            "Yes i lost my little darlin' the night they were playin'"
+          ],
+          "line_count": 6,
+          "rhyme_scheme": "ABABBX",
+          "raw_rhyme_scheme": "ABABBC",
+          "pattern": "6_ABABCC",
+          "pattern_confidence": 0.6833333333333333,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            4,
+            6,
+            6
+          ],
+          "end_words": [
+            "see",
+            "waltzing",
+            "me",
+            "waltz",
+            "lost",
+            "playin"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "see",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "waltzing",
+              "word2": "waltz",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            },
+            {
+              "line1": 4,
+              "line2": 5,
+              "word1": "waltz",
+              "word2": "lost",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "ABABBX",
+          "pattern": "6_ABABCC",
+          "line_count": 6,
+          "stability": 0.95
+        }
+      ],
+      "total_stanzas": 1,
+      "total_lines": 6
+    }
+  }
+}

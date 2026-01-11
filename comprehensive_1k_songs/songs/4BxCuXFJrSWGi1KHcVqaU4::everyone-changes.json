@@ -1,0 +1,871 @@
+{
+  "song_id": "4BxCuXFJrSWGi1KHcVqaU4::everyone-changes",
+  "title": "Everyone Changes",
+  "artist": "Kodaline",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThey say that the hardest thing\nTo do is say goodbye\nThis is the hardest thing\nWe tried to stitch it up\nAnd now I wonder why\nWhy is this happening to me?\n\n[bridge]\nHad another fight\nWe were young\n\n[intro]\nMaybe you and I\nWould be walking down the aisle\nDressed in white\nI can see that all you need\nIs everything I'll never be\n\n[bridge]\nEveryone changes\nSay goodbye and let it be\nI thought you were the one for me\n\n[bridge]\nEveryone changes\nYou say you left everything\n\n[bridge]\nDreaming of futures with\n\n[chorus]\nDid they ever mean thing to you?\n\n[bridge]\nHad another fight\nWe were young\n\n[intro]\nMaybe you and I\nWould be walking down the aisle\nDressed in white\nI can see that all you need\nIs everything I'll never be\n\n[bridge]\nEveryone changes\nSay goodbye and let it be\nI thought you were the one for me\n\n[bridge]\nEveryone changes\n\n[bridge]\nHad another fight\nWe were young\n\n[intro]\nMaybe you and I\nWould be walking down the aisle\nDressed in white\nI can see that all you need\nIs everything I'll never be\n\n[bridge]\nEveryone changes\nSay goodbye and let it be\nI thought you were the one for me\n\n[bridge]\nEveryone changes",
+  "cleaned_lyrics": "They say that the hardest thing\nTo do is say goodbye\nThis is the hardest thing\nWe tried to stitch it up\nAnd now I wonder why\nWhy is this happening to me?\nHad another fight\nWe were young\nMaybe you and I\nWould be walking down the aisle\nDressed in white\nI can see that all you need\nIs everything I'll never be\nEveryone changes\nSay goodbye and let it be\nI thought you were the one for me\nEveryone changes\nYou say you left everything\nDreaming of futures with\nDid they ever mean thing to you?\nHad another fight\nWe were young\nMaybe you and I\nWould be walking down the aisle\nDressed in white\nI can see that all you need\nIs everything I'll never be\nEveryone changes\nSay goodbye and let it be\nI thought you were the one for me\nEveryone changes\nHad another fight\nWe were young\nMaybe you and I\nWould be walking down the aisle\nDressed in white\nI can see that all you need\nIs everything I'll never be\nEveryone changes\nSay goodbye and let it be\nI thought you were the one for me\nEveryone changes",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 71,
+    "cleaned_lines": 42,
+    "removed_count": 15,
+    "retention_rate": 0.7368421052631579,
+    "removal_reasons": {
+      "section_marker": 15
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "They say that the hardest thing\nTo do is say goodbye",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "People say the hardest thing is to say goodbye.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "This is the hardest thing",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "This goodbye is the hardest thing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "We tried to stitch it up\nAnd now I wonder why",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "confusion",
+          "eli5_simplification": "They tried to fix things, and now they don't know why it didn't work.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Why is this happening to me?",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Why is this happening to me?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Had another fight",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "They fought again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "We were young\nMaybe you and I",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "They were young, and maybe they could have been together.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "Would be walking down the aisle\nDressed in white",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "They could have been getting married.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "I can see that all you need\nIs everything I'll never be",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "They see what the other person needs, and they can't provide it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15,
+            16
+          ],
+          "original_lyric": "Everyone changes\nSay goodbye and let it be\nI thought you were the one for me",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "Everyone changes. They have to say goodbye, even though they thought they were meant to be.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "Everyone changes",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "Everyone changes.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "You say you left everything",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The other person left everything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Dreaming of futures with",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "They were dreaming of a future together.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Did they ever mean thing to you?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "doubt",
+          "eli5_simplification": "Did the dreams ever mean anything to the other person?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "original_lyric": "Had another fight\nWe were young\nMaybe you and I\nWould be walking down the aisle",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "They fought again, and they were young, and maybe they could have been getting married.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "Dressed in white",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "They could have been getting married.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "I can see that all you need\nIs everything I'll never be",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "They see what the other person needs, and they can't provide it.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            28,
+            29,
+            30
+          ],
+          "original_lyric": "Everyone changes\nSay goodbye and let it be\nI thought you were the one for me",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "Everyone changes. They have to say goodbye, even though they thought they were meant to be.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            31,
+            32,
+            33,
+            34
+          ],
+          "original_lyric": "Had another fight\nWe were young\nMaybe you and I\nWould be walking down the aisle",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "They fought again, and they were young, and maybe they could have been getting married.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            35
+          ],
+          "original_lyric": "Dressed in white",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "They could have been getting married.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            36,
+            37
+          ],
+          "original_lyric": "I can see that all you need\nIs everything I'll never be",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "They see what the other person needs, and they can't provide it.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            38,
+            39,
+            40
+          ],
+          "original_lyric": "Everyone changes\nSay goodbye and let it be\nI thought you were the one for me",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "Everyone changes. They have to say goodbye, even though they thought they were meant to be.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 40,
+        "covered_lines": 40,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 40,
+      "covered_lines": 40,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "They say that the hardest thing",
+            "To do is say goodbye",
+            "This is the hardest thing",
+            "We tried to stitch it up"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            2,
+            2,
+            3
+          ],
+          "end_words": [
+            "thing",
+            "goodbye",
+            "thing",
+            "up"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "thing",
+              "word2": "thing",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "And now I wonder why",
+            "Why is this happening to me?",
+            "Had another fight",
+            "We were young"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            1
+          ],
+          "end_words": [
+            "why",
+            "me",
+            "fight",
+            "young"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "why",
+              "word2": "fight",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Maybe you and I",
+            "Would be walking down the aisle",
+            "Dressed in white",
+            "I can see that all you need"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            2,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "i",
+            "aisle",
+            "white",
+            "need"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "i",
+              "word2": "aisle",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "i",
+              "word2": "white",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "aisle",
+              "word2": "white",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Is everything I'll never be",
+            "Everyone changes",
+            "Say goodbye and let it be",
+            "I thought you were the one for me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            5,
+            3,
+            4,
+            3
+          ],
+          "end_words": [
+            "be",
+            "changes",
+            "be",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "be",
+              "word2": "be",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "be",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Everyone changes",
+            "You say you left everything",
+            "Dreaming of futures with",
+            "Did they ever mean thing to you?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            4
+          ],
+          "end_words": [
+            "changes",
+            "everything",
+            "with",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "everything",
+              "word2": "with",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Had another fight",
+            "We were young",
+            "Maybe you and I",
+            "Would be walking down the aisle"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            1,
+            2,
+            3
+          ],
+          "end_words": [
+            "fight",
+            "young",
+            "i",
+            "aisle"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "fight",
+              "word2": "i",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word adds post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "i",
+              "word2": "aisle",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Dressed in white",
+            "I can see that all you need",
+            "Is everything I'll never be",
+            "Everyone changes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            3,
+            5,
+            3
+          ],
+          "end_words": [
+            "white",
+            "need",
+            "be",
+            "changes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "need",
+              "word2": "be",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Say goodbye and let it be",
+            "I thought you were the one for me",
+            "Everyone changes",
+            "Had another fight"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "be",
+            "me",
+            "changes",
+            "fight"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "be",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "We were young",
+            "Maybe you and I",
+            "Would be walking down the aisle",
+            "Dressed in white"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            1,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "young",
+            "i",
+            "aisle",
+            "white"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "i",
+              "word2": "aisle",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "i",
+              "word2": "white",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "aisle",
+              "word2": "white",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "I can see that all you need",
+            "Is everything I'll never be",
+            "Everyone changes",
+            "Say goodbye and let it be"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            5,
+            3,
+            4
+          ],
+          "end_words": [
+            "need",
+            "be",
+            "changes",
+            "be"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "need",
+              "word2": "be",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "be",
+              "word2": "be",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "I thought you were the one for me",
+            "Everyone changes"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX",
+          "pattern_confidence": 1.0,
+          "stability": 0.8,
+          "stress_counts": [
+            3,
+            3
+          ],
+          "end_words": [
+            "me",
+            "changes"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "chorus",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "chorus",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX",
+          "line_count": 2,
+          "stability": 0.8
+        }
+      ],
+      "total_stanzas": 11,
+      "total_lines": 42
+    }
+  }
+}

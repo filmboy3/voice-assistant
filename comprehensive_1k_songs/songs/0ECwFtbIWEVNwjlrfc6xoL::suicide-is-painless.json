@@ -1,0 +1,637 @@
+{
+  "song_id": "0ECwFtbIWEVNwjlrfc6xoL::suicide-is-painless",
+  "title": "Suicide is painless",
+  "artist": "Eagles",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThrough early morning fog I see\n\n[verse]\nThe pains that are withheld from me\nI realize and I can see that\n(Chorus:)\nSuicide is Painless, it brings on many changes\nAnd I can take or leave it if I please\nTry to find way to make\nall our little joys relate\nWithout that ever-present hate\nand now I know that it's too late and...\n(Chorus)\nThe game of life is hard to play\nI'm going to lose it anyway\nThe losing card I'll sometimes lay\nso this is all I'm going to say, that.....\n(Chorus)\nThe only way to win is cheat\nand lay it down before I'm beat\nAnd to another give seat\nfor that's the only painless feat 'cause...\n(Chorus)\nThe sword of time will pierce our skins\nit doesn't hurt when it begins\n\n[bridge]\nthe pain grows stronger - watch it grin. For...\n(Chorus)\n\n[bridge]\nto answer questions that are key\nIs it to be or not to be\nand I replied, \"Oh, why ask me?\" 'cause...\nSuicide is painless, it brings on many changes\nAnd I can take or leave it if I please\nAnd you can do the same thing if you please.",
+  "cleaned_lyrics": "Through early morning fog I see\nThe pains that are withheld from me\nI realize and I can see that\nSuicide is Painless\nit brings on many changes\nAnd I can take or leave it if I please\nTry to find way to make\nall our little joys relate\nWithout that ever-present hate\nand now I know that it's too late and...\nThe game of life is hard to play\nI'm going to lose it anyway\nThe losing card I'll sometimes lay\nThe only way to win is cheat\nand lay it down before I'm beat\nAnd to another give seat\nfor that's the only painless feat 'cause...\nThe sword of time will pierce our skins\nit doesn't hurt when it begins\nthe pain grows stronger - watch it grin. For...\nto answer questions that are key\nIs it to be or not to be\nand I replied\n\"Oh\nwhy ask me?\" 'cause...\nSuicide is painless\nit brings on many changes\nAnd I can take or leave it if I please\nAnd you can do the same thing if you please.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 38,
+    "cleaned_lines": 29,
+    "removed_count": 10,
+    "retention_rate": 0.8285714285714286,
+    "removal_reasons": {
+      "excessive_punctuation": 1,
+      "artist_annotation": 5,
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Through early morning fog I see\nThe pains that are withheld from me",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer is looking through the fog and seeing the pain they are hiding.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I realize and I can see that\nSuicide is Painless",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "The singer understands that suicide is painless.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "it brings on many changes\nAnd I can take or leave it if I please",
+          "plot_function": "SETUP",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Suicide causes changes, and the singer feels they have a choice.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8,
+            9
+          ],
+          "original_lyric": "Try to find way to make\nall our little joys relate\nWithout that ever-present hate",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer is trying to find a way to connect joys and remove hate.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "and now I know that it's too late and...",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer realizes it's too late to change things.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12,
+            13
+          ],
+          "original_lyric": "The game of life is hard to play\nI'm going to lose it anyway\nThe losing card I'll sometimes lay",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Life is hard, and the singer feels they will lose.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15,
+            16
+          ],
+          "original_lyric": "The only way to win is cheat\nand lay it down before I'm beat\nAnd to another give seat",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "despair",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "The only way to win is to cheat and give up.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "for that's the only painless feat 'cause...",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Giving up is the only painless thing to do.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "The sword of time will pierce our skins\nit doesn't hurt when it begins",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Time hurts us, but it doesn't hurt at first.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "the pain grows stronger - watch it grin. For...",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The pain gets worse.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22,
+            23
+          ],
+          "original_lyric": "to answer questions that are key\nIs it to be or not to be\nand I replied",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "The singer is reflecting on the big question of life and death.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "\"Oh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer's response.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "why ask me?\" 'cause...",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer's response.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "Suicide is painless\nit brings on many changes",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Suicide is painless and causes changes.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "And I can take or leave it if I please",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer has a choice.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "And you can do the same thing if you please.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The listener has the same choice.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          {
+            "line_numbers": [
+              29
+            ],
+            "shift_type": "you"
+          }
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 29,
+        "covered_lines": 29,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        {
+          "line_numbers": [
+            29
+          ],
+          "shift_type": "you"
+        }
+      ]
+    },
+    "coverage": {
+      "total_lines": 29,
+      "covered_lines": 29,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Through early morning fog I see",
+            "The pains that are withheld from me",
+            "I realize and I can see that",
+            "Suicide is Painless"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "see",
+            "me",
+            "that",
+            "painless"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "see",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "it brings on many changes",
+            "And I can take or leave it if I please",
+            "Try to find way to make",
+            "all our little joys relate"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "changes",
+            "please",
+            "make",
+            "relate"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "changes",
+              "word2": "make",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "make",
+              "word2": "relate",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Without that ever-present hate",
+            "and now I know that it's too late and...",
+            "The game of life is hard to play",
+            "I'm going to lose it anyway"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            7,
+            4,
+            4
+          ],
+          "end_words": [
+            "hate",
+            "and",
+            "play",
+            "anyway"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "hate",
+              "word2": "play",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "The losing card I'll sometimes lay",
+            "The only way to win is cheat",
+            "and lay it down before I'm beat",
+            "And to another give seat"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            5,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "lay",
+            "cheat",
+            "beat",
+            "seat"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "cheat",
+              "word2": "beat",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "beat",
+              "word2": "seat",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "for that's the only painless feat 'cause...",
+            "The sword of time will pierce our skins",
+            "it doesn't hurt when it begins",
+            "the pain grows stronger - watch it grin. For..."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            6
+          ],
+          "end_words": [
+            "cause",
+            "skins",
+            "begins",
+            "for"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "skins",
+              "word2": "begins",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "to answer questions that are key",
+            "Is it to be or not to be",
+            "and I replied",
+            "\"Oh"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            3,
+            1,
+            1
+          ],
+          "end_words": [
+            "key",
+            "be",
+            "replied",
+            "oh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "key",
+              "word2": "be",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "why ask me?\" 'cause...",
+            "Suicide is painless",
+            "it brings on many changes",
+            "And I can take or leave it if I please"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            4
+          ],
+          "end_words": [
+            "cause",
+            "painless",
+            "changes",
+            "please"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "painless",
+              "word2": "changes",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "And you can do the same thing if you please."
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "please"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 29
+    }
+  }
+}

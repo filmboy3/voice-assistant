@@ -1,0 +1,886 @@
+{
+  "song_id": "6zFYqv1mOsgBRQbae3JJ9e::piano-man",
+  "title": "Piano Man",
+  "artist": "Billy Joel",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nIts nine o?clock on Saturday\nThe regular crowd shuffles in\nThere?s an old man sitting next to me\nMakin love to his tonic and gin\nHe says, son, can you play me memory?\nI?m not really sure how it goes\n\n[bridge]\nWhen I wore younger mans clothes\nLa la la, de de da\nLa la, de de da da da\nSing us song, you?re the piano man\nSing us song tonight\nWell, were all in the mood for melody\nAnd you?ve got us feelin? alright\nNow john at the bar is friend of mine\nHe gets me my drinks for free\nAnd he?s quick with joke or to light up your smoke\n\n[bridge]\nHe says, \"Bill I believe this is killing me,\"\nAs the smile ran away from his face.\n\"Well I'm sure that I could be movie star,\nIf I could get out of this place.\"\nAnd the waitress is practicing politics\nAs the businessmen slowly gets stoned\nYes, they?re sharing drink they call loneliness\n\n[bridge]\nSing us song, you?re the piano man\nSing us song tonight\nWell, were all in the mood for melody\nAnd you?ve got us feelin alright\nIts pretty good crowd for Saturday\nAnd the manager gives me smile\n\n[chorus]\nTo forget about life for while\nAnd the piano, it sounds like carnival\nAnd the microphone smells like beer\nAnd they sit at the bar and put bread in my jar\nAnd say, man, what are you doin? here?\nLa la la, de de da\nLa la, de de da da da\nSing us song, you?re the piano man\nSing us song tonight\nWell, were all in the mood for melody\nAnd you?ve got us feelin alright",
+  "cleaned_lyrics": "Its nine o?clock on Saturday\nThe regular crowd shuffles in\nThere?s an old man sitting next to me\nMakin love to his tonic and gin\nHe says\nson\ncan you play me memory?\nI?m not really sure how it goes\nWhen I wore younger mans clothes\nLa la la\nde de da\nLa la\nde de da da da\nSing us song tonight\nWell\nwere all in the mood for melody\nAnd you?ve got us feelin? alright\nNow john at the bar is friend of mine\nHe gets me my drinks for free\nAnd he?s quick with joke or to light up your smoke\nHe says\n\"Bill I believe this is killing me\n\"\nAs the smile ran away from his face.\n\"Well I'm sure that I could be movie star\nIf I could get out of this place.\"\nAnd the waitress is practicing politics\nAs the businessmen slowly gets stoned\nYes\nthey?re sharing drink they call loneliness\nSing us song tonight\nWell\nwere all in the mood for melody\nAnd you?ve got us feelin alright\nIts pretty good crowd for Saturday\nAnd the manager gives me smile\nTo forget about life for while\nAnd the microphone smells like beer\nAnd they sit at the bar and put bread in my jar\nAnd say\nman\nwhat are you doin? here?\nLa la la\nde de da\nLa la\nde de da da da\nSing us song tonight\nWell\nwere all in the mood for melody\nAnd you?ve got us feelin alright",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 49,
+    "cleaned_lines": 50,
+    "removed_count": 9,
+    "retention_rate": 1.1111111111111112,
+    "removal_reasons": {
+      "musical_direction": 4,
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Its nine o?clock on Saturday\nThe regular crowd shuffles in",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's Saturday night, and people are arriving at a bar.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "There?s an old man sitting next to me\nMakin love to his tonic and gin",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "An old man is sitting nearby, drinking.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "He says\nson\ncan you play me memory?",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The old man asks the singer to play a song.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "I?m not really sure how it goes\nWhen I wore younger mans clothes",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "uncertainty",
+          "emotion_secondary": "reflection",
+          "eli5_simplification": "The singer isn't sure how the song goes, remembering his younger days.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "La la la\nde de da\nLa la\nde de da da da",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Filler lyrics, the singer is trying to remember.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Sing us song tonight",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is asked to sing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14,
+            15
+          ],
+          "original_lyric": "Well\nwere all in the mood for melody\nAnd you?ve got us feelin? alright",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone is enjoying the music.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "Now john at the bar is friend of mine\nHe gets me my drinks for free",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer talks about a friend at the bar.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "And he?s quick with joke or to light up your smoke\nHe says\n\"Bill I believe this is killing me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The friend is unhappy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "As the smile ran away from his face.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The friend is visibly upset.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "\"Well I'm sure that I could be movie star\nIf I could get out of this place.\"",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "The friend wishes he could leave the bar.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "And the waitress is practicing politics\nAs the businessmen slowly gets stoned",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The waitress and businessmen are also unhappy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "Yes\nthey?re sharing drink they call loneliness",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are all feeling lonely.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "Sing us song tonight",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is asked to sing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28,
+            29,
+            30
+          ],
+          "original_lyric": "Well\nwere all in the mood for melody\nAnd you?ve got us feelin alright",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone is enjoying the music.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            31,
+            32
+          ],
+          "original_lyric": "Its pretty good crowd for Saturday\nAnd the manager gives me smile",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reflects on the crowd and the manager.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33
+          ],
+          "original_lyric": "To forget about life for while",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is trying to forget about life.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34,
+            35
+          ],
+          "original_lyric": "And the microphone smells like beer\nAnd they sit at the bar and put bread in my jar",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer describes the bar.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            36,
+            37
+          ],
+          "original_lyric": "And say\nman\nwhat are you doin? here?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The people at the bar ask the singer what he is doing there.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            38,
+            39,
+            40
+          ],
+          "original_lyric": "La la la\nde de da\nLa la\nde de da da da",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Filler lyrics.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            41
+          ],
+          "original_lyric": "Sing us song tonight",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is asked to sing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            42,
+            43,
+            44
+          ],
+          "original_lyric": "Well\nwere all in the mood for melody\nAnd you?ve got us feelin alright",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone is enjoying the music.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 44,
+        "covered_lines": 44,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 44,
+      "covered_lines": 44,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Its nine o?clock on Saturday",
+            "The regular crowd shuffles in",
+            "There?s an old man sitting next to me",
+            "Makin love to his tonic and gin"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            4,
+            7,
+            4
+          ],
+          "end_words": [
+            "saturday",
+            "in",
+            "me",
+            "gin"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "in",
+              "word2": "gin",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "He says",
+            "son",
+            "can you play me memory?",
+            "I?m not really sure how it goes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            1,
+            1,
+            2,
+            6
+          ],
+          "end_words": [
+            "says",
+            "son",
+            "memory",
+            "goes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "says",
+              "word2": "memory",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "When I wore younger mans clothes",
+            "La la la",
+            "de de da",
+            "La la"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            5,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "clothes",
+            "la",
+            "da",
+            "la"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "la",
+              "word2": "da",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "da",
+              "word2": "la",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "de de da da da",
+            "Sing us song tonight",
+            "Well",
+            "were all in the mood for melody"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            3,
+            1,
+            3
+          ],
+          "end_words": [
+            "da",
+            "tonight",
+            "well",
+            "melody"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "And you?ve got us feelin? alright",
+            "Now john at the bar is friend of mine",
+            "He gets me my drinks for free",
+            "And he?s quick with joke or to light up your smoke"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            5,
+            3,
+            6
+          ],
+          "end_words": [
+            "alright",
+            "mine",
+            "free",
+            "smoke"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "alright",
+              "word2": "mine",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "He says",
+            "\"Bill I believe this is killing me",
+            "\"",
+            "As the smile ran away from his face."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABXC",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            4,
+            0,
+            4
+          ],
+          "end_words": [
+            "says",
+            "me",
+            "",
+            "face"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "\"Well I'm sure that I could be movie star",
+            "If I could get out of this place.\"",
+            "And the waitress is practicing politics",
+            "As the businessmen slowly gets stoned"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            4,
+            3,
+            4
+          ],
+          "end_words": [
+            "star",
+            "place",
+            "politics",
+            "stoned"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "star",
+              "word2": "politics",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AA), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Yes",
+            "they?re sharing drink they call loneliness",
+            "Sing us song tonight",
+            "Well"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            5,
+            3,
+            1
+          ],
+          "end_words": [
+            "yes",
+            "loneliness",
+            "tonight",
+            "well"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "were all in the mood for melody",
+            "And you?ve got us feelin alright",
+            "Its pretty good crowd for Saturday",
+            "And the manager gives me smile"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "melody",
+            "alright",
+            "saturday",
+            "smile"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "alright",
+              "word2": "smile",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "To forget about life for while",
+            "And the microphone smells like beer",
+            "And they sit at the bar and put bread in my jar",
+            "And say"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            5,
+            1
+          ],
+          "end_words": [
+            "while",
+            "beer",
+            "jar",
+            "say"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "man",
+            "what are you doin? here?",
+            "La la la",
+            "de de da"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            1,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "man",
+            "here",
+            "la",
+            "da"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "la",
+              "word2": "da",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 12,
+          "lines": [
+            "La la",
+            "de de da da da",
+            "Sing us song tonight",
+            "Well"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            5,
+            3,
+            1
+          ],
+          "end_words": [
+            "la",
+            "da",
+            "tonight",
+            "well"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "la",
+              "word2": "da",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 13,
+          "lines": [
+            "were all in the mood for melody",
+            "And you?ve got us feelin alright"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            3,
+            4
+          ],
+          "end_words": [
+            "melody",
+            "alright"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 12,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 13,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 13,
+      "total_lines": 50
+    }
+  }
+}

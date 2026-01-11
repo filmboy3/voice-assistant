@@ -1,0 +1,568 @@
+{
+  "song_id": "3PhoLpVuITZKcymswpck5b::aint-nothing-like-the-real-thing",
+  "title": "Aint nothing like the real thing",
+  "artist": "Elton John",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nAin't nothing like the real thing, ba-by. Ain't nothing like the real thing.\nAin't nothing like the real thing, ba-by. Ain't nothing like the real thing.\nI got your picture hanging on my wall but it can't sing, or come to me -\nwhen I call your name. I realized it's just picture in frame.\nI read your letters but you're not here. They don't move me,\nthey don't prove it like when I hear your sweet voice whispering in my ear.\nI play my games of fan-ta-sy. I've been down. I don't see reality.\nI need the shelter of your arms to comfort me\nI got some memories to look back on, though they help me when you're gone\nI'm well aware nothing can take the place of you being there.\nNo other sound - is quite the same as your name.\nNo touch can do half as much - to make me feel better.\nLet's stay together. Ah, ah. Ooh.\nAin't nothing like the real thing, ba-by. Ain't nothing like the real thing.\nSo glad we got the real thing, ba-by. So glad we got the real thing.",
+  "cleaned_lyrics": "Ain't nothing like the real thing\nba-by. Ain't nothing like the real thing.\nAin't nothing like the real thing\nba-by. Ain't nothing like the real thing.\nI got your picture hanging on my wall but it can't sing\nor come to me -\nwhen I call your name. I\nrealized it's just picture in frame.\nI read your letters but you're\nnot here. They don't move me\nthey don't prove it like when I\nhear your sweet voice whispering in my ear.\nI play my games of fan-ta-sy.\nI've been down. I don't see reality.\nI need the shelter of your arms to comfort me\nI got some memories to look back on\nthough they help me when you're gone\nI'm well aware nothing can take\nthe place of you being there.\nNo other sound - is quite the same as your name.\nNo touch can do half as much - to make me feel better.\nLet's stay together. Ah\nah. Ooh.\nAin't nothing like the real thing\nba-by. Ain't nothing like the real thing.\nSo glad we got the real thing\nba-by. So glad we got the real thing.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 16,
+    "cleaned_lines": 27,
+    "removed_count": 1,
+    "retention_rate": 1.6875,
+    "removal_reasons": {
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Ain't nothing like the real thing\nba-by. Ain't nothing like the real thing.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The best thing is the real thing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Ain't nothing like the real thing\nba-by. Ain't nothing like the real thing.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The best thing is the real thing.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7
+          ],
+          "original_lyric": "I got your picture hanging on my wall but it can't sing\nor come to me -\nwhen I call your name. I",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "I have a picture, but it's not the same as the real person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "realized it's just picture in frame.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The picture is not the real thing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "I read your letters but you're\nnot here. They don't move me\nthey don't prove it like when I",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Letters are not the same as the real person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "hear your sweet voice whispering in my ear.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "I miss hearing your voice.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "I play my games of fan-ta-sy.\nI've been down. I don't see reality.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "I'm lost in my thoughts and not seeing the real world.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "I need the shelter of your arms to comfort me",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "I want to be held and comforted.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "I got some memories to look back on\nthough they help me when you're gone",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Memories help me when you're not here.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "I'm well aware nothing can take",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "I know nothing can replace you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "the place of you being there.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I miss you being here.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "No other sound - is quite the same as your name.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Your name is special.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "No touch can do half as much - to make me feel better.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Your touch makes me feel better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "Let's stay together. Ah",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Let's stay together.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "ah. Ooh.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Happy sounds.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "Ain't nothing like the real thing\nba-by. Ain't nothing like the real thing.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The best thing is the real thing.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "So glad we got the real thing\nba-by. So glad we got the real thing.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "love",
+          "eli5_simplification": "I'm happy we have the real thing.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 28,
+        "covered_lines": 28,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 28,
+      "covered_lines": 28,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Ain't nothing like the real thing",
+            "ba-by. Ain't nothing like the real thing.",
+            "Ain't nothing like the real thing",
+            "ba-by. Ain't nothing like the real thing."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            5,
+            6,
+            5,
+            6
+          ],
+          "end_words": [
+            "thing",
+            "thing",
+            "thing",
+            "thing"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "thing",
+              "word2": "thing",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "thing",
+              "word2": "thing",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "thing",
+              "word2": "thing",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I got your picture hanging on my wall but it can't sing",
+            "or come to me -",
+            "when I call your name. I",
+            "realized it's just picture in frame."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            2,
+            5,
+            5
+          ],
+          "end_words": [
+            "sing",
+            "me",
+            "i",
+            "frame"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I read your letters but you're",
+            "not here. They don't move me",
+            "they don't prove it like when I",
+            "hear your sweet voice whispering in my ear."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            5,
+            5,
+            5
+          ],
+          "end_words": [
+            "you're",
+            "me",
+            "i",
+            "ear"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I play my games of fan-ta-sy.",
+            "I've been down. I don't see reality.",
+            "I need the shelter of your arms to comfort me",
+            "I got some memories to look back on"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            5,
+            5,
+            6
+          ],
+          "end_words": [
+            "sy",
+            "reality",
+            "me",
+            "on"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "though they help me when you're gone",
+            "I'm well aware nothing can take",
+            "the place of you being there.",
+            "No other sound - is quite the same as your name."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            5,
+            3,
+            6
+          ],
+          "end_words": [
+            "gone",
+            "take",
+            "there",
+            "name"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "take",
+              "word2": "name",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "No touch can do half as much - to make me feel better.",
+            "Let's stay together. Ah",
+            "ah. Ooh.",
+            "Ain't nothing like the real thing"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            7,
+            4,
+            2,
+            5
+          ],
+          "end_words": [
+            "better",
+            "ah",
+            "ooh",
+            "thing"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "ba-by. Ain't nothing like the real thing.",
+            "So glad we got the real thing",
+            "ba-by. So glad we got the real thing."
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AAA",
+          "raw_rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.7,
+          "stress_counts": [
+            6,
+            4,
+            5
+          ],
+          "end_words": [
+            "thing",
+            "thing",
+            "thing"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "thing",
+              "word2": "thing",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "thing",
+              "word2": "thing",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "line_count": 3,
+          "stability": 0.7
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 27
+    }
+  }
+}

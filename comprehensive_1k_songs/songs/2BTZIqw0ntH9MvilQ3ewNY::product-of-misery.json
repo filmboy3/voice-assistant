@@ -1,0 +1,931 @@
+{
+  "song_id": "2BTZIqw0ntH9MvilQ3ewNY::product-of-misery",
+  "title": "Product Of Misery",
+  "artist": "Cyndi Lauper",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nShe's just product of misery...\nShe's just product of misery...\nEveryday she' go around\nEverytime I see that frown\n\n[bridge]\nThe drudgery goes on and on, Oh\nI just want to say,\nI ain't gonna live that way 'cause\nShe's just product of misery.\nI don't want to live like that,\nJust product of misery.\nI don't want to live like that.\nLike her mother and hers before,\nShe left her heart out by the door.\nEverybody passed it by.\nThey never bothered asking why\nShe stayed looked up inside,\nWatching as the world turns by.\nNow she's just product of misery.\nI don't want to live like that...\nJust product of misery.\nI don't want to live like that.\nI don't want to live like that !\nHey, like that ?!\nI don't want to live like that...\nJust product of misery....\n(keyboard solo)\nAnnie said she must confess\nShe never came and never left,\nNever could communicate and\nNow the time is much too late.\nPassions laid to rest,\n\n[bridge]\nNow she's just product of misery.\nI don't want to live like that...\nJust product of misery.\nI don't want to live like that.\nI don't want to live like that !\nHey, like that ?!\nI don't want to live like that...\nJust product of misery....\nOf misery...",
+  "cleaned_lyrics": "She's just product of misery...\nShe's just product of misery...\nEveryday she' go around\nEverytime I see that frown\nThe drudgery goes on and on\nOh\nI just want to say\nI ain't gonna live that way 'cause\nShe's just product of misery.\nI don't want to live like that\nJust product of misery.\nI don't want to live like that.\nLike her mother and hers before\nEverybody passed it by.\nThey never bothered asking why\nShe stayed looked up inside\nWatching as the world turns by.\nNow she's just product of misery.\nI don't want to live like that...\nJust product of misery.\nI don't want to live like that.\nI don't want to live like that !\nHey\nlike that ?!\nI don't want to live like that...\nJust product of misery....\nAnnie said she must confess\nShe never came and never left\nNever could communicate and\nNow the time is much too late.\nPassions laid to rest\nNow she's just product of misery.\nI don't want to live like that...\nJust product of misery.\nI don't want to live like that.\nI don't want to live like that !\nHey\nlike that ?!\nI don't want to live like that...\nJust product of misery....\nOf misery...",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 45,
+    "cleaned_lines": 41,
+    "removed_count": 5,
+    "retention_rate": 0.9534883720930233,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "section_marker": 3,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "She's just product of misery...\nShe's just product of misery...",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "This song is about a sad person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Everyday she' go around\nEverytime I see that frown",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "Every day, the singer sees the sad person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "The drudgery goes on and on",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "The sadness never ends.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Oh",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "A sigh.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "I just want to say",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to say something.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "I ain't gonna live that way 'cause",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "The singer refuses to be sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "She's just product of misery.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The sad person is the product of misery.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "I don't want to live like that",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "The singer doesn't want to be sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Just product of misery.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The sad person is the product of misery.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "I don't want to live like that.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "The singer doesn't want to be sad.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "Like her mother and hers before\nEverybody passed it by.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "The sadness has been passed down.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "They never bothered asking why",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "No one asked why she was sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "She stayed looked up inside\nWatching as the world turns by.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "isolation",
+          "eli5_simplification": "She stayed sad and watched the world.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Now she's just product of misery.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "She is now the product of misery.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "I don't want to live like that...",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "The singer doesn't want to be sad.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Just product of misery.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The sad person is the product of misery.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "I don't want to live like that !",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "The singer doesn't want to be sad.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "Hey\nlike that ?!",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "Emphasis on not wanting to be sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "I don't want to live like that...",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "The singer doesn't want to be sad.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "Just product of misery....",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The sad person is the product of misery.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "Annie said she must confess\nShe never came and never left",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Annie regrets not being able to connect.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28,
+            29
+          ],
+          "original_lyric": "Never could communicate and\nNow the time is much too late.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "It's too late to communicate.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "Passions laid to rest",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "The passions are gone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "Now she's just product of misery.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "She is now the product of misery.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "I don't want to live like that...",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "The singer doesn't want to be sad.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            33
+          ],
+          "original_lyric": "Just product of misery.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The sad person is the product of misery.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            34
+          ],
+          "original_lyric": "I don't want to live like that !",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "The singer doesn't want to be sad.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            35,
+            36
+          ],
+          "original_lyric": "Hey\nlike that ?!",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "Emphasis on not wanting to be sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            37
+          ],
+          "original_lyric": "I don't want to live like that...",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "The singer doesn't want to be sad.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            38
+          ],
+          "original_lyric": "Just product of misery....",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The sad person is the product of misery.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            39
+          ],
+          "original_lyric": "Of misery...",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song ends with sadness.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 39,
+        "covered_lines": 39,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 39,
+      "covered_lines": 39,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "She's just product of misery...",
+            "She's just product of misery...",
+            "Everyday she' go around",
+            "Everytime I see that frown"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "misery",
+            "misery",
+            "around",
+            "frown"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "misery",
+              "word2": "misery",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "around",
+              "word2": "frown",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "The drudgery goes on and on",
+            "Oh",
+            "I just want to say",
+            "I ain't gonna live that way 'cause"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            1,
+            3,
+            5
+          ],
+          "end_words": [
+            "on",
+            "oh",
+            "say",
+            "cause"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "She's just product of misery.",
+            "I don't want to live like that",
+            "Just product of misery.",
+            "I don't want to live like that."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            4,
+            5,
+            3,
+            5
+          ],
+          "end_words": [
+            "misery",
+            "that",
+            "misery",
+            "that"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "misery",
+              "word2": "misery",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "that",
+              "word2": "that",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Like her mother and hers before",
+            "Everybody passed it by.",
+            "They never bothered asking why",
+            "She stayed looked up inside"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "before",
+            "by",
+            "why",
+            "inside"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "by",
+              "word2": "why",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "why",
+              "word2": "inside",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Watching as the world turns by.",
+            "Now she's just product of misery.",
+            "I don't want to live like that...",
+            "Just product of misery."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            5,
+            5,
+            3
+          ],
+          "end_words": [
+            "by",
+            "misery",
+            "that",
+            "misery"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "misery",
+              "word2": "misery",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I don't want to live like that.",
+            "I don't want to live like that !",
+            "Hey",
+            "like that ?!"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            5,
+            1,
+            2
+          ],
+          "end_words": [
+            "that",
+            "that",
+            "hey",
+            "that"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "that",
+              "word2": "that",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "that",
+              "word2": "that",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "I don't want to live like that...",
+            "Just product of misery....",
+            "Annie said she must confess",
+            "She never came and never left"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            3,
+            3,
+            4
+          ],
+          "end_words": [
+            "that",
+            "misery",
+            "confess",
+            "left"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "confess",
+              "word2": "left",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Never could communicate and",
+            "Now the time is much too late.",
+            "Passions laid to rest",
+            "Now she's just product of misery."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            5,
+            3,
+            5
+          ],
+          "end_words": [
+            "and",
+            "late",
+            "rest",
+            "misery"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "I don't want to live like that...",
+            "Just product of misery.",
+            "I don't want to live like that.",
+            "I don't want to live like that !"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            5,
+            3,
+            5,
+            5
+          ],
+          "end_words": [
+            "that",
+            "misery",
+            "that",
+            "that"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "that",
+              "word2": "that",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "that",
+              "word2": "that",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "Hey",
+            "like that ?!",
+            "I don't want to live like that...",
+            "Just product of misery...."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            2,
+            5,
+            3
+          ],
+          "end_words": [
+            "hey",
+            "that",
+            "that",
+            "misery"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "that",
+              "word2": "that",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "Of misery..."
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            1
+          ],
+          "end_words": [
+            "misery"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 11,
+      "total_lines": 41
+    }
+  }
+}

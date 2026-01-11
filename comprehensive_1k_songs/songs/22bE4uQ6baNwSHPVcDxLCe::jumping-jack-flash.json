@@ -1,0 +1,231 @@
+{
+  "song_id": "22bE4uQ6baNwSHPVcDxLCe::jumping-jack-flash",
+  "title": "Jumping Jack Flash",
+  "artist": "The Rolling Stones",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\n1. I was born in crossfire hurricane,\nand I howled at my mama in the driving rain.\n\n[bridge]\n2. I was raised by toothless, bearded hag,\nI was schooled with strap right across my back.\n\n[bridge]\n3. I was drowned, I was washed up and left for dead,\nI fell down to my feet and I saw they bled.\nI frowned at the crumbs of crust of bread\nI was crowned with spike right thru my head.\n\n[bridge]\nJumping Jack Flash, it`s gas ....... (rep. and fade)",
+  "cleaned_lyrics": "1. I was born in crossfire hurricane\nand I howled at my mama in the driving rain.\n2. I was raised by toothless\nbearded hag\nI was schooled with strap right across my back.\n3. I was drowned\nI was washed up and left for dead\nI fell down to my feet and I saw they bled.\nI frowned at the crumbs of crust of bread\nI was crowned with spike right thru my head.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 16,
+    "cleaned_lines": 10,
+    "removed_count": 5,
+    "retention_rate": 0.7692307692307693,
+    "removal_reasons": {
+      "excessive_punctuation": 1,
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I was born in crossfire hurricane\nand I howled at my mama in the driving rain.",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer was born in a dangerous situation and cried.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I was raised by toothless\nbearded hag\nI was schooled with strap right across my back.",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The singer had a tough childhood with a scary guardian and harsh discipline.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "I was drowned\nI was washed up and left for dead\nI fell down to my feet and I saw they bled.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer almost died and saw others hurt.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "I frowned at the crumbs of crust of bread\nI was crowned with spike right thru my head.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The singer was unhappy with little food and was hurt.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 8,
+        "covered_lines": 8,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 8,
+      "covered_lines": 8,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "1. I was born in crossfire hurricane",
+            "and I howled at my mama in the driving rain.",
+            "2. I was raised by toothless",
+            "bearded hag"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            2,
+            2
+          ],
+          "end_words": [
+            "hurricane",
+            "rain",
+            "toothless",
+            "hag"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I was schooled with strap right across my back.",
+            "3. I was drowned",
+            "I was washed up and left for dead",
+            "I fell down to my feet and I saw they bled."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            1,
+            4,
+            5
+          ],
+          "end_words": [
+            "back",
+            "drowned",
+            "dead",
+            "bled"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "dead",
+              "word2": "bled",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I frowned at the crumbs of crust of bread",
+            "I was crowned with spike right thru my head."
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            5
+          ],
+          "end_words": [
+            "bread",
+            "head"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "bread",
+              "word2": "head",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 3,
+      "total_lines": 10
+    }
+  }
+}

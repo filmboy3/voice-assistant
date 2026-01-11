@@ -1,0 +1,327 @@
+{
+  "song_id": "74ASZWbe4lXaubB36ztrGX::autumn-leaves",
+  "title": "Autumn Leaves",
+  "artist": "Bob Dylan",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThe falling leaves drift by my window\nThe autumn leaves of red and gold\nI see your lips, the summer kisses\nThe sunburnt hands I used to hold\nSince you went away the days grow long\nAnd soon I'll hear old winter's song\n\n[bridge]\nWhen Autumn leaves start to fall\nThe falling leaves drift by my window\nThe autumn leaves of red and gold\nI see your lips, the summer kisses\nThe sunburnt hands I used to hold\nSince you went away the days grow long\nAnd soon I'll hear old winter's song",
+  "cleaned_lyrics": "The autumn leaves of red and gold\nI see your lips\nthe summer kisses\nThe sunburnt hands I used to hold\nSince you went away the days grow long\nAnd soon I'll hear old winter's song\nWhen Autumn leaves start to fall\nThe autumn leaves of red and gold\nI see your lips\nthe summer kisses\nThe sunburnt hands I used to hold\nSince you went away the days grow long\nAnd soon I'll hear old winter's song",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 16,
+    "cleaned_lines": 13,
+    "removed_count": 4,
+    "retention_rate": 0.8666666666666667,
+    "removal_reasons": {
+      "section_marker": 2,
+      "credits_metadata": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "The autumn leaves of red and gold",
+          "plot_function": "SETUP",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts by describing the pretty fall leaves.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2,
+            8
+          ],
+          "original_lyric": "I see your lips",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer remembers the person they miss.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            3,
+            9
+          ],
+          "original_lyric": "the summer kisses",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer remembers the kisses from the person they miss.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            4,
+            10
+          ],
+          "original_lyric": "The sunburnt hands I used to hold",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer remembers holding hands with the person they miss.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            5,
+            11
+          ],
+          "original_lyric": "Since you went away the days grow long",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer is sad because the person is gone and time feels slow.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            6,
+            12
+          ],
+          "original_lyric": "And soon I'll hear old winter's song",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Winter is coming, which makes the singer feel sad.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "When Autumn leaves start to fall",
+          "plot_function": "SETUP",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is reminded of the person they miss when the leaves fall.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 12,
+        "covered_lines": 12,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 12,
+      "covered_lines": 12,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "The autumn leaves of red and gold",
+            "I see your lips",
+            "the summer kisses",
+            "The sunburnt hands I used to hold"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            4,
+            2,
+            2,
+            4
+          ],
+          "end_words": [
+            "gold",
+            "lips",
+            "kisses",
+            "hold"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "gold",
+              "word2": "hold",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "lips",
+              "word2": "kisses",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Since you went away the days grow long",
+            "And soon I'll hear old winter's song",
+            "When Autumn leaves start to fall",
+            "The autumn leaves of red and gold"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            6,
+            6,
+            5,
+            4
+          ],
+          "end_words": [
+            "long",
+            "song",
+            "fall",
+            "gold"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "long",
+              "word2": "song",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "song",
+              "word2": "fall",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I see your lips",
+            "the summer kisses",
+            "The sunburnt hands I used to hold",
+            "Since you went away the days grow long"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            6
+          ],
+          "end_words": [
+            "lips",
+            "kisses",
+            "hold",
+            "long"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "lips",
+              "word2": "kisses",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "And soon I'll hear old winter's song"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            6
+          ],
+          "end_words": [
+            "song"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 13
+    }
+  }
+}

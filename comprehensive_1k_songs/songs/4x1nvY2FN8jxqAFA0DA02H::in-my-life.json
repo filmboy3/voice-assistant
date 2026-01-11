@@ -1,0 +1,331 @@
+{
+  "song_id": "4x1nvY2FN8jxqAFA0DA02H::in-my-life",
+  "title": "In My Life",
+  "artist": "John Lennon",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nThere are places I'll remember\nAll my life, though some have changed.\nSome forever, not for better\nSome have go ne , and some remain.\nAll these places had their moments,\nWith lovers and friends I still recall.\nSome are dead and some are living,\n\n[bridge]\nThere is no one com pares with you.\nAnd these mem'ries lose their meaning,\nWhen I think of love as something new.\nTho' I know I'll never lose affection\nFor people and things that went before,\nI know I'll often stop and think about them.",
+  "cleaned_lyrics": "There are places I'll remember\nAll my life\nthough some have changed.\nSome forever\nnot for better\nSome have go ne\nand some remain.\nAll these places had their moments\nWith lovers and friends I still recall.\nSome are dead and some are living\nThere is no one com pares with you.\nAnd these mem'ries lose their meaning\nWhen I think of love as something new.\nTho' I know I'll never lose affection\nFor people and things that went before\nI know I'll often stop and think about them.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 16,
+    "cleaned_lines": 16,
+    "removed_count": 2,
+    "retention_rate": 1.0666666666666667,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "There are places I'll remember\nAll my life",
+          "plot_function": "SETUP",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is thinking about places he remembers.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4,
+            5
+          ],
+          "original_lyric": "though some have changed.\nSome forever\nnot for better",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Some places have changed, and not for the better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "Some have go ne\nand some remain.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Some places are gone, and some are still there.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "All these places had their moments\nWith lovers and friends I still recall.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The singer remembers good times with friends and lovers.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "Some are dead and some are living\nThere is no one com pares with you.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Some people are gone, but the singer loves someone special.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "And these mem'ries lose their meaning\nWhen I think of love as something new.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Old memories change when the singer thinks about new love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "Tho' I know I'll never lose affection\nFor people and things that went before",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "The singer will always love the people and things from the past.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "I know I'll often stop and think about them.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer will often think about the past.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 16,
+        "covered_lines": 16,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 16,
+      "covered_lines": 16,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "There are places I'll remember",
+            "All my life",
+            "though some have changed.",
+            "Some forever"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "remember",
+            "life",
+            "changed",
+            "forever"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "remember",
+              "word2": "forever",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "not for better",
+            "Some have go ne",
+            "and some remain.",
+            "All these places had their moments"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            3,
+            2,
+            4
+          ],
+          "end_words": [
+            "better",
+            "ne",
+            "remain",
+            "moments"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "With lovers and friends I still recall.",
+            "Some are dead and some are living",
+            "There is no one com pares with you.",
+            "And these mem'ries lose their meaning"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            4,
+            6,
+            3
+          ],
+          "end_words": [
+            "recall",
+            "living",
+            "you",
+            "meaning"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "recall",
+              "word2": "meaning",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "When I think of love as something new.",
+            "Tho' I know I'll never lose affection",
+            "For people and things that went before",
+            "I know I'll often stop and think about them."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            6,
+            4,
+            7
+          ],
+          "end_words": [
+            "new",
+            "affection",
+            "before",
+            "them"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "affection",
+              "word2": "them",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 16
+    }
+  }
+}

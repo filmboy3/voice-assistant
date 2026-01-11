@@ -1,0 +1,359 @@
+{
+  "song_id": "6XpaIBNiVzIetEPCWDvAFP::who-would-imagine-a-king",
+  "title": "Who Would Imagine a King",
+  "artist": "Whitney Houston",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\n1. Mommies and daddies always believe,\nthat their little angels are special indeed.\nAnd you could grow up to be anything,\n\n[bridge]\n1. shepherd, or teacher is what you could be,\nor maybe fisherman out on the sea.\nOr maybe carpenter building things,\n\n[bridge]\nIt was so clear when the wise men arrived,\nand the angels were singing your name,\nthat the world would be different 'cause you were alive,\nthat's what heaven stood still to proclaim.\n3. One day an angel said quietly,\nthat soon he would bring something special to me,\nand of all of the wonderful gifts he could bring,\nwho would imagine, who could imagine,\nwho would imagine king?",
+  "cleaned_lyrics": "1. Mommies and daddies always believe\nthat their little angels are special indeed.\nAnd you could grow up to be anything\n1. shepherd\nor teacher is what you could be\nor maybe fisherman out on the sea.\nOr maybe carpenter building things\nIt was so clear when the wise men arrived\nand the angels were singing your name\nthat the world would be different 'cause you were alive\nthat's what heaven stood still to proclaim.\n3. One day an angel said quietly\nthat soon he would bring something special to me\nand of all of the wonderful gifts he could bring\nwho would imagine\nwho could imagine\nwho would imagine king?",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 20,
+    "cleaned_lines": 17,
+    "removed_count": 3,
+    "retention_rate": 0.9444444444444444,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3
+          ],
+          "original_lyric": "Mommies and daddies always believe\nthat their little angels are special indeed.\nAnd you could grow up to be anything",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Parents think their kids can be anything they want.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5,
+            6
+          ],
+          "original_lyric": "shepherd\nor teacher is what you could be\nor maybe fisherman out on the sea.",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "You could be a shepherd, teacher, or fisherman.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Or maybe carpenter building things",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Or a carpenter.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "It was so clear when the wise men arrived\nand the angels were singing your name\nthat the world would be different 'cause you were alive\nthat's what heaven stood still to proclaim.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "When wise men came and angels sang, it was clear something special was happening because you were born.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13,
+            14
+          ],
+          "original_lyric": "One day an angel said quietly\nthat soon he would bring something special to me\nand of all of the wonderful gifts he could bring",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "An angel said he would bring something special.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16,
+            17
+          ],
+          "original_lyric": "who would imagine\nwho could imagine\nwho would imagine king?",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "Who would have thought it would be a king?",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 17,
+        "covered_lines": 17,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 17,
+      "covered_lines": 17,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "1. Mommies and daddies always believe",
+            "that their little angels are special indeed.",
+            "And you could grow up to be anything",
+            "1. shepherd"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            1
+          ],
+          "end_words": [
+            "believe",
+            "indeed",
+            "anything",
+            "shepherd"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "believe",
+              "word2": "indeed",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "or teacher is what you could be",
+            "or maybe fisherman out on the sea.",
+            "Or maybe carpenter building things",
+            "It was so clear when the wise men arrived"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            5
+          ],
+          "end_words": [
+            "be",
+            "sea",
+            "things",
+            "arrived"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "be",
+              "word2": "sea",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "and the angels were singing your name",
+            "that the world would be different 'cause you were alive",
+            "that's what heaven stood still to proclaim.",
+            "3. One day an angel said quietly"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            3,
+            4,
+            6,
+            5
+          ],
+          "end_words": [
+            "name",
+            "alive",
+            "proclaim",
+            "quietly"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "name",
+              "word2": "proclaim",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "alive",
+              "word2": "quietly",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "that soon he would bring something special to me",
+            "and of all of the wonderful gifts he could bring",
+            "who would imagine",
+            "who could imagine"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            4,
+            1,
+            1
+          ],
+          "end_words": [
+            "me",
+            "bring",
+            "imagine",
+            "imagine"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "imagine",
+              "word2": "imagine",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "who would imagine king?"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2
+          ],
+          "end_words": [
+            "king"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 17
+    }
+  }
+}

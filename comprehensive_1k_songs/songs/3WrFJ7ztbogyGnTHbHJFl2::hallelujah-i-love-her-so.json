@@ -1,0 +1,458 @@
+{
+  "song_id": "3WrFJ7ztbogyGnTHbHJFl2::hallelujah-i-love-her-so",
+  "title": "Hallelujah, I Love Her So",
+  "artist": "The Beatles",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nLet me tell you about girl I know\nShe's my baby and I love her so\nEvery morning when the sun comes up\nShe brings me coffee in my favorite cup\nThat's how I know yes I know\nHallelujah how I love her so\n\n[bridge]\nWhen I call her on the telephone\nShe says, \"Baby, I'm all alone\"\n\n[bridge]\nShe'll be knocking on my door\n\n[intro]\nAnd there ain't nobody else around\nShe kisses me and she holds me tight\nShe says, \"Baby everything is alright\"\nThat's why I know, that's why I know\nHallelujah, I just love her so\nHallelujah, I just love her so\nHallelujah, I just love that chick so",
+  "cleaned_lyrics": "Let me tell you about girl I know\nShe's my baby and I love her so\nEvery morning when the sun comes up\nShe brings me coffee in my favorite cup\nThat's how I know yes I know\nHallelujah how I love her so\nWhen I call her on the telephone\nShe says\n\"Baby\nI'm all alone\"\nShe'll be knocking on my door\nAnd there ain't nobody else around\nShe kisses me and she holds me tight\nThat's why I know\nthat's why I know\nHallelujah\nI just love her so\nHallelujah\nI just love her so\nHallelujah\nI just love that chick so",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 23,
+    "cleaned_lines": 21,
+    "removed_count": 5,
+    "retention_rate": 1.05,
+    "removal_reasons": {
+      "section_marker": 4,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Let me tell you about girl I know\nShe's my baby and I love her so",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is introducing a girl they love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Every morning when the sun comes up\nShe brings me coffee in my favorite cup",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The girl does nice things for the singer every morning.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "That's how I know yes I know\nHallelujah how I love her so",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The singer is happy and loves the girl.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "When I call her on the telephone\nShe says",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer calls the girl and waits for her response.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "\"Baby\nI'm all alone\"",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The girl says she is alone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "She'll be knocking on my door\nAnd there ain't nobody else around",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The girl will come over.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "She kisses me and she holds me tight\nThat's why I know",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The girl kisses and holds the singer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "that's why I know\nHallelujah\nI just love her so",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The singer is happy and loves the girl.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "Hallelujah\nI just love her so",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The singer is happy and loves the girl.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "Hallelujah\nI just love that chick so",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The singer is happy and loves the girl.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Let me tell you about girl I know",
+            "She's my baby and I love her so",
+            "Every morning when the sun comes up",
+            "She brings me coffee in my favorite cup"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "know",
+            "so",
+            "up",
+            "cup"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "know",
+              "word2": "so",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "up",
+              "word2": "cup",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "That's how I know yes I know",
+            "Hallelujah how I love her so",
+            "When I call her on the telephone",
+            "She says"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            4,
+            3,
+            1
+          ],
+          "end_words": [
+            "know",
+            "so",
+            "telephone",
+            "says"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "know",
+              "word2": "so",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "telephone",
+              "word2": "says",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "\"Baby",
+            "I'm all alone\"",
+            "She'll be knocking on my door",
+            "And there ain't nobody else around"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            3,
+            3,
+            5
+          ],
+          "end_words": [
+            "baby",
+            "alone",
+            "door",
+            "around"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "She kisses me and she holds me tight",
+            "That's why I know",
+            "that's why I know",
+            "Hallelujah"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            1
+          ],
+          "end_words": [
+            "tight",
+            "know",
+            "know",
+            "hallelujah"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "know",
+              "word2": "know",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I just love her so",
+            "Hallelujah",
+            "I just love her so",
+            "Hallelujah"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.9,
+          "stress_counts": [
+            3,
+            1,
+            3,
+            1
+          ],
+          "end_words": [
+            "so",
+            "hallelujah",
+            "so",
+            "hallelujah"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "so",
+              "word2": "so",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "hallelujah",
+              "word2": "hallelujah",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I just love that chick so"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "so"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 21
+    }
+  }
+}

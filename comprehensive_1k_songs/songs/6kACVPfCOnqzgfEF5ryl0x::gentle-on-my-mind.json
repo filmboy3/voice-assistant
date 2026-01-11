@@ -1,0 +1,543 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::gentle-on-my-mind",
+  "title": "Gentle On My Mind",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\n(intro)\n1. Well, it's knowing that your door is always open,\nand your path is free to walk,\nthat makes me tend to leave my sleeping bag rolled up\nand stashed behind your couch.\nAnd it's knowing I'm not shackled by forgotten words and bonds,\nand the ink stains that have dried upon some lines,\nthat keeps you in the back roads by the rivers of my memory,\nand keeps you ever gentle on my mind.\n2. It's not clinging to the rocks and ivy\nplanted on their columns now that bind me,\nor something that somebody said because\nthey thought we fit together walking.\nIt's just knowing that the world will not be cursing or forgiven,\nwhen I walk along some railroad track and find\nthat you're moving on the back roads by the rivers of my memory,\nand for hours you're just gentle on my mind.\n3. Though the wheat fields and the coal mines and the junkyards\nand the highways come between us,\nand some other woman's crying to her mother,\n'cause she turned and I was gone.\nI still might run in silence, tears of joy might stain my face,\nand the summer sun might burn me till I'm blind,\n\n[bridge]\n4. I dip my cup of soup from some gurgling, crackling cauldron\n\n[intro]\nmy beard roughening coal pile\nand dirty hat pulled low across my face.\nThrough cupped hands round tin can\nI pretend to hold you to my breast and find\nthat you're waving from the back roads by the rivers of my memory,\never smiling, ever gentle on my mind.",
+  "cleaned_lyrics": "1. Well\nit's knowing that your door is always open\nand your path is free to walk\nthat makes me tend to leave my sleeping bag rolled up\nand stashed behind your couch.\nand the ink stains that have dried upon some lines\nand keeps you ever gentle on my mind.\n2. It's not clinging to the rocks and ivy\nplanted on their columns now that bind me\nor something that somebody said because\nthey thought we fit together walking.\nIt's just knowing that the world will not be cursing or forgiven\nwhen I walk along some railroad track and find\nand for hours you're just gentle on my mind.\n3. Though the wheat fields and the coal mines and the junkyards\nand the highways come between us\nand some other woman's crying to her mother\n'cause she turned and I was gone.\nI still might run in silence\ntears of joy might stain my face\nand the summer sun might burn me till I'm blind\n4. I dip my cup of soup from some gurgling\ncrackling cauldron\nmy beard roughening coal pile\nand dirty hat pulled low across my face.\nThrough cupped hands round tin can\nI pretend to hold you to my breast and find\never smiling\never gentle on my mind.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 35,
+    "cleaned_lines": 29,
+    "removed_count": 8,
+    "retention_rate": 0.8787878787878788,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "section_marker": 3,
+      "credits_metadata": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "original_lyric": "Well\nit's knowing that your door is always open\nand your path is free to walk\nthat makes me tend to leave my sleeping bag rolled up",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is happy knowing he can always go back to someone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "and stashed behind your couch.",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's prepared to stay, but also ready to leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "and the ink stains that have dried upon some lines\nand keeps you ever gentle on my mind.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the person keeps him feeling good.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "It's not clinging to the rocks and ivy\nplanted on their columns now that bind me\nor something that somebody said because\nthey thought we fit together walking.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's not held back by things that used to matter.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13,
+            14
+          ],
+          "original_lyric": "It's just knowing that the world will not be cursing or forgiven\nwhen I walk along some railroad track and find\nand for hours you're just gentle on my mind.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He finds peace in the thought of the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "original_lyric": "Though the wheat fields and the coal mines and the junkyards\nand the highways come between us\nand some other woman's crying to her mother\n'cause she turned and I was gone.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "He acknowledges the distance and past mistakes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20,
+            21
+          ],
+          "original_lyric": "I still might run in silence\ntears of joy might stain my face\nand the summer sun might burn me till I'm blind",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Even with the distance, he finds joy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23,
+            24,
+            25
+          ],
+          "original_lyric": "I dip my cup of soup from some gurgling\ncrackling cauldron\nmy beard roughening coal pile\nand dirty hat pulled low across my face.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's in a tough situation, but still thinking of the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27,
+            28
+          ],
+          "original_lyric": "Through cupped hands round tin can\nI pretend to hold you to my breast and find\never smiling",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "He imagines holding the person close.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "ever gentle on my mind.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "He finds peace and comfort in the thought of the person.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 29,
+        "covered_lines": 29,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 29,
+      "covered_lines": 29,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "1. Well",
+            "it's knowing that your door is always open",
+            "and your path is free to walk",
+            "that makes me tend to leave my sleeping bag rolled up"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            5,
+            3,
+            7
+          ],
+          "end_words": [
+            "well",
+            "open",
+            "walk",
+            "up"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "and stashed behind your couch.",
+            "and the ink stains that have dried upon some lines",
+            "and keeps you ever gentle on my mind.",
+            "2. It's not clinging to the rocks and ivy"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3,
+            6,
+            4,
+            5
+          ],
+          "end_words": [
+            "couch",
+            "lines",
+            "mind",
+            "ivy"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "lines",
+              "word2": "mind",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "mind",
+              "word2": "ivy",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "planted on their columns now that bind me",
+            "or something that somebody said because",
+            "they thought we fit together walking.",
+            "It's just knowing that the world will not be cursing or forgiven"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            5,
+            4,
+            7
+          ],
+          "end_words": [
+            "me",
+            "because",
+            "walking",
+            "forgiven"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "because",
+              "word2": "walking",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "when I walk along some railroad track and find",
+            "and for hours you're just gentle on my mind.",
+            "3. Though the wheat fields and the coal mines and the junkyards",
+            "and the highways come between us"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            7,
+            5,
+            6,
+            4
+          ],
+          "end_words": [
+            "find",
+            "mind",
+            "junkyards",
+            "us"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "find",
+              "word2": "mind",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "junkyards",
+              "word2": "us",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "and some other woman's crying to her mother",
+            "'cause she turned and I was gone.",
+            "I still might run in silence",
+            "tears of joy might stain my face"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            3,
+            3,
+            4
+          ],
+          "end_words": [
+            "mother",
+            "gone",
+            "silence",
+            "face"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "and the summer sun might burn me till I'm blind",
+            "4. I dip my cup of soup from some gurgling",
+            "crackling cauldron",
+            "my beard roughening coal pile"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            6,
+            5,
+            2,
+            4
+          ],
+          "end_words": [
+            "blind",
+            "gurgling",
+            "cauldron",
+            "pile"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "blind",
+              "word2": "pile",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "and dirty hat pulled low across my face.",
+            "Through cupped hands round tin can",
+            "I pretend to hold you to my breast and find",
+            "ever smiling"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            6,
+            6,
+            4,
+            2
+          ],
+          "end_words": [
+            "face",
+            "can",
+            "find",
+            "smiling"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "find",
+              "word2": "smiling",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "ever gentle on my mind."
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3
+          ],
+          "end_words": [
+            "mind"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 29
+    }
+  }
+}

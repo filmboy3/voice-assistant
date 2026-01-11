@@ -1,0 +1,257 @@
+{
+  "song_id": "22bE4uQ6baNwSHPVcDxLCe::good-times-bad-times",
+  "title": "Good Times Bad Times",
+  "artist": "The Rolling Stones",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThere've been good times. There've been bad times\nI have my share of hard times too\n\n[bridge]\nHoney, when I lost you.....\nRemember the good times we've had together\nDon't you want them back again\nThough these hard times are bugging me now\nHoney, now it's sin.....\nThere's gotta be trust, in this world\nOr it won't, get very far\nWell, trust in someone\nOr there's gonna be war.....",
+  "cleaned_lyrics": "There've been good times. There've been bad times\nI have my share of hard times too\nRemember the good times we've had together\nDon't you want them back again\nThough these hard times are bugging me now\nThere's gotta be trust\nin this world\nOr it won't\nget very far\nWell\ntrust in someone",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 14,
+    "cleaned_lines": 11,
+    "removed_count": 5,
+    "retention_rate": 0.8461538461538461,
+    "removal_reasons": {
+      "excessive_punctuation": 3,
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "There've been good times. There've been bad times\nI have my share of hard times too",
+          "plot_function": "SETUP",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is thinking about the good and bad times they've had.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Remember the good times we've had together\nDon't you want them back again",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer remembers the good times and wonders if the listener wants them back.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Though these hard times are bugging me now",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is annoyed by the current bad times.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7,
+            8
+          ],
+          "original_lyric": "There's gotta be trust\nin this world\nOr it won't",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer believes trust is important for things to work out.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "get very far",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Without trust, things won't go well.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "Well",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "A pause for thought.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "trust in someone",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer suggests trusting someone.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 11,
+        "covered_lines": 11,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 11,
+      "covered_lines": 11,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "There've been good times. There've been bad times",
+            "I have my share of hard times too",
+            "Remember the good times we've had together",
+            "Don't you want them back again"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            6,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "times",
+            "too",
+            "together",
+            "again"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "together",
+              "word2": "again",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Though these hard times are bugging me now",
+            "There's gotta be trust",
+            "in this world",
+            "Or it won't"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            3,
+            1,
+            1
+          ],
+          "end_words": [
+            "now",
+            "trust",
+            "world",
+            "won't"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "get very far",
+            "Well",
+            "trust in someone"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            1,
+            2
+          ],
+          "end_words": [
+            "far",
+            "well",
+            "someone"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 3,
+      "total_lines": 11
+    }
+  }
+}

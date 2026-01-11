@@ -1,0 +1,975 @@
+{
+  "song_id": "7jy3rLJdDQY21OgRLCZ9sD::outside",
+  "title": "Outside",
+  "artist": "Foo Fighters",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThere you are dancing at your altar\n\n[bridge]\nAll of your sound echoes in the canyons\nDown below they're dreaming\nHear the sirens screaming\nAnother time, another world\nGirls were boys and boys were girls\nFind the glitter in the litter\nLike haunt, it's got to move\nEverybody needs some room\nThere's something out there\nThere's long straight road, out of the cold\nAnd we can leave it all behind\nI wanna get outside, baby, let's get outside\nI wanna get outside, outside, of me\n\n[verse]\nOh, I found the space between the spaces\nStanding in the nothing, and time will cling to\nAnd as the wind will beat you down\nAnd the wind the only sound\nThere's something out there\nThere's long straight road, out of the cold\nAnd we can leave it all behind\nI wanna get outside, baby, let's get outside\nI wanna get outside, outside, of me\nThere's long straight road, out of the cold\nAnd we can leave it all behind\nI wanna get outside, baby, let's get outside\nI wanna get outside, outside, of me",
+  "cleaned_lyrics": "There you are dancing at your altar\nAll of your sound echoes in the canyons\nDown below they're dreaming\nHear the sirens screaming\nAnother time\nanother world\nGirls were boys and boys were girls\nFind the glitter in the litter\nLike haunt\nit's got to move\nEverybody needs some room\nThere's something out there\nThere's long straight road\nout of the cold\nAnd we can leave it all behind\nI wanna get outside\nbaby\nlet's get outside\nI wanna get outside\noutside\nof me\nOh\nI found the space between the spaces\nStanding in the nothing\nand time will cling to\nAnd as the wind will beat you down\nAnd the wind the only sound\nThere's something out there\nThere's long straight road\nout of the cold\nAnd we can leave it all behind\nI wanna get outside\nbaby\nlet's get outside\nI wanna get outside\noutside\nof me\nThere's long straight road\nout of the cold\nAnd we can leave it all behind\nI wanna get outside\nbaby\nlet's get outside\nI wanna get outside\noutside\nof me",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 32,
+    "cleaned_lines": 46,
+    "removed_count": 3,
+    "retention_rate": 1.5333333333333334,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "There you are dancing at your altar\nAll of your sound echoes in the canyons",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone is happily dancing in a special place, and their music is echoing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Down below they're dreaming\nHear the sirens screaming",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "People are dreaming, but there are scary sirens.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Another time\nanother world\nGirls were boys and boys were girls",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about a different time and place where things were different.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Find the glitter in the litter\nLike haunt",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Looking for something good even in a messy place.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "it's got to move\nEverybody needs some room",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Things need to change, and everyone needs space.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "There's something out there\nThere's long straight road",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "There's something good waiting, and a path to get there.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "out of the cold",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "A way to escape the cold.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "And we can leave it all behind",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "We can leave everything bad behind.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "I wanna get outside\nbaby",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Wanting to go outside, to a better place.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "let's get outside",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Let's go outside.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "I wanna get outside\noutside",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Wanting to go outside.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "of me",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Leaving behind the old self.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Oh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "An expression of feeling.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "I found the space between the spaces\nStanding in the nothing",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Finding something in emptiness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "and time will cling to",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Time will stay.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "And as the wind will beat you down\nAnd the wind the only sound",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The wind is hurting you, and it's the only sound.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "There's something out there\nThere's long straight road",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "There's something good waiting, and a path to get there.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "out of the cold",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "A way to escape the cold.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "And we can leave it all behind",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "We can leave everything bad behind.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            31,
+            32
+          ],
+          "original_lyric": "I wanna get outside\nbaby",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Wanting to go outside, to a better place.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            33
+          ],
+          "original_lyric": "let's get outside",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Let's go outside.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            34,
+            35
+          ],
+          "original_lyric": "I wanna get outside\noutside",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Wanting to go outside.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            36
+          ],
+          "original_lyric": "of me",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Leaving behind the old self.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            37,
+            38
+          ],
+          "original_lyric": "There's long straight road\nout of the cold",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "There's a path out of the cold.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            39
+          ],
+          "original_lyric": "And we can leave it all behind",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "We can leave everything bad behind.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            40,
+            41
+          ],
+          "original_lyric": "I wanna get outside\nbaby",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Wanting to go outside, to a better place.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            42
+          ],
+          "original_lyric": "let's get outside",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Let's go outside.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            43,
+            44
+          ],
+          "original_lyric": "I wanna get outside\noutside",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Wanting to go outside.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            45
+          ],
+          "original_lyric": "of me",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Leaving behind the old self.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 45,
+        "covered_lines": 45,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 45,
+      "covered_lines": 45,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "There you are dancing at your altar",
+            "All of your sound echoes in the canyons",
+            "Down below they're dreaming",
+            "Hear the sirens screaming"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "altar",
+            "canyons",
+            "dreaming",
+            "screaming"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "dreaming",
+              "word2": "screaming",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Another time",
+            "another world",
+            "Girls were boys and boys were girls",
+            "Find the glitter in the litter"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            3
+          ],
+          "end_words": [
+            "time",
+            "world",
+            "girls",
+            "litter"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "world",
+              "word2": "girls",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (ER), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Like haunt",
+            "it's got to move",
+            "Everybody needs some room",
+            "There's something out there"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            3,
+            5,
+            4
+          ],
+          "end_words": [
+            "haunt",
+            "move",
+            "room",
+            "there"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "move",
+              "word2": "room",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (UW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "There's long straight road",
+            "out of the cold",
+            "And we can leave it all behind",
+            "I wanna get outside"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            2,
+            3,
+            4
+          ],
+          "end_words": [
+            "road",
+            "cold",
+            "behind",
+            "outside"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "road",
+              "word2": "cold",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (OW), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "behind",
+              "word2": "outside",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "baby",
+            "let's get outside",
+            "I wanna get outside",
+            "outside"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            1,
+            4,
+            4,
+            2
+          ],
+          "end_words": [
+            "baby",
+            "outside",
+            "outside",
+            "outside"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "outside",
+              "word2": "outside",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "outside",
+              "word2": "outside",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "of me",
+            "Oh",
+            "I found the space between the spaces",
+            "Standing in the nothing"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            1,
+            4,
+            2
+          ],
+          "end_words": [
+            "me",
+            "oh",
+            "spaces",
+            "nothing"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "and time will cling to",
+            "And as the wind will beat you down",
+            "And the wind the only sound",
+            "There's something out there"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            4
+          ],
+          "end_words": [
+            "to",
+            "down",
+            "sound",
+            "there"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "down",
+              "word2": "sound",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "There's long straight road",
+            "out of the cold",
+            "And we can leave it all behind",
+            "I wanna get outside"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            2,
+            3,
+            4
+          ],
+          "end_words": [
+            "road",
+            "cold",
+            "behind",
+            "outside"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "road",
+              "word2": "cold",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (OW), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "behind",
+              "word2": "outside",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "baby",
+            "let's get outside",
+            "I wanna get outside",
+            "outside"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            1,
+            4,
+            4,
+            2
+          ],
+          "end_words": [
+            "baby",
+            "outside",
+            "outside",
+            "outside"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "outside",
+              "word2": "outside",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "outside",
+              "word2": "outside",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "of me",
+            "There's long straight road",
+            "out of the cold",
+            "And we can leave it all behind"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            4,
+            2,
+            3
+          ],
+          "end_words": [
+            "me",
+            "road",
+            "cold",
+            "behind"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "road",
+              "word2": "cold",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (OW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "I wanna get outside",
+            "baby",
+            "let's get outside",
+            "I wanna get outside"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            1,
+            4,
+            4
+          ],
+          "end_words": [
+            "outside",
+            "baby",
+            "outside",
+            "outside"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "outside",
+              "word2": "outside",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "outside",
+              "word2": "outside",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 12,
+          "lines": [
+            "outside",
+            "of me"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            2,
+            1
+          ],
+          "end_words": [
+            "outside",
+            "me"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "chorus",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "chorus",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "chorus",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 12,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 12,
+      "total_lines": 46
+    }
+  }
+}

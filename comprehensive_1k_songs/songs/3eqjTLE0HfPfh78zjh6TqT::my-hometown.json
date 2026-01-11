@@ -1,0 +1,817 @@
+{
+  "song_id": "3eqjTLE0HfPfh78zjh6TqT::my-hometown",
+  "title": "My Hometown",
+  "artist": "Bruce Springsteen",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI was eight years old and running with dime in my hand\n\n[intro]\nI' sit on his lap in that big old Buick and steer as we drove through town\nHe' tousle my hair and he' say son take good look around\nThis is your hometown, your home town\nThis is your hometown, your home town, this is your home town\n\n[intro]\nThere was lot of fights between the black and white / there was nothing you could do\nTwo cars at light on Saturday night in the back seat was gun\nWords were passed shotgun blast / troubled times had come\nThis is your hometown, your home town\nThis is your hometown, your home town, this is your home town\nNow Main Street's whitewashed windows and vacant stores\nSeems like there ain't nobody wants to come down here no more\nThey're closing down the textile mill across the railroad tracks\nForeman says these jobs are going boys and they ain't coming back to\nThis is your hometown, your home town\nThis is your hometown, your home town, this is your home town\nLast night me and Kate we laid in bed talking about getting out\nPacking up our bags maybe heading south\nI'm thirty-five we got boy of our own now\nLast night I sat him up behind the wheel and said son take good look around\nThis is your hometown, your home town\nThis is your hometown, your home town, this is your home town",
+  "cleaned_lyrics": "I was eight years old and running with dime in my hand\nI' sit on his lap in that big\nold Buick and steer as we drove through town\nHe' tousle my hair and he'\nsay son take good look around\nThis is your hometown\nyour home town\nThis is your hometown\nyour home town\nthis is your home town\nThere was lot of fights between the black\nand white / there was nothing you could do\nTwo cars at light on Saturday\nnight in the back seat was gun\nWords were passed shotgun blast\n/ troubled times had come\nThis is your hometown\nyour home town\nThis is your hometown\nyour home town\nthis is your home town\nNow Main Street's whitewashed windows and vacant stores\nSeems like there ain't nobody wants\nto come down here no more\nThey're closing down the textile\nmill across the railroad tracks\nForeman says these jobs are going\nboys and they ain't coming back to\nThis is your hometown\nyour home town\nThis is your hometown\nyour home town\nthis is your home town\nLast night me and Kate we\nlaid in bed talking about getting out\nPacking up our bags maybe heading south\nI'm thirty-five we got boy of our own now\nLast night I sat him up behind the\nwheel and said son take good look around\nThis is your hometown\nyour home town\nThis is your hometown\nyour home town\nthis is your home town",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 27,
+    "cleaned_lines": 44,
+    "removed_count": 3,
+    "retention_rate": 1.76,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "I was eight years old and running with dime in my hand",
+          "plot_function": "SETUP",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is remembering when he was a kid.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2,
+            3,
+            4
+          ],
+          "original_lyric": "I' sit on his lap in that big\nold Buick and steer as we drove through town\nHe' tousle my hair and he'\nsay son take good look around",
+          "plot_function": "SETUP",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer's dad let him pretend to drive and told him to look at their town.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "original_lyric": "This is your hometown\nyour home town\nThis is your hometown\nyour home town\nthis is your home town",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": "belonging",
+          "eli5_simplification": "This is the singer's hometown.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "There was lot of fights between the black\nand white / there was nothing you could do",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "There was fighting between people of different races.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12,
+            13
+          ],
+          "original_lyric": "Two cars at light on Saturday\nnight in the back seat was gun\nWords were passed shotgun blast",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "There was a shooting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "/ troubled times had come",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Things were bad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "original_lyric": "This is your hometown\nyour home town\nThis is your hometown\nyour home town\nthis is your home town",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "This is the singer's hometown.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Now Main Street's whitewashed windows and vacant stores",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The town is empty and sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Seems like there ain't nobody wants\nto come down here no more",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Nobody wants to be there anymore.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "They're closing down the textile\nmill across the railroad tracks\nForeman says these jobs are going",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The factory is closing and people are losing their jobs.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "boys and they ain't coming back to",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The jobs are gone for good.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "original_lyric": "This is your hometown\nyour home town\nThis is your hometown\nyour home town\nthis is your home town",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "This is the singer's hometown.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "Last night me and Kate we\nlaid in bed talking about getting out",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer and his wife are talking about leaving.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "Packing up our bags maybe heading south",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "They might move away.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "I'm thirty-five we got boy of our own now",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer is now older and has a son.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33,
+            34
+          ],
+          "original_lyric": "Last night I sat him up behind the\nwheel and said son take good look around",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer did the same thing with his son that his father did with him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "original_lyric": "This is your hometown\nyour home town\nThis is your hometown\nyour home town\nthis is your home town",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "belonging",
+          "eli5_simplification": "This is the singer's hometown.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 39,
+        "covered_lines": 39,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 39,
+      "covered_lines": 39,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I was eight years old and running with dime in my hand",
+            "I' sit on his lap in that big",
+            "old Buick and steer as we drove through town",
+            "He' tousle my hair and he'"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            3,
+            6,
+            4
+          ],
+          "end_words": [
+            "hand",
+            "big",
+            "town",
+            "he"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "say son take good look around",
+            "This is your hometown",
+            "your home town",
+            "This is your hometown"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            6,
+            1,
+            2,
+            1
+          ],
+          "end_words": [
+            "around",
+            "hometown",
+            "town",
+            "hometown"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "around",
+              "word2": "town",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word adds post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "hometown",
+              "word2": "hometown",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "your home town",
+            "this is your home town",
+            "There was lot of fights between the black",
+            "and white / there was nothing you could do"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            5,
+            4
+          ],
+          "end_words": [
+            "town",
+            "town",
+            "black",
+            "do"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "town",
+              "word2": "town",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Two cars at light on Saturday",
+            "night in the back seat was gun",
+            "Words were passed shotgun blast",
+            "/ troubled times had come"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "saturday",
+            "gun",
+            "blast",
+            "come"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "saturday",
+              "word2": "blast",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "gun",
+              "word2": "come",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AH), post-consonants in same family"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "This is your hometown",
+            "your home town",
+            "This is your hometown",
+            "your home town"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "end_words": [
+            "hometown",
+            "town",
+            "hometown",
+            "town"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "hometown",
+              "word2": "hometown",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "town",
+              "word2": "town",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "this is your home town",
+            "Now Main Street's whitewashed windows and vacant stores",
+            "Seems like there ain't nobody wants",
+            "to come down here no more"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            7,
+            6,
+            5
+          ],
+          "end_words": [
+            "town",
+            "stores",
+            "wants",
+            "more"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "stores",
+              "word2": "more",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AO), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "They're closing down the textile",
+            "mill across the railroad tracks",
+            "Foreman says these jobs are going",
+            "boys and they ain't coming back to"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            5
+          ],
+          "end_words": [
+            "textile",
+            "tracks",
+            "going",
+            "to"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "This is your hometown",
+            "your home town",
+            "This is your hometown",
+            "your home town"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "end_words": [
+            "hometown",
+            "town",
+            "hometown",
+            "town"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "hometown",
+              "word2": "hometown",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "town",
+              "word2": "town",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "this is your home town",
+            "Last night me and Kate we",
+            "laid in bed talking about getting out",
+            "Packing up our bags maybe heading south"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            4,
+            6,
+            6
+          ],
+          "end_words": [
+            "town",
+            "we",
+            "out",
+            "south"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "town",
+              "word2": "out",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AW), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "out",
+              "word2": "south",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "I'm thirty-five we got boy of our own now",
+            "Last night I sat him up behind the",
+            "wheel and said son take good look around",
+            "This is your hometown"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            7,
+            5,
+            7,
+            1
+          ],
+          "end_words": [
+            "now",
+            "the",
+            "around",
+            "hometown"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "now",
+              "word2": "around",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "your home town",
+            "This is your hometown",
+            "your home town",
+            "this is your home town"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            1,
+            2,
+            2
+          ],
+          "end_words": [
+            "town",
+            "hometown",
+            "town",
+            "town"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "town",
+              "word2": "town",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "town",
+              "word2": "town",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        }
+      ],
+      "total_stanzas": 11,
+      "total_lines": 44
+    }
+  }
+}

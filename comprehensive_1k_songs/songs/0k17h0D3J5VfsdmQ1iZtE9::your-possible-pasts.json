@@ -1,0 +1,532 @@
+{
+  "song_id": "0k17h0D3J5VfsdmQ1iZtE9::your-possible-pasts",
+  "title": "Your possible pasts",
+  "artist": "Pink Floyd",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThey flutter behind you your possible pasts,\nSome brighteyed and crazy, some frightened and lost.\nwarning to anyone still in command\nOf their possible future, to take care.\n\n[intro]\nWith cattle trucks lying in wait for the next time.\nDo you remember me, how we used to be,\nDo you think we shoud be closer?\nShe stood in the doorway, the ghost of smile\nHaunting her face like cheap hotel sign.\nHer cold eyes imploring the men in their macs\nFor the gold in their bags or the knives in their backs.\nStepping up boldly one put out his hand.\nHe said, \"I was just child then, now I'm only man.\"\nDo you remember me, how we used to be,\nDo you think we should be closer?\n\n[bridge]\nShown how to feel good and told to feel bad.\nStrung out behind us the banners and flags\nOf our possible pasts lie in tatters and rags.\nDo you remember me, how we used to be,\nDo you think we should be closer?",
+  "cleaned_lyrics": "They flutter behind you your possible pasts\nSome brighteyed and crazy\nsome frightened and lost.\nwarning to anyone still in command\nOf their possible future\nto take care.\nWith cattle trucks lying in wait for the next time.\nDo you remember me\nhow we used to be\nDo you think we shoud be closer?\nShe stood in the doorway\nthe ghost of smile\nHaunting her face like cheap hotel sign.\nHer cold eyes imploring the men in their macs\nFor the gold in their bags or the knives in their backs.\nStepping up boldly one put out his hand.\nHe said\n\"I was just child then\nnow I'm only man.\"\nDo you remember me\nhow we used to be\nDo you think we should be closer?\nShown how to feel good and told to feel bad.\nStrung out behind us the banners and flags\nOf our possible pasts lie in tatters and rags.\nDo you remember me\nhow we used to be\nDo you think we should be closer?",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 25,
+    "cleaned_lines": 28,
+    "removed_count": 3,
+    "retention_rate": 1.2173913043478262,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "original_lyric": "They flutter behind you your possible pasts\nSome brighteyed and crazy\nsome frightened and lost.\nwarning to anyone still in command\nOf their possible future",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The song starts by talking about your past, which is like a bunch of memories behind you. Some are happy, some are scared. It's a warning to people who are still in control of their future.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "to take care.",
+          "plot_function": "SETUP",
+          "emotion_primary": "warning",
+          "emotion_secondary": null,
+          "eli5_simplification": "Be careful.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "With cattle trucks lying in wait for the next time.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "dread",
+          "eli5_simplification": "Something bad is waiting to happen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8,
+            9
+          ],
+          "original_lyric": "Do you remember me\nhow we used to be\nDo you think we shoud be closer?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Do you remember me? How we were? Should we be closer?",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "She stood in the doorway\nthe ghost of smile",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "A woman is standing in a doorway, looking sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "Haunting her face like cheap hotel sign.\nHer cold eyes imploring the men in their macs",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Her sad face is like a cheap hotel sign. She's looking at the men.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "For the gold in their bags or the knives in their backs.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "She wants their money or is afraid of them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "Stepping up boldly one put out his hand.\nHe said",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "hope",
+          "emotion_secondary": "courage",
+          "eli5_simplification": "A man steps forward and offers his hand.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "\"I was just child then\nnow I'm only man.\"",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "reflection",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "He says he was a child then, now he's a man.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20,
+            21
+          ],
+          "original_lyric": "Do you remember me\nhow we used to be\nDo you think we should be closer?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Do you remember me? How we were? Should we be closer?",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "Shown how to feel good and told to feel bad.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "We are told how to feel.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Strung out behind us the banners and flags\nOf our possible pasts lie in tatters and rags.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Our past is in ruins.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26,
+            27
+          ],
+          "original_lyric": "Do you remember me\nhow we used to be\nDo you think we should be closer?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Do you remember me? How we were? Should we be closer?",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 27,
+        "covered_lines": 27,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 27,
+      "covered_lines": 27,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "They flutter behind you your possible pasts",
+            "Some brighteyed and crazy",
+            "some frightened and lost.",
+            "warning to anyone still in command"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            5
+          ],
+          "end_words": [
+            "pasts",
+            "crazy",
+            "lost",
+            "command"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "pasts",
+              "word2": "command",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Of their possible future",
+            "to take care.",
+            "With cattle trucks lying in wait for the next time.",
+            "Do you remember me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            6,
+            2
+          ],
+          "end_words": [
+            "future",
+            "care",
+            "time",
+            "me"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "how we used to be",
+            "Do you think we shoud be closer?",
+            "She stood in the doorway",
+            "the ghost of smile"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            2
+          ],
+          "end_words": [
+            "be",
+            "closer",
+            "doorway",
+            "smile"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Haunting her face like cheap hotel sign.",
+            "Her cold eyes imploring the men in their macs",
+            "For the gold in their bags or the knives in their backs.",
+            "Stepping up boldly one put out his hand."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            6,
+            5,
+            4,
+            7
+          ],
+          "end_words": [
+            "sign",
+            "macs",
+            "backs",
+            "hand"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "macs",
+              "word2": "backs",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "backs",
+              "word2": "hand",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "He said",
+            "\"I was just child then",
+            "now I'm only man.\"",
+            "Do you remember me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            1,
+            3,
+            4,
+            2
+          ],
+          "end_words": [
+            "said",
+            "then",
+            "man",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "said",
+              "word2": "then",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "how we used to be",
+            "Do you think we should be closer?",
+            "Shown how to feel good and told to feel bad.",
+            "Strung out behind us the banners and flags"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            2,
+            7,
+            5
+          ],
+          "end_words": [
+            "be",
+            "closer",
+            "bad",
+            "flags"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "bad",
+              "word2": "flags",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Of our possible pasts lie in tatters and rags.",
+            "Do you remember me",
+            "how we used to be",
+            "Do you think we should be closer?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "rags",
+            "me",
+            "be",
+            "closer"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "me",
+              "word2": "be",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 28
+    }
+  }
+}

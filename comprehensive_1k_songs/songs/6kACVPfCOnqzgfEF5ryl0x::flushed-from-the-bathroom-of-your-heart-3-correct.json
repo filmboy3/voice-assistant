@@ -1,0 +1,367 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::flushed-from-the-bathroom-of-your-heart-3-correct",
+  "title": "Flushed From The Bathroom Of Your Heart 3 Correct!",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nFrom the back door of your life, you've swept me out dear\n\n[intro]\nAt the table of your love, I got the brush off\nAt the Indianapolis, of your heart, I lost the race.\nI've been washed down the sink, of your conscience\n\n[intro]\nAnd now you say you've got me out, of your conscience\nI've been Flushed From The Bathroom, Of Your Heart.\n\n[intro]\nOn the river of your plans, I'm up the creek\nUp the elevator of your future, I've been shafted\nOn the calendar of your events, I'm last week\nRepeat Chorus",
+  "cleaned_lyrics": "From the back door of your life\nyou've swept me out dear\nAt the table of your love\nI got the brush off\nAt the Indianapolis\nof your heart\nI lost the race.\nI've been washed down the sink\nof your conscience\nAnd now you say you've got me out\nof your conscience\nI've been Flushed From The Bathroom\nOf Your Heart.\nOn the river of your plans\nI'm up the creek\nUp the elevator of your future\nI've been shafted\nOn the calendar of your events\nI'm last week",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 17,
+    "cleaned_lines": 19,
+    "removed_count": 5,
+    "retention_rate": 1.3571428571428572,
+    "removal_reasons": {
+      "performance_instruction": 1,
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "From the back door of your life\nyou've swept me out dear",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "rejection",
+          "eli5_simplification": "You kicked me out of your life.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "At the table of your love\nI got the brush off",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "humiliation",
+          "eli5_simplification": "You rejected me when I wanted your love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7
+          ],
+          "original_lyric": "At the Indianapolis\nof your heart\nI lost the race.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "defeat",
+          "eli5_simplification": "I failed to win your heart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "I've been washed down the sink\nof your conscience\nAnd now you say you've got me out",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resentment",
+          "eli5_simplification": "You've gotten rid of me and now you're saying it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "of your conscience",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resentment",
+          "eli5_simplification": "You've gotten rid of me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "I've been Flushed From The Bathroom\nOf Your Heart.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "humiliation",
+          "eli5_simplification": "You've thrown me away.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "On the river of your plans\nI'm up the creek",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "hopelessness",
+          "eli5_simplification": "I'm lost in your plans.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "Up the elevator of your future\nI've been shafted",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "betrayal",
+          "eli5_simplification": "You've betrayed me in your future.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "On the calendar of your events",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "insignificance",
+          "eli5_simplification": "I'm not important to you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "I'm last week",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "insignificance",
+          "eli5_simplification": "I'm old news.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 17,
+        "covered_lines": 17,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 17,
+      "covered_lines": 17,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "From the back door of your life",
+            "you've swept me out dear",
+            "At the table of your love",
+            "I got the brush off"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            2,
+            3
+          ],
+          "end_words": [
+            "life",
+            "dear",
+            "love",
+            "off"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "At the Indianapolis",
+            "of your heart",
+            "I lost the race.",
+            "I've been washed down the sink"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            1,
+            2,
+            4
+          ],
+          "end_words": [
+            "indianapolis",
+            "heart",
+            "race",
+            "sink"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "of your conscience",
+            "And now you say you've got me out",
+            "of your conscience",
+            "I've been Flushed From The Bathroom"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            1,
+            5,
+            1,
+            3
+          ],
+          "end_words": [
+            "conscience",
+            "out",
+            "conscience",
+            "bathroom"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "conscience",
+              "word2": "conscience",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Of Your Heart.",
+            "On the river of your plans",
+            "I'm up the creek",
+            "Up the elevator of your future"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            2,
+            3,
+            3
+          ],
+          "end_words": [
+            "heart",
+            "plans",
+            "creek",
+            "future"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I've been shafted",
+            "On the calendar of your events",
+            "I'm last week"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            2,
+            3
+          ],
+          "end_words": [
+            "shafted",
+            "events",
+            "week"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 19
+    }
+  }
+}

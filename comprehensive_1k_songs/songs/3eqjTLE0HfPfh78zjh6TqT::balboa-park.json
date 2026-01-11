@@ -1,0 +1,604 @@
+{
+  "song_id": "3eqjTLE0HfPfh78zjh6TqT::balboa-park",
+  "title": "Balboa Park",
+  "artist": "Bruce Springsteen",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nHe lay his blanket underneath the freeway\nas the evening sky grew dark\ntook sniff of toncho from his coke can\nand headed through Balboa Park\nwhere the men in Mercedes\n\n[intro]\nthe services of the border boys\nHe grew up near the zona norte\nwith the hustlers and smugglers he hung out with\nhe swallowed their balloons of cocaine\n\n[bridge]\nsleeping in shelter\nif the night got too cold\nrunnin' from the migra\nof the border patrol\nPast the Salvage yard 'cross the train tracks\nand in through the storm drain\nthey stretched their blankets out neath the freeway\nand each one took name\nthere was x-man and cochese\nlittle spider his sneakers covered in river mud\nthey come north to California\nend up with the poison in their blood\nHe did what he had to do for money\nsometimes he sent home what he could spare\nthe rest went to hi-top sneakers and toncho\nand jeans like the gavatchos wear\none night the border patrol swept 12th street\n\n[bridge]\nspider stood caught in it's headlights\ngot hit and went down hard\nas the car sped away spider held his stomach\nlimped to his blanket 'neath the underpass\nlie there tasting his own blood on his tongue\n\n[chorus]\nrushin by so fast",
+  "cleaned_lyrics": "He lay his blanket underneath the freeway\nas the evening sky grew dark\ntook sniff of toncho from his coke can\nand headed through Balboa Park\nwhere the men in Mercedes\nthe services of the border boys\nHe grew up near the zona norte\nwith the hustlers and smugglers he hung out with\nhe swallowed their balloons of cocaine\nsleeping in shelter\nif the night got too cold\nrunnin' from the migra\nof the border patrol\nPast the Salvage yard 'cross the train tracks\nand in through the storm drain\nthey stretched their blankets out neath the freeway\nand each one took name\nthere was x-man and cochese\nlittle spider his sneakers covered in river mud\nthey come north to California\nend up with the poison in their blood\nHe did what he had to do for money\nsometimes he sent home what he could spare\nthe rest went to hi-top sneakers and toncho\nand jeans like the gavatchos wear\none night the border\npatrol swept 12th street\nspider stood caught in it's headlights\ngot hit and went down hard\nas the car sped away spider held his stomach\nlimped to his blanket 'neath the underpass\nlie there tasting his own blood on his tongue",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 41,
+    "cleaned_lines": 32,
+    "removed_count": 6,
+    "retention_rate": 0.8648648648648649,
+    "removal_reasons": {
+      "section_marker": 5,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "He lay his blanket underneath the freeway\nas the evening sky grew dark",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "A man is setting up his bed under a bridge as it gets dark.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "took sniff of toncho from his coke can\nand headed through Balboa Park",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "He takes drugs and goes to Balboa Park.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "where the men in Mercedes\nthe services of the border boys",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "He's in a place where people are involved in illegal activities.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "He grew up near the zona norte\nwith the hustlers and smugglers he hung out with",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "He grew up in a tough neighborhood with criminals.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "he swallowed their balloons of cocaine\nsleeping in shelter",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "He took drugs and slept in a shelter.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "if the night got too cold\nrunnin' from the migra",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "He runs from the police when it gets cold.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "of the border patrol\nPast the Salvage yard 'cross the train tracks",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "He is running from the border patrol, past a salvage yard and train tracks.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "and in through the storm drain\nthey stretched their blankets out neath the freeway",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "They go through a storm drain and set up their blankets under the freeway.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "and each one took name\nthere was x-man and cochese",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "They all have names like X-man and Cochese.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "little spider his sneakers covered in river mud\nthey come north to California",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Spider's sneakers are muddy, they come to California.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "end up with the poison in their blood\nHe did what he had to do for money",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "They end up with drugs in their blood. He does what he has to for money.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "sometimes he sent home what he could spare\nthe rest went to hi-top sneakers and toncho",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "He sends some money home, the rest goes to drugs and clothes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "and jeans like the gavatchos wear\none night the border",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "He buys clothes. One night, the border patrol...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "patrol swept 12th street\nspider stood caught in it's headlights",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The police raid the street, Spider is caught in the headlights.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "got hit and went down hard\nas the car sped away spider held his stomach",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "pain",
+          "eli5_simplification": "He gets hit by the car and falls down, holding his stomach.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31,
+            32
+          ],
+          "original_lyric": "limped to his blanket 'neath the underpass\nlie there tasting his own blood on his tongue",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "pain",
+          "eli5_simplification": "He limps back to his blanket, tasting blood.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 32,
+        "covered_lines": 32,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 32,
+      "covered_lines": 32,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "He lay his blanket underneath the freeway",
+            "as the evening sky grew dark",
+            "took sniff of toncho from his coke can",
+            "and headed through Balboa Park"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 1.0,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            4,
+            5,
+            4
+          ],
+          "end_words": [
+            "freeway",
+            "dark",
+            "can",
+            "park"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "dark",
+              "word2": "park",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "where the men in Mercedes",
+            "the services of the border boys",
+            "He grew up near the zona norte",
+            "with the hustlers and smugglers he hung out with"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            5,
+            6
+          ],
+          "end_words": [
+            "mercedes",
+            "boys",
+            "norte",
+            "with"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "he swallowed their balloons of cocaine",
+            "sleeping in shelter",
+            "if the night got too cold",
+            "runnin' from the migra"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            5,
+            2
+          ],
+          "end_words": [
+            "cocaine",
+            "shelter",
+            "cold",
+            "migra"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "of the border patrol",
+            "Past the Salvage yard 'cross the train tracks",
+            "and in through the storm drain",
+            "they stretched their blankets out neath the freeway"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            6,
+            3,
+            5
+          ],
+          "end_words": [
+            "patrol",
+            "tracks",
+            "drain",
+            "freeway"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "and each one took name",
+            "there was x-man and cochese",
+            "little spider his sneakers covered in river mud",
+            "they come north to California"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            6,
+            3
+          ],
+          "end_words": [
+            "name",
+            "cochese",
+            "mud",
+            "california"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "end up with the poison in their blood",
+            "He did what he had to do for money",
+            "sometimes he sent home what he could spare",
+            "the rest went to hi-top sneakers and toncho"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            3,
+            5,
+            6
+          ],
+          "end_words": [
+            "blood",
+            "money",
+            "spare",
+            "toncho"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "blood",
+              "word2": "money",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "and jeans like the gavatchos wear",
+            "one night the border",
+            "patrol swept 12th street",
+            "spider stood caught in it's headlights"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            3,
+            5,
+            5
+          ],
+          "end_words": [
+            "wear",
+            "border",
+            "street",
+            "headlights"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "wear",
+              "word2": "headlights",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "got hit and went down hard",
+            "as the car sped away spider held his stomach",
+            "limped to his blanket 'neath the underpass",
+            "lie there tasting his own blood on his tongue"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            5,
+            6,
+            4,
+            6
+          ],
+          "end_words": [
+            "hard",
+            "stomach",
+            "underpass",
+            "tongue"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "stomach",
+              "word2": "underpass",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "stomach",
+              "word2": "tongue",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AH), post-consonants in same family"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "underpass",
+              "word2": "tongue",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 32
+    }
+  }
+}

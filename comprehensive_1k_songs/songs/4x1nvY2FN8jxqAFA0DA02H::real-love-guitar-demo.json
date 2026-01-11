@@ -1,0 +1,453 @@
+{
+  "song_id": "4x1nvY2FN8jxqAFA0DA02H::real-love-guitar-demo",
+  "title": "Real Love Guitar Demo",
+  "artist": "John Lennon",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nAll the girls and boys\nPlaying with their little toys\nAll they really needed from you\nWas maybe some love\n\n[verse]\nAll the little boys and girls\nLiving in this crazy world\nAll they really needed from you\nWas maybe some love\n\n[bridge]\nWhy must we be alone\nWhy must we be alone\n\n[chorus]\n# (not sure of the name) x-11-10-10-9-x\nIt?s real live\nYes it?s real\nMiddle 8\nI don?t expect you to understand\nThe Kingdom of Heaven is in your hands\nI don?t expect you to wake from your dream\ntoo late for crying now, it seems\n\n[verse]\nAll your little plans and schemes\nNothing but bunch of dreams\nAll you really needed to do\nIs maybe some love",
+  "cleaned_lyrics": "All the girls and boys\nPlaying with their little toys\nAll they really needed from you\nWas maybe some love\nAll the little boys and girls\nLiving in this crazy world\nAll they really needed from you\nWas maybe some love\nWhy must we be alone\nWhy must we be alone\nIt?s real live\nYes it?s real\nMiddle 8\nI don?t expect you to understand\nThe Kingdom of Heaven is in your hands\nI don?t expect you to wake from your dream\ntoo late for crying now\nit seems\nAll your little plans and schemes\nNothing but bunch of dreams\nAll you really needed to do\nIs maybe some love",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 31,
+    "cleaned_lines": 22,
+    "removed_count": 6,
+    "retention_rate": 0.8148148148148148,
+    "removal_reasons": {
+      "guitar_tab": 1,
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "All the girls and boys\nPlaying with their little toys",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Kids are playing with toys.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "All they really needed from you\nWas maybe some love",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They just need love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "All the little boys and girls\nLiving in this crazy world",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "More kids in the world.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "All they really needed from you\nWas maybe some love",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They just need love.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Why must we be alone\nWhy must we be alone",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Why are we lonely?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "It?s real live\nYes it?s real",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's real life.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "I don?t expect you to understand\nThe Kingdom of Heaven is in your hands",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "You might not get it, but you have the power.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "I don?t expect you to wake from your dream\ntoo late for crying now",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "It's too late to change things.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "it seems\nAll your little plans and schemes",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "Your plans don't matter.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "Nothing but bunch of dreams\nAll you really needed to do\nIs maybe some love",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "It was all just dreams, you needed love.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "All the girls and boys",
+            "Playing with their little toys",
+            "All they really needed from you",
+            "Was maybe some love"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            3
+          ],
+          "end_words": [
+            "boys",
+            "toys",
+            "you",
+            "love"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "boys",
+              "word2": "toys",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "All the little boys and girls",
+            "Living in this crazy world",
+            "All they really needed from you",
+            "Was maybe some love"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            3,
+            4,
+            3
+          ],
+          "end_words": [
+            "girls",
+            "world",
+            "you",
+            "love"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "girls",
+              "word2": "world",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (ER), unrelated post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Why must we be alone",
+            "Why must we be alone",
+            "It?s real live",
+            "Yes it?s real"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            3,
+            3
+          ],
+          "end_words": [
+            "alone",
+            "alone",
+            "live",
+            "real"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "alone",
+              "word2": "alone",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Middle 8",
+            "I don?t expect you to understand",
+            "The Kingdom of Heaven is in your hands",
+            "I don?t expect you to wake from your dream"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            5,
+            3,
+            5
+          ],
+          "end_words": [
+            "middle",
+            "understand",
+            "hands",
+            "dream"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "understand",
+              "word2": "hands",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AE), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "too late for crying now",
+            "it seems",
+            "All your little plans and schemes",
+            "Nothing but bunch of dreams"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4,
+            1,
+            4,
+            3
+          ],
+          "end_words": [
+            "now",
+            "seems",
+            "schemes",
+            "dreams"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "seems",
+              "word2": "schemes",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "schemes",
+              "word2": "dreams",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "All you really needed to do",
+            "Is maybe some love"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            4,
+            3
+          ],
+          "end_words": [
+            "do",
+            "love"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 22
+    }
+  }
+}

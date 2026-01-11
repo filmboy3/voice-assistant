@@ -1,0 +1,571 @@
+{
+  "song_id": "3PhoLpVuITZKcymswpck5b::i-want-love",
+  "title": "I Want Love",
+  "artist": "Elton John",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI want love but it's impossible\nman like me so irresponsible\nman like me is dead in places\nOther men feel liberated.\n\n[verse]\nAnd I can't love shot full of holes\nDon't feel nothing, I just feel cold.\nDon't feel nothing, just old scars\nToughening up around my heart.\n\n[bridge]\nI want love won't break me down,\nWon't brick me up, won't fence me in.\nI want love that don't mean thing.\nThat's the love I want. I want love.\n\n[verse]\nI want love on my own terms,\nAfter everyting I've ever learned.\nMe, I carry too much baggage.\nOh man, I've seen so much traffic.\n\n[bridge]\nSo bring it on, I've been bruised.\nDon't give me love that's clean and smooth.\nI'm ready for the rougher stuff.\nNo sweet romance, I've had enough.\nman like me is dead in places\nOther men feel liberated.\nRepeat Chorus twice to coda.",
+  "cleaned_lyrics": "I want love but it's impossible\nman like me so irresponsible\nman like me is dead in places\nOther men feel liberated.\nAnd I can't love shot full of holes\nDon't feel nothing\nI just feel cold.\nDon't feel nothing\njust old scars\nToughening up around my heart.\nI want love won't break me down\nWon't brick me up\nwon't fence me in.\nI want love that don't mean thing.\nThat's the love I want. I want love.\nI want love on my own terms\nAfter everyting I've ever learned.\nMe\nI carry too much baggage.\nOh man\nI've seen so much traffic.\nSo bring it on\nI've been bruised.\nDon't give me love that's clean and smooth.\nI'm ready for the rougher stuff.\nNo sweet romance\nI've had enough.\nman like me is dead in places\nOther men feel liberated.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 32,
+    "cleaned_lines": 29,
+    "removed_count": 6,
+    "retention_rate": 1.0357142857142858,
+    "removal_reasons": {
+      "performance_instruction": 1,
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I want love but it's impossible\nman like me so irresponsible",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer wants love but feels like it's not possible because he's not a good person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "man like me is dead in places\nOther men feel liberated.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "envy",
+          "eli5_simplification": "The singer feels empty and different from other men who seem happy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "And I can't love shot full of holes\nDon't feel nothing",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "numbness",
+          "eli5_simplification": "The singer is damaged and can't feel love, he feels nothing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "I just feel cold.\nDon't feel nothing\njust old scars\nToughening up around my heart.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer feels cold and his past hurts are making him stronger.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "original_lyric": "I want love won't break me down\nWon't brick me up\nwon't fence me in.\nI want love that don't mean thing.\nThat's the love I want. I want love.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer wants a love that won't hurt him, a love that is real.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "I want love on my own terms\nAfter everyting I've ever learned.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "reflection",
+          "eli5_simplification": "The singer wants love on his own terms, based on his experiences.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "Me\nI carry too much baggage.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer feels weighed down by his past.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "Oh man\nI've seen so much traffic.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "weariness",
+          "eli5_simplification": "The singer has experienced a lot of hardship.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "So bring it on\nI've been bruised.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "The singer is ready for more challenges.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "Don't give me love that's clean and smooth.\nI'm ready for the rougher stuff.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer wants a real, challenging love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "No sweet romance\nI've had enough.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "weariness",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "The singer is tired of easy romances.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "man like me is dead in places\nOther men feel liberated.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "envy",
+          "eli5_simplification": "The singer repeats his earlier feelings of emptiness and difference.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 27,
+        "covered_lines": 27,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 27,
+      "covered_lines": 27,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I want love but it's impossible",
+            "man like me so irresponsible",
+            "man like me is dead in places",
+            "Other men feel liberated."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "impossible",
+            "irresponsible",
+            "places",
+            "liberated"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "impossible",
+              "word2": "irresponsible",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AA), unrelated post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "And I can't love shot full of holes",
+            "Don't feel nothing",
+            "I just feel cold.",
+            "Don't feel nothing"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            5,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "holes",
+            "nothing",
+            "cold",
+            "nothing"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "holes",
+              "word2": "cold",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (OW), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "nothing",
+              "word2": "nothing",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "just old scars",
+            "Toughening up around my heart.",
+            "I want love won't break me down",
+            "Won't brick me up"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "scars",
+            "heart",
+            "down",
+            "up"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "scars",
+              "word2": "heart",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AA), unrelated post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "won't fence me in.",
+            "I want love that don't mean thing.",
+            "That's the love I want. I want love.",
+            "I want love on my own terms"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            5,
+            5,
+            4
+          ],
+          "end_words": [
+            "in",
+            "thing",
+            "love",
+            "terms"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "in",
+              "word2": "thing",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (IH), post-consonants in same family"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "After everyting I've ever learned.",
+            "Me",
+            "I carry too much baggage.",
+            "Oh man"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            1,
+            4,
+            2
+          ],
+          "end_words": [
+            "learned",
+            "me",
+            "baggage",
+            "man"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "baggage",
+              "word2": "man",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I've seen so much traffic.",
+            "So bring it on",
+            "I've been bruised.",
+            "Don't give me love that's clean and smooth."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            2,
+            2,
+            6
+          ],
+          "end_words": [
+            "traffic",
+            "on",
+            "bruised",
+            "smooth"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "bruised",
+              "word2": "smooth",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (UW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "I'm ready for the rougher stuff.",
+            "No sweet romance",
+            "I've had enough.",
+            "man like me is dead in places"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            4
+          ],
+          "end_words": [
+            "stuff",
+            "romance",
+            "enough",
+            "places"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "stuff",
+              "word2": "enough",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Other men feel liberated."
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "liberated"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 29
+    }
+  }
+}

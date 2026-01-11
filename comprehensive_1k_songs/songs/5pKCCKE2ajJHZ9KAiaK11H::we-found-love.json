@@ -1,0 +1,391 @@
+{
+  "song_id": "5pKCCKE2ajJHZ9KAiaK11H::we-found-love",
+  "title": "We Found Love",
+  "artist": "Rihanna",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nYellow diamonds in the light\nAnd we're standing side by side\nAs your shadow crosses mine\nWhat it takes to come aliiiivvveee..\nIt's the way I'm feeling I just can't denyyyy\n\n[bridge]\nWe found love in hopeless place\nWe found love in hopeless place\nWe found love in hopeless place\nWe found love in hopeless place\nShine light through an open door\nLove and life I will divide\nTurn away cause I need you more\nFeel the heartbeat in my mind\nIt's the way I'm feeling I just can't deny\n\n[bridge]\nWe found love in hopeless place\nWe found love in hopeless place\nWe found love in hopeless place\nWe found love in hopeless place",
+  "cleaned_lyrics": "Yellow diamonds in the light\nAnd we're standing side by side\nAs your shadow crosses mine\nWhat it takes to come aliiiivvveee..\nIt's the way I'm feeling I just can't denyyyy\nWe found love in hopeless place\nWe found love in hopeless place\nWe found love in hopeless place\nWe found love in hopeless place\nShine light through an open door\nLove and life I will divide\nTurn away cause I need you more\nFeel the heartbeat in my mind\nIt's the way I'm feeling I just can't deny\nWe found love in hopeless place\nWe found love in hopeless place\nWe found love in hopeless place\nWe found love in hopeless place",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 23,
+    "cleaned_lines": 18,
+    "removed_count": 3,
+    "retention_rate": 0.8571428571428571,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Yellow diamonds in the light\nAnd we're standing side by side",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "We see pretty things and are together.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "As your shadow crosses mine\nWhat it takes to come aliiiivvveee..",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Something is happening, making us feel alive.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            14
+          ],
+          "original_lyric": "It's the way I'm feeling I just can't denyyyy",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "I can't hide how I feel.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7,
+            8,
+            9,
+            15,
+            16,
+            17,
+            18
+          ],
+          "original_lyric": "We found love in hopeless place\nWe found love in hopeless place\nWe found love in hopeless place\nWe found love in hopeless place",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "joy",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "We found love where we didn't expect it.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "Shine light through an open door\nLove and life I will divide",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "We're finding a way forward.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "Turn away cause I need you more\nFeel the heartbeat in my mind",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "love",
+          "eli5_simplification": "I need you, I feel it in my heart.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Yellow diamonds in the light",
+            "And we're standing side by side",
+            "As your shadow crosses mine",
+            "What it takes to come aliiiivvveee.."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            4
+          ],
+          "end_words": [
+            "light",
+            "side",
+            "mine",
+            "aliiiivvveee"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "light",
+              "word2": "side",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "side",
+              "word2": "mine",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "It's the way I'm feeling I just can't denyyyy",
+            "We found love in hopeless place",
+            "We found love in hopeless place",
+            "We found love in hopeless place"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            7,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "denyyyy",
+            "place",
+            "place",
+            "place"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "place",
+              "word2": "place",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "place",
+              "word2": "place",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "We found love in hopeless place",
+            "Shine light through an open door",
+            "Love and life I will divide",
+            "Turn away cause I need you more"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            5,
+            3,
+            5
+          ],
+          "end_words": [
+            "place",
+            "door",
+            "divide",
+            "more"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "door",
+              "word2": "more",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Feel the heartbeat in my mind",
+            "It's the way I'm feeling I just can't deny",
+            "We found love in hopeless place",
+            "We found love in hopeless place"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            7,
+            4,
+            4
+          ],
+          "end_words": [
+            "mind",
+            "deny",
+            "place",
+            "place"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "mind",
+              "word2": "deny",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word adds post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "place",
+              "word2": "place",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "We found love in hopeless place",
+            "We found love in hopeless place"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            4,
+            4
+          ],
+          "end_words": [
+            "place",
+            "place"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "place",
+              "word2": "place",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "chorus",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "chorus",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "line_count": 2,
+          "stability": 1.0
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 18
+    }
+  }
+}

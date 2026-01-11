@@ -1,0 +1,839 @@
+{
+  "song_id": "0oSGxfWSnnOXhD2fKuz2Gy::rock-n-roll-suicide",
+  "title": "Rock N Roll Suicide",
+  "artist": "David Bowie",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nGtr I ( ) - 'Trevor Bolder - Bass'\nQ=99\nGtr I\nWx4 Wx8 Wx7\n3rd Verse\n\n[pre_chorus]\n---------------------------5-----------------||--------------------/5-6-----------7---------7-7s5--------------------||----------3--------------\n\n[chorus]\n-8----8------------------------8---8s6-4-4-----4-3-|-2----2-4-5-/6----9------------------------------------------------------|\n\n[outro]\n|----8-----8s6-4--4-4--4-|-1-1-1-1--1-1-1-1-1-2-3--------------------------\nQ Q. + H. H.\nDuration Legend\nW - whole; H - half; Q - quarter; - 8th; S - 16th; - acciaccatura;\n+ - note tied to previous; . - note dotted;\nUncapitalized letters represent notes that are staccato (1/2 duration).\n| (n) - note tied to previous\n| /\\ - slide into or out of (from/to \"nowhere\")\n| s - legato slide\nTime takes cigarette puts it in your mouth\nYou pull on your finger, then another finger, then your cigarette\nThe wall to wall is calling it lingers, then you forget\nOh you're rock'n roll suicide\nYou're too old to lose it too young to choose it\nAnd the clock waits so patiently on your song\nYou walk past cafe but you don't eat when you lived too long\nOh no no no you're rock'n roll suicide\n\n[bridge]\nDon't let the sun blast your shadow\ndon't let the milk floats ride your mind\nSo natural religiously unkind\nOh no love you're not alone\nYou're watching yourself but you're too unfair\nyou got your head all tangled but if I could only make you care\nOh no love you're not alone\nno matter what or who you've been\nno matter when or where you've seen\nall the knives to lacerate your brain\nI've had my share I'll help you with the pain you're not alone\nJust turn on me you're\nnot alone let's turn on me and be\nyou're not alone gimme your hands\nyou're wonderful gimme your hands\nyou're wonderful gimme your hands",
+  "cleaned_lyrics": "Gtr I ( ) - 'Trevor Bolder - Bass'\nQ=99\nGtr I\nWx4 Wx8 Wx7\n3rd Verse\nQ Q. + H. H.\nDuration Legend\nW - whole\nH - half\nQ - quarter\n- 8th\nS - 16th\n- acciaccatura\n+ - note tied to previous\n. - note dotted\n| (n) - note tied to previous\n| /\\ - slide into or out of (from/to \"nowhere\")\nTime takes cigarette puts it in your mouth\nYou pull on your finger\nthen another finger\nthen your cigarette\nThe wall to wall is calling it lingers\nthen you forget\nOh you're rock'n roll suicide\nYou're too old to lose\nit too young to choose it\nAnd the clock waits so patiently on your song\nYou walk past cafe but you\ndon't eat when you lived too long\nOh no no no\nyou're rock'n roll suicide\nDon't let the sun blast your shadow\ndon't let the milk floats ride your mind\nSo natural religiously unkind\nOh no love you're not alone\nYou're watching yourself but you're too unfair\nyou got your head all tangled but\nif I could only make you care\nOh no love you're not alone\nno matter what or who you've been\nno matter when or where you've seen\nall the knives to lacerate your brain\nI've had my share I'll help\nyou with the pain you're not alone\nJust turn on me you're\nnot alone let's turn on me and be\nyou're not alone gimme your hands\nyou're wonderful gimme your hands\nyou're wonderful gimme your hands",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 49,
+    "cleaned_lines": 49,
+    "removed_count": 10,
+    "retention_rate": 1.0888888888888888,
+    "removal_reasons": {
+      "musical_direction": 1,
+      "guitar_tab": 4,
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Time takes cigarette puts it in your mouth\nYou pull on your finger",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts with a description of someone smoking a cigarette.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4,
+            5
+          ],
+          "original_lyric": "then another finger\nthen your cigarette\nThe wall to wall is calling it lingers",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "More details about the person smoking and the environment.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "then you forget\nOh you're rock'n roll suicide",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "The person seems to be forgetting things, and the song introduces the idea of rock and roll suicide.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10
+          ],
+          "original_lyric": "You're too old to lose\nit too young to choose it\nAnd the clock waits so patiently on your song",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The person feels stuck, too old to give up but too young to know what to do.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "You walk past cafe but you\ndon't eat when you lived too long",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "The person is isolated and doesn't find joy in life.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Oh no no no",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "Expressing sadness and hopelessness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "you're rock'n roll suicide",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Repeating the theme of rock and roll suicide.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "Don't let the sun blast your shadow\ndon't let the milk floats ride your mind",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "A plea to not give in to despair.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "So natural religiously unkind",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "Describing something that is naturally cruel.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Oh no love you're not alone",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Reassuring the person that they are not alone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "You're watching yourself but you're too unfair\nyou got your head all tangled but",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "The person is being too hard on themselves.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "if I could only make you care",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Wishing they could help the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "Oh no love you're not alone",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Reassuring the person that they are not alone.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23,
+            24,
+            25
+          ],
+          "original_lyric": "no matter what or who you've been\nno matter when or where you've seen\nall the knives to lacerate your brain",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "No matter what the person has been through, they are not alone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "I've had my share I'll help",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Offering help.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "you with the pain you're not alone",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Offering help and reassurance.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "Just turn on me you're",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Asking the person to accept help.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "not alone let's turn on me and be",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Asking the person to accept help.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30,
+            31,
+            32
+          ],
+          "original_lyric": "you're not alone gimme your hands\nyou're wonderful gimme your hands\nyou're wonderful gimme your hands",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "Offering support and celebrating the person.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          {
+            "line_numbers": [
+              18
+            ],
+            "from": "you",
+            "to": "I"
+          }
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 32,
+        "covered_lines": 32,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        {
+          "line_numbers": [
+            18
+          ],
+          "from": "you",
+          "to": "I"
+        }
+      ]
+    },
+    "coverage": {
+      "total_lines": 32,
+      "covered_lines": 32,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Gtr I ( ) - 'Trevor Bolder - Bass'",
+            "Q=99",
+            "Gtr I",
+            "Wx4 Wx8 Wx7"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            1,
+            2,
+            3
+          ],
+          "end_words": [
+            "bass",
+            "q",
+            "i",
+            "wx"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "3rd Verse",
+            "Q Q. + H. H.",
+            "Duration Legend",
+            "W - whole"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            4,
+            3,
+            2
+          ],
+          "end_words": [
+            "verse",
+            "h",
+            "legend",
+            "whole"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "H - half",
+            "Q - quarter",
+            "- 8th",
+            "S - 16th"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            3
+          ],
+          "end_words": [
+            "half",
+            "quarter",
+            "th",
+            "th"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "th",
+              "word2": "th",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "- acciaccatura",
+            "+ - note tied to previous",
+            ". - note dotted",
+            "| (n) - note tied to previous"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            1,
+            3,
+            2,
+            4
+          ],
+          "end_words": [
+            "acciaccatura",
+            "previous",
+            "dotted",
+            "previous"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "previous",
+              "word2": "previous",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "| /\\ - slide into or out of (from/to \"nowhere\")",
+            "Time takes cigarette puts it in your mouth",
+            "You pull on your finger",
+            "then another finger"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            5,
+            2,
+            2
+          ],
+          "end_words": [
+            "nowhere",
+            "mouth",
+            "finger",
+            "finger"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "finger",
+              "word2": "finger",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "then your cigarette",
+            "The wall to wall is calling it lingers",
+            "then you forget",
+            "Oh you're rock'n roll suicide"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            1,
+            4,
+            1,
+            5
+          ],
+          "end_words": [
+            "cigarette",
+            "lingers",
+            "forget",
+            "suicide"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "cigarette",
+              "word2": "forget",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "You're too old to lose",
+            "it too young to choose it",
+            "And the clock waits so patiently on your song",
+            "You walk past cafe but you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            5,
+            4,
+            5
+          ],
+          "end_words": [
+            "lose",
+            "it",
+            "song",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "lose",
+              "word2": "you",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "don't eat when you lived too long",
+            "Oh no no no",
+            "you're rock'n roll suicide",
+            "Don't let the sun blast your shadow"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            4,
+            4,
+            5
+          ],
+          "end_words": [
+            "long",
+            "no",
+            "suicide",
+            "shadow"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "don't let the milk floats ride your mind",
+            "So natural religiously unkind",
+            "Oh no love you're not alone",
+            "You're watching yourself but you're too unfair"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            3,
+            6,
+            6
+          ],
+          "end_words": [
+            "mind",
+            "unkind",
+            "alone",
+            "unfair"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "mind",
+              "word2": "unkind",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "you got your head all tangled but",
+            "if I could only make you care",
+            "Oh no love you're not alone",
+            "no matter what or who you've been"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            4,
+            6,
+            5
+          ],
+          "end_words": [
+            "but",
+            "care",
+            "alone",
+            "been"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "no matter when or where you've seen",
+            "all the knives to lacerate your brain",
+            "I've had my share I'll help",
+            "you with the pain you're not alone"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            4,
+            5,
+            4
+          ],
+          "end_words": [
+            "seen",
+            "brain",
+            "help",
+            "alone"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 12,
+          "lines": [
+            "Just turn on me you're",
+            "not alone let's turn on me and be",
+            "you're not alone gimme your hands",
+            "you're wonderful gimme your hands"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            5,
+            5,
+            4
+          ],
+          "end_words": [
+            "you're",
+            "be",
+            "hands",
+            "hands"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "hands",
+              "word2": "hands",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 13,
+          "lines": [
+            "you're wonderful gimme your hands"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "hands"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 12,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 13,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 13,
+      "total_lines": 49
+    }
+  }
+}

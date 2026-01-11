@@ -1,0 +1,790 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::hey-porter",
+  "title": "Hey Porter",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nHey, Porter, Hey Porter! Would you tell me the time?\nHow much longer will it be 'til we cross that Mason Dixon Line?\nAt daylight will you tell that engineer to slow it down;\nOr better still, just stop the train 'cause I want to look around.\n2. Hey, Porter! Hey Porter! What time did you say?\nHow much longer will it be 'till I can see the light of day?\nWhen we hit Dixie will you tell that engineer to ring his bell;\nAnd ask everybody that ain't asleep to stand right up and yell.\n3. Hey, Porter! Hey Porter! It's getting light outside.\nThis old train is puffin' smoke and I have to strain my eyes.\n\n[bridge]\n'Cause I smell frost on cotton leaves, and I smell that Southern breeze.\n4. Hey, Porter! Hey, Porter! Please get my bags for me,\nI need nobody to tell me now that we're in Tennessee.\nGo tell that engineer to make that lonesome whistle scream.\nWe're not so far from home so take it easy on the steam.\n5. Hey Porter! Hey Porter! Please open up my door.\nWhen they stop this train I'm gonna get off first 'cause I can't wait\nno more.\nTell that engineer I say, \"Thanks lot. I didn't mind the fare.\nI'm gonna set my feet on Southern soil and breathe that Southern air.\"\nTom Lindsey, [email protected]",
+  "cleaned_lyrics": "Hey\nPorter\nHey Porter! Would you tell me the time?\nHow much longer will it be\n'til we cross that Mason Dixon Line?\nAt daylight will you tell that engineer to slow it down\nOr better still\njust stop the train 'cause I want to look around.\n2. Hey\nPorter! Hey Porter! What time did you say?\nHow much longer will it be 'till I can see the light of day?\nWhen we hit Dixie will you\ntell that engineer to ring his bell\nAnd ask everybody that ain't asleep\nto stand right up and yell.\n3. Hey\nPorter! Hey Porter!\nIt's getting light outside.\nThis old train is puffin' smoke and I have to strain my eyes.\n'Cause I smell frost on cotton leaves\nand I smell that Southern breeze.\n4. Hey\nPorter! Hey\nPorter! Please get my bags for me\nI need nobody to tell me now that we're in Tennessee.\nGo tell that engineer to\nmake that lonesome whistle scream.\nWe're not so far from home so take it easy on the steam.\n5. Hey Porter! Hey Porter!\nPlease open up my door.\nWhen they stop this train I'm gonna\nget off first 'cause I can't wait\nno more.\nTell that engineer I say\n\"Thanks lot. I didn't mind the fare.\nI'm gonna set my feet on\nSouthern soil and breathe that Southern air.\"\nTom Lindsey\n[email protected]",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 24,
+    "cleaned_lines": 39,
+    "removed_count": 2,
+    "retention_rate": 1.6956521739130435,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Hey\nPorter",
+          "plot_function": "SETUP",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts by calling out to Porter.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "Hey Porter! Would you tell me the time?",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer asks Porter for the time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "How much longer will it be\n'til we cross that Mason Dixon Line?",
+          "plot_function": "SETUP",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wonders how much longer until they reach the Mason Dixon Line.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "At daylight will you tell that engineer to slow it down\nOr better still",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants the train to slow down or stop.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "just stop the train 'cause I want to look around.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The singer wants to stop the train to look around.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Hey\nPorter! Hey Porter! What time did you say?",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer repeats the call to Porter and asks the time again.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "How much longer will it be 'till I can see the light of day?",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to know how much longer until it's daytime.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "When we hit Dixie will you\ntell that engineer to ring his bell",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The singer wants the engineer to ring the bell when they reach Dixie.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "And ask everybody that ain't asleep\nto stand right up and yell.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants everyone to stand up and yell.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "Hey\nPorter! Hey Porter!",
+          "plot_function": "SETUP",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer calls out to Porter again.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "It's getting light outside.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's getting light outside.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "This old train is puffin' smoke and I have to strain my eyes.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The train is puffing smoke and the singer is straining their eyes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "'Cause I smell frost on cotton leaves\nand I smell that Southern breeze.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer smells frost and the Southern breeze.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "Hey\nPorter! Hey\nPorter! Please get my bags for me",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer asks Porter to get their bags.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "I need nobody to tell me now that we're in Tennessee.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer knows they are in Tennessee.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "Go tell that engineer to\nmake that lonesome whistle scream.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants the engineer to blow the whistle.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "We're not so far from home so take it easy on the steam.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are close to home.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31,
+            32
+          ],
+          "original_lyric": "Hey Porter! Hey Porter!\nPlease open up my door.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer asks Porter to open the door.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            33,
+            34
+          ],
+          "original_lyric": "When they stop this train I'm gonna\nget off first 'cause I can't wait",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is eager to get off the train.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35
+          ],
+          "original_lyric": "no more.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer can't wait any longer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            36,
+            37
+          ],
+          "original_lyric": "Tell that engineer I say\n\"Thanks lot. I didn't mind the fare.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "gratitude",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer thanks the engineer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            38,
+            39
+          ],
+          "original_lyric": "I'm gonna set my feet on\nSouthern soil and breathe that Southern air.\"",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is going to get off the train and enjoy the Southern air.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 39,
+        "covered_lines": 39,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 39,
+      "covered_lines": 39,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Hey",
+            "Porter",
+            "Hey Porter! Would you tell me the time?",
+            "How much longer will it be"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            1,
+            4,
+            4
+          ],
+          "end_words": [
+            "hey",
+            "porter",
+            "time",
+            "be"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "'til we cross that Mason Dixon Line?",
+            "At daylight will you tell that engineer to slow it down",
+            "Or better still",
+            "just stop the train 'cause I want to look around."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            6,
+            2,
+            7
+          ],
+          "end_words": [
+            "line",
+            "down",
+            "still",
+            "around"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "down",
+              "word2": "around",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "2. Hey",
+            "Porter! Hey Porter! What time did you say?",
+            "How much longer will it be 'till I can see the light of day?",
+            "When we hit Dixie will you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            1,
+            6,
+            7,
+            4
+          ],
+          "end_words": [
+            "hey",
+            "say",
+            "day",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "hey",
+              "word2": "say",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "say",
+              "word2": "day",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "tell that engineer to ring his bell",
+            "And ask everybody that ain't asleep",
+            "to stand right up and yell.",
+            "3. Hey"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            5,
+            4,
+            1
+          ],
+          "end_words": [
+            "bell",
+            "asleep",
+            "yell",
+            "hey"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "bell",
+              "word2": "yell",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Porter! Hey Porter!",
+            "It's getting light outside.",
+            "This old train is puffin' smoke and I have to strain my eyes.",
+            "'Cause I smell frost on cotton leaves"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            5,
+            6,
+            5
+          ],
+          "end_words": [
+            "porter",
+            "outside",
+            "eyes",
+            "leaves"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "outside",
+              "word2": "eyes",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "and I smell that Southern breeze.",
+            "4. Hey",
+            "Porter! Hey",
+            "Porter! Please get my bags for me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            3,
+            1,
+            2,
+            5
+          ],
+          "end_words": [
+            "breeze",
+            "hey",
+            "hey",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "breeze",
+              "word2": "me",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "hey",
+              "word2": "hey",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "I need nobody to tell me now that we're in Tennessee.",
+            "Go tell that engineer to",
+            "make that lonesome whistle scream.",
+            "We're not so far from home so take it easy on the steam."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            6,
+            5,
+            4,
+            7
+          ],
+          "end_words": [
+            "tennessee",
+            "to",
+            "scream",
+            "steam"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "tennessee",
+              "word2": "scream",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "scream",
+              "word2": "steam",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "5. Hey Porter! Hey Porter!",
+            "Please open up my door.",
+            "When they stop this train I'm gonna",
+            "get off first 'cause I can't wait"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            5,
+            6
+          ],
+          "end_words": [
+            "porter",
+            "door",
+            "gonna",
+            "wait"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "porter",
+              "word2": "door",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AO), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "no more.",
+            "Tell that engineer I say",
+            "\"Thanks lot. I didn't mind the fare.",
+            "I'm gonna set my feet on"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            4,
+            5,
+            5
+          ],
+          "end_words": [
+            "more",
+            "say",
+            "fare",
+            "on"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "Southern soil and breathe that Southern air.\"",
+            "Tom Lindsey",
+            "[email protected]"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AXA",
+          "raw_rhyme_scheme": "ABA",
+          "pattern": "3_ABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            2,
+            2
+          ],
+          "end_words": [
+            "air",
+            "lindsey",
+            "protected"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "air",
+              "word2": "protected",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "AXA",
+          "pattern": "3_ABA",
+          "line_count": 3,
+          "stability": 0.2
+        }
+      ],
+      "total_stanzas": 10,
+      "total_lines": 39
+    }
+  }
+}

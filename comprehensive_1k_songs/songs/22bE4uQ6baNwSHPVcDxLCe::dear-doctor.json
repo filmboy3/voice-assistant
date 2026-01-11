@@ -1,0 +1,780 @@
+{
+  "song_id": "22bE4uQ6baNwSHPVcDxLCe::dear-doctor",
+  "title": "Dear Doctor",
+  "artist": "The Rolling Stones",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\n1. Oh, help me, please doctor, I`m damaged, there`s pain where there\nonce was heart. It`s sleeping, it`s beating, can`t you please tear it out\nand preserve it right there in that jar.\n2. Oh, help me, please, Mama, I`m sickening, it`s today that`s the day\nof the plunge. Oh, the gal, I`m to marry, is bow-legged sow,\nI`ve been soaking up drink like sponge.\n3. \"Don`t you worry, \"Get dressed!\" cried my mother, as she plied me with\n\n[chorus]\n4. = verse 1.\n5. = verse 1. in the key of\n6. I was trembling as I put on my jacket, it had creases as\nsharp as knife. I put the ring in my pocket, but there was note,\nand my heart it jumped into my mouth.\n7. It read, \"Darling, I`m sorry to hurt you, but I`ve no courage to speak\nto your face. But I`m down in Virginia with your cousin Lou,\nand there`ll be no wedding today.\"\n8. So help me, please doctor, I`m damaged, you can put back my heart\n\n[intro]\nand my pulse is now under control",
+  "cleaned_lyrics": "1. Oh\nhelp me\nplease doctor\nI`m damaged\nthere`s pain where there\nonce was heart. It`s sleeping\nit`s beating\ncan`t you please tear it out\nand preserve it right there in that jar.\n2. Oh\nhelp me\nplease\nMama\nI`m sickening\nit`s today that`s the day\nof the plunge. Oh\nthe gal\nI`m to marry\nis bow-legged sow\nI`ve been soaking up drink like sponge.\n3. \"Don`t you worry\n\"Get dressed!\" cried my mother\nas she plied me with\n4. = verse 1.\n5. = verse 1. in the key of\n6. I was trembling as I put on my jacket\nit had creases as\nsharp as knife. I put the ring in my pocket\nbut there was note\nand my heart it jumped into my mouth.\n7. It read\n\"Darling\nI`m sorry to hurt you\nbut I`ve no courage to speak\nto your face. But I`m down in Virginia with your cousin Lou\nand there`ll be no wedding today.\"\n8. So help me\nplease doctor\nI`m damaged\nyou can put back my heart\nand my pulse is now under control",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 22,
+    "cleaned_lines": 41,
+    "removed_count": 3,
+    "retention_rate": 2.05,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Oh\nhelp me",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is asking for help.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "please doctor\nI`m damaged",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is hurt and needs help from a doctor.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "there`s pain where there\nonce was heart. It`s sleeping",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer's heart is hurting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "it`s beating\ncan`t you please tear it out",
+          "plot_function": "SETUP",
+          "emotion_primary": "desperation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants the doctor to remove their heart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "and preserve it right there in that jar.",
+          "plot_function": "SETUP",
+          "emotion_primary": "desperation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants the doctor to keep their heart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "Oh\nhelp me",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is asking for help.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "please\nMama",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is asking for help from their mother.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "I`m sickening",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer feels ill.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "it`s today that`s the day\nof the plunge. Oh",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Today is the day something bad is going to happen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "the gal\nI`m to marry",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is going to marry someone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "is bow-legged sow\nI`ve been soaking up drink like sponge.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "disgust",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer doesn't like the person they are marrying and has been drinking.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "\"Don`t you worry",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The mother is trying to reassure the singer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "\"Get dressed!\" cried my mother",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The mother tells the singer to get ready.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "as she plied me with",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The mother is helping the singer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "= verse 1. in the key of",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song repeats the first verse.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "I was trembling as I put on my jacket",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is nervous.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "it had creases as\nsharp as knife. I put the ring in my pocket",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is getting ready to go out.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "but there was note\nand my heart it jumped into my mouth.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer finds a note and is scared.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "It read\n\"Darling",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The note starts.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "I`m sorry to hurt you\nbut I`ve no courage to speak",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The note says the person doesn't have the courage to speak.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "to your face. But I`m down in Virginia with your cousin Lou\nand there`ll be no wedding today.\"",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The note reveals the person is leaving the singer for someone else.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "So help me\nplease doctor",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "despair",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer asks for help again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "I`m damaged",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "despair",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is hurt.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "you can put back my heart\nand my pulse is now under control",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is accepting the situation.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 24,
+        "covered_lines": 24,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 24,
+      "covered_lines": 24,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "1. Oh",
+            "help me",
+            "please doctor",
+            "I`m damaged"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "oh",
+            "me",
+            "doctor",
+            "damaged"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "there`s pain where there",
+            "once was heart. It`s sleeping",
+            "it`s beating",
+            "can`t you please tear it out"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            3,
+            1,
+            4
+          ],
+          "end_words": [
+            "there",
+            "sleeping",
+            "beating",
+            "out"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "sleeping",
+              "word2": "beating",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (IY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "and preserve it right there in that jar.",
+            "2. Oh",
+            "help me",
+            "please"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            1,
+            2,
+            1
+          ],
+          "end_words": [
+            "jar",
+            "oh",
+            "me",
+            "please"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "me",
+              "word2": "please",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Mama",
+            "I`m sickening",
+            "it`s today that`s the day",
+            "of the plunge. Oh"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "mama",
+            "sickening",
+            "day",
+            "oh"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "the gal",
+            "I`m to marry",
+            "is bow-legged sow",
+            "I`ve been soaking up drink like sponge."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "end_words": [
+            "gal",
+            "marry",
+            "sow",
+            "sponge"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "3. \"Don`t you worry",
+            "\"Get dressed!\" cried my mother",
+            "as she plied me with",
+            "4. = verse 1."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            4,
+            2,
+            1
+          ],
+          "end_words": [
+            "worry",
+            "mother",
+            "with",
+            "verse"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "worry",
+              "word2": "verse",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (ER), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "5. = verse 1. in the key of",
+            "6. I was trembling as I put on my jacket",
+            "it had creases as",
+            "sharp as knife. I put the ring in my pocket"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            5
+          ],
+          "end_words": [
+            "of",
+            "jacket",
+            "as",
+            "pocket"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "jacket",
+              "word2": "as",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "but there was note",
+            "and my heart it jumped into my mouth.",
+            "7. It read",
+            "\"Darling"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            4,
+            1,
+            1
+          ],
+          "end_words": [
+            "note",
+            "mouth",
+            "read",
+            "darling"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "I`m sorry to hurt you",
+            "but I`ve no courage to speak",
+            "to your face. But I`m down in Virginia with your cousin Lou",
+            "and there`ll be no wedding today.\""
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "you",
+            "speak",
+            "lou",
+            "today"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "you",
+              "word2": "lou",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "8. So help me",
+            "please doctor",
+            "I`m damaged",
+            "you can put back my heart"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            3
+          ],
+          "end_words": [
+            "me",
+            "doctor",
+            "damaged",
+            "heart"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "doctor",
+              "word2": "heart",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AA), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "and my pulse is now under control"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "control"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 11,
+      "total_lines": 41
+    }
+  }
+}

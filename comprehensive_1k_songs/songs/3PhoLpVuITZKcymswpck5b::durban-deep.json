@@ -1,0 +1,760 @@
+{
+  "song_id": "3PhoLpVuITZKcymswpck5b::durban-deep",
+  "title": "Durban Deep",
+  "artist": "Elton John",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI won't see you 'till Christmas\nI breathe coal dust, I get blisters\n\n[bridge]\nHe say work boy there's no hurry\nDon't that big red sun\nLook lot like fire\nWhen you come out of the ground\nAfter forty eight hours\nGoing down down down down down\nGoing down in Durban deep\nGoing down down down down down\nThere's no mercy in my sleep\nI just hear that drill and hammer\nI feel the killing heat\nGoing two miles down to the heart\nOf Durban deep\n\n[verse]\nI was born on amen corner\nI pound rock face, I get lonely\n\n[bridge]\nStill the boss man he call us lazy\nDon't the old blue heaven\nLook lot like your eyes\nWhen you're blinded by the brightness\nOf the Transvaal sky\nGoing down down down down down\nGoing down in Durban deep\nGoing down down down down down\nThere's no mercy in my sleep\nI just hear that drill and hammer\nI feel the killing heat\nGoing two miles down to the heart\nOf Durban deep\nGoing down down down down down\nGoing down in Durban deep\nGoing down down down down down\nThere's no mercy in my sleep\nI just hear that drill and hammer\nI feel the killing heat\nGoing two miles down to the heart\nOf Durban deep",
+  "cleaned_lyrics": "I won't see you 'till Christmas\nI breathe coal dust\nI get blisters\nHe say work boy there's no hurry\nDon't that big red sun\nLook lot like fire\nWhen you come out of the ground\nAfter forty eight hours\nGoing down down down down down\nGoing down in Durban deep\nGoing down down down down down\nThere's no mercy in my sleep\nI just hear that drill and hammer\nI feel the killing heat\nGoing two miles down to the heart\nOf Durban deep\nI was born on amen corner\nI pound rock face\nI get lonely\nStill the boss man he call us lazy\nDon't the old blue heaven\nLook lot like your eyes\nOf the Transvaal sky\nGoing down down down down down\nGoing down in Durban deep\nGoing down down down down down\nThere's no mercy in my sleep\nI just hear that drill and hammer\nI feel the killing heat\nGoing two miles down to the heart\nOf Durban deep\nGoing down down down down down\nGoing down in Durban deep\nGoing down down down down down\nThere's no mercy in my sleep\nI just hear that drill and hammer\nI feel the killing heat\nGoing two miles down to the heart\nOf Durban deep",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 45,
+    "cleaned_lines": 39,
+    "removed_count": 5,
+    "retention_rate": 0.9285714285714286,
+    "removal_reasons": {
+      "section_marker": 4,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "I won't see you 'till Christmas",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer misses someone and won't see them for a long time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2,
+            3
+          ],
+          "original_lyric": "I breathe coal dust\nI get blisters",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "physical discomfort",
+          "eli5_simplification": "The singer works in a coal mine and is suffering.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "He say work boy there's no hurry",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The boss is telling the worker to keep working.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Don't that big red sun\nLook lot like fire",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The sun looks like fire, a symbol of the dangerous work.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "When you come out of the ground\nAfter forty eight hours",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "exhaustion",
+          "emotion_secondary": null,
+          "eli5_simplification": "The worker is underground for a long time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Going down down down down down",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Going deeper into the mine.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "Going down in Durban deep",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Going into the mine.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Going down down down down down",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Going deeper into the mine.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "There's no mercy in my sleep",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The worker can't find peace even when sleeping.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "I just hear that drill and hammer",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The worker is constantly reminded of the dangerous work.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "I feel the killing heat",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "physical discomfort",
+          "eli5_simplification": "The worker feels the heat of the mine.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Going two miles down to the heart",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Going deeper into the mine.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Of Durban deep",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Going into the mine.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "I was born on amen corner",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer was born in a poor place.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "I pound rock face\nI get lonely",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer works hard and is lonely.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Still the boss man he call us lazy",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The boss is still calling the workers lazy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "Don't the old blue heaven\nLook lot like your eyes",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is thinking of someone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "Of the Transvaal sky",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is thinking of the sky.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "original_lyric": "Going down down down down down\nGoing down in Durban deep\nGoing down down down down down\nThere's no mercy in my sleep\nI just hear that drill and hammer\nI feel the killing heat\nGoing two miles down to the heart\nOf Durban deep\nGoing down down down down down\nGoing down in Durban deep\nGoing down down down down down\nThere's no mercy in my sleep\nI just hear that drill and hammer\nI feel the killing heat\nGoing two miles down to the heart\nOf Durban deep",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Chorus repeated.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 36,
+        "covered_lines": 36,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 36,
+      "covered_lines": 36,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I won't see you 'till Christmas",
+            "I breathe coal dust",
+            "I get blisters",
+            "He say work boy there's no hurry"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            3,
+            2,
+            6
+          ],
+          "end_words": [
+            "christmas",
+            "dust",
+            "blisters",
+            "hurry"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "christmas",
+              "word2": "blisters",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Don't that big red sun",
+            "Look lot like fire",
+            "When you come out of the ground",
+            "After forty eight hours"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "sun",
+            "fire",
+            "ground",
+            "hours"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "ground",
+              "word2": "hours",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Going down down down down down",
+            "Going down in Durban deep",
+            "Going down down down down down",
+            "There's no mercy in my sleep"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.9,
+          "stress_counts": [
+            6,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "down",
+            "deep",
+            "down",
+            "sleep"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "down",
+              "word2": "down",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "deep",
+              "word2": "sleep",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I just hear that drill and hammer",
+            "I feel the killing heat",
+            "Going two miles down to the heart",
+            "Of Durban deep"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 1.0,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            3,
+            5,
+            2
+          ],
+          "end_words": [
+            "hammer",
+            "heat",
+            "heart",
+            "deep"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "heat",
+              "word2": "deep",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (IY), post-consonants in same family"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I was born on amen corner",
+            "I pound rock face",
+            "I get lonely",
+            "Still the boss man he call us lazy"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            5
+          ],
+          "end_words": [
+            "corner",
+            "face",
+            "lonely",
+            "lazy"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "face",
+              "word2": "lazy",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Don't the old blue heaven",
+            "Look lot like your eyes",
+            "Of the Transvaal sky",
+            "Going down down down down down"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            4,
+            2,
+            6
+          ],
+          "end_words": [
+            "heaven",
+            "eyes",
+            "sky",
+            "down"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "eyes",
+              "word2": "sky",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Going down in Durban deep",
+            "Going down down down down down",
+            "There's no mercy in my sleep",
+            "I just hear that drill and hammer"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            6,
+            4,
+            4
+          ],
+          "end_words": [
+            "deep",
+            "down",
+            "sleep",
+            "hammer"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "deep",
+              "word2": "sleep",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "I feel the killing heat",
+            "Going two miles down to the heart",
+            "Of Durban deep",
+            "Going down down down down down"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            5,
+            2,
+            6
+          ],
+          "end_words": [
+            "heat",
+            "heart",
+            "deep",
+            "down"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "heat",
+              "word2": "deep",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (IY), post-consonants in same family"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "Going down in Durban deep",
+            "Going down down down down down",
+            "There's no mercy in my sleep",
+            "I just hear that drill and hammer"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            6,
+            4,
+            4
+          ],
+          "end_words": [
+            "deep",
+            "down",
+            "sleep",
+            "hammer"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "deep",
+              "word2": "sleep",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "I feel the killing heat",
+            "Going two miles down to the heart",
+            "Of Durban deep"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AXA",
+          "raw_rhyme_scheme": "ABA",
+          "pattern": "3_ABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            5,
+            2
+          ],
+          "end_words": [
+            "heat",
+            "heart",
+            "deep"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "heat",
+              "word2": "deep",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (IY), post-consonants in same family"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXA",
+          "pattern": "3_ABA",
+          "line_count": 3,
+          "stability": 0.2
+        }
+      ],
+      "total_stanzas": 10,
+      "total_lines": 39
+    }
+  }
+}

@@ -1,0 +1,717 @@
+{
+  "song_id": "4gzpq5DPGxSnKTe4SA8HAU::strawberry-swing",
+  "title": "Strawberry Swing",
+  "artist": "Coldplay",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nThey were sitting, they were sitting in the strawberry swing\nAnd every moment was so precious\nThey were sitting, they were talking in the strawberry swing\nAnd everybody was for fighting\nWouldn't wanna waste thing\n\n[chorus]\nNow my feet won't touch the ground\n\n[chorus]\nWhat you say?\nIt's such, it's such perfect day\nIt's such perfect day\nI remember we were walking up to strawberry swing\nI can't wait until the morning\nWouldn't wanna change thing\nPeople moving all the time\n\n[intro]\nDon't you wanna scurve away\nIt's such it's such perfect day\nIt's such perfect day\nAhhhh....\nA7M\nNow the sky could be blue\nI don't mind\nWithout you its waste of time\n...could be blue I don't mind, without you it's waste of time\nThe sky could be blue, could be gray without you I just slide away\nThe sky could be blue, I don't mind, without you it's waste of time\n- A7M - -",
+  "cleaned_lyrics": "They were sitting\nthey were sitting in the strawberry swing\nAnd every moment was so precious\nThey were sitting\nthey were talking in the strawberry swing\nAnd everybody was for fighting\nWouldn't wanna waste thing\nNow my feet won't touch the ground\nWhat you say?\nIt's such\nit's such perfect day\nIt's such perfect day\nI remember we were walking up to strawberry swing\nI can't wait until the morning\nWouldn't wanna change thing\nPeople moving all the time\nDon't you wanna scurve away\nIt's such it's such perfect day\nIt's such perfect day\nAhhhh....\nA7M\nNow the sky could be blue\nI don't mind\nWithout you its waste of time\n...could be blue I don't mind\nwithout you it's waste of time\nThe sky could be blue\ncould be gray without you I just slide away\nThe sky could be blue\nI don't mind\nwithout you it's waste of time",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 32,
+    "cleaned_lines": 31,
+    "removed_count": 5,
+    "retention_rate": 1.0689655172413792,
+    "removal_reasons": {
+      "guitar_tab": 1,
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "They were sitting\nthey were sitting in the strawberry swing",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are sitting and enjoying the strawberry swing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "And every moment was so precious",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Every moment is special.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "They were sitting\nthey were talking in the strawberry swing",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are sitting and talking in the strawberry swing.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "And everybody was for fighting",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone was ready to fight.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Wouldn't wanna waste thing",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "They don't want to waste anything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Now my feet won't touch the ground",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person is feeling happy and light.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "What you say?",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Asking for a response.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "It's such\nit's such perfect day",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's a perfect day.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "I remember we were walking up to strawberry swing",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Remembering walking to the strawberry swing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "I can't wait until the morning",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Looking forward to the morning.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Wouldn't wanna change thing",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "They don't want to change anything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "People moving all the time",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "observation",
+          "emotion_secondary": null,
+          "eli5_simplification": "People are always moving.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Don't you wanna scurve away",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Asking if they want to escape.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "It's such it's such perfect day",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's a perfect day.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Ahhhh....",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "An expression of joy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "A7M",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Chord notation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Now the sky could be blue",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "The sky can be blue.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "I don't mind",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "It doesn't matter.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "Without you its waste of time",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Time is wasted without you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "...could be blue I don't mind\nwithout you it's waste of time",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The sky can be blue, but time is wasted without you.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "The sky could be blue\ncould be gray without you I just slide away",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The sky can be any color, but without you, they drift away.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28,
+            29,
+            30
+          ],
+          "original_lyric": "The sky could be blue\nI don't mind\nwithout you it's waste of time",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The sky can be blue, but time is wasted without you.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 30,
+        "covered_lines": 30,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 30,
+      "covered_lines": 30,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "They were sitting",
+            "they were sitting in the strawberry swing",
+            "And every moment was so precious",
+            "They were sitting"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            1,
+            3,
+            3,
+            1
+          ],
+          "end_words": [
+            "sitting",
+            "swing",
+            "precious",
+            "sitting"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "sitting",
+              "word2": "swing",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "sitting",
+              "word2": "sitting",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "swing",
+              "word2": "sitting",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "they were talking in the strawberry swing",
+            "And everybody was for fighting",
+            "Wouldn't wanna waste thing",
+            "Now my feet won't touch the ground"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            5
+          ],
+          "end_words": [
+            "swing",
+            "fighting",
+            "thing",
+            "ground"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "swing",
+              "word2": "thing",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "What you say?",
+            "It's such",
+            "it's such perfect day",
+            "It's such perfect day"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            4
+          ],
+          "end_words": [
+            "say",
+            "such",
+            "day",
+            "day"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "say",
+              "word2": "day",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "day",
+              "word2": "day",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I remember we were walking up to strawberry swing",
+            "I can't wait until the morning",
+            "Wouldn't wanna change thing",
+            "People moving all the time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "swing",
+            "morning",
+            "thing",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "swing",
+              "word2": "thing",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Don't you wanna scurve away",
+            "It's such it's such perfect day",
+            "It's such perfect day",
+            "Ahhhh...."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            4,
+            6,
+            4,
+            1
+          ],
+          "end_words": [
+            "away",
+            "day",
+            "day",
+            "ahhhh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "away",
+              "word2": "day",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "day",
+              "word2": "day",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "A7M",
+            "Now the sky could be blue",
+            "I don't mind",
+            "Without you its waste of time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            1,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "m",
+            "blue",
+            "mind",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "mind",
+              "word2": "time",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "...could be blue I don't mind",
+            "without you it's waste of time",
+            "The sky could be blue",
+            "could be gray without you I just slide away"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            4,
+            2,
+            5
+          ],
+          "end_words": [
+            "mind",
+            "time",
+            "blue",
+            "away"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "mind",
+              "word2": "time",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "The sky could be blue",
+            "I don't mind",
+            "without you it's waste of time"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XAA",
+          "raw_rhyme_scheme": "ABB",
+          "pattern": "3_ABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            2,
+            4
+          ],
+          "end_words": [
+            "blue",
+            "mind",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "mind",
+              "word2": "time",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAA",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 31
+    }
+  }
+}

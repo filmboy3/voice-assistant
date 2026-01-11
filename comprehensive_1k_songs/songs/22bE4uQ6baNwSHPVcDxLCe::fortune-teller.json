@@ -1,0 +1,606 @@
+{
+  "song_id": "22bE4uQ6baNwSHPVcDxLCe::fortune-teller",
+  "title": "Fortune Teller",
+  "artist": "The Rolling Stones",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nWent to the fortune teller\nHad my fortune read\nI didn't know what to tell her\nI had dizzy feeling in my head\nThen she took look at my palm\nSaid \"Sonny you feel kinda warm\"\nShe looked into her crystal ball and said\nYou're in love\nI said that could not be so\nI'm not passionate with the girls I know\nShe said when the next one arrives\nYou'll be looking into her eyes\nI left there in hurry\nLooking forward to my big surprise\nThe next day I discovered\nThe fortune teller told me lie\nI hurried back down to that woman\nAs mad as I could be\nI told her I didn't meet nobody\nWhy' she make fool outta me\nThen something struck me\nI simply couldn't remember of\nWhen looking at the fortune teller\nI fell in love\nNow I'm happy fella\nWell I'm married to the fortune teller\nWe're happy as we can be\nNow I get my fortune told for free\nNow I'm happy fella\nWell I'm married to the fortune teller\nWe're happy as we can be\nNow I get my fortune told for free",
+  "cleaned_lyrics": "Went to the fortune teller\nHad my fortune read\nI didn't know what to tell her\nI had dizzy feeling in my head\nThen she took look at my palm\nSaid \"Sonny you feel kinda warm\"\nShe looked into her crystal ball and said\nYou're in love\nI said that could not be so\nI'm not passionate with the girls I know\nShe said when the next one arrives\nYou'll be looking into her eyes\nI left there in hurry\nLooking forward to my big surprise\nThe next day I discovered\nThe fortune teller told me lie\nI hurried back down to that woman\nAs mad as I could be\nI told her I didn't meet nobody\nWhy' she make fool outta me\nThen something struck me\nI simply couldn't remember of\nWhen looking at the fortune teller\nI fell in love\nNow I'm happy fella\nWell I'm married to the fortune teller\nWe're happy as we can be\nNow I'm happy fella\nWell I'm married to the fortune teller\nWe're happy as we can be",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 33,
+    "cleaned_lines": 30,
+    "removed_count": 3,
+    "retention_rate": 0.9090909090909091,
+    "removal_reasons": {
+      "technical_instruction": 2,
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Went to the fortune teller\nHad my fortune read",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone went to get their fortune told.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I didn't know what to tell her\nI had dizzy feeling in my head",
+          "plot_function": "SETUP",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person didn't know what to say and felt strange.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Then she took look at my palm\nSaid \"Sonny you feel kinda warm\"",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The fortune teller started to read the person's palm.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "She looked into her crystal ball and said\nYou're in love",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The fortune teller said the person was in love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "I said that could not be so\nI'm not passionate with the girls I know",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "denial",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person didn't believe they were in love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "She said when the next one arrives\nYou'll be looking into her eyes",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The fortune teller said they would fall in love soon.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "I left there in hurry\nLooking forward to my big surprise",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person left, excited for what would happen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "The next day I discovered\nThe fortune teller told me lie",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "disappointment",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person thought the fortune teller was wrong.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "I hurried back down to that woman\nAs mad as I could be",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person went back to the fortune teller, angry.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "I told her I didn't meet nobody\nWhy' she make fool outta me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person confronted the fortune teller.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "Then something struck me\nI simply couldn't remember of",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "realization",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person suddenly remembered something.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "When looking at the fortune teller\nI fell in love",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person realized they fell in love with the fortune teller.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "Now I'm happy fella\nWell I'm married to the fortune teller",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person is now happy and married to the fortune teller.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "We're happy as we can be\nNow I'm happy fella",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are very happy.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "Well I'm married to the fortune teller\nWe're happy as we can be",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are married and happy.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 30,
+        "covered_lines": 30,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 30,
+      "covered_lines": 30,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Went to the fortune teller",
+            "Had my fortune read",
+            "I didn't know what to tell her",
+            "I had dizzy feeling in my head"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            3,
+            5,
+            4
+          ],
+          "end_words": [
+            "teller",
+            "read",
+            "her",
+            "head"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "teller",
+              "word2": "head",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Then she took look at my palm",
+            "Said \"Sonny you feel kinda warm\"",
+            "She looked into her crystal ball and said",
+            "You're in love"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            5,
+            5,
+            2
+          ],
+          "end_words": [
+            "palm",
+            "warm",
+            "said",
+            "love"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I said that could not be so",
+            "I'm not passionate with the girls I know",
+            "She said when the next one arrives",
+            "You'll be looking into her eyes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            5,
+            5,
+            4
+          ],
+          "end_words": [
+            "so",
+            "know",
+            "arrives",
+            "eyes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "so",
+              "word2": "know",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "arrives",
+              "word2": "eyes",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I left there in hurry",
+            "Looking forward to my big surprise",
+            "The next day I discovered",
+            "The fortune teller told me lie"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            4
+          ],
+          "end_words": [
+            "hurry",
+            "surprise",
+            "discovered",
+            "lie"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "surprise",
+              "word2": "lie",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I hurried back down to that woman",
+            "As mad as I could be",
+            "I told her I didn't meet nobody",
+            "Why' she make fool outta me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            2,
+            4,
+            5
+          ],
+          "end_words": [
+            "woman",
+            "be",
+            "nobody",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "be",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Then something struck me",
+            "I simply couldn't remember of",
+            "When looking at the fortune teller",
+            "I fell in love"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            2
+          ],
+          "end_words": [
+            "me",
+            "of",
+            "teller",
+            "love"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "of",
+              "word2": "love",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Now I'm happy fella",
+            "Well I'm married to the fortune teller",
+            "We're happy as we can be",
+            "Now I'm happy fella"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            5,
+            3,
+            4
+          ],
+          "end_words": [
+            "fella",
+            "teller",
+            "be",
+            "fella"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "fella",
+              "word2": "teller",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "teller",
+              "word2": "fella",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Well I'm married to the fortune teller",
+            "We're happy as we can be"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            5,
+            3
+          ],
+          "end_words": [
+            "teller",
+            "be"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 30
+    }
+  }
+}

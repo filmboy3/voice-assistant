@@ -1,0 +1,604 @@
+{
+  "song_id": "29kkCKKGXheHuoO829FxWK::to-be-a-man",
+  "title": "To Be A Man",
+  "artist": "Boston",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\n{Intro}\n{Verse}\nWhat does it take to be.... man?\nWhat does it take to see\nIts all heart and soul gentle hand?\nSo easy to want and so hard to give\nHow can you be man\ntill you see beyond the life you live?\nOh, what does it take to be man?\n{Interlude}\n{Verse}\nWe can be blind, but man tries to see\nIt takes tenderness\nFor man to be what he can be\nAnd what does it mean\nIf youre weak or strong?\ngentle feelin\n\n[chorus]\nWhat does it take to be man?\n{Chorus}\nThe will to give and not receive\nThe strength to say what you believe\nThe heart to feel what others feel inside\nTo see what they can see\n{Solo}\n{Final}\nman is something thats real\nIts not what you are\nIts what you can feel.....\nIt cant be too late\nTo look through the hate and see....\nI know thats what man can be..\noh...........",
+  "cleaned_lyrics": "What does it take to be.... man?\nWhat does it take to see\nIts all heart and soul gentle hand?\nSo easy to want and so hard to give\nHow can you be man\ntill you see beyond the life you live?\nOh\nwhat does it take to be man?\nWe can be blind\nbut man tries to see\nIt takes tenderness\nFor man to be what he can be\nAnd what does it mean\nIf youre weak or strong?\ngentle feelin\nWhat does it take to be man?\nThe will to give and not receive\nThe strength to say what you believe\nThe heart to feel what others feel inside\nTo see what they can see\nman is something thats real\nIts not what you are\nIt cant be too late\nTo look through the hate and see....\nI know thats what man can be..",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 35,
+    "cleaned_lines": 25,
+    "removed_count": 11,
+    "retention_rate": 0.7352941176470589,
+    "removal_reasons": {
+      "excessive_punctuation": 1,
+      "artist_annotation": 7,
+      "section_marker": 2,
+      "metadata_line": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "What does it take to be.... man?\nWhat does it take to see",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts by asking what it means to be a man.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "Its all heart and soul gentle hand?",
+          "plot_function": "SETUP",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's about being kind and having a good heart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "So easy to want and so hard to give\nHow can you be man",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's easy to want things, but hard to give. How can you be a man?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "till you see beyond the life you live?",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "You have to look past your own life.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Oh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "contemplation",
+          "emotion_secondary": null,
+          "eli5_simplification": "A moment of thought.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "what does it take to be man?",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Asking the question again.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "We can be blind",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "We can be blind to the truth.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "but man tries to see",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "But a man tries to see the truth.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "It takes tenderness",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "Being a man means being tender.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "For man to be what he can be",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "To be the best man you can be.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "And what does it mean\nIf youre weak or strong?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "What does it mean if you are weak or strong?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "gentle feelin",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "Gentle feelings are important.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "What does it take to be man?",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Asking the question again.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "The will to give and not receive\nThe strength to say what you believe",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Being a man means giving and standing up for what you believe.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "The heart to feel what others feel inside",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "empathy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Feeling what others feel.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "To see what they can see",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "To understand others.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "man is something thats real",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "realization",
+          "emotion_secondary": null,
+          "eli5_simplification": "Being a man is real.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "Its not what you are",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "realization",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's not about what you are.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "It cant be too late",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's never too late.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "To look through the hate and see....\nI know thats what man can be..",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "Look past the hate and be a man.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 25,
+        "covered_lines": 25,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 25,
+      "covered_lines": 25,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "What does it take to be.... man?",
+            "What does it take to see",
+            "Its all heart and soul gentle hand?",
+            "So easy to want and so hard to give"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            3,
+            5,
+            4
+          ],
+          "end_words": [
+            "man",
+            "see",
+            "hand",
+            "give"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "man",
+              "word2": "hand",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AE), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "How can you be man",
+            "till you see beyond the life you live?",
+            "Oh",
+            "what does it take to be man?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            5,
+            1,
+            3
+          ],
+          "end_words": [
+            "man",
+            "live",
+            "oh",
+            "man"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "man",
+              "word2": "man",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "We can be blind",
+            "but man tries to see",
+            "It takes tenderness",
+            "For man to be what he can be"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            1,
+            3,
+            2,
+            4
+          ],
+          "end_words": [
+            "blind",
+            "see",
+            "tenderness",
+            "be"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "see",
+              "word2": "be",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "And what does it mean",
+            "If youre weak or strong?",
+            "gentle feelin",
+            "What does it take to be man?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            4,
+            2,
+            3
+          ],
+          "end_words": [
+            "mean",
+            "strong",
+            "feelin",
+            "man"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "mean",
+              "word2": "feelin",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "The will to give and not receive",
+            "The strength to say what you believe",
+            "The heart to feel what others feel inside",
+            "To see what they can see"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            4,
+            6,
+            3
+          ],
+          "end_words": [
+            "receive",
+            "believe",
+            "inside",
+            "see"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "receive",
+              "word2": "believe",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "believe",
+              "word2": "see",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "man is something thats real",
+            "Its not what you are",
+            "It cant be too late",
+            "To look through the hate and see...."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            4
+          ],
+          "end_words": [
+            "real",
+            "are",
+            "late",
+            "see"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "real",
+              "word2": "see",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "I know thats what man can be.."
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            5
+          ],
+          "end_words": [
+            "be"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 25
+    }
+  }
+}

@@ -1,0 +1,551 @@
+{
+  "song_id": "1dfeR4HaWDbWqFHLkxsg1d::who-wants-to-live-forever",
+  "title": "Who Wants To Live Forever",
+  "artist": "Queen",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThere's no time for us\nThere's no place for us\nWhat is this thing that fills our dreams\nYet slips away from us?\nThere's no chance for us\nIt's all decided for us\nThis world has only one sweet moment\nSet aside for us.\nWho wants to live forever?\nWho wants to live forever\nOh_______ when love must die?\nTouch my tears with your lips\nTouch my world with your fingertips\nAnd we can have forever\nAnd we can love forever\nForever....\nForever....\nForever... is our today.\nWho wants to live forever?\nWho wants to love forever?\nWho dares to love forever?\nOh________ Who waits forever anyway?",
+  "cleaned_lyrics": "There's no time for us\nThere's no place for us\nWhat is this thing that fills our dreams\nYet slips away from us?\nThere's no chance for us\nIt's all decided for us\nThis world has only one sweet moment\nSet aside for us.\nWho wants to live forever?\nWho wants to live forever\nOh_______ when love must die?\nTouch my tears with your lips\nTouch my world with your fingertips\nAnd we can have forever\nAnd we can love forever\nForever....\nForever....\nForever... is our today.\nWho wants to live forever?\nWho wants to love forever?\nWho dares to love forever?\nOh________ Who waits forever anyway?",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 23,
+    "cleaned_lines": 22,
+    "removed_count": 1,
+    "retention_rate": 0.9565217391304348,
+    "removal_reasons": {
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "There's no time for us\nThere's no place for us",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts by saying there isn't enough time or space for 'us'.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "What is this thing that fills our dreams\nYet slips away from us?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "confusion",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The song asks what is this thing that seems good but disappears.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "There's no chance for us\nIt's all decided for us",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "despair",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song says there's no chance and everything is already decided.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "This world has only one sweet moment\nSet aside for us.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The world only gives us one good moment.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Who wants to live forever?\nWho wants to live forever",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "doubt",
+          "eli5_simplification": "The song asks who wants to live forever.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Oh_______ when love must die?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The song asks when love must die.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Touch my tears with your lips",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The song asks to touch my tears.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Touch my world with your fingertips",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The song asks to touch my world.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "And we can have forever\nAnd we can love forever",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The song says we can have and love forever.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Forever....",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Forever...",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "Forever....",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Forever...",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Forever... is our today.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Forever is our today.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Who wants to live forever?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "doubt",
+          "eli5_simplification": "The song asks who wants to live forever.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Who wants to love forever?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "doubt",
+          "eli5_simplification": "The song asks who wants to love forever.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Who dares to love forever?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "doubt",
+          "eli5_simplification": "The song asks who dares to love forever.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "Oh________ Who waits forever anyway?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The song asks who waits forever anyway.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 22,
+        "covered_lines": 22,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 22,
+      "covered_lines": 22,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "There's no time for us",
+            "There's no place for us",
+            "What is this thing that fills our dreams",
+            "Yet slips away from us?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "us",
+            "us",
+            "dreams",
+            "us"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "us",
+              "word2": "us",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "us",
+              "word2": "us",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "There's no chance for us",
+            "It's all decided for us",
+            "This world has only one sweet moment",
+            "Set aside for us."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "us",
+            "us",
+            "moment",
+            "us"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "us",
+              "word2": "us",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "us",
+              "word2": "us",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Who wants to live forever?",
+            "Who wants to live forever",
+            "Oh_______ when love must die?",
+            "Touch my tears with your lips"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            3
+          ],
+          "end_words": [
+            "forever",
+            "forever",
+            "die",
+            "lips"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "forever",
+              "word2": "forever",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Touch my world with your fingertips",
+            "And we can have forever",
+            "And we can love forever",
+            "Forever...."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3,
+            1,
+            2,
+            1
+          ],
+          "end_words": [
+            "fingertips",
+            "forever",
+            "forever",
+            "forever"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "forever",
+              "word2": "forever",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "forever",
+              "word2": "forever",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Forever....",
+            "Forever... is our today.",
+            "Who wants to live forever?",
+            "Who wants to love forever?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            1,
+            2,
+            3,
+            3
+          ],
+          "end_words": [
+            "forever",
+            "today",
+            "forever",
+            "forever"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "forever",
+              "word2": "forever",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "forever",
+              "word2": "forever",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Who dares to love forever?",
+            "Oh________ Who waits forever anyway?"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            4
+          ],
+          "end_words": [
+            "forever",
+            "anyway"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "forever",
+              "word2": "anyway",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 22
+    }
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "song_id": "0X2BH1fck6amBIoJhDVmmJ::your-song",
+  "title": "Your Song",
+  "artist": "Ellie Goulding",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nIt's little bit funny this feeling in - side\nI'm not one of those who can easily hide\nI don't have much money but, boy if I did\nI' buy big house where we both could live\n\n[verse]\nSo excuse me for - getting but, these things I do\nYou see I've for - gotten if they're green or they're blue\nAnyway the thing is what I really mean\nYours are the sweetest eyes I've ever seen\nAnd you can tell everybody this is your song\nIt may be quite simple but now that it's done\nI hope you don't mind\nI hope you don't mind that I put down in words\nHow wonderful life is while you're in the world\n\n[verse]\nIf I was sculptor, but then again no\nOr man who makes potions in traveling show\nI know it's not much but it's the best I can do\nMy gift is my song and this one's for you\nAnd you can tell everybody this is your song\nIt may be quite simple but now that it's done\nI hope you don't mind\nI hope you don't mind that I put down in words\nHow wonderful life is now you're in the world",
+  "cleaned_lyrics": "It's little bit funny this feeling in - side\nI'm not one of those who can easily hide\nI don't have much money but\nboy if I did\nI' buy big house where we both could live\nSo excuse me for - getting but\nthese things I do\nYou see I've for - gotten\nif they're green or they're blue\nAnyway the thing is what I really mean\nYours are the sweetest eyes I've ever seen\nAnd you can tell everybody this is your song\nIt may be quite simple but now that it's done\nI hope you don't mind\nI hope you don't mind that I put down in words\nHow wonderful life is while you're in the world\nIf I was sculptor\nbut then again no\nOr man who makes potions in traveling show\nI know it's not much but it's the best I can do\nMy gift is my song and this one's for you\nAnd you can tell everybody this is your song\nIt may be quite simple but now that it's done\nI hope you don't mind\nI hope you don't mind that I put down in words\nHow wonderful life is now you're in the world",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 27,
+    "cleaned_lines": 26,
+    "removed_count": 3,
+    "retention_rate": 1.04,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "It's little bit funny this feeling in - side\nI'm not one of those who can easily hide",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer feels a strange feeling inside and can't hide it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I don't have much money but\nboy if I did\nI' buy big house where we both could live",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wishes they had money to buy a house for them and the person they are singing to.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7
+          ],
+          "original_lyric": "So excuse me for - getting but\nthese things I do\nYou see I've for - gotten\nif they're green or they're blue",
+          "plot_function": "SETUP",
+          "emotion_primary": "vulnerability",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is apologizing for being awkward and not being able to remember details.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "Anyway the thing is what I really mean\nYours are the sweetest eyes I've ever seen",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is saying what they really mean is that the person's eyes are the sweetest they've ever seen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "And you can tell everybody this is your song\nIt may be quite simple but now that it's done",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants the person to tell everyone that this song is for them, even though it's simple.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "I hope you don't mind\nI hope you don't mind that I put down in words",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer hopes the person doesn't mind that they've written this song.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "How wonderful life is while you're in the world",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer thinks life is wonderful because the person is in the world.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "If I was sculptor\nbut then again no\nOr man who makes potions in traveling show",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer imagines what they would do if they were someone else.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "I know it's not much but it's the best I can do\nMy gift is my song and this one's for you",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer knows the song isn't much, but it's the best they can do, and it's for the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "And you can tell everybody this is your song\nIt may be quite simple but now that it's done\nI hope you don't mind\nI hope you don't mind that I put down in words\nHow wonderful life is now you're in the world",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The singer repeats that the song is for the person and how wonderful life is with them.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "It's little bit funny this feeling in - side",
+            "I'm not one of those who can easily hide",
+            "I don't have much money but",
+            "boy if I did"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            5,
+            4,
+            3
+          ],
+          "end_words": [
+            "side",
+            "hide",
+            "but",
+            "did"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "side",
+              "word2": "hide",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I' buy big house where we both could live",
+            "So excuse me for - getting but",
+            "these things I do",
+            "You see I've for - gotten"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "live",
+            "but",
+            "do",
+            "gotten"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "if they're green or they're blue",
+            "Anyway the thing is what I really mean",
+            "Yours are the sweetest eyes I've ever seen",
+            "And you can tell everybody this is your song"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            5,
+            6,
+            4
+          ],
+          "end_words": [
+            "blue",
+            "mean",
+            "seen",
+            "song"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "mean",
+              "word2": "seen",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "It may be quite simple but now that it's done",
+            "I hope you don't mind",
+            "I hope you don't mind that I put down in words",
+            "How wonderful life is while you're in the world"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            3,
+            6,
+            6
+          ],
+          "end_words": [
+            "done",
+            "mind",
+            "words",
+            "world"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "words",
+              "word2": "world",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (ER), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "If I was sculptor",
+            "but then again no",
+            "Or man who makes potions in traveling show",
+            "I know it's not much but it's the best I can do"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            2,
+            5,
+            7
+          ],
+          "end_words": [
+            "sculptor",
+            "no",
+            "show",
+            "do"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "no",
+              "word2": "show",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "My gift is my song and this one's for you",
+            "And you can tell everybody this is your song",
+            "It may be quite simple but now that it's done",
+            "I hope you don't mind"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "you",
+            "song",
+            "done",
+            "mind"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "I hope you don't mind that I put down in words",
+            "How wonderful life is now you're in the world"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            6,
+            6
+          ],
+          "end_words": [
+            "words",
+            "world"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "words",
+              "word2": "world",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (ER), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "line_count": 2,
+          "stability": 1.0
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 26
+    }
+  }
+}

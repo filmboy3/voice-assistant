@@ -1,0 +1,688 @@
+{
+  "song_id": "06HL4z0CvFAxyc27GXpf02::monologue-song",
+  "title": "Monologue Song",
+  "artist": "Taylor Swift",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\n(ª casa)\n(intro)\nI like glitter and sparkly dresses.\n\n[intro]\nI like baking and things that smell like winter.\n\n[intro]\nLa la la. La la la.\nI like writing songs about douchebags who cheat on me.\n\n[intro]\nI like writing their names into songs so they're ashamed to go in public.\n\n[intro]\n( )\nLa la. La la la la la. This is my musical monologue.\nYou might think I' bring up Joe, that guy who broke up with me on the phone.\n\n[intro]\nHey Joe, I'm doing real well!\nTonight I'm hosting 'SNL.'\n\n[intro]\nLa la la. Ha ha ha.\nHa ha ha. Ha ha ha. La la la.\nAnd if you're wondering if I might be dating the werewolf from 'Twilight.'\n\"Hi Taylor,\" pisca manda beijo.\nI'm not gonna comment on that\n\n[intro]\nLa la. La la la la la. This is my musical monologue.\n( )\nYou might be expecting me to say something bad about Kanye\nand how he ran up on the stage and ruined my VMA monologue.\n\n[bridge]\nI've got security lining the stage.\nIt's my 'SNL' monologue.\nLa la. La la la la la. This is my 'SNL' monologue.\nLa la. La la la la la. That was my 'SNL' monologue.",
+  "cleaned_lyrics": "(ª casa)\nI like glitter and sparkly dresses.\nI like baking and things that smell like winter.\nLa la la. La la la.\nI like writing songs about douchebags who cheat on me.\nI like writing their names into songs\nso they're ashamed to go in public.\nLa la. La la la la\nla. This is my musical monologue.\nYou might think I' bring up Joe\nthat guy who broke up with me on the phone.\nHey Joe\nI'm doing real well!\nTonight I'm hosting 'SNL.'\nLa la la. Ha ha ha.\nHa ha ha. Ha\nha ha. La la la.\nAnd if you're wondering if I might be dating the werewolf from 'Twilight.'\n\"Hi Taylor\n\" pisca manda beijo.\nI'm not gonna comment on that\nLa la. La la la la\nla. This is my musical monologue.\nYou might be expecting me to say something bad about Kanye\nand how he ran up on the stage and ruined my VMA monologue.\nI've got security lining the stage.\nIt's my 'SNL' monologue.\nLa la. La la la la\nla. This is my 'SNL' monologue.\nLa la. La la la la\nla. That was my 'SNL' monologue.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 42,
+    "cleaned_lines": 31,
+    "removed_count": 10,
+    "retention_rate": 0.9117647058823529,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "section_marker": 9
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I like glitter and sparkly dresses.\nI like baking and things that smell like winter.",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "I like pretty things and nice smells.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "La la la. La la la.",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Just singing happy sounds.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5,
+            6
+          ],
+          "original_lyric": "I like writing songs about douchebags who cheat on me.\nI like writing their names into songs\nso they're ashamed to go in public.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "I like writing songs about people who hurt me so they feel bad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "La la. La la la la",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "Just singing happy sounds.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "la. This is my musical monologue.",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "This is my song.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "You might think I' bring up Joe\nthat guy who broke up with me on the phone.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "You might think I'll talk about my ex.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "Hey Joe\nI'm doing real well!",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "I'm doing great!",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Tonight I'm hosting 'SNL.'",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "I'm hosting a TV show.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "original_lyric": "La la la. Ha ha ha.\nHa ha ha. Ha\nha ha. La la la.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "More happy sounds and laughter.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "And if you're wondering if I might be dating the werewolf from 'Twilight.'",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Wondering if I'm dating a famous person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "\"Hi Taylor\n\" pisca manda beijo.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "A message.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "I'm not gonna comment on that",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "I won't say anything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "La la. La la la la",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Just singing happy sounds.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "la. This is my musical monologue.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "This is my song.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "You might be expecting me to say something bad about Kanye\nand how he ran up on the stage and ruined my VMA monologue.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "You might think I'll talk about someone who hurt me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "I've got security lining the stage.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "I have protection.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "It's my 'SNL' monologue.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's my TV show monologue.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "La la. La la la la",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Just singing happy sounds.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "la. This is my 'SNL' monologue.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "This is my TV show monologue.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            30,
+            31,
+            32
+          ],
+          "original_lyric": "La la. La la la la\nla. That was my 'SNL' monologue.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "That was my TV show monologue.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 32,
+        "covered_lines": 32,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 32,
+      "covered_lines": 32,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "(ª casa)",
+            "I like glitter and sparkly dresses.",
+            "I like baking and things that smell like winter.",
+            "La la la. La la la."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            1,
+            4,
+            6,
+            6
+          ],
+          "end_words": [
+            "casa",
+            "dresses",
+            "winter",
+            "la"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "casa",
+              "word2": "la",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AA), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I like writing songs about douchebags who cheat on me.",
+            "I like writing their names into songs",
+            "so they're ashamed to go in public.",
+            "La la. La la la la"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            7,
+            5,
+            4,
+            6
+          ],
+          "end_words": [
+            "me",
+            "songs",
+            "public",
+            "la"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "la. This is my musical monologue.",
+            "You might think I' bring up Joe",
+            "that guy who broke up with me on the phone.",
+            "Hey Joe"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            2
+          ],
+          "end_words": [
+            "monologue",
+            "joe",
+            "phone",
+            "joe"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "joe",
+              "word2": "phone",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word removes post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "joe",
+              "word2": "joe",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "phone",
+              "word2": "joe",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I'm doing real well!",
+            "Tonight I'm hosting 'SNL.'",
+            "La la la. Ha ha ha.",
+            "Ha ha ha. Ha"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "well",
+            "snl",
+            "ha",
+            "ha"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "ha",
+              "word2": "ha",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "ha ha. La la la.",
+            "And if you're wondering if I might be dating the werewolf from 'Twilight.'",
+            "\"Hi Taylor",
+            "\" pisca manda beijo."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            7,
+            2,
+            3
+          ],
+          "end_words": [
+            "la",
+            "twilight",
+            "taylor",
+            "beijo"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I'm not gonna comment on that",
+            "La la. La la la la",
+            "la. This is my musical monologue.",
+            "You might be expecting me to say something bad about Kanye"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            6,
+            3,
+            6
+          ],
+          "end_words": [
+            "that",
+            "la",
+            "monologue",
+            "kanye"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "la",
+              "word2": "monologue",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AA), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "and how he ran up on the stage and ruined my VMA monologue.",
+            "I've got security lining the stage.",
+            "It's my 'SNL' monologue.",
+            "La la. La la la la"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            7,
+            5,
+            3,
+            6
+          ],
+          "end_words": [
+            "monologue",
+            "stage",
+            "monologue",
+            "la"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "monologue",
+              "word2": "monologue",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "monologue",
+              "word2": "la",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AA), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "la. This is my 'SNL' monologue.",
+            "La la. La la la la",
+            "la. That was my 'SNL' monologue."
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AAA",
+          "raw_rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.7,
+          "stress_counts": [
+            3,
+            6,
+            3
+          ],
+          "end_words": [
+            "monologue",
+            "la",
+            "monologue"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "monologue",
+              "word2": "la",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AA), one word adds post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "monologue",
+              "word2": "monologue",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "la",
+              "word2": "monologue",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AA), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "line_count": 3,
+          "stability": 0.7
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 31
+    }
+  }
+}

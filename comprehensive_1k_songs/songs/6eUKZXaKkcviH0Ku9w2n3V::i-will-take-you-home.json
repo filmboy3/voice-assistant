@@ -1,0 +1,357 @@
+{
+  "song_id": "6eUKZXaKkcviH0Ku9w2n3V::i-will-take-you-home",
+  "title": "I Will Take You Home",
+  "artist": "Ed Sheeran",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nI stole car last night\nDon't know where we're gonna go\n\n[bridge]\nI will take you home\nHoney it's cold outside\nYour jumpers torn up\n\n[bridge]\nI will keep you warm\nJust follow the signs\nThey will lead us home\nAnd we will drive till these tires wear out\nAnd we will ride all our memories down\nWe will cry till this fire is drown\n\n[bridge]\nohh darling I I will keep you warm\ndarling I I will take you home",
+  "cleaned_lyrics": "I stole car last night\nDon't know where we're gonna go\nI will take you home\nHoney it's cold outside\nYour jumpers torn up\nI will keep you warm\nJust follow the signs\nThey will lead us home\nAnd we will drive till these tires wear out\nAnd we will ride all our memories down\nWe will cry till this fire is drown\nohh darling I I will keep you warm\ndarling I I will take you home",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 20,
+    "cleaned_lines": 13,
+    "removed_count": 4,
+    "retention_rate": 0.7647058823529411,
+    "removal_reasons": {
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I stole car last night\nDon't know where we're gonna go",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": "uncertainty",
+          "eli5_simplification": "Someone took a car and doesn't know where to go.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "I will take you home",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "The person promises to take someone home.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "Honey it's cold outside\nYour jumpers torn up",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "concern",
+          "eli5_simplification": "It's cold and the person's clothes are damaged.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "I will keep you warm",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The person promises to keep the other person warm.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Just follow the signs",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "guidance",
+          "eli5_simplification": "Follow the directions.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "They will lead us home",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "trust",
+          "eli5_simplification": "The signs will show the way home.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "And we will drive till these tires wear out",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "They will drive until the car can't drive anymore.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "And we will ride all our memories down",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "nostalgia",
+          "eli5_simplification": "They will remember all their memories.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "We will cry till this fire is drown",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "release",
+          "eli5_simplification": "They will cry until they feel better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "ohh darling I I will keep you warm",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The person promises to keep the other person warm.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "darling I I will take you home",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The person promises to take the other person home.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 13,
+        "covered_lines": 13,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 13,
+      "covered_lines": 13,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I stole car last night",
+            "Don't know where we're gonna go",
+            "I will take you home",
+            "Honey it's cold outside"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            4,
+            6,
+            2,
+            5
+          ],
+          "end_words": [
+            "night",
+            "go",
+            "home",
+            "outside"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "night",
+              "word2": "outside",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "go",
+              "word2": "home",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Your jumpers torn up",
+            "I will keep you warm",
+            "Just follow the signs",
+            "They will lead us home"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "up",
+            "warm",
+            "signs",
+            "home"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "And we will drive till these tires wear out",
+            "And we will ride all our memories down",
+            "We will cry till this fire is drown",
+            "ohh darling I I will keep you warm"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "out",
+            "down",
+            "drown",
+            "warm"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "out",
+              "word2": "down",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AW), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "down",
+              "word2": "drown",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "darling I I will take you home"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3
+          ],
+          "end_words": [
+            "home"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 13
+    }
+  }
+}

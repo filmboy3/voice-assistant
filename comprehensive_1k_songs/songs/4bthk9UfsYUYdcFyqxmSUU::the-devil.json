@@ -1,0 +1,242 @@
+{
+  "song_id": "4bthk9UfsYUYdcFyqxmSUU::the-devil",
+  "title": "The Devil",
+  "artist": "Tears For Fears",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThe devil take me now\n\n[chorus]\nF7M\n\n[bridge]\nAnd I can die\n\n[bridge]\nPrisoners of course\nTaken by force\nTo smother my screams\nF7M\nTo line my dreams\n\n[bridge]\nThe way is clear\nThe way from here ? and you",
+  "cleaned_lyrics": "The devil take me now\nF7M\nAnd I can die\nPrisoners of course\nTaken by force\nTo smother my screams\nF7M\nTo line my dreams\nThe way is clear\nThe way from here ? and you",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 19,
+    "cleaned_lines": 10,
+    "removed_count": 5,
+    "retention_rate": 0.6666666666666666,
+    "removal_reasons": {
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "The devil take me now",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "Someone is asking the devil to take them, which is scary.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "F7M",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "null",
+          "emotion_secondary": "null",
+          "eli5_simplification": "Musical notation, not a lyric.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "And I can die\nPrisoners of course",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "They are talking about dying and being prisoners.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Taken by force\nTo smother my screams",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "They are being taken against their will and silenced.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "F7M\nTo line my dreams",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "null",
+          "emotion_secondary": "null",
+          "eli5_simplification": "Musical notation and a vague statement about dreams.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "The way is clear\nThe way from here ? and you",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "uncertainty",
+          "eli5_simplification": "They are wondering about the future and someone else.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 10,
+        "covered_lines": 10,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 10,
+      "covered_lines": 10,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "The devil take me now",
+            "F7M",
+            "And I can die",
+            "Prisoners of course"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            1,
+            2
+          ],
+          "end_words": [
+            "now",
+            "m",
+            "die",
+            "course"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Taken by force",
+            "To smother my screams",
+            "F7M",
+            "To line my dreams"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "force",
+            "screams",
+            "m",
+            "dreams"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "screams",
+              "word2": "dreams",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "The way is clear",
+            "The way from here ? and you"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            2,
+            3
+          ],
+          "end_words": [
+            "clear",
+            "you"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 3,
+      "total_lines": 10
+    }
+  }
+}

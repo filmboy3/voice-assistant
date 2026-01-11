@@ -1,0 +1,358 @@
+{
+  "song_id": "22bE4uQ6baNwSHPVcDxLCe::little-red-rooster",
+  "title": "Little Red Rooster",
+  "artist": "The Rolling Stones",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI the little red rooster too lazy to crow for days\nI the little red rooster too lazy to crow for days\nKeep everything in the farm yard upset in every way\nThe dogs begin to bark and hounds begin to howl\nDogs begin to bark and hounds begin to howl\nWatch out strange cat people little red rooster?s on the prowl\nIf you see my little red rooster please drive him home\nIf you see my little red rooster please drive him home\nAin?t had no peace in the farm yard since my little red rooster?s been gone",
+  "cleaned_lyrics": "I the little red rooster too lazy to crow for days\nI the little red rooster too lazy to crow for days\nKeep everything in the farm\nyard upset in every way\nThe dogs begin to bark and hounds begin to howl\nDogs begin to bark and hounds begin to howl\nWatch out strange cat people\nlittle red rooster?s on the prowl\nIf you see my little\nred rooster please drive him home\nIf you see my little\nred rooster please drive him home\nAin?t had no peace in the farm\nyard since my little red rooster?s been gone",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 10,
+    "cleaned_lines": 14,
+    "removed_count": 1,
+    "retention_rate": 1.4,
+    "removal_reasons": {
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I the little red rooster too lazy to crow for days\nI the little red rooster too lazy to crow for days",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "A rooster is not doing its job, and the singer is sad about it.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "Keep everything in the farm",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The farm is not doing well.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "yard upset in every way",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everything is a mess.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "The dogs begin to bark and hounds begin to howl\nDogs begin to bark and hounds begin to howl",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The animals are making a lot of noise and are upset.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Watch out strange cat people",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Be careful of the cats.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "little red rooster?s on the prowl",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The rooster is out and about.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "If you see my little\nred rooster please drive him home\nIf you see my little\nred rooster please drive him home",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer wants the rooster to come home.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Ain?t had no peace in the farm",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The farm is not peaceful.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "yard since my little red rooster?s been gone",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer misses the rooster.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 12,
+        "covered_lines": 12,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 12,
+      "covered_lines": 12,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I the little red rooster too lazy to crow for days",
+            "I the little red rooster too lazy to crow for days",
+            "Keep everything in the farm",
+            "yard upset in every way"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            7,
+            7,
+            4,
+            4
+          ],
+          "end_words": [
+            "days",
+            "days",
+            "farm",
+            "way"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "days",
+              "word2": "days",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "days",
+              "word2": "way",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "The dogs begin to bark and hounds begin to howl",
+            "Dogs begin to bark and hounds begin to howl",
+            "Watch out strange cat people",
+            "little red rooster?s on the prowl"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            6,
+            6,
+            5,
+            5
+          ],
+          "end_words": [
+            "howl",
+            "howl",
+            "people",
+            "prowl"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "howl",
+              "word2": "howl",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "howl",
+              "word2": "prowl",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "If you see my little",
+            "red rooster please drive him home",
+            "If you see my little",
+            "red rooster please drive him home"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            3,
+            5,
+            3,
+            5
+          ],
+          "end_words": [
+            "little",
+            "home",
+            "little",
+            "home"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "little",
+              "word2": "little",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "home",
+              "word2": "home",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Ain?t had no peace in the farm",
+            "yard since my little red rooster?s been gone"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            6,
+            7
+          ],
+          "end_words": [
+            "farm",
+            "gone"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 14
+    }
+  }
+}

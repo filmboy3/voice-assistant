@@ -1,0 +1,620 @@
+{
+  "song_id": "0hEurMDQu99nJRq8pTxO14::badge-gun",
+  "title": "Badge Gun",
+  "artist": "John Mayer",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\n\"Badge & Gun\" (By: John Mayer) --\nGive me my badge and gun / Give me the road that I may run\nGive me that peaceful-wandering free I used to know\nI've waited all I can / But I'm just not patient man\nAnd I've been hiding here for seven months or so\nHand me down my coat and hat / And grab the winter one at that\nYou never know how long I'll be away\nGive me my badge and gun / Give me the songs that I once sung\nGive me those jet-black, kick-back, lay down nights alone\nThis house is safe and warm / But I was made to chase the storm\nTaking the whole world on with big ol' empty arms\nTell my friends I tried my best / That one day I just up and left\nThey probably saw it coming anyway\nOohs: , , , , , , , , ,\nThe lock is on the silver door / I can't remember what it's for\nI ain't been down those stairs in oh so long\nGive me my badge and gun / Give me the road that I must run\nGive me that peaceful-wandering free I used to know\nThe copy of your key is hanging where it used to be\nGood as you've always been to me\nThe life I need to lead\nIs somewhere out there calling over those hills END",
+  "cleaned_lyrics": "\"Badge & Gun\" (By: John Mayer) --\nGive me my badge and gun / Give me the road that I may run\nGive me that peaceful-wandering free I used to know\nI've waited all I can /\nBut I'm just not patient man\nAnd I've been hiding here for seven months or so\nHand me down my coat and hat\n/ And grab the winter one at that\nYou never know how long I'll be away\nGive me my badge and gun / Give me the songs that I once sung\nGive me those jet-black\nkick-back\nlay down nights alone\nThis house is safe and warm / But I was made to chase the storm\nTaking the whole world on with big ol' empty arms\nTell my friends I tried my best /\nThat one day I just up and left\nThey probably saw it coming anyway\nThe lock is on the silver door\n/ I can't remember what it's for\nI ain't been down those stairs in oh so long\nGive me my badge and gun / Give me the road that I must run\nGive me that peaceful-wandering free I used to know\nThe copy of your key is hanging where it used to be\nGood as you've always been to me\nThe life I need to lead\nIs somewhere out there calling over those hills END",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 23,
+    "cleaned_lines": 27,
+    "removed_count": 2,
+    "retention_rate": 1.173913043478261,
+    "removal_reasons": {
+      "section_marker": 1,
+      "metadata_line": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Give me my badge and gun / Give me the road that I may run",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wants his badge and gun and to be on the road.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "Give me that peaceful-wandering free I used to know",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wants the freedom he used to have.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "I've waited all I can",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's waited long enough.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "But I'm just not patient man",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's not a patient person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "And I've been hiding here for seven months or so",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's been hiding for a long time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Hand me down my coat and hat / And grab the winter one at that",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's getting ready to leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "You never know how long I'll be away",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "uncertainty",
+          "emotion_secondary": null,
+          "eli5_simplification": "He doesn't know how long he'll be gone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "Give me my badge and gun / Give me the songs that I once sung",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wants his badge and gun and the songs he used to sing.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Give me those jet-black kick-back lay down nights alone",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wants those nights alone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "This house is safe and warm",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "conflict",
+          "emotion_secondary": null,
+          "eli5_simplification": "The house is safe but...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "But I was made to chase the storm",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "He was made to chase the storm.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Taking the whole world on with big ol' empty arms",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's taking on the world.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "Tell my friends I tried my best / That one day I just up and left",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wants his friends to know he tried and then left.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "They probably saw it coming anyway",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "They probably knew he would leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "The lock is on the silver door",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The door is locked.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "I can't remember what it's for",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "He doesn't remember why the door is locked.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "I ain't been down those stairs in oh so long",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "He hasn't been down the stairs in a long time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "Give me my badge and gun / Give me the road that I must run",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wants his badge and gun and the road.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "Give me that peaceful-wandering free I used to know",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wants the freedom he used to have.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "The copy of your key is hanging where it used to be",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The key is where it always was.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "Good as you've always been to me",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "gratitude",
+          "emotion_secondary": null,
+          "eli5_simplification": "You've always been good to me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "The life I need to lead / Is somewhere out there calling over those hills",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The life he needs is calling him.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 28,
+        "covered_lines": 28,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 28,
+      "covered_lines": 28,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "\"Badge & Gun\" (By: John Mayer) --",
+            "Give me my badge and gun / Give me the road that I may run",
+            "Give me that peaceful-wandering free I used to know",
+            "I've waited all I can /"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            6,
+            6,
+            4
+          ],
+          "end_words": [
+            "mayer",
+            "run",
+            "know",
+            "can"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "But I'm just not patient man",
+            "And I've been hiding here for seven months or so",
+            "Hand me down my coat and hat",
+            "/ And grab the winter one at that"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            5,
+            6,
+            4,
+            4
+          ],
+          "end_words": [
+            "man",
+            "so",
+            "hat",
+            "that"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "man",
+              "word2": "hat",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "hat",
+              "word2": "that",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "You never know how long I'll be away",
+            "Give me my badge and gun / Give me the songs that I once sung",
+            "Give me those jet-black",
+            "kick-back"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            6,
+            7,
+            3,
+            2
+          ],
+          "end_words": [
+            "away",
+            "sung",
+            "black",
+            "back"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "black",
+              "word2": "back",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "lay down nights alone",
+            "This house is safe and warm / But I was made to chase the storm",
+            "Taking the whole world on with big ol' empty arms",
+            "Tell my friends I tried my best /"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            6,
+            7,
+            4
+          ],
+          "end_words": [
+            "alone",
+            "storm",
+            "arms",
+            "best"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "That one day I just up and left",
+            "They probably saw it coming anyway",
+            "The lock is on the silver door",
+            "/ I can't remember what it's for"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            4,
+            3,
+            5
+          ],
+          "end_words": [
+            "left",
+            "anyway",
+            "door",
+            "for"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "left",
+              "word2": "anyway",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "door",
+              "word2": "for",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I ain't been down those stairs in oh so long",
+            "Give me my badge and gun / Give me the road that I must run",
+            "Give me that peaceful-wandering free I used to know",
+            "The copy of your key is hanging where it used to be"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            6,
+            6,
+            6
+          ],
+          "end_words": [
+            "long",
+            "run",
+            "know",
+            "be"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Good as you've always been to me",
+            "The life I need to lead",
+            "Is somewhere out there calling over those hills END"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AAX",
+          "raw_rhyme_scheme": "AAB",
+          "pattern": "3_AAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            4,
+            3,
+            7
+          ],
+          "end_words": [
+            "me",
+            "lead",
+            "end"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "me",
+              "word2": "lead",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AAX",
+          "pattern": "3_AAB",
+          "line_count": 3,
+          "stability": 0.4
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 27
+    }
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "song_id": "3PhoLpVuITZKcymswpck5b::curtains",
+  "title": "Curtains",
+  "artist": "Elton John",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI used to know this old scarecrow\nhe was my song, my joy and sorrow\n\n[chorus]\nof field no longer sown by anyone\nI held dandelion that said the time has come\nto leave upon the wind not to return\nTill summer burns the earth again\noh oh oh oh oh oh oh oh oh oh oh oh oh oh oh\n\n[chorus]\nthis garden ever grew\n\n[bridge]\nsuch childish words for you\n\n[bridge]\nand just like us you must have had\nonce upon time\noh oh oh oh oh oh oh oh\noh oh oh oh oh oh oh",
+  "cleaned_lyrics": "I used to know this old scarecrow\nhe was my song\nmy joy and sorrow\nof field no longer sown by anyone\nI held dandelion that said the time has come\nto leave upon the wind not to return\nTill summer burns the earth again\noh oh oh oh oh oh oh oh oh oh oh oh oh oh oh\nthis garden ever grew\nsuch childish words for you\nand just like us you must have had\nonce upon time\noh oh oh oh\noh oh oh oh\noh oh oh oh oh oh oh",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 22,
+    "cleaned_lines": 15,
+    "removed_count": 5,
+    "retention_rate": 0.8333333333333334,
+    "removal_reasons": {
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I used to know this old scarecrow\nhe was my song",
+          "plot_function": "SETUP",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer remembers a scarecrow, who was important to them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "my joy and sorrow",
+          "plot_function": "SETUP",
+          "emotion_primary": "mixed",
+          "emotion_secondary": "null",
+          "eli5_simplification": "The scarecrow brought both happiness and sadness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "of field no longer sown by anyone",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The field is empty now, and no one plants there anymore.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "I held dandelion that said the time has come",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "The singer realizes it's time to move on.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "to leave upon the wind not to return",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer must leave and not come back.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Till summer burns the earth again",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "They hope to return when summer comes again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "original_lyric": "oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh\nthis garden ever grew\nsuch childish words for you\nand just like us you must have had\nonce upon time\noh oh oh oh\noh oh oh oh\noh oh oh oh oh oh oh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Repeating sounds and reflecting on the past, the garden, and childhood.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I used to know this old scarecrow",
+            "he was my song",
+            "my joy and sorrow",
+            "of field no longer sown by anyone"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            1,
+            2,
+            6
+          ],
+          "end_words": [
+            "scarecrow",
+            "song",
+            "sorrow",
+            "anyone"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I held dandelion that said the time has come",
+            "to leave upon the wind not to return",
+            "Till summer burns the earth again",
+            "oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            5,
+            5,
+            15
+          ],
+          "end_words": [
+            "come",
+            "return",
+            "again",
+            "oh"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "this garden ever grew",
+            "such childish words for you",
+            "and just like us you must have had",
+            "once upon time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "grew",
+            "you",
+            "had",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "grew",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "oh oh oh oh",
+            "oh oh oh oh",
+            "oh oh oh oh oh oh oh"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AAA",
+          "raw_rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.7,
+          "stress_counts": [
+            4,
+            4,
+            7
+          ],
+          "end_words": [
+            "oh",
+            "oh",
+            "oh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "oh",
+              "word2": "oh",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "oh",
+              "word2": "oh",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "line_count": 3,
+          "stability": 0.7
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 15
+    }
+  }
+}

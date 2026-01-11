@@ -1,0 +1,258 @@
+{
+  "song_id": "1dfeR4HaWDbWqFHLkxsg1d::let-me-live",
+  "title": "Let Me Live",
+  "artist": "Queen",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nWhy don't you take another little piece of my heart\nWhy don't you take it and break it and tear it all apart\nAll I do is give\nAll you do is take\n\n[chorus]\nSo let me live (let me live) Let me live (leave me alone)\nLet me live and make brand new start Brian's solo)\n\n[bridge]\nIt's long hard struggle but you can always depend on me\nº\nand if you're ever in trouble hey you know where\nI will be",
+  "cleaned_lyrics": "Why don't you take another little piece of my heart\nWhy don't you take it and break it and tear it all apart\nAll I do is give\nAll you do is take\nSo let me live (let me\nlive) Let me live (leave me alone)\nLet me live and make\nbrand new start Brian's solo)\nIt's long hard struggle but you can always depend on me\nº\nand if you're ever in trouble hey you know where\nI will be",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 15,
+    "cleaned_lines": 12,
+    "removed_count": 3,
+    "retention_rate": 0.9230769230769231,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Why don't you take another little piece of my heart\nWhy don't you take it and break it and tear it all apart",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Someone is hurting the singer and they are angry and sad about it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "All I do is give\nAll you do is take",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The singer feels they are always giving and the other person is always taking.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "So let me live (let me\nlive) Let me live (leave me alone)",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "desperation",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The singer wants to be left alone and to live their own life.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Let me live and make\nbrand new start Brian's solo)",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "The singer wants to start over and have a new beginning.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "It's long hard struggle but you can always depend on me\nº\nand if you're ever in trouble hey you know where\nI will be",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Even though things are hard, the singer is there for the other person.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 10,
+        "covered_lines": 10,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 10,
+      "covered_lines": 10,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Why don't you take another little piece of my heart",
+            "Why don't you take it and break it and tear it all apart",
+            "All I do is give",
+            "All you do is take"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            7,
+            7,
+            2,
+            2
+          ],
+          "end_words": [
+            "heart",
+            "apart",
+            "give",
+            "take"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "heart",
+              "word2": "apart",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "So let me live (let me",
+            "live) Let me live (leave me alone)",
+            "Let me live and make",
+            "brand new start Brian's solo)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            5,
+            3,
+            5
+          ],
+          "end_words": [
+            "me",
+            "alone",
+            "make",
+            "solo"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "alone",
+              "word2": "solo",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (OW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "It's long hard struggle but you can always depend on me",
+            "º",
+            "and if you're ever in trouble hey you know where",
+            "I will be"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "AXBA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 0.75,
+          "stability": 0.5,
+          "stress_counts": [
+            7,
+            0,
+            7,
+            1
+          ],
+          "end_words": [
+            "me",
+            "",
+            "where",
+            "be"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "me",
+              "word2": "be",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        }
+      ],
+      "total_stanzas": 3,
+      "total_lines": 12
+    }
+  }
+}

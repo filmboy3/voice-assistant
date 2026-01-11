@@ -1,0 +1,502 @@
+{
+  "song_id": "4x1nvY2FN8jxqAFA0DA02H::whatever-gets-you-thru-the-night",
+  "title": "Whatever gets you thru the night",
+  "artist": "John Lennon",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWhatever gets you through the night 'salright, 'salright\nIt's your money or life 'salright, 'salright\nDon't need sword to cut through flowers oh no, oh no\nWhatever gets you through your life 'salright, 'salright\nDo it wrong or do it right 'salright, 'salright\nDon't need watch to waste your time oh no, oh no\nHold me darlin' come on listen to me -cho rds.com\nI won't do you no harm\nTrust me darlin' come on listen to me, come on listen to me\n\n[chorus]\nWhatever gets you to the light 'salright, 'salright\n\n[outro]\nDon't need gun to blow your mind oh no, oh no\nHold me darlin' come on listen to me\nI won't do you no harm\nTrust me darlin' come on listen to me, come on listen to me",
+  "cleaned_lyrics": "Whatever gets you through the night 'salright\n'salright\nIt's your money or life 'salright\n'salright\nDon't need sword to\ncut through flowers oh no\noh no\nWhatever gets you through your life 'salright\n'salright\nDo it wrong or do it right 'salright\n'salright\nDon't need watch to waste your time oh no\noh no\nI won't do you no harm\nTrust me darlin' come on listen to me\ncome on listen to me\nWhatever gets you to the light 'salright\n'salright\nDon't need gun to blow your mind oh no\noh no\nHold me darlin' come on listen to me\nI won't do you no harm\nTrust me darlin' come on listen to me\ncome on listen to me",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 19,
+    "cleaned_lines": 24,
+    "removed_count": 4,
+    "retention_rate": 1.411764705882353,
+    "removal_reasons": {
+      "section_marker": 3,
+      "email_url": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Whatever gets you through the night 'salright\n'salright",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's okay to do whatever helps you get through the night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "It's your money or life 'salright\n'salright",
+          "plot_function": "SETUP",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's your choice, it's okay.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Don't need sword to\ncut through flowers oh no\noh no",
+          "plot_function": "SETUP",
+          "emotion_primary": "peace",
+          "emotion_secondary": null,
+          "eli5_simplification": "You don't need to be violent.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Whatever gets you through your life 'salright\n'salright",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's okay to do whatever helps you get through your life.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Do it wrong or do it right 'salright\n'salright",
+          "plot_function": "SETUP",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's okay to make mistakes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "Don't need watch to waste your time oh no\noh no",
+          "plot_function": "SETUP",
+          "emotion_primary": "peace",
+          "emotion_secondary": null,
+          "eli5_simplification": "Don't waste your time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "I won't do you no harm",
+          "plot_function": "SETUP",
+          "emotion_primary": "reassurance",
+          "emotion_secondary": null,
+          "eli5_simplification": "I won't hurt you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Trust me darlin' come on listen to me",
+          "plot_function": "SETUP",
+          "emotion_primary": "trust",
+          "emotion_secondary": null,
+          "eli5_simplification": "Trust me, listen to me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "come on listen to me",
+          "plot_function": "SETUP",
+          "emotion_primary": "trust",
+          "emotion_secondary": null,
+          "eli5_simplification": "Listen to me.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "Whatever gets you to the light 'salright\n'salright",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's okay to do whatever helps you find your way.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "Don't need gun to blow your mind oh no\noh no",
+          "plot_function": "SETUP",
+          "emotion_primary": "peace",
+          "emotion_secondary": null,
+          "eli5_simplification": "Don't let things mess with your mind.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Hold me darlin' come on listen to me",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "Hold me, listen to me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "I won't do you no harm",
+          "plot_function": "SETUP",
+          "emotion_primary": "reassurance",
+          "emotion_secondary": null,
+          "eli5_simplification": "I won't hurt you.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "Trust me darlin' come on listen to me",
+          "plot_function": "SETUP",
+          "emotion_primary": "trust",
+          "emotion_secondary": null,
+          "eli5_simplification": "Trust me, listen to me.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "come on listen to me",
+          "plot_function": "SETUP",
+          "emotion_primary": "trust",
+          "emotion_secondary": null,
+          "eli5_simplification": "Listen to me.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 23,
+        "covered_lines": 23,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 23,
+      "covered_lines": 23,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Whatever gets you through the night 'salright",
+            "'salright",
+            "It's your money or life 'salright",
+            "'salright"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            1,
+            4,
+            1
+          ],
+          "end_words": [
+            "salright",
+            "salright",
+            "salright",
+            "salright"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Don't need sword to",
+            "cut through flowers oh no",
+            "oh no",
+            "Whatever gets you through your life 'salright"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            5,
+            2,
+            5
+          ],
+          "end_words": [
+            "to",
+            "no",
+            "no",
+            "salright"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "no",
+              "word2": "no",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "'salright",
+            "Do it wrong or do it right 'salright",
+            "'salright",
+            "Don't need watch to waste your time oh no"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            3,
+            1,
+            7
+          ],
+          "end_words": [
+            "salright",
+            "salright",
+            "salright",
+            "no"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "oh no",
+            "I won't do you no harm",
+            "Trust me darlin' come on listen to me",
+            "come on listen to me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            3,
+            6,
+            3
+          ],
+          "end_words": [
+            "no",
+            "harm",
+            "me",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Whatever gets you to the light 'salright",
+            "'salright",
+            "Don't need gun to blow your mind oh no",
+            "oh no"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            1,
+            7,
+            2
+          ],
+          "end_words": [
+            "salright",
+            "salright",
+            "no",
+            "no"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "no",
+              "word2": "no",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Hold me darlin' come on listen to me",
+            "I won't do you no harm",
+            "Trust me darlin' come on listen to me",
+            "come on listen to me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            6,
+            3,
+            6,
+            3
+          ],
+          "end_words": [
+            "me",
+            "harm",
+            "me",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 24
+    }
+  }
+}

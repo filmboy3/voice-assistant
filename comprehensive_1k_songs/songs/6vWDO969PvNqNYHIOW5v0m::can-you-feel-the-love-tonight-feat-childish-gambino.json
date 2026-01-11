@@ -1,0 +1,601 @@
+{
+  "song_id": "6vWDO969PvNqNYHIOW5v0m::can-you-feel-the-love-tonight-feat-childish-gambino",
+  "title": "Can You Feel The Love Tonight (feat. Childish Gambino)",
+  "artist": "Beyoncé",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI can see what's happening (I can't, what?)\nAnd they don't have clue (who's they?)\nThey'll fall in love and here's the bottom line\nOur trios down to two (oh, I get it)\nThe sweet caress of twilight (yeah)\nThere's magic everywhere (it's everywhere)\nAnd with all this romantic atmosphere\nDisaster's in the air!\n\n[chorus]\nThe peace the evening brings?\nThe world, for once, in perfect harmony\nWith all its living things\n\n[verse]\nSo many things to tell her\n\n[bridge]\nThe truth about my past? Impossible!\nShe' turn away from me\nHe's holding back, he's hiding\n\n[bridge]\nWhy won't he be the king I know he is?\nThe king I see inside?\n\n[chorus]\nThe peace the evening brings?\nThe world, for once, in perfect harmony\nWith all its living things\n\n[chorus]\nYou needn't look too far\nStealing through the night's uncertainties\nLove is where they are\nFinal\nAnd if he falls in love tonight\nIt can be assumed\nHis carefree days with us are history",
+  "cleaned_lyrics": "I can see what's happening (I can't\nwhat?)\nAnd they don't have clue (who's they?)\nThey'll fall in love and here's the bottom line\nOur trios down to two (oh\nI get it)\nThe sweet caress of twilight (yeah)\nThere's magic everywhere (it's everywhere)\nAnd with all this romantic atmosphere\nDisaster's in the air!\nThe peace the evening brings?\nThe world\nfor once\nin perfect harmony\nWith all its living things\nSo many things to tell her\nThe truth about my past? Impossible!\nShe' turn away from me\nHe's holding back\nhe's hiding\nWhy won't he be the king I know he is?\nThe king I see inside?\nThe peace the evening brings?\nThe world\nfor once\nin perfect harmony\nWith all its living things\nYou needn't look too far\nStealing through the night's uncertainties\nLove is where they are\nFinal\nAnd if he falls in love tonight\nIt can be assumed\nHis carefree days with us are history",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 40,
+    "cleaned_lines": 34,
+    "removed_count": 7,
+    "retention_rate": 1.0,
+    "removal_reasons": {
+      "section_marker": 7
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I can see what's happening (I can't\nwhat?)\nAnd they don't have clue (who's they?)",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone sees something happening, but others don't know what's going on.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "They'll fall in love and here's the bottom line\nOur trios down to two (oh\nI get it)",
+          "plot_function": "SETUP",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone is predicting that people will fall in love, and things will change.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "The sweet caress of twilight (yeah)\nThere's magic everywhere (it's everywhere)",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The evening is beautiful and magical.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "And with all this romantic atmosphere\nDisaster's in the air!",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Even though it's romantic, something bad is about to happen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "The peace the evening brings?\nThe world\nfor once\nin perfect harmony\nWith all its living things",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The world is at peace and everything is in harmony.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "So many things to tell her",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone wants to tell someone else many things.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "The truth about my past? Impossible!",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "It's impossible to tell the truth about the past.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "She' turn away from me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Someone is afraid of being rejected.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "He's holding back\nhe's hiding\nWhy won't he be the king I know he is?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone is not being who they should be.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "The king I see inside?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone sees the potential for greatness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19,
+            20
+          ],
+          "original_lyric": "The peace the evening brings?\nThe world\nfor once\nin perfect harmony\nWith all its living things",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The world is at peace and everything is in harmony.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "You needn't look too far",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The answer is easy to find.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "Stealing through the night's uncertainties",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Moving through the night with worries.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "Love is where they are",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "Love is the answer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "Final",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "The end.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26,
+            27
+          ],
+          "original_lyric": "And if he falls in love tonight\nIt can be assumed\nHis carefree days with us are history",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "If someone falls in love, things will change.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 27,
+        "covered_lines": 27,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 27,
+      "covered_lines": 27,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I can see what's happening (I can't",
+            "what?)",
+            "And they don't have clue (who's they?)",
+            "They'll fall in love and here's the bottom line"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            1,
+            5,
+            6
+          ],
+          "end_words": [
+            "can't",
+            "what",
+            "they",
+            "line"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Our trios down to two (oh",
+            "I get it)",
+            "The sweet caress of twilight (yeah)",
+            "There's magic everywhere (it's everywhere)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            4,
+            7
+          ],
+          "end_words": [
+            "oh",
+            "it",
+            "yeah",
+            "everywhere"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "And with all this romantic atmosphere",
+            "Disaster's in the air!",
+            "The peace the evening brings?",
+            "The world"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            1
+          ],
+          "end_words": [
+            "atmosphere",
+            "air",
+            "brings",
+            "world"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "for once",
+            "in perfect harmony",
+            "With all its living things",
+            "So many things to tell her"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "end_words": [
+            "once",
+            "harmony",
+            "things",
+            "her"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "The truth about my past? Impossible!",
+            "She' turn away from me",
+            "He's holding back",
+            "he's hiding"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "impossible",
+            "me",
+            "back",
+            "hiding"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Why won't he be the king I know he is?",
+            "The king I see inside?",
+            "The peace the evening brings?",
+            "The world"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            3,
+            3,
+            1
+          ],
+          "end_words": [
+            "is",
+            "inside",
+            "brings",
+            "world"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "is",
+              "word2": "brings",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "for once",
+            "in perfect harmony",
+            "With all its living things",
+            "You needn't look too far"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "end_words": [
+            "once",
+            "harmony",
+            "things",
+            "far"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "harmony",
+              "word2": "far",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AA), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Stealing through the night's uncertainties",
+            "Love is where they are",
+            "Final",
+            "And if he falls in love tonight"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            3,
+            1,
+            4
+          ],
+          "end_words": [
+            "uncertainties",
+            "are",
+            "final",
+            "tonight"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "final",
+              "word2": "tonight",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "It can be assumed",
+            "His carefree days with us are history"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            1,
+            3
+          ],
+          "end_words": [
+            "assumed",
+            "history"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 34
+    }
+  }
+}

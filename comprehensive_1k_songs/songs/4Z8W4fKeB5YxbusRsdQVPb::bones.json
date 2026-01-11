@@ -1,0 +1,404 @@
+{
+  "song_id": "4Z8W4fKeB5YxbusRsdQVPb::bones",
+  "title": "Bones",
+  "artist": "Radiohead",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nShoulders, wrists, knees and back\nGround to dust and ash\n\n[chorus]\nWhen you've got to feel it in your bones 2x\n(mesmos acordes do primeiro verso)\nI don't want to be cripple cracked\nShoulders, wrists, knees and back\nGround to dust and ash\n\n[chorus]\nWhen you've got to feel it in your bones 2x\nNow that I can't climb the stairs\npieces missing everywhere\nProzak Painkillers\nWhen you've got to feel it in your bones x2\nI used to fly like peter pan\nAll the children flew and I touched their hands\nAcordes usados:\nxx0323 320033 # 200230",
+  "cleaned_lyrics": "Shoulders\nwrists\nknees and back\nGround to dust and ash\nWhen you've got to feel it in your bones 2x\nI don't want to be cripple cracked\nShoulders\nwrists\nknees and back\nGround to dust and ash\nWhen you've got to feel it in your bones 2x\nNow that I can't climb the stairs\npieces missing everywhere\nProzak Painkillers\nWhen you've got to feel it in your bones x2\nI used to fly like peter pan\nAll the children flew and I touched their hands\nAcordes usados:",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 21,
+    "cleaned_lines": 18,
+    "removed_count": 5,
+    "retention_rate": 0.9473684210526315,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "guitar_tab": 1,
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "original_lyric": "Shoulders\nwrists\nknees and back\nGround to dust and ash",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts by describing body parts and how they are turning to dust, setting a sad mood.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "When you've got to feel it in your bones 2x",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer feels the sadness deep inside.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "I don't want to be cripple cracked",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer expresses a fear of being broken.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "original_lyric": "Shoulders\nwrists\nknees and back\nGround to dust and ash",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the description of body parts turning to dust.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "When you've got to feel it in your bones 2x",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Repeating the feeling of sadness.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Now that I can't climb the stairs",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer can't do something they used to be able to do.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "pieces missing everywhere",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Things are broken and incomplete.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Prozak Painkillers",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer is using medication to cope.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "When you've got to feel it in your bones x2",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Repeating the feeling of sadness.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "I used to fly like peter pan",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The singer remembers a time of freedom and joy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "All the children flew and I touched their hands",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The singer remembers a time of connection and happiness.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 17,
+        "covered_lines": 17,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 17,
+      "covered_lines": 17,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Shoulders",
+            "wrists",
+            "knees and back",
+            "Ground to dust and ash"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            1,
+            1,
+            2,
+            3
+          ],
+          "end_words": [
+            "shoulders",
+            "wrists",
+            "back",
+            "ash"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "back",
+              "word2": "ash",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "When you've got to feel it in your bones 2x",
+            "I don't want to be cripple cracked",
+            "Shoulders",
+            "wrists"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            4,
+            1,
+            1
+          ],
+          "end_words": [
+            "x",
+            "cracked",
+            "shoulders",
+            "wrists"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "knees and back",
+            "Ground to dust and ash",
+            "When you've got to feel it in your bones 2x",
+            "Now that I can't climb the stairs"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            3,
+            6,
+            4
+          ],
+          "end_words": [
+            "back",
+            "ash",
+            "x",
+            "stairs"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "back",
+              "word2": "ash",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "x",
+              "word2": "stairs",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "pieces missing everywhere",
+            "Prozak Painkillers",
+            "When you've got to feel it in your bones x2",
+            "I used to fly like peter pan"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            2,
+            6,
+            5
+          ],
+          "end_words": [
+            "everywhere",
+            "painkillers",
+            "x",
+            "pan"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "everywhere",
+              "word2": "x",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "All the children flew and I touched their hands",
+            "Acordes usados:"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            5,
+            2
+          ],
+          "end_words": [
+            "hands",
+            "usados"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 18
+    }
+  }
+}

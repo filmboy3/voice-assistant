@@ -1,0 +1,614 @@
+{
+  "song_id": "7jy3rLJdDQY21OgRLCZ9sD::arlandria",
+  "title": "Arlandria",
+  "artist": "Foo Fighters",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nAin't that the way it always starts.\nsimple round of conversation.\n\n[bridge]\nI flipped you station to station.\nHey. Don't go and turn the other way.\nDon't say there's nothin more to... say.\n'mon hear me out.\nHush, hush, settle down.\n\n[bridge]\nShame, shame, go away.\n\n[chorus]\nYou used to say I couldn't save you enough,\nSo I've been savin' it up, I started savin' it up.\nAnd when you said I couldn't give you enough,\nI started giving you up, I started giving you up.\nYou are not me, Arlandria, Arlandria.\nYou and what army, Arlandria, Arlandria?\nOh, God you gotta make it stop.\nRepeat for the rest of the song",
+  "cleaned_lyrics": "Ain't that the way it always starts.\nsimple round of conversation.\nI flipped you station to station.\nHey. Don't go and turn the other way.\nDon't say there's nothin more to... say.\n'mon hear me out.\nHush\nhush\nsettle down.\nShame\nshame\ngo away.\nYou used to say I couldn't save you enough\nSo I've been savin' it up\nI started savin' it up.\nAnd when you said I couldn't give you enough\nI started giving you up\nI started giving you up.\nYou are not me\nArlandria\nArlandria.\nYou and what army\nArlandria\nArlandria?\nOh\nGod you gotta make it stop.\nRepeat for the rest of the song",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 23,
+    "cleaned_lines": 27,
+    "removed_count": 4,
+    "retention_rate": 1.35,
+    "removal_reasons": {
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Ain't that the way it always starts.\nsimple round of conversation.",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song begins with a common starting point, like a normal chat.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "I flipped you station to station.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer changed the channel, indicating a disagreement.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "Hey. Don't go and turn the other way.\nDon't say there's nothin more to... say.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "pleading",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer begs the other person not to leave or ignore them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "'mon hear me out.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "pleading",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer asks the other person to listen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8,
+            9
+          ],
+          "original_lyric": "Hush\nhush\nsettle down.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "The singer is trying to calm things down.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11,
+            12
+          ],
+          "original_lyric": "Shame\nshame\ngo away.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "The singer is telling the other person to feel ashamed and leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "You used to say I couldn't save you enough",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer remembers the other person's complaints.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "So I've been savin' it up",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "resentment",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer has been holding back.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "I started savin' it up.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "resentment",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer has been holding back.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "And when you said I couldn't give you enough",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer remembers the other person's complaints.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "I started giving you up",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is giving up on the relationship.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "I started giving you up.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is giving up on the relationship.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "You are not me",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "The singer is distancing themselves.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            22
+          ],
+          "original_lyric": "Arlandria\nArlandria.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the name, possibly a place or person.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "You and what army",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "defiance",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The singer is questioning the other person's support.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            25
+          ],
+          "original_lyric": "Arlandria\nArlandria?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the name, possibly a place or person.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "Oh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "despair",
+          "emotion_secondary": null,
+          "eli5_simplification": "Expressing a feeling of hopelessness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "God you gotta make it stop.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "desperation",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer wants the situation to end.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Ain't that the way it always starts.",
+            "simple round of conversation.",
+            "I flipped you station to station.",
+            "Hey. Don't go and turn the other way."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            6
+          ],
+          "end_words": [
+            "starts",
+            "conversation",
+            "station",
+            "way"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "conversation",
+              "word2": "station",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "station",
+              "word2": "way",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Don't say there's nothin more to... say.",
+            "'mon hear me out.",
+            "Hush",
+            "hush"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            6,
+            3,
+            1,
+            1
+          ],
+          "end_words": [
+            "say",
+            "out",
+            "hush",
+            "hush"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "hush",
+              "word2": "hush",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "settle down.",
+            "Shame",
+            "shame",
+            "go away."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "end_words": [
+            "down",
+            "shame",
+            "shame",
+            "away"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "shame",
+              "word2": "shame",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "shame",
+              "word2": "away",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "You used to say I couldn't save you enough",
+            "So I've been savin' it up",
+            "I started savin' it up.",
+            "And when you said I couldn't give you enough"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            5,
+            3,
+            3,
+            5
+          ],
+          "end_words": [
+            "enough",
+            "up",
+            "up",
+            "enough"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "enough",
+              "word2": "up",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "enough",
+              "word2": "enough",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "up",
+              "word2": "up",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "up",
+              "word2": "enough",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I started giving you up",
+            "I started giving you up.",
+            "You are not me",
+            "Arlandria"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            1
+          ],
+          "end_words": [
+            "up",
+            "up",
+            "me",
+            "arlandria"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "up",
+              "word2": "up",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Arlandria.",
+            "You and what army",
+            "Arlandria",
+            "Arlandria?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "end_words": [
+            "arlandria",
+            "army",
+            "arlandria",
+            "arlandria"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Oh",
+            "God you gotta make it stop.",
+            "Repeat for the rest of the song"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            1,
+            4,
+            3
+          ],
+          "end_words": [
+            "oh",
+            "stop",
+            "song"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 27
+    }
+  }
+}

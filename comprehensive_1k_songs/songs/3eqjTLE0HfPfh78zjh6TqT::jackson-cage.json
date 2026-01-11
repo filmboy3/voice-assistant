@@ -1,0 +1,681 @@
+{
+  "song_id": "3eqjTLE0HfPfh78zjh6TqT::jackson-cage",
+  "title": "Jackson Cage",
+  "artist": "Bruce Springsteen",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nDriving home she grabs something to eat\nTurns corner and drives down her street\n\n[intro]\nLike scenery in another man's play\n\n[intro]\nTo keep from seeing things she don't wanna know\nShe pulls the blinds and looks out on the street\nWhere the cool of the night takes the edge off the street\n\n[intro]\nDown in the Jackson Cage\nYou can try with all your might\n\n[bridge]\nThat you've been judged and handed life\nDown in the Jackson Cage\nEvery day ends in wasted motion\nJust crossed swords on the killing floor\nTo settle back is to settle without knowing\nThe hard edge that you're settling for\n\n[bridge]\nAnd it's always gonna be that way\nLittle girl you've been down here so long\nI can tell by the way that you move you belong to\nThe Jackson Cage\nDown in Jackson Cage\nAnd it don't matter just what you say\nAre you tough enough to play the game they play\nOr will you just do your time and fade away\nDown into the Jackson Cage\n\n[bridge]\nI see you feeling so tired and confused\nI wonder what it's worth to me or you\nJust waiting to see some sun\nNever knowing if that day will ever come\nLeft alone standing out on the street\nTill you become the hand that turns the key down in\nJackson Cage\nDown in Jackson Cage\nWell darling can you understand\nThe way that they will turn man\n\n[intro]\nDown in the Jackson Cage",
+  "cleaned_lyrics": "Driving home she grabs something to eat\nTurns corner and drives down her street\nLike scenery in another man's play\nTo keep from seeing things she don't wanna know\nShe pulls the blinds and looks out on the street\nWhere the cool of the night takes the edge off the street\nDown in the Jackson Cage\nYou can try with all your might\nThat you've been judged and handed life\nDown in the Jackson Cage\nEvery day ends in wasted motion\nJust crossed swords on the killing floor\nTo settle back is to settle without knowing\nThe hard edge that you're settling for\nAnd it's always gonna be that way\nLittle girl you've been down here so long\nThe Jackson Cage\nDown in Jackson Cage\nAnd it don't matter just what you say\nAre you tough enough to play the game they play\nOr will you just do your time and fade away\nDown into the Jackson Cage\nI see you feeling so tired and confused\nI wonder what it's worth to me or you\nJust waiting to see some sun\nNever knowing if that day will ever come\nLeft alone standing out on the street\nTill you become the hand that turns the key down in\nJackson Cage\nDown in Jackson Cage\nWell darling can you understand\nThe way that they will turn man\nDown in the Jackson Cage",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 49,
+    "cleaned_lines": 33,
+    "removed_count": 9,
+    "retention_rate": 0.7857142857142857,
+    "removal_reasons": {
+      "section_marker": 8,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Driving home she grabs something to eat\nTurns corner and drives down her street",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "A woman is driving home and getting ready to eat.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Like scenery in another man's play\nTo keep from seeing things she don't wanna know",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "She feels like she's just a part of someone else's story, trying to avoid something unpleasant.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "She pulls the blinds and looks out on the street\nWhere the cool of the night takes the edge off the street",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "She looks out the window, finding some peace in the night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            10
+          ],
+          "original_lyric": "Down in the Jackson Cage\nYou can try with all your might\nThat you've been judged and handed life\nDown in the Jackson Cage",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The Jackson Cage is a place where people are trapped and judged.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "Every day ends in wasted motion\nJust crossed swords on the killing floor",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Life feels pointless and full of conflict.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "To settle back is to settle without knowing\nThe hard edge that you're settling for",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "Giving up means accepting a harsh reality without understanding it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "And it's always gonna be that way\nLittle girl you've been down here so long",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Things will always be this way, and she's been stuck here for a long time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "The Jackson Cage\nDown in Jackson Cage",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The Jackson Cage is a place where people are trapped.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19,
+            21
+          ],
+          "original_lyric": "And it don't matter just what you say\nAre you tough enough to play the game they play\nOr will you just do your time and fade away",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "It doesn't matter what you do; you have to survive or disappear.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "Down into the Jackson Cage",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The Jackson Cage is a place where people are trapped.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "I see you feeling so tired and confused\nI wonder what it's worth to me or you",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The speaker sees her exhaustion and wonders what it all means.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "Just waiting to see some sun\nNever knowing if that day will ever come",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Hoping for a better day, but unsure if it will ever arrive.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "Left alone standing out on the street\nTill you become the hand that turns the key down in",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Alone on the street, until you become part of the problem.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "Jackson Cage\nDown in Jackson Cage",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The Jackson Cage is a place where people are trapped.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            31,
+            33
+          ],
+          "original_lyric": "Well darling can you understand\nThe way that they will turn man\nDown in the Jackson Cage",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Can you understand how they will change a person in the Jackson Cage?",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          {
+            "line_numbers": [
+              23
+            ],
+            "perspective": "I"
+          }
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 33,
+        "covered_lines": 33,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        {
+          "line_numbers": [
+            23
+          ],
+          "perspective": "I"
+        }
+      ]
+    },
+    "coverage": {
+      "total_lines": 33,
+      "covered_lines": 33,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Driving home she grabs something to eat",
+            "Turns corner and drives down her street",
+            "Like scenery in another man's play",
+            "To keep from seeing things she don't wanna know"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            5,
+            5,
+            6
+          ],
+          "end_words": [
+            "eat",
+            "street",
+            "play",
+            "know"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "eat",
+              "word2": "street",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "She pulls the blinds and looks out on the street",
+            "Where the cool of the night takes the edge off the street",
+            "Down in the Jackson Cage",
+            "You can try with all your might"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            7,
+            3,
+            3
+          ],
+          "end_words": [
+            "street",
+            "street",
+            "cage",
+            "might"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "street",
+              "word2": "street",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "That you've been judged and handed life",
+            "Down in the Jackson Cage",
+            "Every day ends in wasted motion",
+            "Just crossed swords on the killing floor"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            3,
+            5,
+            5
+          ],
+          "end_words": [
+            "life",
+            "cage",
+            "motion",
+            "floor"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "To settle back is to settle without knowing",
+            "The hard edge that you're settling for",
+            "And it's always gonna be that way",
+            "Little girl you've been down here so long"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            5,
+            4,
+            6
+          ],
+          "end_words": [
+            "knowing",
+            "for",
+            "way",
+            "long"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "for",
+              "word2": "long",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "The Jackson Cage",
+            "Down in Jackson Cage",
+            "And it don't matter just what you say",
+            "Are you tough enough to play the game they play"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            2,
+            3,
+            5,
+            5
+          ],
+          "end_words": [
+            "cage",
+            "cage",
+            "say",
+            "play"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "cage",
+              "word2": "cage",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "cage",
+              "word2": "say",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word adds post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "say",
+              "word2": "play",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Or will you just do your time and fade away",
+            "Down into the Jackson Cage",
+            "I see you feeling so tired and confused",
+            "I wonder what it's worth to me or you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            5
+          ],
+          "end_words": [
+            "away",
+            "cage",
+            "confused",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "away",
+              "word2": "cage",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "confused",
+              "word2": "you",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Just waiting to see some sun",
+            "Never knowing if that day will ever come",
+            "Left alone standing out on the street",
+            "Till you become the hand that turns the key down in"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            6,
+            5,
+            7
+          ],
+          "end_words": [
+            "sun",
+            "come",
+            "street",
+            "in"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "sun",
+              "word2": "come",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AH), post-consonants in same family"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Jackson Cage",
+            "Down in Jackson Cage",
+            "Well darling can you understand",
+            "The way that they will turn man"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            3,
+            4,
+            3
+          ],
+          "end_words": [
+            "cage",
+            "cage",
+            "understand",
+            "man"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "cage",
+              "word2": "cage",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "understand",
+              "word2": "man",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AE), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "Down in the Jackson Cage"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3
+          ],
+          "end_words": [
+            "cage"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "chorus",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 33
+    }
+  }
+}

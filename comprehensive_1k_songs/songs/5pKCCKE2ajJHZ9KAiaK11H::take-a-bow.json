@@ -1,0 +1,720 @@
+{
+  "song_id": "5pKCCKE2ajJHZ9KAiaK11H::take-a-bow",
+  "title": "Take A Bow",
+  "artist": "Rihanna",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nYou look so dumb right now,\nStandin' outside my house,\nTryin' to apologize,\nYou?re so ugly when you cry,\nPlease, just cut it out.\n{Chorus}\nand Don?t tell me you?re sorry 'cause you?re not,\n\n[bridge]\nYou really had me goin',\n\n[chorus]\nThat was quite show\n\n[bridge]\nGo on and take bow, ohh ohh.\n{Verse 2}\nGrab your clothes and get gone (get gone),\nYou better hurry up before the sprinklers come on (come on),\nTalkin? 'bout girl, I love you, you?re the one,\nThis just looks like the re-run,\nPlease, what else is on.\n{Chorus}\nand Don?t tell me you?re sorry 'cause you?re not,\n\n[bridge]\nYou really had me goin',\n\n[chorus]\nThat was quite show\n\n[bridge]\nGo on and take bow,\n{Bridge}\nAnd the award for the best liar goes to you (goes to you),\nFor makin' me believe that you could be faithful to me,\nLet's hear your speech out,\nHow about round of applause,\nstandin' ovation.\n\n[bridge]\nYou really had me goin',\nnow it?s time to go\n\n[chorus]\nThat was quite show\n\n[bridge]\nGo on and take bow.",
+  "cleaned_lyrics": "You look so dumb right now\nStandin' outside my house\nTryin' to apologize\nYou?re so ugly when you cry\nPlease\njust cut it out.\nand Don?t tell me\nyou?re sorry 'cause you?re not\nYou really had me goin'\nThat was quite show\nGo on and take bow\nohh ohh.\nGrab your clothes and get gone (get gone)\nYou better hurry up before\nthe sprinklers come on (come on)\nTalkin? 'bout girl\nI love you\nyou?re the one\nThis just looks like the re-run\nPlease\nwhat else is on.\nand Don?t tell me\nyou?re sorry 'cause you?re not\nYou really had me goin'\nThat was quite show\nGo on and take bow\nAnd the award for the best liar goes to you (goes to you)\nFor makin' me believe that you could be faithful to me\nLet's hear your speech out\nHow about round of applause\nstandin' ovation.\nYou really had me goin'\nnow it?s time to go\nThat was quite show\nGo on and take bow.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 50,
+    "cleaned_lines": 35,
+    "removed_count": 14,
+    "retention_rate": 0.8536585365853658,
+    "removal_reasons": {
+      "artist_annotation": 4,
+      "section_marker": 10
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "You look so dumb right now\nStandin' outside my house",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "The person is acting foolishly and is at the singer's house.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Tryin' to apologize\nYou?re so ugly when you cry",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "The person is trying to say sorry, but the singer doesn't care and finds their crying unattractive.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Please\njust cut it out.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "annoyance",
+          "eli5_simplification": "The singer wants the person to stop what they are doing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "and Don?t tell me\nyou?re sorry 'cause you?re not",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "distrust",
+          "eli5_simplification": "The singer doesn't believe the person's apology.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "You really had me goin'\nThat was quite show",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "The singer was fooled by the person's actions.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Go on and take bow",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sarcasm",
+          "eli5_simplification": "The singer is sarcastically telling the person to take a bow.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "ohh ohh.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "Filler.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Grab your clothes and get gone (get gone)",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "contempt",
+          "eli5_simplification": "The singer is telling the person to leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "You better hurry up before\nthe sprinklers come on (come on)",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sarcasm",
+          "eli5_simplification": "The singer is sarcastically urging the person to leave quickly.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "Talkin? 'bout girl\nI love you\nyou?re the one",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "The person is professing love, but the singer doesn't believe it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "This just looks like the re-run",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "The singer sees the situation as a repeat of past events.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Please\nwhat else is on.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "annoyance",
+          "eli5_simplification": "The singer is impatient and wants the person to stop.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "and Don?t tell me\nyou?re sorry 'cause you?re not",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "distrust",
+          "eli5_simplification": "The singer doesn't believe the person's apology.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "You really had me goin'\nThat was quite show",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "The singer was fooled by the person's actions.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "Go on and take bow",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sarcasm",
+          "eli5_simplification": "The singer is sarcastically telling the person to take a bow.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "And the award for the best liar goes to you (goes to you)",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sarcasm",
+          "eli5_simplification": "The singer is sarcastically awarding the person for being a liar.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "For makin' me believe that you could be faithful to me",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "betrayal",
+          "eli5_simplification": "The singer is angry because the person made them believe they were faithful.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "Let's hear your speech out",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sarcasm",
+          "eli5_simplification": "The singer is sarcastically asking for a speech.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28,
+            29
+          ],
+          "original_lyric": "How about round of applause\nstandin' ovation.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sarcasm",
+          "eli5_simplification": "The singer is sarcastically asking for applause.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30,
+            31
+          ],
+          "original_lyric": "You really had me goin'\nnow it?s time to go",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "finality",
+          "eli5_simplification": "The singer is done and wants the person to leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "That was quite show",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sarcasm",
+          "eli5_simplification": "The singer is sarcastically saying it was a good show.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            33
+          ],
+          "original_lyric": "Go on and take bow.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sarcasm",
+          "eli5_simplification": "The singer is sarcastically telling the person to take a bow.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 33,
+        "covered_lines": 33,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 33,
+      "covered_lines": 33,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "You look so dumb right now",
+            "Standin' outside my house",
+            "Tryin' to apologize",
+            "You?re so ugly when you cry"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            2,
+            4
+          ],
+          "end_words": [
+            "now",
+            "house",
+            "apologize",
+            "cry"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "now",
+              "word2": "house",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Please",
+            "just cut it out.",
+            "and Don?t tell me",
+            "you?re sorry 'cause you?re not"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "end_words": [
+            "please",
+            "out",
+            "me",
+            "not"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "please",
+              "word2": "me",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "You really had me goin'",
+            "That was quite show",
+            "Go on and take bow",
+            "ohh ohh."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "goin",
+            "show",
+            "bow",
+            "ohh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "goin",
+              "word2": "show",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "show",
+              "word2": "ohh",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Grab your clothes and get gone (get gone)",
+            "You better hurry up before",
+            "the sprinklers come on (come on)",
+            "Talkin? 'bout girl"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "gone",
+            "before",
+            "on",
+            "girl"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "gone",
+              "word2": "before",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I love you",
+            "you?re the one",
+            "This just looks like the re-run",
+            "Please"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            2,
+            5,
+            1
+          ],
+          "end_words": [
+            "you",
+            "one",
+            "run",
+            "please"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "one",
+              "word2": "run",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "what else is on.",
+            "and Don?t tell me",
+            "you?re sorry 'cause you?re not",
+            "You really had me goin'"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            4,
+            5,
+            3
+          ],
+          "end_words": [
+            "on",
+            "me",
+            "not",
+            "goin"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "on",
+              "word2": "not",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AA), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "That was quite show",
+            "Go on and take bow",
+            "And the award for the best liar goes to you (goes to you)",
+            "For makin' me believe that you could be faithful to me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            3,
+            7,
+            5
+          ],
+          "end_words": [
+            "show",
+            "bow",
+            "you",
+            "me"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Let's hear your speech out",
+            "How about round of applause",
+            "standin' ovation.",
+            "You really had me goin'"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            2,
+            3
+          ],
+          "end_words": [
+            "out",
+            "applause",
+            "ovation",
+            "goin"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "now it?s time to go",
+            "That was quite show",
+            "Go on and take bow."
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AAX",
+          "raw_rhyme_scheme": "AAB",
+          "pattern": "3_AAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            4,
+            2,
+            3
+          ],
+          "end_words": [
+            "go",
+            "show",
+            "bow"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "go",
+              "word2": "show",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AAX",
+          "pattern": "3_AAB",
+          "line_count": 3,
+          "stability": 0.4
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 35
+    }
+  }
+}

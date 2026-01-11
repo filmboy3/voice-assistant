@@ -1,0 +1,902 @@
+{
+  "song_id": "60df5JBRRPcnSpsIMxxwQm::respect",
+  "title": "Respect",
+  "artist": "Otis Redding",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nWhat you want; honey, you've got it,\nAnd what you need; baby, you've got it.\nAll I'm asking, is for little\nRespect, when I come home, hey, hey, hey!\nDo me wrong, honey, if you want,\nYou can do me wrong, honey, while I gone.\n\n[bridge]\nRespect, when I come home, oh baby.\nHey, little girl, you're so sweeter than honey,\nAnd I about to just give you all my money.\nAll I'm asking for, is little\nRespect, when I come home, oh baby.\nHey little girl, you're so sweeter than honey,\nAnd I about to just give you all my money,\n\n[bridge]\nRespect, when I come home, hey, hey, hey!\nRespect is what I want, respect is what I need.\nRespect is what I want, respect is what I need.\nGot to, got to have it, got to, got to have it.\nGot to, got to have it, got to, got to have it.",
+  "cleaned_lyrics": "What you want\nhoney\nyou've got it\nAnd what you need\nbaby\nyou've got it.\nAll I'm asking\nis for little\nRespect\nwhen I come home\nhey\nhey\nhey!\nDo me wrong\nhoney\nif you want\nYou can do me wrong\nhoney\nwhile I gone.\nRespect\nwhen I come home\noh baby.\nHey\nlittle girl\nyou're so sweeter than honey\nAnd I about to just give you all my money.\nAll I'm asking for\nis little\nRespect\nwhen I come home\noh baby.\nHey little girl\nyou're so sweeter than honey\nAnd I about to just give you all my money\nRespect\nwhen I come home\nhey\nhey\nhey!\nRespect is what I want\nrespect is what I need.\nRespect is what I want\nrespect is what I need.\nGot to\ngot to have it\ngot to\ngot to have it.\nGot to\ngot to have it\ngot to\ngot to have it.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 23,
+    "cleaned_lines": 51,
+    "removed_count": 3,
+    "retention_rate": 2.4285714285714284,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "original_lyric": "What you want\nhoney\nyou've got it\nAnd what you need\nbaby\nyou've got it.",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is saying the person has everything they want and need.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8,
+            9
+          ],
+          "original_lyric": "All I'm asking\nis for little\nRespect",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is asking for respect.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11,
+            12
+          ],
+          "original_lyric": "when I come home\nhey\nhey\nhey!",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants respect when they return home.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "original_lyric": "Do me wrong\nhoney\nif you want\nYou can do me wrong",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is saying the person can treat them badly.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "honey\nwhile I gone.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is saying the person can treat them badly while they are away.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20,
+            21
+          ],
+          "original_lyric": "Respect\nwhen I come home\noh baby.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants respect when they return home.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "Hey\nlittle girl",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is addressing the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "you're so sweeter than honey",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is complimenting the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "And I about to just give you all my money.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is saying they will give the person everything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27,
+            28
+          ],
+          "original_lyric": "All I'm asking for\nis little\nRespect",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is asking for respect.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30,
+            31
+          ],
+          "original_lyric": "when I come home\noh baby.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants respect when they return home.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32,
+            33
+          ],
+          "original_lyric": "Hey little girl\nyou're so sweeter than honey",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is complimenting the person.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            34
+          ],
+          "original_lyric": "And I about to just give you all my money",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is saying they will give the person everything.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            35,
+            36,
+            37
+          ],
+          "original_lyric": "Respect\nwhen I come home\nhey\nhey\nhey!",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants respect when they return home.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            38,
+            39
+          ],
+          "original_lyric": "Respect is what I want\nrespect is what I need.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants and needs respect.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            40,
+            41
+          ],
+          "original_lyric": "Respect is what I want\nrespect is what I need.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants and needs respect.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            42,
+            43
+          ],
+          "original_lyric": "Got to\ngot to have it",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer must have respect.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            44,
+            45
+          ],
+          "original_lyric": "got to\ngot to have it.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer must have respect.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            46,
+            47
+          ],
+          "original_lyric": "Got to\ngot to have it",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer must have respect.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            48,
+            49
+          ],
+          "original_lyric": "got to\ngot to have it.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer must have respect.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 49,
+        "covered_lines": 49,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 49,
+      "covered_lines": 49,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "What you want",
+            "honey",
+            "you've got it",
+            "And what you need"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            1,
+            3,
+            2
+          ],
+          "end_words": [
+            "want",
+            "honey",
+            "it",
+            "need"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "baby",
+            "you've got it.",
+            "All I'm asking",
+            "is for little"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            1,
+            3,
+            3,
+            1
+          ],
+          "end_words": [
+            "baby",
+            "it",
+            "asking",
+            "little"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "it",
+              "word2": "little",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Respect",
+            "when I come home",
+            "hey",
+            "hey"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            1,
+            3,
+            1,
+            1
+          ],
+          "end_words": [
+            "respect",
+            "home",
+            "hey",
+            "hey"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "hey",
+              "word2": "hey",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "hey!",
+            "Do me wrong",
+            "honey",
+            "if you want"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "end_words": [
+            "hey",
+            "wrong",
+            "honey",
+            "want"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "You can do me wrong",
+            "honey",
+            "while I gone.",
+            "Respect"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "end_words": [
+            "wrong",
+            "honey",
+            "gone",
+            "respect"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "wrong",
+              "word2": "gone",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AO), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "when I come home",
+            "oh baby.",
+            "Hey",
+            "little girl"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            2,
+            1,
+            2
+          ],
+          "end_words": [
+            "home",
+            "baby",
+            "hey",
+            "girl"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "baby",
+              "word2": "hey",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "you're so sweeter than honey",
+            "And I about to just give you all my money.",
+            "All I'm asking for",
+            "is little"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            5,
+            4,
+            1
+          ],
+          "end_words": [
+            "honey",
+            "money",
+            "for",
+            "little"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "honey",
+              "word2": "money",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Respect",
+            "when I come home",
+            "oh baby.",
+            "Hey little girl"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "respect",
+            "home",
+            "baby",
+            "girl"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "you're so sweeter than honey",
+            "And I about to just give you all my money",
+            "Respect",
+            "when I come home"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            5,
+            1,
+            3
+          ],
+          "end_words": [
+            "honey",
+            "money",
+            "respect",
+            "home"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "honey",
+              "word2": "money",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "hey",
+            "hey",
+            "hey!",
+            "Respect is what I want"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "end_words": [
+            "hey",
+            "hey",
+            "hey",
+            "want"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "hey",
+              "word2": "hey",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "hey",
+              "word2": "hey",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "respect is what I need.",
+            "Respect is what I want",
+            "respect is what I need.",
+            "Got to"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "need",
+            "want",
+            "need",
+            "to"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "need",
+              "word2": "need",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 12,
+          "lines": [
+            "got to have it",
+            "got to",
+            "got to have it.",
+            "Got to"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "it",
+            "to",
+            "it",
+            "to"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "it",
+              "word2": "it",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "to",
+              "word2": "to",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 13,
+          "lines": [
+            "got to have it",
+            "got to",
+            "got to have it."
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AXA",
+          "raw_rhyme_scheme": "ABA",
+          "pattern": "3_ABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "it",
+            "to",
+            "it"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "it",
+              "word2": "it",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 12,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 13,
+          "section_type": "verse",
+          "rhyme_scheme": "AXA",
+          "pattern": "3_ABA",
+          "line_count": 3,
+          "stability": 0.2
+        }
+      ],
+      "total_stanzas": 13,
+      "total_lines": 51
+    }
+  }
+}

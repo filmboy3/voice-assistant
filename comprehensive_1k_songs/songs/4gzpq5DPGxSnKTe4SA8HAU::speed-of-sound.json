@@ -1,0 +1,784 @@
+{
+  "song_id": "4gzpq5DPGxSnKTe4SA8HAU::speed-of-sound",
+  "title": "Speed of sound",
+  "artist": "Coldplay",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nTabbed from the live version and the 15 second preview clip,\nlyrics are guess.\n\n[verse]\nHow long before I get in?\n\n[bridge]\nHow long before you decide?\n\n[bridge]\nWhere to, where do I go?\nIf you never try then you'll never know.\nHow long do I have to climb?\nUp on this side of this mountain of mine?\n\n[bridge]\n{Repeat Intro}\n\n[verse]\nLook up I look up at night\nPlanets are moving at the speed of light\n\n[chorus]\nEvery chance that you get\nIs chance you seize\nHow long I gonna stand\nWith my head stuck under the sand\nI start before I can stop\n\n[chorus]\nAnd all that noise all that sound\nAll those places that I got found\nAnd birds go flying at the speed of sound to show how it all began\n\n[bridge]\n{Repeat Intro}\n\n[verse]\nIdeas that you'll never find\nAll the inventors could never design\nThe buildings that you put up\nJapan and China were all lit up\nThe first sign that I couldn't read\nOr the light that I couldn't see\nSome things you have to believe\n\n[chorus]\nAnd all that noise all that sound\nAll those places that I have found\nAnd birds go flying at the speed of sound to show how it all began\n\n[bridge]\nAh when you see it then you'll understand\n\n[pre_chorus]\nAll those signs I knew what they meant\nSome things you can't invent\nSome get made, and some get sent.\nOoh\n\n[bridge]\nOh when you see it then you'll understand\n{End on }",
+  "cleaned_lyrics": "lyrics are guess.\nHow long before I get in?\nHow long before you decide?\nWhere to\nwhere do I go?\nIf you never try then you'll never know.\nHow long do I have to climb?\nUp on this side of this mountain of mine?\nLook up I look up at night\nPlanets are moving at the speed of light\nEvery chance that you get\nIs chance you seize\nHow long I gonna stand\nWith my head stuck under the sand\nI start before I can stop\nAnd all that noise all that sound\nAll those places that I got found\nAnd birds go flying at the speed\nof sound to show how it all began\nIdeas that you'll never find\nAll the inventors could never design\nThe buildings that you put up\nJapan and China were all lit up\nThe first sign that I couldn't read\nOr the light that I couldn't see\nSome things you have to believe\nAnd all that noise all that sound\nAll those places that I have found\nAnd birds go flying at the speed\nof sound to show how it all began\nAh when you see it then you'll understand\nAll those signs I knew what they meant\nSome things you can't invent\nSome get made\nand some get sent.\nOoh\nOh when you see it then you'll understand",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 64,
+    "cleaned_lines": 37,
+    "removed_count": 18,
+    "retention_rate": 0.7254901960784313,
+    "removal_reasons": {
+      "technical_instruction": 1,
+      "artist_annotation": 3,
+      "section_marker": 14
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "How long before I get in?\nHow long before you decide?",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is waiting and wondering when something will happen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Where to\nwhere do I go?",
+          "plot_function": "SETUP",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is unsure of their direction.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "If you never try then you'll never know.",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you don't try, you won't find out.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "How long do I have to climb?\nUp on this side of this mountain of mine?",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer is struggling to overcome an obstacle.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "Look up I look up at night\nPlanets are moving at the speed of light",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Looking up at the stars, things are happening very fast.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "Every chance that you get\nIs chance you seize",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Take every opportunity.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "How long I gonna stand\nWith my head stuck under the sand",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer feels stuck and unable to move forward.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "I start before I can stop\nAnd all that noise all that sound",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is starting something, despite the chaos.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "All those places that I got found",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the places they have been.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "And birds go flying at the speed",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "Birds are flying fast.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "of sound to show how it all began",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "Birds are flying fast to show how it all began.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "Ideas that you'll never find\nAll the inventors could never design",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "Some ideas are impossible to find or design.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "The buildings that you put up\nJapan and China were all lit up",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "Buildings are lit up in Japan and China.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "The first sign that I couldn't read\nOr the light that I couldn't see",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer missed something important.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "Some things you have to believe",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "You have to believe in some things.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "And all that noise all that sound",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the noise and sound.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "All those places that I have found",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the places they have been.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "And birds go flying at the speed",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "Birds are flying fast.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "of sound to show how it all began",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "Birds are flying fast to show how it all began.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "Ah when you see it then you'll understand",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "realization",
+          "emotion_secondary": null,
+          "eli5_simplification": "When you see it, you'll understand.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "All those signs I knew what they meant",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "realization",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer now understands the signs.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32,
+            33
+          ],
+          "original_lyric": "Some things you can't invent\nSome get made",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Some things can't be created, they just happen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34
+          ],
+          "original_lyric": "and some get sent.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Some things are sent.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35,
+            36
+          ],
+          "original_lyric": "Ooh\nOh when you see it then you'll understand",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "realization",
+          "emotion_secondary": null,
+          "eli5_simplification": "When you see it, you'll understand.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 36,
+        "covered_lines": 36,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 36,
+      "covered_lines": 36,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "lyrics are guess.",
+            "How long before I get in?",
+            "How long before you decide?",
+            "Where to"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            5,
+            4,
+            2
+          ],
+          "end_words": [
+            "guess",
+            "in",
+            "decide",
+            "to"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "where do I go?",
+            "If you never try then you'll never know.",
+            "How long do I have to climb?",
+            "Up on this side of this mountain of mine?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            6,
+            3,
+            4
+          ],
+          "end_words": [
+            "go",
+            "know",
+            "climb",
+            "mine"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "go",
+              "word2": "know",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "climb",
+              "word2": "mine",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Look up I look up at night",
+            "Planets are moving at the speed of light",
+            "Every chance that you get",
+            "Is chance you seize"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            4,
+            3,
+            2
+          ],
+          "end_words": [
+            "night",
+            "light",
+            "get",
+            "seize"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "night",
+              "word2": "light",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "How long I gonna stand",
+            "With my head stuck under the sand",
+            "I start before I can stop",
+            "And all that noise all that sound"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            4
+          ],
+          "end_words": [
+            "stand",
+            "sand",
+            "stop",
+            "sound"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "stand",
+              "word2": "sand",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "All those places that I got found",
+            "And birds go flying at the speed",
+            "of sound to show how it all began",
+            "Ideas that you'll never find"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            5,
+            4
+          ],
+          "end_words": [
+            "found",
+            "speed",
+            "began",
+            "find"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "All the inventors could never design",
+            "The buildings that you put up",
+            "Japan and China were all lit up",
+            "The first sign that I couldn't read"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            3,
+            5,
+            4
+          ],
+          "end_words": [
+            "design",
+            "up",
+            "up",
+            "read"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "up",
+              "word2": "up",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Or the light that I couldn't see",
+            "Some things you have to believe",
+            "And all that noise all that sound",
+            "All those places that I have found"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            3
+          ],
+          "end_words": [
+            "see",
+            "believe",
+            "sound",
+            "found"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "see",
+              "word2": "believe",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "sound",
+              "word2": "found",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "And birds go flying at the speed",
+            "of sound to show how it all began",
+            "Ah when you see it then you'll understand",
+            "All those signs I knew what they meant"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            5,
+            6,
+            5
+          ],
+          "end_words": [
+            "speed",
+            "began",
+            "understand",
+            "meant"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "began",
+              "word2": "understand",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AE), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "Some things you can't invent",
+            "Some get made",
+            "and some get sent.",
+            "Ooh"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            1
+          ],
+          "end_words": [
+            "invent",
+            "made",
+            "sent",
+            "ooh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "invent",
+              "word2": "sent",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "Oh when you see it then you'll understand"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            6
+          ],
+          "end_words": [
+            "understand"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 10,
+      "total_lines": 37
+    }
+  }
+}

@@ -1,0 +1,714 @@
+{
+  "song_id": "3RwQ26hR2tJtA8F9p2n7jG::a-song-for-you",
+  "title": "A Song For You",
+  "artist": "The Temptations",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\n+\nI've been so many places in my life and time\nI've sung lot of songs, I've made some bad rhyme\nI've acted out my life in stages, with ten thousand people watching\n\n[bridge]\n+\nI know your image of me is what I hope to be\nI've treated you unkindly but baby can't you see\nThere's no one more important to me, baby can't you please see through me,\n'Cause we're alone now and I'm singin' this song for you.\nYou taught me precious secrets of the truth, withholdin' nothin'\nYou came out in front and I was hiding\n\n[bridge]\nListen to the melody 'cause my love's in there, hiding\n+\nI love you in place where there's no space or time;\nI love you for my life, you are friend of mine,\nAnd when my life is over, remember when we were together\nWe were alone and I was singin' this song for you.\nYou taught me precious secrets of the truth, withholdin' nothin'\nYou came out in front and I was hiding\n\n[bridge]\nListen to the melody 'cause my love's in there, hiding\nWe were alone and I was singin' this song for you\nWe were alone and I was singin' this song, singin' this song for you",
+  "cleaned_lyrics": "I've been so many places in my life and time\nI've sung lot of songs\nI've made some bad rhyme\nI've acted out my life in stages\nwith ten thousand people watching\nI know your image of me is what I hope to be\nI've treated you unkindly but baby can't you see\nThere's no one more important to me\nbaby can't you please see through me\n'Cause we're alone now and\nI'm singin' this song for you.\nYou taught me precious secrets of the truth\nwithholdin' nothin'\nYou came out in front and I was hiding\nListen to the melody 'cause my love's in there\nhiding\nI love you in place where there's no space or time\nI love you for my life\nyou are friend of mine\nAnd when my life is over\nremember when we were together\nWe were alone and I was singin' this song for you.\nYou taught me precious secrets of the truth\nwithholdin' nothin'\nYou came out in front and I was hiding\nListen to the melody 'cause my love's in there\nhiding\nWe were alone and I was singin' this song for you\nWe were alone and I was singin' this song\nsingin' this song for you",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 29,
+    "cleaned_lines": 30,
+    "removed_count": 4,
+    "retention_rate": 1.1538461538461537,
+    "removal_reasons": {
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I've been so many places in my life and time\nI've sung lot of songs",
+          "plot_function": "SETUP",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is talking about their past experiences.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I've made some bad rhyme\nI've acted out my life in stages",
+          "plot_function": "SETUP",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is talking about their past experiences.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "with ten thousand people watching",
+          "plot_function": "SETUP",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is talking about their past experiences.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "I know your image of me is what I hope to be",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer acknowledges how they are perceived.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "I've treated you unkindly but baby can't you see",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer admits to past mistakes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "There's no one more important to me\nbaby can't you please see through me",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer expresses the importance of the person they are singing to.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "'Cause we're alone now and\nI'm singin' this song for you.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is alone with the person and singing to them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "You taught me precious secrets of the truth",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "gratitude",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reflects on what they learned.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "withholdin' nothin'",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "gratitude",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reflects on what they learned.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "You came out in front and I was hiding",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "gratitude",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reflects on what they learned.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Listen to the melody 'cause my love's in there",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reflects on what they learned.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "hiding",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reflects on what they learned.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "I love you in place where there's no space or time",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer expresses their love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "I love you for my life",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer expresses their love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "you are friend of mine",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer expresses their love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "And when my life is over\nremember when we were together",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reflects on their life and relationship.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "We were alone and I was singin' this song for you.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is alone with the person and singing to them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "You taught me precious secrets of the truth",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "gratitude",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reflects on what they learned.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "withholdin' nothin'",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "gratitude",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reflects on what they learned.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "You came out in front and I was hiding",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "gratitude",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reflects on what they learned.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "Listen to the melody 'cause my love's in there",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reflects on what they learned.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "hiding",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reflects on what they learned.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "We were alone and I was singin' this song for you",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is alone with the person and singing to them.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "We were alone and I was singin' this song\nsingin' this song for you",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is alone with the person and singing to them.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 30,
+        "covered_lines": 30,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 30,
+      "covered_lines": 30,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I've been so many places in my life and time",
+            "I've sung lot of songs",
+            "I've made some bad rhyme",
+            "I've acted out my life in stages"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            4,
+            5,
+            5
+          ],
+          "end_words": [
+            "time",
+            "songs",
+            "rhyme",
+            "stages"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "time",
+              "word2": "rhyme",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "with ten thousand people watching",
+            "I know your image of me is what I hope to be",
+            "I've treated you unkindly but baby can't you see",
+            "There's no one more important to me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4,
+            5,
+            6,
+            6
+          ],
+          "end_words": [
+            "watching",
+            "be",
+            "see",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "be",
+              "word2": "see",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "see",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "baby can't you please see through me",
+            "'Cause we're alone now and",
+            "I'm singin' this song for you.",
+            "You taught me precious secrets of the truth"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            6,
+            5,
+            4,
+            4
+          ],
+          "end_words": [
+            "me",
+            "and",
+            "you",
+            "truth"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "you",
+              "word2": "truth",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "withholdin' nothin'",
+            "You came out in front and I was hiding",
+            "Listen to the melody 'cause my love's in there",
+            "hiding"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            4,
+            5,
+            1
+          ],
+          "end_words": [
+            "nothin",
+            "hiding",
+            "there",
+            "hiding"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "hiding",
+              "word2": "hiding",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I love you in place where there's no space or time",
+            "I love you for my life",
+            "you are friend of mine",
+            "And when my life is over"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            7,
+            2,
+            2,
+            3
+          ],
+          "end_words": [
+            "time",
+            "life",
+            "mine",
+            "over"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "time",
+              "word2": "life",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "time",
+              "word2": "mine",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "life",
+              "word2": "mine",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "remember when we were together",
+            "We were alone and I was singin' this song for you.",
+            "You taught me precious secrets of the truth",
+            "withholdin' nothin'"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            2
+          ],
+          "end_words": [
+            "together",
+            "you",
+            "truth",
+            "nothin"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "you",
+              "word2": "truth",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "You came out in front and I was hiding",
+            "Listen to the melody 'cause my love's in there",
+            "hiding",
+            "We were alone and I was singin' this song for you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            5,
+            1,
+            4
+          ],
+          "end_words": [
+            "hiding",
+            "there",
+            "hiding",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "hiding",
+              "word2": "hiding",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "We were alone and I was singin' this song",
+            "singin' this song for you"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX",
+          "pattern_confidence": 1.0,
+          "stability": 0.8,
+          "stress_counts": [
+            3,
+            3
+          ],
+          "end_words": [
+            "song",
+            "you"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX",
+          "line_count": 2,
+          "stability": 0.8
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 30
+    }
+  }
+}

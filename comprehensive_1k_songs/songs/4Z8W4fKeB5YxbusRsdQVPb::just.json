@@ -1,0 +1,380 @@
+{
+  "song_id": "4Z8W4fKeB5YxbusRsdQVPb::just",
+  "title": "Just",
+  "artist": "Radiohead",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nHe's been hanging round for days\n\n[chorus]\nSuckered you but not your friends\nOne day he'll get to you\nAnd teach you how to be holy cow\nYou do it to yourself, you do\nAnd that's what really hurts\nIs that you do it to yourself\nJust you and no-one else\nYou do it to yourself\nYou do it to yourself\nDon't get my sympathy\nHanging out the 15th floor\nYou've changed the locks three times\nHe still comes reeling through the door\nOne day I'll get you\nAnd teach you how to get to purest hell\n|----------------------10h12---------------------------------------------------\n--8---10-11---13-14---16-17-----8---10-11---13-14---16-17----20-(3bars)--17--\nRiff 3---------------------------------------------------------\n|------------------------------------------8/p6-------------------------------\n|----------------------------------------8--------8/p6--7-5-------------------\n|-8p5------5-8p5-----5-8p5-----5-8p5-------------------------7-----------------\n.5-----------------\n|--8p5-----5-8p5-----5-8p5-----5-8p5------------------------------ Riff 3------\n|--8p5------8p5-----5--8p5-----------------------------------------------------\n|------8/-------8/---------8/---sl.-------------------------------------------",
+  "cleaned_lyrics": "He's been hanging round for days\nSuckered you but not your friends\nOne day he'll get to you\nAnd teach you how to be holy cow\nYou do it to yourself\nyou do\nAnd that's what really hurts\nIs that you do it to yourself\nJust you and no-one else\nYou do it to yourself\nYou do it to yourself\nDon't get my sympathy\nHanging out the 15th floor\nYou've changed the locks three times\nHe still comes reeling through the door\nOne day I'll get you\nAnd teach you how to get to purest hell",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 29,
+    "cleaned_lines": 17,
+    "removed_count": 12,
+    "retention_rate": 0.6071428571428571,
+    "removal_reasons": {
+      "guitar_tab": 10,
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "He's been hanging round for days\nSuckered you but not your friends",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": "unease",
+          "eli5_simplification": "Someone is bothering you, but not your friends.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "One day he'll get to you\nAnd teach you how to be holy cow",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "He will eventually get to you and do something bad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "You do it to yourself\nyou do",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "You are hurting yourself.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "And that's what really hurts",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "That's what makes you feel bad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "Is that you do it to yourself\nJust you and no-one else\nYou do it to yourself\nYou do it to yourself",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "You are hurting yourself, all alone.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Don't get my sympathy",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "I don't feel sorry for you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "Hanging out the 15th floor\nYou've changed the locks three times",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anxiety",
+          "eli5_simplification": "You are in a dangerous situation and trying to escape.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "He still comes reeling through the door\nOne day I'll get you",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "He keeps coming back, and I will get you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "And teach you how to get to purest hell",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "I will make you suffer.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 17,
+        "covered_lines": 17,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 17,
+      "covered_lines": 17,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "He's been hanging round for days",
+            "Suckered you but not your friends",
+            "One day he'll get to you",
+            "And teach you how to be holy cow"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            3,
+            5,
+            4
+          ],
+          "end_words": [
+            "days",
+            "friends",
+            "you",
+            "cow"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "You do it to yourself",
+            "you do",
+            "And that's what really hurts",
+            "Is that you do it to yourself"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            1,
+            1,
+            4,
+            1
+          ],
+          "end_words": [
+            "yourself",
+            "do",
+            "hurts",
+            "yourself"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "yourself",
+              "word2": "yourself",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Just you and no-one else",
+            "You do it to yourself",
+            "You do it to yourself",
+            "Don't get my sympathy"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            4,
+            1,
+            1,
+            3
+          ],
+          "end_words": [
+            "else",
+            "yourself",
+            "yourself",
+            "sympathy"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "else",
+              "word2": "yourself",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "yourself",
+              "word2": "yourself",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Hanging out the 15th floor",
+            "You've changed the locks three times",
+            "He still comes reeling through the door",
+            "One day I'll get you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "end_words": [
+            "floor",
+            "times",
+            "door",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "floor",
+              "word2": "door",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "And teach you how to get to purest hell"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            5
+          ],
+          "end_words": [
+            "hell"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 17
+    }
+  }
+}

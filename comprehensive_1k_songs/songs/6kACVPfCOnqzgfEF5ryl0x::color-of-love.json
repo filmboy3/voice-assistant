@@ -1,0 +1,578 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::color-of-love",
+  "title": "Color Of Love",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWell I used think the color of love would be rosy red or pretty pink\nAnd I thought it would be thirsty man crawlin' home to get big old drink\nAnd I thought love was spelled like bell --double L bell that you ring\nStead of wham bam Hit your man with pan\nHit him on the head and listen to the birdies sing\nOh you heart breakin' love makin' cut me--piece-of-bacon man of mine\nAnd you money shiftin' flour siftin' nose liftin' rose of woman kind\nJust keep on doin' what you're doin' what You're doin' suits me just fine\nAnd love I tell You somethin' else you blow my mind\n\n[verse]\nWell I used to think the color of love would be Soft green like pea in\nPod\nAnd I thought love Would strike like light flashin' down big old lightning\nrod\nAnd I thought love was spelled W--double L well that would never run dry\n\n[intro]\nto cry\nOh you money turnin' egg churnin' butter burnin' baby of mine\nYou half crazy lean and lazy pretty as wilted daisy man of mine\nJust keep on doin' what you're doin' what You're doin' suits me just fine\nAnd love I tell You somethin' else you blow my mind\nDay and night all right love me till I'm old and going wild\nAnd love I tell You somethin' else you blow my mind",
+  "cleaned_lyrics": "Well I used think the color of\nlove would be rosy red or pretty pink\nAnd I thought it would be thirsty\nman crawlin' home to get big old drink\nAnd I thought love was spelled like\nbell --double L bell that you ring\nStead of wham bam Hit your man with pan\nHit him on the head and listen to the birdies sing\nOh you heart breakin' love\nmakin' cut me--piece-of-bacon man of mine\nAnd you money shiftin' flour siftin'\nnose liftin' rose of woman kind\nAnd love I tell You somethin' else you blow my mind\nWell I used to think the color of\nlove would be Soft green like pea in\nPod\nAnd I thought love Would strike\nlike light flashin' down big old lightning\nrod\nAnd I thought love was spelled W--double\nL well that would never run dry\nto cry\nYou half crazy lean and lazy\npretty as wilted daisy man of mine\nAnd love I tell You somethin' else you blow my mind\nDay and night all right love\nme till I'm old and going wild\nAnd love I tell You somethin' else you blow my mind",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 26,
+    "cleaned_lines": 28,
+    "removed_count": 6,
+    "retention_rate": 1.1666666666666667,
+    "removal_reasons": {
+      "musical_direction": 2,
+      "section_marker": 3,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Well I used think the color of\nlove would be rosy red or pretty pink",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer used to think love was a certain color, like pink.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "And I thought it would be thirsty\nman crawlin' home to get big old drink",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer also thought love was like a thirsty man getting a drink.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "And I thought love was spelled like\nbell --double L bell that you ring",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer thought love was like a bell.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Stead of wham bam Hit your man with pan\nHit him on the head and listen to the birdies sing",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "Instead of those things, love is like hitting someone with a pan.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Oh you heart breakin' love",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Love is also heartbreaking.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "makin' cut me--piece-of-bacon man of mine",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is angry at their lover.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "And you money shiftin' flour siftin'\nnose liftin' rose of woman kind",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is angry at their lover.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "And love I tell You somethin' else you blow my mind",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "Love is confusing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "Well I used to think the color of\nlove would be Soft green like pea in\nPod",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer used to think love was a certain color, like green.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "And I thought love Would strike\nlike light flashin' down big old lightning\nrod",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer also thought love was like lightning.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "And I thought love was spelled W--double\nL well that would never run dry\nto cry",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer thought love was like a well.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "You half crazy lean and lazy\npretty as wilted daisy man of mine",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is angry at their lover.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "And love I tell You somethin' else you blow my mind",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "Love is confusing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "Day and night all right love\nme till I'm old and going wild",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer wants to be loved forever.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "And love I tell You somethin' else you blow my mind",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "Love is confusing.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 23,
+        "covered_lines": 23,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 23,
+      "covered_lines": 23,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Well I used think the color of",
+            "love would be rosy red or pretty pink",
+            "And I thought it would be thirsty",
+            "man crawlin' home to get big old drink"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            5,
+            2,
+            7
+          ],
+          "end_words": [
+            "of",
+            "pink",
+            "thirsty",
+            "drink"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "pink",
+              "word2": "drink",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "And I thought love was spelled like",
+            "bell --double L bell that you ring",
+            "Stead of wham bam Hit your man with pan",
+            "Hit him on the head and listen to the birdies sing"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            5,
+            6,
+            5
+          ],
+          "end_words": [
+            "like",
+            "ring",
+            "pan",
+            "sing"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "ring",
+              "word2": "sing",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Oh you heart breakin' love",
+            "makin' cut me--piece-of-bacon man of mine",
+            "And you money shiftin' flour siftin'",
+            "nose liftin' rose of woman kind"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            6,
+            4,
+            5
+          ],
+          "end_words": [
+            "love",
+            "mine",
+            "siftin",
+            "kind"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "mine",
+              "word2": "kind",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "And love I tell You somethin' else you blow my mind",
+            "Well I used to think the color of",
+            "love would be Soft green like pea in",
+            "Pod"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            5,
+            6,
+            1
+          ],
+          "end_words": [
+            "mind",
+            "of",
+            "in",
+            "pod"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "And I thought love Would strike",
+            "like light flashin' down big old lightning",
+            "rod",
+            "And I thought love was spelled W--double"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            7,
+            1,
+            5
+          ],
+          "end_words": [
+            "strike",
+            "lightning",
+            "rod",
+            "double"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "strike",
+              "word2": "lightning",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "L well that would never run dry",
+            "to cry",
+            "You half crazy lean and lazy",
+            "pretty as wilted daisy man of mine"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            1,
+            4,
+            5
+          ],
+          "end_words": [
+            "dry",
+            "cry",
+            "lazy",
+            "mine"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "dry",
+              "word2": "cry",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "cry",
+              "word2": "mine",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "And love I tell You somethin' else you blow my mind",
+            "Day and night all right love",
+            "me till I'm old and going wild",
+            "And love I tell You somethin' else you blow my mind"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            6,
+            5,
+            5,
+            6
+          ],
+          "end_words": [
+            "mind",
+            "love",
+            "wild",
+            "mind"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "mind",
+              "word2": "wild",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "mind",
+              "word2": "mind",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "wild",
+              "word2": "mind",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 28
+    }
+  }
+}

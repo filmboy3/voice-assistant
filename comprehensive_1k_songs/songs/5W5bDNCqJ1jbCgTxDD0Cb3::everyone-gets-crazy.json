@@ -1,0 +1,488 @@
+{
+  "song_id": "5W5bDNCqJ1jbCgTxDD0Cb3::everyone-gets-crazy",
+  "title": "Everyone Gets Crazy",
+  "artist": "Willie Nelson",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nLook here is that you i see\nYou sure seem down to me\nWould you like to tell it to friend\nI can help if anyone can\nYou know i understand\nEveryone gets crazy now and then\n\n[verse]\nYes i know those empty nights get lonely\nSometimes you feel like you're the only one\nTo lose more then he wins\nGuess these trouble times get scary\n\n[bridge]\nEveryone gets crazy now and then (all together)\n\n[verse]\nAnd who can say they've never stumbled\nNever fallen to their knees\nYour dreams like castles when they crumble\nWell i know what you mean\nAnd i know how hard it can seem\n\n[verse]\nI get crazy just like you\nLost and lonely too\nLike some old flag left flying in the wind\nTime has taught me this for sure\nTime itself is the only cure\nAll your blues will turn to gold again\nEveryone gets crazy now and then (all together)",
+  "cleaned_lyrics": "Look here is that you i see\nYou sure seem down to me\nWould you like to tell it to friend\nI can help if anyone can\nYou know i understand\nEveryone gets crazy now and then\nYes i know those empty nights get lonely\nSometimes you feel like you're the only one\nTo lose more then he wins\nGuess these trouble times get scary\nEveryone gets crazy now and then (all together)\nAnd who can say they've never stumbled\nNever fallen to their knees\nYour dreams like castles when they crumble\nWell i know what you mean\nAnd i know how hard it can seem\nI get crazy just like you\nLost and lonely too\nLike some old flag left flying in the wind\nTime has taught me this for sure\nTime itself is the only cure\nAll your blues will turn to gold again\nEveryone gets crazy now and then (all together)",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 32,
+    "cleaned_lines": 23,
+    "removed_count": 5,
+    "retention_rate": 0.8214285714285714,
+    "removal_reasons": {
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Look here is that you i see\nYou sure seem down to me",
+          "plot_function": "SETUP",
+          "emotion_primary": "concern",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone looks sad, and the singer notices.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Would you like to tell it to friend\nI can help if anyone can",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": "empathy",
+          "eli5_simplification": "The singer offers to listen and help.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "You know i understand\nEveryone gets crazy now and then",
+          "plot_function": "SETUP",
+          "emotion_primary": "empathy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer says they understand and that everyone feels crazy sometimes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Yes i know those empty nights get lonely\nSometimes you feel like you're the only one",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "The singer describes feeling lonely and isolated.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "To lose more then he wins\nGuess these trouble times get scary",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Things are tough and scary.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Everyone gets crazy now and then (all together)",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "empathy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone feels crazy sometimes.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "And who can say they've never stumbled\nNever fallen to their knees",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone makes mistakes and struggles.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "Your dreams like castles when they crumble\nWell i know what you mean",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "empathy",
+          "eli5_simplification": "Dreams can fall apart, and the singer understands.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "And i know how hard it can seem\nI get crazy just like you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "empathy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer also feels crazy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "Lost and lonely too\nLike some old flag left flying in the wind",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer feels lost and lonely.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "Time has taught me this for sure\nTime itself is the only cure",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Time heals all wounds.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "All your blues will turn to gold again",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "Things will get better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "Everyone gets crazy now and then (all together)",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "empathy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone feels crazy sometimes.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 23,
+        "covered_lines": 23,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 23,
+      "covered_lines": 23,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Look here is that you i see",
+            "You sure seem down to me",
+            "Would you like to tell it to friend",
+            "I can help if anyone can"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            6
+          ],
+          "end_words": [
+            "see",
+            "me",
+            "friend",
+            "can"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "see",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "You know i understand",
+            "Everyone gets crazy now and then",
+            "Yes i know those empty nights get lonely",
+            "Sometimes you feel like you're the only one"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            6,
+            6,
+            6
+          ],
+          "end_words": [
+            "understand",
+            "then",
+            "lonely",
+            "one"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "To lose more then he wins",
+            "Guess these trouble times get scary",
+            "Everyone gets crazy now and then (all together)",
+            "And who can say they've never stumbled"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            5,
+            7,
+            4
+          ],
+          "end_words": [
+            "wins",
+            "scary",
+            "together",
+            "stumbled"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "scary",
+              "word2": "together",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Never fallen to their knees",
+            "Your dreams like castles when they crumble",
+            "Well i know what you mean",
+            "And i know how hard it can seem"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            5,
+            4,
+            4
+          ],
+          "end_words": [
+            "knees",
+            "crumble",
+            "mean",
+            "seem"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "knees",
+              "word2": "mean",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "mean",
+              "word2": "seem",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (IY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I get crazy just like you",
+            "Lost and lonely too",
+            "Like some old flag left flying in the wind",
+            "Time has taught me this for sure"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            3,
+            7,
+            3
+          ],
+          "end_words": [
+            "you",
+            "too",
+            "wind",
+            "sure"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "you",
+              "word2": "too",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Time itself is the only cure",
+            "All your blues will turn to gold again",
+            "Everyone gets crazy now and then (all together)"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XAA",
+          "raw_rhyme_scheme": "ABB",
+          "pattern": "3_ABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            5,
+            7
+          ],
+          "end_words": [
+            "cure",
+            "again",
+            "together"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "again",
+              "word2": "together",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAA",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 23
+    }
+  }
+}

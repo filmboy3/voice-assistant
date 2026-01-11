@@ -1,0 +1,786 @@
+{
+  "song_id": "0hEurMDQu99nJRq8pTxO14::moving-on-and-getting-over",
+  "title": "Moving On And Getting Over",
+  "artist": "John Mayer",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\n|------7/9~--7-----------\n-----9h10~--9-----------------------------------|9-----------------11--9-------------------------\n|------9h11--9-----9-----|-----11-----9-----------11----------------9h11--|11---11h12--9h11--9-----12----------------------\n|-----------------------------------------------12-14--12~---/12-14------------------------------------------------6-9-/11-9~--/13---------------------13-11---------------------------------7h9--7h9-------------------------------------------14-11-14~-----7-9-11-9-/11-9~----------------------------------------------------------------7-9--------------------------------------------------------------------------------|\n\n[verse]\nMoving on and getting over\nAre not the same, it seems to me\n\n[bridge]\nAnd I do believe I feel you all the time\n\n[verse]\nMoving on and getting over\nAre not the friends they used to be\nIt's been so long since I got to hold you\n\n[bridge]\nAnd I do believe I feel you all the time, all the time\n\n[bridge]\nTell me I can have the fact you've loved me to hold onto\nTell me I can keep the door cracked open, to let light through\nFor all my running, I can understand\nI'm one text away from being back again\n|---------16-14----------------------------15-18-16-17-15----------------12/13-16-------18-16-14-13-12-------| Dual guitar part\n\n[bridge]\nI'm- getting over, I'm getting over\nI got to get over\n\n[verse]\nMoving on and getting over\nIt's been so long; it just goes to show you\nThat I still can't seem to get you off my mind\nAnd I sure would like to see you one more time, one more time, baby\n\n[outro]\nIt's taken me so long just to say \"so long\"\nMaybe it's all wrong, but I'm moving on\nI'm gonna get new girl, it's something I can do, girl\nTo try to get me through, girl, cause I'm moving on\nI'm moving on\nAnd I'm moving on\nI'm moving on\nAnd I'm moving on",
+  "cleaned_lyrics": "Moving on and getting over\nAre not the same\nit seems to me\nAnd I do believe I feel you all the time\nMoving on and getting over\nAre not the friends they used to be\nIt's been so long since I got to hold you\nAnd I do believe I feel you all the time\nall the time\nTell me I can have the fact you've loved me to hold onto\nTell me I can keep the door cracked open\nto let light through\nFor all my running\nI can understand\nI'm one text away from being back again\nI'm- getting over\nI'm getting over\nI got to get over\nMoving on and getting over\nIt's been so long\nit just goes to show you\nThat I still can't seem to get you off my mind\nAnd I sure would like to see you one more time\none more time\nbaby\nIt's taken me so long just to say \"so long\"\nMaybe it's all wrong\nbut I'm moving on\nI'm gonna get new girl\nit's something I can do\ngirl\nTo try to get me through\ngirl\ncause I'm moving on\nI'm moving on\nAnd I'm moving on\nI'm moving on\nAnd I'm moving on",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 47,
+    "cleaned_lines": 38,
+    "removed_count": 14,
+    "retention_rate": 0.9743589743589743,
+    "removal_reasons": {
+      "guitar_tab": 5,
+      "section_marker": 9
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Moving on and getting over\nAre not the same",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is starting to talk about moving on and getting over someone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "it seems to me",
+          "plot_function": "SETUP",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is thinking about the situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "And I do believe I feel you all the time",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer still feels the person they are trying to get over.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Moving on and getting over\nAre not the friends they used to be",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the idea that moving on and getting over are different.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "It's been so long since I got to hold you",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer misses holding the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "And I do believe I feel you all the time",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer still feels the person.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "all the time",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Emphasizing the constant feeling.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "Tell me I can have the fact you've loved me to hold onto\nTell me I can keep the door cracked open",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer is asking for something to hold onto, a sign of love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "to let light through",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Hoping for a way forward.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "For all my running",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "Acknowledging the effort to move on.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "I can understand",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Understanding the situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "I'm one text away from being back again",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer is close to going back.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17,
+            18
+          ],
+          "original_lyric": "I'm- getting over\nI'm getting over\nI got to get over",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "Trying to get over the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "Moving on and getting over\nIt's been so long",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the theme of moving on.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "it just goes to show you",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Reflecting on the situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "That I still can't seem to get you off my mind",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer still can't stop thinking about the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "And I sure would like to see you one more time",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer wants to see the person again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "one more time\nbaby",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Emphasizing the desire to see the person.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "It's taken me so long just to say \"so long\"",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "It took a long time to say goodbye.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "Maybe it's all wrong",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "doubt",
+          "emotion_secondary": null,
+          "eli5_simplification": "Questioning if the situation is right.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "but I'm moving on",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "Deciding to move on.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "original_lyric": "I'm gonna get new girl\nit's something I can do\ngirl\nTo try to get me through\ngirl",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Trying to move on by finding someone new.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "original_lyric": "cause I'm moving on\nI'm moving on\nAnd I'm moving on\nI'm moving on\nAnd I'm moving on",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "Reiterating the decision to move on.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 38,
+        "covered_lines": 38,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 38,
+      "covered_lines": 38,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Moving on and getting over",
+            "Are not the same",
+            "it seems to me",
+            "And I do believe I feel you all the time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            2,
+            4
+          ],
+          "end_words": [
+            "over",
+            "same",
+            "me",
+            "time"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Moving on and getting over",
+            "Are not the friends they used to be",
+            "It's been so long since I got to hold you",
+            "And I do believe I feel you all the time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "over",
+            "be",
+            "you",
+            "time"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "all the time",
+            "Tell me I can have the fact you've loved me to hold onto",
+            "Tell me I can keep the door cracked open",
+            "to let light through"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            6,
+            5,
+            3
+          ],
+          "end_words": [
+            "time",
+            "onto",
+            "open",
+            "through"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "For all my running",
+            "I can understand",
+            "I'm one text away from being back again",
+            "I'm- getting over"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            7,
+            3
+          ],
+          "end_words": [
+            "running",
+            "understand",
+            "again",
+            "over"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I'm getting over",
+            "I got to get over",
+            "Moving on and getting over",
+            "It's been so long"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "over",
+            "over",
+            "over",
+            "long"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "over",
+              "word2": "over",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "over",
+              "word2": "over",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "it just goes to show you",
+            "That I still can't seem to get you off my mind",
+            "And I sure would like to see you one more time",
+            "one more time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4,
+            6,
+            6,
+            3
+          ],
+          "end_words": [
+            "you",
+            "mind",
+            "time",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "mind",
+              "word2": "time",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "time",
+              "word2": "time",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "baby",
+            "It's taken me so long just to say \"so long\"",
+            "Maybe it's all wrong",
+            "but I'm moving on"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            6,
+            4,
+            3
+          ],
+          "end_words": [
+            "baby",
+            "long",
+            "wrong",
+            "on"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "long",
+              "word2": "wrong",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "I'm gonna get new girl",
+            "it's something I can do",
+            "girl",
+            "To try to get me through"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            5,
+            3,
+            1,
+            3
+          ],
+          "end_words": [
+            "girl",
+            "do",
+            "girl",
+            "through"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "girl",
+              "word2": "girl",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (ER), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "do",
+              "word2": "through",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "girl",
+            "cause I'm moving on",
+            "I'm moving on",
+            "And I'm moving on"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            1,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "girl",
+            "on",
+            "on",
+            "on"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "on",
+              "word2": "on",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "on",
+              "word2": "on",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "I'm moving on",
+            "And I'm moving on"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            3,
+            3
+          ],
+          "end_words": [
+            "on",
+            "on"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "on",
+              "word2": "on",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "line_count": 2,
+          "stability": 1.0
+        }
+      ],
+      "total_stanzas": 10,
+      "total_lines": 38
+    }
+  }
+}

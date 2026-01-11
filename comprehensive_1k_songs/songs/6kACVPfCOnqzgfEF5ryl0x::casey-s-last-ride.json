@@ -1,0 +1,620 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::casey-s-last-ride",
+  "title": "Casey's Last Ride",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nThe stairway to the subway and the shadows down below\nFollowing the footsteps through the neon darkened corridor\nOf silent desperation, never speaking to soul\nThe poison air he's breathing has dirty smell of dying\n\n[chorus]\nrain\n\n[chorus]\nOf the clicking of the turnstile and the rattle of the\n\n[chorus]\n\"Oh\", she said \"Casey it's been so long since I've seen you\"\n\"Here,\" she said \"Just kiss to make body smile\"\n\"See,\" she said \"I've put on new stockings just to please\nyou\"\n\"Lord,\" she said \"Casey can you only stay while\"\n\n[chorus]\nFor something wet to wipe away the chill that's in his bones\nSeeing his reflection in the lives of all the lonely men\nWho reach for any thing they can to keep from going home\nStanding in the corner, Casey drinks his pint of bitter\nNever glancing in the mirror at the people passing by\nHe stumbles as he's leaving and he wonders if the reason\nIs the beer that's in his bell or the tear that's in his eye\n\"Oh\", she said \"I suppose you seldom think about me\"\n\"Now\", she said, \"Now that you've family of your own\n\"Still\", she said \"It's so blesses good to feel your body\n\"Lord\", she said \"Casey it's shame to be alone\"",
+  "cleaned_lyrics": "The stairway to the subway and the shadows down below\nFollowing the footsteps through the neon darkened corridor\nOf silent desperation\nnever speaking to soul\nThe poison air he's breathing has dirty smell of dying\nrain\nOf the clicking of the turnstile and the rattle of the\n\"Oh\"\nshe said \"Casey it's been\nso long since I've seen you\"\n\"Here\n\" she said \"Just kiss to make body smile\"\n\"See\n\" she said \"I've put on new stockings just to please\nyou\"\n\"Lord\n\" she said \"Casey can you only stay while\"\nFor something wet to wipe away the chill that's in his bones\nSeeing his reflection in the lives of all the lonely men\nWho reach for any thing they can to keep from going home\nStanding in the corner\nCasey drinks his pint of bitter\nNever glancing in the mirror at the people passing by\nHe stumbles as he's leaving and he wonders if the reason\nIs the beer that's in his bell or the tear that's in his eye\n\"Oh\"\nshe said \"I suppose you seldom think about me\"\n\"Now\"\nshe said\n\"Now that you've family of your own\n\"Still\"\nshe said \"It's so blesses good to feel your body\n\"Lord\"\nshe said \"Casey it's shame to be alone\"",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 31,
+    "cleaned_lines": 34,
+    "removed_count": 5,
+    "retention_rate": 1.2592592592592593,
+    "removal_reasons": {
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "The stairway to the subway and the shadows down below\nFollowing the footsteps through the neon darkened corridor",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Casey is going down into the subway, a place that feels dark and lonely.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Of silent desperation\nnever speaking to soul",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "Everyone is sad and doesn't talk to each other.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "The poison air he's breathing has dirty smell of dying\nrain\nOf the clicking of the turnstile and the rattle of the",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "The air smells bad, like something is dying. He hears the turnstile.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "\"Oh\"\nshe said \"Casey it's been\nso long since I've seen you\"",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "A woman sees Casey and says it's been a long time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "\"Here\n\" she said \"Just kiss to make body smile\"",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "She wants him to kiss her to feel better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "\"See\n\" she said \"I've put on new stockings just to please\nyou\"",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "love",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "She dressed up for him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "\"Lord\n\" she said \"Casey can you only stay while\"",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "She asks him to stay.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "For something wet to wipe away the chill that's in his bones",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "He wants something to warm him up.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Seeing his reflection in the lives of all the lonely men",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "He sees himself in other lonely people.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Who reach for any thing they can to keep from going home",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "They try to avoid going home.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "Standing in the corner\nCasey drinks his pint of bitter",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "numbness",
+          "eli5_simplification": "Casey drinks his beer in the corner.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Never glancing in the mirror at the people passing by",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "detachment",
+          "eli5_simplification": "He doesn't look at anyone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "He stumbles as he's leaving and he wonders if the reason\nIs the beer that's in his bell or the tear that's in his eye",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "He stumbles and wonders if it's the beer or his tears.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "\"Oh\"\nshe said \"I suppose you seldom think about me\"",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "She thinks he doesn't think about her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "\"Now\"\nshe said\n\"Now that you've family of your own",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "She says he has a family now.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "\"Still\"\nshe said \"It's so blesses good to feel your body",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "She's happy to feel his body.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "\"Lord\"\nshe said \"Casey it's shame to be alone\"",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "She says it's a shame to be alone.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          "Shift from Casey's perspective to the woman's perspective."
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 22,
+        "covered_lines": 22,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        "Shift from Casey's perspective to the woman's perspective."
+      ]
+    },
+    "coverage": {
+      "total_lines": 22,
+      "covered_lines": 22,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "The stairway to the subway and the shadows down below",
+            "Following the footsteps through the neon darkened corridor",
+            "Of silent desperation",
+            "never speaking to soul"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            5,
+            6,
+            2,
+            3
+          ],
+          "end_words": [
+            "below",
+            "corridor",
+            "desperation",
+            "soul"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "below",
+              "word2": "soul",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "The poison air he's breathing has dirty smell of dying",
+            "rain",
+            "Of the clicking of the turnstile and the rattle of the",
+            "\"Oh\""
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            7,
+            1,
+            3,
+            1
+          ],
+          "end_words": [
+            "dying",
+            "rain",
+            "the",
+            "oh"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "she said \"Casey it's been",
+            "so long since I've seen you\"",
+            "\"Here",
+            "\" she said \"Just kiss to make body smile\""
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            5,
+            1,
+            6
+          ],
+          "end_words": [
+            "been",
+            "you",
+            "here",
+            "smile"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "been",
+              "word2": "here",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "\"See",
+            "\" she said \"I've put on new stockings just to please",
+            "you\"",
+            "\"Lord"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            1,
+            7,
+            1,
+            1
+          ],
+          "end_words": [
+            "see",
+            "please",
+            "you",
+            "lord"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "see",
+              "word2": "please",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "\" she said \"Casey can you only stay while\"",
+            "For something wet to wipe away the chill that's in his bones",
+            "Seeing his reflection in the lives of all the lonely men",
+            "Who reach for any thing they can to keep from going home"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            7,
+            6,
+            6
+          ],
+          "end_words": [
+            "while",
+            "bones",
+            "men",
+            "home"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "bones",
+              "word2": "home",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (OW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Standing in the corner",
+            "Casey drinks his pint of bitter",
+            "Never glancing in the mirror at the people passing by",
+            "He stumbles as he's leaving and he wonders if the reason"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            4,
+            6,
+            6
+          ],
+          "end_words": [
+            "corner",
+            "bitter",
+            "by",
+            "reason"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Is the beer that's in his bell or the tear that's in his eye",
+            "\"Oh\"",
+            "she said \"I suppose you seldom think about me\"",
+            "\"Now\""
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            1,
+            6,
+            1
+          ],
+          "end_words": [
+            "eye",
+            "oh",
+            "me",
+            "now"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "she said",
+            "\"Now that you've family of your own",
+            "\"Still\"",
+            "she said \"It's so blesses good to feel your body"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            4,
+            1,
+            6
+          ],
+          "end_words": [
+            "said",
+            "own",
+            "still",
+            "body"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "\"Lord\"",
+            "she said \"Casey it's shame to be alone\""
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            1,
+            5
+          ],
+          "end_words": [
+            "lord",
+            "alone"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 34
+    }
+  }
+}

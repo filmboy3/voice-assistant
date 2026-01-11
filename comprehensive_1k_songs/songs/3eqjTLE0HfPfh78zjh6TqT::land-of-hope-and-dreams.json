@@ -1,0 +1,403 @@
+{
+  "song_id": "3eqjTLE0HfPfh78zjh6TqT::land-of-hope-and-dreams",
+  "title": "Land Of Hope And Dreams",
+  "artist": "Bruce Springsteen",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nGrab your ticket and suitcase thunder's rollin around this track\nYou don't know where your going but you know you won't be back\nDarlin if you're weary lay your head upon my chest\nAnd we'll take what we can carry and we'll leave the rest\n\n[bridge]\nMeet me in land of hope and dreams\nNow I will provide for you and I will stand by your side\nYou'll need good companion for this part of the ride\nLeave behind your sorrow, we'll let this day be the last\n\n[bridge]\nMeet me in land of hope and dreams\nThis train carries saints and sinners\nThis train carreis losers and winners\nThis train carries lost souls\nThis train carries lost souls\nThis train dreams will not be thwarted\nThis train faith will be rewarded\nThis train hear the steel wheels singing\nThis train bells of freedom ringing",
+  "cleaned_lyrics": "Grab your ticket and suitcase thunder's rollin around this track\nYou don't know where your going but you know you won't be back\nDarlin if you're weary lay\nyour head upon my chest\nAnd we'll take what we can carry and we'll leave the rest\nMeet me in land of hope and dreams\nYou'll need good companion for this part of the ride\nLeave behind your sorrow\nwe'll let this day be the last\nMeet me in land of hope and dreams\nThis train carries saints and sinners\nThis train carreis losers and winners\nThis train carries lost souls\nThis train carries lost souls\nThis train dreams will not be thwarted\nThis train faith will be rewarded\nThis train hear the steel wheels singing\nThis train bells of freedom ringing",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 22,
+    "cleaned_lines": 18,
+    "removed_count": 4,
+    "retention_rate": 0.9,
+    "removal_reasons": {
+      "section_marker": 3,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Grab your ticket and suitcase thunder's rollin around this track\nYou don't know where your going but you know you won't be back",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": "anticipation",
+          "eli5_simplification": "Get ready to go on a journey! You don't know where you're going, but you're leaving the past behind.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Darlin if you're weary lay\nyour head upon my chest\nAnd we'll take what we can carry and we'll leave the rest",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": "comfort",
+          "eli5_simplification": "If you're tired, rest with me. We'll take what's important and leave the rest behind.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Meet me in land of hope and dreams",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Let's meet in a place where dreams come true.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "You'll need good companion for this part of the ride",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": "encouragement",
+          "eli5_simplification": "You'll need friends to help you on this journey.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Leave behind your sorrow\nwe'll let this day be the last",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": "relief",
+          "eli5_simplification": "Forget your sadness, let today be the end of it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Meet me in land of hope and dreams",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Let's meet in a place where dreams come true.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "This train carries saints and sinners\nThis train carreis losers and winners",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "Everyone is welcome on this train, good or bad, winners or losers.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "This train carries lost souls\nThis train carries lost souls",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "compassion",
+          "eli5_simplification": "This train helps people who feel lost.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "This train dreams will not be thwarted\nThis train faith will be rewarded",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "faith",
+          "eli5_simplification": "This train will help your dreams come true and reward your faith.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "This train hear the steel wheels singing\nThis train bells of freedom ringing",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The train is singing a happy song, and freedom is calling.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 17,
+        "covered_lines": 17,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 17,
+      "covered_lines": 17,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Grab your ticket and suitcase thunder's rollin around this track",
+            "You don't know where your going but you know you won't be back",
+            "Darlin if you're weary lay",
+            "your head upon my chest"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            7,
+            7,
+            5,
+            3
+          ],
+          "end_words": [
+            "track",
+            "back",
+            "lay",
+            "chest"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "track",
+              "word2": "back",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "And we'll take what we can carry and we'll leave the rest",
+            "Meet me in land of hope and dreams",
+            "You'll need good companion for this part of the ride",
+            "Leave behind your sorrow"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            7,
+            4,
+            6,
+            3
+          ],
+          "end_words": [
+            "rest",
+            "dreams",
+            "ride",
+            "sorrow"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "we'll let this day be the last",
+            "Meet me in land of hope and dreams",
+            "This train carries saints and sinners",
+            "This train carreis losers and winners"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "last",
+            "dreams",
+            "sinners",
+            "winners"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "sinners",
+              "word2": "winners",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "This train carries lost souls",
+            "This train carries lost souls",
+            "This train dreams will not be thwarted",
+            "This train faith will be rewarded"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "souls",
+            "souls",
+            "thwarted",
+            "rewarded"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "souls",
+              "word2": "souls",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "thwarted",
+              "word2": "rewarded",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "This train hear the steel wheels singing",
+            "This train bells of freedom ringing"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            4
+          ],
+          "end_words": [
+            "singing",
+            "ringing"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "singing",
+              "word2": "ringing",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 18
+    }
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "song_id": "4YLtscXsxbVgi031ovDDdh::nobodys-lonely-tonight",
+  "title": "Nobodys Lonely Tonight",
+  "artist": "Chris Stapleton",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nSittin' here\nIt's closing time\nYou've got your troubles and I bet they're just like mine\nSomebody told you goodbye\n\n[verse]\nI know way can't go wrong\nNobody leads nobody on\nNobody's lonely tonight\nWhat's love but just some illusion we believe\nWhat's love but just some confusion we don't need\nWhat's love but just some illusion we believe\nWhat's love but just some confusion we don't need\n\n[verse]\nYou'll be her\nAnd I'll be him\nFor while we'll pretend\nNobody's lonely tonight",
+  "cleaned_lyrics": "Sittin' here\nIt's closing time\nYou've got your troubles and\nI bet they're just like mine\nSomebody told you goodbye\nI know way can't go wrong\nNobody leads nobody on\nNobody's lonely tonight\nWhat's love but just some illusion we believe\nWhat's love but just some confusion we don't need\nWhat's love but just some illusion we believe\nWhat's love but just some confusion we don't need\nYou'll be her\nAnd I'll be him\nFor while we'll pretend\nNobody's lonely tonight",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 20,
+    "cleaned_lines": 16,
+    "removed_count": 3,
+    "retention_rate": 0.8888888888888888,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Sittin' here\nIt's closing time",
+          "plot_function": "SETUP",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts with the singer sitting somewhere as the place is closing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "You've got your troubles and\nI bet they're just like mine",
+          "plot_function": "SETUP",
+          "emotion_primary": "empathy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer acknowledges the listener's problems, assuming they are similar to his.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Somebody told you goodbye",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone was told goodbye, indicating a breakup or rejection.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "I know way can't go wrong",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is trying to find a way to make things better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Nobody leads nobody on",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "No one is deceiving anyone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Nobody's lonely tonight",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "No one is lonely tonight.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "What's love but just some illusion we believe\nWhat's love but just some confusion we don't need",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "doubt",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer questions the nature of love, seeing it as an illusion and confusion.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "What's love but just some illusion we believe\nWhat's love but just some confusion we don't need",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "doubt",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer questions the nature of love, seeing it as an illusion and confusion.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13,
+            14,
+            15
+          ],
+          "original_lyric": "You'll be her\nAnd I'll be him\nFor while we'll pretend",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They will pretend to be in a relationship.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Nobody's lonely tonight",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "No one is lonely tonight.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 16,
+        "covered_lines": 16,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 16,
+      "covered_lines": 16,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Sittin' here",
+            "It's closing time",
+            "You've got your troubles and",
+            "I bet they're just like mine"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_words": [
+            "here",
+            "time",
+            "and",
+            "mine"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "time",
+              "word2": "mine",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Somebody told you goodbye",
+            "I know way can't go wrong",
+            "Nobody leads nobody on",
+            "Nobody's lonely tonight"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            5,
+            4,
+            5
+          ],
+          "end_words": [
+            "goodbye",
+            "wrong",
+            "on",
+            "tonight"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "goodbye",
+              "word2": "tonight",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "What's love but just some illusion we believe",
+            "What's love but just some confusion we don't need",
+            "What's love but just some illusion we believe",
+            "What's love but just some confusion we don't need"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            6,
+            7,
+            6,
+            7
+          ],
+          "end_words": [
+            "believe",
+            "need",
+            "believe",
+            "need"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "believe",
+              "word2": "need",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "believe",
+              "word2": "believe",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "need",
+              "word2": "believe",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "need",
+              "word2": "need",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "believe",
+              "word2": "need",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "You'll be her",
+            "And I'll be him",
+            "For while we'll pretend",
+            "Nobody's lonely tonight"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            3,
+            5
+          ],
+          "end_words": [
+            "her",
+            "him",
+            "pretend",
+            "tonight"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 16
+    }
+  }
+}

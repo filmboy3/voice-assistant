@@ -1,0 +1,608 @@
+{
+  "song_id": "22bE4uQ6baNwSHPVcDxLCe::sister-morphine",
+  "title": "Sister Morphine",
+  "artist": "The Rolling Stones",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nHere I lie in my hospital bed\nTell me, Sister Morphine, when are you coming round again?\n{fill 1}\nOh, and I don't think I can wait that long\nOh you see I'm not that strong\nThe scream of the ambulance is sounding in my ears\nTell me, Sister Morphine, how long have I been lying here?\nWhat I doing in this place?\nWhy does the doctor have no face?\nOh, I can crawl across the floor\n\n[chorus]\nWell it just goes to show things are not what they seem-\nPlease, Sister Morphine, turn my nightmares into dreams.\nOh can't you see I'm fading fast?\nAnd the big shot will be my last.\nSweet cousin cocaine, lay your cool cool hands on my head\nOh 'mon Sister Morphine, better make up my bed\n\n[chorus]\nYou can sit around and watch all the clean white sheets stained red.",
+  "cleaned_lyrics": "Here I lie in my hospital bed\nTell me\nSister Morphine\nwhen are you coming round again?\nOh\nand I don't think I can wait that long\nOh you see I'm not that strong\nThe scream of the ambulance is sounding in my ears\nTell me\nSister Morphine\nhow long have I been lying here?\nWhat I doing in this place?\nWhy does the doctor have no face?\nOh\nI can crawl across the floor\nWell it just goes to show\nthings are not what they seem-\nPlease\nSister Morphine\nturn my nightmares into dreams.\nOh can't you see I'm fading fast?\nAnd the big shot will be my last.\nSweet cousin cocaine\nlay your cool cool hands on my head\nOh 'mon Sister Morphine\nbetter make up my bed\nYou can sit around and watch\nall the clean white sheets stained red.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 22,
+    "cleaned_lines": 28,
+    "removed_count": 4,
+    "retention_rate": 1.4,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Here I lie in my hospital bed",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone is in a hospital bed.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2,
+            4,
+            13
+          ],
+          "original_lyric": "Tell me\nSister Morphine\nwhen are you coming round again?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The person is asking for Sister Morphine (a drug) to come back.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Oh\nand I don't think I can wait that long",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "The person is worried they can't wait.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Oh you see I'm not that strong",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "weakness",
+          "eli5_simplification": "The person feels weak.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "The scream of the ambulance is sounding in my ears",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anxiety",
+          "eli5_simplification": "The person hears an ambulance.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Tell me\nSister Morphine\nhow long have I been lying here?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "confusion",
+          "eli5_simplification": "The person is asking how long they've been there.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "What I doing in this place?",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The person is confused about where they are.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Why does the doctor have no face?",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "disorientation",
+          "eli5_simplification": "The person is scared because the doctor seems faceless.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Oh\nI can crawl across the floor",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "desperation",
+          "emotion_secondary": "weakness",
+          "eli5_simplification": "The person feels weak and wants to move.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Well it just goes to show",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Things aren't what they seem.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "things are not what they seem-",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Things aren't what they seem.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "Please\nSister Morphine\nturn my nightmares into dreams.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "desperation",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The person is begging for the drug to make things better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Oh can't you see I'm fading fast?",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "The person feels like they are dying.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "And the big shot will be my last.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "resignation",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The person knows the next shot will be the last.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Sweet cousin cocaine",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person calls out to cocaine.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "lay your cool cool hands on my head",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person wants cocaine to comfort them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Oh 'mon Sister Morphine\nbetter make up my bed",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "desperation",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "The person wants Sister Morphine to prepare for death.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "You can sit around and watch",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person is accepting their fate.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "all the clean white sheets stained red.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The person is accepting their fate.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Here I lie in my hospital bed",
+            "Tell me",
+            "Sister Morphine",
+            "when are you coming round again?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            2,
+            2,
+            4
+          ],
+          "end_words": [
+            "bed",
+            "me",
+            "morphine",
+            "again"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "bed",
+              "word2": "again",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Oh",
+            "and I don't think I can wait that long",
+            "Oh you see I'm not that strong",
+            "The scream of the ambulance is sounding in my ears"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            4,
+            5,
+            4
+          ],
+          "end_words": [
+            "oh",
+            "long",
+            "strong",
+            "ears"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "long",
+              "word2": "strong",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Tell me",
+            "Sister Morphine",
+            "how long have I been lying here?",
+            "What I doing in this place?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            3
+          ],
+          "end_words": [
+            "me",
+            "morphine",
+            "here",
+            "place"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Why does the doctor have no face?",
+            "Oh",
+            "I can crawl across the floor",
+            "Well it just goes to show"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            1,
+            3,
+            4
+          ],
+          "end_words": [
+            "face",
+            "oh",
+            "floor",
+            "show"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "oh",
+              "word2": "show",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "things are not what they seem-",
+            "Please",
+            "Sister Morphine",
+            "turn my nightmares into dreams."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            1,
+            2,
+            4
+          ],
+          "end_words": [
+            "seem",
+            "please",
+            "morphine",
+            "dreams"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "seem",
+              "word2": "please",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "seem",
+              "word2": "dreams",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "please",
+              "word2": "dreams",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Oh can't you see I'm fading fast?",
+            "And the big shot will be my last.",
+            "Sweet cousin cocaine",
+            "lay your cool cool hands on my head"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            3,
+            3,
+            5
+          ],
+          "end_words": [
+            "fast",
+            "last",
+            "cocaine",
+            "head"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "fast",
+              "word2": "last",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Oh 'mon Sister Morphine",
+            "better make up my bed",
+            "You can sit around and watch",
+            "all the clean white sheets stained red."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            6
+          ],
+          "end_words": [
+            "morphine",
+            "bed",
+            "watch",
+            "red"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "bed",
+              "word2": "red",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "outro"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "outro",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 28
+    }
+  }
+}

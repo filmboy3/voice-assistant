@@ -1,0 +1,292 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::a-legend-in-my-time",
+  "title": "A Legend In My Time",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nIf heartaches brought fame in love's crazy game\nI' be legend in my time.\nIf they gave gold statuettes for tears and regrets,\nI' be legend in my time.\n\n[bridge]\nFor heart that's been broken over love that's in vain.\nIf loneliness meant world acclaim,\nThen everyone would know my name\nI' be legend in my time.\nRepeat any times you prefer...",
+  "cleaned_lyrics": "If heartaches brought fame in love's crazy game\nI' be legend in my time.\nIf they gave gold statuettes for tears and regrets\nI' be legend in my time.\nFor heart that's been broken over love that's in vain.\nIf loneliness meant world acclaim\nThen everyone would know my name\nI' be legend in my time.\nRepeat any times you prefer...",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 12,
+    "cleaned_lines": 9,
+    "removed_count": 2,
+    "retention_rate": 0.8181818181818182,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "If heartaches brought fame in love's crazy game\nI' be legend in my time.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "If feeling sad about love made me famous, I would be.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "If they gave gold statuettes for tears and regrets\nI' be legend in my time.",
+          "plot_function": "SETUP",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "If they gave awards for being sad and regretting things, I would be famous.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "For heart that's been broken over love that's in vain.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "My heart is broken because of a love that didn't work out.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "If loneliness meant world acclaim",
+          "plot_function": "SETUP",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "If being lonely made me famous...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Then everyone would know my name",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Then everyone would know who I am.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "I' be legend in my time.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "I would be famous.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "original_lyric": "If heartaches brought fame in love's crazy game\nI' be legend in my time.\nIf they gave gold statuettes for tears and regrets\nI' be legend in my time.\nFor heart that's been broken over love that's in vain.\nIf loneliness meant world acclaim\nThen everyone would know my name\nI' be legend in my time.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "I would be famous.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "original_lyric": "If heartaches brought fame in love's crazy game\nI' be legend in my time.\nIf they gave gold statuettes for tears and regrets\nI' be legend in my time.\nFor heart that's been broken over love that's in vain.\nIf loneliness meant world acclaim\nThen everyone would know my name\nI' be legend in my time.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "I would be famous.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "If heartaches brought fame in love's crazy game",
+            "I' be legend in my time.",
+            "If they gave gold statuettes for tears and regrets",
+            "I' be legend in my time."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 1.0,
+          "stability": 0.75,
+          "stress_counts": [
+            7,
+            2,
+            6,
+            2
+          ],
+          "end_words": [
+            "game",
+            "time",
+            "regrets",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "time",
+              "word2": "time",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "For heart that's been broken over love that's in vain.",
+            "If loneliness meant world acclaim",
+            "Then everyone would know my name",
+            "I' be legend in my time."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            7,
+            5,
+            4,
+            2
+          ],
+          "end_words": [
+            "vain",
+            "acclaim",
+            "name",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "vain",
+              "word2": "acclaim",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EY), post-consonants in same family"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "acclaim",
+              "word2": "name",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Repeat any times you prefer..."
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "prefer"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 3,
+      "total_lines": 9
+    }
+  }
+}

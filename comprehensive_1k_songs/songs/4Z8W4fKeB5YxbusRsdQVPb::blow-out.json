@@ -1,0 +1,317 @@
+{
+  "song_id": "4Z8W4fKeB5YxbusRsdQVPb::blow-out",
+  "title": "Blow out",
+  "artist": "Radiohead",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nEu tirei da versao acústica, fácil de se encontrar qualquer\nP2P.\nEssa versao é muito legal, tem uma levada grunge q\noriginal nao tem ( batida lembra \"Polly\" do Nirvana).\n\n[intro]\nAnd nailed into my heels\nAll the ti......me\nKilling what I feel\nEvery thing I to.....uch\nTurns to stone\nI´m fu......sed\nJust in case blow out\nI´m fu.....sed\nJust in case crack out\nevery thing I to.....uch\nTurns to stone\nRepete essas 2 ultimas frases era isso!\nAbraço\nNícolas",
+  "cleaned_lyrics": "Eu tirei da versao acústica\nfácil de se encontrar qualquer\nP2P.\nEssa versao é muito legal\ntem uma levada grunge q\noriginal nao tem ( batida lembra \"Polly\" do Nirvana).\nAnd nailed into my heels\nKilling what I feel\nTurns to stone\nJust in case blow out\nJust in case crack out\nTurns to stone\nRepete essas 2 ultimas frases era isso!\nAbraço\nNícolas",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 21,
+    "cleaned_lines": 15,
+    "removed_count": 7,
+    "retention_rate": 0.75,
+    "removal_reasons": {
+      "excessive_punctuation": 5,
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3
+          ],
+          "original_lyric": "Eu tirei da versao acústica\nfácil de se encontrar qualquer\nP2P.",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker got the song from an acoustic version, easily found online.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5,
+            6
+          ],
+          "original_lyric": "Essa versao é muito legal\ntem uma levada grunge q\noriginal nao tem ( batida lembra \"Polly\" do Nirvana).",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker likes this version because it has a grunge feel that the original doesn't.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8,
+            9
+          ],
+          "original_lyric": "And nailed into my heels\nKilling what I feel\nTurns to stone",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Something is hurting the speaker, killing their feelings and turning them cold.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11,
+            12
+          ],
+          "original_lyric": "Just in case blow out\nJust in case crack out\nTurns to stone",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The speaker is preparing for a breakdown, and the situation is getting worse.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13,
+            14,
+            15
+          ],
+          "original_lyric": "Repete essas 2 ultimas frases era isso!\nAbraço\nNícolas",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The speaker is done, and says goodbye.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 15,
+        "covered_lines": 15,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 15,
+      "covered_lines": 15,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Eu tirei da versao acústica",
+            "fácil de se encontrar qualquer",
+            "P2P.",
+            "Essa versao é muito legal"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            7,
+            6,
+            2,
+            4
+          ],
+          "end_words": [
+            "stica",
+            "qualquer",
+            "p",
+            "legal"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "p",
+              "word2": "legal",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "tem uma levada grunge q",
+            "original nao tem ( batida lembra \"Polly\" do Nirvana).",
+            "And nailed into my heels",
+            "Killing what I feel"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            7,
+            3,
+            3
+          ],
+          "end_words": [
+            "q",
+            "nirvana",
+            "heels",
+            "feel"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "heels",
+              "word2": "feel",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Turns to stone",
+            "Just in case blow out",
+            "Just in case crack out",
+            "Turns to stone"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            2,
+            4,
+            4,
+            2
+          ],
+          "end_words": [
+            "stone",
+            "out",
+            "out",
+            "stone"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "stone",
+              "word2": "stone",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "out",
+              "word2": "out",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Repete essas 2 ultimas frases era isso!",
+            "Abraço",
+            "Nícolas"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XAA",
+          "raw_rhyme_scheme": "ABB",
+          "pattern": "3_ABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            6,
+            2,
+            2
+          ],
+          "end_words": [
+            "isso",
+            "o",
+            "colas"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "o",
+              "word2": "colas",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAA",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 15
+    }
+  }
+}

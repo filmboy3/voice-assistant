@@ -1,0 +1,379 @@
+{
+  "song_id": "2BTZIqw0ntH9MvilQ3ewNY::money-changes-everything",
+  "title": "Money changes everything",
+  "artist": "Cyndi Lauper",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\n1. She said I'm sorry babe I'm leaving you tonight\nI found some one new he's waiting in the car outside\nAh honey how could you do this we swore each other everlasting love\nShe said well yeah I know but when we did there was one thing we weren't\nthinking of\nR: And that's money - money changes everything\nMoney - money changes everything\nWe think we know what we're doing that don't mean thing\nIt's all in the past now money changes everything\n2. They shake your hand and they smile an they buy you drink\nThey say we'll be your friends we'll stick to you 'till the end\nAh but everybody's only looking out for themselves\nAnd you say who can you trust I'll tell you it's just nobody elses",
+  "cleaned_lyrics": "1. She said I'm sorry babe I'm leaving you tonight\nI found some one new\nhe's waiting in the car outside\nAh honey how could you do\nthis we swore each other everlasting love\nShe said well yeah I know but when\nwe did there was one thing we weren't\nthinking of\nR: And that's money - money changes everything\nMoney - money changes everything\nWe think we know what\nwe're doing that don't mean thing\nIt's all in the\npast now money changes everything\n2. They shake your hand and they smile an they buy you drink\nThey say we'll be your friends we'll stick to you 'till the end\nAh but everybody's only looking out for themselves\nAnd you say who can you trust\nI'll tell you it's just nobody elses",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 14,
+    "cleaned_lines": 19,
+    "removed_count": 1,
+    "retention_rate": 1.3571428571428572,
+    "removal_reasons": {
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "original_lyric": "She said I'm sorry babe I'm leaving you tonight\nI found some one new\nhe's waiting in the car outside\nAh honey how could you do\nthis we swore each other everlasting love",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "A person is breaking up with their partner and leaving them for someone else.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7,
+            8
+          ],
+          "original_lyric": "She said well yeah I know but when\nwe did there was one thing we weren't\nthinking of",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "The person admits they knew what they were doing, but didn't consider something important.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "original_lyric": "R: And that's money - money changes everything\nMoney - money changes everything\nWe think we know what\nwe're doing that don't mean thing\nIt's all in the\npast now money changes everything",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Money changes everything. Things that seemed important before don't matter now.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14,
+            15,
+            16
+          ],
+          "original_lyric": "They shake your hand and they smile an they buy you drink\nThey say we'll be your friends we'll stick to you 'till the end\nAh but everybody's only looking out for themselves",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "distrust",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "People pretend to be your friend, but they are only looking out for themselves.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "And you say who can you trust\nI'll tell you it's just nobody elses",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "despair",
+          "emotion_secondary": "cynicism",
+          "eli5_simplification": "You can't trust anyone.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          "Shift from 'I' to 'They' in line 14"
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 18,
+        "covered_lines": 18,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        "Shift from 'I' to 'They' in line 14"
+      ]
+    },
+    "coverage": {
+      "total_lines": 18,
+      "covered_lines": 18,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "1. She said I'm sorry babe I'm leaving you tonight",
+            "I found some one new",
+            "he's waiting in the car outside",
+            "Ah honey how could you do"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            7,
+            4,
+            5,
+            4
+          ],
+          "end_words": [
+            "tonight",
+            "new",
+            "outside",
+            "do"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "tonight",
+              "word2": "outside",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "new",
+              "word2": "do",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "this we swore each other everlasting love",
+            "She said well yeah I know but when",
+            "we did there was one thing we weren't",
+            "thinking of"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            5,
+            5,
+            4,
+            2
+          ],
+          "end_words": [
+            "love",
+            "when",
+            "weren't",
+            "of"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "love",
+              "word2": "of",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "R: And that's money - money changes everything",
+            "Money - money changes everything",
+            "We think we know what",
+            "we're doing that don't mean thing"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            7,
+            5,
+            3,
+            5
+          ],
+          "end_words": [
+            "everything",
+            "everything",
+            "what",
+            "thing"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "everything",
+              "word2": "everything",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "everything",
+              "word2": "thing",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "It's all in the",
+            "past now money changes everything",
+            "2. They shake your hand and they smile an they buy you drink",
+            "They say we'll be your friends we'll stick to you 'till the end"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            6,
+            5,
+            7
+          ],
+          "end_words": [
+            "the",
+            "everything",
+            "drink",
+            "end"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "everything",
+              "word2": "drink",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IH), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Ah but everybody's only looking out for themselves",
+            "And you say who can you trust",
+            "I'll tell you it's just nobody elses"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AXA",
+          "raw_rhyme_scheme": "ABA",
+          "pattern": "3_ABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            7,
+            2,
+            6
+          ],
+          "end_words": [
+            "themselves",
+            "trust",
+            "elses"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "themselves",
+              "word2": "elses",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXA",
+          "pattern": "3_ABA",
+          "line_count": 3,
+          "stability": 0.2
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 19
+    }
+  }
+}

@@ -1,0 +1,804 @@
+{
+  "song_id": "3eqjTLE0HfPfh78zjh6TqT::dancing-in-the-dark",
+  "title": "Dancing In The Dark",
+  "artist": "Bruce Springsteen",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nI get up in the evening and I ain't got nothing to say\nI come home in the morning I go to bed feeling the same way\nI ain't nothing but tired Man I'm just tired and bored with myself\nHey there baby I could use just little help\nYou can't start fire, you can't start fire without spark\nThis gun's for hire even if we're just dancing in the dark\nMessages keep getting clearer, radio's on and I'm moving round the place\nI check my look in the mirror I wanna change my clothes, my hair, my face\nMan I ain't getting nowhere, I'm just living in dump like this\nThere's something happening somewhere baby I just know there is\n(repeat chorus)\nYou sit around getting older\nThere's joke here somewhere and it's on me\nI'll shake the world off my shoulders\n\n[chorus]\nStay on the streets of this town and they'll be carving you up all right\nThey say you gotta stay hungry - hey baby I'm just about starving tonight\nI'm dying for some action, I'm sick of sitting 'round here trying to\nwrite this book\nI need love reaction. Come on now baby gimme just one look\nYou can't start fire sitting round crying over broken heart\nThis gun's for hire even if we're just dancing in the dark\nYou can't start fire worrying about your little world falling apart\nThis gun's for hire even if we're just dancing in the dark\nEven if we're just dancing in the dark\nEven if we're just dancing in the dark\nEven if we're just dancing in the dark\nEven if we're just dancing in the dark\nHey baby (+ sax outro)",
+  "cleaned_lyrics": "I get up in the evening and I ain't got nothing to say\nI come home in the morning I\ngo to bed feeling the same way\nI ain't nothing but tired Man\nI'm just tired and bored with myself\nHey there baby I could use just little help\nYou can't start fire\nyou can't start fire without spark\nThis gun's for hire even if\nwe're just dancing in the dark\nMessages keep getting clearer\nradio's on and I'm moving round the place\nI check my look in the mirror I wanna change my clothes\nmy hair\nmy face\nMan I ain't getting nowhere\nI'm just living in dump like this\nThere's something happening somewhere baby\nI just know there is\nYou sit around getting older\nThere's joke here somewhere and it's on me\nI'll shake the world off my shoulders\nStay on the streets of this town\nand they'll be carving you up all right\nThey say you gotta stay hungry -\nhey baby I'm just about starving tonight\nI'm dying for some action\nI'm sick of sitting 'round here trying to\nwrite this book\nYou can't start fire sitting\nround crying over broken heart\nThis gun's for hire even if\nwe're just dancing in the dark\nYou can't start fire worrying\nabout your little world falling apart\nThis gun's for hire even if\nwe're just dancing in the dark\nEven if we're just dancing in the dark\nEven if we're just dancing in the dark\nEven if we're just dancing in the dark\nEven if we're just dancing in the dark\nHey baby (+ sax outro)",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 31,
+    "cleaned_lines": 42,
+    "removed_count": 4,
+    "retention_rate": 1.4,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "section_marker": 2,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I get up in the evening and I ain't got nothing to say\nI come home in the morning I\ngo to bed feeling the same way",
+          "plot_function": "SETUP",
+          "emotion_primary": "boredom",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer wakes up and goes to bed feeling the same way, which is not good.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I ain't nothing but tired Man\nI'm just tired and bored with myself",
+          "plot_function": "SETUP",
+          "emotion_primary": "boredom",
+          "emotion_secondary": "fatigue",
+          "eli5_simplification": "The singer is tired and doesn't like himself.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Hey there baby I could use just little help",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants help.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "You can't start fire\nyou can't start fire without spark",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can't start a fire without a spark.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "This gun's for hire even if\nwe're just dancing in the dark",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "desperation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is willing to do anything, even if it's just dancing in the dark.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Messages keep getting clearer",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Things are starting to make sense.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11,
+            12
+          ],
+          "original_lyric": "radio's on and I'm moving round the place\nI check my look in the mirror I wanna change my clothes\nmy hair\nmy face",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "restlessness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is moving around and wants to change his appearance.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "Man I ain't getting nowhere\nI'm just living in dump like this",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer feels stuck.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "There's something happening somewhere baby\nI just know there is",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer feels like something good is going to happen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "You sit around getting older",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is getting older.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "There's joke here somewhere and it's on me",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer feels like he's the butt of a joke.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "I'll shake the world off my shoulders",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to get rid of his problems.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "Stay on the streets of this town\nand they'll be carving you up all right",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is afraid of what will happen if he stays in this town.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "They say you gotta stay hungry -\nhey baby I'm just about starving tonight",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "desperation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is starving for something.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "I'm dying for some action\nI'm sick of sitting 'round here trying to\nwrite this book",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "boredom",
+          "eli5_simplification": "The singer wants to do something and is tired of writing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "You can't start fire sitting\nround crying over broken heart",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can't start a fire by crying.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "This gun's for hire even if\nwe're just dancing in the dark",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "desperation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is willing to do anything, even if it's just dancing in the dark.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "You can't start fire worrying\nabout your little world falling apart",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can't start a fire by worrying.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "This gun's for hire even if\nwe're just dancing in the dark",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "desperation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is willing to do anything, even if it's just dancing in the dark.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            32,
+            33,
+            34,
+            35
+          ],
+          "original_lyric": "Even if we're just dancing in the dark\nEven if we're just dancing in the dark\nEven if we're just dancing in the dark\nEven if we're just dancing in the dark",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Even if all we do is dance in the dark, it's okay.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            36
+          ],
+          "original_lyric": "Hey baby (+ sax outro)",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer calls out to his baby.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 37,
+        "covered_lines": 37,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 37,
+      "covered_lines": 37,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I get up in the evening and I ain't got nothing to say",
+            "I come home in the morning I",
+            "go to bed feeling the same way",
+            "I ain't nothing but tired Man"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            7,
+            5,
+            5,
+            4
+          ],
+          "end_words": [
+            "say",
+            "i",
+            "way",
+            "man"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "say",
+              "word2": "way",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I'm just tired and bored with myself",
+            "Hey there baby I could use just little help",
+            "You can't start fire",
+            "you can't start fire without spark"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            7,
+            3,
+            5
+          ],
+          "end_words": [
+            "myself",
+            "help",
+            "fire",
+            "spark"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "myself",
+              "word2": "help",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "This gun's for hire even if",
+            "we're just dancing in the dark",
+            "Messages keep getting clearer",
+            "radio's on and I'm moving round the place"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            6
+          ],
+          "end_words": [
+            "if",
+            "dark",
+            "clearer",
+            "place"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "if",
+              "word2": "clearer",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I check my look in the mirror I wanna change my clothes",
+            "my hair",
+            "my face",
+            "Man I ain't getting nowhere"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            6,
+            1,
+            1,
+            4
+          ],
+          "end_words": [
+            "clothes",
+            "hair",
+            "face",
+            "nowhere"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "hair",
+              "word2": "nowhere",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I'm just living in dump like this",
+            "There's something happening somewhere baby",
+            "I just know there is",
+            "You sit around getting older"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            6,
+            5,
+            4,
+            4
+          ],
+          "end_words": [
+            "this",
+            "baby",
+            "is",
+            "older"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "this",
+              "word2": "is",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (IH), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "There's joke here somewhere and it's on me",
+            "I'll shake the world off my shoulders",
+            "Stay on the streets of this town",
+            "and they'll be carving you up all right"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            5,
+            3,
+            5
+          ],
+          "end_words": [
+            "me",
+            "shoulders",
+            "town",
+            "right"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "They say you gotta stay hungry -",
+            "hey baby I'm just about starving tonight",
+            "I'm dying for some action",
+            "I'm sick of sitting 'round here trying to"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            7,
+            4,
+            7
+          ],
+          "end_words": [
+            "hungry",
+            "tonight",
+            "action",
+            "to"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "write this book",
+            "You can't start fire sitting",
+            "round crying over broken heart",
+            "This gun's for hire even if"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            4,
+            5,
+            4
+          ],
+          "end_words": [
+            "book",
+            "sitting",
+            "heart",
+            "if"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "sitting",
+              "word2": "if",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "we're just dancing in the dark",
+            "You can't start fire worrying",
+            "about your little world falling apart",
+            "This gun's for hire even if"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            4,
+            5,
+            4
+          ],
+          "end_words": [
+            "dark",
+            "worrying",
+            "apart",
+            "if"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "dark",
+              "word2": "apart",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AA), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "we're just dancing in the dark",
+            "Even if we're just dancing in the dark",
+            "Even if we're just dancing in the dark",
+            "Even if we're just dancing in the dark"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            4,
+            6,
+            6,
+            6
+          ],
+          "end_words": [
+            "dark",
+            "dark",
+            "dark",
+            "dark"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "dark",
+              "word2": "dark",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "dark",
+              "word2": "dark",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "dark",
+              "word2": "dark",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "Even if we're just dancing in the dark",
+            "Hey baby (+ sax outro)"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            6,
+            4
+          ],
+          "end_words": [
+            "dark",
+            "outro"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 11,
+      "total_lines": 42
+    }
+  }
+}

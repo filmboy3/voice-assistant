@@ -1,0 +1,750 @@
+{
+  "song_id": "74ASZWbe4lXaubB36ztrGX::if-you-gotta-go-go-now-or-else-you-gotta-stay-all-night",
+  "title": "If You Gotta Go, Go Now (or Else You Gotta Stay All Night)",
+  "artist": "Bob Dylan",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nFrom 'The Bootleg Series Vol. 1-3) 1991.\nListen to me, baby,\nThere's something you must see.\nI want to be with you, gal,\n(/#)\nIf you want to be with me.\n\n[bridge]\nIt's all right.\n\n[bridge]\nOr else you gotta stay all night.\nIt ain't that I'm questionin' you.\nTo take part in any quiz.\nIt's just that I ain't got no watch\n(/#)\nAn' you keep askin' me what time it is.\n\n[bridge]\nIt's all right.\n\n[bridge]\nOr else you gotta stay all night.\nI just poor boy, baby,\nLookin' to connect.\n\n[bridge]\n(/#)\nThat I ain't got any respect.\n\n[bridge]\nIt's all right.\n\n[bridge]\nOr else you gotta stay all night.\nYou know I' have nightmares\nAnd guilty conscience, too,\nIf I kept you from anything\n(/#)\nThat you really wanted to do.\n\n[bridge]\nIt's all right.\n\n[bridge]\nOr else you gotta stay all night.\nIt ain't that I'm wantin'\nAnything you never gave before.\nIt's just that I'll be sleepin' soon,\n(/#)\nIt'll be too dark for you to find the door.\n\n[bridge]\nIt's all right.\n\n[bridge]\nOr else you gotta stay all night.\nEnjoy!",
+  "cleaned_lyrics": "From 'The Bootleg Series Vol. 1-3) 1991.\nListen to me\nbaby\nThere's something you must see.\nI want to be with you\ngal\nIf you want to be with me.\nIt's all right.\nOr else you gotta stay all night.\nIt ain't that I'm questionin' you.\nTo take part in any quiz.\nIt's just that I ain't got no watch\nAn' you keep askin' me what time it is.\nIt's all right.\nOr else you gotta stay all night.\nI just poor boy\nbaby\nLookin' to connect.\nThat I ain't got any respect.\nIt's all right.\nOr else you gotta stay all night.\nYou know I' have nightmares\nAnd guilty conscience\ntoo\nIf I kept you from anything\nThat you really wanted to do.\nIt's all right.\nOr else you gotta stay all night.\nIt ain't that I'm wantin'\nAnything you never gave before.\nIt's just that I'll be sleepin' soon\nIt'll be too dark for you to find the door.\nIt's all right.\nOr else you gotta stay all night.\nEnjoy!",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 59,
+    "cleaned_lines": 35,
+    "removed_count": 12,
+    "retention_rate": 0.7291666666666666,
+    "removal_reasons": {
+      "section_marker": 12
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Listen to me\nbaby",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is talking to his baby.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "There's something you must see.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wants her to understand something.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "I want to be with you\ngal",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wants to be with her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "If you want to be with me.",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wants her to want to be with him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "It's all right.",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everything is okay.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Or else you gotta stay all night.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "If she doesn't want to be with him, she should stay all night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "It ain't that I'm questionin' you.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's not questioning her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "To take part in any quiz.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "He doesn't want to quiz her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "It's just that I ain't got no watch\nAn' you keep askin' me what time it is.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "He doesn't have a watch and she keeps asking the time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "It's all right.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everything is okay.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Or else you gotta stay all night.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "If she doesn't want to be with him, she should stay all night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "I just poor boy\nbaby",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's just a poor boy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "Lookin' to connect.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wants to connect.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "That I ain't got any respect.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "He feels disrespected.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "It's all right.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everything is okay.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Or else you gotta stay all night.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "If she doesn't want to be with him, she should stay all night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "You know I' have nightmares\nAnd guilty conscience",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "He'll have nightmares and feel guilty.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "too",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Also.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "If I kept you from anything\nThat you really wanted to do.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "If he kept her from doing what she wants.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "It's all right.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everything is okay.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "Or else you gotta stay all night.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "If she doesn't want to be with him, she should stay all night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "It ain't that I'm wantin'",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "He doesn't want...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "Anything you never gave before.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Anything she hasn't given him before.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30,
+            31
+          ],
+          "original_lyric": "It's just that I'll be sleepin' soon\nIt'll be too dark for you to find the door.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "He'll be asleep soon and she won't be able to leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "It's all right.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everything is okay.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33
+          ],
+          "original_lyric": "Or else you gotta stay all night.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "If she doesn't want to be with him, she should stay all night.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 33,
+        "covered_lines": 33,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 33,
+      "covered_lines": 33,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "From 'The Bootleg Series Vol. 1-3) 1991.",
+            "Listen to me",
+            "baby",
+            "There's something you must see."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            2,
+            1,
+            3
+          ],
+          "end_words": [
+            "vol",
+            "me",
+            "baby",
+            "see"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "me",
+              "word2": "see",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I want to be with you",
+            "gal",
+            "If you want to be with me.",
+            "It's all right."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            1,
+            3,
+            3
+          ],
+          "end_words": [
+            "you",
+            "gal",
+            "me",
+            "right"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Or else you gotta stay all night.",
+            "It ain't that I'm questionin' you.",
+            "To take part in any quiz.",
+            "It's just that I ain't got no watch"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            6
+          ],
+          "end_words": [
+            "night",
+            "you",
+            "quiz",
+            "watch"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "An' you keep askin' me what time it is.",
+            "It's all right.",
+            "Or else you gotta stay all night.",
+            "I just poor boy"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            3,
+            5,
+            3
+          ],
+          "end_words": [
+            "is",
+            "right",
+            "night",
+            "boy"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "right",
+              "word2": "night",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "baby",
+            "Lookin' to connect.",
+            "That I ain't got any respect.",
+            "It's all right."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            2,
+            4,
+            3
+          ],
+          "end_words": [
+            "baby",
+            "connect",
+            "respect",
+            "right"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "connect",
+              "word2": "respect",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Or else you gotta stay all night.",
+            "You know I' have nightmares",
+            "And guilty conscience",
+            "too"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            2,
+            2,
+            1
+          ],
+          "end_words": [
+            "night",
+            "nightmares",
+            "conscience",
+            "too"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "night",
+              "word2": "nightmares",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "If I kept you from anything",
+            "That you really wanted to do.",
+            "It's all right.",
+            "Or else you gotta stay all night."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            5
+          ],
+          "end_words": [
+            "anything",
+            "do",
+            "right",
+            "night"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "right",
+              "word2": "night",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "It ain't that I'm wantin'",
+            "Anything you never gave before.",
+            "It's just that I'll be sleepin' soon",
+            "It'll be too dark for you to find the door."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            5,
+            5,
+            5
+          ],
+          "end_words": [
+            "wantin",
+            "before",
+            "soon",
+            "door"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "before",
+              "word2": "door",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "It's all right.",
+            "Or else you gotta stay all night.",
+            "Enjoy!"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AAX",
+          "raw_rhyme_scheme": "AAB",
+          "pattern": "3_AAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            3,
+            5,
+            1
+          ],
+          "end_words": [
+            "right",
+            "night",
+            "enjoy"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "right",
+              "word2": "night",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AAX",
+          "pattern": "3_AAB",
+          "line_count": 3,
+          "stability": 0.4
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 35
+    }
+  }
+}

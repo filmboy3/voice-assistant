@@ -1,0 +1,486 @@
+{
+  "song_id": "6eUKZXaKkcviH0Ku9w2n3V::even-my-dad-does-sometimes",
+  "title": "Even My Dad Does Sometimes",
+  "artist": "Ed Sheeran",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nIt's alright to cry\nEven my dad does sometimes\nSo don't wipe your eyes\nTears can remind you of life\nIt's alright to die\nIf that's the only thing you haven't tried\n\n[bridge]\nSo live life like you're giving up\n\n[chorus]\nGo ahead and just live it up\nGo on and tear me apart\nIt's alright to shake\nEven my hand does sometimes\nSo inside we'll rage\nAgainst the dying of the light\nIt's alright to say that\nthat's the only thing you haven't tried\n\n[bridge]\nSo live life like you're giving up\n\n[chorus]\nGo ahead and just live it up\nGo on and tear me apart\n(ooh repeat )\nSo live life like you're giving up\n\n[chorus]\nGo ahead and just live it up\nGo on and tear me apart and hold on.",
+  "cleaned_lyrics": "It's alright to cry\nEven my dad does sometimes\nSo don't wipe your eyes\nTears can remind you of life\nIt's alright to die\nIf that's the only thing you haven't tried\nSo live life like you're giving up\nGo ahead and just live it up\nGo on and tear me apart\nIt's alright to shake\nEven my hand does sometimes\nSo inside we'll rage\nAgainst the dying of the light\nIt's alright to say that\nthat's the only thing you haven't tried\nSo live life like you're giving up\nGo ahead and just live it up\nGo on and tear me apart\nSo live life like you're giving up\nGo ahead and just live it up\nGo on and tear me apart and hold on.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 33,
+    "cleaned_lines": 21,
+    "removed_count": 7,
+    "retention_rate": 0.75,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "section_marker": 6
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "It's alright to cry\nEven my dad does sometimes",
+          "plot_function": "SETUP",
+          "emotion_primary": "comfort",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's okay to cry, even grown-ups do.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "So don't wipe your eyes\nTears can remind you of life",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Don't hide your tears, they show you're alive.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "It's alright to die\nIf that's the only thing you haven't tried",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "It's okay to die if you've tried everything else.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "So live life like you're giving up\nGo ahead and just live it up",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "rebellion",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "Live life to the fullest, even if it feels like giving up.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Go on and tear me apart",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "defiance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Do whatever you need to do.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "It's alright to shake\nEven my hand does sometimes",
+          "plot_function": "SETUP",
+          "emotion_primary": "comfort",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's okay to be nervous, even grown-ups are.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "So inside we'll rage\nAgainst the dying of the light",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "We'll fight against the darkness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "It's alright to say that\nthat's the only thing you haven't tried",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "It's okay to say you've tried everything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "So live life like you're giving up\nGo ahead and just live it up",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "rebellion",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "Live life to the fullest, even if it feels like giving up.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            18,
+            19,
+            20
+          ],
+          "original_lyric": "Go on and tear me apart\nSo live life like you're giving up\nGo ahead and just live it up\nGo on and tear me apart and hold on.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "defiance",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Do whatever you need to do, and hold on.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "It's alright to cry",
+            "Even my dad does sometimes",
+            "So don't wipe your eyes",
+            "Tears can remind you of life"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "cry",
+            "sometimes",
+            "eyes",
+            "life"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "cry",
+              "word2": "sometimes",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "cry",
+              "word2": "eyes",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "sometimes",
+              "word2": "eyes",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "eyes",
+              "word2": "life",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "It's alright to die",
+            "If that's the only thing you haven't tried",
+            "So live life like you're giving up",
+            "Go ahead and just live it up"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            6,
+            6,
+            5
+          ],
+          "end_words": [
+            "die",
+            "tried",
+            "up",
+            "up"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "die",
+              "word2": "tried",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "up",
+              "word2": "up",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Go on and tear me apart",
+            "It's alright to shake",
+            "Even my hand does sometimes",
+            "So inside we'll rage"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "apart",
+            "shake",
+            "sometimes",
+            "rage"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "shake",
+              "word2": "rage",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Against the dying of the light",
+            "It's alright to say that",
+            "that's the only thing you haven't tried",
+            "So live life like you're giving up"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "end_words": [
+            "light",
+            "that",
+            "tried",
+            "up"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "light",
+              "word2": "tried",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Go ahead and just live it up",
+            "Go on and tear me apart",
+            "So live life like you're giving up",
+            "Go ahead and just live it up"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            5,
+            3,
+            6,
+            5
+          ],
+          "end_words": [
+            "up",
+            "apart",
+            "up",
+            "up"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "up",
+              "word2": "up",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "up",
+              "word2": "up",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Go on and tear me apart and hold on."
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            6
+          ],
+          "end_words": [
+            "on"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 21
+    }
+  }
+}

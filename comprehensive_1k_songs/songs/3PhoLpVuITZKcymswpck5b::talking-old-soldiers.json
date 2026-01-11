@@ -1,0 +1,654 @@
+{
+  "song_id": "3PhoLpVuITZKcymswpck5b::talking-old-soldiers",
+  "title": "Talking Old Soldiers",
+  "artist": "Elton John",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nwhy hello\nsay can i buy you another glass of beer\nwell thanks alot, thats kind of you\nits nice to know you care\nthese days theres so much going on\nno one seems to want to know\nI may be just an old soldier to some\n+\n\n[bridge]\nyeah thats right\nyou can see me here most every night\nyoull always see me staring at the wall and the lights\nfunny i remeber though its years ago id say\nid stand at the bar with my friends whove passed away\nand drink three times the beer that i can drink today\n+\nyes i know how it feels to grow old\ni know what theyre saying son\nthere goes old mad joe again\nwell i maybe mad at that ive seen enough\nto make man go out his brain\nwell do they know what its like to have grave yard as friend\n\n[chorus]\n+\ndont seem likely that ill get friends like that again\nwell its time ive moved off\n\n[bridge]\nand i might even see you the next time im passing through\nyoure right threse so much going on\nno one seems to want to know\n+\nso keep well, keep well old friend\nand have another drink on me\njust ignore all the others\n+\nyouve got your memories\nyouve got your memories",
+  "cleaned_lyrics": "why hello\nsay can i buy you another glass of beer\nwell thanks alot\nthats kind of you\nits nice to know you care\nthese days theres so much going on\nno one seems to want to know\nI may be just an old soldier to some\nyeah thats right\nyou can see me here most every night\nyoull always see me staring at the wall and the lights\nfunny i remeber though its years ago id say\nid stand at the bar with my friends whove passed away\nand drink three times the beer that i can drink today\nyes i know how it feels to grow old\ni know what theyre saying son\nthere goes old mad joe again\nwell i maybe mad at that ive seen enough\nto make man go out his brain\nwell do they know what its like to have grave yard as friend\ndont seem likely that ill\nget friends like that again\nwell its time ive moved off\nand i might even see you the next time im passing through\nyoure right threse so much going on\nno one seems to want to know\nso keep well\nkeep well old friend\nand have another drink on me\njust ignore all the others\nyouve got your memories\nyouve got your memories",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 41,
+    "cleaned_lines": 32,
+    "removed_count": 4,
+    "retention_rate": 0.8421052631578947,
+    "removal_reasons": {
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "why hello",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts with a greeting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "say can i buy you another glass of beer",
+          "plot_function": "SETUP",
+          "emotion_primary": "friendly",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone is offering to buy a drink.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4,
+            5
+          ],
+          "original_lyric": "well thanks alot\nthats kind of you\nits nice to know you care",
+          "plot_function": "SETUP",
+          "emotion_primary": "gratitude",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person is thankful for the offer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "these days theres so much going on\nno one seems to want to know",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person feels like nobody cares about them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "I may be just an old soldier to some",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person feels like they are just an old soldier to others.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "yeah thats right",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person agrees with the previous statement.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "you can see me here most every night\nyoull always see me staring at the wall and the lights",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person is always at the bar, alone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "funny i remeber though its years ago id say\nid stand at the bar with my friends whove passed away",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The person remembers drinking with friends who are gone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "and drink three times the beer that i can drink today",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "They used to drink much more.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "yes i know how it feels to grow old",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person knows what it's like to get old.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "i know what theyre saying son",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person knows what others say about him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "there goes old mad joe again",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Others call him 'mad joe'.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "well i maybe mad at that ive seen enough\nto make man go out his brain",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person is angry because he has seen a lot of things.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "well do they know what its like to have grave yard as friend\ndont seem likely that ill",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "The person wonders if others understand his loneliness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "get friends like that again",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "He doesn't think he'll find friends like that again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "well its time ive moved off",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person is leaving.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "and i might even see you the next time im passing through",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "He might see the person again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "youre right threse so much going on\nno one seems to want to know",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "agreement",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "The person agrees that nobody cares.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "so keep well\nkeep well old friend",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "friendly",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person says goodbye.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "and have another drink on me",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "friendly",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person offers to buy another drink.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "just ignore all the others",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "encouragement",
+          "emotion_secondary": null,
+          "eli5_simplification": "Ignore what others say.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            31,
+            32
+          ],
+          "original_lyric": "youve got your memories\nyouve got your memories",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "comfort",
+          "emotion_secondary": null,
+          "eli5_simplification": "Focus on your memories.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 32,
+        "covered_lines": 32,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 32,
+      "covered_lines": 32,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "why hello",
+            "say can i buy you another glass of beer",
+            "well thanks alot",
+            "thats kind of you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            5,
+            3,
+            3
+          ],
+          "end_words": [
+            "hello",
+            "beer",
+            "alot",
+            "you"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "its nice to know you care",
+            "these days theres so much going on",
+            "no one seems to want to know",
+            "I may be just an old soldier to some"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            5,
+            5,
+            4
+          ],
+          "end_words": [
+            "care",
+            "on",
+            "know",
+            "some"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "yeah thats right",
+            "you can see me here most every night",
+            "youll always see me staring at the wall and the lights",
+            "funny i remeber though its years ago id say"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            3,
+            5,
+            6,
+            7
+          ],
+          "end_words": [
+            "right",
+            "night",
+            "lights",
+            "say"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "right",
+              "word2": "night",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "night",
+              "word2": "lights",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "id stand at the bar with my friends whove passed away",
+            "and drink three times the beer that i can drink today",
+            "yes i know how it feels to grow old",
+            "i know what theyre saying son"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            7,
+            6,
+            6,
+            5
+          ],
+          "end_words": [
+            "away",
+            "today",
+            "old",
+            "son"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "away",
+              "word2": "today",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "there goes old mad joe again",
+            "well i maybe mad at that ive seen enough",
+            "to make man go out his brain",
+            "well do they know what its like to have grave yard as friend"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            6,
+            6,
+            5,
+            7
+          ],
+          "end_words": [
+            "again",
+            "enough",
+            "brain",
+            "friend"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "again",
+              "word2": "friend",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EH), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "dont seem likely that ill",
+            "get friends like that again",
+            "well its time ive moved off",
+            "and i might even see you the next time im passing through"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            5,
+            7
+          ],
+          "end_words": [
+            "ill",
+            "again",
+            "off",
+            "through"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "youre right threse so much going on",
+            "no one seems to want to know",
+            "so keep well",
+            "keep well old friend"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            5,
+            2,
+            4
+          ],
+          "end_words": [
+            "on",
+            "know",
+            "well",
+            "friend"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "and have another drink on me",
+            "just ignore all the others",
+            "youve got your memories",
+            "youve got your memories"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "me",
+            "others",
+            "memories",
+            "memories"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "memories",
+              "word2": "memories",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 32
+    }
+  }
+}

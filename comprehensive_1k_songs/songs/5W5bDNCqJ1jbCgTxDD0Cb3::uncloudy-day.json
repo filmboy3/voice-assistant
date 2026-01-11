@@ -1,0 +1,391 @@
+{
+  "song_id": "5W5bDNCqJ1jbCgTxDD0Cb3::uncloudy-day",
+  "title": "Uncloudy Day",
+  "artist": "Willie Nelson",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nOh they tell me of home far beyond the skies\nAnd they tell me of home far way\nOh they tell me of home where no storm clouds rise\nOh they tell me of an unclouded day\nOh the land of cloudless days\nOh the land of an unclouded sky\nOh they tell me of home where no storm clouds rise\nOh they tell me of an unclouded day\nOh they tell me of home where my friends have gone\nAnd they tell me of that land far away\nWhere the Tree of Life in eternal bloom\nSheds its' fragrance through the unclouded day\nrepeat Chorus\nOh they tell me of the King in His beauty there\nAnd they tell me that mine eyes shall behold\nWhere He sits on throne that is whiter than snow\n\n[intro]\nOh! they tell me that He smiles on His children there\nAnd His smile drives their sorrows away\nAnd they tell me that no tears ever come again\n\n[intro]\nrepeat Chorus",
+  "cleaned_lyrics": "Oh they tell me of home far beyond the skies\nAnd they tell me of home far way\nOh they tell me of\nhome where no storm clouds rise\nOh they tell me of an unclouded day\nOh the land of cloudless days\nOh the land of an unclouded sky\nOh they tell me of\nhome where no storm clouds rise\nOh they tell me of an unclouded day\nOh they tell me of home where my friends have gone\nAnd they tell me of that land far away\nWhere the Tree of Life in eternal bloom\nSheds its' fragrance through the unclouded day\nOh they tell me of the King in His beauty there\nAnd they tell me that mine eyes shall behold\nWhere He sits on throne that is whiter than snow\nOh! they tell me that He smiles on His children there\nAnd His smile drives their sorrows away\nAnd they tell me that no tears ever come again",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 25,
+    "cleaned_lines": 20,
+    "removed_count": 5,
+    "retention_rate": 0.8695652173913043,
+    "removal_reasons": {
+      "performance_instruction": 2,
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Oh they tell me of home far beyond the skies\nAnd they tell me of home far way",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone is telling the singer about a wonderful place far away.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Oh they tell me of\nhome where no storm clouds rise\nOh they tell me of an unclouded day",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are describing a home without bad weather, a perfect day.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Oh the land of cloudless days\nOh the land of an unclouded sky",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Describing the perfect place again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Oh they tell me of\nhome where no storm clouds rise\nOh they tell me of an unclouded day",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are describing a home without bad weather, a perfect day.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Oh they tell me of home where my friends have gone\nAnd they tell me of that land far away",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "They are telling the singer about a place where their friends are.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "Where the Tree of Life in eternal bloom\nSheds its' fragrance through the unclouded day",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Describing the beautiful things in this perfect place.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "Oh they tell me of the King in His beauty there\nAnd they tell me that mine eyes shall behold",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are telling the singer about seeing the King.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "Where He sits on throne that is whiter than snow\nOh! they tell me that He smiles on His children there",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Describing the King and how he treats his people.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "And His smile drives their sorrows away\nAnd they tell me that no tears ever come again",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The King's smile makes all sadness go away, and there are no more tears.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Oh they tell me of home far beyond the skies",
+            "And they tell me of home far way",
+            "Oh they tell me of",
+            "home where no storm clouds rise"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            6,
+            4,
+            3,
+            6
+          ],
+          "end_words": [
+            "skies",
+            "way",
+            "of",
+            "rise"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "skies",
+              "word2": "rise",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Oh they tell me of an unclouded day",
+            "Oh the land of cloudless days",
+            "Oh the land of an unclouded sky",
+            "Oh they tell me of"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "day",
+            "days",
+            "sky",
+            "of"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "day",
+              "word2": "days",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "home where no storm clouds rise",
+            "Oh they tell me of an unclouded day",
+            "Oh they tell me of home where my friends have gone",
+            "And they tell me of that land far away"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 1.0,
+          "stability": 0.75,
+          "stress_counts": [
+            6,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "rise",
+            "day",
+            "gone",
+            "away"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "day",
+              "word2": "away",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Where the Tree of Life in eternal bloom",
+            "Sheds its' fragrance through the unclouded day",
+            "Oh they tell me of the King in His beauty there",
+            "And they tell me that mine eyes shall behold"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            5,
+            5,
+            4
+          ],
+          "end_words": [
+            "bloom",
+            "day",
+            "there",
+            "behold"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Where He sits on throne that is whiter than snow",
+            "Oh! they tell me that He smiles on His children there",
+            "And His smile drives their sorrows away",
+            "And they tell me that no tears ever come again"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            5,
+            4,
+            6
+          ],
+          "end_words": [
+            "snow",
+            "there",
+            "away",
+            "again"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "there",
+              "word2": "again",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "outro"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "outro",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 20
+    }
+  }
+}

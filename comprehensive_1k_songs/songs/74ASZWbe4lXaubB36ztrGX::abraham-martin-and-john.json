@@ -1,0 +1,518 @@
+{
+  "song_id": "74ASZWbe4lXaubB36ztrGX::abraham-martin-and-john",
+  "title": "Abraham Martin And John",
+  "artist": "Bob Dylan",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nAnybody here seen my old friend Abraham?\n\n[chorus]\nHe freed lot of people\n\n[bridge]\nNow I just turn around and he's go-one\n\n[verse]\nAnybody here seen my old friend John?\n\n[chorus]\nHe freed lot of people\n\n[bridge]\nNow I just turn around and he's go-one\n\n[verse]\nAnybody here seen my old friend Martin?\n\n[chorus]\nHe freed lot of people\n\n[bridge]\nNow I just turn around and he's go-one\nMiddle 8\nDidn't you love\nThe things they stood for?\nDidn't they try\nTo find some good for you and me?\nAn' we'll be ... free, someday\nI know, free one day\n\n[verse]\nAnybody here seen my old friend Bobby?\n\n[chorus]\nI see him walkin'\nUp over the hill\nWith Abraham and Martin and Jo-o- o- ohn",
+  "cleaned_lyrics": "Anybody here seen\nmy old friend Abraham?\nHe freed lot of people\nNow I just turn around and he's go-one\nAnybody here seen my old friend John?\nHe freed lot of people\nNow I just turn around and he's go-one\nAnybody here seen my old friend Martin?\nHe freed lot of people\nNow I just turn around and he's go-one\nMiddle 8\nDidn't you love\nThe things they stood for?\nDidn't they try\nTo find some good for you and me?\nAn' we'll be ... free\nsomeday\nI know\nfree one day\nAnybody here seen my old friend Bobby?\nI see him walkin'\nUp over the hill\nWith Abraham and Martin and Jo-o- o- ohn",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 41,
+    "cleaned_lines": 23,
+    "removed_count": 11,
+    "retention_rate": 0.7419354838709677,
+    "removal_reasons": {
+      "section_marker": 11
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Anybody here seen\nmy old friend Abraham?",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is asking if anyone has seen their friend Abraham.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "He freed lot of people",
+          "plot_function": "SETUP",
+          "emotion_primary": "respect",
+          "emotion_secondary": null,
+          "eli5_simplification": "Abraham helped many people.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "Now I just turn around and he's go-one",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loss",
+          "eli5_simplification": "The singer is sad because Abraham is gone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Anybody here seen my old friend John?\nHe freed lot of people",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is asking if anyone has seen their friend John, who also helped people.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Now I just turn around and he's go-one",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loss",
+          "eli5_simplification": "The singer is sad because John is gone.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "Anybody here seen my old friend Martin?\nHe freed lot of people",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is asking if anyone has seen their friend Martin, who also helped people.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "Now I just turn around and he's go-one",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loss",
+          "eli5_simplification": "The singer is sad because Martin is gone.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Didn't you love",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about how much they loved the people they are missing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "The things they stood for?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "respect",
+          "emotion_secondary": null,
+          "eli5_simplification": "Remembering what these people believed in.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Didn't they try",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "respect",
+          "emotion_secondary": null,
+          "eli5_simplification": "Remembering how hard they tried.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "To find some good for you and me?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Remembering they wanted to help everyone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "An' we'll be ... free",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Expressing hope for freedom.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "someday",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Expressing hope for freedom.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "I know",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Expressing hope for freedom.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "free one day",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Expressing hope for freedom.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "Anybody here seen my old friend Bobby?\nI see him walkin'",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The singer sees Bobby, and is happy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Up over the hill",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Bobby is seen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "With Abraham and Martin and Jo-o- o- ohn",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Bobby is with the others.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 22,
+        "covered_lines": 22,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 22,
+      "covered_lines": 22,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Anybody here seen",
+            "my old friend Abraham?",
+            "He freed lot of people",
+            "Now I just turn around and he's go-one"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            7
+          ],
+          "end_words": [
+            "seen",
+            "abraham",
+            "people",
+            "one"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "seen",
+              "word2": "people",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Anybody here seen my old friend John?",
+            "He freed lot of people",
+            "Now I just turn around and he's go-one",
+            "Anybody here seen my old friend Martin?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            7,
+            3,
+            7,
+            7
+          ],
+          "end_words": [
+            "john",
+            "people",
+            "one",
+            "martin"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "john",
+              "word2": "martin",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AA), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "He freed lot of people",
+            "Now I just turn around and he's go-one",
+            "Middle 8",
+            "Didn't you love"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            7,
+            1,
+            2
+          ],
+          "end_words": [
+            "people",
+            "one",
+            "middle",
+            "love"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "one",
+              "word2": "love",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "The things they stood for?",
+            "Didn't they try",
+            "To find some good for you and me?",
+            "An' we'll be ... free"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            2,
+            4,
+            2
+          ],
+          "end_words": [
+            "for",
+            "try",
+            "me",
+            "free"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "me",
+              "word2": "free",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "someday",
+            "I know",
+            "free one day",
+            "Anybody here seen my old friend Bobby?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            1,
+            3,
+            7
+          ],
+          "end_words": [
+            "someday",
+            "know",
+            "day",
+            "bobby"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I see him walkin'",
+            "Up over the hill",
+            "With Abraham and Martin and Jo-o- o- ohn"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            3,
+            7
+          ],
+          "end_words": [
+            "walkin",
+            "hill",
+            "ohn"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 23
+    }
+  }
+}

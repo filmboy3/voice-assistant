@@ -1,0 +1,475 @@
+{
+  "song_id": "1w5Kfo2jwwIPruYS2UWh56::soldier-of-love",
+  "title": "Soldier of Love",
+  "artist": "Pearl Jam",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nEssa Música é original dos Beatles\nLay down your arms and surrender to me\nLay down your arms and love me peacefully Yeah.\nUse your arms for loving me. Baby, that's the way it's gotta be.(ooh-)\nThere ain't no reason for you to declare\nWar on the one that loves you so.\nSo forget the other boys because my love is real.\n\n[chorus]\nLay down your arms and love me tenderly Yeah.\nLay down your arms and love me peacefully Yeah.\nUse your arms to hold me tight. Baby, I don't wanna fight no more (ooh)\nThe weapons you're using are hurtin' me bad.\n\n[bridge]\nThat my love for you baby, is the truest you've ever had.\nSoldier of Love, that's hard to be.\nLay down your arms and surrender to me\nLay down your arms and love me peacefully Yeah.\nUse your arms to squeeze and please 'cause I'm the one that loves you so.\n\n[bridge]\n(Please) baby, lay down your arms. (Sha la la)",
+  "cleaned_lyrics": "Essa Música é original dos Beatles\nLay down your arms and surrender to me\nLay down your arms and love me peacefully Yeah.\nUse your arms for loving me. Baby\nthat's the way it's gotta be.(ooh-)\nThere ain't no reason for you to declare\nWar on the one that loves you so.\nSo forget the other boys because my love is real.\nLay down your arms and love me tenderly Yeah.\nLay down your arms and love me peacefully Yeah.\nUse your arms to hold me tight. Baby\nI don't wanna fight no more (ooh)\nThe weapons you're using are hurtin' me bad.\nThat my love for you baby\nis the truest you've ever had.\nSoldier of Love\nthat's hard to be.\nLay down your arms and surrender to me\nLay down your arms and love me peacefully Yeah.\nUse your arms to squeeze and please\n'cause I'm the one that loves you so.\nbaby\nlay down your arms. (Sha la la)",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 24,
+    "cleaned_lines": 23,
+    "removed_count": 4,
+    "retention_rate": 1.0952380952380953,
+    "removal_reasons": {
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Essa Música é original dos Beatles",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "This is just an introduction.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2,
+            3,
+            8,
+            9,
+            17
+          ],
+          "original_lyric": "Lay down your arms and surrender to me\nLay down your arms and love me peacefully Yeah.\nLay down your arms and love me tenderly Yeah.\nLay down your arms and love me peacefully Yeah.\nLay down your arms and surrender to me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "pleading",
+          "eli5_simplification": "The singer is asking the person to stop fighting and give in to love.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            4,
+            10,
+            18
+          ],
+          "original_lyric": "Use your arms for loving me. Baby\nUse your arms to hold me tight. Baby\nUse your arms to squeeze and please",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "pleading",
+          "eli5_simplification": "The singer wants the person to use their arms for love, not fighting.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "that's the way it's gotta be.(ooh-)",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "This is how it has to be.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "There ain't no reason for you to declare",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "There's no reason to fight.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "War on the one that loves you so.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "Don't fight the person who loves you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "I don't wanna fight no more (ooh)",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer doesn't want to fight anymore.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "The weapons you're using are hurtin' me bad.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "hurt",
+          "eli5_simplification": "The fighting is hurting the singer.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            19
+          ],
+          "original_lyric": "That my love for you baby\n'cause I'm the one that loves you so.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer loves the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "is the truest you've ever had.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer's love is the truest.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "Soldier of Love",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is a soldier of love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "that's hard to be.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's hard to be a soldier of love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "baby\nlay down your arms. (Sha la la)",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "relief",
+          "eli5_simplification": "The singer is asking the person to finally stop fighting.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Essa Música é original dos Beatles",
+            "Lay down your arms and surrender to me",
+            "Lay down your arms and love me peacefully Yeah.",
+            "Use your arms for loving me. Baby"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            5,
+            6,
+            4
+          ],
+          "end_words": [
+            "beatles",
+            "me",
+            "yeah",
+            "baby"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "beatles",
+              "word2": "me",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "that's the way it's gotta be.(ooh-)",
+            "There ain't no reason for you to declare",
+            "War on the one that loves you so.",
+            "So forget the other boys because my love is real."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            5,
+            4,
+            6
+          ],
+          "end_words": [
+            "ooh",
+            "declare",
+            "so",
+            "real"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Lay down your arms and love me tenderly Yeah.",
+            "Lay down your arms and love me peacefully Yeah.",
+            "Use your arms to hold me tight. Baby",
+            "I don't wanna fight no more (ooh)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            6,
+            5,
+            6
+          ],
+          "end_words": [
+            "yeah",
+            "yeah",
+            "baby",
+            "ooh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "yeah",
+              "word2": "yeah",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "The weapons you're using are hurtin' me bad.",
+            "That my love for you baby",
+            "is the truest you've ever had.",
+            "Soldier of Love"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            2,
+            4,
+            2
+          ],
+          "end_words": [
+            "bad",
+            "baby",
+            "had",
+            "love"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "bad",
+              "word2": "had",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "that's hard to be.",
+            "Lay down your arms and surrender to me",
+            "Lay down your arms and love me peacefully Yeah.",
+            "Use your arms to squeeze and please"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            5,
+            6,
+            4
+          ],
+          "end_words": [
+            "be",
+            "me",
+            "yeah",
+            "please"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "be",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "me",
+              "word2": "please",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "'cause I'm the one that loves you so.",
+            "baby",
+            "lay down your arms. (Sha la la)"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            1,
+            6
+          ],
+          "end_words": [
+            "so",
+            "baby",
+            "la"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 23
+    }
+  }
+}

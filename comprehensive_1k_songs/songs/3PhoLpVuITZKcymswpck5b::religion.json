@@ -1,0 +1,500 @@
+{
+  "song_id": "3PhoLpVuITZKcymswpck5b::religion",
+  "title": "Religion",
+  "artist": "Elton John",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nWell he could almost taste the money but he was sitting in den of\nthieves.\nLooking for the great awakening trying to find way to leave.\n\n[bridge]\n(intro)\nHe said somebody up there likes me. Now he's working for the holy\nguide.\nHe got drunk but he don't remember that he' been drinking in bar\ndowntown.\nWhen he thought he heard choir of angels singing in the Tiki Lounge.\nAnd that's when he got religion from no salesman on TV.\nJust tap on the shoulder in the parking lot.\nHe still drinks but he does believe.\n\n[chorus]\nReligion, you do the best you can.\nWe all make the same mistakes, we're gonna wind up with the man.\nReligion, oh you do the best you can.\n\n[intro]\nWe all make the same mistakes, we're gonna wind up with the man.\nShe was silent as he paid her but the thanks she got was next to none.\nAnd as her car pulled out of the motel, she felt the presence of\nsomeone.\nAnd that's when she got religion in the front of compact Ford.\nJust gentle voice on the stereo. Now she's working girl who loves\nthe Lord.",
+  "cleaned_lyrics": "Well he could almost taste the money but he was sitting in den of\nthieves.\nLooking for the great awakening trying to find way to leave.\nHe said somebody up there likes\nme. Now he's working for the holy\nguide.\nHe got drunk but he don't remember that he' been drinking in bar\ndowntown.\nWhen he thought he heard choir\nof angels singing in the Tiki Lounge.\nAnd that's when he got\nreligion from no salesman on TV.\nJust tap on the shoulder in the parking lot.\nHe still drinks but he does believe.\nReligion\nyou do the best you can.\nWe all make the same mistakes\nwe're gonna wind up with the man.\nReligion\noh you do the best you can.\nWe all make the same mistakes\nwe're gonna wind up with the man.\nShe was silent as he paid her but the thanks she got was next to none.\nAnd as her car pulled out of the motel\nshe felt the presence of\nsomeone.\nAnd that's when she got religion in the front of compact Ford.\nJust gentle voice on the stereo.\nNow she's working girl who loves\nthe Lord.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 29,
+    "cleaned_lines": 30,
+    "removed_count": 5,
+    "retention_rate": 1.1538461538461537,
+    "removal_reasons": {
+      "artist_annotation": 1,
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Well he could almost taste the money but he was sitting in den of\nthieves.\nLooking for the great awakening trying to find way to leave.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Someone is close to getting rich but feels trapped and wants to escape.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "He said somebody up there likes\nme. Now he's working for the holy\nguide.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "He feels like he's been chosen and is now following a religious leader.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "He got drunk but he don't remember that he' been drinking in bar\ndowntown.\nWhen he thought he heard choir\nof angels singing in the Tiki Lounge.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": "wonder",
+          "eli5_simplification": "He got drunk and had a strange experience, hearing angels.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "And that's when he got\nreligion from no salesman on TV.\nJust tap on the shoulder in the parking lot.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "awe",
+          "emotion_secondary": "surprise",
+          "eli5_simplification": "He found religion in an unexpected way, like someone tapped him on the shoulder.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "He still drinks but he does believe.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "He still drinks but now believes in something.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "Religion\nyou do the best you can.\nWe all make the same mistakes\nwe're gonna wind up with the man.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Religion is about doing your best, and everyone makes mistakes.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "Religion\noh you do the best you can.\nWe all make the same mistakes\nwe're gonna wind up with the man.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Religion is about doing your best, and everyone makes mistakes.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "She was silent as he paid her but the thanks she got was next to none.\nAnd as her car pulled out of the motel\nshe felt the presence of\nsomeone.",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "A woman is treated poorly and feels alone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "And that's when she got religion in the front of compact Ford.\nJust gentle voice on the stereo.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "awe",
+          "emotion_secondary": "peace",
+          "eli5_simplification": "She found religion in a car, hearing a gentle voice.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Now she's working girl who loves\nthe Lord.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "love",
+          "eli5_simplification": "She is now a religious person.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          "Shift from male perspective (lines 1-9) to female perspective (lines 14-18)"
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        "Shift from male perspective (lines 1-9) to female perspective (lines 14-18)"
+      ]
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Well he could almost taste the money but he was sitting in den of",
+            "thieves.",
+            "Looking for the great awakening trying to find way to leave.",
+            "He said somebody up there likes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            7,
+            1,
+            7,
+            6
+          ],
+          "end_words": [
+            "of",
+            "thieves",
+            "leave",
+            "likes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "thieves",
+              "word2": "leave",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "me. Now he's working for the holy",
+            "guide.",
+            "He got drunk but he don't remember that he' been drinking in bar",
+            "downtown."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            1,
+            6,
+            2
+          ],
+          "end_words": [
+            "holy",
+            "guide",
+            "bar",
+            "downtown"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "When he thought he heard choir",
+            "of angels singing in the Tiki Lounge.",
+            "And that's when he got",
+            "religion from no salesman on TV."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            5,
+            3,
+            5
+          ],
+          "end_words": [
+            "choir",
+            "lounge",
+            "got",
+            "tv"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Just tap on the shoulder in the parking lot.",
+            "He still drinks but he does believe.",
+            "Religion",
+            "you do the best you can."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            3,
+            1,
+            2
+          ],
+          "end_words": [
+            "lot",
+            "believe",
+            "religion",
+            "can"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "We all make the same mistakes",
+            "we're gonna wind up with the man.",
+            "Religion",
+            "oh you do the best you can."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            5,
+            1,
+            3
+          ],
+          "end_words": [
+            "mistakes",
+            "man",
+            "religion",
+            "can"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "man",
+              "word2": "can",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "We all make the same mistakes",
+            "we're gonna wind up with the man.",
+            "She was silent as he paid her but the thanks she got was next to none.",
+            "And as her car pulled out of the motel"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            5,
+            6,
+            4
+          ],
+          "end_words": [
+            "mistakes",
+            "man",
+            "none",
+            "motel"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "she felt the presence of",
+            "someone.",
+            "And that's when she got religion in the front of compact Ford.",
+            "Just gentle voice on the stereo."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            1,
+            7,
+            4
+          ],
+          "end_words": [
+            "of",
+            "someone",
+            "ford",
+            "stereo"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "of",
+              "word2": "someone",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Now she's working girl who loves",
+            "the Lord."
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            5,
+            1
+          ],
+          "end_words": [
+            "loves",
+            "lord"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 30
+    }
+  }
+}

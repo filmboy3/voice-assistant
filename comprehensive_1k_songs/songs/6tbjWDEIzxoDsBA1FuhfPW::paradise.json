@@ -1,0 +1,448 @@
+{
+  "song_id": "6tbjWDEIzxoDsBA1FuhfPW::paradise",
+  "title": "Paradise",
+  "artist": "Madonna",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI can't remember when I was young, I can't explain If it was wrong\nMy life goes on but not the same, into your eyes my face remains\nI've been so high I've been so down, up to the skies down to the ground\nI was so blind I could not see, your paradise is not for me\nAutour de moi je ne vois pas, qui sont les anges surement pas moi\nEncore une fois je suis cassée, encore une fois je n'y crois pas\nI've been so high, I've been so down\nUp to the skies, down to the ground\nThere is light above my head, into your eyes my face remains\nI can't remember when I was young, into your eyes my face remains",
+  "cleaned_lyrics": "I can't remember when I was young\nI can't explain If it was wrong\nMy life goes on but not the same\ninto your eyes my face remains\nI've been so high I've been so down\nup to the skies down to the ground\nI was so blind I could not see\nyour paradise is not for me\nAutour de moi je ne vois pas\nqui sont les anges surement pas moi\nEncore une fois je suis cassée\nencore une fois je n'y crois pas\nI've been so high\nI've been so down\nUp to the skies\ndown to the ground\nThere is light above my head\ninto your eyes my face remains\nI can't remember when I was young\ninto your eyes my face remains",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 11,
+    "cleaned_lines": 20,
+    "removed_count": 1,
+    "retention_rate": 1.8181818181818181,
+    "removal_reasons": {
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I can't remember when I was young\nI can't explain If it was wrong",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "confusion",
+          "eli5_simplification": "The singer is thinking about the past and doesn't understand it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "My life goes on but not the same\ninto your eyes my face remains",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Life is different now, and the singer is looking at someone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "I've been so high I've been so down\nup to the skies down to the ground",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fluctuating",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer has experienced both good and bad times.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "I was so blind I could not see\nyour paradise is not for me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "The singer realizes something was wrong and that they don't belong.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Autour de moi je ne vois pas\nqui sont les anges surement pas moi",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "isolation",
+          "emotion_secondary": "doubt",
+          "eli5_simplification": "The singer feels alone and questions if they are good.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "Encore une fois je suis cassée\nencore une fois je n'y crois pas",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "despair",
+          "eli5_simplification": "The singer feels broken and doesn't believe anymore.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "I've been so high\nI've been so down",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fluctuating",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer has experienced both good and bad times.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "Up to the skies\ndown to the ground",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fluctuating",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer has experienced both good and bad times.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "There is light above my head\ninto your eyes my face remains",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer feels a glimmer of hope and looks at someone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "I can't remember when I was young\ninto your eyes my face remains",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "The singer is thinking about the past and looking at someone.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I can't remember when I was young",
+            "I can't explain If it was wrong",
+            "My life goes on but not the same",
+            "into your eyes my face remains"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "young",
+            "wrong",
+            "same",
+            "remains"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "same",
+              "word2": "remains",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I've been so high I've been so down",
+            "up to the skies down to the ground",
+            "I was so blind I could not see",
+            "your paradise is not for me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "down",
+            "ground",
+            "see",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "down",
+              "word2": "ground",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "see",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Autour de moi je ne vois pas",
+            "qui sont les anges surement pas moi",
+            "Encore une fois je suis cassée",
+            "encore une fois je n'y crois pas"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            7,
+            7,
+            7,
+            7
+          ],
+          "end_words": [
+            "pas",
+            "moi",
+            "e",
+            "pas"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "pas",
+              "word2": "moi",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AA), one word adds post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "pas",
+              "word2": "pas",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "moi",
+              "word2": "pas",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AA), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I've been so high",
+            "I've been so down",
+            "Up to the skies",
+            "down to the ground"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "high",
+            "down",
+            "skies",
+            "ground"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "high",
+              "word2": "skies",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "down",
+              "word2": "ground",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "There is light above my head",
+            "into your eyes my face remains",
+            "I can't remember when I was young",
+            "into your eyes my face remains"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "head",
+            "remains",
+            "young",
+            "remains"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "remains",
+              "word2": "remains",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 20
+    }
+  }
+}

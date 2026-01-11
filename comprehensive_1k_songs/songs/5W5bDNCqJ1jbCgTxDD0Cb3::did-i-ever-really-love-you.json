@@ -1,0 +1,486 @@
+{
+  "song_id": "5W5bDNCqJ1jbCgTxDD0Cb3::did-i-ever-really-love-you",
+  "title": "Did I ever really love you",
+  "artist": "Willie Nelson",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nDuet with Timi Yuro. But can be sung as solo.\n(Willie) Did I ever really love you, did I ever really care\n(Timi) All the times I cried for you, did I really want you there.\n(Willie) Wiser men than I have wondered, about love and never knew.\n(Timi) And if I ever loved you, guess I still do.\n(Timi) All the nights that I spent crying.\nAll those lonely lonesome times.\nWas it my imagination.\nWas it only in my mind.\n(Willie) Wiser men than I have wondered, about love and never knew.\n(Timi) And if I ever ever loved you, guess I still do.\n(Willie) Wiser men than I have wondered, about love and never knew.\n(Timi) And if I ever ever ever loved you, guess I still do.\n(Timi) If I ever loved you,\n(Together) I still do.",
+  "cleaned_lyrics": "Duet with Timi Yuro. But can be sung as solo.\nDid I ever really love you\ndid I ever really care\nAll the times I cried for you\ndid I really want you there.\nWiser men than I have wondered\nabout love and never knew.\nAnd if I ever loved you\nguess I still do.\nAll the nights that I spent crying.\nAll those lonely lonesome times.\nWas it my imagination.\nWas it only in my mind.\nWiser men than I have wondered\nabout love and never knew.\nAnd if I ever ever loved you\nguess I still do.\nWiser men than I have wondered\nabout love and never knew.\nAnd if I ever ever ever loved you\nguess I still do.\nIf I ever loved you\nI still do.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 16,
+    "cleaned_lines": 23,
+    "removed_count": 1,
+    "retention_rate": 1.4375,
+    "removal_reasons": {
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Did I ever really love you\ndid I ever really care",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "doubt",
+          "eli5_simplification": "The singer is asking if they ever truly loved the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "All the times I cried for you\ndid I really want you there.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer remembers crying and wonders if they wanted the person around.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Wiser men than I have wondered\nabout love and never knew.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Even smart people don't understand love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "And if I ever loved you\nguess I still do.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "The singer thinks they still love the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "All the nights that I spent crying.\nAll those lonely lonesome times.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "The singer remembers crying and being lonely.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "Was it my imagination.\nWas it only in my mind.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "doubt",
+          "emotion_secondary": "confusion",
+          "eli5_simplification": "The singer wonders if their feelings were real.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "Wiser men than I have wondered\nabout love and never knew.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Even smart people don't understand love.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "And if I ever ever loved you\nguess I still do.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "The singer thinks they still love the person.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "Wiser men than I have wondered\nabout love and never knew.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Even smart people don't understand love.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "And if I ever ever ever loved you\nguess I still do.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "The singer thinks they still love the person.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "If I ever loved you\nI still do.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "The singer confirms they still love the person.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 22,
+        "covered_lines": 22,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 22,
+      "covered_lines": 22,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Duet with Timi Yuro. But can be sung as solo.",
+            "Did I ever really love you",
+            "did I ever really care",
+            "All the times I cried for you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            4,
+            3,
+            4
+          ],
+          "end_words": [
+            "solo",
+            "you",
+            "care",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "you",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "did I really want you there.",
+            "Wiser men than I have wondered",
+            "about love and never knew.",
+            "And if I ever loved you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "there",
+            "wondered",
+            "knew",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "knew",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "guess I still do.",
+            "All the nights that I spent crying.",
+            "All those lonely lonesome times.",
+            "Was it my imagination."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            1
+          ],
+          "end_words": [
+            "do",
+            "crying",
+            "times",
+            "imagination"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "crying",
+              "word2": "times",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Was it only in my mind.",
+            "Wiser men than I have wondered",
+            "about love and never knew.",
+            "And if I ever ever loved you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_words": [
+            "mind",
+            "wondered",
+            "knew",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "knew",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "guess I still do.",
+            "Wiser men than I have wondered",
+            "about love and never knew.",
+            "And if I ever ever ever loved you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            6
+          ],
+          "end_words": [
+            "do",
+            "wondered",
+            "knew",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "do",
+              "word2": "knew",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "knew",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "guess I still do.",
+            "If I ever loved you",
+            "I still do."
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AAA",
+          "raw_rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.7,
+          "stress_counts": [
+            3,
+            4,
+            2
+          ],
+          "end_words": [
+            "do",
+            "you",
+            "do"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "do",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "you",
+              "word2": "do",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "line_count": 3,
+          "stability": 0.7
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 23
+    }
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "song_id": "4gzpq5DPGxSnKTe4SA8HAU::bigger-stronger",
+  "title": "bigger stronger",
+  "artist": "Coldplay",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\n(verse)\ni wanna be bigger, stronger drive faster car\nto take me anywhere in seconds,\nto take me anywhere i wanna go\nand drive around faster car\n(repeat once with different words)\nthen\ni will settle for nothing less\ni will settle for nothing less\ni think i want to change my attitude\ni think i want to change my oxygen\ni think i want to change my air, my atmosphere,\ni want to reach out\n( )\n(Verse)\n(Chorus)\n\n[bridge]\nat the touch of button i can go anywhere i wanna go",
+  "cleaned_lyrics": "i wanna be bigger\nstronger drive faster car\nto take me anywhere in seconds\nto take me anywhere i wanna go\nand drive around faster car\nthen\ni will settle for nothing less\ni will settle for nothing less\ni think i want to change my attitude\ni think i want to change my oxygen\ni think i want to change my air\nmy atmosphere\ni want to reach out\nat the touch of button i can go anywhere i wanna go",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 20,
+    "cleaned_lines": 14,
+    "removed_count": 6,
+    "retention_rate": 0.7368421052631579,
+    "removal_reasons": {
+      "artist_annotation": 4,
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "i wanna be bigger\nstronger drive faster car",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to be bigger and stronger and have a fast car.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "to take me anywhere in seconds\nto take me anywhere i wanna go",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The car will take them anywhere they want to go, very quickly.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "and drive around faster car",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "They want to drive around in a faster car.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "then\ni will settle for nothing less",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "They won't accept anything less than what they want.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "i will settle for nothing less",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "They won't accept anything less than what they want.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "i think i want to change my attitude",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They want to change how they think.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "i think i want to change my oxygen",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They want to change their oxygen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "i think i want to change my air",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They want to change their air.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "my atmosphere",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They want to change their atmosphere.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "i want to reach out",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "They want to reach out.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "at the touch of button i can go anywhere i wanna go",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "They can go anywhere they want with the touch of a button.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 14,
+        "covered_lines": 14,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 14,
+      "covered_lines": 14,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "i wanna be bigger",
+            "stronger drive faster car",
+            "to take me anywhere in seconds",
+            "to take me anywhere i wanna go"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            4,
+            4,
+            5
+          ],
+          "end_words": [
+            "bigger",
+            "car",
+            "seconds",
+            "go"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "and drive around faster car",
+            "then",
+            "i will settle for nothing less",
+            "i will settle for nothing less"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4,
+            1,
+            3,
+            3
+          ],
+          "end_words": [
+            "car",
+            "then",
+            "less",
+            "less"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "then",
+              "word2": "less",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "less",
+              "word2": "less",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "i think i want to change my attitude",
+            "i think i want to change my oxygen",
+            "i think i want to change my air",
+            "my atmosphere"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            1
+          ],
+          "end_words": [
+            "attitude",
+            "oxygen",
+            "air",
+            "atmosphere"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "attitude",
+              "word2": "atmosphere",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AE), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "i want to reach out",
+            "at the touch of button i can go anywhere i wanna go"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            3,
+            7
+          ],
+          "end_words": [
+            "out",
+            "go"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 14
+    }
+  }
+}

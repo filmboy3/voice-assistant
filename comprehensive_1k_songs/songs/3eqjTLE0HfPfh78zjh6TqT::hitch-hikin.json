@@ -1,0 +1,689 @@
+{
+  "song_id": "3eqjTLE0HfPfh78zjh6TqT::hitch-hikin",
+  "title": "Hitch Hikin",
+  "artist": "Bruce Springsteen",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThumb stuck out as I go\nI'm just travelin' up the road\nMaps don't do much for me, friend\nI follow the weather and the wind\n\n[verse]\nI'm hitch hikin' all day long\nGot what I can carry and my song\nI'm rolling stone just rolling on\n\n[verse]\nFamily man gives me ride\nGot his pregnant Sally at his side\nYes indeed, sir, children are gift\nThank you kindly for the lift\nI'm hitch hikin' all day long\n\n[verse]\nTrucker gears his engine down\nSays, \"Climb on up, son, I'm highway-bound\"\nDashboard picture of pretty girl\nI'm ridin' high on top of the world\nI'm hitch hikin' all day long\n\n[verse]\nGearhead in souped-up '72\nWants to show kid just what this thing'll do\nTelephone poles and trees go whizzin' by\nThank you, pal, she sure can fly\nI'm hitch hikin' all day long\nI'm hitch hikin' all day long\nI'm hitch hikin' all day long\nI'm hitch hikin' all day long",
+  "cleaned_lyrics": "Thumb stuck out as I go\nI'm just travelin' up the road\nMaps don't do much for me\nfriend\nI follow the weather and the wind\nI'm hitch hikin' all day long\nGot what I can carry and my song\nI'm rolling stone just rolling on\nFamily man gives me ride\nGot his pregnant Sally at his side\nYes indeed\nsir\nchildren are gift\nThank you kindly for the lift\nI'm hitch hikin' all day long\nTrucker gears his engine down\nSays\n\"Climb on up\nson\nI'm highway-bound\"\nDashboard picture of pretty girl\nI'm ridin' high on top of the world\nI'm hitch hikin' all day long\nGearhead in souped-up '72\nWants to show kid just what this thing'll do\nTelephone poles and trees go whizzin' by\nThank you\npal\nshe sure can fly\nI'm hitch hikin' all day long\nI'm hitch hikin' all day long\nI'm hitch hikin' all day long\nI'm hitch hikin' all day long",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 34,
+    "cleaned_lines": 33,
+    "removed_count": 5,
+    "retention_rate": 1.1,
+    "removal_reasons": {
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Thumb stuck out as I go\nI'm just travelin' up the road",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is starting a journey by sticking out their thumb to get a ride.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Maps don't do much for me\nI follow the weather and the wind",
+          "plot_function": "SETUP",
+          "emotion_primary": "freedom",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer doesn't need maps; they go where the wind and weather take them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "I'm hitch hikin' all day long\nGot what I can carry and my song",
+          "plot_function": "SETUP",
+          "emotion_primary": "contentment",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is hitchhiking all day, carrying their belongings and singing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "I'm rolling stone just rolling on",
+          "plot_function": "SETUP",
+          "emotion_primary": "freedom",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is a free spirit, always moving.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10
+          ],
+          "original_lyric": "Family man gives me ride\nGot his pregnant Sally at his side\nYes indeed",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "gratitude",
+          "emotion_secondary": null,
+          "eli5_simplification": "A family man gives the singer a ride, and his wife is pregnant.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "sir\nchildren are gift\nThank you kindly for the lift",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "gratitude",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is thankful for the ride and acknowledges children as a gift.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "I'm hitch hikin' all day long",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "contentment",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is hitchhiking all day.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "Trucker gears his engine down\nSays \"Climb on up",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "A trucker offers the singer a ride.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "son\nI'm highway-bound\"",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The trucker invites the singer to join him on the highway.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Dashboard picture of pretty girl",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer sees a picture of a girl on the dashboard.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "I'm ridin' high on top of the world",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer feels great, like they're on top of the world.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "I'm hitch hikin' all day long",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "contentment",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is hitchhiking all day.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "Gearhead in souped-up '72\nWants to show kid just what this thing'll do",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "excitement",
+          "emotion_secondary": null,
+          "eli5_simplification": "A car enthusiast wants to show the singer how fast his car is.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Telephone poles and trees go whizzin' by\nThank you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "awe",
+          "emotion_secondary": null,
+          "eli5_simplification": "The scenery is flying by as the car speeds.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "pal\nshe sure can fly",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "awe",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is impressed by the car's speed.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "I'm hitch hikin' all day long",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "contentment",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is hitchhiking all day.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "I'm hitch hikin' all day long",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "contentment",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is hitchhiking all day.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "I'm hitch hikin' all day long",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "contentment",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is hitchhiking all day.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "I'm hitch hikin' all day long",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "contentment",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is hitchhiking all day.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 29,
+        "covered_lines": 29,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 29,
+      "covered_lines": 29,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Thumb stuck out as I go",
+            "I'm just travelin' up the road",
+            "Maps don't do much for me",
+            "friend"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            5,
+            4,
+            1
+          ],
+          "end_words": [
+            "go",
+            "road",
+            "me",
+            "friend"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "go",
+              "word2": "road",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I follow the weather and the wind",
+            "I'm hitch hikin' all day long",
+            "Got what I can carry and my song",
+            "I'm rolling stone just rolling on"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            6,
+            4,
+            6
+          ],
+          "end_words": [
+            "wind",
+            "long",
+            "song",
+            "on"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "long",
+              "word2": "song",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Family man gives me ride",
+            "Got his pregnant Sally at his side",
+            "Yes indeed",
+            "sir"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            2,
+            1
+          ],
+          "end_words": [
+            "ride",
+            "side",
+            "indeed",
+            "sir"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "ride",
+              "word2": "side",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "children are gift",
+            "Thank you kindly for the lift",
+            "I'm hitch hikin' all day long",
+            "Trucker gears his engine down"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            3,
+            6,
+            4
+          ],
+          "end_words": [
+            "gift",
+            "lift",
+            "long",
+            "down"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "gift",
+              "word2": "lift",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Says",
+            "\"Climb on up",
+            "son",
+            "I'm highway-bound\""
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            2,
+            1,
+            3
+          ],
+          "end_words": [
+            "says",
+            "up",
+            "son",
+            "bound"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "up",
+              "word2": "son",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Dashboard picture of pretty girl",
+            "I'm ridin' high on top of the world",
+            "I'm hitch hikin' all day long",
+            "Gearhead in souped-up '72"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            5,
+            6,
+            3
+          ],
+          "end_words": [
+            "girl",
+            "world",
+            "long",
+            "up"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "girl",
+              "word2": "world",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (ER), one word removes post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Wants to show kid just what this thing'll do",
+            "Telephone poles and trees go whizzin' by",
+            "Thank you",
+            "pal"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            7,
+            6,
+            2,
+            1
+          ],
+          "end_words": [
+            "do",
+            "by",
+            "you",
+            "pal"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "do",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "she sure can fly",
+            "I'm hitch hikin' all day long",
+            "I'm hitch hikin' all day long",
+            "I'm hitch hikin' all day long"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2,
+            6,
+            6,
+            6
+          ],
+          "end_words": [
+            "fly",
+            "long",
+            "long",
+            "long"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "long",
+              "word2": "long",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "long",
+              "word2": "long",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "I'm hitch hikin' all day long"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            6
+          ],
+          "end_words": [
+            "long"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "chorus",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 33
+    }
+  }
+}

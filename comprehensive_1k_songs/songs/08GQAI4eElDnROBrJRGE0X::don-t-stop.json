@@ -1,0 +1,841 @@
+{
+  "song_id": "08GQAI4eElDnROBrJRGE0X::don-t-stop",
+  "title": "Don't Stop",
+  "artist": "Fleetwood Mac",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nIf you wake up and don't want to smile\nIf it takes just little while\nOpen your eyes and look at the day\nYou'll see things in different way\nDon't )stop thinking about tomorrow\nDon't )stop; it'll soon be here\nIt'll be better than before\nYesterday's gone, yesterday's gone\nWhy not think about times to come\nAnd not about the things that you've done\nIf your life was bad to you\nJust think what tomorrow will do\nAll I want is to see you smile\nIf it takes just little while\nI know you don't believe that it's true\nI never meant any harm to you\nOooooooooh, don't you look back....\nIf you wake up and don't want to smile\nIf it takes just little while\nOpen your eyes and look at the day\nYou'll see things in different way\nDon't )stop thinking about tomorrow\nDon't )stop; it'll soon be here\nIt'll be better than before\nYesterday's gone, yesterday's gone\nWhy not think about times to come\nAnd not about the things that you've done\nIf your life was bad to you\nJust think what tomorrow will do\nAll I want is to see you smile\nIf it takes just little while\nI know you don't believe that it's true\nI never meant any harm to you\nOooooooooh, don't you look back....",
+  "cleaned_lyrics": "If you wake up and don't want to smile\nIf it takes just little while\nOpen your eyes and look at the day\nYou'll see things in different way\nDon't )stop thinking about tomorrow\nDon't )stop\nit'll soon be here\nIt'll be better than before\nYesterday's gone\nyesterday's gone\nWhy not think about times to come\nAnd not about the things that you've done\nIf your life was bad to you\nJust think what tomorrow will do\nAll I want is to see you smile\nIf it takes just little while\nI know you don't believe that it's true\nI never meant any harm to you\nOooooooooh\ndon't you look back....\nIf you wake up and don't want to smile\nIf it takes just little while\nOpen your eyes and look at the day\nYou'll see things in different way\nDon't )stop thinking about tomorrow\nDon't )stop\nit'll soon be here\nIt'll be better than before\nYesterday's gone\nyesterday's gone\nWhy not think about times to come\nAnd not about the things that you've done\nIf your life was bad to you\nJust think what tomorrow will do\nAll I want is to see you smile\nIf it takes just little while\nI know you don't believe that it's true\nI never meant any harm to you\nOooooooooh\ndon't you look back....",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 35,
+    "cleaned_lines": 40,
+    "removed_count": 1,
+    "retention_rate": 1.1428571428571428,
+    "removal_reasons": {
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "If you wake up and don't want to smile\nIf it takes just little while",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you're feeling sad, it's okay.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Open your eyes and look at the day\nYou'll see things in different way",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Look around, things will get better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Don't )stop thinking about tomorrow\nDon't )stop",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Don't stop thinking about good things coming.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "it'll soon be here\nIt'll be better than before",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Good things are coming soon and will be better.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Yesterday's gone\nyesterday's gone",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "The bad things are in the past.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "Why not think about times to come\nAnd not about the things that you've done",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Think about the future, not the past.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "If your life was bad to you\nJust think what tomorrow will do",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "If things are bad, think about how tomorrow can be better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "All I want is to see you smile\nIf it takes just little while",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "I want you to be happy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "I know you don't believe that it's true\nI never meant any harm to you",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "I know you don't believe me, but I never wanted to hurt you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Oooooooooh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Just a sound.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "don't you look back....",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Don't look back at the past.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "If you wake up and don't want to smile\nIf it takes just little while",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you're feeling sad, it's okay.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Open your eyes and look at the day\nYou'll see things in different way",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Look around, things will get better.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "Don't )stop thinking about tomorrow\nDon't )stop",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Don't stop thinking about good things coming.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "it'll soon be here\nIt'll be better than before",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Good things are coming soon and will be better.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "Yesterday's gone\nyesterday's gone",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "The bad things are in the past.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            31,
+            32
+          ],
+          "original_lyric": "Why not think about times to come\nAnd not about the things that you've done",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Think about the future, not the past.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            33,
+            34
+          ],
+          "original_lyric": "If your life was bad to you\nJust think what tomorrow will do",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "If things are bad, think about how tomorrow can be better.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            35,
+            36
+          ],
+          "original_lyric": "All I want is to see you smile\nIf it takes just little while",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "I want you to be happy.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            37,
+            38
+          ],
+          "original_lyric": "I know you don't believe that it's true\nI never meant any harm to you",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "I know you don't believe me, but I never wanted to hurt you.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            39
+          ],
+          "original_lyric": "Oooooooooh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Just a sound.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            40
+          ],
+          "original_lyric": "don't you look back....",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Don't look back at the past.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 40,
+        "covered_lines": 40,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 40,
+      "covered_lines": 40,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "If you wake up and don't want to smile",
+            "If it takes just little while",
+            "Open your eyes and look at the day",
+            "You'll see things in different way"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            5,
+            4,
+            5
+          ],
+          "end_words": [
+            "smile",
+            "while",
+            "day",
+            "way"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "smile",
+              "word2": "while",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "day",
+              "word2": "way",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Don't )stop thinking about tomorrow",
+            "Don't )stop",
+            "it'll soon be here",
+            "It'll be better than before"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            2,
+            3,
+            3
+          ],
+          "end_words": [
+            "tomorrow",
+            "stop",
+            "here",
+            "before"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "tomorrow",
+              "word2": "stop",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AA), unrelated post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Yesterday's gone",
+            "yesterday's gone",
+            "Why not think about times to come",
+            "And not about the things that you've done"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            3,
+            6,
+            5
+          ],
+          "end_words": [
+            "gone",
+            "gone",
+            "come",
+            "done"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "gone",
+              "word2": "gone",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "come",
+              "word2": "done",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AH), post-consonants in same family"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "If your life was bad to you",
+            "Just think what tomorrow will do",
+            "All I want is to see you smile",
+            "If it takes just little while"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            5,
+            4,
+            5
+          ],
+          "end_words": [
+            "you",
+            "do",
+            "smile",
+            "while"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "you",
+              "word2": "do",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "smile",
+              "word2": "while",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I know you don't believe that it's true",
+            "I never meant any harm to you",
+            "Oooooooooh",
+            "don't you look back...."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            5,
+            1,
+            3
+          ],
+          "end_words": [
+            "true",
+            "you",
+            "oooooooooh",
+            "back"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "true",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "If you wake up and don't want to smile",
+            "If it takes just little while",
+            "Open your eyes and look at the day",
+            "You'll see things in different way"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            5,
+            4,
+            5
+          ],
+          "end_words": [
+            "smile",
+            "while",
+            "day",
+            "way"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "smile",
+              "word2": "while",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "day",
+              "word2": "way",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Don't )stop thinking about tomorrow",
+            "Don't )stop",
+            "it'll soon be here",
+            "It'll be better than before"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            2,
+            3,
+            3
+          ],
+          "end_words": [
+            "tomorrow",
+            "stop",
+            "here",
+            "before"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "tomorrow",
+              "word2": "stop",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AA), unrelated post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Yesterday's gone",
+            "yesterday's gone",
+            "Why not think about times to come",
+            "And not about the things that you've done"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            3,
+            6,
+            5
+          ],
+          "end_words": [
+            "gone",
+            "gone",
+            "come",
+            "done"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "gone",
+              "word2": "gone",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "come",
+              "word2": "done",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AH), post-consonants in same family"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "If your life was bad to you",
+            "Just think what tomorrow will do",
+            "All I want is to see you smile",
+            "If it takes just little while"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            5,
+            4,
+            5
+          ],
+          "end_words": [
+            "you",
+            "do",
+            "smile",
+            "while"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "you",
+              "word2": "do",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "smile",
+              "word2": "while",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "I know you don't believe that it's true",
+            "I never meant any harm to you",
+            "Oooooooooh",
+            "don't you look back...."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            5,
+            1,
+            3
+          ],
+          "end_words": [
+            "true",
+            "you",
+            "oooooooooh",
+            "back"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "true",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "chorus",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "chorus",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "chorus",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        }
+      ],
+      "total_stanzas": 10,
+      "total_lines": 40
+    }
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "song_id": "0hEurMDQu99nJRq8pTxO14::victoria-ver-2",
+  "title": "Victoria (ver. 2)",
+  "artist": "John Mayer",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nDon't know why Tori came by\nI could see by the look in her eyes\nTori' been driving around the town for awhile\nPlaying with the thought of leaving\nDon't know why Tori just smiled\nMentioned something 'bout how you were right\nMust have been hard to see through the tears she was hiding\nShe said \"I might not be seeing him soon\nI got few things I've been waiting to do\"\nHe--------y, Tori came by, Tori came by tonight\nHe--------y, Tori came by, she says to say goodbye\nLooked outside at the car in the drive\nAnd the suitcase on the backseat inside\nSure it's so, she can't look out behind at the road\nShe said \"I might not be seein him soon\nI've got few things I've been waiting to do\"\nHe--------y, Tori came by, Tori came by tonight\nHe--------y, Tori came by, she says to say goodbye",
+  "cleaned_lyrics": "Don't know why Tori came by\nTori' been driving around the town for awhile\nPlaying with the thought of leaving\nDon't know why Tori just smiled\nMentioned something 'bout how you were right\nMust have been hard to see through the tears she was hiding\nShe said \"I might not be seeing him soon\nI got few things I've been waiting to do\"\nLooked outside at the car in the drive\nAnd the suitcase on the backseat inside\nSure it's so\nshe can't look out behind at the road\nShe said \"I might not be seein him soon\nI've got few things I've been waiting to do\"",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 19,
+    "cleaned_lines": 14,
+    "removed_count": 6,
+    "retention_rate": 0.7368421052631579,
+    "removal_reasons": {
+      "excessive_punctuation": 4,
+      "section_marker": 1,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Don't know why Tori came by\nTori' been driving around the town for awhile",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone named Tori showed up, and she's been driving around.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "Playing with the thought of leaving",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Tori is thinking about leaving.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "Don't know why Tori just smiled",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Tori smiled, but we don't know why.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Mentioned something 'bout how you were right",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "Tori mentioned someone was right.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "Must have been hard to see through the tears she was hiding",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Tori was hiding tears.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "She said \"I might not be seeing him soon\nI got few things I've been waiting to do\"",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "Tori says she might not see him soon and has things to do.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Looked outside at the car in the drive\nAnd the suitcase on the backseat inside",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "observation",
+          "emotion_secondary": null,
+          "eli5_simplification": "We see the car and suitcase.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Sure it's so",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's certain.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "she can't look out behind at the road",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "She can't look back.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "She said \"I might not be seein him soon\nI've got few things I've been waiting to do\"",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Tori repeats she might not see him and has things to do.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 14,
+        "covered_lines": 14,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 14,
+      "covered_lines": 14,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Don't know why Tori came by",
+            "Tori' been driving around the town for awhile",
+            "Playing with the thought of leaving",
+            "Don't know why Tori just smiled"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            6,
+            5,
+            3,
+            6
+          ],
+          "end_words": [
+            "by",
+            "awhile",
+            "leaving",
+            "smiled"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "by",
+              "word2": "awhile",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "awhile",
+              "word2": "smiled",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Mentioned something 'bout how you were right",
+            "Must have been hard to see through the tears she was hiding",
+            "She said \"I might not be seeing him soon",
+            "I got few things I've been waiting to do\""
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            5,
+            4,
+            6
+          ],
+          "end_words": [
+            "right",
+            "hiding",
+            "soon",
+            "do"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "right",
+              "word2": "hiding",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "soon",
+              "word2": "do",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Looked outside at the car in the drive",
+            "And the suitcase on the backseat inside",
+            "Sure it's so",
+            "she can't look out behind at the road"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            3,
+            3,
+            5
+          ],
+          "end_words": [
+            "drive",
+            "inside",
+            "so",
+            "road"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "drive",
+              "word2": "inside",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "so",
+              "word2": "road",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "She said \"I might not be seein him soon",
+            "I've got few things I've been waiting to do\""
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            7
+          ],
+          "end_words": [
+            "soon",
+            "do"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "soon",
+              "word2": "do",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 14
+    }
+  }
+}

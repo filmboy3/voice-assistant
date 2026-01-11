@@ -1,0 +1,615 @@
+{
+  "song_id": "74ASZWbe4lXaubB36ztrGX::dirge",
+  "title": "Dirge",
+  "artist": "Bob Dylan",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI hate myself for lovin' you And the weakness that I showed ...\nYou were just painted face On trip down Suicide Road.\nThe stage was set, the lights went out All around the old hotel\nI hate myself for lovin' you And I'm glad the curtain fell.\nI hate that foolish game we played And the need that was expressed\nAnd the mercy that you showed to me Whoever would have guessed\nI went out on Lower Broadway And I felt that place within\nThat hollow place where martyrs weep And angels play with sin\nHeard your songs of freedom And man forever stripped\nActing out his folly While his back is being whipped\nLike slave in orbit He's beaten 'til he's tame\nAll for moment's glory And it's dirty, rotten shame\nThere are those who worship loneliness I'm not one of them\n\n[intro]\nThe crystal ball up on the wall Hasn't shown me nothing yet\nI've paid the price of solitude But at least I'm out of debt\n\n[chorus]\n'Cept pat me on the back one time When I was on my knees\nWe stared into each other's eyes 'Til one of us would break\nNo use to apologize What diff'rence would it make\nSo sing your praise of progress And of the Doom Machine\nThe naked truth is still tabu Whenever it can be seen\nLady Luck who shines on me Will tell you where I'm at\nI hate myself for lovin' you But I should get over that",
+  "cleaned_lyrics": "I hate myself for lovin' you And the weakness that I showed ...\nYou were just painted face On trip down Suicide Road.\nThe stage was set\nthe lights went out All around the old hotel\nI hate myself for lovin' you And I'm glad the curtain fell.\nI hate that foolish game we played And the need that was expressed\nAnd the mercy that you showed to me Whoever would have guessed\nI went out on Lower Broadway And I felt that place within\nThat hollow place where martyrs\nweep And angels play with sin\nHeard your songs of freedom And man forever stripped\nActing out his folly While his back is being whipped\nLike slave in orbit\nHe's beaten 'til he's tame\nAll for moment's glory And it's dirty\nrotten shame\nThere are those who worship loneliness I'm not one of them\nThe crystal ball up on the\nwall Hasn't shown me nothing yet\nI've paid the price of solitude\nBut at least I'm out of debt\n'Cept pat me on the back one time When I was on my knees\nWe stared into each other's eyes\n'Til one of us would break\nNo use to apologize What diff'rence would it make\nSo sing your praise of progress And of the Doom Machine\nThe naked truth is still tabu Whenever it can be seen\nLady Luck who shines on me Will tell you where I'm at\nI hate myself for lovin' you But I should get over that",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 27,
+    "cleaned_lines": 29,
+    "removed_count": 3,
+    "retention_rate": 1.16,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            4
+          ],
+          "original_lyric": "I hate myself for lovin' you And the weakness that I showed ...\nI hate myself for lovin' you And I'm glad the curtain fell.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "I'm mad at myself for loving you and the way I acted.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "You were just painted face On trip down Suicide Road.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "disgust",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "You were fake and on a path to destruction.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "The stage was set",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Things were prepared.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "I hate that foolish game we played And the need that was expressed",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "I hate the silly game we played and the needs we showed.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "And the mercy that you showed to me Whoever would have guessed",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "surprise",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "I'm surprised you were merciful to me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "I went out on Lower Broadway And I felt that place within\nThat hollow place where martyrs weep And angels play with sin",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "I went to a place and felt empty, a place of sadness and temptation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Heard your songs of freedom And man forever stripped\nActing out his folly While his back is being whipped",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "disappointment",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "I heard your songs of freedom, but people are still being hurt.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "Like slave in orbit He's beaten 'til he's tame\nAll for moment's glory And it's dirty rotten shame",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "People are being controlled and hurt for a moment of fame, it's a disgrace.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "There are those who worship loneliness I'm not one of them",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": "rejection",
+          "eli5_simplification": "Some people like being alone, but I don't.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "The crystal ball up on the wall Hasn't shown me nothing yet",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "disappointment",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "I'm not getting any answers.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "I've paid the price of solitude But at least I'm out of debt",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": "relief",
+          "eli5_simplification": "I've been alone, but at least I'm free.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "'Cept pat me on the back one time When I was on my knees",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "vulnerability",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Except for the time you patted me on the back when I was down.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "We stared into each other's eyes 'Til one of us would break\nNo use to apologize What diff'rence would it make",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "We stared at each other until one of us gave in. Apologies wouldn't change anything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "So sing your praise of progress And of the Doom Machine\nThe naked truth is still tabu Whenever it can be seen",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "cynicism",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "Keep singing about progress, but the truth is still hidden.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "Lady Luck who shines on me Will tell you where I'm at",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Lady Luck will show you where I am.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "I hate myself for lovin' you But I should get over that",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "I hate loving you, but I should move on.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 24,
+        "covered_lines": 24,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 24,
+      "covered_lines": 24,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I hate myself for lovin' you And the weakness that I showed ...",
+            "You were just painted face On trip down Suicide Road.",
+            "The stage was set",
+            "the lights went out All around the old hotel"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            7,
+            2,
+            7
+          ],
+          "end_words": [
+            "showed",
+            "road",
+            "set",
+            "hotel"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "showed",
+              "word2": "road",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "set",
+              "word2": "hotel",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I hate myself for lovin' you And I'm glad the curtain fell.",
+            "I hate that foolish game we played And the need that was expressed",
+            "And the mercy that you showed to me Whoever would have guessed",
+            "I went out on Lower Broadway And I felt that place within"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            7,
+            6,
+            4,
+            7
+          ],
+          "end_words": [
+            "fell",
+            "expressed",
+            "guessed",
+            "within"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "fell",
+              "word2": "expressed",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "expressed",
+              "word2": "guessed",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "That hollow place where martyrs",
+            "weep And angels play with sin",
+            "Heard your songs of freedom And man forever stripped",
+            "Acting out his folly While his back is being whipped"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4,
+            4,
+            6,
+            7
+          ],
+          "end_words": [
+            "martyrs",
+            "sin",
+            "stripped",
+            "whipped"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "sin",
+              "word2": "stripped",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "stripped",
+              "word2": "whipped",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Like slave in orbit",
+            "He's beaten 'til he's tame",
+            "All for moment's glory And it's dirty",
+            "rotten shame"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            5,
+            5,
+            2
+          ],
+          "end_words": [
+            "orbit",
+            "tame",
+            "dirty",
+            "shame"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "tame",
+              "word2": "shame",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "There are those who worship loneliness I'm not one of them",
+            "The crystal ball up on the",
+            "wall Hasn't shown me nothing yet",
+            "I've paid the price of solitude"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            7,
+            3,
+            5,
+            4
+          ],
+          "end_words": [
+            "them",
+            "the",
+            "yet",
+            "solitude"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "them",
+              "word2": "yet",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "But at least I'm out of debt",
+            "'Cept pat me on the back one time When I was on my knees",
+            "We stared into each other's eyes",
+            "'Til one of us would break"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            7,
+            5,
+            3
+          ],
+          "end_words": [
+            "debt",
+            "knees",
+            "eyes",
+            "break"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "No use to apologize What diff'rence would it make",
+            "So sing your praise of progress And of the Doom Machine",
+            "The naked truth is still tabu Whenever it can be seen",
+            "Lady Luck who shines on me Will tell you where I'm at"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            6,
+            5,
+            6,
+            7
+          ],
+          "end_words": [
+            "make",
+            "machine",
+            "seen",
+            "at"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "machine",
+              "word2": "seen",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "I hate myself for lovin' you But I should get over that"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            6
+          ],
+          "end_words": [
+            "that"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 29
+    }
+  }
+}

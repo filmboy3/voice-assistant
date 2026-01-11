@@ -1,0 +1,550 @@
+{
+  "song_id": "0k17h0D3J5VfsdmQ1iZtE9::crumbling-land",
+  "title": "Crumbling Land",
+  "artist": "Pink Floyd",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nPink Floyd ? Crumbling Land\n\n[intro]\nWheeling, soaring, gliding by\n\n[verse]\nOn hill there lived man with many shining things\nShiny pool, shiny car and shiny diamond rings\nWining, dining, shining king\n\n[bridge]\n?And the eagle flies in clear blue skies\n?\n\n[bridge]\n?Back here on the ground another dealer coughs and dies\n?\nAnd fifty more come rolling off\n?The Ford production line\n\n[verse]\n?Then man appearing like mirage on the sand\n?In his hand moving picture of the crumbling land\n?Screaming, dealing, groovy man\n\n[verse]\nHere we go, hold your nose and see if something blows\n\n[bridge]\n?\n\n[bridge]\n?\nUpon the finger of the king?\nOn high, the eagle spies the glitter of gun\n?\nThen wheeling in climbing turn he flies into the sun",
+  "cleaned_lyrics": "Pink Floyd ? Crumbling Land\nWheeling\nsoaring\ngliding by\nOn hill there lived man with many shining things\nShiny pool\nshiny car and shiny diamond rings\nWining\ndining\nshining king\n?And the eagle flies in clear blue skies\n?Back here on the ground another dealer coughs and dies\nAnd fifty more come rolling off\n?The Ford production line\n?Then man appearing like mirage on the sand\n?In his hand moving picture of the crumbling land\n?Screaming\ndealing\ngroovy man\nHere we go\nhold your nose and see if something blows\nUpon the finger of the king?\nOn high\nthe eagle spies the glitter of gun\nThen wheeling in climbing turn he flies into the sun",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 38,
+    "cleaned_lines": 25,
+    "removed_count": 9,
+    "retention_rate": 0.8333333333333334,
+    "removal_reasons": {
+      "section_marker": 9
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3
+          ],
+          "original_lyric": "Wheeling\nsoaring\ngliding by",
+          "plot_function": "SETUP",
+          "emotion_primary": "peace",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts with a description of movement in the sky.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "On hill there lived man with many shining things",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "There's a man on a hill with lots of shiny stuff.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Shiny pool\nshiny car and shiny diamond rings",
+          "plot_function": "SETUP",
+          "emotion_primary": "envy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The man has a pool, a car, and diamond rings.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8,
+            9
+          ],
+          "original_lyric": "Wining\ndining\nshining king",
+          "plot_function": "SETUP",
+          "emotion_primary": "envy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The man is living a luxurious life.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "?And the eagle flies in clear blue skies",
+          "plot_function": "SETUP",
+          "emotion_primary": "peace",
+          "emotion_secondary": null,
+          "eli5_simplification": "An eagle is flying in the sky.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "?Back here on the ground another dealer coughs and dies",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Someone on the ground dies.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "And fifty more come rolling off",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "disgust",
+          "emotion_secondary": null,
+          "eli5_simplification": "More people are being produced.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "?The Ford production line",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "disgust",
+          "emotion_secondary": null,
+          "eli5_simplification": "The production line is running.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "?Then man appearing like mirage on the sand",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "A man appears like a dream.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "?In his hand moving picture of the crumbling land",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "He has a picture of the land falling apart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17,
+            18
+          ],
+          "original_lyric": "?Screaming\ndealing\ngroovy man",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The man is screaming and dealing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Here we go",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Something is about to happen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "hold your nose and see if something blows",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Get ready for something bad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Upon the finger of the king?",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "confusion",
+          "eli5_simplification": "Something is happening to the king.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "On high",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Something is happening above.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "the eagle spies the glitter of gun",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The eagle sees a gun.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "Then wheeling in climbing turn he flies into the sun",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "peace",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The eagle flies into the sun.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 24,
+        "covered_lines": 24,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 24,
+      "covered_lines": 24,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Pink Floyd ? Crumbling Land",
+            "Wheeling",
+            "soaring",
+            "gliding by"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            1,
+            1,
+            2
+          ],
+          "end_words": [
+            "land",
+            "wheeling",
+            "soaring",
+            "by"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "On hill there lived man with many shining things",
+            "Shiny pool",
+            "shiny car and shiny diamond rings",
+            "Wining"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            7,
+            2,
+            5,
+            1
+          ],
+          "end_words": [
+            "things",
+            "pool",
+            "rings",
+            "wining"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "things",
+              "word2": "rings",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "dining",
+            "shining king",
+            "?And the eagle flies in clear blue skies",
+            "?Back here on the ground another dealer coughs and dies"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            1,
+            2,
+            5,
+            7
+          ],
+          "end_words": [
+            "dining",
+            "king",
+            "skies",
+            "dies"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "dining",
+              "word2": "skies",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "skies",
+              "word2": "dies",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "And fifty more come rolling off",
+            "?The Ford production line",
+            "?Then man appearing like mirage on the sand",
+            "?In his hand moving picture of the crumbling land"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            3,
+            5,
+            5
+          ],
+          "end_words": [
+            "off",
+            "line",
+            "sand",
+            "land"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "sand",
+              "word2": "land",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "?Screaming",
+            "dealing",
+            "groovy man",
+            "Here we go"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "end_words": [
+            "screaming",
+            "dealing",
+            "man",
+            "go"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "screaming",
+              "word2": "dealing",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "hold your nose and see if something blows",
+            "Upon the finger of the king?",
+            "On high",
+            "the eagle spies the glitter of gun"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            3,
+            1,
+            4
+          ],
+          "end_words": [
+            "blows",
+            "king",
+            "high",
+            "gun"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Then wheeling in climbing turn he flies into the sun"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            6
+          ],
+          "end_words": [
+            "sun"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 25
+    }
+  }
+}

@@ -1,0 +1,807 @@
+{
+  "song_id": "3eqjTLE0HfPfh78zjh6TqT::moonlight-motel",
+  "title": "Moonlight Motel",
+  "artist": "Bruce Springsteen",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThere's place on blank stretch of road where\nNobody travels and nobody goes and the\nDeskman says these days 'round here\nWhere two young folks could probably up and disappear into\nRustlin' sheets, sleepy corner room\n\n[intro]\nOf wilted flowers and lazy afternoon hours\nAt the Moonlight Motel\n\n[verse]\nNow the pool's filled with empty, eight foot deep\nGot dandelions growin' up through the cracks in the concrete\n\n[chorus]\nGot sign, says, \"Children, be careful how you play\"\nYour lipstick taste and your whispered secret\nI promised I' never tell\nhalf-drunk beer and your breath in my ear\nAt the Moonlight Motel\nWell then, it's bills and kids and kids and bills\nAnd the ringing of the bell\nAcross the valley floor through the dusty screen door\nOf the Moonlight Motel\n\n[verse]\nLast night I dreamed of you, my lover\nAnd the wind blew through the window and blew off the covers\nOf my lonely bed, I woke to something you said\nThat it's better to have loved, yeah, it's better to have loved\nAs I drove, there was chill in the breeze\nAnd leaves tumbled from the sky and fell\nOn road so black as I backtracked\nTo the Moonlight Motel\nShe was boarded up and gone like an old summer song\nNothing but an empty shell\nI pulled in and stopped into my old spot\nI pulled bottle of Jack out of paper bag\nPoured one for me and one for you as well\nThen it was one more shot poured out onto the parking lot\nTo the Moonlight Motel",
+  "cleaned_lyrics": "There's place on blank stretch of road where\nNobody travels and nobody goes and the\nDeskman says these days 'round here\nWhere two young folks could\nprobably up and disappear into\nRustlin' sheets\nsleepy corner room\nOf wilted flowers and lazy afternoon hours\nAt the Moonlight Motel\nNow the pool's filled with empty\neight foot deep\nGot dandelions growin' up through the cracks in the concrete\nGot sign\nsays\n\"Children\nbe careful how you play\"\nYour lipstick taste and your whispered secret\nI promised I' never tell\nhalf-drunk beer and your breath in my ear\nAt the Moonlight Motel\nWell then\nit's bills and kids and kids and bills\nAnd the ringing of the bell\nAcross the valley floor through the dusty screen door\nOf the Moonlight Motel\nLast night I dreamed of you\nmy lover\nAnd the wind blew through the window and blew off the covers\nOf my lonely bed\nI woke to something you said\nThat it's better to have loved\nyeah\nit's better to have loved\nAs I drove\nthere was chill in the breeze\nAnd leaves tumbled from the sky and fell\nOn road so black as I backtracked\nTo the Moonlight Motel\nShe was boarded up and gone like an old summer song\nNothing but an empty shell\nI pulled in and stopped into my old spot\nI pulled bottle of Jack out of paper bag\nPoured one for me and one for you as well\nThen it was one more shot\npoured out onto the parking lot\nTo the Moonlight Motel",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 42,
+    "cleaned_lines": 46,
+    "removed_count": 5,
+    "retention_rate": 1.2105263157894737,
+    "removal_reasons": {
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "There's place on blank stretch of road where\nNobody travels and nobody goes and the",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "There's a lonely place on a quiet road.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "Deskman says these days 'round here",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person at the front desk says...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "Where two young folks could\nprobably up and disappear into",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Where young people could disappear.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7,
+            8
+          ],
+          "original_lyric": "Rustlin' sheets\nsleepy corner room\nOf wilted flowers and lazy afternoon hours",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "nostalgia",
+          "eli5_simplification": "Describing the room with sheets, flowers, and lazy afternoons.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "At the Moonlight Motel",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "nostalgia",
+          "eli5_simplification": "This is the Moonlight Motel.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10,
+            11,
+            12
+          ],
+          "original_lyric": "Now the pool's filled with empty\neight foot deep\nGot dandelions growin' up through the cracks in the concrete",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The pool is empty and there are weeds growing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "Got sign\nsays\n\"Children\nbe careful how you play\"",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "There's a sign that says be careful.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "Your lipstick taste and your whispered secret\nI promised I' never tell",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Remembering a secret and a kiss.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "half-drunk beer and your breath in my ear\nAt the Moonlight Motel",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "nostalgia",
+          "eli5_simplification": "Remembering beer and breath at the motel.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19,
+            20,
+            21
+          ],
+          "original_lyric": "Well then\nit's bills and kids and kids and bills\nAnd the ringing of the bell",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Life is now about bills and kids.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "Across the valley floor through the dusty screen door\nOf the Moonlight Motel",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "nostalgia",
+          "eli5_simplification": "Remembering the motel.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "Last night I dreamed of you\nmy lover",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Dreaming of a lover.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "And the wind blew through the window and blew off the covers\nOf my lonely bed",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "The wind blew through the window.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "I woke to something you said",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Waking up to a memory.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "That it's better to have loved\nyeah\nit's better to have loved",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "It's better to have loved.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            31,
+            32
+          ],
+          "original_lyric": "As I drove\nthere was chill in the breeze",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Driving and feeling the cold.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33,
+            34
+          ],
+          "original_lyric": "And leaves tumbled from the sky and fell\nOn road so black as I backtracked",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Leaves falling on the road.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35
+          ],
+          "original_lyric": "To the Moonlight Motel",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Going back to the motel.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            36,
+            37
+          ],
+          "original_lyric": "She was boarded up and gone like an old summer song\nNothing but an empty shell",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The motel is gone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+          ],
+          "original_lyric": "I pulled in and stopped into my old spot\nI pulled bottle of Jack out of paper bag\nPoured one for me and one for you as well\nThen it was one more shot\npoured out onto the parking lot\nTo the Moonlight Motel",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "Drinking and remembering at the motel.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 43,
+        "covered_lines": 43,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 43,
+      "covered_lines": 43,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "There's place on blank stretch of road where",
+            "Nobody travels and nobody goes and the",
+            "Deskman says these days 'round here",
+            "Where two young folks could"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            4,
+            5,
+            5
+          ],
+          "end_words": [
+            "where",
+            "the",
+            "here",
+            "could"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "probably up and disappear into",
+            "Rustlin' sheets",
+            "sleepy corner room",
+            "Of wilted flowers and lazy afternoon hours"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            2,
+            3,
+            6
+          ],
+          "end_words": [
+            "into",
+            "sheets",
+            "room",
+            "hours"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "At the Moonlight Motel",
+            "Now the pool's filled with empty",
+            "eight foot deep",
+            "Got dandelions growin' up through the cracks in the concrete"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            4,
+            3,
+            7
+          ],
+          "end_words": [
+            "motel",
+            "empty",
+            "deep",
+            "concrete"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "motel",
+              "word2": "empty",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "deep",
+              "word2": "concrete",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (IY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Got sign",
+            "says",
+            "\"Children",
+            "be careful how you play\""
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "end_words": [
+            "sign",
+            "says",
+            "children",
+            "play"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Your lipstick taste and your whispered secret",
+            "I promised I' never tell",
+            "half-drunk beer and your breath in my ear",
+            "At the Moonlight Motel"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 1.0,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            3,
+            5,
+            2
+          ],
+          "end_words": [
+            "secret",
+            "tell",
+            "ear",
+            "motel"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "tell",
+              "word2": "motel",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Well then",
+            "it's bills and kids and kids and bills",
+            "And the ringing of the bell",
+            "Across the valley floor through the dusty screen door"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            5,
+            2,
+            7
+          ],
+          "end_words": [
+            "then",
+            "bills",
+            "bell",
+            "door"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "then",
+              "word2": "bell",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Of the Moonlight Motel",
+            "Last night I dreamed of you",
+            "my lover",
+            "And the wind blew through the window and blew off the covers"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            4,
+            1,
+            7
+          ],
+          "end_words": [
+            "motel",
+            "you",
+            "lover",
+            "covers"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "lover",
+              "word2": "covers",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Of my lonely bed",
+            "I woke to something you said",
+            "That it's better to have loved",
+            "yeah"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            3,
+            3,
+            1
+          ],
+          "end_words": [
+            "bed",
+            "said",
+            "loved",
+            "yeah"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "bed",
+              "word2": "said",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "it's better to have loved",
+            "As I drove",
+            "there was chill in the breeze",
+            "And leaves tumbled from the sky and fell"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            1,
+            3,
+            4
+          ],
+          "end_words": [
+            "loved",
+            "drove",
+            "breeze",
+            "fell"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "On road so black as I backtracked",
+            "To the Moonlight Motel",
+            "She was boarded up and gone like an old summer song",
+            "Nothing but an empty shell"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            7,
+            3
+          ],
+          "end_words": [
+            "backtracked",
+            "motel",
+            "song",
+            "shell"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "I pulled in and stopped into my old spot",
+            "I pulled bottle of Jack out of paper bag",
+            "Poured one for me and one for you as well",
+            "Then it was one more shot"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            5,
+            6,
+            4,
+            3
+          ],
+          "end_words": [
+            "spot",
+            "bag",
+            "well",
+            "shot"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "spot",
+              "word2": "shot",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 12,
+          "lines": [
+            "poured out onto the parking lot",
+            "To the Moonlight Motel"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            5,
+            2
+          ],
+          "end_words": [
+            "lot",
+            "motel"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 12,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 12,
+      "total_lines": 46
+    }
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "song_id": "7jy3rLJdDQY21OgRLCZ9sD::walking-after-you",
+  "title": "Walking after You",
+  "artist": "Foo Fighters",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nTonight i'm tangled in my blanket of clouds\nDreaming aloud\nThings just won't do without you matter of fact\nI'm on your back\nI'm on your back\nI'm on your back\n& Guitar 2 Riff\n\n[chorus]\nIf you walk out on me\nIm walking after you\nIf you walk out on me\nIm walking after you\n\n[verse]\nPost Chorus: After Chorus 2\nAnother heart cracked in two\nI'm on your back\n\n[intro]\nGuitar 2 Plays riff 3x",
+  "cleaned_lyrics": "Tonight i'm tangled in my blanket of clouds\nDreaming aloud\nThings just won't do without you matter of fact\nI'm on your back\nI'm on your back\nI'm on your back\n& Guitar 2 Riff\nIf you walk out on me\nIm walking after you\nIf you walk out on me\nIm walking after you\nPost Chorus: After Chorus 2\nAnother heart cracked in two\nI'm on your back\nGuitar 2 Plays riff 3x",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 22,
+    "cleaned_lines": 15,
+    "removed_count": 4,
+    "retention_rate": 0.7894736842105263,
+    "removal_reasons": {
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Tonight i'm tangled in my blanket of clouds\nDreaming aloud",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is feeling lonely and thinking about someone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Things just won't do without you matter of fact\nI'm on your back",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "dependence",
+          "eli5_simplification": "The singer is saying they need the other person and are dependent on them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7
+          ],
+          "original_lyric": "I'm on your back\nI'm on your back\nI'm on your back",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "dependence",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the idea of being dependent.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "& Guitar 2 Riff",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": null,
+          "emotion_secondary": null,
+          "eli5_simplification": "Instrumental break, building tension.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "If you walk out on me\nIm walking after you",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "The singer is afraid of being left but will follow the other person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "If you walk out on me\nIm walking after you",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "The singer is afraid of being left but will follow the other person.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "Post Chorus: After Chorus 2",
+          "plot_function": "REFLECTION",
+          "emotion_primary": null,
+          "emotion_secondary": null,
+          "eli5_simplification": "Transition to the next section.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Another heart cracked in two",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone is heartbroken.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "I'm on your back",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "dependence",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the idea of being dependent.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Guitar 2 Plays riff 3x",
+          "plot_function": "REFLECTION",
+          "emotion_primary": null,
+          "emotion_secondary": null,
+          "eli5_simplification": "Instrumental break.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 16,
+        "covered_lines": 16,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 16,
+      "covered_lines": 16,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Tonight i'm tangled in my blanket of clouds",
+            "Dreaming aloud",
+            "Things just won't do without you matter of fact",
+            "I'm on your back"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            2,
+            6,
+            2
+          ],
+          "end_words": [
+            "clouds",
+            "aloud",
+            "fact",
+            "back"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "clouds",
+              "word2": "aloud",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word adds post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "fact",
+              "word2": "back",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AE), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I'm on your back",
+            "I'm on your back",
+            "& Guitar 2 Riff",
+            "If you walk out on me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            4
+          ],
+          "end_words": [
+            "back",
+            "back",
+            "riff",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "back",
+              "word2": "back",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Im walking after you",
+            "If you walk out on me",
+            "Im walking after you",
+            "Post Chorus: After Chorus 2"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "you",
+            "me",
+            "you",
+            "chorus"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "you",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Another heart cracked in two",
+            "I'm on your back",
+            "Guitar 2 Plays riff 3x"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            2,
+            4
+          ],
+          "end_words": [
+            "two",
+            "back",
+            "x"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 15
+    }
+  }
+}

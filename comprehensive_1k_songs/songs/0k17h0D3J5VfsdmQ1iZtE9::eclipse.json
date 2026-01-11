@@ -1,0 +1,349 @@
+{
+  "song_id": "0k17h0D3J5VfsdmQ1iZtE9::eclipse",
+  "title": "Eclipse",
+  "artist": "Pink Floyd",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\n+\nAll that you touch\nAll that you see\n+\nAll that you taste\nAll you feel\nAll that you love\nAll that you hate\n+\nAll you distrust\nAll that you save\nAll that you give\nAll that you deal\n+\nAll that you buy\n\n[bridge]\nAll you create\nAll you destroy\n+\nAll that you do\nAll that you say\nAll that you eat\nEveryone you meet\n+\nAll that you slight\nEveryone you fight\nAll that is now\nAll that is gone\n+\nAll that?s to come\nAnd everything under the sun is in tune\n\n[bridge]\n(... sun is in tune ... eclipsed by the moon)",
+  "cleaned_lyrics": "All that you touch\nAll that you see\nAll that you taste\nAll you feel\nAll that you love\nAll that you hate\nAll you distrust\nAll that you save\nAll that you give\nAll that you deal\nAll that you buy\nAll you create\nAll you destroy\nAll that you do\nAll that you say\nAll that you eat\nEveryone you meet\nAll that you slight\nEveryone you fight\nAll that is now\nAll that is gone\nAll that?s to come\nAnd everything under the sun is in tune",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 36,
+    "cleaned_lines": 23,
+    "removed_count": 4,
+    "retention_rate": 0.6764705882352942,
+    "removal_reasons": {
+      "section_marker": 3,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "original_lyric": "All that you touch\nAll that you see\nAll that you taste\nAll you feel\nAll that you love\nAll that you hate\nAll you distrust\nAll that you save\nAll that you give\nAll that you deal\nAll that you buy\nAll you create\nAll you destroy\nAll that you do\nAll that you say\nAll that you eat\nEveryone you meet\nAll that you slight\nEveryone you fight\nAll that is now\nAll that is gone\nAll that?s to come\nAnd everything under the sun is in tune",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "contemplation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everything you do, see, feel, and experience, from the past, present, and future, is connected and in harmony.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 23,
+        "covered_lines": 23,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 23,
+      "covered_lines": 23,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "All that you touch",
+            "All that you see",
+            "All that you taste",
+            "All you feel"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "touch",
+            "see",
+            "taste",
+            "feel"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "see",
+              "word2": "feel",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "All that you love",
+            "All that you hate",
+            "All you distrust",
+            "All that you save"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "love",
+            "hate",
+            "distrust",
+            "save"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "love",
+              "word2": "distrust",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "hate",
+              "word2": "save",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "All that you give",
+            "All that you deal",
+            "All that you buy",
+            "All you create"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "give",
+            "deal",
+            "buy",
+            "create"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "All you destroy",
+            "All that you do",
+            "All that you say",
+            "All that you eat"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "destroy",
+            "do",
+            "say",
+            "eat"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Everyone you meet",
+            "All that you slight",
+            "Everyone you fight",
+            "All that is now"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "meet",
+            "slight",
+            "fight",
+            "now"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "slight",
+              "word2": "fight",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "All that is gone",
+            "All that?s to come",
+            "And everything under the sun is in tune"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            3,
+            5
+          ],
+          "end_words": [
+            "gone",
+            "come",
+            "tune"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 23
+    }
+  }
+}

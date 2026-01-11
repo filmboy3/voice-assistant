@@ -1,0 +1,289 @@
+{
+  "song_id": "3RwQ26hR2tJtA8F9p2n7jG::i-m-glad-there-is-you",
+  "title": "I'm Glad There Is You",
+  "artist": "The Temptations",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nD7M /9 D7M D7M\n\n[intro]\nExtraordinary people\n/9 /7 + /7\nI'm glad there is you\n\n[intro]\nOf underrated treasures\nI'm glad there is you\n\n[bridge]\nI live to love, I' love to live with you beside me\n/9+ +\nThis role so new, I'll muddle through with you to guide me\n\n[intro]\nAnd hardly any stay in love\nI'm glad there is you\nMore than ever, I'm glad there is you",
+  "cleaned_lyrics": "D7M /9 D7M D7M\nExtraordinary people\nI'm glad there is you\nOf underrated treasures\nI'm glad there is you\nI live to love\nI' love to live with you beside me\nThis role so new\nI'll muddle through with you to guide me\nAnd hardly any stay in love\nI'm glad there is you\nMore than ever\nI'm glad there is you",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 21,
+    "cleaned_lines": 13,
+    "removed_count": 7,
+    "retention_rate": 0.7647058823529411,
+    "removal_reasons": {
+      "low_letter_ratio": 1,
+      "guitar_tab": 1,
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            4,
+            5,
+            10,
+            12
+          ],
+          "original_lyric": "Extraordinary people\nI'm glad there is you\nOf underrated treasures\nI'm glad there is you\nI'm glad there is you\nMore than ever\nI'm glad there is you",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is happy someone is around.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "I live to love",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "I' love to live with you beside me",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer wants to live with the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "This role so new",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is starting something new.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "I'll muddle through with you to guide me",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer will figure things out with the person's help.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "And hardly any stay in love",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "It's hard to stay in love.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 12,
+        "covered_lines": 12,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 12,
+      "covered_lines": 12,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "D7M /9 D7M D7M",
+            "Extraordinary people",
+            "I'm glad there is you",
+            "Of underrated treasures"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            6,
+            2,
+            4,
+            2
+          ],
+          "end_words": [
+            "m",
+            "people",
+            "you",
+            "treasures"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "m",
+              "word2": "treasures",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I'm glad there is you",
+            "I live to love",
+            "I' love to live with you beside me",
+            "This role so new"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            2,
+            4,
+            2
+          ],
+          "end_words": [
+            "you",
+            "love",
+            "me",
+            "new"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "you",
+              "word2": "new",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I'll muddle through with you to guide me",
+            "And hardly any stay in love",
+            "I'm glad there is you",
+            "More than ever"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            2
+          ],
+          "end_words": [
+            "me",
+            "love",
+            "you",
+            "ever"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I'm glad there is you"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "you"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 13
+    }
+  }
+}

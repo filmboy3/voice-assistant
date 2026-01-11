@@ -1,0 +1,778 @@
+{
+  "song_id": "0vn7UBvSQECKJm2817Yf1P::montana",
+  "title": "Montana",
+  "artist": "James Taylor",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI'm not smart enough for this life I've been livin',\nlittle bit slow for the pace of the dream.\nIt's not I'm ungrateful for all I've been given;\n\n[bridge]\nI wish to my soul, I was back in Montana,\nHigh on my mountain and deep in the snow.\nUp in my cabin, over the valley, Under the blankets with you\nOo - ---ver the ocean from here.( OHH, OOH,, OHHH Oh.)\nOo- --- ---ver the mountains from there( OHH, OOH,, OHHH Oh.)\n\n[bridge]\nPushed this old mountain range up in the sky?\nTectonic creation, erosion, mutation; Somethin' to pleasure God's eye.\nThe world is wonder of lightnin' and thunder,\nAnd green of the ground as we fall from the sky.\nThe old and new faces, the tribes and the races...\nThousands of places to try..\nOo ----- ver the ocean from here. .( OHH, OOH,, OHHH Oh.)\nOo - --- ---ver the mountains from there( OHH, OOH,, OHHH Oh.)\n\n[bridge]\nOne sits and waits while the other one wanders,\nAnd squanders his time with life on the road.\nDown from the mountain, across the wide ocean,\nThe world is in motion and cannot be slowed.\nEnough for today... the demands of the moment,\nThe thing on my mind is the work in my hand.\nWood for the woodstove and water for coffee,\nSomethin' I can still understand.\nWe got few friends but not many neighbors,\nThe trip into town takes us most of the day.\nAnd after, \"Hello\", and \"it's sure good to see you\",\nIt seems like there's nothin' to say\nOo ---- ----- --ver the ocean from here.",
+  "cleaned_lyrics": "I'm not smart enough for this life I've been livin'\nlittle bit slow for the pace of the dream.\nIt's not I'm ungrateful for all I've been given\nI wish to my soul\nI was back in Montana\nHigh on my mountain and deep in the snow.\nUp in my cabin\nover the valley\nUnder the blankets with you\nOo - ---ver the ocean from here.( OHH\nOOH\nOHHH Oh.)\nOo- --- ---ver the mountains from there( OHH\nOOH\nOHHH Oh.)\nPushed this old mountain range up in the sky?\nTectonic creation\nerosion\nmutation\nSomethin' to pleasure God's eye.\nThe world is wonder of lightnin' and thunder\nAnd green of the ground as we fall from the sky.\nThe old and new faces\nthe tribes and the races...\nThousands of places to try..\nOo - --- ---ver the mountains from there( OHH\nOOH\nOHHH Oh.)\nOne sits and waits while the other one wanders\nAnd squanders his time with life on the road.\nDown from the mountain\nacross the wide ocean\nThe world is in motion and cannot be slowed.\nEnough for today... the demands of the moment\nThe thing on my mind is the work in my hand.\nWood for the woodstove and water for coffee\nSomethin' I can still understand.\nWe got few friends but not many neighbors\nThe trip into town takes us most of the day.\nAnd after\n\"Hello\"\nand \"it's sure good to see you\"\nIt seems like there's nothin' to say",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 36,
+    "cleaned_lines": 43,
+    "removed_count": 6,
+    "retention_rate": 1.303030303030303,
+    "removal_reasons": {
+      "excessive_punctuation": 2,
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I'm not smart enough for this life I've been livin'\nlittle bit slow for the pace of the dream.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer feels like they don't fit in with their current life.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "It's not I'm ungrateful for all I've been given\nI wish to my soul",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "They aren't unhappy, but they wish for something else.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7
+          ],
+          "original_lyric": "I was back in Montana\nHigh on my mountain and deep in the snow.\nUp in my cabin",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "They dream of being in Montana, in the mountains and snow.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "over the valley\nUnder the blankets with you\nOo - ---ver the ocean from here.( OHH\nOOH\nOHHH Oh.)",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "love",
+          "eli5_simplification": "They imagine being with someone in the cabin, over the valley.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "original_lyric": "Oo- --- ---ver the mountains from there( OHH\nOOH\nOHHH Oh.)\nPushed this old mountain range up in the sky?\nTectonic creation",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the longing for the mountains, and then a thought about how the mountains were formed.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16,
+            17,
+            18
+          ],
+          "original_lyric": "erosion\nmutation\nSomethin' to pleasure God's eye.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the natural processes that created the mountains.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "The world is wonder of lightnin' and thunder\nAnd green of the ground as we fall from the sky.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "The world is full of wonder.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "The old and new faces\nthe tribes and the races...",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about the diversity of people.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "Thousands of places to try..",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "There are many places to experience.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "original_lyric": "Oo - --- ---ver the mountains from there( OHH\nOOH\nOHHH Oh.)\nOne sits and waits while the other one wanders\nAnd squanders his time with life on the road.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Repeating the longing for the mountains, and then a reflection on choices made.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            28,
+            29,
+            30
+          ],
+          "original_lyric": "Down from the mountain\nacross the wide ocean\nThe world is in motion and cannot be slowed.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "The world keeps moving.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31,
+            32
+          ],
+          "original_lyric": "Enough for today... the demands of the moment\nThe thing on my mind is the work in my hand.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Focusing on the present and the work at hand.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33,
+            34
+          ],
+          "original_lyric": "Wood for the woodstove and water for coffee\nSomethin' I can still understand.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "peace",
+          "emotion_secondary": null,
+          "eli5_simplification": "Finding comfort in simple tasks.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35,
+            36
+          ],
+          "original_lyric": "We got few friends but not many neighbors\nThe trip into town takes us most of the day.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Describing their current situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            37,
+            38,
+            39
+          ],
+          "original_lyric": "And after\n\"Hello\"\nand \"it's sure good to see you\"\nIt seems like there's nothin' to say",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Feeling a lack of connection.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 39,
+        "covered_lines": 39,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 39,
+      "covered_lines": 39,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I'm not smart enough for this life I've been livin'",
+            "little bit slow for the pace of the dream.",
+            "It's not I'm ungrateful for all I've been given",
+            "I wish to my soul"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            7,
+            5,
+            7,
+            2
+          ],
+          "end_words": [
+            "livin",
+            "dream",
+            "given",
+            "soul"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "livin",
+              "word2": "given",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I was back in Montana",
+            "High on my mountain and deep in the snow.",
+            "Up in my cabin",
+            "over the valley"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            4,
+            2,
+            2
+          ],
+          "end_words": [
+            "montana",
+            "snow",
+            "cabin",
+            "valley"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "montana",
+              "word2": "cabin",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "cabin",
+              "word2": "valley",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Under the blankets with you",
+            "Oo - ---ver the ocean from here.( OHH",
+            "OOH",
+            "OHHH Oh.)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            3,
+            5,
+            1,
+            2
+          ],
+          "end_words": [
+            "you",
+            "ohh",
+            "ooh",
+            "oh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "you",
+              "word2": "ooh",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "ohh",
+              "word2": "oh",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Oo- --- ---ver the mountains from there( OHH",
+            "OOH",
+            "OHHH Oh.)",
+            "Pushed this old mountain range up in the sky?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            1,
+            2,
+            6
+          ],
+          "end_words": [
+            "ohh",
+            "ooh",
+            "oh",
+            "sky"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "ohh",
+              "word2": "oh",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Tectonic creation",
+            "erosion",
+            "mutation",
+            "Somethin' to pleasure God's eye."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            1,
+            1,
+            4
+          ],
+          "end_words": [
+            "creation",
+            "erosion",
+            "mutation",
+            "eye"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "creation",
+              "word2": "mutation",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "The world is wonder of lightnin' and thunder",
+            "And green of the ground as we fall from the sky.",
+            "The old and new faces",
+            "the tribes and the races..."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            2
+          ],
+          "end_words": [
+            "thunder",
+            "sky",
+            "faces",
+            "races"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "faces",
+              "word2": "races",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Thousands of places to try..",
+            "Oo - --- ---ver the mountains from there( OHH",
+            "OOH",
+            "OHHH Oh.)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            5,
+            1,
+            2
+          ],
+          "end_words": [
+            "try",
+            "ohh",
+            "ooh",
+            "oh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "ohh",
+              "word2": "oh",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "One sits and waits while the other one wanders",
+            "And squanders his time with life on the road.",
+            "Down from the mountain",
+            "across the wide ocean"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            7,
+            4,
+            2,
+            3
+          ],
+          "end_words": [
+            "wanders",
+            "road",
+            "mountain",
+            "ocean"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "road",
+              "word2": "ocean",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (OW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "The world is in motion and cannot be slowed.",
+            "Enough for today... the demands of the moment",
+            "The thing on my mind is the work in my hand.",
+            "Wood for the woodstove and water for coffee"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "slowed",
+            "moment",
+            "hand",
+            "coffee"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "slowed",
+              "word2": "moment",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (OW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "Somethin' I can still understand.",
+            "We got few friends but not many neighbors",
+            "The trip into town takes us most of the day.",
+            "And after"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            4,
+            6,
+            6,
+            1
+          ],
+          "end_words": [
+            "understand",
+            "neighbors",
+            "day",
+            "after"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "understand",
+              "word2": "after",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "neighbors",
+              "word2": "day",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "\"Hello\"",
+            "and \"it's sure good to see you\"",
+            "It seems like there's nothin' to say"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XXX",
+          "raw_rhyme_scheme": "ABC",
+          "pattern": "3_ABB",
+          "pattern_confidence": 0.6666666666666666,
+          "stability": 0.6,
+          "stress_counts": [
+            1,
+            5,
+            5
+          ],
+          "end_words": [
+            "hello",
+            "you",
+            "say"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "XXX",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 11,
+      "total_lines": 43
+    }
+  }
+}

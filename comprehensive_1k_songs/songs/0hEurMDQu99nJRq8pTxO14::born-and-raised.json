@@ -1,0 +1,604 @@
+{
+  "song_id": "0hEurMDQu99nJRq8pTxO14::born-and-raised",
+  "title": "Born And Raised",
+  "artist": "John Mayer",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nNow and then\nI pace my place\nI can't retrace how i got here\nI cheat and lie\nTo check my fates\nIt's slightly harder than last year\nAnd all at once\nIt gets hard to take\nIt gets hard to fake what i won't be\n\n[chorus]\nI'll be born and raised\nAnd it's such waste to grow up lonely\nI still have dreams\nAnd i'm the same\nThey don't fly as high as they used to\nI saw my friend\nHe's in my head\nAnd he said, you don't remember me do you?\nAnd all at once\nIt gets hard to take\nIt gets hard to fake what i won't be\n\n[chorus]\nI'll be born and raised\nAnd it's such waste to grow up lonely\n( )\n( )\n( )\nI still got time\nI still got faith\nI call on both of my brothers\nI got mom\nI got dad\n\n[bridge]\nSo line on up\nAnd take your place\nAnd show your face to the morning\n\n[chorus]\nYou'll be born and raised\nAnd it all comes on without warning\n( )",
+  "cleaned_lyrics": "Now and then\nI pace my place\nI can't retrace how i got here\nI cheat and lie\nTo check my fates\nIt's slightly harder than last year\nAnd all at once\nIt gets hard to take\nIt gets hard to fake what i won't be\nI'll be born and raised\nAnd it's such waste to grow up lonely\nI still have dreams\nAnd i'm the same\nThey don't fly as high as they used to\nI saw my friend\nHe's in my head\nAnd he said\nyou don't remember me do you?\nAnd all at once\nIt gets hard to take\nIt gets hard to fake what i won't be\nI'll be born and raised\nAnd it's such waste to grow up lonely\nI still got time\nI still got faith\nI call on both of my brothers\nI got mom\nI got dad\nSo line on up\nAnd take your place\nAnd show your face to the morning\nYou'll be born and raised\nAnd it all comes on without warning",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 45,
+    "cleaned_lines": 33,
+    "removed_count": 5,
+    "retention_rate": 0.8048780487804879,
+    "removal_reasons": {
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Now and then\nI pace my place",
+          "plot_function": "SETUP",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is thinking about things and walking around.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I can't retrace how i got here\nI cheat and lie",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer can't remember how they got to where they are and feels bad about it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "To check my fates\nIt's slightly harder than last year",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anxiety",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is trying to figure out their future, and it's getting harder.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8,
+            9
+          ],
+          "original_lyric": "And all at once\nIt gets hard to take\nIt gets hard to fake what i won't be",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "Things are getting difficult and the singer is struggling to pretend.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "I'll be born and raised\nAnd it's such waste to grow up lonely",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer feels sad about being lonely.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "I still have dreams\nAnd i'm the same",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer still has dreams and feels like they are still the same person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "They don't fly as high as they used to\nI saw my friend",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer's dreams aren't as big as they used to be and they saw a friend.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17,
+            18
+          ],
+          "original_lyric": "He's in my head\nAnd he said\nyou don't remember me do you?",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer's friend is in their head and asks if they remember them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20,
+            21
+          ],
+          "original_lyric": "And all at once\nIt gets hard to take\nIt gets hard to fake what i won't be",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "Things are getting difficult and the singer is struggling to pretend.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "I'll be born and raised\nAnd it's such waste to grow up lonely",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer feels sad about being lonely.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "I still got time\nI still got faith",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer still has time and faith.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "I call on both of my brothers\nI got mom",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer calls on their brothers and has their mom.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28,
+            29
+          ],
+          "original_lyric": "I got dad\nSo line on up",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer has their dad and asks people to line up.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30,
+            31
+          ],
+          "original_lyric": "And take your place\nAnd show your face to the morning",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer asks people to take their place and face the morning.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32,
+            33
+          ],
+          "original_lyric": "You'll be born and raised\nAnd it all comes on without warning",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer reflects on life and how it comes without warning.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 33,
+        "covered_lines": 33,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 33,
+      "covered_lines": 33,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Now and then",
+            "I pace my place",
+            "I can't retrace how i got here",
+            "I cheat and lie"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            5,
+            2
+          ],
+          "end_words": [
+            "then",
+            "place",
+            "here",
+            "lie"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "To check my fates",
+            "It's slightly harder than last year",
+            "And all at once",
+            "It gets hard to take"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            5,
+            2,
+            3
+          ],
+          "end_words": [
+            "fates",
+            "year",
+            "once",
+            "take"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "fates",
+              "word2": "take",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "It gets hard to fake what i won't be",
+            "I'll be born and raised",
+            "And it's such waste to grow up lonely",
+            "I still have dreams"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            6,
+            3,
+            6,
+            2
+          ],
+          "end_words": [
+            "be",
+            "raised",
+            "lonely",
+            "dreams"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "be",
+              "word2": "dreams",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "And i'm the same",
+            "They don't fly as high as they used to",
+            "I saw my friend",
+            "He's in my head"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            5,
+            2,
+            2
+          ],
+          "end_words": [
+            "same",
+            "to",
+            "friend",
+            "head"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "friend",
+              "word2": "head",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "And he said",
+            "you don't remember me do you?",
+            "And all at once",
+            "It gets hard to take"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            4,
+            2,
+            3
+          ],
+          "end_words": [
+            "said",
+            "you",
+            "once",
+            "take"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "It gets hard to fake what i won't be",
+            "I'll be born and raised",
+            "And it's such waste to grow up lonely",
+            "I still got time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            3,
+            6,
+            3
+          ],
+          "end_words": [
+            "be",
+            "raised",
+            "lonely",
+            "time"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "I still got faith",
+            "I call on both of my brothers",
+            "I got mom",
+            "I got dad"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            2
+          ],
+          "end_words": [
+            "faith",
+            "brothers",
+            "mom",
+            "dad"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "So line on up",
+            "And take your place",
+            "And show your face to the morning",
+            "You'll be born and raised"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            2,
+            3,
+            3
+          ],
+          "end_words": [
+            "up",
+            "place",
+            "morning",
+            "raised"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "place",
+              "word2": "raised",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "And it all comes on without warning"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "warning"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 33
+    }
+  }
+}

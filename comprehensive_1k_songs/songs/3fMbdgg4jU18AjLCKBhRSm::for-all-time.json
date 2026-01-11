@@ -1,0 +1,876 @@
+{
+  "song_id": "3fMbdgg4jU18AjLCKBhRSm::for-all-time",
+  "title": "For All Time",
+  "artist": "Michael Jackson",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nSun comes up on this new mornin'\nShiftin' shadows, songbird sings\nAnd if these words could keep you happy\nI' do anything\nAnd if you feel alone, I'll be your shoulder\nWith the tender touch, you know so well\nSomebody once said, it's the soul that matters\n\n[bridge]\nWhen two hearts belong so well\nAnd maybe the walls will tumble\nAnd the sun refuse to shine\nWhen I say, I love you\n\n[bridge]\nThat's for all time\n\n[bridge]\nThat's for all time\nMoon shines down on this good evening\nOne warm kiss in the cold night air\nFor this good love I'm receiving\nI'll go anywhere\nJust as long as you are there\nAnd maybe the walls will tumble\nAnd the sun refuse to shine\nWhen I say, I love you\n\n[bridge]\nThat's for all time\n\n[bridge]\nThat's for all time\nAll these words that young lovers say\nAnd maybe the walls will crumble\nAnd the sun refuse to shine\nWhen I say, I need you\n\n[bridge]\nThat's for all time\n\n[bridge]\nThat's for all time\nSay that you never know\nThat's for all time\n\n[bridge]\nThat's for all time\n\n[bridge]\nThat's for all time\n\n[bridge]\nThat's for all time\nSay that you never know\nThat's for all time\n\n[bridge]\nThat's for all time",
+  "cleaned_lyrics": "Sun comes up on this new mornin'\nShiftin' shadows\nsongbird sings\nAnd if these words could keep you happy\nI' do anything\nAnd if you feel alone\nI'll be your shoulder\nWith the tender touch\nyou know so well\nSomebody once said\nit's the soul that matters\nWhen two hearts belong so well\nAnd maybe the walls will tumble\nAnd the sun refuse to shine\nWhen I say\nI love you\nThat's for all time\nThat's for all time\nMoon shines down on this good evening\nOne warm kiss in the cold night air\nFor this good love I'm receiving\nI'll go anywhere\nJust as long as you are there\nAnd maybe the walls will tumble\nAnd the sun refuse to shine\nWhen I say\nI love you\nThat's for all time\nThat's for all time\nAll these words that young lovers say\nAnd maybe the walls will crumble\nAnd the sun refuse to shine\nWhen I say\nI need you\nThat's for all time\nThat's for all time\nSay that you never know\nThat's for all time\nThat's for all time\nThat's for all time\nThat's for all time\nSay that you never know\nThat's for all time\nThat's for all time",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 60,
+    "cleaned_lines": 44,
+    "removed_count": 12,
+    "retention_rate": 0.8979591836734694,
+    "removal_reasons": {
+      "section_marker": 12
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Sun comes up on this new mornin'\nShiftin' shadows",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The day is starting, and things are changing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "songbird sings",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "A bird is singing a happy song.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "And if these words could keep you happy\nI' do anything",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants to make someone happy and will do anything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "And if you feel alone\nI'll be your shoulder",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "comfort",
+          "eli5_simplification": "The singer will be there for someone who is feeling lonely.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "With the tender touch",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "A gentle touch.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "you know so well",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person knows the touch well.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "Somebody once said",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone said something important.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "it's the soul that matters",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "What's inside is what's important.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "When two hearts belong so well",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "When two people love each other.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14,
+            15
+          ],
+          "original_lyric": "And maybe the walls will tumble\nAnd the sun refuse to shine\nWhen I say",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Even if bad things happen, the singer will say something important.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "I love you",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer says 'I love you'.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "That's for all time\nThat's for all time",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The love will last forever.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "Moon shines down on this good evening\nOne warm kiss in the cold night air",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The evening is nice, and there's a kiss.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "For this good love I'm receiving\nI'll go anywhere",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is happy to be loved and will go anywhere.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "Just as long as you are there",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer just wants the other person to be there.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25,
+            26
+          ],
+          "original_lyric": "And maybe the walls will tumble\nAnd the sun refuse to shine\nWhen I say",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Even if bad things happen, the singer will say something important.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "I love you",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer says 'I love you'.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28,
+            29
+          ],
+          "original_lyric": "That's for all time\nThat's for all time",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The love will last forever.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "All these words that young lovers say",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "Young lovers say these words.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31,
+            32,
+            33
+          ],
+          "original_lyric": "And maybe the walls will crumble\nAnd the sun refuse to shine\nWhen I say",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Even if bad things happen, the singer will say something important.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34
+          ],
+          "original_lyric": "I need you",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer says 'I need you'.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35,
+            36
+          ],
+          "original_lyric": "That's for all time\nThat's for all time",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The love will last forever.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            37,
+            38
+          ],
+          "original_lyric": "Say that you never know\nThat's for all time",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "You never know, but it's for all time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            39,
+            40,
+            41,
+            42
+          ],
+          "original_lyric": "That's for all time\nThat's for all time\nThat's for all time\nThat's for all time",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "The love will last forever.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            43,
+            44
+          ],
+          "original_lyric": "Say that you never know\nThat's for all time",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "You never know, but it's for all time.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 44,
+        "covered_lines": 44,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 44,
+      "covered_lines": 44,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Sun comes up on this new mornin'",
+            "Shiftin' shadows",
+            "songbird sings",
+            "And if these words could keep you happy"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            2,
+            2,
+            4
+          ],
+          "end_words": [
+            "mornin",
+            "shadows",
+            "sings",
+            "happy"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "shadows",
+              "word2": "happy",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AE), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I' do anything",
+            "And if you feel alone",
+            "I'll be your shoulder",
+            "With the tender touch"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "end_words": [
+            "anything",
+            "alone",
+            "shoulder",
+            "touch"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "alone",
+              "word2": "shoulder",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (OW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "you know so well",
+            "Somebody once said",
+            "it's the soul that matters",
+            "When two hearts belong so well"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            4,
+            3,
+            5
+          ],
+          "end_words": [
+            "well",
+            "said",
+            "matters",
+            "well"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "well",
+              "word2": "well",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "And maybe the walls will tumble",
+            "And the sun refuse to shine",
+            "When I say",
+            "I love you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            2
+          ],
+          "end_words": [
+            "tumble",
+            "shine",
+            "say",
+            "you"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "That's for all time",
+            "That's for all time",
+            "Moon shines down on this good evening",
+            "One warm kiss in the cold night air"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            3,
+            5,
+            6
+          ],
+          "end_words": [
+            "time",
+            "time",
+            "evening",
+            "air"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "time",
+              "word2": "time",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "For this good love I'm receiving",
+            "I'll go anywhere",
+            "Just as long as you are there",
+            "And maybe the walls will tumble"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "receiving",
+            "anywhere",
+            "there",
+            "tumble"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "anywhere",
+              "word2": "there",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "And the sun refuse to shine",
+            "When I say",
+            "I love you",
+            "That's for all time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            2,
+            2,
+            3
+          ],
+          "end_words": [
+            "shine",
+            "say",
+            "you",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "shine",
+              "word2": "time",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "That's for all time",
+            "All these words that young lovers say",
+            "And maybe the walls will crumble",
+            "And the sun refuse to shine"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            5,
+            3,
+            3
+          ],
+          "end_words": [
+            "time",
+            "say",
+            "crumble",
+            "shine"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "time",
+              "word2": "shine",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "When I say",
+            "I need you",
+            "That's for all time",
+            "That's for all time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            2,
+            3,
+            3
+          ],
+          "end_words": [
+            "say",
+            "you",
+            "time",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "time",
+              "word2": "time",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "Say that you never know",
+            "That's for all time",
+            "That's for all time",
+            "That's for all time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "know",
+            "time",
+            "time",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "time",
+              "word2": "time",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "time",
+              "word2": "time",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "That's for all time",
+            "Say that you never know",
+            "That's for all time",
+            "That's for all time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "time",
+            "know",
+            "time",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "time",
+              "word2": "time",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "time",
+              "word2": "time",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "chorus",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        }
+      ],
+      "total_stanzas": 11,
+      "total_lines": 44
+    }
+  }
+}

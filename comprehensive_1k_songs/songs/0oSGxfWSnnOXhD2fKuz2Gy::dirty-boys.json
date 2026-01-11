@@ -1,0 +1,439 @@
+{
+  "song_id": "0oSGxfWSnnOXhD2fKuz2Gy::dirty-boys",
+  "title": "Dirty Boys",
+  "artist": "David Bowie",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nSomething like Tobacco Road\nLiving on lonely road\nI will pull you out of there\nWe will go to Finchley Fair\nI will buy you feather hat\nI will steal cricket bat\nSmash some windows, make noise\nWe will run with dirty boys\nWhen the sun goes down\nWhen the sun goes down and the die is cast\nWhen the die is cast and you have no choice\nWe will run with dirty boys\nWe all go mad we all want you\nMe and the boys we all go through\nYou've got to learn to hold your tongue\nThis ain't the moon this is burnin' sun\nWhen the sun goes down\nWhen the sun goes down and the die is cast\nWhen the die is cast and you have no choice\nWe will run with dirty boys\nSolo:",
+  "cleaned_lyrics": "Something like Tobacco Road\nLiving on lonely road\nI will pull you out of there\nWe will go to Finchley Fair\nI will buy you feather hat\nI will steal cricket bat\nSmash some windows\nmake noise\nWe will run with dirty boys\nWhen the sun goes down\nWhen the sun goes down and the die is cast\nWhen the die is cast and you have no choice\nWe will run with dirty boys\nWe all go mad we all want you\nMe and the boys we all go through\nYou've got to learn to hold your tongue\nThis ain't the moon this is burnin' sun\nWhen the sun goes down\nWhen the sun goes down and the die is cast\nWhen the die is cast and you have no choice\nWe will run with dirty boys",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 22,
+    "cleaned_lines": 21,
+    "removed_count": 2,
+    "retention_rate": 0.9545454545454546,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Something like Tobacco Road\nLiving on lonely road",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts by describing a place that feels sad and lonely.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I will pull you out of there\nWe will go to Finchley Fair",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "excitement",
+          "eli5_simplification": "Someone promises to take you away from the sad place and go to a fun place.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "I will buy you feather hat\nI will steal cricket bat",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "rebellion",
+          "eli5_simplification": "They're going to buy fun things and maybe do some mischievous things.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Smash some windows\nmake noise\nWe will run with dirty boys",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "rebellion",
+          "eli5_simplification": "They're going to break things and make noise with the 'dirty boys'.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "When the sun goes down\nWhen the sun goes down and the die is cast",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "When it gets dark, something important will happen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "When the die is cast and you have no choice\nWe will run with dirty boys",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "rebellion",
+          "eli5_simplification": "When the decision is made, they will run with the 'dirty boys'.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "We all go mad we all want you\nMe and the boys we all go through",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "Everyone is going crazy and wants you, and they're all going through something together.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "You've got to learn to hold your tongue\nThis ain't the moon this is burnin' sun",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "warning",
+          "eli5_simplification": "You need to be quiet, this is serious.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "When the sun goes down\nWhen the sun goes down and the die is cast",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "When it gets dark, something important will happen.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "When the die is cast and you have no choice\nWe will run with dirty boys",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "rebellion",
+          "eli5_simplification": "When the decision is made, they will run with the 'dirty boys'.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Something like Tobacco Road",
+            "Living on lonely road",
+            "I will pull you out of there",
+            "We will go to Finchley Fair"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "road",
+            "road",
+            "there",
+            "fair"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "road",
+              "word2": "road",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "there",
+              "word2": "fair",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I will buy you feather hat",
+            "I will steal cricket bat",
+            "Smash some windows",
+            "make noise"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "hat",
+            "bat",
+            "windows",
+            "noise"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "hat",
+              "word2": "bat",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "We will run with dirty boys",
+            "When the sun goes down",
+            "When the sun goes down and the die is cast",
+            "When the die is cast and you have no choice"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            4,
+            6,
+            5
+          ],
+          "end_words": [
+            "boys",
+            "down",
+            "cast",
+            "choice"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "boys",
+              "word2": "choice",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (OY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "We will run with dirty boys",
+            "We all go mad we all want you",
+            "Me and the boys we all go through",
+            "You've got to learn to hold your tongue"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            6,
+            4,
+            5
+          ],
+          "end_words": [
+            "boys",
+            "you",
+            "through",
+            "tongue"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "you",
+              "word2": "through",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "This ain't the moon this is burnin' sun",
+            "When the sun goes down",
+            "When the sun goes down and the die is cast",
+            "When the die is cast and you have no choice"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            6,
+            5
+          ],
+          "end_words": [
+            "sun",
+            "down",
+            "cast",
+            "choice"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "We will run with dirty boys"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3
+          ],
+          "end_words": [
+            "boys"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "chorus",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 21
+    }
+  }
+}

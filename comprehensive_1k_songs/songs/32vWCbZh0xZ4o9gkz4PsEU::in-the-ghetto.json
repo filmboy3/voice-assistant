@@ -1,0 +1,434 @@
+{
+  "song_id": "32vWCbZh0xZ4o9gkz4PsEU::in-the-ghetto",
+  "title": "In The Ghetto",
+  "artist": "Dolly Parton",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nAs the snow flies\nOn cold and gray Chicago morn\npoor little baby child is born in the ghetto\nAnd his momma cries\n\n[chorus]\nIt's another little hungry mouth to feed in the ghetto\nPeople can't you understand the child needs helping hand\nHe'll grow to be an angry young man someday\nTake look at you and me are we too blind to see\nDo we simply turn our heads and look the other way\nWhile the world turns\nhungry little boy with running nose\nPlays in the streets as the cold wind blows in the ghetto\nAnd his hunger burns\nSo he starts to roam the streets at night\nAnd he learns how to steal and he learns how to fight in the ghetto\nAnd then one night in desperation the young man breaks away\nAnd he buys gun and he steals car tries to run but don't get far\nAnd his momma cries\nAs crowd gathers round an angry young man\nPaces down the street with gun in his hand in the ghetto\nAnd the young man dies\nOn cold and gray Chicago morn\nAnother little baby child is born in the Ghetto\nAnd his momma cries",
+  "cleaned_lyrics": "As the snow flies\nOn cold and gray Chicago morn\nAnd his momma cries\nIt's another little hungry mouth to feed in the ghetto\nPeople can't you understand\nthe child needs helping hand\nHe'll grow to be an angry young man someday\nTake look at you and me are we too blind to see\nDo we simply turn our heads and look the other way\nWhile the world turns\nhungry little boy with running nose\nPlays in the streets as the cold wind blows in the ghetto\nAnd his hunger burns\nSo he starts to roam the streets at night\nAnd he learns how to steal and he learns how to fight in the ghetto\nAnd then one night in desperation the young man breaks away\nAnd he buys gun and he steals\ncar tries to run but don't get far\nAnd his momma cries\nAs crowd gathers round an angry young man\nPaces down the street with gun in his hand in the ghetto\nAnd the young man dies\nOn cold and gray Chicago morn\nAnd his momma cries",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 27,
+    "cleaned_lines": 24,
+    "removed_count": 4,
+    "retention_rate": 0.9230769230769231,
+    "removal_reasons": {
+      "section_marker": 2,
+      "credits_metadata": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "As the snow flies\nOn cold and gray Chicago morn",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's a cold morning in Chicago.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4,
+            5
+          ],
+          "original_lyric": "And his momma cries\nIt's another little hungry mouth to feed in the ghetto\nPeople can't you understand",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "A mother is sad because there's another hungry baby in the poor part of town.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "the child needs helping hand\nHe'll grow to be an angry young man someday",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The child needs help, or he'll become an angry man.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "Take look at you and me are we too blind to see\nDo we simply turn our heads and look the other way",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "Are we ignoring the problem?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "While the world turns",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The world keeps going, even with the problems.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12,
+            13
+          ],
+          "original_lyric": "hungry little boy with running nose\nPlays in the streets as the cold wind blows in the ghetto\nAnd his hunger burns",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "A hungry boy plays in the cold streets.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15,
+            16
+          ],
+          "original_lyric": "So he starts to roam the streets at night\nAnd he learns how to steal and he learns how to fight in the ghetto\nAnd then one night in desperation the young man breaks away",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The boy starts stealing and fighting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18,
+            19
+          ],
+          "original_lyric": "And he buys gun and he steals\ncar tries to run but don't get far\nAnd his momma cries",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "He gets a gun and tries to escape, but fails.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21,
+            22
+          ],
+          "original_lyric": "As crowd gathers round an angry young man\nPaces down the street with gun in his hand in the ghetto\nAnd the young man dies",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The young man is surrounded and dies.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "On cold and gray Chicago morn\nAnd his momma cries",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's a cold morning, and his mother cries.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 24,
+        "covered_lines": 24,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 24,
+      "covered_lines": 24,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "As the snow flies",
+            "On cold and gray Chicago morn",
+            "And his momma cries",
+            "It's another little hungry mouth to feed in the ghetto"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            4,
+            2,
+            7
+          ],
+          "end_words": [
+            "flies",
+            "morn",
+            "cries",
+            "ghetto"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "flies",
+              "word2": "cries",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "People can't you understand",
+            "the child needs helping hand",
+            "He'll grow to be an angry young man someday",
+            "Take look at you and me are we too blind to see"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            6,
+            5
+          ],
+          "end_words": [
+            "understand",
+            "hand",
+            "someday",
+            "see"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "understand",
+              "word2": "hand",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Do we simply turn our heads and look the other way",
+            "While the world turns",
+            "hungry little boy with running nose",
+            "Plays in the streets as the cold wind blows in the ghetto"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            3,
+            5,
+            6
+          ],
+          "end_words": [
+            "way",
+            "turns",
+            "nose",
+            "ghetto"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "And his hunger burns",
+            "So he starts to roam the streets at night",
+            "And he learns how to steal and he learns how to fight in the ghetto",
+            "And then one night in desperation the young man breaks away"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            4,
+            7,
+            7
+          ],
+          "end_words": [
+            "burns",
+            "night",
+            "ghetto",
+            "away"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "And he buys gun and he steals",
+            "car tries to run but don't get far",
+            "And his momma cries",
+            "As crowd gathers round an angry young man"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            6,
+            2,
+            6
+          ],
+          "end_words": [
+            "steals",
+            "far",
+            "cries",
+            "man"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Paces down the street with gun in his hand in the ghetto",
+            "And the young man dies",
+            "On cold and gray Chicago morn",
+            "And his momma cries"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            6,
+            3,
+            4,
+            2
+          ],
+          "end_words": [
+            "ghetto",
+            "dies",
+            "morn",
+            "cries"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "dies",
+              "word2": "cries",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 24
+    }
+  }
+}

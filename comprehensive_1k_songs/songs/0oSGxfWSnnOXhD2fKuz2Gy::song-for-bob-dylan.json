@@ -1,0 +1,815 @@
+{
+  "song_id": "0oSGxfWSnnOXhD2fKuz2Gy::song-for-bob-dylan",
+  "title": "Song For Bob Dylan",
+  "artist": "David Bowie",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nAh hear this Robert Zimmerman\nI wrote song for you\nAbout strange young man called Dylan\nWith voice like sand and glue\nSome words had truthful vengeance\nThat could pin us to the floor\n\n[bridge]\nAnd put the fear in whole lot more\nAh here she comes here she comes here she comes again\nThat same old painted lady\nFrom the brow of the superbrain\nShe'll scratch this world to pieces\nAs she comes on like friend\n\n[chorus]\nYou gave your heart to every bedsit room\nAt least picture on the wall\nAnd you sat behind million pair of eyes\nAnd told them how they saw\nThen we lost your train of thought\nYour paintings are all your own\nWhile troubles are rising\nWe' rather be scared together than alone\nNow hear this Robert Zimmerman\nThough I don't suppose we'll meet\nAsk your good friend Dylan\nIf he' gaze while down the old street\nTell him we've lost his poems\nSo we're writing on the walls\nGive us back our unity\nGive us back our family\nYou're every nations refugee\nDon't leave us with our sanity\nAh here she comes here she comes here she comes again\nThat same old painted lady\nFrom the brow of the superbrain\nShe'll scratch this world to pieces\nAs she comes on like friend\n\n[chorus]\nOh couple of songs from your old scrap book\n\n[chorus]\nOh here she comes\nOoh here she comes\nAnd here she comes",
+  "cleaned_lyrics": "Ah hear this Robert Zimmerman\nI wrote song for you\nAbout strange young man called Dylan\nWith voice like sand and glue\nSome words had truthful vengeance\nThat could pin us to the floor\nAnd put the fear in whole lot more\nAh here she comes here\nshe comes here she comes again\nThat same old painted lady\nFrom the brow of the superbrain\nShe'll scratch this world to pieces\nAs she comes on like friend\nYou gave your heart to every bedsit room\nAt least picture on the wall\nAnd you sat behind million pair of eyes\nAnd told them how they saw\nThen we lost your train of thought\nYour paintings are all your own\nWhile troubles are rising\nWe' rather be scared together than alone\nNow hear this Robert Zimmerman\nThough I don't suppose we'll meet\nAsk your good friend Dylan\nIf he' gaze while down the old street\nTell him we've lost his poems\nSo we're writing on the walls\nGive us back our unity\nGive us back our family\nYou're every nations refugee\nDon't leave us with our sanity\nAh here she comes here\nshe comes here she comes again\nThat same old painted lady\nFrom the brow of the superbrain\nShe'll scratch this world to pieces\nAs she comes on like friend\nOh couple of songs from your old scrap book\nOh here she comes\nOoh here she comes\nAnd here she comes",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 48,
+    "cleaned_lines": 41,
+    "removed_count": 5,
+    "retention_rate": 0.9318181818181818,
+    "removal_reasons": {
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Ah hear this Robert Zimmerman\nI wrote song for you",
+          "plot_function": "SETUP",
+          "emotion_primary": "respect",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is talking to Bob Dylan and saying he wrote a song for him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "About strange young man called Dylan\nWith voice like sand and glue",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song is about Dylan, who has a unique voice.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7
+          ],
+          "original_lyric": "Some words had truthful vengeance\nThat could pin us to the floor\nAnd put the fear in whole lot more",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "awe",
+          "eli5_simplification": "Dylan's words were powerful and made people feel afraid.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10
+          ],
+          "original_lyric": "Ah here she comes here\nshe comes here she comes again\nThat same old painted lady",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Something is coming again, like a recurring event or person.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "From the brow of the superbrain",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "mystery",
+          "emotion_secondary": null,
+          "eli5_simplification": "This 'painted lady' comes from a place of great intelligence.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "She'll scratch this world to pieces",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The 'painted lady' will destroy the world.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "As she comes on like friend",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "suspicion",
+          "emotion_secondary": null,
+          "eli5_simplification": "She appears friendly but is dangerous.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "You gave your heart to every bedsit room\nAt least picture on the wall",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "admiration",
+          "emotion_secondary": null,
+          "eli5_simplification": "Dylan connected with people in their homes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "And you sat behind million pair of eyes\nAnd told them how they saw",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "admiration",
+          "emotion_secondary": null,
+          "eli5_simplification": "Dylan helped people understand themselves.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "Then we lost your train of thought\nYour paintings are all your own",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Dylan's message is lost, but his art remains.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "While troubles are rising\nWe' rather be scared together than alone",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "solidarity",
+          "eli5_simplification": "Facing problems together is better than being alone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "Now hear this Robert Zimmerman\nThough I don't suppose we'll meet",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is still talking to Dylan, even if they won't meet.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "Ask your good friend Dylan\nIf he' gaze while down the old street",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants Dylan to ask his friend about something.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "Tell him we've lost his poems\nSo we're writing on the walls",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "Dylan's poems are lost, so people are expressing themselves.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28,
+            29
+          ],
+          "original_lyric": "Give us back our unity\nGive us back our family",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer wants to feel connected again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "You're every nations refugee",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "admiration",
+          "emotion_secondary": null,
+          "eli5_simplification": "Dylan is a wanderer, belonging to everyone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "Don't leave us with our sanity",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "pleading",
+          "eli5_simplification": "The singer is afraid of losing their minds.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32,
+            33,
+            34
+          ],
+          "original_lyric": "Ah here she comes here\nshe comes here she comes again\nThat same old painted lady",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Something is coming again, like a recurring event or person.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            35
+          ],
+          "original_lyric": "From the brow of the superbrain",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "mystery",
+          "emotion_secondary": null,
+          "eli5_simplification": "This 'painted lady' comes from a place of great intelligence.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            36
+          ],
+          "original_lyric": "She'll scratch this world to pieces",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The 'painted lady' will destroy the world.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            37
+          ],
+          "original_lyric": "As she comes on like friend",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "suspicion",
+          "emotion_secondary": null,
+          "eli5_simplification": "She appears friendly but is dangerous.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            38
+          ],
+          "original_lyric": "Oh couple of songs from your old scrap book",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is remembering Dylan's old songs.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            39
+          ],
+          "original_lyric": "Oh here she comes",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Something is coming.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            40
+          ],
+          "original_lyric": "Ooh here she comes",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Something is coming.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            41
+          ],
+          "original_lyric": "And here she comes",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Something is coming.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 41,
+        "covered_lines": 41,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 41,
+      "covered_lines": 41,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Ah hear this Robert Zimmerman",
+            "I wrote song for you",
+            "About strange young man called Dylan",
+            "With voice like sand and glue"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            4,
+            3,
+            6,
+            4
+          ],
+          "end_words": [
+            "zimmerman",
+            "you",
+            "dylan",
+            "glue"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "zimmerman",
+              "word2": "dylan",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "you",
+              "word2": "glue",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Some words had truthful vengeance",
+            "That could pin us to the floor",
+            "And put the fear in whole lot more",
+            "Ah here she comes here"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            2,
+            5,
+            4
+          ],
+          "end_words": [
+            "vengeance",
+            "floor",
+            "more",
+            "here"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "floor",
+              "word2": "more",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "she comes here she comes again",
+            "That same old painted lady",
+            "From the brow of the superbrain",
+            "She'll scratch this world to pieces"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            2,
+            4
+          ],
+          "end_words": [
+            "again",
+            "lady",
+            "superbrain",
+            "pieces"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "As she comes on like friend",
+            "You gave your heart to every bedsit room",
+            "At least picture on the wall",
+            "And you sat behind million pair of eyes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            5,
+            3,
+            5
+          ],
+          "end_words": [
+            "friend",
+            "room",
+            "wall",
+            "eyes"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "And told them how they saw",
+            "Then we lost your train of thought",
+            "Your paintings are all your own",
+            "While troubles are rising"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "saw",
+            "thought",
+            "own",
+            "rising"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "saw",
+              "word2": "thought",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AO), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "We' rather be scared together than alone",
+            "Now hear this Robert Zimmerman",
+            "Though I don't suppose we'll meet",
+            "Ask your good friend Dylan"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            4,
+            5,
+            4
+          ],
+          "end_words": [
+            "alone",
+            "zimmerman",
+            "meet",
+            "dylan"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "zimmerman",
+              "word2": "dylan",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "If he' gaze while down the old street",
+            "Tell him we've lost his poems",
+            "So we're writing on the walls",
+            "Give us back our unity"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            4,
+            3,
+            3
+          ],
+          "end_words": [
+            "street",
+            "poems",
+            "walls",
+            "unity"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Give us back our family",
+            "You're every nations refugee",
+            "Don't leave us with our sanity",
+            "Ah here she comes here"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            4
+          ],
+          "end_words": [
+            "family",
+            "refugee",
+            "sanity",
+            "here"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "family",
+              "word2": "sanity",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AE), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "she comes here she comes again",
+            "That same old painted lady",
+            "From the brow of the superbrain",
+            "She'll scratch this world to pieces"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            2,
+            4
+          ],
+          "end_words": [
+            "again",
+            "lady",
+            "superbrain",
+            "pieces"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "As she comes on like friend",
+            "Oh couple of songs from your old scrap book",
+            "Oh here she comes",
+            "Ooh here she comes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            6,
+            3,
+            3
+          ],
+          "end_words": [
+            "friend",
+            "book",
+            "comes",
+            "comes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "comes",
+              "word2": "comes",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "And here she comes"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2
+          ],
+          "end_words": [
+            "comes"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 11,
+      "total_lines": 41
+    }
+  }
+}

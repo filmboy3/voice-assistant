@@ -1,0 +1,739 @@
+{
+  "song_id": "6Q192DXotxtaysaqNPy5yR::some-unholy-war",
+  "title": "Some Unholy War",
+  "artist": "Amy Winehouse",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\n(Bass):\n(n.)\n\n[verse]\nIf my man was fighting,\nSome unholy war,\nI would be be-hind him.\nStraight, shook up,\n\n[bridge]\nWith strength,\nHe didn't know,\nIt's you I'm fighting for.\n\n[chorus]\nHe can't lose,\nWith me in tow,\nI refuse,\nTo let him go.\nAt his side,\nAnd drunk on pride,\nWe wait for the blo-ow.\n\n[verse]\nWe put it in writing,\n\n[bridge]\nJust us on kitchen floor.\nJustice done,\nReciting,\nMy stomach standing still,\nLike you're reading my will.\n\n[chorus]\nHe still stands,\n\n[intro]\nHis scars say,\nI'll battle till,\nThis bitter finale.\nJust me, my dignity,\nAnd this guitar case.\n\n[verse]\nIf, if my man is fighting,\nSome un-holy war,\nAnd I will stand beside you.\n\n[bridge]\n, I would have died too;\nI' of liked to.\n\n[chorus]\nIf my man,\nWas fight-ing,\nSome un-holy war.\nIf my man was fighting.",
+  "cleaned_lyrics": "If my man was fighting\nSome unholy war\nI would be be-hind him.\nStraight\nshook up\nWith strength\nHe didn't know\nIt's you I'm fighting for.\nHe can't lose\nWith me in tow\nI refuse\nTo let him go.\nAt his side\nAnd drunk on pride\nWe wait for the blo-ow.\nWe put it in writing\nJust us on kitchen floor.\nJustice done\nReciting\nMy stomach standing still\nLike you're reading my will.\nHe still stands\nHis scars say\nI'll battle till\nThis bitter finale.\nJust me\nmy dignity\nAnd this guitar case.\nIf\nif my man is fighting\nSome un-holy war\nAnd I will stand beside you.\nI would have died too\nI' of liked to.\nIf my man\nWas fight-ing\nSome un-holy war.\nIf my man was fighting.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 58,
+    "cleaned_lines": 38,
+    "removed_count": 13,
+    "retention_rate": 0.7916666666666666,
+    "removal_reasons": {
+      "low_letter_ratio": 1,
+      "artist_annotation": 1,
+      "section_marker": 11
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "If my man was fighting\nSome unholy war",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is imagining her man in a war.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "I would be be-hind him.",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "She would support him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5,
+            6
+          ],
+          "original_lyric": "Straight\nshook up\nWith strength",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "She is scared but also hopeful.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "He didn't know",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "He doesn't know what's coming.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "It's you I'm fighting for.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "She is fighting for him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11
+          ],
+          "original_lyric": "He can't lose\nWith me in tow\nI refuse",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": "love",
+          "eli5_simplification": "She won't let him lose.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13,
+            14
+          ],
+          "original_lyric": "To let him go.\nAt his side\nAnd drunk on pride",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "pride",
+          "emotion_secondary": "love",
+          "eli5_simplification": "She is proud to be by his side.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "We wait for the blo-ow.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anticipation",
+          "eli5_simplification": "They are waiting for the fight.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "We put it in writing\nJust us on kitchen floor.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "They made a promise.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "Justice done\nReciting",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are hoping for justice.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "My stomach standing still",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "She is very nervous.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Like you're reading my will.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "It feels like her life is on the line.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "He still stands\nHis scars say",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "pride",
+          "eli5_simplification": "He is still fighting, despite his wounds.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "I'll battle till",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "He will fight until the end.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "This bitter finale.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The end will be sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27,
+            28
+          ],
+          "original_lyric": "Just me\nmy dignity\nAnd this guitar case.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "She is left alone with her guitar.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "If\nif my man is fighting",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the beginning.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "Some un-holy war",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the beginning.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "And I will stand beside you.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "She will stand by him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33,
+            34
+          ],
+          "original_lyric": "I would have died too\nI' of liked to.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "She wishes she could have died with him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35,
+            36,
+            37
+          ],
+          "original_lyric": "If my man\nWas fight-ing\nSome un-holy war.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the beginning.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            38
+          ],
+          "original_lyric": "If my man was fighting.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Repeating the beginning.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 38,
+        "covered_lines": 38,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 38,
+      "covered_lines": 38,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "If my man was fighting",
+            "Some unholy war",
+            "I would be be-hind him.",
+            "Straight"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            1
+          ],
+          "end_words": [
+            "fighting",
+            "war",
+            "him",
+            "straight"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "shook up",
+            "With strength",
+            "He didn't know",
+            "It's you I'm fighting for."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            1,
+            2,
+            4
+          ],
+          "end_words": [
+            "up",
+            "strength",
+            "know",
+            "for"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "He can't lose",
+            "With me in tow",
+            "I refuse",
+            "To let him go."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "end_words": [
+            "lose",
+            "tow",
+            "refuse",
+            "go"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "lose",
+              "word2": "refuse",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "tow",
+              "word2": "go",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "At his side",
+            "And drunk on pride",
+            "We wait for the blo-ow.",
+            "We put it in writing"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            1,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "side",
+            "pride",
+            "ow",
+            "writing"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "side",
+              "word2": "pride",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "pride",
+              "word2": "writing",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Just us on kitchen floor.",
+            "Justice done",
+            "Reciting",
+            "My stomach standing still"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            1,
+            3
+          ],
+          "end_words": [
+            "floor",
+            "done",
+            "reciting",
+            "still"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Like you're reading my will.",
+            "He still stands",
+            "His scars say",
+            "I'll battle till"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            2,
+            2,
+            3
+          ],
+          "end_words": [
+            "will",
+            "stands",
+            "say",
+            "till"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "will",
+              "word2": "till",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "This bitter finale.",
+            "Just me",
+            "my dignity",
+            "And this guitar case."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            1,
+            2
+          ],
+          "end_words": [
+            "finale",
+            "me",
+            "dignity",
+            "case"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "If",
+            "if my man is fighting",
+            "Some un-holy war",
+            "And I will stand beside you."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            3,
+            4,
+            3
+          ],
+          "end_words": [
+            "if",
+            "fighting",
+            "war",
+            "you"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "I would have died too",
+            "I' of liked to.",
+            "If my man",
+            "Was fight-ing"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "too",
+            "to",
+            "man",
+            "ing"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "too",
+              "word2": "to",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "Some un-holy war.",
+            "If my man was fighting."
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            4,
+            3
+          ],
+          "end_words": [
+            "war",
+            "fighting"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 10,
+      "total_lines": 38
+    }
+  }
+}

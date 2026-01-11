@@ -1,0 +1,1005 @@
+{
+  "song_id": "6tbjWDEIzxoDsBA1FuhfPW::love-tried-to-welcome-me",
+  "title": "Love Tried To Welcome me",
+  "artist": "Madonna",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThese are my hands\n\n[bridge]\nThese are my eyes\n\n[bridge]\nThese are my arms\n\n[bridge]\nAnd I must confess\nThat I usually\ndrawn to sadness\nAnd loneliness has never been\nstranger to me, but\n(REFRAO)\nLove tried to welcome me\n\n[bridge]\nGuilty of lust and sin\nlove tried to take me in\nThese are my lips\n\n[bridge]\nThis is my voice\n\n[bridge]\nI know how to laugh\n\n[bridge]\nAnd I must confess\n\n[intro]\nAnd my heart has always been\nlonely hunter, but still\n(Refrao)\nLove tried to welcome me\n\n[bridge]\nI was covered with dust and sin\nLove tried to take me in\nLove tried to break me...\nAnd I must confess\n\n[intro]\nAnd my heart has always been\nlonely hunter, but still\nLove tried to welcome me\n\n[bridge]\nI was guilty of lust and sin\nLove tried to take me in\nLove tried to welcome me\n\n[chorus]\nLove tried to take me in\nLove tried to break me...\n(Love tried to break me)\nLove tried to welcome me\n\n[bridge]\nGuilty of lust and sin\n(I was covered with dust,\n\n[chorus]\nLove tried to take me in\n(Covered)\nStill,\nlove tried to welcome me\n\n[bridge]\n(Guilty of lust and sin)\n\n[chorus]\nLove tried to take me in\n(Love tried to break me)\nLove tried to welcome me\n(Love tried to welcome me)\n\n[bridge]\nGuilty of lust and sin\n(But my soul drew back)\nLove tried to take me in\n(I was covered with sadness)\nLove tried to welcome me",
+  "cleaned_lyrics": "These are my hands\nThese are my eyes\nThese are my arms\nAnd I must confess\nThat I usually\ndrawn to sadness\nAnd loneliness has never been\nstranger to me\nbut\nLove tried to welcome me\nGuilty of lust and sin\nlove tried to take me in\nThese are my lips\nThis is my voice\nI know how to laugh\nAnd I must confess\nAnd my heart has always been\nlonely hunter\nbut still\nLove tried to welcome me\nI was covered with dust and sin\nLove tried to take me in\nLove tried to break me...\nAnd I must confess\nAnd my heart has always been\nlonely hunter\nbut still\nLove tried to welcome me\nI was guilty of lust and sin\nLove tried to take me in\nLove tried to welcome me\nLove tried to take me in\nLove tried to break me...\nLove tried to welcome me\nGuilty of lust and sin\n(I was covered with dust\nLove tried to take me in\nStill\nlove tried to welcome me\nLove tried to take me in\nLove tried to welcome me\nGuilty of lust and sin\nLove tried to take me in\nLove tried to welcome me",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 85,
+    "cleaned_lines": 44,
+    "removed_count": 27,
+    "retention_rate": 0.6470588235294118,
+    "removal_reasons": {
+      "artist_annotation": 9,
+      "section_marker": 18
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3
+          ],
+          "original_lyric": "These are my hands\nThese are my eyes\nThese are my arms",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is introducing herself.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5,
+            6
+          ],
+          "original_lyric": "And I must confess\nThat I usually\ndrawn to sadness",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer admits she's often sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "And loneliness has never been\nstranger to me",
+          "plot_function": "SETUP",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "She's used to being lonely.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "but",
+          "plot_function": "TRANSITION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "A change is coming.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "Love tried to welcome me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Love offered her a chance.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Guilty of lust and sin",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "guilt",
+          "eli5_simplification": "She feels bad about her past.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "love tried to take me in",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Love wanted to accept her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "These are my lips\nThis is my voice",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "More self-introduction.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "I know how to laugh",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "She can be happy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "And I must confess",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Another confession.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "And my heart has always been",
+          "plot_function": "SETUP",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Her heart has always been lonely.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "lonely hunter",
+          "plot_function": "SETUP",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "She's a lonely person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "but still",
+          "plot_function": "TRANSITION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Despite her loneliness...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Love tried to welcome me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Love offered her a chance.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "I was covered with dust and sin",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "guilt",
+          "eli5_simplification": "She feels bad about her past.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "Love tried to take me in",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Love wanted to accept her.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "Love tried to break me...",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Love tried to change her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "And I must confess",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Another confession.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "And my heart has always been",
+          "plot_function": "SETUP",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Her heart has always been lonely.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "lonely hunter",
+          "plot_function": "SETUP",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "She's a lonely person.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "but still",
+          "plot_function": "TRANSITION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Despite her loneliness...",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "Love tried to welcome me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Love offered her a chance.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "I was guilty of lust and sin",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "guilt",
+          "eli5_simplification": "She feels bad about her past.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "Love tried to take me in",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Love wanted to accept her.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "Love tried to welcome me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Love offered her a chance.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "Love tried to take me in",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Love wanted to accept her.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            33
+          ],
+          "original_lyric": "Love tried to break me...",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Love tried to change her.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            34
+          ],
+          "original_lyric": "Love tried to welcome me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Love offered her a chance.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            35
+          ],
+          "original_lyric": "Guilty of lust and sin",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "guilt",
+          "eli5_simplification": "She feels bad about her past.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            36
+          ],
+          "original_lyric": "(I was covered with dust",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "guilt",
+          "eli5_simplification": "She feels bad about her past.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            37
+          ],
+          "original_lyric": "Love tried to take me in",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Love wanted to accept her.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            38
+          ],
+          "original_lyric": "Still",
+          "plot_function": "TRANSITION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Despite everything...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            39
+          ],
+          "original_lyric": "love tried to welcome me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Love offered her a chance.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            40
+          ],
+          "original_lyric": "Love tried to take me in",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Love wanted to accept her.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            41
+          ],
+          "original_lyric": "Love tried to welcome me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Love offered her a chance.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            42
+          ],
+          "original_lyric": "Guilty of lust and sin",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "guilt",
+          "eli5_simplification": "She feels bad about her past.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            43
+          ],
+          "original_lyric": "Love tried to take me in",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Love wanted to accept her.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            44
+          ],
+          "original_lyric": "Love tried to welcome me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Love offered her a chance.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 44,
+        "covered_lines": 44,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 44,
+      "covered_lines": 44,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "These are my hands",
+            "These are my eyes",
+            "These are my arms",
+            "And I must confess"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "end_words": [
+            "hands",
+            "eyes",
+            "arms",
+            "confess"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "That I usually",
+            "drawn to sadness",
+            "And loneliness has never been",
+            "stranger to me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "usually",
+            "sadness",
+            "been",
+            "me"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "but",
+            "Love tried to welcome me",
+            "Guilty of lust and sin",
+            "love tried to take me in"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            1,
+            4,
+            3,
+            4
+          ],
+          "end_words": [
+            "but",
+            "me",
+            "sin",
+            "in"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "sin",
+              "word2": "in",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "These are my lips",
+            "This is my voice",
+            "I know how to laugh",
+            "And I must confess"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            1,
+            3,
+            1
+          ],
+          "end_words": [
+            "lips",
+            "voice",
+            "laugh",
+            "confess"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "And my heart has always been",
+            "lonely hunter",
+            "but still",
+            "Love tried to welcome me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            2,
+            1,
+            4
+          ],
+          "end_words": [
+            "been",
+            "hunter",
+            "still",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "been",
+              "word2": "still",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I was covered with dust and sin",
+            "Love tried to take me in",
+            "Love tried to break me...",
+            "And I must confess"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            1
+          ],
+          "end_words": [
+            "sin",
+            "in",
+            "me",
+            "confess"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "sin",
+              "word2": "in",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "And my heart has always been",
+            "lonely hunter",
+            "but still",
+            "Love tried to welcome me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            2,
+            1,
+            4
+          ],
+          "end_words": [
+            "been",
+            "hunter",
+            "still",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "been",
+              "word2": "still",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "I was guilty of lust and sin",
+            "Love tried to take me in",
+            "Love tried to welcome me",
+            "Love tried to take me in"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "sin",
+            "in",
+            "me",
+            "in"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "sin",
+              "word2": "in",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "in",
+              "word2": "in",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "Love tried to break me...",
+            "Love tried to welcome me",
+            "Guilty of lust and sin",
+            "(I was covered with dust"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            3,
+            2
+          ],
+          "end_words": [
+            "me",
+            "me",
+            "sin",
+            "dust"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "Love tried to take me in",
+            "Still",
+            "love tried to welcome me",
+            "Love tried to take me in"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            1,
+            4,
+            4
+          ],
+          "end_words": [
+            "in",
+            "still",
+            "me",
+            "in"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "in",
+              "word2": "still",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "in",
+              "word2": "in",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "still",
+              "word2": "in",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "Love tried to welcome me",
+            "Guilty of lust and sin",
+            "Love tried to take me in",
+            "Love tried to welcome me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            4,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "me",
+            "sin",
+            "in",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "sin",
+              "word2": "in",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        }
+      ],
+      "total_stanzas": 11,
+      "total_lines": 44
+    }
+  }
+}

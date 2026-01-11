@@ -1,0 +1,706 @@
+{
+  "song_id": "4dpARuHxo51G3z768sgnrY::take-it-all",
+  "title": "Take It All",
+  "artist": "Adele",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nDidn't I give it all? Tried my best\nGave you everything I had, everything and no less\nDidn't I do it right? Didn't let you down\nMaybe you got too use to having me around\nStill how can you walk away from all my tears?\nIt's gonna be an empty road without me right here\n\n[bridge]\nDon't look back at this crumbling fool\nJust take it all with my love\nTake it all with my love\n\n[verse]\nMaybe I should leave to help you see?\nNothing gets better than this, and this is everything we need\nSo is it over, is this really?\nYou?ve given up so easily, I thought you loved me more than this\n\n[bridge]\nDon't look back at this crumbling fool\nJust take it all with my love\nTake it all with my love\n\n[bridge]\nI will change if I must\nSlow it down and bring it home, I will adjust\nOh, if only, if only you knew\nThat eve-ry-thing I do is for you\n\n[bridge]\nDon't look back at this crumbling fool\nJust take it (take it), take it all with you\nDon't look back at this crumbling fool\nJust take it all with my love\nTake it all with my love\nTake it all with my love.",
+  "cleaned_lyrics": "Didn't I give it all? Tried my best\nGave you everything I had\neverything and no less\nDidn't I do it right? Didn't let you down\nMaybe you got too use to having me around\nStill how can you walk away from all my tears?\nIt's gonna be an empty road without me right here\nDon't look back at this crumbling fool\nJust take it all with my love\nTake it all with my love\nMaybe I should leave to help you see?\nNothing gets better than this\nand this is everything we need\nSo is it over\nis this really?\nYou?ve given up so easily\nI thought you loved me more than this\nDon't look back at this crumbling fool\nJust take it all with my love\nTake it all with my love\nI will change if I must\nSlow it down and bring it home\nI will adjust\nOh\nif only\nif only you knew\nThat eve-ry-thing I do is for you\nDon't look back at this crumbling fool\nJust take it (take it)\ntake it all with you\nDon't look back at this crumbling fool\nJust take it all with my love\nTake it all with my love\nTake it all with my love.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 37,
+    "cleaned_lines": 34,
+    "removed_count": 6,
+    "retention_rate": 1.0625,
+    "removal_reasons": {
+      "section_marker": 6
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3
+          ],
+          "original_lyric": "Didn't I give it all? Tried my best\nGave you everything I had\neverything and no less",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "I gave you everything, I tried my best.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "Didn't I do it right? Didn't let you down\nMaybe you got too use to having me around",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "confusion",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Did I do something wrong? Maybe you got used to me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "Still how can you walk away from all my tears?\nIt's gonna be an empty road without me right here",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Why are you leaving? It will be empty without me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Don't look back at this crumbling fool",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Don't look back at me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Just take it all with my love\nTake it all with my love",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Take all my love.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11,
+            12,
+            13
+          ],
+          "original_lyric": "Maybe I should leave to help you see?\nNothing gets better than this\nand this is everything we need",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Maybe I should leave so you can see how good we have it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "So is it over\nis this really?",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Is it really over?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "You?ve given up so easily",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "You gave up so easily.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "I thought you loved me more than this",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "I thought you loved me more.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Don't look back at this crumbling fool",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Don't look back at me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "Just take it all with my love\nTake it all with my love",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Take all my love.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21,
+            22,
+            23
+          ],
+          "original_lyric": "I will change if I must\nSlow it down and bring it home\nI will adjust",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "I will change for you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25,
+            26
+          ],
+          "original_lyric": "Oh\nif only\nif only you knew",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "If only you knew.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "That eve-ry-thing I do is for you",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Everything I do is for you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "Don't look back at this crumbling fool",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Don't look back at me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "Just take it (take it)\ntake it all with you",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Take it all with you.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "Don't look back at this crumbling fool",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Don't look back at me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32,
+            33,
+            34
+          ],
+          "original_lyric": "Just take it all with my love\nTake it all with my love\nTake it all with my love",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Take all my love.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 34,
+        "covered_lines": 34,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 34,
+      "covered_lines": 34,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Didn't I give it all? Tried my best",
+            "Gave you everything I had",
+            "everything and no less",
+            "Didn't I do it right? Didn't let you down"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            5
+          ],
+          "end_words": [
+            "best",
+            "had",
+            "less",
+            "down"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "best",
+              "word2": "less",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EH), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Maybe you got too use to having me around",
+            "Still how can you walk away from all my tears?",
+            "It's gonna be an empty road without me right here",
+            "Don't look back at this crumbling fool"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            6,
+            6,
+            7,
+            5
+          ],
+          "end_words": [
+            "around",
+            "tears",
+            "here",
+            "fool"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "tears",
+              "word2": "here",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IH), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Just take it all with my love",
+            "Take it all with my love",
+            "Maybe I should leave to help you see?",
+            "Nothing gets better than this"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "love",
+            "love",
+            "see",
+            "this"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "love",
+              "word2": "love",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "and this is everything we need",
+            "So is it over",
+            "is this really?",
+            "You?ve given up so easily"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            1,
+            1,
+            4
+          ],
+          "end_words": [
+            "need",
+            "over",
+            "really",
+            "easily"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "need",
+              "word2": "easily",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I thought you loved me more than this",
+            "Don't look back at this crumbling fool",
+            "Just take it all with my love",
+            "Take it all with my love"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            5,
+            4,
+            3
+          ],
+          "end_words": [
+            "this",
+            "fool",
+            "love",
+            "love"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "love",
+              "word2": "love",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I will change if I must",
+            "Slow it down and bring it home",
+            "I will adjust",
+            "Oh"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            3,
+            4,
+            1,
+            1
+          ],
+          "end_words": [
+            "must",
+            "home",
+            "adjust",
+            "oh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "must",
+              "word2": "adjust",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "home",
+              "word2": "oh",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "if only",
+            "if only you knew",
+            "That eve-ry-thing I do is for you",
+            "Don't look back at this crumbling fool"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "end_words": [
+            "only",
+            "knew",
+            "you",
+            "fool"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "knew",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "you",
+              "word2": "fool",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Just take it (take it)",
+            "take it all with you",
+            "Don't look back at this crumbling fool",
+            "Just take it all with my love"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            3,
+            5,
+            4
+          ],
+          "end_words": [
+            "it",
+            "you",
+            "fool",
+            "love"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "you",
+              "word2": "fool",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "Take it all with my love",
+            "Take it all with my love."
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            3,
+            3
+          ],
+          "end_words": [
+            "love",
+            "love"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "love",
+              "word2": "love",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "line_count": 2,
+          "stability": 1.0
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 34
+    }
+  }
+}

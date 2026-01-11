@@ -1,0 +1,819 @@
+{
+  "song_id": "1dfeR4HaWDbWqFHLkxsg1d::a-human-body",
+  "title": "A Human Body",
+  "artist": "Queen",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThey were talking in whispers\n\n[chorus]\nTo have labored so long\nTo have made it this far\nOoh it's been such long ride\nOoh you know it's been long way\nFor human human human\nFor human body you see\n\n[chorus]\nIt happens now, it happens here\nDo you believe\nDo you believe. or really care\n\n[chorus]\nIt happens now, it happens here\nTo human, human\nWith human body you see\nThere ain't nobody gets out of this moonlight\nToday is surprisingly fair\nOh? oh woo woo\nWe've got problems the Lone Ranger can't fix\nThe invisible man couldn't see\nIt takes tough guy\nTo learn some new tricks\nOoh it takes such long time\nOoh it's been such long way\nFor human human human\nFor human body you see\n\n[chorus]\nIt happens now, it happens here\nDo you believe\nDo you believe. or really care\n\n[chorus]\nIt happens now, it happens here\nTo human, human\nTo human body you see\nYou know it's been such long while\n(It's been such long while)\nTakes such long time\n(It takes such long time)\nIt's been such long way\n(Been such long way)\nIt's been such long while\n(Been such long while)\nYeah yeah yeah yeah yeah yeah!\nIt's gonna be long ride",
+  "cleaned_lyrics": "They were talking in whispers\nTo have labored so long\nTo have made it this far\nOoh it's been such long ride\nOoh you know it's been long way\nFor human human human\nFor human body you see\nIt happens now\nit happens here\nDo you believe\nDo you believe. or really care\nIt happens now\nit happens here\nTo human\nhuman\nWith human body you see\nThere ain't nobody gets out of this moonlight\nToday is surprisingly fair\nOh? oh woo woo\nWe've got problems the Lone Ranger can't fix\nThe invisible man couldn't see\nIt takes tough guy\nTo learn some new tricks\nOoh it takes such long time\nOoh it's been such long way\nFor human human human\nFor human body you see\nIt happens now\nit happens here\nDo you believe\nDo you believe. or really care\nIt happens now\nit happens here\nTo human\nhuman\nTo human body you see\nYou know it's been such long while\nTakes such long time\nIt's been such long way\nIt's been such long while\nYeah yeah yeah yeah yeah yeah!\nIt's gonna be long ride",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 51,
+    "cleaned_lines": 42,
+    "removed_count": 10,
+    "retention_rate": 0.9130434782608695,
+    "removal_reasons": {
+      "artist_annotation": 4,
+      "section_marker": 6
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "They were talking in whispers\nTo have labored so long",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "People are quietly discussing something that took a lot of effort.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4,
+            5
+          ],
+          "original_lyric": "To have made it this far\nOoh it's been such long ride\nOoh you know it's been long way",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "They've come a long way, it's been a long journey.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "For human human human\nFor human body you see",
+          "plot_function": "SETUP",
+          "emotion_primary": "contemplation",
+          "emotion_secondary": null,
+          "eli5_simplification": "About the human body.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "It happens now\nit happens here",
+          "plot_function": "SETUP",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's happening now, right here.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "Do you believe\nDo you believe. or really care",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "doubt",
+          "emotion_secondary": null,
+          "eli5_simplification": "Do you believe in this?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "It happens now\nit happens here",
+          "plot_function": "SETUP",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's happening now, right here.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14,
+            15,
+            16
+          ],
+          "original_lyric": "To human\nhuman\nWith human body you see",
+          "plot_function": "SETUP",
+          "emotion_primary": "contemplation",
+          "emotion_secondary": null,
+          "eli5_simplification": "About the human body.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "There ain't nobody gets out of this moonlight",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "No one escapes this reality.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "Today is surprisingly fair",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "surprise",
+          "emotion_secondary": null,
+          "eli5_simplification": "Today seems unexpectedly good.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Oh? oh woo woo",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "surprise",
+          "emotion_secondary": null,
+          "eli5_simplification": "Expressing surprise.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "We've got problems the Lone Ranger can't fix",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "We have problems that can't be solved.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "The invisible man couldn't see",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "Even the invisible man can't see the solution.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "It takes tough guy",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "It takes a strong person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "To learn some new tricks",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "To learn new ways to cope.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "Ooh it takes such long time\nOoh it's been such long way",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "It takes a long time, it's been a long journey.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "For human human human\nFor human body you see",
+          "plot_function": "SETUP",
+          "emotion_primary": "contemplation",
+          "emotion_secondary": null,
+          "eli5_simplification": "About the human body.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28,
+            29
+          ],
+          "original_lyric": "It happens now\nit happens here",
+          "plot_function": "SETUP",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's happening now, right here.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            30,
+            31
+          ],
+          "original_lyric": "Do you believe\nDo you believe. or really care",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "doubt",
+          "emotion_secondary": null,
+          "eli5_simplification": "Do you believe in this?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32,
+            33
+          ],
+          "original_lyric": "It happens now\nit happens here",
+          "plot_function": "SETUP",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's happening now, right here.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            34,
+            35,
+            36
+          ],
+          "original_lyric": "To human\nhuman\nTo human body you see",
+          "plot_function": "SETUP",
+          "emotion_primary": "contemplation",
+          "emotion_secondary": null,
+          "eli5_simplification": "About the human body.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            37
+          ],
+          "original_lyric": "You know it's been such long while",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's been a long time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            38
+          ],
+          "original_lyric": "Takes such long time",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "It takes a long time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            39
+          ],
+          "original_lyric": "It's been such long way",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's been a long journey.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            40
+          ],
+          "original_lyric": "It's been such long while",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's been a long time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            41
+          ],
+          "original_lyric": "Yeah yeah yeah yeah yeah yeah!",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Expressing agreement.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            42
+          ],
+          "original_lyric": "It's gonna be long ride",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's going to be a long journey.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 42,
+        "covered_lines": 42,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 42,
+      "covered_lines": 42,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "They were talking in whispers",
+            "To have labored so long",
+            "To have made it this far",
+            "Ooh it's been such long ride"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            5
+          ],
+          "end_words": [
+            "whispers",
+            "long",
+            "far",
+            "ride"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Ooh you know it's been long way",
+            "For human human human",
+            "For human body you see",
+            "It happens now"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "way",
+            "human",
+            "see",
+            "now"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "it happens here",
+            "Do you believe",
+            "Do you believe. or really care",
+            "It happens now"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            1,
+            3,
+            2
+          ],
+          "end_words": [
+            "here",
+            "believe",
+            "care",
+            "now"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "it happens here",
+            "To human",
+            "human",
+            "With human body you see"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "end_words": [
+            "here",
+            "human",
+            "human",
+            "see"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "human",
+              "word2": "human",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "There ain't nobody gets out of this moonlight",
+            "Today is surprisingly fair",
+            "Oh? oh woo woo",
+            "We've got problems the Lone Ranger can't fix"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            3,
+            4,
+            7
+          ],
+          "end_words": [
+            "moonlight",
+            "fair",
+            "woo",
+            "fix"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "The invisible man couldn't see",
+            "It takes tough guy",
+            "To learn some new tricks",
+            "Ooh it takes such long time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            3,
+            4,
+            5
+          ],
+          "end_words": [
+            "see",
+            "guy",
+            "tricks",
+            "time"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "guy",
+              "word2": "time",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Ooh it's been such long way",
+            "For human human human",
+            "For human body you see",
+            "It happens now"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "way",
+            "human",
+            "see",
+            "now"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "it happens here",
+            "Do you believe",
+            "Do you believe. or really care",
+            "It happens now"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            1,
+            3,
+            2
+          ],
+          "end_words": [
+            "here",
+            "believe",
+            "care",
+            "now"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "it happens here",
+            "To human",
+            "human",
+            "To human body you see"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "end_words": [
+            "here",
+            "human",
+            "human",
+            "see"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "human",
+              "word2": "human",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "You know it's been such long while",
+            "Takes such long time",
+            "It's been such long way",
+            "It's been such long while"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "while",
+            "time",
+            "way",
+            "while"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "while",
+              "word2": "time",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "while",
+              "word2": "while",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "time",
+              "word2": "while",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "Yeah yeah yeah yeah yeah yeah!",
+            "It's gonna be long ride"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            6,
+            4
+          ],
+          "end_words": [
+            "yeah",
+            "ride"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 11,
+      "total_lines": 42
+    }
+  }
+}

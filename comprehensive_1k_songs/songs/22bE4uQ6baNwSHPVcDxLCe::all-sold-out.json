@@ -1,0 +1,549 @@
+{
+  "song_id": "22bE4uQ6baNwSHPVcDxLCe::all-sold-out",
+  "title": "All Sold Out",
+  "artist": "The Rolling Stones",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWhy put this sadness inside of me?\nWhy be so matter of fact?\nWhy put this one bit of hope in me?\nYou sold me out and that's that\nI hope that you're having fun with me\nThere's not much left to attack\nI hope that you're nearly done with me\nYou sold me out and that's that\nAll sold out I never have seen\nmind so tangled, girl so strangled\nAll sold out I felt so green\nIt was just like that, I was put down flat\nI was sold out just like that\nAll sold out I never have seen\nmind so tangled, girl so strangled\nAll sold out well I felt so green\nIt was just like that, I was put down flat\nI was sold out just like that\nI missed the point of you doing it\nYour mind has just jumped the track\nI took bit different view of it\nYou sold me out and that's that\nRead more: http://muzikum.eu/en/123-3917-494561/the-rolling-stones/all-sold-out-guitar-chord.html#ixzz3pqh9gI5X",
+  "cleaned_lyrics": "Why put this sadness inside of me?\nWhy be so matter of fact?\nWhy put this one bit of hope in me?\nYou sold me out and that's that\nI hope that you're having fun with me\nThere's not much left to attack\nI hope that you're nearly done with me\nYou sold me out and that's that\nAll sold out I never have seen\nmind so tangled\ngirl so strangled\nAll sold out I felt so green\nIt was just like that\nI was put down flat\nI was sold out just like that\nAll sold out I never have seen\nmind so tangled\ngirl so strangled\nAll sold out well I felt so green\nIt was just like that\nI was put down flat\nI was sold out just like that\nI missed the point of you doing it\nYour mind has just jumped the track\nI took bit different view of it\nYou sold me out and that's that",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 24,
+    "cleaned_lines": 26,
+    "removed_count": 2,
+    "retention_rate": 1.0833333333333333,
+    "removal_reasons": {
+      "guitar_tab": 1,
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Why put this sadness inside of me?\nWhy be so matter of fact?",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is feeling sad and confused.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Why put this one bit of hope in me?\nYou sold me out and that's that",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The singer is feeling a little hopeful, but is also angry because someone betrayed them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "I hope that you're having fun with me\nThere's not much left to attack",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sarcasm",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "The singer is being sarcastic and feels like there's nothing left to hurt.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "I hope that you're nearly done with me\nYou sold me out and that's that",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is angry and sad because they feel betrayed.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "original_lyric": "All sold out I never have seen\nmind so tangled\ngirl so strangled\nAll sold out I felt so green",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "confusion",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is very confused and sad about what happened.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13,
+            14,
+            15
+          ],
+          "original_lyric": "It was just like that\nI was put down flat\nI was sold out just like that",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "helplessness",
+          "eli5_simplification": "The singer feels defeated and betrayed.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "original_lyric": "All sold out I never have seen\nmind so tangled\ngirl so strangled\nAll sold out well I felt so green",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "confusion",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is very confused and sad about what happened.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "It was just like that\nI was put down flat\nI was sold out just like that",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "helplessness",
+          "eli5_simplification": "The singer feels defeated and betrayed.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "I missed the point of you doing it\nYour mind has just jumped the track",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is trying to understand why the other person did what they did.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "I took bit different view of it\nYou sold me out and that's that",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer has accepted what happened, but is still sad.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 24,
+        "covered_lines": 24,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 24,
+      "covered_lines": 24,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Why put this sadness inside of me?",
+            "Why be so matter of fact?",
+            "Why put this one bit of hope in me?",
+            "You sold me out and that's that"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.9,
+          "stress_counts": [
+            5,
+            3,
+            6,
+            4
+          ],
+          "end_words": [
+            "me",
+            "fact",
+            "me",
+            "that"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "fact",
+              "word2": "that",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I hope that you're having fun with me",
+            "There's not much left to attack",
+            "I hope that you're nearly done with me",
+            "You sold me out and that's that"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            5,
+            5,
+            5,
+            4
+          ],
+          "end_words": [
+            "me",
+            "attack",
+            "me",
+            "that"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "attack",
+              "word2": "that",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AE), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "All sold out I never have seen",
+            "mind so tangled",
+            "girl so strangled",
+            "All sold out I felt so green"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            5,
+            2,
+            2,
+            5
+          ],
+          "end_words": [
+            "seen",
+            "tangled",
+            "strangled",
+            "green"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "seen",
+              "word2": "green",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "tangled",
+              "word2": "strangled",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "It was just like that",
+            "I was put down flat",
+            "I was sold out just like that",
+            "All sold out I never have seen"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            3,
+            3,
+            5,
+            5
+          ],
+          "end_words": [
+            "that",
+            "flat",
+            "that",
+            "seen"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "that",
+              "word2": "flat",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "flat",
+              "word2": "that",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "mind so tangled",
+            "girl so strangled",
+            "All sold out well I felt so green",
+            "It was just like that"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            2,
+            6,
+            3
+          ],
+          "end_words": [
+            "tangled",
+            "strangled",
+            "green",
+            "that"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "tangled",
+              "word2": "strangled",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "strangled",
+              "word2": "that",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I was put down flat",
+            "I was sold out just like that",
+            "I missed the point of you doing it",
+            "Your mind has just jumped the track"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            5,
+            4,
+            4
+          ],
+          "end_words": [
+            "flat",
+            "that",
+            "it",
+            "track"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "flat",
+              "word2": "that",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "that",
+              "word2": "track",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AE), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "I took bit different view of it",
+            "You sold me out and that's that"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            5,
+            4
+          ],
+          "end_words": [
+            "it",
+            "that"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 26
+    }
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "song_id": "2Kx7MNY7cI1ENniW7vT30N::shoot-the-moon",
+  "title": "Shoot the Moon",
+  "artist": "Norah Jones",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThe summer days are gone too soon\nYou shoot the moon, miss completely\nAnd now you've left to face the gloom,\nThe empty room, that once smelled sweetly\nOf all the flowers you plucked if finally\nyou knew the reason. Why you had to each\n\n[bridge]\nNow the fall is here again you can't\n\n[bridge]\nWhen the snows come rolling through\nyou've rolling too with some new lover.\nWill you think of times you've told me\nthat you knew the reason why we had to\neach be lonely. Was it just the season.",
+  "cleaned_lyrics": "The summer days are gone too soon\nYou shoot the moon\nmiss completely\nAnd now you've left to face the gloom\nThe empty room\nthat once smelled sweetly\nOf all the flowers you plucked if finally\nyou knew the reason. Why you had to each\nNow the fall is here again you can't\nWhen the snows come rolling through\nyou've rolling too with some new lover.\nWill you think of times you've told me\nthat you knew the reason why we had to\neach be lonely. Was it just the season.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 17,
+    "cleaned_lines": 14,
+    "removed_count": 3,
+    "retention_rate": 0.9333333333333333,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "The summer days are gone too soon\nYou shoot the moon",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Summer is ending quickly, and someone is trying to do something big (shoot the moon).",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "miss completely",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "They failed at what they were trying to do.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "And now you've left to face the gloom\nThe empty room",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "loneliness",
+          "eli5_simplification": "The person is gone, and now there's sadness and an empty space.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "that once smelled sweetly",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "nostalgia",
+          "eli5_simplification": "The room used to smell nice.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Of all the flowers you plucked if finally\nyou knew the reason. Why you had to each",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Thinking about the flowers and the reason why things happened.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Now the fall is here again you can't",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "acceptance",
+          "eli5_simplification": "Fall is here, and things can't be changed.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "When the snows come rolling through\nyou've rolling too with some new lover.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "jealousy",
+          "eli5_simplification": "The person is moving on with someone else.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "original_lyric": "Will you think of times you've told me\nthat you knew the reason why we had to\neach be lonely. Was it just the season.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Wondering if the person will remember the past and why they were lonely.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 15,
+        "covered_lines": 15,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 15,
+      "covered_lines": 15,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "The summer days are gone too soon",
+            "You shoot the moon",
+            "miss completely",
+            "And now you've left to face the gloom"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            2,
+            2,
+            5
+          ],
+          "end_words": [
+            "soon",
+            "moon",
+            "completely",
+            "gloom"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "soon",
+              "word2": "moon",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "moon",
+              "word2": "gloom",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (UW), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "The empty room",
+            "that once smelled sweetly",
+            "Of all the flowers you plucked if finally",
+            "you knew the reason. Why you had to each"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            3,
+            5,
+            5
+          ],
+          "end_words": [
+            "room",
+            "sweetly",
+            "finally",
+            "each"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "sweetly",
+              "word2": "each",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Now the fall is here again you can't",
+            "When the snows come rolling through",
+            "you've rolling too with some new lover.",
+            "Will you think of times you've told me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            5,
+            6,
+            5
+          ],
+          "end_words": [
+            "can't",
+            "through",
+            "lover",
+            "me"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "that you knew the reason why we had to",
+            "each be lonely. Was it just the season."
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            5,
+            4
+          ],
+          "end_words": [
+            "to",
+            "season"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 14
+    }
+  }
+}

@@ -1,0 +1,545 @@
+{
+  "song_id": "4x1nvY2FN8jxqAFA0DA02H::working-class-hero",
+  "title": "Working Class Hero",
+  "artist": "John Lennon",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nAs soon as you're born they make you feel small\n\n[bridge]\nTill the pain is so big you feel nothing at all\nworking class hero is something to be\nworking class hero is something to be\nThey hurt you at home and they hit you at school\nThey hate you if you're clever and they despise fool\nTill you're so fucking crazy you can't follow their rules\nworking class hero is something to be\nworking class hero is something to be\nWhen they've tortured and scared you for twenty odd years\nThen they expect you to pick career\nWhen you can't really function you're so full of fear\nworking class hero is something to be\nworking class hero is something to be\nKeep you doped with religion and sex and TV\nAnd you think you're so clever and classless and free\n\n[bridge]\nworking class hero is something to be\nworking class hero is something to be\nThere's room at the top they are telling you still\n\n[bridge]\nIf you want to be like the folks on the hill\nworking class hero is something to be\nworking class hero is something to be\nIf you want to be hero well just follow me\nIf you want to be hero well just follow me",
+  "cleaned_lyrics": "As soon as you're born they make you feel small\nTill the pain is so big you feel nothing at all\nworking class hero is something to be\nworking class hero is something to be\nThey hurt you at home and they hit you at school\nThey hate you if you're clever and they despise fool\nTill you're so fucking crazy you can't follow their rules\nworking class hero is something to be\nworking class hero is something to be\nWhen they've tortured and scared you for twenty odd years\nThen they expect you to pick career\nWhen you can't really function you're so full of fear\nworking class hero is something to be\nworking class hero is something to be\nKeep you doped with religion and sex and TV\nAnd you think you're so clever and classless and free\nworking class hero is something to be\nworking class hero is something to be\nThere's room at the top they are telling you still\nIf you want to be like the folks on the hill\nworking class hero is something to be\nworking class hero is something to be\nIf you want to be hero well just follow me\nIf you want to be hero well just follow me",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 31,
+    "cleaned_lines": 24,
+    "removed_count": 4,
+    "retention_rate": 0.8571428571428571,
+    "removal_reasons": {
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "As soon as you're born they make you feel small\nTill the pain is so big you feel nothing at all",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "When you are born, people make you feel bad, so bad that you stop feeling anything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "working class hero is something to be\nworking class hero is something to be",
+          "plot_function": "SETUP",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Being a working class hero is important.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7
+          ],
+          "original_lyric": "They hurt you at home and they hit you at school\nThey hate you if you're clever and they despise fool\nTill you're so fucking crazy you can't follow their rules",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "People hurt you at home and school, and they don't like you if you're smart or dumb, making you crazy and unable to follow rules.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "working class hero is something to be\nworking class hero is something to be",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Being a working class hero is important.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10,
+            11,
+            12
+          ],
+          "original_lyric": "When they've tortured and scared you for twenty odd years\nThen they expect you to pick career\nWhen you can't really function you're so full of fear",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "After years of being scared, they want you to choose a job, but you're too scared to do anything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "working class hero is something to be\nworking class hero is something to be",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Being a working class hero is important.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "Keep you doped with religion and sex and TV\nAnd you think you're so clever and classless and free",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "deception",
+          "eli5_simplification": "They keep you busy with religion, sex, and TV, and you think you're smart and free.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "working class hero is something to be\nworking class hero is something to be",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Being a working class hero is important.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "There's room at the top they are telling you still\nIf you want to be like the folks on the hill",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "deception",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "They tell you there's room at the top if you want to be like the rich people.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "working class hero is something to be\nworking class hero is something to be",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Being a working class hero is important.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "If you want to be hero well just follow me\nIf you want to be hero well just follow me",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "If you want to be a hero, follow me.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 24,
+        "covered_lines": 24,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 24,
+      "covered_lines": 24,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "As soon as you're born they make you feel small",
+            "Till the pain is so big you feel nothing at all",
+            "working class hero is something to be",
+            "working class hero is something to be"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            6,
+            5,
+            5
+          ],
+          "end_words": [
+            "small",
+            "all",
+            "be",
+            "be"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "small",
+              "word2": "all",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "be",
+              "word2": "be",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "They hurt you at home and they hit you at school",
+            "They hate you if you're clever and they despise fool",
+            "Till you're so fucking crazy you can't follow their rules",
+            "working class hero is something to be"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            4,
+            6,
+            7,
+            5
+          ],
+          "end_words": [
+            "school",
+            "fool",
+            "rules",
+            "be"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "school",
+              "word2": "fool",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "fool",
+              "word2": "rules",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "working class hero is something to be",
+            "When they've tortured and scared you for twenty odd years",
+            "Then they expect you to pick career",
+            "When you can't really function you're so full of fear"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            5,
+            7,
+            3,
+            7
+          ],
+          "end_words": [
+            "be",
+            "years",
+            "career",
+            "fear"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "years",
+              "word2": "career",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IH), one word adds post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "career",
+              "word2": "fear",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "working class hero is something to be",
+            "working class hero is something to be",
+            "Keep you doped with religion and sex and TV",
+            "And you think you're so clever and classless and free"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            5,
+            5,
+            6,
+            5
+          ],
+          "end_words": [
+            "be",
+            "be",
+            "tv",
+            "free"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "be",
+              "word2": "be",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "be",
+              "word2": "tv",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "tv",
+              "word2": "free",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "working class hero is something to be",
+            "working class hero is something to be",
+            "There's room at the top they are telling you still",
+            "If you want to be like the folks on the hill"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "end_words": [
+            "be",
+            "be",
+            "still",
+            "hill"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "be",
+              "word2": "be",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "still",
+              "word2": "hill",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "working class hero is something to be",
+            "working class hero is something to be",
+            "If you want to be hero well just follow me",
+            "If you want to be hero well just follow me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            5,
+            5,
+            7,
+            7
+          ],
+          "end_words": [
+            "be",
+            "be",
+            "me",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "be",
+              "word2": "be",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "be",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "outro"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "outro",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 24
+    }
+  }
+}

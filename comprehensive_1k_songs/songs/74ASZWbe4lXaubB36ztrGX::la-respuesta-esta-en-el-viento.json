@@ -1,0 +1,486 @@
+{
+  "song_id": "74ASZWbe4lXaubB36ztrGX::la-respuesta-esta-en-el-viento",
+  "title": "La Respuesta Esta En El Viento",
+  "artist": "Bob Dylan",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nLa respuesta esta en el viento\n\n[chorus]\nAntes de que puedas ver\nY cuantos mares has de navegar\npara una playa llegar\nY cuantas balas deben silbar\nAntes que no existan más\nRespuesta tendrás y la encontraras\nEscrita en el viento estará\nY cuantas veces debes escuchar\nEl llanto de un niño al llorar\nMira hacia arriba y no puede entender\npor que el hombre sufre otra vez\ny cuantas muertes tiene que haber\npara poder comprender\nRespuesta tendrás y la encontraras\nEscrita en viento estará\ny cuantos años tendrán que pasar\npara tener libertad\nde cuantas muertes tener que saber\npara el dolor comprender\nPor cuanto tiempo debemos callar\nPara nuestra pena ocultar\nRespuesta tendrás y la encontraras\nescrita en viento estará\nescrita en viento estará",
+  "cleaned_lyrics": "La respuesta esta en el viento\nAntes de que puedas ver\nY cuantos mares has de navegar\npara una playa llegar\nY cuantas balas deben silbar\nAntes que no existan más\nRespuesta tendrás y la encontraras\nEscrita en el viento estará\nY cuantas veces debes escuchar\nEl llanto de\nun niño al llorar\nMira hacia arriba y no puede entender\npor que el hombre sufre otra vez\ny cuantas muertes tiene que haber\npara poder comprender\nRespuesta tendrás y la encontraras\nEscrita en viento estará\ny cuantos años tendrán que pasar\npara tener libertad\nde cuantas muertes tener que saber\npara el dolor comprender\nPor cuanto tiempo debemos callar\nPara nuestra pena ocultar\nRespuesta tendrás y la encontraras\nescrita en viento estará\nescrita en viento estará",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 28,
+    "cleaned_lines": 26,
+    "removed_count": 2,
+    "retention_rate": 0.9629629629629629,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "La respuesta esta en el viento\nAntes de que puedas ver",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The answer is in the wind, before you can even see it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Y cuantos mares has de navegar\npara una playa llegar",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "How many seas must you sail to reach a beach?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Y cuantas balas deben silbar\nAntes que no existan más",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "How many bullets must fly before there are no more?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Respuesta tendrás y la encontraras\nEscrita en el viento estará",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "You will find the answer, it's written in the wind.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Y cuantas veces debes escuchar\nEl llanto de un niño al llorar",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "How many times must you hear a child crying?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "Mira hacia arriba y no puede entender\npor que el hombre sufre otra vez",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "confusion",
+          "eli5_simplification": "Look up and can't understand why man suffers again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "y cuantas muertes tiene que haber\npara poder comprender",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "How many deaths must there be to understand?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "Respuesta tendrás y la encontraras\nEscrita en viento estará",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "You will find the answer, it's written in the wind.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "y cuantos años tendrán que pasar\npara tener libertad",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "How many years must pass to have freedom?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "de cuantas muertes tener que saber\npara el dolor comprender",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "How many deaths must you know to understand pain?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "Por cuanto tiempo debemos callar\nPara nuestra pena ocultar",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "For how long must we be silent to hide our sorrow?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Respuesta tendrás y la encontraras\nescrita en viento estará",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "You will find the answer, it's written in the wind.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "escrita en viento estará",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's written in the wind.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 26,
+        "covered_lines": 26,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 26,
+      "covered_lines": 26,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "La respuesta esta en el viento",
+            "Antes de que puedas ver",
+            "Y cuantos mares has de navegar",
+            "para una playa llegar"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            5,
+            5,
+            4
+          ],
+          "end_words": [
+            "viento",
+            "ver",
+            "navegar",
+            "llegar"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Y cuantas balas deben silbar",
+            "Antes que no existan más",
+            "Respuesta tendrás y la encontraras",
+            "Escrita en el viento estará"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            6,
+            6,
+            5
+          ],
+          "end_words": [
+            "silbar",
+            "s",
+            "encontraras",
+            "estar"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "s",
+              "word2": "estar",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EH), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Y cuantas veces debes escuchar",
+            "El llanto de",
+            "un niño al llorar",
+            "Mira hacia arriba y no puede entender"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            3,
+            5,
+            7
+          ],
+          "end_words": [
+            "escuchar",
+            "de",
+            "llorar",
+            "entender"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "por que el hombre sufre otra vez",
+            "y cuantas muertes tiene que haber",
+            "para poder comprender",
+            "Respuesta tendrás y la encontraras"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            7,
+            6,
+            3,
+            6
+          ],
+          "end_words": [
+            "vez",
+            "haber",
+            "comprender",
+            "encontraras"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Escrita en viento estará",
+            "y cuantos años tendrán que pasar",
+            "para tener libertad",
+            "de cuantas muertes tener que saber"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            7,
+            3,
+            6
+          ],
+          "end_words": [
+            "estar",
+            "pasar",
+            "libertad",
+            "saber"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "para el dolor comprender",
+            "Por cuanto tiempo debemos callar",
+            "Para nuestra pena ocultar",
+            "Respuesta tendrás y la encontraras"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            5,
+            4,
+            6
+          ],
+          "end_words": [
+            "comprender",
+            "callar",
+            "ocultar",
+            "encontraras"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "escrita en viento estará",
+            "escrita en viento estará"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            4,
+            4
+          ],
+          "end_words": [
+            "estar",
+            "estar"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "estar",
+              "word2": "estar",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "line_count": 2,
+          "stability": 1.0
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 26
+    }
+  }
+}

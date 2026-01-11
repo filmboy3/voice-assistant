@@ -1,0 +1,493 @@
+{
+  "song_id": "0YrtvWJMgSdVrk3SfNjTbx::marching-bands-of-manhattan",
+  "title": "Marching Bands Of Manhattan",
+  "artist": "Death Cab for Cutie",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nIf I could open my arms\nAnd span the length of the isle of Manhattan,\nI' bring it to where you are\nMaking lake of the East River and Hudson\nAnd if I could open my mouth\nWide enough for marching band to march out of\nThey would make your name sing\nAnd bend through alleys and bounce off other buildings.\nI wish we could open our eyes\nTo see in all directions at the same time\nOh what beautiful view\nIf you were never aware of what was around you\nAnd it is true what you said\nThat I live like hermit in my own head\n\n[bridge]\nI'll pull the curtains and blinds to let the light in.\nREFRÃO\nSorrow drips into your heart through pinhole\nJust like faucet that leaks and there is comfort in the sound\n\n[bridge]\nIt slowly rises, your love is gonna drown\nYour love is gonna drown\nYour love is gonna...",
+  "cleaned_lyrics": "If I could open my arms\nAnd span the length of the isle of Manhattan\nI' bring it to where you are\nMaking lake of the East River and Hudson\nAnd if I could open my mouth\nWide enough for marching band to march out of\nThey would make your name sing\nAnd bend through alleys and bounce off other buildings.\nI wish we could open our eyes\nTo see in all directions at the same time\nOh what beautiful view\nIf you were never aware of what was around you\nAnd it is true what you said\nThat I live like hermit in my own head\nI'll pull the curtains and blinds to let the light in.\nREFRÃO\nSorrow drips into your heart through pinhole\nJust like faucet that leaks and there is comfort in the sound\nIt slowly rises\nyour love is gonna drown\nYour love is gonna drown\nYour love is gonna...",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 26,
+    "cleaned_lines": 22,
+    "removed_count": 3,
+    "retention_rate": 0.9166666666666666,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "If I could open my arms\nAnd span the length of the isle of Manhattan",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is imagining a grand gesture to reach someone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I' bring it to where you are\nMaking lake of the East River and Hudson",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "The singer wants to be with the person and is imagining changing the landscape.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "And if I could open my mouth\nWide enough for marching band to march out of",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer imagines another grand gesture, this time with music.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "They would make your name sing\nAnd bend through alleys and bounce off other buildings.",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The music would celebrate the person's name.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "I wish we could open our eyes\nTo see in all directions at the same time",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wishes they could see everything together.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "Oh what beautiful view\nIf you were never aware of what was around you",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer reflects on a beautiful view, perhaps tinged with sadness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "And it is true what you said\nThat I live like hermit in my own head",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer acknowledges a fault, living in their own thoughts.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "I'll pull the curtains and blinds to let the light in.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer decides to change and let the light in.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Sorrow drips into your heart through pinhole",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Sadness slowly enters the person's heart.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "Just like faucet that leaks and there is comfort in the sound",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "comfort",
+          "eli5_simplification": "It's like a leaky faucet, but there's comfort in the sound.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "It slowly rises",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The sadness is building up.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "your love is gonna drown",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The love will be overwhelmed.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Your love is gonna drown",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The love will be overwhelmed.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Your love is gonna...",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The love will be overwhelmed.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 21,
+        "covered_lines": 21,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 21,
+      "covered_lines": 21,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "If I could open my arms",
+            "And span the length of the isle of Manhattan",
+            "I' bring it to where you are",
+            "Making lake of the East River and Hudson"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            5
+          ],
+          "end_words": [
+            "arms",
+            "manhattan",
+            "are",
+            "hudson"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "arms",
+              "word2": "are",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AA), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "And if I could open my mouth",
+            "Wide enough for marching band to march out of",
+            "They would make your name sing",
+            "And bend through alleys and bounce off other buildings."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            7,
+            3,
+            7
+          ],
+          "end_words": [
+            "mouth",
+            "of",
+            "sing",
+            "buildings"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "sing",
+              "word2": "buildings",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I wish we could open our eyes",
+            "To see in all directions at the same time",
+            "Oh what beautiful view",
+            "If you were never aware of what was around you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            5,
+            4,
+            7
+          ],
+          "end_words": [
+            "eyes",
+            "time",
+            "view",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "eyes",
+              "word2": "time",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "view",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "And it is true what you said",
+            "That I live like hermit in my own head",
+            "I'll pull the curtains and blinds to let the light in.",
+            "REFRÃO"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            5,
+            7,
+            2
+          ],
+          "end_words": [
+            "said",
+            "head",
+            "in",
+            "o"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "said",
+              "word2": "head",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Sorrow drips into your heart through pinhole",
+            "Just like faucet that leaks and there is comfort in the sound",
+            "It slowly rises",
+            "your love is gonna drown"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            6,
+            7,
+            2,
+            3
+          ],
+          "end_words": [
+            "pinhole",
+            "sound",
+            "rises",
+            "drown"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "sound",
+              "word2": "drown",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Your love is gonna drown",
+            "Your love is gonna..."
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            3,
+            2
+          ],
+          "end_words": [
+            "drown",
+            "gonna"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 22
+    }
+  }
+}

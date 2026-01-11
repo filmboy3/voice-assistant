@@ -1,0 +1,683 @@
+{
+  "song_id": "5W5bDNCqJ1jbCgTxDD0Cb3::stay-all-night",
+  "title": "Stay All Night",
+  "artist": "Willie Nelson",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWillie Nelson - Stay All night\n-/5--5p3----5--5p3----5--5-5--------5--5-5------------3--5-|\n\n[chorus]\n'Cause the bridge washed out at the bottom of the hill.\n\n[bridge]\nPlow my corn with double shovel.\nStay all night, stay little longer.\nDance all night, dance little longer\nPull off your coat and throw it in the corner.\nDon't see why you can't stay little longer\n\n[verse]\nSittin' in the window, singin' to my love.\nSlop bucket fell from the window above\nMule and the grasshopper eatin' ice cream\nMule Got sick so we laid him on the beam\nStay all night, stay little longer.\nDance all night, dance little longer\nPull off your coat and throw it in the corner.\nDon't see why you can't stay little longer\n\n[verse]\nWell you oughta see my blue eyed Sally,\nShe lives way down on Shinbone Alley\nThe number on the gate the number on the door.\nThe next place over is the Grocery store.\nStay all night, stay little longer.\nDance all night, dance little longer\nPull off your coat and throw it in the corner.\nDon't see why you can't stay little longer",
+  "cleaned_lyrics": "Willie Nelson - Stay All night\n'Cause the bridge washed out at the bottom of the hill.\nPlow my corn with double shovel.\nStay all night\nstay little longer.\nDance all night\ndance little longer\nPull off your coat and throw it in the corner.\nDon't see why you can't stay little longer\nSittin' in the window\nsingin' to my love.\nSlop bucket fell from the window above\nMule and the grasshopper eatin' ice cream\nMule Got sick so we laid him on the beam\nStay all night\nstay little longer.\nDance all night\ndance little longer\nPull off your coat and throw it in the corner.\nDon't see why you can't stay little longer\nWell you oughta see my blue eyed Sally\nShe lives way down on Shinbone Alley\nThe number on the gate the number on the door.\nThe next place over is the Grocery store.\nStay all night\nstay little longer.\nDance all night\ndance little longer\nPull off your coat and throw it in the corner.\nDon't see why you can't stay little longer",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 33,
+    "cleaned_lines": 30,
+    "removed_count": 6,
+    "retention_rate": 1.0344827586206897,
+    "removal_reasons": {
+      "guitar_tab": 1,
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Willie Nelson - Stay All night",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "This is the song's title and artist.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "'Cause the bridge washed out at the bottom of the hill.",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The bridge is broken, so someone can't leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "Plow my corn with double shovel.",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone is working hard.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            13,
+            22
+          ],
+          "original_lyric": "Stay all night",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Stay all night.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            5,
+            14,
+            23
+          ],
+          "original_lyric": "stay little longer.",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Stay a little longer.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            6,
+            15,
+            24
+          ],
+          "original_lyric": "Dance all night",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Dance all night.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            7,
+            16,
+            25
+          ],
+          "original_lyric": "dance little longer",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Dance a little longer.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            8,
+            17,
+            26
+          ],
+          "original_lyric": "Pull off your coat and throw it in the corner.",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Take off your coat and put it in the corner.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9,
+            18,
+            27
+          ],
+          "original_lyric": "Don't see why you can't stay little longer",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "I don't see why you can't stay a little longer.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "Sittin' in the window",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Sitting in the window.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "singin' to my love.",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "Singing to my love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Slop bucket fell from the window above",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "A slop bucket fell from above.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Mule and the grasshopper eatin' ice cream",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "A mule and a grasshopper are eating ice cream.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Mule Got sick so we laid him on the beam",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The mule got sick and they laid him on the beam.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Well you oughta see my blue eyed Sally",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "You should see my blue-eyed Sally.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "She lives way down on Shinbone Alley",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "She lives on Shinbone Alley.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "The number on the gate the number on the door.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The number on the gate and the door.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "The next place over is the Grocery store.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The grocery store is next door.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 30,
+        "covered_lines": 30,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 30,
+      "covered_lines": 30,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Willie Nelson - Stay All night",
+            "'Cause the bridge washed out at the bottom of the hill.",
+            "Plow my corn with double shovel.",
+            "Stay all night"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            5,
+            6,
+            4,
+            3
+          ],
+          "end_words": [
+            "night",
+            "hill",
+            "shovel",
+            "night"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "night",
+              "word2": "night",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "stay little longer.",
+            "Dance all night",
+            "dance little longer",
+            "Pull off your coat and throw it in the corner."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            5
+          ],
+          "end_words": [
+            "longer",
+            "night",
+            "longer",
+            "corner"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "longer",
+              "word2": "longer",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "longer",
+              "word2": "corner",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Don't see why you can't stay little longer",
+            "Sittin' in the window",
+            "singin' to my love.",
+            "Slop bucket fell from the window above"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            7,
+            2,
+            2,
+            5
+          ],
+          "end_words": [
+            "longer",
+            "window",
+            "love",
+            "above"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "love",
+              "word2": "above",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Mule and the grasshopper eatin' ice cream",
+            "Mule Got sick so we laid him on the beam",
+            "Stay all night",
+            "stay little longer."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            5,
+            3,
+            3
+          ],
+          "end_words": [
+            "cream",
+            "beam",
+            "night",
+            "longer"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "cream",
+              "word2": "beam",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Dance all night",
+            "dance little longer",
+            "Pull off your coat and throw it in the corner.",
+            "Don't see why you can't stay little longer"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3,
+            3,
+            5,
+            7
+          ],
+          "end_words": [
+            "night",
+            "longer",
+            "corner",
+            "longer"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "longer",
+              "word2": "corner",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "longer",
+              "word2": "longer",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "corner",
+              "word2": "longer",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Well you oughta see my blue eyed Sally",
+            "She lives way down on Shinbone Alley",
+            "The number on the gate the number on the door.",
+            "The next place over is the Grocery store."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            5,
+            4,
+            5
+          ],
+          "end_words": [
+            "sally",
+            "alley",
+            "door",
+            "store"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "sally",
+              "word2": "alley",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "door",
+              "word2": "store",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Stay all night",
+            "stay little longer.",
+            "Dance all night",
+            "dance little longer"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "night",
+            "longer",
+            "night",
+            "longer"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "night",
+              "word2": "night",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "longer",
+              "word2": "longer",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Pull off your coat and throw it in the corner.",
+            "Don't see why you can't stay little longer"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            7
+          ],
+          "end_words": [
+            "corner",
+            "longer"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "corner",
+              "word2": "longer",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 30
+    }
+  }
+}

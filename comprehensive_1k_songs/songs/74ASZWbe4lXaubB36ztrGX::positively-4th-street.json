@@ -1,0 +1,618 @@
+{
+  "song_id": "74ASZWbe4lXaubB36ztrGX::positively-4th-street",
+  "title": "Positively 4th Street",
+  "artist": "Bob Dylan",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nYou got lotta nerve to say you are my friend\nWhen I was down you just stood there grinning\nYou got lotta nerve to say you got helping hand\nYou just want to be on the side that's winning\nYou say I let you down you know it's not like that\nIf you're so hurt why then don't you show it\nYou say you lost your faith but that's not where it's at\nYou had no faith to lose and you know it\nI know the reason that you talk behind my back\nI used to be among the crowd you're in with\nDo you take me for such fool to think I' make contact\nWith the one who tries to hide what he don't know to begin with\nYou see me on the street you always act surprised\nYou say, \"How are you?\" \"Good luck\" but you don't mean it\nWhen you know as well as me you' rather see me paralyzed\nWhy don't you just come out once and scream it\nNo, I do not feel that good when I see the heartbreaks you embrace\nIf I was master thief perhaps I' rob them\nAnd now I know you're dissatisfied with your position and your place\nDon't you understand it's not my problem\nI wish that for just one time you could stand inside my shoes\nAnd just for that one moment I could be you\nYes, I wish that for just one time you could stand inside my shoes\nYou' know what drag it is to see you",
+  "cleaned_lyrics": "You got lotta nerve to say you are my friend\nWhen I was down you just stood there grinning\nYou got lotta nerve to say you got helping hand\nYou just want to be on the side that's winning\nYou say I let you down\nyou know it's not like that\nIf you're so hurt why then don't you show it\nYou say you lost your faith\nbut that's not where it's at\nYou had no faith to lose and you know it\nI know the reason that you talk behind my back\nI used to be among the crowd you're in with\nDo you take me for such fool to think I' make contact\nWith the one who tries to hide\nwhat he don't know to begin with\nYou see me on the street you always act surprised\nYou say\n\"How are you?\" \"Good luck\" but you don't mean it\nWhen you know as well as me you' rather see me paralyzed\nWhy don't you just come\nout once and scream it\nNo\nI do not feel that good when I see the heartbreaks you embrace\nIf I was master thief perhaps I' rob them\nAnd now I know you're dissatisfied with your position and your place\nDon't you understand it's not my problem\nI wish that for just one time you could stand inside my shoes\nAnd just for that one moment I could be you\nYes\nI wish that for just one time you could stand inside my shoes\nYou' know what drag it is to see you",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 25,
+    "cleaned_lines": 31,
+    "removed_count": 1,
+    "retention_rate": 1.24,
+    "removal_reasons": {
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "You got lotta nerve to say you are my friend\nWhen I was down you just stood there grinning",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "You're mad at someone for pretending to be a friend when they weren't helpful when you were down.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "You got lotta nerve to say you got helping hand\nYou just want to be on the side that's winning",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "You're mad because they only pretend to help to look good.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "You say I let you down\nyou know it's not like that",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "defensiveness",
+          "eli5_simplification": "They are accusing you of something you didn't do.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "If you're so hurt why then don't you show it\nYou say you lost your faith\nbut that's not where it's at",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sarcasm",
+          "eli5_simplification": "You're calling them out for not showing their true feelings and for lying about their faith.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "You had no faith to lose and you know it\nI know the reason that you talk behind my back",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "contempt",
+          "eli5_simplification": "You know they never had faith to begin with, and you know they talk about you behind your back.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "I used to be among the crowd you're in with\nDo you take me for such fool to think I' make contact",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "You used to be part of their group, and you're asking if they think you're stupid enough to want to be friends again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "With the one who tries to hide\nwhat he don't know to begin with",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "disgust",
+          "eli5_simplification": "You're talking about someone who pretends to know things they don't.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16,
+            17
+          ],
+          "original_lyric": "You see me on the street you always act surprised\nYou say\n\"How are you?\" \"Good luck\" but you don't mean it",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sarcasm",
+          "eli5_simplification": "They act surprised to see you and say nice things, but you know they don't mean it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "When you know as well as me you' rather see me paralyzed",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "bitterness",
+          "eli5_simplification": "You know they'd rather see you fail.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Why don't you just come\nout once and scream it",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "You wish they would just admit how they really feel.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "No",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "disappointment",
+          "emotion_secondary": null,
+          "eli5_simplification": "A simple negative response.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "I do not feel that good when I see the heartbreaks you embrace",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "disappointment",
+          "emotion_secondary": "resentment",
+          "eli5_simplification": "You don't feel good seeing the bad things they go through.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "If I was master thief perhaps I' rob them",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "anger",
+          "emotion_secondary": "sarcasm",
+          "eli5_simplification": "You're sarcastically saying you'd steal their problems if you could.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "And now I know you're dissatisfied with your position and your place",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "satisfaction",
+          "emotion_secondary": null,
+          "eli5_simplification": "You know they are unhappy with their life.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "Don't you understand it's not my problem",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "detachment",
+          "emotion_secondary": null,
+          "eli5_simplification": "You're saying their problems aren't your concern.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "I wish that for just one time you could stand inside my shoes\nAnd just for that one moment I could be you",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "empathy",
+          "eli5_simplification": "You wish they could understand your perspective.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "Yes",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Affirmation of the previous line.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            28,
+            29
+          ],
+          "original_lyric": "I wish that for just one time you could stand inside my shoes\nYou' know what drag it is to see you",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "You repeat the wish for them to understand, and express the frustration of seeing them.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 29,
+        "covered_lines": 29,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 29,
+      "covered_lines": 29,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "You got lotta nerve to say you are my friend",
+            "When I was down you just stood there grinning",
+            "You got lotta nerve to say you got helping hand",
+            "You just want to be on the side that's winning"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            6,
+            7,
+            5
+          ],
+          "end_words": [
+            "friend",
+            "grinning",
+            "hand",
+            "winning"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "grinning",
+              "word2": "winning",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "You say I let you down",
+            "you know it's not like that",
+            "If you're so hurt why then don't you show it",
+            "You say you lost your faith"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            5,
+            7,
+            3
+          ],
+          "end_words": [
+            "down",
+            "that",
+            "it",
+            "faith"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "but that's not where it's at",
+            "You had no faith to lose and you know it",
+            "I know the reason that you talk behind my back",
+            "I used to be among the crowd you're in with"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            5,
+            6,
+            5,
+            5
+          ],
+          "end_words": [
+            "at",
+            "it",
+            "back",
+            "with"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "at",
+              "word2": "back",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AE), post-consonants in same family"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "it",
+              "word2": "with",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Do you take me for such fool to think I' make contact",
+            "With the one who tries to hide",
+            "what he don't know to begin with",
+            "You see me on the street you always act surprised"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            6,
+            3,
+            5,
+            5
+          ],
+          "end_words": [
+            "contact",
+            "hide",
+            "with",
+            "surprised"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "hide",
+              "word2": "surprised",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "You say",
+            "\"How are you?\" \"Good luck\" but you don't mean it",
+            "When you know as well as me you' rather see me paralyzed",
+            "Why don't you just come"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            6,
+            6,
+            4
+          ],
+          "end_words": [
+            "say",
+            "it",
+            "paralyzed",
+            "come"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "out once and scream it",
+            "No",
+            "I do not feel that good when I see the heartbreaks you embrace",
+            "If I was master thief perhaps I' rob them"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            1,
+            7,
+            6
+          ],
+          "end_words": [
+            "it",
+            "no",
+            "embrace",
+            "them"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "And now I know you're dissatisfied with your position and your place",
+            "Don't you understand it's not my problem",
+            "I wish that for just one time you could stand inside my shoes",
+            "And just for that one moment I could be you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            6,
+            6,
+            7,
+            4
+          ],
+          "end_words": [
+            "place",
+            "problem",
+            "shoes",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "shoes",
+              "word2": "you",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Yes",
+            "I wish that for just one time you could stand inside my shoes",
+            "You' know what drag it is to see you"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "XAA",
+          "raw_rhyme_scheme": "ABB",
+          "pattern": "3_ABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            1,
+            7,
+            6
+          ],
+          "end_words": [
+            "yes",
+            "shoes",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "shoes",
+              "word2": "you",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (UW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAA",
+          "pattern": "3_ABB",
+          "line_count": 3,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 31
+    }
+  }
+}

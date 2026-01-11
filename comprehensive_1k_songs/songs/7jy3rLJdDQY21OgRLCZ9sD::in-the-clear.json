@@ -1,0 +1,751 @@
+{
+  "song_id": "7jy3rLJdDQY21OgRLCZ9sD::in-the-clear",
+  "title": "In The Clear",
+  "artist": "Foo Fighters",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThere are days I might not make it\nThere are days I might start breakinâ??\n\n[bridge]\nYou can find me dancing with the spirits in the square God damn I swear\n\n[verse]\nThere are times I feel like givin' in\nThere are times I begin to begin again\nLook outside the world keeps spinning like paddle-wheel\nRolling for the broken-hearted waiting on the heal\n\n[chorus]\nYou know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now, dear\nYou know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now, dear\n\n[verse]\nThere are places I don't remember\nThere are faces I don't remember\nHow could I forget you painted stars into the sky?\n\n[chorus]\nYou know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now, dear\nYou know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now, dear\n\n[bridge]\nAnd if I should drown\nMay this be the sound\nTo wash me out!\n\n[chorus]\nYou know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now, dear\nYou know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now, dear",
+  "cleaned_lyrics": "There are days I might not make it\nThere are days I might start breakinâ??\nYou can find me dancing with the spirits in the square God damn I swear\nThere are times I feel like givin' in\nThere are times I begin to begin again\nLook outside the world\nkeeps spinning like paddle-wheel\nRolling for the broken-hearted waiting on the heal\nYou know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now\ndear\nYou know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now\ndear\nThere are places I don't remember\nThere are faces I don't remember\nHow could I forget you painted stars into the sky?\nYou know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now\ndear\nYou know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now\ndear\nAnd if I should drown\nMay this be the sound\nTo wash me out!\nYou know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now\ndear\nYou know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now\ndear",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 46,
+    "cleaned_lines": 38,
+    "removed_count": 8,
+    "retention_rate": 0.9743589743589743,
+    "removal_reasons": {
+      "section_marker": 8
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "There are days I might not make it\nThere are days I might start breakinâ??",
+          "plot_function": "SETUP",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Sometimes I feel like I won't be okay, like I might fall apart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "You can find me dancing with the spirits in the square God damn I swear",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "I might find happiness and freedom.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "There are times I feel like givin' in\nThere are times I begin to begin again",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Sometimes I want to give up, but then I try again.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "Look outside the world\nkeeps spinning like paddle-wheel",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The world keeps going, no matter what.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Rolling for the broken-hearted waiting on the heal",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "People who are sad are hoping to feel better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "original_lyric": "You know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now\ndear",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "We're not safe or okay, but don't give up on me.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "original_lyric": "You know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now\ndear",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "We're not safe or okay, but don't give up on me.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "There are places I don't remember\nThere are faces I don't remember",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "I can't remember things from the past.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "How could I forget you painted stars into the sky?",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "I can't believe I forgot something so important.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "original_lyric": "You know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now\ndear",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "We're not safe or okay, but don't give up on me.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "You know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now\ndear",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "We're not safe or okay, but don't give up on me.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26,
+            27
+          ],
+          "original_lyric": "And if I should drown\nMay this be the sound",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "If I die, let this be the last thing you hear.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "To wash me out!",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Let the sound take away my pain.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "original_lyric": "You know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now\ndear",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "We're not safe or okay, but don't give up on me.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            33,
+            34,
+            35,
+            36
+          ],
+          "original_lyric": "You know I'm not in the clear\nYou are not in the clear\nDonâ??t you go count me out now\ndear",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "We're not safe or okay, but don't give up on me.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 36,
+        "covered_lines": 36,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 36,
+      "covered_lines": 36,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "There are days I might not make it",
+            "There are days I might start breakinâ??",
+            "You can find me dancing with the spirits in the square God damn I swear",
+            "There are times I feel like givin' in"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            5,
+            4,
+            7,
+            6
+          ],
+          "end_words": [
+            "it",
+            "breakin",
+            "swear",
+            "in"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "it",
+              "word2": "in",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "There are times I begin to begin again",
+            "Look outside the world",
+            "keeps spinning like paddle-wheel",
+            "Rolling for the broken-hearted waiting on the heal"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            5,
+            4,
+            5,
+            5
+          ],
+          "end_words": [
+            "again",
+            "world",
+            "wheel",
+            "heal"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "wheel",
+              "word2": "heal",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "You know I'm not in the clear",
+            "You are not in the clear",
+            "Donâ??t you go count me out now",
+            "dear"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            2,
+            6,
+            1
+          ],
+          "end_words": [
+            "clear",
+            "clear",
+            "now",
+            "dear"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "clear",
+              "word2": "clear",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "clear",
+              "word2": "dear",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "You know I'm not in the clear",
+            "You are not in the clear",
+            "Donâ??t you go count me out now",
+            "dear"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            2,
+            6,
+            1
+          ],
+          "end_words": [
+            "clear",
+            "clear",
+            "now",
+            "dear"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "clear",
+              "word2": "clear",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "clear",
+              "word2": "dear",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "There are places I don't remember",
+            "There are faces I don't remember",
+            "How could I forget you painted stars into the sky?",
+            "You know I'm not in the clear"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "remember",
+            "remember",
+            "sky",
+            "clear"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "remember",
+              "word2": "remember",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "You are not in the clear",
+            "Donâ??t you go count me out now",
+            "dear",
+            "You know I'm not in the clear"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            6,
+            1,
+            4
+          ],
+          "end_words": [
+            "clear",
+            "now",
+            "dear",
+            "clear"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "clear",
+              "word2": "dear",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "dear",
+              "word2": "clear",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "You are not in the clear",
+            "Donâ??t you go count me out now",
+            "dear",
+            "And if I should drown"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            2,
+            6,
+            1,
+            2
+          ],
+          "end_words": [
+            "clear",
+            "now",
+            "dear",
+            "drown"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "clear",
+              "word2": "dear",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "now",
+              "word2": "drown",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "May this be the sound",
+            "To wash me out!",
+            "You know I'm not in the clear",
+            "You are not in the clear"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            1,
+            2,
+            4,
+            2
+          ],
+          "end_words": [
+            "sound",
+            "out",
+            "clear",
+            "clear"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "sound",
+              "word2": "out",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AW), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "clear",
+              "word2": "clear",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "Donâ??t you go count me out now",
+            "dear",
+            "You know I'm not in the clear",
+            "You are not in the clear"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            6,
+            1,
+            4,
+            2
+          ],
+          "end_words": [
+            "now",
+            "dear",
+            "clear",
+            "clear"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "dear",
+              "word2": "clear",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "clear",
+              "word2": "clear",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "Donâ??t you go count me out now",
+            "dear"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            6,
+            1
+          ],
+          "end_words": [
+            "now",
+            "dear"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "chorus",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "chorus",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 10,
+      "total_lines": 38
+    }
+  }
+}

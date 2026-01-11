@@ -1,0 +1,626 @@
+{
+  "song_id": "6eUKZXaKkcviH0Ku9w2n3V::wonderwall",
+  "title": "Wonderwall",
+  "artist": "Ed Sheeran",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\n- - - A7sus4\n\n[verse]\nToday is gonna be the day\nA7sus4\nThat they're gonna throw it back to you,\n\n[bridge]\nA7sus4\nRealized what you gotta do.\nI don't believe that anybody feels the way I do\nAbout you now.\n\n[bridge]\nA7sus4\nThat the fire in your heart is out,\nI'm sure you've heard it all before,\nA7sus4\n\n[bridge]\nI don't believe that anybody feels the way I do\nAbout you now.\n\n[bridge]\nAnd all the roads we have to walk are winding,\nAnd all the lights that lead us there are blinding,\nThere are many things that I would like to say to you\nA7sus4\n\n[bridge]\nYou're gonna be the one that saves me,\nAnd after all,\nYou're my wonderwall.\n\n[verse]\nToday was gonna be the day,\nA7sus4\n\n[bridge]\nA7sus4\nRealized what you've gotta do.\nI don't believe that anybody feels the way I do\nAbout you now.\n\n[bridge]\nAnd all the roads we have to walk are winding,\nAnd all the lights that lead us there are blinding,\nThere are many things that I would like to say to you\nA7sus4\n\n[chorus]\nI said maybe,\nYou're gonna be the one that saves me,\nAnd after all,\nYou're my wonderwall.\n\n[chorus]\nI said maybe,\nYou're gonna be the one that saves me,\nAnd after all,\nYou're my wonderwall.\n\n[outro]\nI said maybe,\nYou're gonna be the one that saves me,\nYou're gonna be the one that saves me,\nYou're gonna be the one that saves me,",
+  "cleaned_lyrics": "Today is gonna be the day\nThat they're gonna throw it back to you\nRealized what you gotta do.\nI don't believe that anybody feels the way I do\nAbout you now.\nThat the fire in your heart is out\nI'm sure you've heard it all before\nI don't believe that anybody feels the way I do\nAbout you now.\nAnd all the roads we have to walk are winding\nAnd all the lights that lead us there are blinding\nThere are many things that I would like to say to you\nYou're gonna be the one that saves me\nAnd after all\nYou're my wonderwall.\nToday was gonna be the day\nRealized what you've gotta do.\nI don't believe that anybody feels the way I do\nAbout you now.\nAnd all the roads we have to walk are winding\nAnd all the lights that lead us there are blinding\nThere are many things that I would like to say to you\nI said maybe\nYou're gonna be the one that saves me\nAnd after all\nYou're my wonderwall.\nI said maybe\nYou're gonna be the one that saves me\nAnd after all\nYou're my wonderwall.\nI said maybe\nYou're gonna be the one that saves me\nYou're gonna be the one that saves me\nYou're gonna be the one that saves me",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 68,
+    "cleaned_lines": 34,
+    "removed_count": 22,
+    "retention_rate": 0.6071428571428571,
+    "removal_reasons": {
+      "section_marker": 13,
+      "chord_line": 9
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3
+          ],
+          "original_lyric": "Today is gonna be the day\nThat they're gonna throw it back to you\nRealized what you gotta do.",
+          "plot_function": "SETUP",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Today is the day something will happen to you. You know what you need to do.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "I don't believe that anybody feels the way I do\nAbout you now.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I don't think anyone feels about you the way I do.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "That the fire in your heart is out",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "You've lost your passion.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "I'm sure you've heard it all before",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "You've heard this all before.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "I don't believe that anybody feels the way I do\nAbout you now.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I don't think anyone feels about you the way I do.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "And all the roads we have to walk are winding\nAnd all the lights that lead us there are blinding",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The journey is difficult, but the destination is bright.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "There are many things that I would like to say to you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I want to tell you many things.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14,
+            15
+          ],
+          "original_lyric": "You're gonna be the one that saves me\nAnd after all\nYou're my wonderwall.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "You are the one who will save me. You are my everything.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "Today was gonna be the day\nRealized what you've gotta do.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Today was the day, and you know what you have to do.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "I don't believe that anybody feels the way I do\nAbout you now.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I don't think anyone feels about you the way I do.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "And all the roads we have to walk are winding\nAnd all the lights that lead us there are blinding",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The journey is difficult, but the destination is bright.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "There are many things that I would like to say to you",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I want to tell you many things.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            23,
+            24,
+            25
+          ],
+          "original_lyric": "I said maybe\nYou're gonna be the one that saves me\nAnd after all\nYou're my wonderwall.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Maybe you will save me. You are my everything.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26,
+            27,
+            28
+          ],
+          "original_lyric": "I said maybe\nYou're gonna be the one that saves me\nAnd after all\nYou're my wonderwall.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Maybe you will save me. You are my everything.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "original_lyric": "I said maybe\nYou're gonna be the one that saves me\nYou're gonna be the one that saves me\nYou're gonna be the one that saves me",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Maybe you will save me. You are my everything.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 32,
+        "covered_lines": 32,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 32,
+      "covered_lines": 32,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Today is gonna be the day",
+            "That they're gonna throw it back to you",
+            "Realized what you gotta do.",
+            "I don't believe that anybody feels the way I do"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3,
+            5,
+            4,
+            7
+          ],
+          "end_words": [
+            "day",
+            "you",
+            "do",
+            "do"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "you",
+              "word2": "do",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "do",
+              "word2": "do",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "About you now.",
+            "That the fire in your heart is out",
+            "I'm sure you've heard it all before",
+            "I don't believe that anybody feels the way I do"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            3,
+            6,
+            7
+          ],
+          "end_words": [
+            "now",
+            "out",
+            "before",
+            "do"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "now",
+              "word2": "out",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "About you now.",
+            "And all the roads we have to walk are winding",
+            "And all the lights that lead us there are blinding",
+            "There are many things that I would like to say to you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "end_words": [
+            "now",
+            "winding",
+            "blinding",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "winding",
+              "word2": "blinding",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "You're gonna be the one that saves me",
+            "And after all",
+            "You're my wonderwall.",
+            "Today was gonna be the day"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            2,
+            2,
+            3
+          ],
+          "end_words": [
+            "me",
+            "all",
+            "wonderwall",
+            "day"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Realized what you've gotta do.",
+            "I don't believe that anybody feels the way I do",
+            "About you now.",
+            "And all the roads we have to walk are winding"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            7,
+            2,
+            4
+          ],
+          "end_words": [
+            "do",
+            "do",
+            "now",
+            "winding"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "do",
+              "word2": "do",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "And all the lights that lead us there are blinding",
+            "There are many things that I would like to say to you",
+            "I said maybe",
+            "You're gonna be the one that saves me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            6,
+            2,
+            5
+          ],
+          "end_words": [
+            "blinding",
+            "you",
+            "maybe",
+            "me"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "And after all",
+            "You're my wonderwall.",
+            "I said maybe",
+            "You're gonna be the one that saves me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            5
+          ],
+          "end_words": [
+            "all",
+            "wonderwall",
+            "maybe",
+            "me"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "And after all",
+            "You're my wonderwall.",
+            "I said maybe",
+            "You're gonna be the one that saves me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            2,
+            5
+          ],
+          "end_words": [
+            "all",
+            "wonderwall",
+            "maybe",
+            "me"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "You're gonna be the one that saves me",
+            "You're gonna be the one that saves me"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            5,
+            5
+          ],
+          "end_words": [
+            "me",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "chorus",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "chorus",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "chorus",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "line_count": 2,
+          "stability": 1.0
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 34
+    }
+  }
+}

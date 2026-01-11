@@ -1,0 +1,521 @@
+{
+  "song_id": "4YLtscXsxbVgi031ovDDdh::amanda",
+  "title": "Amanda",
+  "artist": "Chris Stapleton",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nI?ve held it all inward, God knows, I?ve tried,\n\n[bridge]\nTo look in the mirror in total surprise.\nAt the hair on my shoulders and the age in my eyes.\nAmanda, light of my life.\nFate should have made you gentleman?s wife.\nAmanda, light of my life.\nFate should have made you gentleman?s wife.\n\n[verse]\nIt?s measure of people who don?t understand,\nThe pleasures of life in hillbilly band.\nI got my first guitar when I was fourteen,\nWell I finally made forty, still wearing jeans.\nAmanda, light of my life.\nFate should have made you gentleman?s wife.\nAmanda, light of my life.\nFate should have made you gentleman?s wife.",
+  "cleaned_lyrics": "I?ve held it all inward\nGod knows\nI?ve tried\nTo look in the mirror in total surprise.\nAt the hair on my shoulders and the age in my eyes.\nAmanda\nlight of my life.\nFate should have made you gentleman?s wife.\nAmanda\nlight of my life.\nFate should have made you gentleman?s wife.\nIt?s measure of people who don?t understand\nThe pleasures of life in hillbilly band.\nI got my first guitar when I was fourteen\nWell I finally made forty\nstill wearing jeans.\nAmanda\nlight of my life.\nFate should have made you gentleman?s wife.\nAmanda\nlight of my life.\nFate should have made you gentleman?s wife.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 20,
+    "cleaned_lines": 22,
+    "removed_count": 3,
+    "retention_rate": 1.2222222222222223,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "I?ve held it all inward\nGod knows",
+          "plot_function": "SETUP",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is keeping his feelings inside, and he's sad about it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "I?ve tried\nTo look in the mirror in total surprise.",
+          "plot_function": "SETUP",
+          "emotion_primary": "regret",
+          "emotion_secondary": "surprise",
+          "eli5_simplification": "He's trying to understand himself, but is shocked by what he sees.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "At the hair on my shoulders and the age in my eyes.",
+          "plot_function": "SETUP",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's noticing how he's getting older.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "Amanda\nlight of my life.",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's talking about Amanda, the person he loves.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Fate should have made you gentleman?s wife.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "He wishes things were different for her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Amanda\nlight of my life.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's talking about Amanda, the person he loves.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Fate should have made you gentleman?s wife.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "He wishes things were different for her.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "It?s measure of people who don?t understand\nThe pleasures of life in hillbilly band.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's frustrated that people don't understand his life.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "I got my first guitar when I was fourteen\nWell I finally made forty",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's remembering his life and how long he's been playing guitar.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "still wearing jeans.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's still the same person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "Amanda\nlight of my life.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's talking about Amanda, the person he loves.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "Fate should have made you gentleman?s wife.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "He wishes things were different for her.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Amanda\nlight of my life.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "He's talking about Amanda, the person he loves.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Fate should have made you gentleman?s wife.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "He wishes things were different for her.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 21,
+        "covered_lines": 21,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 21,
+      "covered_lines": 21,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I?ve held it all inward",
+            "God knows",
+            "I?ve tried",
+            "To look in the mirror in total surprise."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            2,
+            2,
+            4
+          ],
+          "end_words": [
+            "inward",
+            "knows",
+            "tried",
+            "surprise"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "tried",
+              "word2": "surprise",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "At the hair on my shoulders and the age in my eyes.",
+            "Amanda",
+            "light of my life.",
+            "Fate should have made you gentleman?s wife."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            1,
+            2,
+            5
+          ],
+          "end_words": [
+            "eyes",
+            "amanda",
+            "life",
+            "wife"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "eyes",
+              "word2": "life",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (AY), post-consonants in same family"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "life",
+              "word2": "wife",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Amanda",
+            "light of my life.",
+            "Fate should have made you gentleman?s wife.",
+            "It?s measure of people who don?t understand"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            1,
+            2,
+            5,
+            7
+          ],
+          "end_words": [
+            "amanda",
+            "life",
+            "wife",
+            "understand"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "amanda",
+              "word2": "understand",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "life",
+              "word2": "wife",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "The pleasures of life in hillbilly band.",
+            "I got my first guitar when I was fourteen",
+            "Well I finally made forty",
+            "still wearing jeans."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            6,
+            4,
+            3
+          ],
+          "end_words": [
+            "band",
+            "fourteen",
+            "forty",
+            "jeans"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "fourteen",
+              "word2": "jeans",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Amanda",
+            "light of my life.",
+            "Fate should have made you gentleman?s wife.",
+            "Amanda"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            1,
+            2,
+            5,
+            1
+          ],
+          "end_words": [
+            "amanda",
+            "life",
+            "wife",
+            "amanda"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "amanda",
+              "word2": "amanda",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "life",
+              "word2": "wife",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "light of my life.",
+            "Fate should have made you gentleman?s wife."
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            5
+          ],
+          "end_words": [
+            "life",
+            "wife"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "life",
+              "word2": "wife",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "chorus",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "chorus",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "chorus",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 22
+    }
+  }
+}

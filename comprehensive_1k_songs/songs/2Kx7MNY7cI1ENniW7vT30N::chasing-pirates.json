@@ -1,0 +1,427 @@
+{
+  "song_id": "2Kx7MNY7cI1ENniW7vT30N::chasing-pirates",
+  "title": "Chasing Pirates",
+  "artist": "Norah Jones",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\n( )\n\n[intro]\nYou were goin' to bed\n( )\n\n[bridge]\n( )\nSo i stayed up and read\n\n[bridge]\n( )\nGot me mixed up so i turned out the light\nAnd i, don't know how, to slow it down\nMy mind's racing from chasing pirates\n( )\nWell the man in there swings\nWhile the silliest things\n( )\nFloppin around in my brain\n( )\nAnd i try not to dream\n\n[bridge]\n( )\nSwim around, wanna drown me in synch\nAnd i, don't know how, to slow it down\nMy mind's racing from chasing pirates\n( ) ( )\nAnd i, don't know how, to slow it down\nMy mind's racing from chasing pirates\nMy mind's racing from chasing pirates",
+  "cleaned_lyrics": "You were goin' to bed\nSo i stayed up and read\nGot me mixed up so i turned out the light\nAnd i\ndon't know how\nto slow it down\nMy mind's racing from chasing pirates\nWell the man in there swings\nWhile the silliest things\nFloppin around in my brain\nAnd i try not to dream\nSwim around\nwanna drown me in synch\nAnd i\ndon't know how\nto slow it down\nMy mind's racing from chasing pirates\nAnd i\ndon't know how\nto slow it down\nMy mind's racing from chasing pirates\nMy mind's racing from chasing pirates",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 33,
+    "cleaned_lines": 22,
+    "removed_count": 5,
+    "retention_rate": 0.7586206896551724,
+    "removal_reasons": {
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "You were goin' to bed\nSo i stayed up and read",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone went to sleep, and someone else stayed awake to read.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "Got me mixed up so i turned out the light",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "The person is confused and turned off the light.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            6,
+            10,
+            13,
+            15,
+            16
+          ],
+          "original_lyric": "And i\ndon't know how\nto slow it down\nMy mind's racing from chasing pirates",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anxiety",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The person's mind is going too fast, like they are chasing pirates.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Well the man in there swings\nWhile the silliest things",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "Something is happening in the person's mind, and silly thoughts are popping up.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Floppin around in my brain",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anxiety",
+          "emotion_secondary": null,
+          "eli5_simplification": "The thoughts are all over the place.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Swim around",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anxiety",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thoughts are swimming around.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "wanna drown me in synch",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The thoughts want to overwhelm the person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "And i\ndon't know how\nto slow it down",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anxiety",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The person's mind is going too fast, like they are chasing pirates.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "You were goin' to bed",
+            "So i stayed up and read",
+            "Got me mixed up so i turned out the light",
+            "And i"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            3,
+            6,
+            1
+          ],
+          "end_words": [
+            "bed",
+            "read",
+            "light",
+            "i"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "light",
+              "word2": "i",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "don't know how",
+            "to slow it down",
+            "My mind's racing from chasing pirates",
+            "Well the man in there swings"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            2,
+            4,
+            4
+          ],
+          "end_words": [
+            "how",
+            "down",
+            "pirates",
+            "swings"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "how",
+              "word2": "down",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "While the silliest things",
+            "Floppin around in my brain",
+            "And i try not to dream",
+            "Swim around"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "things",
+            "brain",
+            "dream",
+            "around"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "wanna drown me in synch",
+            "And i",
+            "don't know how",
+            "to slow it down"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            1,
+            3,
+            2
+          ],
+          "end_words": [
+            "synch",
+            "i",
+            "how",
+            "down"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "how",
+              "word2": "down",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "My mind's racing from chasing pirates",
+            "And i",
+            "don't know how",
+            "to slow it down"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            1,
+            3,
+            2
+          ],
+          "end_words": [
+            "pirates",
+            "i",
+            "how",
+            "down"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "pirates",
+              "word2": "i",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word adds post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "how",
+              "word2": "down",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "My mind's racing from chasing pirates",
+            "My mind's racing from chasing pirates"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            4,
+            4
+          ],
+          "end_words": [
+            "pirates",
+            "pirates"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "pirates",
+              "word2": "pirates",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "chorus",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "chorus",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA",
+          "line_count": 2,
+          "stability": 1.0
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 22
+    }
+  }
+}

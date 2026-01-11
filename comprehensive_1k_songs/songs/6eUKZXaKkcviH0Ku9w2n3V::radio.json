@@ -1,0 +1,865 @@
+{
+  "song_id": "6eUKZXaKkcviH0Ku9w2n3V::radio",
+  "title": "Radio",
+  "artist": "Ed Sheeran",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nHi, my name is Jamie, there was time when radio played me\n\n[chorus]\nI?m here struggling, keeping it real, while the rest of them are hustling,\nseeking deal,\nSometimes I sit back and think Jamie just do one tune, make couple 's and chill,\nThe reason I started making music is the exact same reason that I?ll never do it, I swear\nI didn?t go through all that for this, I?ll give that miss, that?s just how\nit is, unfair, straight,\nWho could tell me different, look at me, determined, Man on mission\nMy music is me, and I my music So like it or lump it, I?ma do this\nI never had playlist in my heart, oho\nNow I need an list just to chart\nFor I?ve been famous from the start\nHow I gonna make my mark, oh oh\nAre you gonna play me, though, song was never meant for the radio\nI get ?radio spin, I?m just doing my thing, and I don?t have time for playlist\nHow much will you pay me though? the song was not hit on the radio, oho,",
+  "cleaned_lyrics": "Hi\nmy name is Jamie\nthere was time when radio played me\nI?m here struggling\nkeeping it real\nwhile the rest of them are hustling\nseeking deal\nSometimes I sit back and\nthink Jamie just do one tune\nmake couple 's and chill\nThe reason I started making music is the\nexact same reason that I?ll never do it\nI swear\nI didn?t go through all that for this\nI?ll give that miss\nthat?s just how\nit is\nunfair\nstraight\nWho could tell me different\nlook at me\ndetermined\nMan on mission\nMy music is me\nand I my music So like it or lump it\nI?ma do this\nI never had playlist in my heart\noho\nNow I need an list just to chart\nFor I?ve been famous from the start\nHow I gonna make my mark\noh oh\nAre you gonna play me\nthough\nsong was never meant for the radio\nI get ?radio spin\nI?m just doing my thing\nand I don?t have time for playlist\nHow much will you pay me though?\nthe song was not hit on the radio\noho",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 19,
+    "cleaned_lines": 41,
+    "removed_count": 2,
+    "retention_rate": 2.2777777777777777,
+    "removal_reasons": {
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "Hi",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Hello.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2
+          ],
+          "original_lyric": "my name is Jamie",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer's name is Jamie.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "there was time when radio played me",
+          "plot_function": "SETUP",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie used to be played on the radio.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "I?m here struggling\nkeeping it real",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie is having a hard time and trying to stay true to himself.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "while the rest of them are hustling\nseeking deal",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "Other people are trying to get deals.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10
+          ],
+          "original_lyric": "Sometimes I sit back and\nthink Jamie just do one tune\nmake couple 's and chill",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "contemplation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie thinks about making music and relaxing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "The reason I started making music is the\nexact same reason that I?ll never do it",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie is conflicted about why he makes music.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14,
+            15
+          ],
+          "original_lyric": "I swear\nI didn?t go through all that for this\nI?ll give that miss",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "disappointment",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie is disappointed with the current situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17,
+            18
+          ],
+          "original_lyric": "that?s just how\nit is\nunfair",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie thinks things are unfair.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "straight\nWho could tell me different",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "defiance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie is defiant and doesn't want to be told otherwise.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "look at me\ndetermined",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie is determined.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Man on mission\nMy music is me",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie is on a mission and his music is part of him.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "and I my music So like it or lump it",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "confidence",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie is confident in his music.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "I?ma do this",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie is going to keep making music.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "I never had playlist in my heart\noho",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "rebellion",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie doesn't care about playlists.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "Now I need an list just to chart",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie needs a playlist to chart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30
+          ],
+          "original_lyric": "For I?ve been famous from the start",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "irony",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie has been famous from the start.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "How I gonna make my mark",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "questioning",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie wonders how to make his mark.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "oh oh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie is resigned.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33
+          ],
+          "original_lyric": "Are you gonna play me",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "questioning",
+          "emotion_secondary": null,
+          "eli5_simplification": "Will the radio play Jamie?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34
+          ],
+          "original_lyric": "though",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "questioning",
+          "emotion_secondary": null,
+          "eli5_simplification": "though",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35
+          ],
+          "original_lyric": "song was never meant for the radio",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "rebellion",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song wasn't meant for the radio.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            36
+          ],
+          "original_lyric": "I get ?radio spin",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie gets radio spin.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            37
+          ],
+          "original_lyric": "I?m just doing my thing",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie is doing his thing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            38
+          ],
+          "original_lyric": "and I don?t have time for playlist",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "rebellion",
+          "emotion_secondary": null,
+          "eli5_simplification": "Jamie doesn't have time for playlists.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            39
+          ],
+          "original_lyric": "How much will you pay me though?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "questioning",
+          "emotion_secondary": null,
+          "eli5_simplification": "How much will they pay Jamie?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            40
+          ],
+          "original_lyric": "the song was not hit on the radio",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "disappointment",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song wasn't a hit.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            41
+          ],
+          "original_lyric": "oho",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "oho",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 41,
+        "covered_lines": 41,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 41,
+      "covered_lines": 41,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Hi",
+            "my name is Jamie",
+            "there was time when radio played me",
+            "I?m here struggling"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            2,
+            6,
+            3
+          ],
+          "end_words": [
+            "hi",
+            "jamie",
+            "me",
+            "struggling"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "keeping it real",
+            "while the rest of them are hustling",
+            "seeking deal",
+            "Sometimes I sit back and"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            3,
+            2,
+            4
+          ],
+          "end_words": [
+            "real",
+            "hustling",
+            "deal",
+            "and"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "real",
+              "word2": "deal",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "think Jamie just do one tune",
+            "make couple 's and chill",
+            "The reason I started making music is the",
+            "exact same reason that I?ll never do it"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            6
+          ],
+          "end_words": [
+            "tune",
+            "chill",
+            "the",
+            "it"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "chill",
+              "word2": "it",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I swear",
+            "I didn?t go through all that for this",
+            "I?ll give that miss",
+            "that?s just how"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            6,
+            3,
+            3
+          ],
+          "end_words": [
+            "swear",
+            "this",
+            "miss",
+            "how"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "this",
+              "word2": "miss",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "it is",
+            "unfair",
+            "straight",
+            "Who could tell me different"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "end_words": [
+            "is",
+            "unfair",
+            "straight",
+            "different"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "is",
+              "word2": "different",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (IH), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "look at me",
+            "determined",
+            "Man on mission",
+            "My music is me"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            2,
+            1,
+            2,
+            2
+          ],
+          "end_words": [
+            "me",
+            "determined",
+            "mission",
+            "me"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "and I my music So like it or lump it",
+            "I?ma do this",
+            "I never had playlist in my heart",
+            "oho"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            2,
+            4,
+            1
+          ],
+          "end_words": [
+            "it",
+            "this",
+            "heart",
+            "oho"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "it",
+              "word2": "this",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Now I need an list just to chart",
+            "For I?ve been famous from the start",
+            "How I gonna make my mark",
+            "oh oh"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            5,
+            3,
+            4,
+            2
+          ],
+          "end_words": [
+            "chart",
+            "start",
+            "mark",
+            "oh"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "chart",
+              "word2": "start",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "start",
+              "word2": "mark",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AA), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "Are you gonna play me",
+            "though",
+            "song was never meant for the radio",
+            "I get ?radio spin"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            1,
+            4,
+            3
+          ],
+          "end_words": [
+            "me",
+            "though",
+            "radio",
+            "spin"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "I?m just doing my thing",
+            "and I don?t have time for playlist",
+            "How much will you pay me though?",
+            "the song was not hit on the radio"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "thing",
+            "playlist",
+            "though",
+            "radio"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "playlist",
+              "word2": "radio",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "oho"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            1
+          ],
+          "end_words": [
+            "oho"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 11,
+      "total_lines": 41
+    }
+  }
+}

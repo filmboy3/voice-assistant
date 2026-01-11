@@ -1,0 +1,293 @@
+{
+  "song_id": "4Z8W4fKeB5YxbusRsdQVPb::i-can-t",
+  "title": "I Can't",
+  "artist": "Radiohead",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nPlease forget the words that I just blurted out\nIt wasn't me it was my strange and creeping doubt\nIt keeps rattling my cage and there's nothing in\nthis worldwill keep it down\nEven though I might even though I try I can't }2x\nSo many things that keep that keep me underground\nSo many words that I that I can never find\n+If you give up on me now I'll be gutted like\nI've never been before\nEven though I might even though I try I can't }2x",
+  "cleaned_lyrics": "Please forget the words that I just blurted out\nIt wasn't me it was my strange and creeping doubt\nIt keeps rattling my cage and there's nothing in\nthis worldwill keep it down\nEven though I might even though I try I can't }2x\nSo many things that keep that keep me underground\nSo many words that I that I can never find\n+If you give up on me now I'll be gutted like\nI've never been before\nEven though I might even though I try I can't }2x",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 11,
+    "cleaned_lines": 10,
+    "removed_count": 1,
+    "retention_rate": 0.9090909090909091,
+    "removal_reasons": {
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Please forget the words that I just blurted out\nIt wasn't me it was my strange and creeping doubt",
+          "plot_function": "SETUP",
+          "emotion_primary": "regret",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer wants you to ignore what they said because they're feeling doubtful.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "It keeps rattling my cage and there's nothing in",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "anxiety",
+          "eli5_simplification": "Something is bothering the singer and they can't stop it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "this worldwill keep it down",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "helplessness",
+          "eli5_simplification": "Nothing in the world can stop it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "Even though I might even though I try I can't }2x",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "helplessness",
+          "eli5_simplification": "The singer wants to do something but can't, no matter how hard they try.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "So many things that keep that keep me underground",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "isolation",
+          "eli5_simplification": "The singer feels trapped and hidden.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "So many words that I that I can never find",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer can't express themselves.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "+If you give up on me now I'll be gutted like",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "vulnerability",
+          "eli5_simplification": "The singer is afraid of being abandoned.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "I've never been before",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer is afraid of being hurt.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "Even though I might even though I try I can't }2x",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "frustration",
+          "emotion_secondary": "helplessness",
+          "eli5_simplification": "The singer wants to do something but can't, no matter how hard they try.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 12,
+        "covered_lines": 12,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 12,
+      "covered_lines": 12,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Please forget the words that I just blurted out",
+            "It wasn't me it was my strange and creeping doubt",
+            "It keeps rattling my cage and there's nothing in",
+            "this worldwill keep it down"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            6,
+            4,
+            6,
+            3
+          ],
+          "end_words": [
+            "out",
+            "doubt",
+            "in",
+            "down"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "out",
+              "word2": "doubt",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "doubt",
+              "word2": "down",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Even though I might even though I try I can't }2x",
+            "So many things that keep that keep me underground",
+            "So many words that I that I can never find",
+            "+If you give up on me now I'll be gutted like"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            7,
+            5,
+            4,
+            7
+          ],
+          "end_words": [
+            "x",
+            "underground",
+            "find",
+            "like"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "find",
+              "word2": "like",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I've never been before",
+            "Even though I might even though I try I can't }2x"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            3,
+            7
+          ],
+          "end_words": [
+            "before",
+            "x"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 3,
+      "total_lines": 10
+    }
+  }
+}

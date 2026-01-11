@@ -1,0 +1,985 @@
+{
+  "song_id": "0YrtvWJMgSdVrk3SfNjTbx::crooked-teeth",
+  "title": "Crooked Teeth",
+  "artist": "Death Cab for Cutie",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nIt was one hundred degrees as we sat beneath willow tree,\nWhose tears didn't care, they just hung in the air, and refused to fall, to fall.\nAnd I knew I' made horrible call. And now the state line felt like the Berlin wall,\nAnd there was no doubt about which side I was on. Hmmm.....\n'Cause I built you home in my heart\nwith rotten wood--it decayed from the start\n'Cause you can't find nothing at all,\nIf there was nothing there all along.\nNo you can't find nothing at all,\nIf there was nothing there all along.\nMain Riff\nI braved treacherous streets, and kids strung out on homemade speed\nAnd we shared bed in which I could not sleep at all, woo-hoo, woo-hoo\n'Cause at night the sun in retreat made the skyline look like crooked teeth,\n\n[intro]\nYou're so cute when you're slurring your speech,\n(maj7)\n\n[chorus]\n(hold 2) (hold 2)\nI'm war, of head versus heart,\n(hold 2) (hold 2)\nIt's always this way.\n(hold 2) (hold 2)\nMy head is weak, my heart always speaks,\n(hold 2)\n\n[bridge]\nAnd you can't find nothing at all,\nIf there was nothing there all along.\nNo you can't find nothing at all,\nIf there was nothing there all along.\nNo, you can't find nothing at all,\nIf there was nothing there all along.\nThere were churches, theme parks, and malls,\nThere was nothing there all along.",
+  "cleaned_lyrics": "It was one hundred degrees as we sat beneath willow tree\nWhose tears didn't care\nthey just hung in the air\nand refused to fall\nto fall.\nAnd I knew I' made horrible call. And\nnow the state line felt like the Berlin wall\n'Cause I built you home in my heart\nwith rotten wood--it decayed from the start\n'Cause you can't find nothing at all\nIf there was nothing there all along.\nNo you can't find nothing at all\nIf there was nothing there all along.\nMain Riff\nI braved treacherous streets\nand kids strung out on homemade speed\nAnd we shared bed in which I could not sleep at all\nwoo-hoo\nwoo-hoo\n'Cause at night the sun in retreat\nmade the skyline look like crooked teeth\nYou're so cute when you're slurring your speech\n(hold 2) (hold 2)\nI'm war\nof head versus heart\n(hold 2) (hold 2)\nIt's always this way.\n(hold 2) (hold 2)\nMy head is weak\nmy heart always speaks\nAnd you can't find nothing at all\nIf there was nothing there all along.\nNo you can't find nothing at all\nIf there was nothing there all along.\nNo\nyou can't find nothing at all\nIf there was nothing there all along.\nThere were churches\ntheme parks\nand malls\nThere was nothing there all along.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 38,
+    "cleaned_lines": 41,
+    "removed_count": 7,
+    "retention_rate": 1.1714285714285715,
+    "removal_reasons": {
+      "excessive_punctuation": 1,
+      "artist_annotation": 2,
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "It was one hundred degrees as we sat beneath willow tree\nWhose tears didn't care",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "It was hot and we were sitting under a tree.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4,
+            5
+          ],
+          "original_lyric": "they just hung in the air\nand refused to fall\nto fall.",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The tree's tears didn't fall.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "And I knew I' made horrible call. And",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "I knew I made a bad decision.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "now the state line felt like the Berlin wall",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The state line felt like a barrier.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "'Cause I built you home in my heart",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "I built a home for you in my heart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "with rotten wood--it decayed from the start",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "It was built with bad materials and fell apart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "'Cause you can't find nothing at all\nIf there was nothing there all along.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can't find anything if there was nothing there to begin with.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "No you can't find nothing at all\nIf there was nothing there all along.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can't find anything if there was nothing there to begin with.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Main Riff",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Musical interlude.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "I braved treacherous streets",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "I went through dangerous streets.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "and kids strung out on homemade speed",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "And saw kids using drugs.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "And we shared bed in which I could not sleep at all",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anxiety",
+          "emotion_secondary": null,
+          "eli5_simplification": "We shared a bed but I couldn't sleep.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "woo-hoo\nwoo-hoo",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Sound effect.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "'Cause at night the sun in retreat",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "At night, the sun was gone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "made the skyline look like crooked teeth",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "The skyline looked scary.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "You're so cute when you're slurring your speech",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "I like you even when you slur your words.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "(hold 2) (hold 2)",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Musical notation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "I'm war",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "I am at war.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "of head versus heart",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "conflict",
+          "emotion_secondary": null,
+          "eli5_simplification": "My head and heart are fighting.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "(hold 2) (hold 2)",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Musical notation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "It's always this way.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's always like this.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30,
+            31
+          ],
+          "original_lyric": "(hold 2) (hold 2)",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Musical notation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "My head is weak",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "My head is weak.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33
+          ],
+          "original_lyric": "my heart always speaks",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "My heart always speaks.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34,
+            35
+          ],
+          "original_lyric": "(hold 2) (hold 2)",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Musical notation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            36,
+            37
+          ],
+          "original_lyric": "And you can't find nothing at all\nIf there was nothing there all along.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can't find anything if there was nothing there to begin with.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            38,
+            39
+          ],
+          "original_lyric": "No you can't find nothing at all\nIf there was nothing there all along.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can't find anything if there was nothing there to begin with.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            40,
+            41
+          ],
+          "original_lyric": "No\nyou can't find nothing at all",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can't find anything if there was nothing there to begin with.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            42,
+            43
+          ],
+          "original_lyric": "If there was nothing there all along.\nThere were churches",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "You can't find anything if there was nothing there to begin with. There were churches.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            44
+          ],
+          "original_lyric": "theme parks",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Theme parks.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            45
+          ],
+          "original_lyric": "and malls",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "And malls.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            46,
+            47
+          ],
+          "original_lyric": "There was nothing there all along.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "There was nothing there all along.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          {
+            "line_numbers": [
+              22
+            ],
+            "from": "I",
+            "to": "you"
+          }
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 47,
+        "covered_lines": 47,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        {
+          "line_numbers": [
+            22
+          ],
+          "from": "I",
+          "to": "you"
+        }
+      ]
+    },
+    "coverage": {
+      "total_lines": 47,
+      "covered_lines": 47,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "It was one hundred degrees as we sat beneath willow tree",
+            "Whose tears didn't care",
+            "they just hung in the air",
+            "and refused to fall"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            6,
+            4,
+            3,
+            2
+          ],
+          "end_words": [
+            "tree",
+            "care",
+            "air",
+            "fall"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "care",
+              "word2": "air",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "to fall.",
+            "And I knew I' made horrible call. And",
+            "now the state line felt like the Berlin wall",
+            "'Cause I built you home in my heart"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            1,
+            6,
+            7,
+            4
+          ],
+          "end_words": [
+            "fall",
+            "and",
+            "wall",
+            "heart"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "fall",
+              "word2": "wall",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "with rotten wood--it decayed from the start",
+            "'Cause you can't find nothing at all",
+            "If there was nothing there all along.",
+            "No you can't find nothing at all"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4,
+            5,
+            6,
+            5
+          ],
+          "end_words": [
+            "start",
+            "all",
+            "along",
+            "all"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "all",
+              "word2": "along",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "all",
+              "word2": "all",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "along",
+              "word2": "all",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "If there was nothing there all along.",
+            "Main Riff",
+            "I braved treacherous streets",
+            "and kids strung out on homemade speed"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            6,
+            2,
+            3,
+            6
+          ],
+          "end_words": [
+            "along",
+            "riff",
+            "streets",
+            "speed"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "streets",
+              "word2": "speed",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "And we shared bed in which I could not sleep at all",
+            "woo-hoo",
+            "woo-hoo",
+            "'Cause at night the sun in retreat"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            2,
+            2,
+            4
+          ],
+          "end_words": [
+            "all",
+            "hoo",
+            "hoo",
+            "retreat"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "hoo",
+              "word2": "hoo",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "made the skyline look like crooked teeth",
+            "You're so cute when you're slurring your speech",
+            "(hold 2) (hold 2)",
+            "I'm war"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            6,
+            2,
+            2
+          ],
+          "end_words": [
+            "teeth",
+            "speech",
+            "hold",
+            "war"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "teeth",
+              "word2": "speech",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (IY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "of head versus heart",
+            "(hold 2) (hold 2)",
+            "It's always this way.",
+            "(hold 2) (hold 2)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 1.0,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "heart",
+            "hold",
+            "way",
+            "hold"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "hold",
+              "word2": "hold",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "My head is weak",
+            "my heart always speaks",
+            "And you can't find nothing at all",
+            "If there was nothing there all along."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            3,
+            4,
+            6
+          ],
+          "end_words": [
+            "weak",
+            "speaks",
+            "all",
+            "along"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "weak",
+              "word2": "speaks",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IY), one word removes post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "all",
+              "word2": "along",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "No you can't find nothing at all",
+            "If there was nothing there all along.",
+            "No",
+            "you can't find nothing at all"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            6,
+            1,
+            4
+          ],
+          "end_words": [
+            "all",
+            "along",
+            "no",
+            "all"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "all",
+              "word2": "along",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            },
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "all",
+              "word2": "all",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "along",
+              "word2": "all",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "If there was nothing there all along.",
+            "There were churches",
+            "theme parks",
+            "and malls"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            6,
+            2,
+            2,
+            1
+          ],
+          "end_words": [
+            "along",
+            "churches",
+            "parks",
+            "malls"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "along",
+              "word2": "malls",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "There was nothing there all along."
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            5
+          ],
+          "end_words": [
+            "along"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 11,
+      "total_lines": 41
+    }
+  }
+}

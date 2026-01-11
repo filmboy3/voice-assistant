@@ -1,0 +1,462 @@
+{
+  "song_id": "3eqjTLE0HfPfh78zjh6TqT::across-the-borderline",
+  "title": "Across The Borderline",
+  "artist": "Bruce Springsteen",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nThere's place, so I've been told\nEvery street is paved with gold\nAnd it's just across the borderline\nAnd when it's time to take your turn\nThere's lesson that you must learn\nYou may lose more than you'll ever hope to find\nAnd when you reach that broken promised land\nAnd all your dreams slip though your hand\nYou have learned it's too late to change your mind\n\n[chorus]\nJust to wind up where you are\nAnd you're still just across the borderline\nUp and down The Rio Grande\nthousand foot prints in the sand\nReveal secret no one can define\nThe river rolls on like breath\n\n[intro]\nTell me who is next to cross that borderline\nAnd when you reach that broken promised land\nAnd all your dreams slip though your hand\nYou'll know it's too late to change your mind\n\n[chorus]\nJust to wind up where you are\nAnd you're still just across the borderline",
+  "cleaned_lyrics": "There's place\nso I've been told\nEvery street is paved with gold\nAnd it's just across the borderline\nAnd when it's time to take your turn\nThere's lesson that you must learn\nYou may lose more than you'll ever hope to find\nAnd when you reach that broken promised land\nAnd all your dreams slip though your hand\nYou have learned it's too late to change your mind\nJust to wind up where you are\nAnd you're still just across the borderline\nUp and down The Rio Grande\nthousand foot prints in the sand\nThe river rolls on like breath\nTell me who is next to cross that borderline\nAnd when you reach that broken promised land\nAnd all your dreams slip though your hand\nYou'll know it's too late to change your mind\nJust to wind up where you are\nAnd you're still just across the borderline",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 28,
+    "cleaned_lines": 21,
+    "removed_count": 5,
+    "retention_rate": 0.84,
+    "removal_reasons": {
+      "musical_direction": 1,
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3
+          ],
+          "original_lyric": "There's place\nso I've been told\nEvery street is paved with gold",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone told me there's a great place where everything is perfect.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "And it's just across the borderline",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "This perfect place is right on the other side of a border.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "And when it's time to take your turn\nThere's lesson that you must learn",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "When it's your turn to go, you'll learn something important.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "You may lose more than you'll ever hope to find",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "You might lose more than you gain.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9,
+            10
+          ],
+          "original_lyric": "And when you reach that broken promised land\nAnd all your dreams slip though your hand\nYou have learned it's too late to change your mind",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "When you get there and your dreams are gone, it's too late to change your mind.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "Just to wind up where you are",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "You end up back where you started.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "And you're still just across the borderline",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "You're still on the edge.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "Up and down The Rio Grande\nthousand foot prints in the sand",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "People have been trying to cross the border for a long time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "The river rolls on like breath",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The river keeps flowing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Tell me who is next to cross that borderline",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Who will be the next to try?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18,
+            19
+          ],
+          "original_lyric": "And when you reach that broken promised land\nAnd all your dreams slip though your hand\nYou'll know it's too late to change your mind",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "When you get there and your dreams are gone, it's too late to change your mind.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "Just to wind up where you are",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "You end up back where you started.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "And you're still just across the borderline",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "You're still on the edge.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 21,
+        "covered_lines": 21,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 21,
+      "covered_lines": 21,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "There's place",
+            "so I've been told",
+            "Every street is paved with gold",
+            "And it's just across the borderline"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            4
+          ],
+          "end_words": [
+            "place",
+            "told",
+            "gold",
+            "borderline"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "told",
+              "word2": "gold",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "And when it's time to take your turn",
+            "There's lesson that you must learn",
+            "You may lose more than you'll ever hope to find",
+            "And when you reach that broken promised land"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            3,
+            6,
+            5
+          ],
+          "end_words": [
+            "turn",
+            "learn",
+            "find",
+            "land"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "turn",
+              "word2": "learn",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (ER), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "And all your dreams slip though your hand",
+            "You have learned it's too late to change your mind",
+            "Just to wind up where you are",
+            "And you're still just across the borderline"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            6,
+            5,
+            5
+          ],
+          "end_words": [
+            "hand",
+            "mind",
+            "are",
+            "borderline"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Up and down The Rio Grande",
+            "thousand foot prints in the sand",
+            "The river rolls on like breath",
+            "Tell me who is next to cross that borderline"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "grande",
+            "sand",
+            "breath",
+            "borderline"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "grande",
+              "word2": "sand",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "And when you reach that broken promised land",
+            "And all your dreams slip though your hand",
+            "You'll know it's too late to change your mind",
+            "Just to wind up where you are"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            5,
+            7,
+            5
+          ],
+          "end_words": [
+            "land",
+            "hand",
+            "mind",
+            "are"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "land",
+              "word2": "hand",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AE), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "And you're still just across the borderline"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            5
+          ],
+          "end_words": [
+            "borderline"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 6,
+      "total_lines": 21
+    }
+  }
+}

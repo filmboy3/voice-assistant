@@ -1,0 +1,640 @@
+{
+  "song_id": "4gzpq5DPGxSnKTe4SA8HAU::the-hardest-part",
+  "title": "The Hardest Part",
+  "artist": "Coldplay",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\n(Intro 2)\nAnd the hardest part\nWas letting go not taking part\nWas the hardest part\nAnd the strangest thing\nwas waiting for that bell to ring\nIt was the strangest start\nI could feel it go down\nIt is sweet I could taste in my mouth\nSilver lining the clouds\nOh and I...\nI wish that I could work it out\n|------------------3---------3--------------------------------3---------3---------------------3--5------3--5------3--2h3p2~---3--2--0----3--5------3--5------3--2~--5--5-5-5------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\nAnd the hardest part\nWas letting go not taking part\nYou really broke my heart\nAnd I tried to sing\n\n[bridge]\nThat was the hardest part\nI could feel it go down\nYou left the sweetest taste in my mouth\nYour silver lining the clouds\nOh and I...\nOh and I...\nI wonder what it's all about\n(Intro 1) #\nI wonder what it's all about\nEverything I know is wrong\nEverything I do just comes undone\nAnd everything is torn apart\nOh and it's the hardest part\nThat's the hardest part\nYeah that's the hardest part\nThat's the hardest part\n\n[chorus]\n[email protected]",
+  "cleaned_lyrics": "And the hardest part\nWas letting go not taking part\nWas the hardest part\nAnd the strangest thing\nwas waiting for that bell to ring\nIt was the strangest start\nI could feel it go down\nIt is sweet I could taste in my mouth\nSilver lining the clouds\nOh and I...\nI wish that I could work it out\nAnd the hardest part\nWas letting go not taking part\nYou really broke my heart\nAnd I tried to sing\nThat was the hardest part\nI could feel it go down\nYou left the sweetest taste in my mouth\nYour silver lining the clouds\nOh and I...\nOh and I...\nI wonder what it's all about\nI wonder what it's all about\nEverything I know is wrong\nEverything I do just comes undone\nAnd everything is torn apart\nOh and it's the hardest part\nThat's the hardest part\nYeah that's the hardest part\nThat's the hardest part\n[email protected]",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 39,
+    "cleaned_lines": 31,
+    "removed_count": 6,
+    "retention_rate": 0.8378378378378378,
+    "removal_reasons": {
+      "low_letter_ratio": 1,
+      "artist_annotation": 1,
+      "guitar_tab": 1,
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            3,
+            12,
+            15,
+            20,
+            25,
+            26,
+            27
+          ],
+          "original_lyric": "And the hardest part\nWas the hardest part\nAnd the hardest part\nThat was the hardest part\nOh and it's the hardest part\nThat's the hardest part\nYeah that's the hardest part\nThat's the hardest part",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The hardest thing is happening.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            2,
+            13
+          ],
+          "original_lyric": "Was letting go not taking part\nWas letting go not taking part",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "Letting go was the hardest thing.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "And the strangest thing\nwas waiting for that bell to ring",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Something strange happened, waiting for something to happen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "It was the strangest start",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "The beginning was strange.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            16
+          ],
+          "original_lyric": "I could feel it go down\nI could feel it go down",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Feeling something bad happening.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            8,
+            17
+          ],
+          "original_lyric": "It is sweet I could taste in my mouth\nYou left the sweetest taste in my mouth",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "Something sweet, but also sad.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9,
+            18
+          ],
+          "original_lyric": "Silver lining the clouds\nYour silver lining the clouds",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Looking for something good.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10,
+            21
+          ],
+          "original_lyric": "Oh and I...\nOh and I...",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Thinking about it.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "I wish that I could work it out",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "Wishes things were different.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "You really broke my heart",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "anger",
+          "eli5_simplification": "Someone hurt them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "I wonder what it's all about",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "Wondering what it all means.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "Everything I know is wrong",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everything feels wrong.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "Everything I do just comes undone",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everything falls apart.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "And everything is torn apart",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everything is broken.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          "I/You"
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 28,
+        "covered_lines": 28,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        "I/You"
+      ]
+    },
+    "coverage": {
+      "total_lines": 28,
+      "covered_lines": 28,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "And the hardest part",
+            "Was letting go not taking part",
+            "Was the hardest part",
+            "And the strangest thing"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            2,
+            5,
+            2,
+            2
+          ],
+          "end_words": [
+            "part",
+            "part",
+            "part",
+            "thing"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "part",
+              "word2": "part",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "part",
+              "word2": "part",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "was waiting for that bell to ring",
+            "It was the strangest start",
+            "I could feel it go down",
+            "It is sweet I could taste in my mouth"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            3
+          ],
+          "end_words": [
+            "ring",
+            "start",
+            "down",
+            "mouth"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "down",
+              "word2": "mouth",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Silver lining the clouds",
+            "Oh and I...",
+            "I wish that I could work it out",
+            "And the hardest part"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            2
+          ],
+          "end_words": [
+            "clouds",
+            "i",
+            "out",
+            "part"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "clouds",
+              "word2": "out",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Was letting go not taking part",
+            "You really broke my heart",
+            "And I tried to sing",
+            "That was the hardest part"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            3,
+            2,
+            2
+          ],
+          "end_words": [
+            "part",
+            "heart",
+            "sing",
+            "part"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "part",
+              "word2": "heart",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "heart",
+              "word2": "part",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I could feel it go down",
+            "You left the sweetest taste in my mouth",
+            "Your silver lining the clouds",
+            "Oh and I..."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            3,
+            4,
+            3,
+            2
+          ],
+          "end_words": [
+            "down",
+            "mouth",
+            "clouds",
+            "i"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "down",
+              "word2": "mouth",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AW), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "mouth",
+              "word2": "clouds",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AW), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Oh and I...",
+            "I wonder what it's all about",
+            "I wonder what it's all about",
+            "Everything I know is wrong"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            5,
+            5,
+            4
+          ],
+          "end_words": [
+            "i",
+            "about",
+            "about",
+            "wrong"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "about",
+              "word2": "about",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Everything I do just comes undone",
+            "And everything is torn apart",
+            "Oh and it's the hardest part",
+            "That's the hardest part"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            5,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "undone",
+            "apart",
+            "part",
+            "part"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "apart",
+              "word2": "part",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "part",
+              "word2": "part",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Yeah that's the hardest part",
+            "That's the hardest part",
+            "[email protected]"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AAX",
+          "raw_rhyme_scheme": "AAB",
+          "pattern": "3_AAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            4,
+            3,
+            2
+          ],
+          "end_words": [
+            "part",
+            "part",
+            "protected"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "part",
+              "word2": "part",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AAX",
+          "pattern": "3_AAB",
+          "line_count": 3,
+          "stability": 0.4
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 31
+    }
+  }
+}

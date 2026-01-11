@@ -1,0 +1,276 @@
+{
+  "song_id": "5W5bDNCqJ1jbCgTxDD0Cb3::god-s-problem-child",
+  "title": "God's Problem Child",
+  "artist": "Willie Nelson",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\nI did the best I could do, But the best I could tell\nThe higher I flew The farther I fell\n\n[bridge]\nWashed in the blood God's problem child\nI feel the shine Following me\nNot far behind That's where I wanna be\nlittle out of time Fine by me\nDarkness may fall We still got light\nKeeping us all Safe through the night\nHeaven must love God's problem child\nHeaven must love God's problem child\nHeaven must love God's problem child",
+  "cleaned_lyrics": "I did the best I could do\nBut the best I could tell\nThe higher I flew The farther I fell\nWashed in the blood God's problem child\nI feel the shine Following me\nNot far behind That's where I wanna be\nDarkness may fall We still got light\nKeeping us all Safe through the night\nHeaven must love God's problem child\nHeaven must love God's problem child\nHeaven must love God's problem child",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 14,
+    "cleaned_lines": 11,
+    "removed_count": 3,
+    "retention_rate": 0.8461538461538461,
+    "removal_reasons": {
+      "musical_direction": 1,
+      "section_marker": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3
+          ],
+          "original_lyric": "I did the best I could do\nBut the best I could tell\nThe higher I flew The farther I fell",
+          "plot_function": "SETUP",
+          "emotion_primary": "regret",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer tried their best, but things went wrong.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "Washed in the blood God's problem child\nI feel the shine Following me",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "peace",
+          "eli5_simplification": "The singer feels forgiven and guided.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "Not far behind That's where I wanna be\nDarkness may fall We still got light",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "determination",
+          "eli5_simplification": "The singer wants to be closer to God and finds comfort in faith.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "Keeping us all Safe through the night\nHeaven must love God's problem child",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "peace",
+          "eli5_simplification": "God protects everyone, even those who make mistakes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11,
+            12
+          ],
+          "original_lyric": "Heaven must love God's problem child\nHeaven must love God's problem child\nHeaven must love God's problem child",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "peace",
+          "eli5_simplification": "God loves everyone.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 12,
+        "covered_lines": 12,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 12,
+      "covered_lines": 12,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "I did the best I could do",
+            "But the best I could tell",
+            "The higher I flew The farther I fell",
+            "Washed in the blood God's problem child"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            5
+          ],
+          "end_words": [
+            "do",
+            "tell",
+            "fell",
+            "child"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "tell",
+              "word2": "fell",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I feel the shine Following me",
+            "Not far behind That's where I wanna be",
+            "Darkness may fall We still got light",
+            "Keeping us all Safe through the night"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            7,
+            5,
+            5
+          ],
+          "end_words": [
+            "me",
+            "be",
+            "light",
+            "night"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "me",
+              "word2": "be",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "light",
+              "word2": "night",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Heaven must love God's problem child",
+            "Heaven must love God's problem child",
+            "Heaven must love God's problem child"
+          ],
+          "line_count": 3,
+          "rhyme_scheme": "AAA",
+          "raw_rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.7,
+          "stress_counts": [
+            5,
+            5,
+            5
+          ],
+          "end_words": [
+            "child",
+            "child",
+            "child"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "child",
+              "word2": "child",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "child",
+              "word2": "child",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAA",
+          "pattern": "3_AAA",
+          "line_count": 3,
+          "stability": 0.7
+        }
+      ],
+      "total_stanzas": 3,
+      "total_lines": 11
+    }
+  }
+}

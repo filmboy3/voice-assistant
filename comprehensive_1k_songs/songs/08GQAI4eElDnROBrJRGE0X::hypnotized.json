@@ -1,0 +1,490 @@
+{
+  "song_id": "08GQAI4eElDnROBrJRGE0X::hypnotized",
+  "title": "Hypnotized",
+  "artist": "Fleetwood Mac",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nIt?s the same kind of story\nThat seems to come down from long ago\nTwo friends having coffee together\nWhen something flies by their window\nIt might be out on that lawn\nWhich is wide, at least half of playing field\n\n[chorus]\nSeems like dream\nThey got me hypnotized\nNow its not meaningless question\nTo ask if they?ve been and gone\nI remember talk about North\n\n[chorus]\nYou see the sides were like glass\n\n[intro]\nAnd if any mans ever made that land\nThen I think it would?ve showed\nSeems like dream\nThey got me hypnotized\nThey say there?s place down in Mexico\nWhere man can fly over mountains and hills\nHe don?t need an airplane or some kind of engine\nAnd he never will\nNow you know its meaningless question\nTo ask if those stories are right\n\n[chorus]\nYou get when you?re hypnotized\nSeems like dream\nThey got me hypnotized",
+  "cleaned_lyrics": "It?s the same kind of story\nThat seems to come down from long ago\nTwo friends having coffee together\nIt might be out on that lawn\nWhich is wide\nat least half of playing field\nSeems like dream\nThey got me hypnotized\nNow its not meaningless question\nTo ask if they?ve been and gone\nI remember talk about North\nYou see the sides were like glass\nAnd if any mans ever made that land\nThen I think it would?ve showed\nSeems like dream\nThey got me hypnotized\nThey say there?s place down in Mexico\nWhere man can fly over mountains and hills\nHe don?t need an airplane or some kind of engine\nAnd he never will\nNow you know its meaningless question\nTo ask if those stories are right\nYou get when you?re hypnotized\nSeems like dream\nThey got me hypnotized",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 34,
+    "cleaned_lines": 25,
+    "removed_count": 6,
+    "retention_rate": 0.8333333333333334,
+    "removal_reasons": {
+      "section_marker": 5,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "It?s the same kind of story\nThat seems to come down from long ago",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song starts by talking about a familiar story from the past.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4,
+            5
+          ],
+          "original_lyric": "Two friends having coffee together\nIt might be out on that lawn\nWhich is wide",
+          "plot_function": "SETUP",
+          "emotion_primary": "nostalgia",
+          "emotion_secondary": null,
+          "eli5_simplification": "Two friends are having coffee on a big lawn.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6
+          ],
+          "original_lyric": "at least half of playing field",
+          "plot_function": "SETUP",
+          "emotion_primary": "calm",
+          "emotion_secondary": null,
+          "eli5_simplification": "The lawn is very big.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            15,
+            20
+          ],
+          "original_lyric": "Seems like dream",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "It feels like a dream.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            8,
+            16,
+            21
+          ],
+          "original_lyric": "They got me hypnotized",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "They have hypnotized me.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9,
+            19
+          ],
+          "original_lyric": "Now its not meaningless question\nTo ask if they?ve been and gone",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's not a silly question to ask if they're gone.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "I remember talk about North",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I remember talking about the North.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "original_lyric": "You see the sides were like glass\nAnd if any mans ever made that land\nThen I think it would?ve showed",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "The sides were like glass, and if anyone had been there, it would have shown.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "They say there?s place down in Mexico\nWhere man can fly over mountains and hills",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "They say there's a place in Mexico where people can fly.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "He don?t need an airplane or some kind of engine",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "They don't need a plane or engine.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "And he never will",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "wonder",
+          "emotion_secondary": null,
+          "eli5_simplification": "And they never will.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 21,
+        "covered_lines": 21,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 21,
+      "covered_lines": 21,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "It?s the same kind of story",
+            "That seems to come down from long ago",
+            "Two friends having coffee together",
+            "It might be out on that lawn"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            4,
+            5,
+            5,
+            2
+          ],
+          "end_words": [
+            "story",
+            "ago",
+            "together",
+            "lawn"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "story",
+              "word2": "lawn",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "Which is wide",
+            "at least half of playing field",
+            "Seems like dream",
+            "They got me hypnotized"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            1,
+            4,
+            3,
+            2
+          ],
+          "end_words": [
+            "wide",
+            "field",
+            "dream",
+            "hypnotized"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "field",
+              "word2": "dream",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Now its not meaningless question",
+            "To ask if they?ve been and gone",
+            "I remember talk about North",
+            "You see the sides were like glass"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "question",
+            "gone",
+            "north",
+            "glass"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "gone",
+              "word2": "north",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AO), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "And if any mans ever made that land",
+            "Then I think it would?ve showed",
+            "Seems like dream",
+            "They got me hypnotized"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            3,
+            3,
+            2
+          ],
+          "end_words": [
+            "land",
+            "showed",
+            "dream",
+            "hypnotized"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "They say there?s place down in Mexico",
+            "Where man can fly over mountains and hills",
+            "He don?t need an airplane or some kind of engine",
+            "And he never will"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            6,
+            6,
+            7,
+            2
+          ],
+          "end_words": [
+            "mexico",
+            "hills",
+            "engine",
+            "will"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "mexico",
+              "word2": "engine",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "hills",
+              "word2": "will",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (IH), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Now you know its meaningless question",
+            "To ask if those stories are right",
+            "You get when you?re hypnotized",
+            "Seems like dream"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            3
+          ],
+          "end_words": [
+            "question",
+            "right",
+            "hypnotized",
+            "dream"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "They got me hypnotized"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2
+          ],
+          "end_words": [
+            "hypnotized"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "chorus"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "chorus",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 25
+    }
+  }
+}

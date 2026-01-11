@@ -1,0 +1,825 @@
+{
+  "song_id": "1dfeR4HaWDbWqFHLkxsg1d::the-show-must-go-on",
+  "title": "The Show Must Go On",
+  "artist": "Queen",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nEmpty spaces, what are we living for?\nAbandoned places, I guess we know the score.\nOn and on, does anybody know what we are looking for?\nAnother hero, another mindless crime,\n\n[bridge]\nHold the line, does anybody want to take it anymore?\nThe show must go on,\nThe show must go on.\n\n[intro]\nMy make-up may be flaking,\n\n[bridge]\nWhatever happens, I'll leave it all to chance,\nAnother heartache, another failed romance.\nOn and on, does anybody know what we are living for?\nI guess I'm learning I must be warmer now,\nI'll soon be turning round the corner now,\n\n[outro]\nThe show must go on,\nThe show must go on.\n\n[intro]\nMy make-up may be flaking,\n\n[bridge]\nMy soul is painted like the wings of butterflies,\nFairy-tales of yesterday will grow and never die,\nI can fly, my friends.\nThe show must go on,\nThe show must go on.\nI'll face it with grin, I'm never giving in, on with show.\nI'll top the bill I'll overkill I have to find the will to cary on,\nOn with the ...\nOn with the show\nThe show must go on\nI'm not sure it's right. If you'll find any mistakes",
+  "cleaned_lyrics": "Empty spaces\nwhat are we living for?\nAbandoned places\nI guess we know the score.\nOn and on\ndoes anybody know what we are looking for?\nAnother hero\nanother mindless crime\nHold the line\ndoes anybody want to take it anymore?\nThe show must go on\nThe show must go on.\nMy make-up may be flaking\nWhatever happens\nI'll leave it all to chance\nAnother heartache\nanother failed romance.\nOn and on\ndoes anybody know what we are living for?\nI guess I'm learning I must be warmer now\nI'll soon be turning round the corner now\nThe show must go on\nThe show must go on.\nMy make-up may be flaking\nMy soul is painted like the wings of butterflies\nFairy-tales of yesterday will grow and never die\nI can fly\nmy friends.\nThe show must go on\nThe show must go on.\nI'll face it with grin\nI'm never giving in\non with show.\nI'll top the bill I'll overkill I\nhave to find the will to cary on\nOn with the ...\nOn with the show\nThe show must go on\nI'm not sure it's right.\nIf you'll find any mistakes",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 40,
+    "cleaned_lines": 40,
+    "removed_count": 7,
+    "retention_rate": 1.1764705882352942,
+    "removal_reasons": {
+      "section_marker": 7
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Empty spaces\nwhat are we living for?",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is wondering what the point of life is.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Abandoned places\nI guess we know the score.",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "The singer sees things that are left behind and accepts the situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "On and on\ndoes anybody know what we are looking for?",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wonders if anyone knows what they are searching for.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Another hero\nanother mindless crime",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is upset about the same old things happening.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Hold the line\ndoes anybody want to take it anymore?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "The singer is afraid and asks if anyone can handle the situation.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "The show must go on\nThe show must go on.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer repeats that the show must continue.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "My make-up may be flaking",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "vulnerability",
+          "eli5_simplification": "The singer is showing signs of weakness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Whatever happens",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer accepts whatever will happen.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "I'll leave it all to chance",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is letting fate decide.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "Another heartache\nanother failed romance.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is experiencing more pain.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19
+          ],
+          "original_lyric": "On and on\ndoes anybody know what we are living for?",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wonders if anyone knows what they are searching for.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "I guess I'm learning I must be warmer now",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is starting to feel better.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "I'll soon be turning round the corner now",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is getting closer to a better place.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "The show must go on\nThe show must go on.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer repeats that the show must continue.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "My make-up may be flaking",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "vulnerability",
+          "eli5_simplification": "The singer is showing signs of weakness.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "My soul is painted like the wings of butterflies",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "joy",
+          "eli5_simplification": "The singer feels beautiful inside.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "Fairy-tales of yesterday will grow and never die",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer believes in the power of stories.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "I can fly\nmy friends.",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer feels free and happy.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "The show must go on\nThe show must go on.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer repeats that the show must continue.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "I'll face it with grin",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer will face the world with a smile.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "I'm never giving in",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer will never give up.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            33
+          ],
+          "original_lyric": "on with show.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The show will continue.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34
+          ],
+          "original_lyric": "I'll top the bill I'll overkill I",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer will give it their all.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            35
+          ],
+          "original_lyric": "have to find the will to cary on",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer will find the strength to continue.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            36,
+            37
+          ],
+          "original_lyric": "On with the ...\nOn with the show",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The show will continue.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            38
+          ],
+          "original_lyric": "The show must go on",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "determination",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer repeats that the show must continue.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            39
+          ],
+          "original_lyric": "I'm not sure it's right.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "doubt",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is unsure.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            40
+          ],
+          "original_lyric": "If you'll find any mistakes",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "doubt",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer is unsure.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 40,
+        "covered_lines": 40,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 40,
+      "covered_lines": 40,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Empty spaces",
+            "what are we living for?",
+            "Abandoned places",
+            "I guess we know the score."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            2,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "spaces",
+            "for",
+            "places",
+            "score"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "spaces",
+              "word2": "places",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "for",
+              "word2": "score",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "On and on",
+            "does anybody know what we are looking for?",
+            "Another hero",
+            "another mindless crime"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            6,
+            2,
+            3
+          ],
+          "end_words": [
+            "on",
+            "for",
+            "hero",
+            "crime"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Hold the line",
+            "does anybody want to take it anymore?",
+            "The show must go on",
+            "The show must go on."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            2,
+            5,
+            3,
+            3
+          ],
+          "end_words": [
+            "line",
+            "anymore",
+            "on",
+            "on"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "on",
+              "word2": "on",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "My make-up may be flaking",
+            "Whatever happens",
+            "I'll leave it all to chance",
+            "Another heartache"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            2,
+            4,
+            2
+          ],
+          "end_words": [
+            "flaking",
+            "happens",
+            "chance",
+            "heartache"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "happens",
+              "word2": "chance",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "another failed romance.",
+            "On and on",
+            "does anybody know what we are living for?",
+            "I guess I'm learning I must be warmer now"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            6,
+            5
+          ],
+          "end_words": [
+            "romance",
+            "on",
+            "for",
+            "now"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "I'll soon be turning round the corner now",
+            "The show must go on",
+            "The show must go on.",
+            "My make-up may be flaking"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            6,
+            3,
+            3,
+            3
+          ],
+          "end_words": [
+            "now",
+            "on",
+            "on",
+            "flaking"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "on",
+              "word2": "on",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "My soul is painted like the wings of butterflies",
+            "Fairy-tales of yesterday will grow and never die",
+            "I can fly",
+            "my friends."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            7,
+            1,
+            1
+          ],
+          "end_words": [
+            "butterflies",
+            "die",
+            "fly",
+            "friends"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "die",
+              "word2": "fly",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "The show must go on",
+            "The show must go on.",
+            "I'll face it with grin",
+            "I'm never giving in"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            3,
+            3,
+            3,
+            4
+          ],
+          "end_words": [
+            "on",
+            "on",
+            "grin",
+            "in"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "on",
+              "word2": "on",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "grin",
+              "word2": "in",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "on with show.",
+            "I'll top the bill I'll overkill I",
+            "have to find the will to cary on",
+            "On with the ..."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            6,
+            3,
+            0
+          ],
+          "end_words": [
+            "show",
+            "i",
+            "on",
+            "the"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "On with the show",
+            "The show must go on",
+            "I'm not sure it's right.",
+            "If you'll find any mistakes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            3,
+            5,
+            5
+          ],
+          "end_words": [
+            "show",
+            "on",
+            "right",
+            "mistakes"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        }
+      ],
+      "total_stanzas": 10,
+      "total_lines": 40
+    }
+  }
+}

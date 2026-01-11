@@ -1,0 +1,632 @@
+{
+  "song_id": "6zFYqv1mOsgBRQbae3JJ9e::movin-out-anthony-song",
+  "title": "Movin out /anthony song",
+  "artist": "Billy Joel",
+  "genre": "unknown",
+  "original_lyrics": "[intro]\n- - - + -\nAnthony works in the grocery store\nSavin' his pennies for someday\nMama Leone left note on the door,\nShe said, \"Sonny, move out to the country.\"\nWorkin' too hard can give you\nheart attack-ack-ack-ack-ack\nYou oughta know by now (You oughta know by now)\nWho needs house out in Hackensack?\nIs that what you get for your money?\nIt seems such waste of time\nIf that's what it's all about\nIf that's movin' up then I'm movin' out.\nSergeant O'Leary is walkin' the beat\nAt night he becomes bartender\nHe works at Mister Cacciatore's down on Sullivan Street\nAcross from the medical center\nHe's tradin' in his Chevy for Cadillac\nYou oughta know by now (You oughta know by now)\nAnd if he can't drive with broken back\nAt least he can polish the fenders\nIt seems such waste of time\nIf that's what it's all about\nIf that's movin' up then I'm movin' out.\nYou should never argue with crazy mi-mi-mi-mi-mind\nYou oughta know by now\nYou can pay Uncle Sam with overtime\nIs that all you get for your money?\nIf that's what you have in mind\nIf that's what you're all about\nGood luck movin' up cos I'm movin' out.",
+  "cleaned_lyrics": "Anthony works in the grocery store\nSavin' his pennies for someday\nMama Leone left note on the door\nShe said\n\"Sonny\nmove out to the country.\"\nWorkin' too hard can give you\nheart attack-ack-ack-ack-ack\nYou oughta know by now (You oughta know by now)\nWho needs house out in Hackensack?\nIs that what you get for your money?\nIt seems such waste of time\nIf that's what it's all about\nIf that's movin' up then I'm movin' out.\nSergeant O'Leary is walkin' the beat\nAt night he becomes bartender\nHe works at Mister Cacciatore's down on Sullivan Street\nAcross from the medical center\nHe's tradin' in his Chevy for Cadillac\nYou oughta know by now (You oughta know by now)\nAnd if he can't drive with broken back\nAt least he can polish the fenders\nIt seems such waste of time\nIf that's what it's all about\nIf that's movin' up then I'm movin' out.\nYou should never argue with crazy mi-mi-mi-mi-mind\nYou oughta know by now\nYou can pay Uncle Sam with overtime\nIs that all you get for your money?\nIf that's what you have in mind\nIf that's what you're all about\nGood luck movin' up\ncos I'm movin' out.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 32,
+    "cleaned_lines": 33,
+    "removed_count": 1,
+    "retention_rate": 1.03125,
+    "removal_reasons": {
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Anthony works in the grocery store\nSavin' his pennies for someday",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Anthony works at a grocery store and saves money.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Mama Leone left note on the door\nShe said",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Mama Leone left a note.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "\"Sonny\nmove out to the country.\"",
+          "plot_function": "SETUP",
+          "emotion_primary": "advice",
+          "emotion_secondary": null,
+          "eli5_simplification": "Mama Leone tells Sonny to move to the country.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7
+          ],
+          "original_lyric": "Workin' too hard can give you\nheart attack-ack-ack-ack-ack",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Working too hard can make you sick.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "You oughta know by now (You oughta know by now)",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "warning",
+          "emotion_secondary": null,
+          "eli5_simplification": "You should know this already.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Who needs house out in Hackensack?\nIs that what you get for your money?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "doubt",
+          "emotion_secondary": null,
+          "eli5_simplification": "Is that all you get for your hard work?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12,
+            13
+          ],
+          "original_lyric": "It seems such waste of time\nIf that's what it's all about\nIf that's movin' up then I'm movin' out.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "rejection",
+          "emotion_secondary": null,
+          "eli5_simplification": "If that's what success is, I don't want it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "Sergeant O'Leary is walkin' the beat\nAt night he becomes bartender",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "Sergeant O'Leary works as a bartender at night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "He works at Mister Cacciatore's down on Sullivan Street\nAcross from the medical center",
+          "plot_function": "SETUP",
+          "emotion_primary": "neutral",
+          "emotion_secondary": null,
+          "eli5_simplification": "He works at a bar.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18
+          ],
+          "original_lyric": "He's tradin' in his Chevy for Cadillac",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "ambition",
+          "emotion_secondary": null,
+          "eli5_simplification": "He wants to upgrade his car.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "You oughta know by now (You oughta know by now)",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "warning",
+          "emotion_secondary": null,
+          "eli5_simplification": "You should know this already.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            20,
+            21
+          ],
+          "original_lyric": "And if he can't drive with broken back\nAt least he can polish the fenders",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "If he gets hurt, he can't drive.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23,
+            24
+          ],
+          "original_lyric": "It seems such waste of time\nIf that's what it's all about\nIf that's movin' up then I'm movin' out.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "rejection",
+          "emotion_secondary": null,
+          "eli5_simplification": "If that's what success is, I don't want it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "You should never argue with crazy mi-mi-mi-mi-mind",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "warning",
+          "emotion_secondary": null,
+          "eli5_simplification": "Don't argue with crazy people.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "You oughta know by now",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "warning",
+          "emotion_secondary": null,
+          "eli5_simplification": "You should know this already.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "You can pay Uncle Sam with overtime\nIs that all you get for your money?",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "doubt",
+          "emotion_secondary": null,
+          "eli5_simplification": "Is that all you get for your hard work?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30,
+            31
+          ],
+          "original_lyric": "If that's what you have in mind\nIf that's what you're all about\nGood luck movin' up\ncos I'm movin' out.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "rejection",
+          "emotion_secondary": null,
+          "eli5_simplification": "If that's what success is, I don't want it.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 31,
+        "covered_lines": 31,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 31,
+      "covered_lines": 31,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Anthony works in the grocery store",
+            "Savin' his pennies for someday",
+            "Mama Leone left note on the door",
+            "She said"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            3,
+            5,
+            1
+          ],
+          "end_words": [
+            "store",
+            "someday",
+            "door",
+            "said"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "store",
+              "word2": "door",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AO), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "\"Sonny",
+            "move out to the country.\"",
+            "Workin' too hard can give you",
+            "heart attack-ack-ack-ack-ack"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            1,
+            3,
+            5,
+            6
+          ],
+          "end_words": [
+            "sonny",
+            "country",
+            "you",
+            "ack"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "sonny",
+              "word2": "country",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AH), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "You oughta know by now (You oughta know by now)",
+            "Who needs house out in Hackensack?",
+            "Is that what you get for your money?",
+            "It seems such waste of time"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            5,
+            3,
+            4
+          ],
+          "end_words": [
+            "now",
+            "hackensack",
+            "money",
+            "time"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "If that's what it's all about",
+            "If that's movin' up then I'm movin' out.",
+            "Sergeant O'Leary is walkin' the beat",
+            "At night he becomes bartender"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            7,
+            4,
+            3
+          ],
+          "end_words": [
+            "about",
+            "out",
+            "beat",
+            "bartender"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "about",
+              "word2": "out",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "He works at Mister Cacciatore's down on Sullivan Street",
+            "Across from the medical center",
+            "He's tradin' in his Chevy for Cadillac",
+            "You oughta know by now (You oughta know by now)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            3,
+            4,
+            6
+          ],
+          "end_words": [
+            "street",
+            "center",
+            "cadillac",
+            "now"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "And if he can't drive with broken back",
+            "At least he can polish the fenders",
+            "It seems such waste of time",
+            "If that's what it's all about"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            3,
+            4,
+            6
+          ],
+          "end_words": [
+            "back",
+            "fenders",
+            "time",
+            "about"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "If that's movin' up then I'm movin' out.",
+            "You should never argue with crazy mi-mi-mi-mi-mind",
+            "You oughta know by now",
+            "You can pay Uncle Sam with overtime"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            7,
+            8,
+            3,
+            4
+          ],
+          "end_words": [
+            "out",
+            "mind",
+            "now",
+            "overtime"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "out",
+              "word2": "now",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Is that all you get for your money?",
+            "If that's what you have in mind",
+            "If that's what you're all about",
+            "Good luck movin' up"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            4,
+            6,
+            4
+          ],
+          "end_words": [
+            "money",
+            "mind",
+            "about",
+            "up"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "money",
+              "word2": "up",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "cos I'm movin' out."
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "out"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 33
+    }
+  }
+}

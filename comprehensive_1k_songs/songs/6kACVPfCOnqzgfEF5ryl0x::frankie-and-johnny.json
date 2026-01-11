@@ -1,0 +1,668 @@
+{
+  "song_id": "6kACVPfCOnqzgfEF5ryl0x::frankie-and-johnny",
+  "title": "Frankie And Johnny",
+  "artist": "Johnny Cash",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWell now Frankie and Johnny were sweethearts\nThey were true as blue, blue sky\nHe was long-legged guitar-picker\nWith wicked, wondering eye\n\n[bridge]\nWell Johnny he packed up leaven'\n\n[bridge]\nHe said he had little picking' to do\nlittle further down the track\nHe said,\"I'm your man, I wouldn't do you wrong\"\nWell Frankie curled up on the sofa\nThinkin' about her man\nFar away couples were dancin' to the music of his band\nHe was Frankie's man he wasn't doin' her wrong\nThen in the front door walked redhead\nJohnny saw her right away\nShe came down by the bandstand to watch him while he played\nHe was Frankie's man but she was far away\nHe sang another song to the redhead\nShe smiled back at him\nThen he came and sat at her table\nWhere the lights were low and dim\nWhat Frankie didn't know wouldn't hurt her none\nThen the redhead jumped up and slapped him\nShe slapped him time or two\nShe said,\"I'm Frankie's sister and I was checking up on you\"\n\"If you're her man you' better treat her right\"\nWell the moral of this story\nIs be good but carry stick\nSometimes it looks like guitar-picker\nJust can't tell what to pick\nHe was Frankie's man and he still ain't done her wrong",
+  "cleaned_lyrics": "Well now Frankie and Johnny were sweethearts\nThey were true as blue\nblue sky\nHe was long-legged guitar-picker\nWith wicked\nwondering eye\nWell Johnny he packed up leaven'\nHe said he had little picking' to do\nlittle further down the track\nHe said\n\"I'm your man\nI wouldn't do you wrong\"\nWell Frankie curled up on the sofa\nThinkin' about her man\nFar away couples were dancin' to the music of his band\nHe was Frankie's man he wasn't doin' her wrong\nThen in the front door walked redhead\nJohnny saw her right away\nHe was Frankie's man but she was far away\nHe sang another song to the redhead\nShe smiled back at him\nThen he came and sat at her table\nWhere the lights were low and dim\nWhat Frankie didn't know wouldn't hurt her none\nThen the redhead jumped up and slapped him\nShe slapped him time or two\nShe said\n\"I'm Frankie's sister and I was checking up on you\"\n\"If you're her man you' better treat her right\"\nWell the moral of this story\nIs be good but carry stick\nSometimes it looks like guitar-picker\nJust can't tell what to pick\nHe was Frankie's man and he still ain't done her wrong",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 35,
+    "cleaned_lines": 34,
+    "removed_count": 4,
+    "retention_rate": 1.0303030303030303,
+    "removal_reasons": {
+      "section_marker": 3,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Well now Frankie and Johnny were sweethearts\nThey were true as blue",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "Frankie and Johnny are in love.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "blue sky\nHe was long-legged guitar-picker",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "Johnny is a guitar player.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "With wicked\nwondering eye",
+          "plot_function": "SETUP",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Johnny has a wandering eye.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8,
+            9
+          ],
+          "original_lyric": "Well Johnny he packed up leaven'\nHe said he had little picking' to do\nlittle further down the track",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "anticipation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Johnny is leaving to play music.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "He said\n\"I'm your man",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "Johnny tells Frankie he's her man.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "I wouldn't do you wrong\"\nWell Frankie curled up on the sofa",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "trust",
+          "emotion_secondary": null,
+          "eli5_simplification": "Frankie is relaxing at home.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "Thinkin' about her man\nFar away couples were dancin' to the music of his band",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Frankie is thinking about Johnny while he's playing music.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "He was Frankie's man he wasn't doin' her wrong",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "trust",
+          "emotion_secondary": null,
+          "eli5_simplification": "Johnny is Frankie's man and not doing anything wrong.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "Then in the front door walked redhead\nJohnny saw her right away",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "suspicion",
+          "emotion_secondary": null,
+          "eli5_simplification": "A redhead walks in and Johnny sees her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "He was Frankie's man but she was far away\nHe sang another song to the redhead",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "suspicion",
+          "emotion_secondary": null,
+          "eli5_simplification": "Johnny is with the redhead.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "She smiled back at him\nThen he came and sat at her table",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "suspicion",
+          "emotion_secondary": null,
+          "eli5_simplification": "Johnny sits at the redhead's table.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "Where the lights were low and dim\nWhat Frankie didn't know wouldn't hurt her none",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "suspicion",
+          "emotion_secondary": null,
+          "eli5_simplification": "Johnny is hiding his actions from Frankie.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25,
+            26
+          ],
+          "original_lyric": "Then the redhead jumped up and slapped him\nShe slapped him time or two",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "anger",
+          "emotion_secondary": null,
+          "eli5_simplification": "The redhead slaps Johnny.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            27,
+            28
+          ],
+          "original_lyric": "She said\n\"I'm Frankie's sister and I was checking up on you\"",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "relief",
+          "emotion_secondary": null,
+          "eli5_simplification": "The redhead is Frankie's sister.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29
+          ],
+          "original_lyric": "\"If you're her man you' better treat her right\"",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "warning",
+          "emotion_secondary": null,
+          "eli5_simplification": "The sister warns Johnny to treat Frankie well.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            30,
+            31
+          ],
+          "original_lyric": "Well the moral of this story\nIs be good but carry stick",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "wisdom",
+          "emotion_secondary": null,
+          "eli5_simplification": "The moral of the story is to be good but be prepared.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            32,
+            33
+          ],
+          "original_lyric": "Sometimes it looks like guitar-picker\nJust can't tell what to pick",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "wisdom",
+          "emotion_secondary": null,
+          "eli5_simplification": "Sometimes it's hard to know what to do.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            34
+          ],
+          "original_lyric": "He was Frankie's man and he still ain't done her wrong",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Johnny is Frankie's man and hasn't done anything wrong.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 34,
+        "covered_lines": 34,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 34,
+      "covered_lines": 34,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Well now Frankie and Johnny were sweethearts",
+            "They were true as blue",
+            "blue sky",
+            "He was long-legged guitar-picker"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            5,
+            2,
+            2,
+            4
+          ],
+          "end_words": [
+            "sweethearts",
+            "blue",
+            "sky",
+            "picker"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "With wicked",
+            "wondering eye",
+            "Well Johnny he packed up leaven'",
+            "He said he had little picking' to do"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            1,
+            2,
+            5,
+            5
+          ],
+          "end_words": [
+            "wicked",
+            "eye",
+            "leaven",
+            "do"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "little further down the track",
+            "He said",
+            "\"I'm your man",
+            "I wouldn't do you wrong\""
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            1,
+            2,
+            2
+          ],
+          "end_words": [
+            "track",
+            "said",
+            "man",
+            "wrong"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "track",
+              "word2": "man",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AE), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Well Frankie curled up on the sofa",
+            "Thinkin' about her man",
+            "Far away couples were dancin' to the music of his band",
+            "He was Frankie's man he wasn't doin' her wrong"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            3,
+            6,
+            5
+          ],
+          "end_words": [
+            "sofa",
+            "man",
+            "band",
+            "wrong"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "man",
+              "word2": "band",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AE), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Then in the front door walked redhead",
+            "Johnny saw her right away",
+            "He was Frankie's man but she was far away",
+            "He sang another song to the redhead"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABBA",
+          "raw_rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "pattern_confidence": 1.0,
+          "stability": 0.4,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "end_words": [
+            "redhead",
+            "away",
+            "away",
+            "redhead"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "redhead",
+              "word2": "redhead",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "away",
+              "word2": "away",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "She smiled back at him",
+            "Then he came and sat at her table",
+            "Where the lights were low and dim",
+            "What Frankie didn't know wouldn't hurt her none"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            3,
+            4,
+            7
+          ],
+          "end_words": [
+            "him",
+            "table",
+            "dim",
+            "none"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "him",
+              "word2": "dim",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Then the redhead jumped up and slapped him",
+            "She slapped him time or two",
+            "She said",
+            "\"I'm Frankie's sister and I was checking up on you\""
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            5,
+            3,
+            1,
+            6
+          ],
+          "end_words": [
+            "him",
+            "two",
+            "said",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "two",
+              "word2": "you",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "\"If you're her man you' better treat her right\"",
+            "Well the moral of this story",
+            "Is be good but carry stick",
+            "Sometimes it looks like guitar-picker"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            6,
+            3,
+            3,
+            5
+          ],
+          "end_words": [
+            "right",
+            "story",
+            "stick",
+            "picker"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "stick",
+              "word2": "picker",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "Just can't tell what to pick",
+            "He was Frankie's man and he still ain't done her wrong"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            5,
+            6
+          ],
+          "end_words": [
+            "pick",
+            "wrong"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "ABBA",
+          "pattern": "4_ABBA",
+          "line_count": 4,
+          "stability": 0.4
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 9,
+      "total_lines": 34
+    }
+  }
+}

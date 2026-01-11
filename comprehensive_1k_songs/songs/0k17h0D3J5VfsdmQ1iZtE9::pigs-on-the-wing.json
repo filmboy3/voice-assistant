@@ -1,0 +1,500 @@
+{
+  "song_id": "0k17h0D3J5VfsdmQ1iZtE9::pigs-on-the-wing",
+  "title": "Pigs On The Wing",
+  "artist": "Pink Floyd",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nIf you didn't care\nwhat happened to me\nAnd I didn't care\nFor you\nWe would zig-zag our way\nThrough the boredom and pain\nOccasionally glancing\nup through the rain\nWondering which of the buggers to blame\nAnd watching for pigs on the wing\n-10/12-12~--8-10-12-12b13-10-12-8-10-10b12-10-8/10/8-7/8-5/7/5/3----\n|---------------------------------------------------------------------3~------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------13^15-13^15-10-1212-13^15-10-1212---------12-15~--15^17-----------------------------------------------------10-13-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------1514-------------------------------------------------------------------------15-------------------------------------------------------------------------14-12-11---------------7-7/9-9~--9-9-9/11-11~--11-11-12--------------------------12-------------------------------------------------------------------------12-10-------------------------------------------------------------------------10~----------------------------------------------------------------------15-17-15/17/15/17-15~--------------------------------------------18^20--------------------------15/17-15-15^17-------12^14--14^16-16^17------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------12-10-12~--------------------------------------------------------------------------------------------------------------------------------------------------------9-9/10/9-----------------------------------------------------------1010----------10-10~~----------------------------------------------------------------------------------------------------------|\nYou know that I care what happens to you\nAnd I know that you care for me too\nSo I don't feel alone or the weight of the stone\nNow that I've found somewhere safe to bury my bone\nAnd any fool knows dog needs home\nshelter from pigs on the wing",
+  "cleaned_lyrics": "If you didn't care\nwhat happened to me\nAnd I didn't care\nFor you\nWe would zig-zag our way\nThrough the boredom and pain\nOccasionally glancing\nup through the rain\nWondering which of the buggers to blame\nAnd watching for pigs on the wing\nYou know that I care what happens to you\nAnd I know that you care for me too\nSo I don't feel alone or the weight of the stone\nNow that I've found somewhere safe to bury my bone\nAnd any fool knows dog needs home\nshelter from pigs on the wing",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 19,
+    "cleaned_lines": 16,
+    "removed_count": 3,
+    "retention_rate": 0.8421052631578947,
+    "removal_reasons": {
+      "guitar_tab": 2,
+      "section_marker": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "If you didn't care\nwhat happened to me",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "If we didn't care about each other...",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "And I didn't care\nFor you",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "...and I didn't care about you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "We would zig-zag our way\nThrough the boredom and pain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "boredom",
+          "eli5_simplification": "We'd just go through life feeling bored and sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Occasionally glancing\nup through the rain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Sometimes we'd look up at the rain.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Wondering which of the buggers to blame",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "Wondering who to blame for our problems.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "And watching for pigs on the wing",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "paranoia",
+          "eli5_simplification": "And being scared of something bad happening.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "You know that I care what happens to you\nAnd I know that you care for me too",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "But now we care about each other.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "So I don't feel alone or the weight of the stone\nNow that I've found somewhere safe to bury my bone",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "relief",
+          "eli5_simplification": "So I don't feel alone anymore, and I'm safe.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "And any fool knows dog needs home\nshelter from pigs on the wing",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Everyone needs a safe place, away from the bad things.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "If you didn't care\nwhat happened to me",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "If we didn't care about each other...",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "And I didn't care\nFor you",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "...and I didn't care about you.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "We would zig-zag our way\nThrough the boredom and pain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "boredom",
+          "eli5_simplification": "We'd just go through life feeling bored and sad.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "Occasionally glancing\nup through the rain",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "Sometimes we'd look up at the rain.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "Wondering which of the buggers to blame",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "anger",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "Wondering who to blame for our problems.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "And watching for pigs on the wing",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": "paranoia",
+          "eli5_simplification": "And being scared of something bad happening.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "You know that I care what happens to you\nAnd I know that you care for me too",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "But now we care about each other.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "So I don't feel alone or the weight of the stone\nNow that I've found somewhere safe to bury my bone",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "relief",
+          "eli5_simplification": "So I don't feel alone anymore, and I'm safe.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "And any fool knows dog needs home\nshelter from pigs on the wing",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": "love",
+          "eli5_simplification": "Everyone needs a safe place, away from the bad things.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "You know that I care what happens to you\nAnd I know that you care for me too",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "love",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "But now we care about each other.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "So I don't feel alone or the weight of the stone\nNow that I've found somewhere safe to bury my bone",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": "relief",
+          "eli5_simplification": "So I don't feel alone anymore, and I'm safe.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 20,
+        "covered_lines": 20,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 20,
+      "covered_lines": 20,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "If you didn't care",
+            "what happened to me",
+            "And I didn't care",
+            "For you"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            1
+          ],
+          "end_words": [
+            "care",
+            "me",
+            "care",
+            "you"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "care",
+              "word2": "care",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "We would zig-zag our way",
+            "Through the boredom and pain",
+            "Occasionally glancing",
+            "up through the rain"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "way",
+            "pain",
+            "glancing",
+            "rain"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "way",
+              "word2": "pain",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EY), one word removes post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "pain",
+              "word2": "rain",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Wondering which of the buggers to blame",
+            "And watching for pigs on the wing",
+            "You know that I care what happens to you",
+            "And I know that you care for me too"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            3,
+            3,
+            6,
+            3
+          ],
+          "end_words": [
+            "blame",
+            "wing",
+            "you",
+            "too"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "you",
+              "word2": "too",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UW), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "So I don't feel alone or the weight of the stone",
+            "Now that I've found somewhere safe to bury my bone",
+            "And any fool knows dog needs home",
+            "shelter from pigs on the wing"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            5,
+            7,
+            6,
+            3
+          ],
+          "end_words": [
+            "stone",
+            "bone",
+            "home",
+            "wing"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "stone",
+              "word2": "bone",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "bone",
+              "word2": "home",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (OW), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 16
+    }
+  }
+}

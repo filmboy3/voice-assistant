@@ -1,0 +1,516 @@
+{
+  "song_id": "0k17h0D3J5VfsdmQ1iZtE9::summer-68",
+  "title": "Summer '68",
+  "artist": "Pink Floyd",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nWould you like to say something before you leave?\nPerhaps you' care to state exactly how you feel.\nWe say goodbye before we've said hello.\nI hardly even like you. I shouldn't care at all.\nWe met just six hours ago. The music was too loud.\nFrom your bed I came today and lost bloody year.\nAnd I would like to know, how do you feel?\nHow do feel?\nNot single word was said. They lied still without fears.\nOccasionally you showed smile, but what was the need?\nI felt the cold far too soon in wind of ninety-five.\nMy friends are lying in the sun, I wish that I was there.\nTomorrow brings another town, another girl like you.\nHave your time before you leave to greet another man just to let me know,\nHow do you feel?\nHow do you feel?\nGoodbye to you.\nA7sus2\n\n[chorus]\nI've had enough for one day.",
+  "cleaned_lyrics": "Would you like to say something before you leave?\nPerhaps you' care to state exactly how you feel.\nWe say goodbye before we've said hello.\nI hardly even like you. I shouldn't care at all.\nWe met just six hours\nago. The music was too loud.\nFrom your bed I came today and lost bloody year.\nAnd I would like to know\nhow do you feel?\nHow do feel?\nNot single word was said.\nThey lied still without fears.\nOccasionally you showed smile\nbut what was the need?\nI felt the cold far\ntoo soon in wind of ninety-five.\nMy friends are lying in the sun\nI wish that I was there.\nTomorrow brings another town\nanother girl like you.\nHave your time before you leave to\ngreet another man just to let me know\nHow do you feel?\nHow do you feel?\nGoodbye to you.\nI've had enough for one day.",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 22,
+    "cleaned_lines": 26,
+    "removed_count": 3,
+    "retention_rate": 1.2380952380952381,
+    "removal_reasons": {
+      "section_marker": 2,
+      "chord_line": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Would you like to say something before you leave?\nPerhaps you' care to state exactly how you feel.",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": "curiosity",
+          "eli5_simplification": "The singer is asking the person they are with to share their feelings before they leave.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "We say goodbye before we've said hello.\nI hardly even like you. I shouldn't care at all.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "detachment",
+          "emotion_secondary": "disappointment",
+          "eli5_simplification": "They are saying goodbye quickly, and the singer claims they don't care about the other person.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "We met just six hours\nago. The music was too loud.\nFrom your bed I came today and lost bloody year.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "They met recently, the music was loud, and the singer feels like a year has passed since they left the other person's bed.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "And I would like to know\nhow do you feel?",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "curiosity",
+          "eli5_simplification": "The singer wants to know how the other person feels.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "How do feel?\nNot single word was said.",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "frustration",
+          "eli5_simplification": "The singer repeats the question, but the other person hasn't said anything.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "They lied still without fears.\nOccasionally you showed smile",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "disappointment",
+          "emotion_secondary": "suspicion",
+          "eli5_simplification": "The other person is not being honest, and they occasionally smiled.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13,
+            14
+          ],
+          "original_lyric": "but what was the need?\nI felt the cold far",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "confusion",
+          "emotion_secondary": "sadness",
+          "eli5_simplification": "The singer wonders why the other person acted the way they did, and they felt cold.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15,
+            16
+          ],
+          "original_lyric": "too soon in wind of ninety-five.\nMy friends are lying in the sun",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "nostalgia",
+          "eli5_simplification": "The singer felt cold too soon, and they wish they were with their friends.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "I wish that I was there.\nTomorrow brings another town",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "resignation",
+          "eli5_simplification": "The singer wishes they were with their friends, and they know they will move on.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19,
+            20
+          ],
+          "original_lyric": "another girl like you.\nHave your time before you leave to",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": "detachment",
+          "eli5_simplification": "The singer knows there will be another girl, and they tell the current girl to enjoy her time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21,
+            22
+          ],
+          "original_lyric": "greet another man just to let me know\nHow do you feel?",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "resentment",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer wants to know how the girl feels, even if she's with someone else.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23,
+            24
+          ],
+          "original_lyric": "How do you feel?\nGoodbye to you.",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": "detachment",
+          "eli5_simplification": "The singer repeats the question one last time and says goodbye.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "I've had enough for one day.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "exhaustion",
+          "emotion_secondary": "relief",
+          "eli5_simplification": "The singer is done with the situation.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 25,
+        "covered_lines": 25,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 25,
+      "covered_lines": 25,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Would you like to say something before you leave?",
+            "Perhaps you' care to state exactly how you feel.",
+            "We say goodbye before we've said hello.",
+            "I hardly even like you. I shouldn't care at all."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            5,
+            6,
+            6,
+            6
+          ],
+          "end_words": [
+            "leave",
+            "feel",
+            "hello",
+            "all"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "leave",
+              "word2": "feel",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "We met just six hours",
+            "ago. The music was too loud.",
+            "From your bed I came today and lost bloody year.",
+            "And I would like to know"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            6,
+            2
+          ],
+          "end_words": [
+            "hours",
+            "loud",
+            "year",
+            "know"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "hours",
+              "word2": "loud",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "how do you feel?",
+            "How do feel?",
+            "Not single word was said.",
+            "They lied still without fears."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            2,
+            2,
+            4,
+            4
+          ],
+          "end_words": [
+            "feel",
+            "feel",
+            "said",
+            "fears"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "feel",
+              "word2": "feel",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "chorus"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Occasionally you showed smile",
+            "but what was the need?",
+            "I felt the cold far",
+            "too soon in wind of ninety-five."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXXA",
+          "raw_rhyme_scheme": "ABCA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 0.75,
+          "stability": 0.85,
+          "stress_counts": [
+            3,
+            2,
+            3,
+            5
+          ],
+          "end_words": [
+            "smile",
+            "need",
+            "far",
+            "five"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 4,
+              "word1": "smile",
+              "word2": "five",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "My friends are lying in the sun",
+            "I wish that I was there.",
+            "Tomorrow brings another town",
+            "another girl like you."
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            2,
+            4,
+            4
+          ],
+          "end_words": [
+            "sun",
+            "there",
+            "town",
+            "you"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Have your time before you leave to",
+            "greet another man just to let me know",
+            "How do you feel?",
+            "How do you feel?"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            6,
+            2,
+            2
+          ],
+          "end_words": [
+            "to",
+            "know",
+            "feel",
+            "feel"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "feel",
+              "word2": "feel",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Goodbye to you.",
+            "I've had enough for one day."
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            2,
+            5
+          ],
+          "end_words": [
+            "you",
+            "day"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "chorus",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXXA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 26
+    }
+  }
+}

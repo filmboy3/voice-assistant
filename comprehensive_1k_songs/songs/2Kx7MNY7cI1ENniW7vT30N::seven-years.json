@@ -1,0 +1,222 @@
+{
+  "song_id": "2Kx7MNY7cI1ENniW7vT30N::seven-years",
+  "title": "Seven Years",
+  "artist": "Norah Jones",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nSpinning laughing dancing to her fav'rite\nsong little girl with nothing wrong\nall alone\nEyes wide open always hoping for the sun\nand she'll sing her song to anyone that\n\n[chorus]\nFragile as leaf in Autumn just fallin\nto the ground with out sound\n\n[chorus]\ntale of grace that's all her own\nAlittle girl with nothing wrong and she's\nall alone",
+  "cleaned_lyrics": "Spinning laughing dancing to her fav'rite\nsong little girl with nothing wrong\nall alone\nEyes wide open always hoping for the sun\nand she'll sing her song to anyone that\nFragile as leaf in Autumn just fallin\nto the ground with out sound\ntale of grace that's all her own\nAlittle girl with nothing wrong and she's\nall alone",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 15,
+    "cleaned_lines": 10,
+    "removed_count": 3,
+    "retention_rate": 0.7692307692307693,
+    "removal_reasons": {
+      "section_marker": 3
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Spinning laughing dancing to her fav'rite\nsong little girl with nothing wrong",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "A happy little girl is dancing and singing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "all alone",
+          "plot_function": "SETUP",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "She is by herself.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4,
+            5
+          ],
+          "original_lyric": "Eyes wide open always hoping for the sun\nand she'll sing her song to anyone that",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "She is looking forward to good things and singing.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7,
+            8
+          ],
+          "original_lyric": "Fragile as leaf in Autumn just fallin\nto the ground with out sound\ntale of grace that's all her own",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "peace",
+          "eli5_simplification": "She is like a falling leaf, graceful but sad.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9,
+            10
+          ],
+          "original_lyric": "Alittle girl with nothing wrong and she's\nall alone",
+          "plot_function": "SETUP",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The little girl is alone again.",
+          "is_repeat": true
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 10,
+        "covered_lines": 10,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 10,
+      "covered_lines": 10,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Spinning laughing dancing to her fav'rite",
+            "song little girl with nothing wrong",
+            "all alone",
+            "Eyes wide open always hoping for the sun"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            5,
+            2,
+            6
+          ],
+          "end_words": [
+            "fav'rite",
+            "wrong",
+            "alone",
+            "sun"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "and she'll sing her song to anyone that",
+            "Fragile as leaf in Autumn just fallin",
+            "to the ground with out sound",
+            "tale of grace that's all her own"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            6,
+            5,
+            3,
+            5
+          ],
+          "end_words": [
+            "that",
+            "fallin",
+            "sound",
+            "own"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Alittle girl with nothing wrong and she's",
+            "all alone"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            5,
+            2
+          ],
+          "end_words": [
+            "she's",
+            "alone"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 3,
+      "total_lines": 10
+    }
+  }
+}

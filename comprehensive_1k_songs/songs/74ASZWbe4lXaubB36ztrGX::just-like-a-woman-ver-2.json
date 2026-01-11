@@ -1,0 +1,645 @@
+{
+  "song_id": "74ASZWbe4lXaubB36ztrGX::just-like-a-woman-ver-2",
+  "title": "Just Like a Woman (Ver. 2)",
+  "artist": "Bob Dylan",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nNobody feels any pain\nTonight as I stand inside the rain\nEverybody knows that baby's got new clothes\n\n[bridge]\nHave fallen from her curls\nShe takes just like woman, yes she does\nShe makes love just like woman, yes she does\nAnd she aches just like woman\n\n[bridge]\nQueen Mary, she's my friend\nYes, I believe I'll go see her again\nNobody has to guess that baby can't be blessed\nTill she sees finally that she's like all the rest\nWith her fog, her amphetamine and her pearls.\n\n[bridge]\nIt was rainin' from the first and I was dying there of thirst\nSo I came in here\nAnd your longtime curse hurts but what's worse\nIs this pain in here, I can't stay in here,\nAin't it clear\nThat I just can't fit\nYes, I believe it's time for us to quit\nWhen we meet again introduced as friends\nPlease don't let on that you knew me when\nI was hungry and it was your world.\nFinal Chorus and Fill",
+  "cleaned_lyrics": "Nobody feels any pain\nTonight as I stand inside the rain\nEverybody knows that baby's got new clothes\nHave fallen from her curls\nShe takes just like woman\nyes she does\nShe makes love just like woman\nyes she does\nAnd she aches just like woman\nQueen Mary\nshe's my friend\nYes\nI believe I'll go see her again\nNobody has to guess that baby can't be blessed\nTill she sees finally that she's like all the rest\nWith her fog\nher amphetamine and her pearls.\nIt was rainin' from the first and I was dying there of thirst\nSo I came in here\nAnd your longtime curse hurts but what's worse\nIs this pain in here\nI can't stay in here\nAin't it clear\nThat I just can't fit\nYes\nI believe it's time for us to quit\nWhen we meet again introduced as friends\nPlease don't let on that you knew me when\nI was hungry and it was your world.\nFinal Chorus and Fill",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 30,
+    "cleaned_lines": 30,
+    "removed_count": 4,
+    "retention_rate": 1.1111111111111112,
+    "removal_reasons": {
+      "section_marker": 4
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Nobody feels any pain\nTonight as I stand inside the rain",
+          "plot_function": "SETUP",
+          "emotion_primary": "detachment",
+          "emotion_secondary": null,
+          "eli5_simplification": "No one seems to care, and the singer is alone in the rain.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3,
+            4
+          ],
+          "original_lyric": "Everybody knows that baby's got new clothes\nHave fallen from her curls",
+          "plot_function": "SETUP",
+          "emotion_primary": "observation",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone knows the girl has new things, like new clothes.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7
+          ],
+          "original_lyric": "She takes just like woman\nyes she does\nShe makes love just like woman\nyes she does\nAnd she aches just like woman",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "She acts, loves, and feels pain just like a woman.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "Queen Mary\nshe's my friend",
+          "plot_function": "SETUP",
+          "emotion_primary": "affection",
+          "emotion_secondary": null,
+          "eli5_simplification": "Queen Mary is the singer's friend.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "Yes\nI believe I'll go see her again",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer plans to visit her friend.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11,
+            12
+          ],
+          "original_lyric": "Nobody has to guess that baby can't be blessed\nTill she sees finally that she's like all the rest",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "disappointment",
+          "emotion_secondary": null,
+          "eli5_simplification": "No one needs to guess that the girl won't be happy until she realizes she's just like everyone else.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            13
+          ],
+          "original_lyric": "With her fog\nher amphetamine and her pearls.",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "judgment",
+          "emotion_secondary": null,
+          "eli5_simplification": "She has problems, like being confused, taking drugs, and wearing pearls.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14,
+            15
+          ],
+          "original_lyric": "It was rainin' from the first and I was dying there of thirst\nSo I came in here",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "desperation",
+          "eli5_simplification": "It was bad from the start, and the singer was desperate, so he came inside.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "And your longtime curse hurts but what's worse\nIs this pain in here",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "pain",
+          "emotion_secondary": "resentment",
+          "eli5_simplification": "The girl's curse hurts, but the pain inside is worse.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            18,
+            19,
+            20
+          ],
+          "original_lyric": "I can't stay in here\nAin't it clear\nThat I just can't fit",
+          "plot_function": "CLIMAX",
+          "emotion_primary": "despair",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer can't stay, it's clear he doesn't belong.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            21
+          ],
+          "original_lyric": "Yes\nI believe it's time for us to quit",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "resignation",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer thinks it's time to end the relationship.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22,
+            23
+          ],
+          "original_lyric": "When we meet again introduced as friends\nPlease don't let on that you knew me when",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "When they meet again, pretend they're just friends, and don't reveal their past.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24
+          ],
+          "original_lyric": "I was hungry and it was your world.",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer was needy, and it was the girl's world.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            25
+          ],
+          "original_lyric": "Final Chorus and Fill",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "reflection",
+          "emotion_secondary": null,
+          "eli5_simplification": "The song ends with a final chorus.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 25,
+        "covered_lines": 25,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 25,
+      "covered_lines": 25,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "Nobody feels any pain",
+            "Tonight as I stand inside the rain",
+            "Everybody knows that baby's got new clothes",
+            "Have fallen from her curls"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            4,
+            4,
+            7,
+            2
+          ],
+          "end_words": [
+            "pain",
+            "rain",
+            "clothes",
+            "curls"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "pain",
+              "word2": "rain",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "She takes just like woman",
+            "yes she does",
+            "She makes love just like woman",
+            "yes she does"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.9,
+          "stress_counts": [
+            4,
+            2,
+            5,
+            2
+          ],
+          "end_words": [
+            "woman",
+            "does",
+            "woman",
+            "does"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "woman",
+              "word2": "woman",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (UH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "does",
+              "word2": "does",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "And she aches just like woman",
+            "Queen Mary",
+            "she's my friend",
+            "Yes"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4,
+            2,
+            2,
+            1
+          ],
+          "end_words": [
+            "woman",
+            "mary",
+            "friend",
+            "yes"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "mary",
+              "word2": "friend",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "friend",
+              "word2": "yes",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "I believe I'll go see her again",
+            "Nobody has to guess that baby can't be blessed",
+            "Till she sees finally that she's like all the rest",
+            "With her fog"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            5,
+            5,
+            7,
+            1
+          ],
+          "end_words": [
+            "again",
+            "blessed",
+            "rest",
+            "fog"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "again",
+              "word2": "blessed",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "blessed",
+              "word2": "rest",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EH), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "her amphetamine and her pearls.",
+            "It was rainin' from the first and I was dying there of thirst",
+            "So I came in here",
+            "And your longtime curse hurts but what's worse"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            2,
+            5,
+            2,
+            5
+          ],
+          "end_words": [
+            "pearls",
+            "thirst",
+            "here",
+            "worse"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "pearls",
+              "word2": "thirst",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (ER), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "thirst",
+              "word2": "worse",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (ER), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "Is this pain in here",
+            "I can't stay in here",
+            "Ain't it clear",
+            "That I just can't fit"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAA",
+          "raw_rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "pattern_confidence": 1.0,
+          "stability": 1.0,
+          "stress_counts": [
+            2,
+            3,
+            2,
+            3
+          ],
+          "end_words": [
+            "here",
+            "here",
+            "clear",
+            "fit"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "here",
+              "word2": "here",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "here",
+              "word2": "clear",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "clear",
+              "word2": "fit",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (IH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "Yes",
+            "I believe it's time for us to quit",
+            "When we meet again introduced as friends",
+            "Please don't let on that you knew me when"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            1,
+            4,
+            5,
+            5
+          ],
+          "end_words": [
+            "yes",
+            "quit",
+            "friends",
+            "when"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "yes",
+              "word2": "friends",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "friends",
+              "word2": "when",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (EH), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "I was hungry and it was your world.",
+            "Final Chorus and Fill"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            2,
+            3
+          ],
+          "end_words": [
+            "world",
+            "fill"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAA",
+          "pattern": "4_AAAA",
+          "line_count": 4,
+          "stability": 1.0
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.35
+        }
+      ],
+      "total_stanzas": 8,
+      "total_lines": 30
+    }
+  }
+}

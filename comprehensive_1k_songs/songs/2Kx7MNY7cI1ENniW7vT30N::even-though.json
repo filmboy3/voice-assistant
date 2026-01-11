@@ -1,0 +1,345 @@
+{
+  "song_id": "2Kx7MNY7cI1ENniW7vT30N::even-though",
+  "title": "Even Though",
+  "artist": "Norah Jones",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nSomething by the way he touched me was so slow\nThe way he' put his arms around me\nEven though I'm feeling lonely\nI'm feeling lonely\nDon't understand the words he said made me do wrong\n\n[bridge]\nAnd though it's strong I wish he' leave me alone\nI wish he' leave me\n'Cause I know trouble will follow\n\n[bridge]\n'Cause I know trouble will follow\n\n[bridge]\nHe makes me think that I don't know me\nSo unsure when I remember all the things he showed me\nAnd I want more, I'm feeling lonely\nOh, I'm feeling lonely",
+  "cleaned_lyrics": "The way he' put his arms around me\nEven though I'm feeling lonely\nI'm feeling lonely\nDon't understand the words he said made me do wrong\nAnd though it's strong I wish he' leave me alone\nI wish he' leave me\n'Cause I know trouble will follow\n'Cause I know trouble will follow\nHe makes me think that I don't know me\nSo unsure when I remember all the things he showed me\nAnd I want more\nI'm feeling lonely\nOh\nI'm feeling lonely",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 20,
+    "cleaned_lines": 14,
+    "removed_count": 5,
+    "retention_rate": 0.8235294117647058,
+    "removal_reasons": {
+      "section_marker": 4,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1
+          ],
+          "original_lyric": "The way he' put his arms around me",
+          "plot_function": "SETUP",
+          "emotion_primary": "love",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone is showing affection.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            2,
+            3,
+            13,
+            15
+          ],
+          "original_lyric": "Even though I'm feeling lonely\nI'm feeling lonely\nI'm feeling lonely\nOh\nI'm feeling lonely",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer feels alone.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "Don't understand the words he said made me do wrong",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "confusion",
+          "emotion_secondary": "regret",
+          "eli5_simplification": "The singer doesn't understand why they did something wrong.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6,
+            7
+          ],
+          "original_lyric": "And though it's strong I wish he' leave me alone\nI wish he' leave me\n'Cause I know trouble will follow",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "The singer wants the person to leave because they know it will cause problems.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8,
+            9
+          ],
+          "original_lyric": "'Cause I know trouble will follow\nHe makes me think that I don't know me",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "fear",
+          "emotion_secondary": "insecurity",
+          "eli5_simplification": "The singer is afraid of what will happen and feels unsure of themselves.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "So unsure when I remember all the things he showed me",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "insecurity",
+          "emotion_secondary": "longing",
+          "eli5_simplification": "The singer feels unsure when they remember what the person showed them.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "And I want more",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer wants more.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "Oh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Just a sound of sadness.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "Oh",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "Just a sound of sadness.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 15,
+        "covered_lines": 15,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 15,
+      "covered_lines": 15,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "The way he' put his arms around me",
+            "Even though I'm feeling lonely",
+            "I'm feeling lonely",
+            "Don't understand the words he said made me do wrong"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            5,
+            5,
+            3,
+            7
+          ],
+          "end_words": [
+            "me",
+            "lonely",
+            "lonely",
+            "wrong"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "lonely",
+              "word2": "lonely",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "And though it's strong I wish he' leave me alone",
+            "I wish he' leave me",
+            "'Cause I know trouble will follow",
+            "'Cause I know trouble will follow"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            6,
+            3,
+            4,
+            4
+          ],
+          "end_words": [
+            "alone",
+            "me",
+            "follow",
+            "follow"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "follow",
+              "word2": "follow",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "He makes me think that I don't know me",
+            "So unsure when I remember all the things he showed me",
+            "And I want more",
+            "I'm feeling lonely"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXX",
+          "raw_rhyme_scheme": "AABC",
+          "pattern": "4_AABB",
+          "pattern_confidence": 0.75,
+          "stability": 0.95,
+          "stress_counts": [
+            6,
+            7,
+            2,
+            3
+          ],
+          "end_words": [
+            "me",
+            "me",
+            "more",
+            "lonely"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "me",
+              "word2": "me",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IY), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Oh",
+            "I'm feeling lonely"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "AA",
+          "raw_rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            1,
+            3
+          ],
+          "end_words": [
+            "oh",
+            "lonely"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "oh",
+              "word2": "lonely",
+              "pattison_type": "subtractive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (OW), one word removes post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXX",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AA",
+          "pattern": "2_AA_UNMATCHED",
+          "line_count": 2,
+          "stability": 0.6
+        }
+      ],
+      "total_stanzas": 4,
+      "total_lines": 14
+    }
+  }
+}

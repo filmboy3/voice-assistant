@@ -1,0 +1,961 @@
+{
+  "song_id": "7jy3rLJdDQY21OgRLCZ9sD::headwires",
+  "title": "Headwires",
+  "artist": "Foo Fighters",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\n(riff 2)\n|-------------4----------------2----5--5?4-------5--------2--0---------------5----------2-----------------------------0--------------|\n(intro) Riff\n(riff 1)\nHave you been headwired\n(riff 1)\nWere you satisfied\n(riff 1)\nDid it free the feelings in your spine\n(riff 2) (riff 1)\nSleeping way inside all this time\n(riff 1) (riff 1)\nWill you meet your mind where the night collides\n(riff 1)\nWill you greet yourself when the sun arrives\n(riff 2) (riff 1)\nI'll just stay behind, I've met mine\n(Refrão)\n\n[bridge]\nTangled in your headwires now\n\n[bridge]\nTangled in your headwires, headwires now\n(riff 1 - x2)\n(riff 1) (riff 1)\nHelp you feed the wires when your head unwinds\n(riff 1)\nAnd if our headlines become entwined\n(riff 2) (riff 1)\nYou can have all mine, I'll be fine\n(riff 1) (riff 1)\nThere's reason why keeping me alive\n(riff 1)\nThere's cure in me that I wish were mine\n(riff 2) (riff 1)\nAs long as I can fight, I'll survive\n\n[bridge]\nTangled in your headwires now\n\n[bridge]\nTangled in your headwires, headwires now\nStationed on the wire, one day I'll let go\nTell them all hello, Tell them all hello\nStationed on the wire, one day I'll let go\nTell them all hello, Tell them all hello\n(riff 1 - x2)\n(riff 1)\nThe sun is on Arlandria,\n(riff 1)\nThe sun is on Arlandria\n(riff 2)\nHeadwire\n(riff 1)\nThe sun in on Arlandria\n(riff 1)\nThe sun is on Arlandria\n(riff 2)\nHeadwires\n(riff 1)\nThe sun is on Arlandria\n(riff 1)\nThe sun is on Arlandria\n(riff 2)\nHeadwires\n(riff 1 - x4)\nHeadwiiiires",
+  "cleaned_lyrics": "(intro) Riff\nHave you been headwired\nWere you satisfied\nDid it free the feelings in your spine\n(riff 2) (riff 1)\nSleeping way inside all this time\n(riff 1) (riff 1)\nWill you meet your mind where the night collides\nWill you greet yourself when the sun arrives\n(riff 2) (riff 1)\nI'll just stay behind\nI've met mine\nTangled in your headwires now\nTangled in your headwires\nheadwires now\n(riff 1) (riff 1)\nHelp you feed the wires when your head unwinds\nAnd if our headlines become entwined\n(riff 2) (riff 1)\n(riff 1) (riff 1)\nThere's reason why keeping me alive\nThere's cure in me that I wish were mine\n(riff 2) (riff 1)\nAs long as I can fight\nI'll survive\nTangled in your headwires now\nTangled in your headwires\nheadwires now\nStationed on the wire\none day I'll let go\nTell them all hello\nTell them all hello\nStationed on the wire\none day I'll let go\nTell them all hello\nTell them all hello\nThe sun is on Arlandria\nThe sun is on Arlandria\nHeadwire\nThe sun in on Arlandria\nThe sun is on Arlandria\nHeadwires\nThe sun is on Arlandria\nThe sun is on Arlandria\nHeadwires\nHeadwiiiires",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 69,
+    "cleaned_lines": 46,
+    "removed_count": 27,
+    "retention_rate": 0.7076923076923077,
+    "removal_reasons": {
+      "musical_direction": 1,
+      "artist_annotation": 20,
+      "guitar_tab": 1,
+      "section_marker": 5
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "Have you been headwired\nWere you satisfied",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": null,
+          "eli5_simplification": "Are you connected to something? Are you happy with it?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "Did it free the feelings in your spine",
+          "plot_function": "SETUP",
+          "emotion_primary": "curiosity",
+          "emotion_secondary": "hope",
+          "eli5_simplification": "Did it make you feel better?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "Sleeping way inside all this time",
+          "plot_function": "SETUP",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Something has been hidden for a long time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7
+          ],
+          "original_lyric": "Will you meet your mind where the night collides",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "fear",
+          "emotion_secondary": null,
+          "eli5_simplification": "Will you face your fears?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            8
+          ],
+          "original_lyric": "Will you greet yourself when the sun arrives",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Will you be happy when things get better?",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10
+          ],
+          "original_lyric": "I'll just stay behind",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "I'll stay back.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            11
+          ],
+          "original_lyric": "I've met mine",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "I've already faced my fears.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12,
+            13
+          ],
+          "original_lyric": "Tangled in your headwires now\nTangled in your headwires",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Stuck in your problems.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "headwires now",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Stuck in your problems.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Help you feed the wires when your head unwinds",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "I'll help you when you're struggling.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17
+          ],
+          "original_lyric": "And if our headlines become entwined",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "If our lives become connected.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "There's reason why keeping me alive",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "There's a reason I'm still here.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "There's cure in me that I wish were mine",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "I wish I had the cure.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            22
+          ],
+          "original_lyric": "As long as I can fight",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "As long as I can keep going.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            23
+          ],
+          "original_lyric": "I'll survive",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "I'll make it.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            24,
+            25
+          ],
+          "original_lyric": "Tangled in your headwires now\nTangled in your headwires",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Stuck in your problems.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            26
+          ],
+          "original_lyric": "headwires now",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "Stuck in your problems.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            27
+          ],
+          "original_lyric": "Stationed on the wire",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "I'm here.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            28
+          ],
+          "original_lyric": "one day I'll let go",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someday I'll be free.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            29,
+            30
+          ],
+          "original_lyric": "Tell them all hello\nTell them all hello",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Say hello to everyone.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            31
+          ],
+          "original_lyric": "Stationed on the wire",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "I'm here.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            32
+          ],
+          "original_lyric": "one day I'll let go",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someday I'll be free.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            33,
+            34
+          ],
+          "original_lyric": "Tell them all hello\nTell them all hello",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Say hello to everyone.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            35,
+            36
+          ],
+          "original_lyric": "The sun is on Arlandria\nThe sun is on Arlandria",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everything is good.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            37
+          ],
+          "original_lyric": "Headwire",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Connected.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            38,
+            39
+          ],
+          "original_lyric": "The sun in on Arlandria\nThe sun is on Arlandria",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everything is good.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            40
+          ],
+          "original_lyric": "Headwires",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Connected.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            41,
+            42
+          ],
+          "original_lyric": "The sun is on Arlandria\nThe sun is on Arlandria",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everything is good.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            43
+          ],
+          "original_lyric": "Headwires",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Connected.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            44
+          ],
+          "original_lyric": "Headwiiiires",
+          "plot_function": "REFLECTION",
+          "emotion_primary": "acceptance",
+          "emotion_secondary": null,
+          "eli5_simplification": "Connected.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 44,
+        "covered_lines": 44,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 44,
+      "covered_lines": 44,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "(intro) Riff",
+            "Have you been headwired",
+            "Were you satisfied",
+            "Did it free the feelings in your spine"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "end_words": [
+            "riff",
+            "headwired",
+            "satisfied",
+            "spine"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "(riff 2) (riff 1)",
+            "Sleeping way inside all this time",
+            "(riff 1) (riff 1)",
+            "Will you meet your mind where the night collides"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "ABAB",
+          "raw_rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "pattern_confidence": 0.85,
+          "stability": 0.9,
+          "stress_counts": [
+            2,
+            5,
+            2,
+            5
+          ],
+          "end_words": [
+            "riff",
+            "time",
+            "riff",
+            "collides"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "riff",
+              "word2": "riff",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "time",
+              "word2": "collides",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "Will you greet yourself when the sun arrives",
+            "(riff 2) (riff 1)",
+            "I'll just stay behind",
+            "I've met mine"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAA",
+          "raw_rhyme_scheme": "ABAA",
+          "pattern": "4_ABAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.85,
+          "stress_counts": [
+            5,
+            2,
+            4,
+            3
+          ],
+          "end_words": [
+            "arrives",
+            "riff",
+            "behind",
+            "mine"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "arrives",
+              "word2": "behind",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "behind",
+              "word2": "mine",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "Tangled in your headwires now",
+            "Tangled in your headwires",
+            "headwires now",
+            "(riff 1) (riff 1)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            3,
+            2,
+            2,
+            2
+          ],
+          "end_words": [
+            "now",
+            "headwires",
+            "now",
+            "riff"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "now",
+              "word2": "now",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "Help you feed the wires when your head unwinds",
+            "And if our headlines become entwined",
+            "(riff 2) (riff 1)",
+            "(riff 1) (riff 1)"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            6,
+            4,
+            2,
+            2
+          ],
+          "end_words": [
+            "unwinds",
+            "entwined",
+            "riff",
+            "riff"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "riff",
+              "word2": "riff",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (IH), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "There's reason why keeping me alive",
+            "There's cure in me that I wish were mine",
+            "(riff 2) (riff 1)",
+            "As long as I can fight"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAXA",
+          "raw_rhyme_scheme": "AABA",
+          "pattern": "4_AABA",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            5,
+            4,
+            2,
+            2
+          ],
+          "end_words": [
+            "alive",
+            "mine",
+            "riff",
+            "fight"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "alive",
+              "word2": "mine",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "mine",
+              "word2": "fight",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "I'll survive",
+            "Tangled in your headwires now",
+            "Tangled in your headwires",
+            "headwires now"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "end_words": [
+            "survive",
+            "now",
+            "headwires",
+            "now"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "now",
+              "word2": "now",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 8,
+          "lines": [
+            "Stationed on the wire",
+            "one day I'll let go",
+            "Tell them all hello",
+            "Tell them all hello"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2,
+            5,
+            3,
+            3
+          ],
+          "end_words": [
+            "wire",
+            "go",
+            "hello",
+            "hello"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "go",
+              "word2": "hello",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "hello",
+              "word2": "hello",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 9,
+          "lines": [
+            "Stationed on the wire",
+            "one day I'll let go",
+            "Tell them all hello",
+            "Tell them all hello"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            2,
+            5,
+            3,
+            3
+          ],
+          "end_words": [
+            "wire",
+            "go",
+            "hello",
+            "hello"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "go",
+              "word2": "hello",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "hello",
+              "word2": "hello",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (OW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 10,
+          "lines": [
+            "The sun is on Arlandria",
+            "The sun is on Arlandria",
+            "Headwire",
+            "The sun in on Arlandria"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            2,
+            1,
+            2
+          ],
+          "end_words": [
+            "arlandria",
+            "arlandria",
+            "headwire",
+            "arlandria"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 11,
+          "lines": [
+            "The sun is on Arlandria",
+            "Headwires",
+            "The sun is on Arlandria",
+            "The sun is on Arlandria"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            2,
+            1,
+            2,
+            2
+          ],
+          "end_words": [
+            "arlandria",
+            "headwires",
+            "arlandria",
+            "arlandria"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 12,
+          "lines": [
+            "Headwires",
+            "Headwiiiires"
+          ],
+          "line_count": 2,
+          "rhyme_scheme": "XX",
+          "raw_rhyme_scheme": "AB",
+          "pattern": "2_XX",
+          "pattern_confidence": 1.0,
+          "stability": 0.8,
+          "stress_counts": [
+            1,
+            1
+          ],
+          "end_words": [
+            "headwires",
+            "headwiiiires"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "ABAB",
+          "pattern": "4_ABAB",
+          "line_count": 4,
+          "stability": 0.9
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAA",
+          "pattern": "4_ABAA",
+          "line_count": 4,
+          "stability": 0.85
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "AAXA",
+          "pattern": "4_AABA",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 8,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 9,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 10,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 11,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 12,
+          "section_type": "verse",
+          "rhyme_scheme": "XX",
+          "pattern": "2_XX",
+          "line_count": 2,
+          "stability": 0.8
+        }
+      ],
+      "total_stanzas": 12,
+      "total_lines": 46
+    }
+  }
+}

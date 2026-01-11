@@ -1,0 +1,541 @@
+{
+  "song_id": "0k17h0D3J5VfsdmQ1iZtE9::have-a-cigar",
+  "title": "Have a Cigar",
+  "artist": "Pink Floyd",
+  "genre": "unknown",
+  "original_lyrics": "[chorus]\nYou're gonna go far\nYou're gonna fly high\nYou're never gonna die\nYou're gonna make it if you try\nThey're gonna love you\nWell I've always had deep respect\nAnd I mean that most sincerely\nThe band is just fantastic\nThat is really what I think\nOh by the way, which one's Pink?\nAnd did we tell you the name of the game, boy\nWe call it Riding the Gravy Train\nWe're just knocked out\nWe heard about the sell out\nYou gotta get an album out\nYou owe it to the people\nWe're so happy we can hardly count\nEverybody else is just green\nHave you seen the chart?\nIt's hell of start\nIt could be made into monster\nIf we all pull together as team\nAnd did we tell you the name of the game, boy\nWe call it Riding the Gravy Train",
+  "cleaned_lyrics": "You're gonna go far\nYou're gonna fly high\nYou're never gonna die\nYou're gonna make it if you try\nThey're gonna love you\nWell I've always had deep respect\nAnd I mean that most sincerely\nThe band is just fantastic\nThat is really what I think\nAnd did we tell you the name of the game\nboy\nWe call it Riding the Gravy Train\nWe're just knocked out\nWe heard about the sell out\nYou gotta get an album out\nYou owe it to the people\nWe're so happy we can hardly count\nEverybody else is just green\nHave you seen the chart?\nIt's hell of start\nIt could be made into monster\nIf we all pull together as team\nAnd did we tell you the name of the game\nboy\nWe call it Riding the Gravy Train",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 25,
+    "cleaned_lines": 25,
+    "removed_count": 2,
+    "retention_rate": 1.0,
+    "removal_reasons": {
+      "section_marker": 1,
+      "credits_metadata": 1
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "original_lyric": "You're gonna go far\nYou're gonna fly high\nYou're never gonna die\nYou're gonna make it if you try",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Someone is telling you that you will be successful and achieve great things.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5
+          ],
+          "original_lyric": "They're gonna love you",
+          "plot_function": "SETUP",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone will like you.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "original_lyric": "Well I've always had deep respect\nAnd I mean that most sincerely\nThe band is just fantastic\nThat is really what I think",
+          "plot_function": "SETUP",
+          "emotion_primary": "joy",
+          "emotion_secondary": "sincerity",
+          "eli5_simplification": "Someone is praising the band and saying they are great.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            23
+          ],
+          "original_lyric": "And did we tell you the name of the game\nboy\nWe call it Riding the Gravy Train",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "irony",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are telling the boy the name of the game is to make money.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            11,
+            12,
+            13
+          ],
+          "original_lyric": "We're just knocked out\nWe heard about the sell out\nYou gotta get an album out",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "excitement",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are excited about the band's success and tell them to release an album.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            14
+          ],
+          "original_lyric": "You owe it to the people",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "responsibility",
+          "emotion_secondary": null,
+          "eli5_simplification": "They say the band owes it to their fans to release an album.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            15
+          ],
+          "original_lyric": "We're so happy we can hardly count",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "joy",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are so happy they can't even count.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16
+          ],
+          "original_lyric": "Everybody else is just green",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "envy",
+          "emotion_secondary": null,
+          "eli5_simplification": "Everyone else is jealous.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            17,
+            18
+          ],
+          "original_lyric": "Have you seen the chart?\nIt's hell of start",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "excitement",
+          "emotion_secondary": null,
+          "eli5_simplification": "They are asking if the band has seen the charts and that it's a great start.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            19
+          ],
+          "original_lyric": "It could be made into monster",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "hope",
+          "emotion_secondary": null,
+          "eli5_simplification": "It could be made into a big success.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            20
+          ],
+          "original_lyric": "If we all pull together as team",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "unity",
+          "emotion_secondary": null,
+          "eli5_simplification": "If they all work together as a team.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 1,
+        "details": [
+          {
+            "line_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "from_pov": "you",
+            "to_pov": "they"
+          },
+          {
+            "line_numbers": [
+              6,
+              7,
+              8,
+              9
+            ],
+            "from_pov": "I",
+            "to_pov": "we"
+          }
+        ]
+      },
+      "coverage_summary": {
+        "total_lines": 23,
+        "covered_lines": 23,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 1,
+      "details": [
+        {
+          "line_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "from_pov": "you",
+          "to_pov": "they"
+        },
+        {
+          "line_numbers": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "from_pov": "I",
+          "to_pov": "we"
+        }
+      ]
+    },
+    "coverage": {
+      "total_lines": 23,
+      "covered_lines": 23,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "You're gonna go far",
+            "You're gonna fly high",
+            "You're never gonna die",
+            "You're gonna make it if you try"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAA",
+          "raw_rhyme_scheme": "ABBB",
+          "pattern": "4_XAAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            5
+          ],
+          "end_words": [
+            "far",
+            "high",
+            "die",
+            "try"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "high",
+              "word2": "die",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "die",
+              "word2": "try",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "They're gonna love you",
+            "Well I've always had deep respect",
+            "And I mean that most sincerely",
+            "The band is just fantastic"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            4,
+            6,
+            3,
+            3
+          ],
+          "end_words": [
+            "you",
+            "respect",
+            "sincerely",
+            "fantastic"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "That is really what I think",
+            "And did we tell you the name of the game",
+            "boy",
+            "We call it Riding the Gravy Train"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAXA",
+          "raw_rhyme_scheme": "ABCB",
+          "pattern": "4_XAXA",
+          "pattern_confidence": 0.85,
+          "stability": 0.75,
+          "stress_counts": [
+            3,
+            3,
+            1,
+            4
+          ],
+          "end_words": [
+            "think",
+            "game",
+            "boy",
+            "train"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 4,
+              "word1": "game",
+              "word2": "train",
+              "pattison_type": "family",
+              "pattison_stability": 0.85,
+              "explanation": "Same vowel (EY), post-consonants in same family"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "We're just knocked out",
+            "We heard about the sell out",
+            "You gotta get an album out",
+            "You owe it to the people"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AAAX",
+          "raw_rhyme_scheme": "AAAB",
+          "pattern": "4_AAAB",
+          "pattern_confidence": 1.0,
+          "stability": 0.35,
+          "stress_counts": [
+            4,
+            4,
+            4,
+            2
+          ],
+          "end_words": [
+            "out",
+            "out",
+            "out",
+            "people"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "out",
+              "word2": "out",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants"
+            },
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "out",
+              "word2": "out",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AW), same post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "We're so happy we can hardly count",
+            "Everybody else is just green",
+            "Have you seen the chart?",
+            "It's hell of start"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXAA",
+          "raw_rhyme_scheme": "ABCC",
+          "pattern": "4_XXAA",
+          "pattern_confidence": 1.0,
+          "stability": 0.6,
+          "stress_counts": [
+            4,
+            5,
+            2,
+            3
+          ],
+          "end_words": [
+            "count",
+            "green",
+            "chart",
+            "start"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "chart",
+              "word2": "start",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (AA), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 6,
+          "lines": [
+            "It could be made into monster",
+            "If we all pull together as team",
+            "And did we tell you the name of the game",
+            "boy"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XXXX",
+          "raw_rhyme_scheme": "ABCD",
+          "pattern": "4_XXXX",
+          "pattern_confidence": 1.0,
+          "stability": 0.2,
+          "stress_counts": [
+            3,
+            5,
+            3,
+            1
+          ],
+          "end_words": [
+            "monster",
+            "team",
+            "game",
+            "boy"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 7,
+          "lines": [
+            "We call it Riding the Gravy Train"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            4
+          ],
+          "end_words": [
+            "train"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAA",
+          "pattern": "4_XAAA",
+          "line_count": 4,
+          "stability": 0.55
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAXA",
+          "pattern": "4_XAXA",
+          "line_count": 4,
+          "stability": 0.75
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AAAX",
+          "pattern": "4_AAAB",
+          "line_count": 4,
+          "stability": 0.35
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "XXAA",
+          "pattern": "4_XXAA",
+          "line_count": 4,
+          "stability": 0.6
+        },
+        {
+          "stanza_number": 6,
+          "section_type": "verse",
+          "rhyme_scheme": "XXXX",
+          "pattern": "4_XXXX",
+          "line_count": 4,
+          "stability": 0.2
+        },
+        {
+          "stanza_number": 7,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 7,
+      "total_lines": 25
+    }
+  }
+}

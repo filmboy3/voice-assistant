@@ -1,0 +1,401 @@
+{
+  "song_id": "5a2EaR3hamoenG9rDuVn8j::i-could-never-take-the-place-of-your-man-acoustic",
+  "title": "I Could Never Take The Place Of Your Man (acoustic)",
+  "artist": "Prince",
+  "genre": "unknown",
+  "original_lyrics": "[verse]\nIt was only last June when her old man ran away\nShe couldn't stop cryin' cuz she knew he was gone to stay\nIt was ten thirty five on lonely Friday night\nShe was standin' by the bar, Mmm, she was lookin' alright\nI asked her if she wanted to dance and she said that all she wanted\nwas good man and wanted to know if I thought I was qualified\nAnd I said baby don't waste your time\nI know what's on your mind\nI may be qualified for one night stand\n\n[bridge]\nIt hurt me so bad when she told me with tears in her eyes\nHe was all she ever had and now she wanted to die\nHe left her with baby and another one on the way\nShe couldn't stop cryin' cuz she knew he was gone to stay\nShe ask me if we could be friends and I said\nOh honey, baby that's dead end, you know\nI know that we wouldn't be satisfied\nREPEAT Chorus",
+  "cleaned_lyrics": "It was only last June\nwhen her old man ran away\nShe couldn't stop cryin' cuz she knew he was gone to stay\nIt was ten thirty five on lonely Friday night\nI asked her if she wanted to dance and she said that all she wanted\nwas good man and wanted to know if I thought I was qualified\nAnd I said baby don't waste your time\nI know what's on your mind\nI may be qualified for one night stand\nIt hurt me so bad when she told me with tears in her eyes\nHe was all she ever had and now she wanted to die\nShe couldn't stop cryin' cuz she knew he was gone to stay\nShe ask me if we could be friends and I said\nOh honey\nbaby that's dead end\nyou know\nI know that we wouldn't be satisfied",
+  "cleaning_metadata": {
+    "version": "2.0_stress_split",
+    "original_lines": 20,
+    "cleaned_lines": 17,
+    "removed_count": 5,
+    "retention_rate": 0.8947368421052632,
+    "removal_reasons": {
+      "performance_instruction": 1,
+      "section_marker": 2,
+      "credits_metadata": 2
+    },
+    "split_by_stress": true
+  },
+  "genome_extraction": {
+    "status": "success",
+    "extraction": {
+      "line_by_line_plot": [
+        {
+          "line_numbers": [
+            1,
+            2
+          ],
+          "original_lyric": "It was only last June\nwhen her old man ran away",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "A woman's boyfriend left her.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            3
+          ],
+          "original_lyric": "She couldn't stop cryin' cuz she knew he was gone to stay",
+          "plot_function": "SETUP",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "She is very sad because he left.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            4
+          ],
+          "original_lyric": "It was ten thirty five on lonely Friday night",
+          "plot_function": "SETUP",
+          "emotion_primary": "loneliness",
+          "emotion_secondary": null,
+          "eli5_simplification": "It's a lonely Friday night.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            5,
+            6
+          ],
+          "original_lyric": "I asked her if she wanted to dance and she said that all she wanted\nwas good man and wanted to know if I thought I was qualified",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "longing",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer asks her to dance, but she wants a good man.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            7,
+            8
+          ],
+          "original_lyric": "And I said baby don't waste your time\nI know what's on your mind",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer tells her not to waste her time.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            9
+          ],
+          "original_lyric": "I may be qualified for one night stand",
+          "plot_function": "CONFLICT",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "The singer admits he's only good for a one-night stand.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            10,
+            11
+          ],
+          "original_lyric": "It hurt me so bad when she told me with tears in her eyes\nHe was all she ever had and now she wanted to die",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": "fear",
+          "eli5_simplification": "She is very sad and wants to die.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            12
+          ],
+          "original_lyric": "She couldn't stop cryin' cuz she knew he was gone to stay",
+          "plot_function": "RISING_ACTION",
+          "emotion_primary": "sadness",
+          "emotion_secondary": null,
+          "eli5_simplification": "She is still crying because he left.",
+          "is_repeat": true
+        },
+        {
+          "line_numbers": [
+            13,
+            14,
+            15
+          ],
+          "original_lyric": "She ask me if we could be friends and I said\nOh honey\nbaby that's dead end",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "She asks to be friends, but the singer says it's a dead end.",
+          "is_repeat": false
+        },
+        {
+          "line_numbers": [
+            16,
+            17
+          ],
+          "original_lyric": "you know\nI know that we wouldn't be satisfied",
+          "plot_function": "RESOLUTION",
+          "emotion_primary": "regret",
+          "emotion_secondary": null,
+          "eli5_simplification": "They both know they wouldn't be happy.",
+          "is_repeat": false
+        }
+      ],
+      "pov_shifts": {
+        "count": 0,
+        "details": []
+      },
+      "coverage_summary": {
+        "total_lines": 17,
+        "covered_lines": 17,
+        "coverage_pct": 100.0,
+        "missing_lines": []
+      }
+    },
+    "pov_shifts": {
+      "count": 0,
+      "details": []
+    },
+    "coverage": {
+      "total_lines": 17,
+      "covered_lines": 17,
+      "coverage_pct": 100.0,
+      "missing_lines": []
+    }
+  },
+  "pattison_analysis": {
+    "status": "success",
+    "analysis": {
+      "stanzas": [
+        {
+          "stanza_number": 1,
+          "lines": [
+            "It was only last June",
+            "when her old man ran away",
+            "She couldn't stop cryin' cuz she knew he was gone to stay",
+            "It was ten thirty five on lonely Friday night"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            3,
+            5,
+            7,
+            6
+          ],
+          "end_words": [
+            "june",
+            "away",
+            "stay",
+            "night"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "away",
+              "word2": "stay",
+              "pattison_type": "perfect",
+              "pattison_stability": 1.0,
+              "explanation": "Same vowel (EY), same post-consonants, different onsets"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 2,
+          "lines": [
+            "I asked her if she wanted to dance and she said that all she wanted",
+            "was good man and wanted to know if I thought I was qualified",
+            "And I said baby don't waste your time",
+            "I know what's on your mind"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AABB",
+          "raw_rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "pattern_confidence": 1.0,
+          "stability": 0.95,
+          "stress_counts": [
+            7,
+            7,
+            5,
+            3
+          ],
+          "end_words": [
+            "wanted",
+            "qualified",
+            "time",
+            "mind"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 2,
+              "word1": "wanted",
+              "word2": "qualified",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AA), unrelated post-consonants"
+            },
+            {
+              "line1": 3,
+              "line2": 4,
+              "word1": "time",
+              "word2": "mind",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (AY), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 3,
+          "lines": [
+            "I may be qualified for one night stand",
+            "It hurt me so bad when she told me with tears in her eyes",
+            "He was all she ever had and now she wanted to die",
+            "She couldn't stop cryin' cuz she knew he was gone to stay"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "XAAX",
+          "raw_rhyme_scheme": "ABBC",
+          "pattern": "4_XAAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.45,
+          "stress_counts": [
+            4,
+            6,
+            6,
+            7
+          ],
+          "end_words": [
+            "stand",
+            "eyes",
+            "die",
+            "stay"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 2,
+              "line2": 3,
+              "word1": "eyes",
+              "word2": "die",
+              "pattison_type": "additive",
+              "pattison_stability": 0.7,
+              "explanation": "Same vowel (AY), one word adds post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 4,
+          "lines": [
+            "She ask me if we could be friends and I said",
+            "Oh honey",
+            "baby that's dead end",
+            "you know"
+          ],
+          "line_count": 4,
+          "rhyme_scheme": "AXAX",
+          "raw_rhyme_scheme": "ABAC",
+          "pattern": "4_AXAX",
+          "pattern_confidence": 1.0,
+          "stability": 0.5,
+          "stress_counts": [
+            4,
+            2,
+            4,
+            1
+          ],
+          "end_words": [
+            "said",
+            "honey",
+            "end",
+            "know"
+          ],
+          "rhyme_pairs": [
+            {
+              "line1": 1,
+              "line2": 3,
+              "word1": "said",
+              "word2": "end",
+              "pattison_type": "assonance",
+              "pattison_stability": 0.5,
+              "explanation": "Same vowel (EH), unrelated post-consonants"
+            }
+          ],
+          "section_type": "verse"
+        },
+        {
+          "stanza_number": 5,
+          "lines": [
+            "I know that we wouldn't be satisfied"
+          ],
+          "line_count": 1,
+          "rhyme_scheme": "X",
+          "raw_rhyme_scheme": "A",
+          "pattern": null,
+          "pattern_confidence": 0.0,
+          "stability": 0.55,
+          "stress_counts": [
+            3
+          ],
+          "end_words": [
+            "satisfied"
+          ],
+          "rhyme_pairs": [],
+          "section_type": "verse"
+        }
+      ],
+      "structure_summary": [
+        {
+          "stanza_number": 1,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 2,
+          "section_type": "verse",
+          "rhyme_scheme": "AABB",
+          "pattern": "4_AABB",
+          "line_count": 4,
+          "stability": 0.95
+        },
+        {
+          "stanza_number": 3,
+          "section_type": "verse",
+          "rhyme_scheme": "XAAX",
+          "pattern": "4_XAAX",
+          "line_count": 4,
+          "stability": 0.45
+        },
+        {
+          "stanza_number": 4,
+          "section_type": "verse",
+          "rhyme_scheme": "AXAX",
+          "pattern": "4_AXAX",
+          "line_count": 4,
+          "stability": 0.5
+        },
+        {
+          "stanza_number": 5,
+          "section_type": "verse",
+          "rhyme_scheme": "X",
+          "pattern": null,
+          "line_count": 1,
+          "stability": 0.55
+        }
+      ],
+      "total_stanzas": 5,
+      "total_lines": 17
+    }
+  }
+}
