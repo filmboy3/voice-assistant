@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Export Manager</title>
+    <script defer src="/global-nav.js"></script>
+    <script defer src="/notes_manager.js"></script>
+    <script defer src="/shared_interactions.js"></script>
+    <script defer src="/export_manager.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f6f4ee;
+            color: #2c2520;
+            padding: 10px 20px 20px 20px;
+            min-height: 100vh;
+        }
+
+        body.has-global-nav > .container,
+        body.has-global-nav > div:not(.global-nav) {
+            margin-top: 8px !important;
+        }
+
+        @media (max-width: 768px) {
+            body.has-global-nav > .container,
+            body.has-global-nav > div:not(.global-nav) {
+                margin-top: 0 !important;
+            }
+        }
+
+        .container {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        .header {
+            margin-bottom: 14px;
+        }
+
+        .header h1 {
+            font-size: 1.6rem;
+            font-weight: 750;
+            color: #1f1b16;
+            margin-bottom: 6px;
+        }
+
+        .header p {
+            color: #6f675c;
+            font-size: 0.95rem;
+            line-height: 1.45;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 14px;
+        }
+
+        @media (min-width: 920px) {
+            .grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            .grid .wide {
+                grid-column: 1 / -1;
+            }
+        }
+
+        .card {
+            background: #fdfbf7;
+            border: 1px solid #e8e4dc;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            overflow: hidden;
+        }
+
+        .card-header {
+            padding: 12px 14px;
+            border-bottom: 1px solid #efeae2;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 10px;
+        }
+
+        .card-title {
+            font-weight: 800;
+            font-size: 0.98rem;
+            color: #1f1b16;
+        }
+
+        .card-subtitle {
+            font-size: 0.85rem;
+            color: #6f675c;
+            font-weight: 650;
+        }
+
+        .card-body {
+            padding: 14px;
+        }
+
+        .actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+
+        .btn {
+            appearance: none;
+            -webkit-appearance: none;
+            border: 1px solid #d4cec4;
+            background: #fff;
+            color: #1f1b16;
+            border-radius: 999px;
+            padding: 10px 12px;
+            font-weight: 750;
+            cursor: pointer;
+            font-size: 0.92rem;
+        }
+
+        .btn:hover { background: #f4eee1; }
+
+        .btn.primary {
+            background: #14100b;
+            border-color: #14100b;
+            color: #f8f5ed;
+        }
+
+        .btn.primary:hover { background: #221a12; }
+
+        .btn.danger {
+            background: #fff;
+            border-color: #e2bcbc;
+            color: #7d1e1e;
+        }
+
+        .btn.danger:hover { background: #fbefef; }
+
+        textarea {
+            width: 100%;
+            min-height: 220px;
+            resize: vertical;
+            padding: 12px 12px;
+            border-radius: 12px;
+            border: 1px solid #e8e4dc;
+            background: #fff;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+            font-size: 0.9rem;
+            line-height: 1.45;
+            color: #1f1b16;
+        }
+
+        .kv {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .kv .key {
+            font-weight: 750;
+            color: #1f1b16;
+        }
+
+        .kv .val {
+            text-align: right;
+            font-weight: 750;
+            color: #1f1b16;
+        }
+
+        .mono {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+            font-size: 0.85rem;
+            color: #2c2520;
+            background: #f4eee1;
+            border: 1px solid #e8e4dc;
+            border-radius: 10px;
+            padding: 10px;
+            overflow-x: auto;
+            line-height: 1.4;
+        }
+
+        .muted {
+            color: #6f675c;
+            font-size: 0.92rem;
+            line-height: 1.45;
+        }
+
+        .hint {
+            margin-top: 10px;
+            font-size: 0.85rem;
+            color: #6f675c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Export Manager</h1>
+            <p>Staging-only tools for exporting Notes and lyrics to JSON/TXT.</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">Notes</div>
+                    <div class="card-subtitle" id="ttNotesStatus">Loading…</div>
+                </div>
+                <div class="card-body">
+                    <div class="actions">
+                        <button class="btn primary" id="ttExportNotesJson">Download Notes JSON</button>
+                        <button class="btn" id="ttExportNotesTxt">Download Notes TXT</button>
+                        <button class="btn" id="ttCopyNotesJson">Copy Notes JSON</button>
+                    </div>
+
+                    <div class="kv">
+                        <div class="key">localStorage key</div>
+                        <div class="val"><span class="mono">tuneTunerNotes</span></div>
+                    </div>
+                    <div class="hint">This exports what’s currently stored locally on this device.</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">Lyrics</div>
+                    <div class="card-subtitle" id="ttLyricsStatus">Paste or load from clipboard</div>
+                </div>
+                <div class="card-body">
+                    <div class="actions">
+                        <button class="btn" id="ttLoadLastDraft">Load last draft</button>
+                        <button class="btn" id="ttLoadLastDraftBundle">Load last draft bundle</button>
+                        <button class="btn" id="ttLoadClipboard">Load clipboard</button>
+                        <button class="btn danger" id="ttClearLyrics">Clear</button>
+                    </div>
+
+                    <textarea id="ttLyrics" placeholder="Paste lyrics here…"></textarea>
+
+                    <div class="actions" style="margin-top: 12px;">
+                        <button class="btn primary" id="ttExportLyricsJson">Download Lyrics JSON</button>
+                        <button class="btn" id="ttExportLyricsTxt">Download Lyrics TXT</button>
+                        <button class="btn" id="ttCopyLyrics">Copy lyrics</button>
+                    </div>
+
+                    <div class="hint">Use this to export drafts from the agentic endpoints or anything you’re writing.</div>
+                </div>
+            </div>
+
+            <div class="card wide">
+                <div class="card-header">
+                    <div class="card-title">Bundle Export</div>
+                    <div class="card-subtitle">Notes + lyrics</div>
+                </div>
+                <div class="card-body">
+                    <div class="actions">
+                        <button class="btn primary" id="ttExportBundleJson">Download Bundle JSON</button>
+                        <button class="btn" id="ttExportBundleTxt">Download Bundle TXT</button>
+                    </div>
+                    <div class="muted" id="ttDebug">—</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

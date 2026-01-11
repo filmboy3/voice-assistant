@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tone Cluster Search</title>
+    <script defer src="/global-nav.js"></script>
+    <script defer src="/notes_manager.js"></script>
+    <script defer src="/shared_interactions.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f6f4ee;
+            color: #1f1b16;
+            padding: 10px 20px 20px 20px;
+        }
+
+        body.has-global-nav>.container,
+        body.has-global-nav>div:not(.global-nav) {
+            margin-top: 8px !important;
+        }
+
+        @media (max-width: 768px) {
+
+            body.has-global-nav>.container,
+            body.has-global-nav>div:not(.global-nav) {
+                margin-top: 0 !important;
+            }
+        }
+
+        .drawer-backdrop {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 999;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .drawer-backdrop.show {
+            display: block;
+            opacity: 1;
+        }
+
+        .tone-drawer {
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 440px;
+            max-width: 92vw;
+            height: 100vh;
+            background: #fdfbf7;
+            border-left: 2px solid #d4cec4;
+            box-shadow: -4px 0 12px rgba(0, 0, 0, 0.15);
+            z-index: 1000;
+            overflow-y: auto;
+            padding: 20px;
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+        }
+
+        @media (max-width: 768px) {
+            .tone-drawer {
+                width: 75vw;
+                max-width: 75vw;
+            }
+        }
+
+        .tone-drawer.show {
+            display: block;
+            transform: translateX(0);
+        }
+
+        .tone-drawer-close {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background: transparent;
+            border: none;
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: #1f1b16;
+            padding: 4px 8px;
+            line-height: 1;
+            font-weight: 300;
+        }
+
+        .tone-drawer-close:hover {
+            color: #8b7355;
+        }
+
+        .tone-drawer-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 12px;
+            margin-bottom: 16px;
+            margin-top: 8px;
+            font-weight: 700;
+            color: #1f1b16;
+            font-size: 1.1rem;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: #fdfbf7;
+            padding: 24px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .header p {
+            color: #6f675c;
+        }
+
+        .search-box {
+            background: #fdfbf7;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-input-wrapper {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .dropdown-search {
+            width: 100%;
+            padding: 12px;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            background: white;
+            cursor: pointer;
+        }
+
+        .dropdown-search:focus {
+            outline: none;
+            border-color: #2c2c2c;
+        }
+
+        input {
+            flex: 1;
+            padding: 12px;
+            font-size: 1rem;
+            border: 1px solid #d4cec4;
+            border-radius: 6px;
+            background: #fffdf8;
+        }
+
+        button {
+            padding: 12px 24px;
+            background: #1f1b16;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+
+        button.neutral {
+            background: transparent;
+            color: #4b4338;
+            border: 1px solid #d4cec4;
+        }
+
+        button:hover {
+            background: #3b342c;
+        }
+
+        button.neutral:hover {
+            background: #ebe5da;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .result-section {
+            background: #fdfbf7;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+
+        .result-section h2 {
+            font-size: 1.2rem;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .result-item {
+            padding: 16px;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .result-item:hover {
+            background: #f9f9f9;
+        }
+
+        .result-title {
+            font-weight: 600;
+            font-size: 1.2rem;
+            margin-bottom: 4px;
+        }
+
+        .result-detail {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .associations {
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #e0e0e0;
+            display: none;
+        }
+
+        .associations.show {
+            display: block;
+        }
+
+        .category {
+            margin-bottom: 16px;
+            position: relative;
+        }
+
+        .category h4 {
+            font-size: 0.95rem;
+            margin-bottom: 8px;
+            color: #2c2c2c;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .copy-all-btn {
+            padding: 4px 12px;
+            background: transparent;
+            color: #666;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            cursor: pointer;
+            margin-left: auto;
+        }
+
+        .copy-all-btn:hover {
+            background: #f0f0f0;
+            border-color: #999;
+        }
+
+        .copy-cluster-btn {
+            padding: 8px 16px;
+            background: transparent;
+            color: #666;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            margin-top: 12px;
+        }
+
+        .copy-cluster-btn:hover {
+            background: #f0f0f0;
+            border-color: #999;
+        }
+
+        .copied-toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #2c2c2c;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        .copied-toast.show {
+            opacity: 1;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 14px;
+            background: #f7f3ee;
+            color: #2c2520;
+            border: none;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            font-style: italic;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+        }
+
+        .tags .tag:nth-child(even) {
+            background: #f0ebe4;
+        }
+
+        .tag:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.14);
+        }
+
+        .tag:active {
+            transform: translateY(0);
+        }
+
+        .expand-btn:hover {
+            color: #2c2c2c;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+
+        .debug {
+            background: #f0f0f0;
+            padding: 12px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.85rem;
+            margin-top: 12px;
+            color: #666;
+        }
+
+        .letter-section {
+            margin-bottom: 12px;
+        }
+
+        .letter-header {
+            padding: 12px 16px;
+            background: #f5f5f5;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.2s;
+        }
+
+        .letter-header:hover {
+            background: #e8e8e8;
+        }
+
+        .letter-header h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .letter-content {
+            display: none;
+            padding: 16px;
+            border: 1px solid #e0e0e0;
+            border-top: none;
+            border-radius: 0 0 6px 6px;
+            background: white;
+        }
+
+        .letter-content.show {
+            display: block;
+        }
+
+        .tone-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tone-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 14px;
+            background: #f7f3ee;
+            color: #2c2520;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 1.0rem;
+            font-weight: 700;
+            font-style: italic;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+            width: fit-content;
+            max-width: 100%;
+        }
+
+        .tone-chip .tone-dot {
+            width: 8px;
+            height: 8px;
+            background: #38ef7d;
+            border-radius: 50%;
+            flex: 0 0 auto;
+        }
+
+        .tone-chip .tone-count {
+            color: rgba(111, 103, 92, 0.55);
+            font-weight: 500;
+            font-style: normal;
+            font-size: 0.85rem;
+        }
+
+        .tone-list .tone-chip:nth-child(even) {
+            background: #f0ebe4;
+        }
+
+        .tone-chip:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.14);
+        }
+
+        .tone-chip:active {
+            transform: translateY(0);
+        }
+
+        .rhyme-link {
+            display: inline-block;
+            margin-top: 8px;
+            padding: 6px 12px;
+            background: #e8f4f8;
+            color: #0066cc;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+        }
+
+        .rhyme-link:hover {
+            background: #d0e8f0;
+        }
+
+        .rhyme-chip-bubble {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 90%;
+            max-width: 500px;
+            height: 100vh;
+            background: #fdfbf7;
+            z-index: 10000;
+            overflow: hidden;
+            padding: 0;
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+            box-shadow: -4px 0 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .rhyme-chip-bubble.show {
+            transform: translateX(0);
+        }
+
+        .rhyme-chip-bubble-inner {
+            width: 100%;
+            height: 100vh;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+            padding: 72px 20px 84px 20px;
+        }
+
+        @media (max-width: 768px) {
+            .rhyme-chip-bubble {
+                width: 75vw;
+                max-width: 75vw;
+            }
+
+            .rhyme-chip-bubble-inner {
+                padding: 72px 16px calc(140px + env(safe-area-inset-bottom, 0px)) 16px;
+            }
+        }
+
+        .drawer-close-btn {
+            position: fixed;
+            top: 14px;
+            right: 14px;
+            background: rgba(44, 37, 32, 0.9);
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.2s;
+            z-index: 10012;
+        }
+
+        .drawer-scroll-btn-top,
+        .drawer-scroll-btn-bottom {
+            position: fixed;
+            right: var(--scroll-btn-right, 14px);
+            background: rgba(44, 37, 32, 0.7);
+            color: white;
+            border: none;
+            width: var(--scroll-btn-size, 44px);
+            height: var(--scroll-btn-size, 44px);
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.2s;
+            z-index: 10011;
+            transform: translateY(-50%);
+        }
+
+        .drawer-scroll-btn-top {
+            top: calc(50% + var(--scroll-btn-center-shift, 0px) - (var(--scroll-btn-gap, 18px) / 2) - (var(--scroll-btn-size, 44px) / 2));
+        }
+
+        .drawer-scroll-btn-bottom {
+            top: calc(50% + var(--scroll-btn-center-shift, 0px) + (var(--scroll-btn-gap, 18px) / 2) + (var(--scroll-btn-size, 44px) / 2));
+            bottom: auto;
+        }
+
+        #unifiedDrawerControls {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 10050;
+            pointer-events: none;
+            display: none;
+        }
+
+        #unifiedDrawerControls .drawer-close-btn,
+        #unifiedDrawerControls .drawer-scroll-btn-top,
+        #unifiedDrawerControls .drawer-scroll-btn-bottom {
+            pointer-events: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="drawerBackdrop" class="drawer-backdrop"></div>
+    <div id="unifiedDrawer" class="rhyme-chip-bubble"></div>
+    <div class="container">
+        <div class="header">
+            <h1>Tone Cluster Search</h1>
+            <p>Search tone clusters and their associations</p>
+        </div>
+
+        <div id="copiedToast" class="copied-toast">Copied to clipboard!</div>
+
+        <div id="results"></div>
+
+        <div id="browse" style="margin-top: 32px;">
+            <div class="result-section">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                    <h2>Browse All Tone Clusters</h2>
+                    <div style="display: none; gap: 8px;">
+                        <button id="categoryViewBtn" onclick="switchBrowseView('category')"
+                            style="padding: 8px 16px; background: #2c2c2c; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">By
+                            Category</button>
+                        <button id="alphabetViewBtn" onclick="switchBrowseView('alphabet')"
+                            style="padding: 8px 16px; background: transparent; color: #666; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Alphabetical</button>
+                    </div>
+                </div>
+                <p id="browseDescription" style="color: #666; margin-bottom: 16px;">Click a category to expand and see
+                    all tones in that theme</p>
+                <div id="toneBrowser"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js"></script>
+    <script>
+        const CDN_BASE = 'https://pub-53b5eb7528ba49eaaf533b48541508ae.r2.dev';
+        const SHARD_CACHE_VERSION = 'v2v3q-20251219b';
+
+        let toneData = null;
+        let toneAssociations = null;
+        let toneCounts = {};
+        const rhymeShardCache = {}; // { [shardId]: { [word]: entry } }
+
+        // Load data on page load
+        async function init() {
+            try {
+                toneData = await fetchWithCache('/api/tone-associations', 'tone_data', 'tone_associations_v1');
+
+                // Data is already in the correct format (array of tone objects)
+                toneAssociations = Array.isArray(toneData) ? toneData : [];
+
+                toneCounts = {};
+                toneAssociations.forEach(function (t) {
+                    if (!t || !t.tone) return;
+                    toneCounts[t.tone] = t.total_associations || 0;
+                });
+
+                renderToneBrowser();
+
+                const params = new URLSearchParams(window.location.search);
+                const q = (params.get('q') || '').trim();
+                if (q) {
+                    openToneDrawer(q);
+                }
+            } catch (error) {
+                console.error('Failed to load tone data:', error);
+                document.getElementById('results').innerHTML = '<div class="loading">Failed to load tone data. Please refresh.</div>';
+            }
+        }
+
+        function renderToneBrowser() {
+            buildCategoryBrowser();
+        }
+
+        function populateToneDropdown() {
+            // Deprecated: dropdown removed from UI
+        }
+
+        async function sha256FirstByte(text) {
+            const encoder = new TextEncoder();
+            const data = encoder.encode(text.toLowerCase());
+            const hash = await crypto.subtle.digest('SHA-256', data);
+            const hashArray = new Uint8Array(hash);
+            return hashArray[0].toString(16).padStart(2, '0');
+        }
+
+        async function fetchRhymeShard(shardId) {
+            if (rhymeShardCache[shardId]) {
+                return rhymeShardCache[shardId];
+            }
+            const url = `/api/rhyme-data-shard/${shardId}?v=${encodeURIComponent(SHARD_CACHE_VERSION)}`;
+            const response = await fetch(url);
+            if (!response.ok) {
+                throw new Error(`Failed to fetch rhyme shard ${shardId}`);
+            }
+            const data = await response.json();
+            rhymeShardCache[shardId] = data;
+            return data;
+        }
+
+        async function hasRhymesForWord(word) {
+            if (!word) return false;
+            const shardId = await sha256FirstByte(word);
+            const shard = await fetchRhymeShard(shardId);
+            return Boolean(shard && shard[word.toLowerCase()]);
+        }
+
+        function pickRandomToneWithAssociations() {
+            if (!Array.isArray(toneAssociations) || !toneAssociations.length) return '';
+            const candidates = toneAssociations.filter(function (t) {
+                return t && t.tone && t.total_associations && t.total_associations > 0;
+            });
+            if (!candidates.length) return '';
+            const idx = Math.floor(Math.random() * candidates.length);
+            return candidates[idx].tone;
+        }
+
+        function sanitizeKey(value) {
+            return (value || '')
+                .toString()
+                .toLowerCase()
+                .replace(/[^a-z0-9]+/g, '-')
+                .replace(/^-+/, '')
+                .replace(/-+$/, '');
+        }
+
+
+
+        async function loadData(path) {
+            const url = `${CDN_BASE}/${path}`;
+            console.log('Fetching:', url);
+
+            const response = await fetch(url);
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+            const blob = await response.blob();
+            const arrayBuffer = await blob.arrayBuffer();
+            const uint8Array = new Uint8Array(arrayBuffer);
+            const decompressed = pako.ungzip(uint8Array, { to: 'string' });
+
+            return JSON.parse(decompressed);
+        }
+
+        function showLoading(message) {
+            document.getElementById('results').innerHTML = `
+                <div class="loading">${message}</div>
+            `;
+        }
+
+
+
+        function searchTones(query) {
+            if (!toneData || !toneAssociations) return [];
+
+            const results = [];
+            const queryLower = query.toLowerCase();
+            const queryWords = queryLower.split(' ');
+
+            // Search through all tones and their associations
+            toneAssociations.forEach(toneData => {
+                const toneName = toneData.tone.toLowerCase();
+                let matchScore = 0;
+                let matchType = '';
+                let matchedAssociations = [];
+
+                // 1. Exact tone name match
+                if (toneName === queryLower) {
+                    matchScore = 100;
+                    matchType = 'exact tone name';
+                }
+                // 2. Partial tone name match
+                else if (toneName.includes(queryLower) || queryLower.includes(toneName)) {
+                    matchScore = 90;
+                    matchType = 'partial tone name';
+                }
+                // 3. Search through all associations
+                else {
+                    const categories = toneData.associations_by_category;
+                    let foundInAssociations = false;
+
+                    Object.entries(categories).forEach(([category, items]) => {
+                        items.forEach(item => {
+                            const itemLower = item.toLowerCase();
+
+                            // Exact association match
+                            if (itemLower === queryLower) {
+                                matchScore = Math.max(matchScore, 85);
+                                matchType = `exact in ${category}`;
+                                matchedAssociations.push({ item, category, type: 'exact' });
+                                foundInAssociations = true;
+                            }
+                            // Association contains query
+                            else if (itemLower.includes(queryLower)) {
+                                matchScore = Math.max(matchScore, 75);
+                                matchType = `contains in ${category}`;
+                                matchedAssociations.push({ item, category, type: 'contains' });
+                                foundInAssociations = true;
+                            }
+                            // Query words match
+                            else if (queryWords.length > 1) {
+                                const matchedWords = queryWords.filter(word =>
+                                    word.length > 2 && itemLower.includes(word)
+                                );
+                                if (matchedWords.length >= queryWords.length / 2) {
+                                    matchScore = Math.max(matchScore, 70);
+                                    matchType = `partial match in ${category}`;
+                                    matchedAssociations.push({ item, category, type: 'partial' });
+                                    foundInAssociations = true;
+                                }
+                            }
+                        });
+                    });
+                }
+
+                // Add to results if we found a match
+                if (matchScore > 0) {
+                    results.push({
+                        tone: toneData.tone,
+                        score: matchScore,
+                        matchType: matchType,
+                        matchedAssociations: matchedAssociations.slice(0, 5) // Top 5 matches
+                    });
+                }
+            });
+
+            // Sort by score and return top 20
+            return results
+                .sort((a, b) => b.score - a.score)
+                .slice(0, 20);
+        }
+
+        function findSemanticAlternatives(word) {
+            // For words in rhyme dict but not in tones, suggest related tones
+            const synonymMap = {
+                'quiz': ['test', 'question', 'challenge', 'examination', 'trial'],
+                'exam': ['test', 'trial', 'challenge'],
+                'happy': ['joy', 'cheerful', 'delight', 'bliss'],
+                'sad': ['sorrow', 'grief', 'melancholy', 'gloom'],
+                // Add more mappings as needed
+            };
+
+            const synonyms = synonymMap[word] || [];
+            const results = [];
+
+            // Find tones that match synonyms
+            synonyms.forEach(syn => {
+                const matches = searchTones(syn);
+                matches.forEach(match => {
+                    if (!results.find(r => r.tone === match.tone)) {
+                        results.push({
+                            ...match,
+                            score: 70,
+                            matchType: 'semantic',
+                            via: syn
+                        });
+                    }
+                });
+            });
+
+            return results.slice(0, 5);
+        }
+
+
+
+        function closeUnifiedDrawer() {
+            const drawer = document.getElementById('unifiedDrawer');
+            const backdrop = document.getElementById('drawerBackdrop');
+            const controls = document.getElementById('unifiedDrawerControls');
+            if (drawer) {
+                drawer.classList.remove('show');
+                drawer.innerHTML = '';
+            }
+            if (backdrop) {
+                backdrop.classList.remove('show');
+            }
+            if (controls) {
+                controls.innerHTML = '';
+                controls.style.display = 'none';
+                controls.remove();
+            }
+        }
+
+        function getUnifiedDrawerScroller() {
+            const drawer = document.getElementById('unifiedDrawer');
+            if (!drawer) return null;
+            return drawer.querySelector('.rhyme-chip-bubble-inner') || drawer;
+        }
+
+        function scrollUnifiedDrawerToTop() {
+            const scroller = getUnifiedDrawerScroller();
+            if (!scroller) return;
+            scroller.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function scrollUnifiedDrawerToBottom() {
+            const scroller = getUnifiedDrawerScroller();
+            if (!scroller) return;
+            scroller.scrollTo({ top: scroller.scrollHeight, behavior: 'smooth' });
+        }
+
+        function updateScrollButtons() {
+            const scroller = getUnifiedDrawerScroller();
+            if (!scroller) return;
+            const controls = document.getElementById('unifiedDrawerControls');
+            if (!controls) return;
+
+            const drawer = document.getElementById('unifiedDrawer');
+            if (!drawer || !drawer.classList.contains('show')) {
+                controls.innerHTML = '';
+                controls.style.display = 'none';
+                return;
+            }
+            const topBtn = controls.querySelector('.drawer-scroll-btn-top');
+            const bottomBtn = controls.querySelector('.drawer-scroll-btn-bottom');
+            if (!topBtn || !bottomBtn) return;
+            const scrollTop = scroller.scrollTop;
+            const scrollBottom = scroller.scrollHeight - scrollTop - scroller.clientHeight;
+            topBtn.style.display = scrollTop < 10 ? 'none' : 'flex';
+            bottomBtn.style.display = scrollBottom < 10 ? 'none' : 'flex';
+        }
+
+        function attachUnifiedDrawerScrollHandlers() {
+            const scroller = getUnifiedDrawerScroller();
+            if (!scroller) return;
+            scroller.removeEventListener('scroll', updateScrollButtons);
+            scroller.addEventListener('scroll', updateScrollButtons, { passive: true });
+            updateScrollButtons();
+        }
+
+        function ensureUnifiedDrawerControls() {
+            let controls = document.getElementById('unifiedDrawerControls');
+            if (!controls) {
+                controls = document.createElement('div');
+                controls.id = 'unifiedDrawerControls';
+                controls.style.display = 'none';
+                document.body.appendChild(controls);
+            }
+            return controls;
+        }
+
+        function showUnifiedDrawerControls() {
+            const drawer = document.getElementById('unifiedDrawer');
+            if (!drawer || !drawer.classList.contains('show')) return;
+            const controls = ensureUnifiedDrawerControls();
+            controls.innerHTML = '';
+            controls.style.display = 'block';
+
+            const closeBtn = document.createElement('button');
+            closeBtn.className = 'drawer-close-btn';
+            closeBtn.title = 'Close';
+            closeBtn.textContent = '×';
+            closeBtn.onclick = closeUnifiedDrawer;
+
+            const topBtn = document.createElement('button');
+            topBtn.className = 'drawer-scroll-btn-top';
+            topBtn.title = 'Scroll to top';
+            topBtn.textContent = '↑';
+            topBtn.onclick = function (e) { e.stopPropagation(); scrollUnifiedDrawerToTop(); };
+
+            const bottomBtn = document.createElement('button');
+            bottomBtn.className = 'drawer-scroll-btn-bottom';
+            bottomBtn.title = 'Scroll to bottom';
+            bottomBtn.textContent = '↓';
+            bottomBtn.onclick = function (e) { e.stopPropagation(); scrollUnifiedDrawerToBottom(); };
+
+            controls.appendChild(closeBtn);
+            controls.appendChild(topBtn);
+            controls.appendChild(bottomBtn);
+
+            updateScrollButtons();
+        }
+
+        function shuffleArray(arr) {
+            const copy = (Array.isArray(arr) ? arr.slice() : []);
+            for (let i = copy.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                const temp = copy[i];
+                copy[i] = copy[j];
+                copy[j] = temp;
+            }
+            return copy;
+        }
+
+        let drawerShuffleCache = {}; // { [tone]: { categoryOrder: string[], itemsByCategory: { [cat]: string[] } } }
+
+        function shuffleToneDrawer(tone) {
+            const assocData = toneAssociations?.find(t => t.tone === tone);
+            const categories = assocData?.associations_by_category || {};
+            const baseOrder = ['emotional', 'sensory', 'visual', 'temporal', 'spatial', 'movement', 'objects', 'general'];
+            const present = baseOrder.filter(c => Array.isArray(categories[c]) && categories[c].length);
+            const shuffledCats = shuffleArray(present);
+            const itemsByCategory = {};
+            shuffledCats.forEach(function (cat) {
+                itemsByCategory[cat] = shuffleArray(categories[cat] || []);
+            });
+            drawerShuffleCache[tone] = { categoryOrder: shuffledCats, itemsByCategory };
+            openToneDrawer(tone);
+            requestAnimationFrame(function () {
+                updateScrollButtons();
+            });
+        }
+
+        function openToneDrawer(tone) {
+            const drawer = document.getElementById('unifiedDrawer');
+            const backdrop = document.getElementById('drawerBackdrop');
+            if (!drawer || !backdrop) return;
+
+            const assocData = toneAssociations?.find(t => t.tone === tone);
+            const totalAssoc = assocData?.total_associations || 0;
+
+            backdrop.classList.add('show');
+            drawer.classList.add('show');
+
+            drawer.innerHTML =
+                '<div class="rhyme-chip-bubble-inner">'
+                + '<div style="font-weight: 700; color: #1f1b16; font-size: 1.1rem;">' + tone + '</div>'
+                + '<div style="margin-top: 4px; margin-bottom: 14px; font-weight: 500; color: #6f675c; font-size: 0.9rem;">' + totalAssoc + ' associations</div>'
+                + '<div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom: 12px;">'
+                + '<button onclick="shuffleToneDrawer(\'' + tone.replace(/'/g, "\\'") + '\')" style="font-size: 0.8rem; padding: 6px 12px; background: #f6f4ee; border: 1px solid #d4cec4; border-radius: 999px; cursor: pointer; color: #6f675c; font-weight: 600;">Shuffle</button>'
+                + '<button onclick="copyAllCluster(\'' + tone.replace(/'/g, "\\'") + '\')" style="font-size: 0.8rem; padding: 6px 12px; background: #f6f4ee; border: 1px solid #d4cec4; border-radius: 999px; cursor: pointer; color: #6f675c; font-weight: 600;">Copy All</button>'
+                + '</div>'
+                + '<div>' + renderAssociationsDrawer(tone) + '</div>'
+                + '</div>';
+
+            showUnifiedDrawerControls();
+            setTimeout(function () {
+                attachUnifiedDrawerScrollHandlers();
+            }, 100);
+        }
+
+        function renderAssociationsDrawer(tone) {
+            const assocData = toneAssociations?.find(t => t.tone === tone);
+            if (!assocData) return '<p style="color: #999;">No associations found</p>';
+
+            const categories = assocData.associations_by_category;
+            let html = '';
+
+            const baseOrder = ['emotional', 'sensory', 'visual', 'temporal', 'spatial', 'movement', 'objects', 'general'];
+            const shuffleState = drawerShuffleCache[tone];
+            const categoryOrder = (shuffleState && Array.isArray(shuffleState.categoryOrder) && shuffleState.categoryOrder.length)
+                ? shuffleState.categoryOrder
+                : baseOrder;
+
+            categoryOrder.forEach(function (category) {
+                const items = (shuffleState && shuffleState.itemsByCategory && Array.isArray(shuffleState.itemsByCategory[category]))
+                    ? shuffleState.itemsByCategory[category]
+                    : categories[category];
+                if (!items || !items.length) return;
+
+                const displayCount = 28;
+                const hasMore = items.length > displayCount;
+                const safeTone = tone.replace(/'/g, "\\'");
+                const safeCat = category.replace(/'/g, "\\'");
+                const idTone = sanitizeKey(tone);
+                const idCat = sanitizeKey(category);
+
+                html +=
+                    '<div class="category" data-category="' + category + '">'
+                    + '<h4>'
+                    + category.charAt(0).toUpperCase() + category.slice(1) + ' (' + items.length + ')'
+                    + '<button class="copy-all-btn" onclick="copyAllFromCategory(\'' + safeTone + '\', \'' + safeCat + '\')">Copy All</button>'
+                    + '</h4>'
+                    + '<div class="tags" id="drawer-tags-' + idTone + '-' + idCat + '">'
+                    + items.slice(0, displayCount).map(function (item) {
+                        const raw = String(item || '');
+                        const encoded = encodeURIComponent(raw);
+                        return '<span class="tag" data-clickable data-text="' + encoded + '">' + raw + '</span>';
+                    }).join('')
+                    + '</div>'
+                    + (hasMore ? '<span class="expand-btn" onclick="expandDrawerCategory(\'' + safeTone + '\', \'' + safeCat + '\', this)">+' + (items.length - displayCount) + ' more</span>' : '')
+                    + '</div>';
+            });
+
+            return html || '<p style="color: #999;">No associations available</p>';
+        }
+
+        function expandDrawerCategory(tone, category, buttonEl) {
+            const safeCategory = (category || '').toString().trim();
+            const assocData = toneAssociations?.find(t => t.tone === tone);
+            const items = assocData?.associations_by_category[safeCategory] || [];
+            const tagsDiv = document.getElementById('drawer-tags-' + sanitizeKey(tone) + '-' + sanitizeKey(safeCategory));
+            if (!tagsDiv) return;
+
+            tagsDiv.innerHTML = items.map(function (item) {
+                const raw = String(item || '');
+                const encoded = encodeURIComponent(raw);
+                return '<span class="tag" data-clickable data-text="' + encoded + '">' + raw + '</span>';
+            }).join('');
+
+            if (buttonEl) {
+                buttonEl.remove();
+            }
+
+            requestAnimationFrame(function () {
+                if (window.SharedInteractions && typeof window.SharedInteractions.autoApplyClickable === 'function') {
+                    window.SharedInteractions.autoApplyClickable();
+                }
+                updateScrollButtons();
+            });
+        }
+
+        function renderAssociations(tone) {
+            const assocData = toneAssociations?.find(t => t.tone === tone);
+            if (!assocData) return '<p style="color: #999;">No associations found</p>';
+
+            const categories = assocData.associations_by_category;
+            let html = '';
+
+            const categoryOrder = ['emotional', 'sensory', 'visual', 'temporal', 'spatial', 'movement', 'objects', 'general'];
+            const categoryEmojis = {};
+
+            categoryOrder.forEach(category => {
+                const items = categories[category];
+                if (items && items.length > 0) {
+                    const displayCount = 20;
+                    const hasMore = items.length > displayCount;
+
+                    html += `
+                        <div class="category" data-category="${category}">
+                            <h4>
+                                ${category.charAt(0).toUpperCase() + category.slice(1)} (${items.length})
+                                <button class="copy-all-btn" onclick="event.stopPropagation(); copyAllFromCategory('${tone}', '${category}')">Copy All</button>
+                            </h4>
+                            <div class="tags" id="tags-${tone}-${category}">
+                                ${items.slice(0, displayCount).map(item => `<span class="tag" onclick="event.stopPropagation(); copyToClipboard('${item.replace(/'/g, "\\'")}')">${item}</span>`).join('')}
+                            </div>
+                            ${hasMore ? `<span class="expand-btn" onclick="event.stopPropagation(); expandCategory('${tone}', '${category}', ${items.length})">+${items.length - displayCount} more</span>` : ''}
+                        </div>
+                    `;
+                }
+            });
+
+            return html || '<p style="color: #999;">No associations available</p>';
+        }
+
+        function toggleAssociations(idx) {
+            const assocDiv = document.getElementById(`assoc-${idx}`);
+            assocDiv.classList.toggle('show');
+        }
+
+        function expandCategory(tone, category, totalCount) {
+            const assocData = toneAssociations?.find(t => t.tone === tone);
+            const items = assocData?.associations_by_category[category] || [];
+
+            const tagsDiv = document.getElementById(`tags-${tone}-${category}`);
+            tagsDiv.innerHTML = items.map(item => {
+                const raw = String(item || '');
+                return `<span class="tag" data-clickable data-text="${encodeURIComponent(raw)}">${escapeHtml(raw)}</span>`;
+            }).join('');
+
+            // Remove the expand button
+            event.target.remove();
+
+            requestAnimationFrame(function () {
+                if (window.SharedInteractions && typeof window.SharedInteractions.autoApplyClickable === 'function') {
+                    window.SharedInteractions.autoApplyClickable();
+                }
+                updateScrollButtons();
+            });
+        }
+
+        function copyToClipboard(text) {
+            const value = (text || '').toString();
+            if (!value) return;
+            if (window.SharedInteractions && typeof window.SharedInteractions.copyToClipboard === 'function') {
+                window.SharedInteractions.copyToClipboard(value);
+                return;
+            }
+            navigator.clipboard.writeText(value).then(() => {
+                showCopiedToast();
+            }).catch(err => {
+                console.error('Failed to copy:', err);
+            });
+        }
+
+        function copyAllFromCategory(tone, category) {
+            const assocData = toneAssociations?.find(t => t.tone === tone);
+            const items = assocData?.associations_by_category[category] || [];
+            const text = items.join(', ');
+            if (!text) return;
+            if (window.SharedInteractions && typeof window.SharedInteractions.copyToClipboard === 'function') {
+                window.SharedInteractions.copyToClipboard(text);
+                return;
+            }
+            navigator.clipboard.writeText(text).then(() => {
+                showCopiedToast();
+            }).catch(err => {
+                console.error('Failed to copy:', err);
+            });
+        }
+
+        function showCopiedToast() {
+            const toast = document.getElementById('copiedToast');
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 2000);
+        }
+
+        function escapeHtml(text) {
+            if (text === null || text === undefined) return '';
+            return String(text)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+
+
+        document.getElementById('drawerBackdrop').addEventListener('click', function () {
+            closeUnifiedDrawer();
+        });
+
+        let currentBrowseView = 'category';
+
+        function switchBrowseView(view) {
+            currentBrowseView = view;
+
+            // Update button styles
+            const categoryBtn = document.getElementById('categoryViewBtn');
+            const alphabetBtn = document.getElementById('alphabetViewBtn');
+
+            if (view === 'category') {
+                categoryBtn.style.background = '#2c2c2c';
+                categoryBtn.style.color = 'white';
+                categoryBtn.style.border = 'none';
+                alphabetBtn.style.background = 'transparent';
+                alphabetBtn.style.color = '#666';
+                alphabetBtn.style.border = '1px solid #ddd';
+                document.getElementById('browseDescription').textContent = 'Click a category to expand and see all tones in that theme';
+                buildCategoryBrowser();
+            } else {
+                alphabetBtn.style.background = '#2c2c2c';
+                alphabetBtn.style.color = 'white';
+                alphabetBtn.style.border = 'none';
+                categoryBtn.style.background = 'transparent';
+                categoryBtn.style.color = '#666';
+                categoryBtn.style.border = '1px solid #ddd';
+                document.getElementById('browseDescription').textContent = 'Click a letter to expand and see all tones starting with that letter';
+                buildAlphabetBrowser();
+            }
+        }
+
+        function buildCategoryBrowser() {
+            if (!toneAssociations) return;
+
+            // Group tones by category
+            const byCategory = {};
+            toneAssociations.forEach(tone => {
+                const category = tone.thematic_category || 'Other';
+                if (!byCategory[category]) byCategory[category] = [];
+                byCategory[category].push(tone.tone);
+            });
+
+            // Sort categories
+            const categories = Object.keys(byCategory).sort();
+
+            let html = '';
+            categories.forEach(category => {
+                const tones = byCategory[category].sort();
+                const categoryId = category.replace(/[^a-zA-Z0-9]/g, '_');
+                html += `
+                    <div class="letter-section">
+                        <div class="letter-header" onclick="toggleSection('${categoryId}')">
+                            <h3>${category}</h3>
+                            <span style="color: #666;">${tones.length} tones <span id="chevron-${categoryId}">▼</span></span>
+                        </div>
+                        <div id="section-${categoryId}" class="letter-content">
+                            <div class="tone-list">
+                                ${tones.map(tone => {
+                    const safeTone = tone.replace(/'/g, "\\'");
+                    const count = toneCounts[tone] || 0;
+                    return `
+                                        <div class="tone-chip" onclick="searchForTone('${safeTone}')">
+                                            <span class="tone-dot" aria-hidden="true"></span>
+                                            <span>${tone}</span>
+                                            <span class="tone-count">${count}</span>
+                                        </div>
+                                    `;
+                }).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            document.getElementById('toneBrowser').innerHTML = html;
+        }
+
+        function buildAlphabetBrowser() {
+            if (!toneAssociations) return;
+
+            // Group tones by first letter
+            const byLetter = {};
+            toneAssociations.forEach(tone => {
+                const letter = tone.tone[0].toUpperCase();
+                if (!byLetter[letter]) byLetter[letter] = [];
+                byLetter[letter].push(tone.tone);
+            });
+
+            // Sort letters
+            const letters = Object.keys(byLetter).sort();
+
+            let html = '';
+            letters.forEach(letter => {
+                const tones = byLetter[letter].sort();
+                html += `
+                    <div class="letter-section">
+                        <div class="letter-header" onclick="toggleSection('${letter}')">
+                            <h3>${letter}</h3>
+                            <span style="color: #666;">${tones.length} tones <span id="chevron-${letter}">▼</span></span>
+                        </div>
+                        <div id="section-${letter}" class="letter-content">
+                            <div class="tone-list">
+                                ${tones.map(tone => {
+                    const safeTone = tone.replace(/'/g, "\\'");
+                    const count = toneCounts[tone] || 0;
+                    return `
+                                        <div class="tone-chip" onclick="searchForTone('${safeTone}')">
+                                            <span class="tone-dot" aria-hidden="true"></span>
+                                            <span>${tone}</span>
+                                            <span class="tone-count">${count}</span>
+                                        </div>
+                                    `;
+                }).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            document.getElementById('toneBrowser').innerHTML = html;
+        }
+
+        function toggleSection(id) {
+            const content = document.getElementById(`section-${id}`);
+            const chevron = document.getElementById(`chevron-${id}`);
+            content.classList.toggle('show');
+            chevron.textContent = content.classList.contains('show') ? '▲' : '▼';
+        }
+
+        function searchForTone(tone) {
+            openToneDrawer(tone);
+        }
+
+        function copyAllCluster(toneName) {
+            const assocData = toneAssociations?.find(t => t.tone === toneName);
+            if (!assocData) return;
+
+            const categories = assocData.associations_by_category;
+            let allPhrases = [];
+
+            for (const [category, phrases] of Object.entries(categories)) {
+                if (Array.isArray(phrases)) {
+                    allPhrases = allPhrases.concat(phrases);
+                }
+            }
+
+            const text = allPhrases.join('\n');
+            if (!text) return;
+            if (window.SharedInteractions && typeof window.SharedInteractions.copyToClipboard === 'function') {
+                window.SharedInteractions.copyToClipboard(text);
+                return;
+            }
+            navigator.clipboard.writeText(text).then(() => {
+                showCopiedToast();
+            });
+        }
+    </script>
+    <script src="/shared-cache.js"></script>
+    <script>
+        // Initialize on load
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', init);
+        } else {
+            init();
+        }
+    </script>
+</body>
+
+</html>

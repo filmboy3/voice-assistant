@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Home</title>
+    <script defer src="/global-nav.js"></script>
+    <script defer src="/notes_manager.js"></script>
+    <script defer src="/shared_interactions.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f6f4ee;
+            color: #2c2520;
+            padding: 10px 20px 20px 20px;
+            min-height: 100vh;
+        }
+
+        body.has-global-nav > .container,
+        body.has-global-nav > div:not(.global-nav) {
+            margin-top: 8px !important;
+        }
+
+        @media (max-width: 768px) {
+            body.has-global-nav > .container,
+            body.has-global-nav > div:not(.global-nav) {
+                margin-top: 0 !important;
+            }
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        .header {
+            margin-bottom: 14px;
+        }
+
+        .header h1 {
+            font-size: 1.7rem;
+            font-weight: 650;
+            color: #1f1b16;
+            margin-bottom: 6px;
+        }
+
+        .header p {
+            color: #6f675c;
+            font-size: 0.95rem;
+        }
+
+        .home-panels {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 14px;
+        }
+
+        @media (min-width: 960px) {
+            .home-panels {
+                grid-template-columns: 1fr 1fr;
+            }
+            .home-panel-wide {
+                grid-column: 1 / -1;
+            }
+        }
+
+        .home-panel {
+            background: #fdfbf7;
+            border: 1px solid #e8e4dc;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            overflow: hidden;
+        }
+
+        .home-panel-header {
+            padding: 12px 14px;
+            border-bottom: 1px solid #efeae2;
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .home-panel-title {
+            font-weight: 750;
+            color: #1f1b16;
+            font-size: 0.98rem;
+        }
+
+        .home-panel-link {
+            color: #6f675c;
+            font-size: 0.85rem;
+            font-weight: 650;
+            text-decoration: none;
+            border: 1px solid #d4cec4;
+            border-radius: 999px;
+            padding: 6px 10px;
+        }
+
+        .home-panel-link:hover { background: #f4eee1; color: #1f1b16; }
+
+        .home-panel-body {
+            background: transparent;
+            padding: 14px;
+        }
+
+        .home-panel-desc {
+            color: #6f675c;
+            font-size: 0.95rem;
+            line-height: 1.45;
+            margin-bottom: 12px;
+        }
+
+        .home-panel-actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .home-search-input-wrapper {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        #homeSearchInput {
+            flex: 1;
+            min-width: 220px;
+            padding: 10px 14px;
+            font-size: 0.95rem;
+            border: 1px solid #d4cec4;
+            border-radius: 999px;
+            background: #fff;
+            outline: none;
+            font-family: inherit;
+        }
+
+        #homeSearchInput:focus {
+            border-color: #a79f93;
+            box-shadow: 0 0 0 3px rgba(244, 208, 122, 0.35);
+        }
+
+        .home-secondary-btn {
+            appearance: none;
+            border: 1px solid #d4cec4;
+            background: transparent;
+            color: #1f1b16;
+            border-radius: 999px;
+            padding: 10px 14px;
+            font-weight: 750;
+            font-size: 0.92rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .home-secondary-btn:hover {
+            background: #f4eee1;
+        }
+
+        .home-primary-btn {
+            appearance: none;
+            border: none;
+            background: #1f1b16;
+            color: #fff;
+            border-radius: 999px;
+            padding: 10px 14px;
+            font-weight: 750;
+            font-size: 0.92rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .home-primary-btn:hover {
+            filter: brightness(0.95);
+        }
+
+        @media (max-width: 768px) {
+            body { padding: 10px 12px 16px 12px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Home</h1>
+            <p>Start with a search, or jump into a tool.</p>
+        </div>
+
+        <div class="home-panels">
+            <div class="home-panel home-panel-wide">
+                <div class="home-panel-header">
+                    <div class="home-panel-title">Search</div>
+                    <a class="home-panel-link" href="/rhyme-search">Open full</a>
+                </div>
+                <div class="home-panel-body">
+                    <div class="home-panel-desc">Unified search across rhymes, phrases, endings, tones, and mash-ups.</div>
+                    <div class="home-panel-actions">
+                        <form id="homeSearchForm" class="home-search-input-wrapper" autocomplete="off">
+                            <input type="text" id="homeSearchInput" placeholder="Enter a word" />
+                            <button class="home-primary-btn" type="submit">Search</button>
+                            <a class="home-secondary-btn" href="/rhyme-search">Advanced</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-panel">
+                <div class="home-panel-header">
+                    <div class="home-panel-title">Reference</div>
+                    <a class="home-panel-link" href="/quick-helper">Open full</a>
+                </div>
+                <div class="home-panel-body">
+                    <div class="home-panel-desc">Fast random prompts + category browser. Copy and shuffle combos quickly.</div>
+                    <div class="home-panel-actions">
+                        <a class="home-primary-btn" href="/quick-helper">Open Reference</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-panel">
+                <div class="home-panel-header">
+                    <div class="home-panel-title">Tones</div>
+                    <a class="home-panel-link" href="/tones">Open full</a>
+                </div>
+                <div class="home-panel-body">
+                    <div class="home-panel-desc">Browse tone clusters and pull associated imagery and rhyme support.</div>
+                    <div class="home-panel-actions">
+                        <a class="home-primary-btn" href="/tones">Open Tones</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-panel">
+                <div class="home-panel-header">
+                    <div class="home-panel-title">Mash-Ups</div>
+                    <a class="home-panel-link" href="/creative-gens">Open full</a>
+                </div>
+                <div class="home-panel-body">
+                    <div class="home-panel-desc">Browse and search creative generators and clusters for fast inspiration.</div>
+                    <div class="home-panel-actions">
+                        <a class="home-primary-btn" href="/creative-gens">Open Mash-Ups</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-panel">
+                <div class="home-panel-header">
+                    <div class="home-panel-title">Creative Quotes</div>
+                    <a class="home-panel-link" href="/creative-quotes">Open full</a>
+                </div>
+                <div class="home-panel-body">
+                    <div class="home-panel-desc">Explore quote transformations and alternate phrasings for punchier lines.</div>
+                    <div class="home-panel-actions">
+                        <a class="home-primary-btn" href="/creative-quotes">Open Creative Quotes</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-panel">
+                <div class="home-panel-header">
+                    <div class="home-panel-title">Dynamic Generations</div>
+                    <a class="home-panel-link" href="/dynamic-gens">Open full</a>
+                </div>
+                <div class="home-panel-body">
+                    <div class="home-panel-desc">Generate fresh creative phrases on-demand across multiple exercise modes.</div>
+                    <div class="home-panel-actions">
+                        <a class="home-primary-btn" href="/dynamic-gens">Open Dynamic Generations</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            const input = document.getElementById('homeSearchInput');
+            const form = document.getElementById('homeSearchForm');
+            if (input) {
+                try { input.focus(); } catch (e) {}
+            }
+            if (!form || !input) return;
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const q = (input.value || '').toString().trim();
+                if (!q) return;
+                const url = new URL(window.location.origin + '/rhyme-search');
+                url.searchParams.set('q', q);
+                window.location.href = url.toString();
+            });
+        });
+    </script>
+</body>
+</html>

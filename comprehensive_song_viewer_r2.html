@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Song Analysis (R2)</title>
+    <script defer src="/global-nav.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f6f4ee;
+            color: #2c2520;
+            line-height: 1.6;
+            padding: 10px 20px 20px 20px;
+        }
+        
+        body.has-global-nav > .container,
+        body.has-global-nav > div:not(.global-nav) {
+            margin-top: 8px !important;
+        }
+        
+        @media (max-width: 768px) {
+            body.has-global-nav > .container,
+            body.has-global-nav > div:not(.global-nav) {
+                margin-top: 0 !important;
+            }
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0px 20px 40px 20px;
+        }
+        
+        header {
+            margin-bottom: 32px;
+        }
+        
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+        
+        header p {
+            font-size: 0.95rem;
+            color: #666;
+        }
+        
+        .search-bar {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .filters select {
+            padding: 10px 12px;
+            background: white;
+            border: 1.5px solid #d4cec4;
+            border-radius: 8px;
+            color: #2c2520;
+            font-size: 14px;
+        }
+
+        .filters select:focus {
+            outline: none;
+            border-color: #8b7355;
+            background: #fdfbf7;
+        }
+
+        .toggle-row {
+            display: none;
+        }
+
+        .toggle {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #ffffff;
+            border: 1.5px solid #e8e4dc;
+            padding: 8px 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .toggle input {
+            width: 16px;
+            height: 16px;
+        }
+
+        .browse-layout {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 16px;
+            align-items: start;
+        }
+
+        @media (max-width: 900px) {
+            .browse-layout {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .panel {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            border: 1.5px solid #e8e4dc;
+        }
+
+        .panel-title {
+            font-size: 1.05em;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #1a1a1a;
+        }
+
+        .list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            max-height: 68vh;
+            overflow-y: auto;
+            padding-right: 6px;
+        }
+
+        .list-item {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 10px 12px;
+            border-radius: 10px;
+            border: 1.5px solid #e8e4dc;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            background: #fff;
+        }
+
+        .list-item:hover {
+            background: #fdfbf7;
+            border-color: #8b7355;
+        }
+
+        .list-item.active {
+            background: #fdfbf7;
+            border-color: #8b7355;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        .list-item .name {
+            font-weight: 600;
+        }
+
+        .pill {
+            font-size: 0.85em;
+            padding: 2px 8px;
+            border-radius: 999px;
+            border: 1px solid #d4cec4;
+            color: #5a5248;
+            background: #f0ede6;
+            white-space: nowrap;
+        }
+
+        .song-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 12px;
+        }
+
+        .song-card {
+            background: white;
+            padding: 16px;
+            border-radius: 10px;
+            border: 1.5px solid #e8e4dc;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .song-card:hover {
+            background: #fdfbf7;
+            border-color: #8b7355;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .song-card .title {
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+
+        .song-card .meta {
+            color: #777;
+            font-size: 0.92em;
+            margin-bottom: 8px;
+        }
+
+        .badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        
+        .search-bar input {
+            flex: 1;
+            padding: 12px 20px;
+            background: white;
+            border: 1.5px solid #d4cec4;
+            border-radius: 8px;
+            color: #2c2520;
+            font-size: 16px;
+        }
+        
+        .search-bar input:focus {
+            outline: none;
+            border-color: #8b7355;
+            background: #fdfbf7;
+        }
+        
+        .artist-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .artist-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1.5px solid #e8e4dc;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .artist-card:hover {
+            background: #fdfbf7;
+            border-color: #8b7355;
+            transform: translateY(-2px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .artist-name {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .song-count {
+            color: #888;
+            font-size: 0.9em;
+        }
+        
+        .song-viewer {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            border: 1.5px solid #e8e4dc;
+        }
+        
+        .song-header {
+            border-bottom: 2px solid #e8e4dc;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .song-title {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .song-meta {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            color: #888;
+        }
+        
+        .genre-tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+        
+        .genre-tag {
+            background: #f0ede6;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            border: 1px solid #d4cec4;
+            color: #5a5248;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section-title {
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            color: #1a1a1a;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .section-title::before {
+            content: '';
+            width: 4px;
+            height: 24px;
+            background: #8b7355;
+            border-radius: 2px;
+        }
+        
+        .lyrics-box {
+            background: #fdfbf7;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 3px solid #8b7355;
+            white-space: pre-wrap;
+            font-family: 'Courier New', monospace;
+            font-size: 0.95em;
+            line-height: 1.8;
+            max-height: 400px;
+            overflow-y: auto;
+            color: #2c2520;
+        }
+        
+        .genome-plot {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .plot-entry {
+            background: #fdfbf7;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 3px solid #8b7355;
+        }
+        
+        .plot-header {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .line-numbers {
+            background: #e8f4f8;
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 600;
+            color: #2c5f7a;
+        }
+        
+        .plot-function {
+            background: #f0ede6;
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 600;
+            color: #5a5248;
+        }
+        
+        .emotion-tag {
+            background: #ffe8e8;
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            color: #8b4545;
+        }
+        
+        .repeat-badge {
+            background: #fff4e0;
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            color: #8b6914;
+        }
+        
+        .original-lyric {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 8px;
+        }
+        
+        .eli5 {
+            color: #2c2520;
+            padding-left: 15px;
+            border-left: 2px solid #d4cec4;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .pattison-block {
+            border: 1px solid #ddd;
+            padding: 16px;
+            margin-bottom: 16px;
+            border-radius: 8px;
+            background: #fafafa;
+        }
+
+        .pattison-lines {
+            font-family: monospace;
+            white-space: pre-wrap;
+            background: white;
+            padding: 12px;
+            border-radius: 4px;
+            border: 1px solid #e8e4dc;
+        }
+
+        .pattison-rhyme-controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+            margin: 10px 0 14px 0;
+        }
+
+        .pattison-rhyme-letter {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            border: 1px solid #e8e4dc;
+            background: #ffffff;
+            padding: 8px 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .pattison-rhyme-letter input {
+            width: 16px;
+            height: 16px;
+        }
+
+        .pattison-rhyme-swatch {
+            width: 12px;
+            height: 12px;
+            border-radius: 999px;
+            border: 1px solid rgba(0,0,0,0.08);
+            background: var(--swatch, #eee);
+        }
+
+        .pattison-rhyme-word {
+            border-radius: 6px;
+            padding: 0 3px;
+        }
+
+        .pattison-rhyme-word.rhyme-on {
+            background: var(--rhyme-bg, rgba(0,0,0,0.06));
+        }
+
+        .mini-badge {
+            background: #e3f2fd;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            display: inline-block;
+        }
+
+        .code-block {
+            background: #f5f5f5;
+            padding: 12px;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-size: 12px;
+            color: #333;
+            border: 1px solid #e8e4dc;
+            white-space: pre;
+        }
+        
+        .stat-card {
+            background: #fdfbf7;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #e8e4dc;
+        }
+        
+        .stat-label {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+        
+        .stat-value {
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #8b7355;
+        }
+        
+        .back-button {
+            background: white;
+            border: 1.5px solid #d4cec4;
+            padding: 10px 20px;
+            border-radius: 8px;
+            color: #2c2520;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-button:hover {
+            background: #fdfbf7;
+            border-color: #8b7355;
+        }
+        
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎵 Comprehensive Song Analysis (R2)</h1>
+            <p>R2 Master DB</p>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search by artist or song title...">
+            </div>
+            <div class="filters">
+                <select id="categoryFilter">
+                    <option value="">All categories</option>
+                </select>
+                <select id="sourceFilter">
+                    <option value="">All sources</option>
+                </select>
+                <select id="collectionFilter">
+                    <option value="">All collections</option>
+                </select>
+            </div>
+            <div class="toggle-row">
+                <label class="toggle"><input type="checkbox" id="hasGenomeToggle"> Has Genome</label>
+                <label class="toggle"><input type="checkbox" id="hasPattisonToggle"> Has Pattison</label>
+                <label class="toggle"><input type="checkbox" id="verifiedToggle"> Verified</label>
+            </div>
+        </header>
+
+        <div id="browseView">
+            <div class="browse-layout">
+                <div class="panel">
+                    <div class="panel-title">Browse by Genre</div>
+                    <div class="list" id="genreList"></div>
+                </div>
+                <div class="panel">
+                    <div class="panel-title" id="resultsTitle">Songs</div>
+                    <div id="resultsMeta" style="color:#777; font-size:0.92em; margin-bottom:10px;"></div>
+                    <div class="song-grid" id="songResults"></div>
+                    <div style="margin-top:12px; display:flex; justify-content:center;">
+                        <button class="back-button" id="loadMoreBtn" style="margin-bottom:0; display:none;">Load More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="songView" class="hidden">
+            <button class="back-button" onclick="showArtistList()">← Back</button>
+            <div class="song-viewer" id="songContent"></div>
+        </div>
+    </div>
+
+    <script>
+        let songsIndex = [];
+        let facets = null;
+        let activeGenre = 'all';
+        let pageSize = 60;
+        let currentLimit = pageSize;
+        let didHandleInitialRoute = false;
+
+        function sanitizeLabel(s) {
+            if (s === null || s === undefined) return '';
+            let out = String(s).trim();
+            if (out.startsWith('[')) out = out.slice(1);
+            if (out.endsWith(']')) out = out.slice(0, -1);
+            return out.trim();
+        }
+
+        async function loadData() {
+            try {
+                const response = await fetch('/api/songs/index');
+                const data = await response.json();
+                songsIndex = (data && data.songs) ? data.songs : [];
+                facets = (data && data.facets) ? data.facets : null;
+                hydrateFilters();
+                renderGenreList();
+                renderSongResults();
+                handleInitialRoute();
+            } catch (error) {
+                console.error('Failed to load songs index:', error);
+            }
+        }
+
+        function slugifyArtist(name) {
+            const raw = (name || '').toLowerCase().trim();
+            return raw
+                .replace(/&/g, 'and')
+                .replace(/\s+/g, '-')
+                .replace(/[^a-z0-9\-]/g, '');
+        }
+
+        function setBrowseView() {
+            document.getElementById('browseView').classList.remove('hidden');
+            document.getElementById('songView').classList.add('hidden');
+            document.querySelector('header .search-bar').style.display = 'flex';
+            document.querySelector('header .filters').style.display = 'flex';
+        }
+
+        function setSongView() {
+            document.getElementById('browseView').classList.add('hidden');
+            document.getElementById('songView').classList.remove('hidden');
+            document.querySelector('header .search-bar').style.display = 'none';
+            document.querySelector('header .filters').style.display = 'none';
+        }
+
+        function navigateToBrowse(push = true) {
+            setBrowseView();
+            renderSongResults();
+            if (push) {
+                history.pushState({ view: 'browse' }, '', '/comprehensive-songs-r2');
+            }
+        }
+
+        function showArtistBySlug(artistSlug, push = true) {
+            const matching = songsIndex.find(s => slugifyArtist(s && s.artist) === artistSlug);
+            const artistName = matching ? matching.artist : '';
+            const input = document.getElementById('searchInput');
+            input.value = artistName;
+            activeGenre = 'all';
+            currentLimit = pageSize;
+            renderGenreList();
+            setBrowseView();
+            renderSongResults();
+
+            if (push) {
+                history.pushState({ view: 'artist', artistSlug }, '', `/comprehensive-songs-r2/artist/${encodeURIComponent(artistSlug)}`);
+            }
+        }
+
+        function hydrateFilters() {
+            const categoryFilter = document.getElementById('categoryFilter');
+            const sourceFilter = document.getElementById('sourceFilter');
+            const collectionFilter = document.getElementById('collectionFilter');
+
+            const addOptions = (select, values) => {
+                const existing = new Set(Array.from(select.options).map(o => o.value));
+                values.forEach(v => {
+                    if (!v || existing.has(v)) return;
+                    const opt = document.createElement('option');
+                    opt.value = v;
+                    opt.textContent = v;
+                    select.appendChild(opt);
+                });
+            };
+
+            if (facets) {
+                const cats = Object.keys(facets.categories || {}).sort();
+                const sources = Object.keys(facets.sources || {}).sort();
+                const cols = Object.keys(facets.special_collections || {}).sort();
+                addOptions(categoryFilter, cats.filter(x => x !== 'unknown'));
+                addOptions(sourceFilter, sources.filter(x => x !== 'unknown'));
+                addOptions(collectionFilter, cols);
+            }
+        }
+
+        function renderGenreList() {
+            const genreList = document.getElementById('genreList');
+            genreList.innerHTML = '';
+
+            const counts = (facets && facets.genres) ? facets.genres : {};
+            const entries = Object.keys(counts).map(k => ({ genre: k, count: counts[k] || 0 }));
+            entries.sort((a, b) => (b.count - a.count) || a.genre.localeCompare(b.genre));
+
+            const allCount = songsIndex.length;
+            const allItem = document.createElement('div');
+            allItem.className = 'list-item' + (activeGenre === 'all' ? ' active' : '');
+            allItem.onclick = () => { activeGenre = 'all'; currentLimit = pageSize; renderGenreList(); renderSongResults(); };
+            allItem.innerHTML = `<div class="name">All</div><div class="pill">${allCount}</div>`;
+            genreList.appendChild(allItem);
+
+            entries.forEach(e => {
+                const label = sanitizeLabel(e.genre);
+                const item = document.createElement('div');
+                item.className = 'list-item' + (activeGenre === e.genre ? ' active' : '');
+                item.onclick = () => {
+                    activeGenre = e.genre;
+                    currentLimit = pageSize;
+                    renderGenreList();
+                    renderSongResults();
+                };
+                item.innerHTML = `<div class="name">${label}</div><div class="pill">${e.count}</div>`;
+                genreList.appendChild(item);
+            });
+        }
+
+        function showArtistList() {
+            navigateToBrowse(true);
+        }
+
+        function getFilteredSongs() {
+            const q = (document.getElementById('searchInput').value || '').trim().toLowerCase();
+            const category = document.getElementById('categoryFilter').value;
+            const source = document.getElementById('sourceFilter').value;
+            const collection = document.getElementById('collectionFilter').value;
+
+            return songsIndex.filter(s => {
+                if (!s) return false;
+                if (activeGenre !== 'all') {
+                    const gs = Array.isArray(s.genres) ? s.genres : [];
+                    if (!gs.includes(activeGenre)) return false;
+                }
+                if (category && s.category !== category) return false;
+                if (source && s.source !== source) return false;
+                if (collection && s.special_collection !== collection) return false;
+                if (q) {
+                    const hay = `${s.artist || ''} ${s.title || ''}`.toLowerCase();
+                    if (!hay.includes(q)) return false;
+                }
+                return true;
+            });
+        }
+
+        function renderSongResults() {
+            const resultsTitle = document.getElementById('resultsTitle');
+            const resultsMeta = document.getElementById('resultsMeta');
+            const grid = document.getElementById('songResults');
+            const loadMoreBtn = document.getElementById('loadMoreBtn');
+
+            const filtered = getFilteredSongs();
+            const shown = filtered.slice(0, currentLimit);
+
+            resultsTitle.textContent = activeGenre === 'all' ? 'Songs' : `Songs • ${activeGenre}`;
+            resultsMeta.textContent = `${filtered.length} match${filtered.length !== 1 ? 'es' : ''}`;
+
+            grid.innerHTML = '';
+            shown
+                .sort((a, b) => (a.artist || '').localeCompare(b.artist || '') || (a.title || '').localeCompare(b.title || ''))
+                .forEach(song => {
+                    const card = document.createElement('div');
+                    card.className = 'song-card';
+                    card.onclick = () => showSongById(song.song_id);
+
+                    const badges = [];
+                    if (song.category && song.category !== 'unknown') badges.push(`<span class="pill">${song.category}</span>`);
+                    if (song.has_genome) badges.push('<span class="pill">Genome</span>');
+                    if (song.has_pattison) badges.push('<span class="pill">Pattison</span>');
+                    if (song.verified) badges.push('<span class="pill">Verified</span>');
+
+                    card.innerHTML = `
+                        <div class="title">${song.title || song.song_id}</div>
+                        <div class="meta">${song.artist || ''}</div>
+                        <div class="badges">${badges.join('')}</div>
+                    `;
+                    grid.appendChild(card);
+                });
+
+            if (filtered.length > currentLimit) {
+                loadMoreBtn.style.display = '';
+                loadMoreBtn.onclick = () => { currentLimit += pageSize; renderSongResults(); };
+            } else {
+                loadMoreBtn.style.display = 'none';
+            }
+        }
+
+        async function showSongById(songId) {
+            setSongView();
+
+            history.pushState({ view: 'song', songId }, '', `/comprehensive-songs-r2/song/${encodeURIComponent(songId)}`);
+
+            const content = document.getElementById('songContent');
+            content.innerHTML = '';
+
+            try {
+                const response = await fetch(`/api/songs/${encodeURIComponent(songId)}`);
+                const song = await response.json();
+                content.innerHTML = renderSongContent(song);
+                initPattisonRhymeUI();
+            } catch (error) {
+                console.error('Failed to load song:', error);
+            }
+        }
+
+        const pattisonRhymeState = {
+            enabled: true,
+            letterEnabled: {},
+            lettersPresent: [],
+        };
+
+        function getRhymeColor(letter) {
+            const palette = {
+                A: 'rgba(255, 206, 86, 0.22)',
+                B: 'rgba(54, 162, 235, 0.18)',
+                C: 'rgba(255, 99, 132, 0.16)',
+                D: 'rgba(153, 102, 255, 0.16)',
+                E: 'rgba(75, 192, 192, 0.16)',
+                F: 'rgba(255, 159, 64, 0.16)',
+                G: 'rgba(46, 204, 113, 0.14)',
+                H: 'rgba(241, 196, 15, 0.14)',
+                I: 'rgba(52, 73, 94, 0.10)',
+            };
+            return palette[letter] || 'rgba(139, 115, 85, 0.14)';
+        }
+
+        function escapeHtml(s) {
+            return String(s)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function extractLastToken(line) {
+            if (!line) return { head: '', tail: '' };
+            const trimmed = String(line).trim();
+            if (!trimmed) return { head: '', tail: '' };
+            const m = trimmed.match(/^(.*?)([A-Za-z0-9']+)([^A-Za-z0-9']*)$/);
+            if (!m) return { head: trimmed, tail: '' };
+            return { head: m[1] || '', tail: (m[2] || '') + (m[3] || '') };
+        }
+
+        function initPattisonRhymeUI() {
+            const root = document.getElementById('songContent');
+            if (!root) return;
+
+            const lettersAttr = root.querySelector('[data-pattison-letters]');
+            const lettersRaw = lettersAttr ? (lettersAttr.getAttribute('data-pattison-letters') || '') : '';
+            const letters = lettersRaw
+                .split(',')
+                .map(x => (x || '').trim())
+                .filter(x => x && x !== 'X');
+
+            pattisonRhymeState.lettersPresent = letters;
+            letters.forEach(l => {
+                if (pattisonRhymeState.letterEnabled[l] === undefined) pattisonRhymeState.letterEnabled[l] = true;
+            });
+
+            const enabledToggle = root.querySelector('#pattisonHighlightToggle');
+            if (enabledToggle) {
+                enabledToggle.checked = !!pattisonRhymeState.enabled;
+                enabledToggle.onchange = () => {
+                    pattisonRhymeState.enabled = !!enabledToggle.checked;
+                    applyPattisonRhymeHighlight();
+                };
+            }
+
+            letters.forEach(l => {
+                const cb = root.querySelector(`#pattisonLetter_${CSS.escape(l)}`);
+                if (!cb) return;
+                cb.checked = pattisonRhymeState.letterEnabled[l] !== false;
+                cb.onchange = () => {
+                    pattisonRhymeState.letterEnabled[l] = !!cb.checked;
+                    applyPattisonRhymeHighlight();
+                };
+            });
+
+            applyPattisonRhymeHighlight();
+        }
+
+        function applyPattisonRhymeHighlight() {
+            const root = document.getElementById('songContent');
+            if (!root) return;
+            const nodes = root.querySelectorAll('[data-rhyme-letter]');
+            nodes.forEach(n => {
+                const letter = (n.getAttribute('data-rhyme-letter') || '').trim();
+                if (!letter || letter === 'X') {
+                    n.classList.remove('rhyme-on');
+                    return;
+                }
+                const perLetter = pattisonRhymeState.letterEnabled[letter] !== false;
+                const on = pattisonRhymeState.enabled && perLetter;
+                n.classList.toggle('rhyme-on', !!on);
+            });
+        }
+
+        function renderSongContent(song) {
+            const genome = song.genome;
+            const pattison = song.pattison || song.pattison_analysis;
+
+            const artistName = song.artist || '';
+            const artistSlug = slugifyArtist(artistName);
+
+            let html = `
+                <div class="song-header">
+                    <div class="song-title">${song.title || ''}</div>
+                    <div class="song-meta">
+                        <span><strong>Artist:</strong> <a href="/comprehensive-songs-r2/artist/${encodeURIComponent(artistSlug)}" onclick="event.preventDefault(); showArtistBySlug('${artistSlug}', true);">${artistName}</a></span>
+                        <span><strong>Song ID:</strong> ${song.song_id || ''}</span>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">📊 Quick Stats</div>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-label">Genome</div>
+                            <div class="stat-value">${genome && genome.line_by_line_plot ? '✅' : '❌'}</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Pattison</div>
+                            <div class="stat-value">${pattison && typeof pattison === 'object' && Object.keys(pattison).length > 0 ? '✅' : '❌'}</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">📝 Lyrics</div>
+                    <div class="lyrics-box">${song.lyrics || ''}</div>
+                </div>
+            `;
+
+            if (pattison && typeof pattison === 'object' && Object.keys(pattison).length > 0) {
+                const analysis = pattison.analysis || pattison;
+                const stanzas = Array.isArray(analysis.stanzas) ? analysis.stanzas : [];
+                const totalStanzas = analysis.total_stanzas || stanzas.length;
+                const totalLines = analysis.total_lines || analysis.totalLines || '';
+
+                const lettersSet = new Set();
+                stanzas.forEach(st => {
+                    const scheme = (st && st.rhyme_scheme) ? String(st.rhyme_scheme) : '';
+                    for (const ch of scheme) {
+                        const c = String(ch).trim();
+                        if (c && c !== '|' && c !== ' ' && c !== 'X') lettersSet.add(c);
+                    }
+                });
+                const letters = Array.from(lettersSet).sort();
+                const lettersAttr = letters.join(',');
+
+                html += `
+                    <div class="section">
+                        <div class="section-title">🎼 Pattison Analysis - Section-Based Rhyme Schemes</div>
+                        <div style="margin-bottom: 16px;">
+                            <strong>Total Stanzas:</strong> ${totalStanzas}${totalLines !== '' ? ` | <strong>Total Lines:</strong> ${totalLines}` : ''}
+                        </div>
+                        <div class="pattison-rhyme-controls" data-pattison-letters="${lettersAttr}">
+                            <label class="toggle"><input type="checkbox" id="pattisonHighlightToggle" checked> Highlight rhymes</label>
+                            ${letters.map(l => {
+                                const sw = getRhymeColor(l);
+                                return `<label class="pattison-rhyme-letter"><input type="checkbox" id="pattisonLetter_${l}" checked><span class="pattison-rhyme-swatch" style="--swatch:${sw};"></span>${l}</label>`;
+                            }).join('')}
+                        </div>
+                `;
+
+                if (stanzas.length > 0) {
+                    stanzas.forEach(stanza => {
+                        const stanzaNum = stanza.stanza_number || '';
+                        const sectionType = stanza.section_type || '';
+                        const rhymeScheme = stanza.rhyme_scheme || '';
+                        const pattern = stanza.pattern || '';
+                        const stability = typeof stanza.stability === 'number' ? `${Math.round(stanza.stability * 100)}%` : '';
+                        const lines = Array.isArray(stanza.lines) ? stanza.lines : [];
+                        const stress = Array.isArray(stanza.stress_counts) ? stanza.stress_counts : [];
+                        const pairs = Array.isArray(stanza.rhyme_pairs) ? stanza.rhyme_pairs : [];
+
+                        const schemeClean = String(rhymeScheme || '').replace(/[^A-Za-zX]/g, '');
+
+                        html += `
+                            <div class="pattison-block">
+                                <div style="margin-bottom: 12px;">
+                                    <strong>Stanza ${stanzaNum}</strong>
+                                    ${sectionType ? ` <span class="mini-badge">${sectionType}</span>` : ''}
+                                    <br>
+                                    <span style="font-size: 0.9em; color: #666;">
+                                        ${rhymeScheme ? `Rhyme Scheme: <strong>${rhymeScheme}</strong>` : ''}
+                                        ${pattern ? ` | Pattern: ${pattern}` : ''}
+                                        ${stability ? ` | Stability: ${stability}` : ''}
+                                    </span>
+                                </div>
+                                <div class="pattison-lines">${lines.map((line, i) => {
+                                    const letter = (schemeClean && schemeClean[i]) ? schemeClean[i] : '';
+                                    const seg = extractLastToken(line);
+                                    const safeHead = escapeHtml(seg.head);
+                                    const safeTail = escapeHtml(seg.tail);
+                                    const letterLabel = letter ? escapeHtml(letter) : '';
+                                    const stressTxt = (typeof stress[i] === 'number') ? ` (${stress[i]} stresses)` : '';
+                                    if (!letter || letter === 'X') {
+                                        return `${letterLabel ? (letterLabel + '. ') : ''}${safeHead}${safeTail}${stressTxt}`;
+                                    }
+                                    const bg = getRhymeColor(letter);
+                                    return `${letterLabel}. ${safeHead}<span class="pattison-rhyme-word" data-rhyme-letter="${escapeHtml(letter)}" style="--rhyme-bg:${bg};">${safeTail}</span>${stressTxt}`;
+                                }).join('\n')}</div>
+                                ${pairs.length > 0 ? `
+                                    <div style="margin-top: 12px; font-size: 0.9em;">
+                                        <strong>Rhyme Pairs:</strong>
+                                        ${pairs.map(pair => {
+                                            const l1 = pair.line1;
+                                            const l2 = pair.line2;
+                                            const w1 = pair.word1;
+                                            const w2 = pair.word2;
+                                            const t = pair.pattison_type;
+                                            const stab = typeof pair.pattison_stability === 'number' ? `${Math.round(pair.pattison_stability * 100)}%` : '';
+                                            
+                                            // Badges for Perceptual Flags
+                                            const flags = [];
+                                            if (pair.deferred) flags.push('<span class="mini-badge" style="background:#e8f5e9; color:#2e7d32; border:1px solid #c8e6c9;">Deferred 🔗</span>');
+                                            if (pair.spotlight) flags.push('<span class="mini-badge" style="background:#fff3e0; color:#ef6c00; border:1px solid #ffe0b2;">Spotlight ⭐</span>');
+                                            if (pair.hanging) flags.push('<span class="mini-badge" style="background:#ffebee; color:#c62828; border:1px solid #ffcdd2;">Hanging 🎯</span>');
+                                            const flagHtml = flags.length ? ' ' + flags.join(' ') : '';
+
+                                            return `<div style="margin-left: 16px; color: #555;">- Lines ${l1}-${l2}: <strong>${w1}</strong> / <strong>${w2}</strong> (${t}${stab ? `, ${stab}` : ''})${flagHtml}</div>`;
+                                        }).join('')}
+                                    </div>
+                                ` : ''}
+                            </div>
+                        `;
+                    });
+                } else {
+                    html += `<div class="code-block">${JSON.stringify(analysis, null, 2)}</div>`;
+                }
+
+                const crossSection = Array.isArray(analysis.cross_section_rhymes) ? analysis.cross_section_rhymes : [];
+                if (crossSection.length > 0) {
+                    html += `
+                        <div class="pattison-block" style="background:#f4f9ff; border-color:#dbeafe;">
+                            <div style="margin-bottom: 10px; color:#1e40af;"><strong>🔗 Cross-Section Rhymes (Structural Links)</strong></div>
+                            ${crossSection.map(link => {
+                                const w1 = link.word1;
+                                const w2 = link.word2;
+                                const s1 = link.stanza1;
+                                const s2 = link.stanza2;
+                                const type = link.pattison_type;
+                                const stab = typeof link.pattison_stability === 'number' ? `${Math.round(link.pattison_stability * 100)}%` : '';
+                                return `<div style="margin-left: 16px; color: #334155; font-size: 0.95em;">
+                                    - Stanza ${s1} ➝ Stanza ${s2}: <strong>${w1}</strong> / <strong>${w2}</strong> 
+                                    <span style="color:#64748b;">(${type}, ${stab})</span>
+                                </div>`;
+                            }).join('')}
+                        </div>
+                    `;
+                }
+
+                if (analysis.structure_summary) {
+                    html += `
+                        <div class="section">
+                            <div class="section-title">📊 Structure Summary</div>
+                            <div class="code-block">${JSON.stringify(analysis.structure_summary, null, 2)}</div>
+                        </div>
+                    `;
+                }
+
+                html += `</div>`;
+            }
+
+            if (genome && genome.line_by_line_plot) {
+                const safeText = (v) => (v === null || v === undefined) ? '' : String(v);
+                const asList = (v) => Array.isArray(v) ? v : [];
+                html += `
+                    <div class="section">
+                        <div class="section-title">🧬 Emotional Genome (Line-by-Line Plot)</div>
+                        <div class="genome-plot">
+                            ${genome.line_by_line_plot.map(entry => {
+                                const lineNums = asList(entry.line_numbers).length ? asList(entry.line_numbers) : [];
+                                const plotFunction = entry.plot_function || entry.beat || '';
+                                const emotion = entry.emotion_primary || entry.pov_character || '';
+                                const emotion2 = entry.emotion_secondary || '';
+                                const originalLyric = entry.original_lyric || entry.lyric_excerpt || '';
+                                const eli5 = entry.eli5_simplification || (Array.isArray(entry.furniture_types) ? entry.furniture_types.join(', ') : '') || '';
+                                const isRepeat = Boolean(entry.is_repeat);
+
+                                return `
+                                <div class="plot-entry">
+                                    <div class="plot-header">
+                                        <span class="line-numbers">Lines ${safeText(lineNums.join(', '))}</span>
+                                        <span class="plot-function">${safeText(plotFunction)}</span>
+                                        <span class="emotion-tag">${safeText(emotion)}${emotion2 ? ' / ' + safeText(emotion2) : ''}</span>
+                                        ${isRepeat ? '<span class="repeat-badge">REPEAT</span>' : ''}
+                                    </div>
+                                    <div class="original-lyric">"${safeText(originalLyric)}"</div>
+                                    <div class="eli5"><strong>ELI5:</strong> ${safeText(eli5)}</div>
+                                </div>
+                                `;
+                            }).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+
+            return html;
+        }
+
+        function handleInitialRoute() {
+            if (didHandleInitialRoute) return;
+            didHandleInitialRoute = true;
+
+            const path = window.location.pathname || '';
+            const songPrefix = '/comprehensive-songs-r2/song/';
+            const artistPrefix = '/comprehensive-songs-r2/artist/';
+
+            if (path.startsWith(songPrefix)) {
+                const songId = decodeURIComponent(path.slice(songPrefix.length));
+                if (songId) {
+                    showSongById(songId);
+                    return;
+                }
+            }
+
+            if (path.startsWith(artistPrefix)) {
+                const artistSlug = decodeURIComponent(path.slice(artistPrefix.length));
+                if (artistSlug) {
+                    showArtistBySlug(artistSlug, false);
+                    return;
+                }
+            }
+
+            navigateToBrowse(false);
+        }
+
+        window.addEventListener('popstate', (e) => {
+            const state = e.state || null;
+            if (state && state.view === 'song' && state.songId) {
+                setSongView();
+                const songId = state.songId;
+                const content = document.getElementById('songContent');
+                content.innerHTML = '';
+                fetch(`/api/songs/${encodeURIComponent(songId)}`)
+                    .then(r => r.json())
+                    .then(song => { content.innerHTML = renderSongContent(song); initPattisonRhymeUI(); })
+                    .catch(err => console.error('Failed to load song:', err));
+                return;
+            }
+            if (state && state.view === 'artist' && state.artistSlug) {
+                showArtistBySlug(state.artistSlug, false);
+                return;
+            }
+            handleInitialRoute();
+        });
+
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            currentLimit = pageSize;
+            renderSongResults();
+        });
+
+        document.getElementById('categoryFilter').addEventListener('change', () => {
+            currentLimit = pageSize;
+            renderSongResults();
+        });
+
+        document.getElementById('sourceFilter').addEventListener('change', () => {
+            currentLimit = pageSize;
+            renderSongResults();
+        });
+
+        document.getElementById('collectionFilter').addEventListener('change', () => {
+            currentLimit = pageSize;
+            renderSongResults();
+        });
+
+        document.getElementById('hasGenomeToggle').addEventListener('change', () => {
+            currentLimit = pageSize;
+            renderSongResults();
+        });
+
+        document.getElementById('hasPattisonToggle').addEventListener('change', () => {
+            currentLimit = pageSize;
+            renderSongResults();
+        });
+
+        document.getElementById('verifiedToggle').addEventListener('change', () => {
+            currentLimit = pageSize;
+            renderSongResults();
+        });
+
+        loadData();
+    </script>
+</body>
+</html>

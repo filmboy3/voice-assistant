@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Creative Quotes - Transformative Metaphors</title>
+    <script defer src="/global-nav.js"></script>
+    <script defer src="/notes_manager.js"></script>
+    <script defer src="/shared_interactions.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f6f4ee;
+            color: #1f1b16;
+            padding: 10px 20px 20px 20px;
+        }
+
+        body.has-global-nav > .container,
+        body.has-global-nav > div:not(.global-nav) {
+            margin-top: 8px !important;
+        }
+
+        @media (max-width: 768px) {
+            body.has-global-nav > .container,
+            body.has-global-nav > div:not(.global-nav) {
+                margin-top: 0 !important;
+            }
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+
+        .header {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        .header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            color: #6f675c;
+            font-size: 0.95rem;
+        }
+
+        .drawer-backdrop {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 999;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .drawer-backdrop.show {
+            display: block;
+            opacity: 1;
+        }
+
+        .quote-drawer {
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 440px;
+            max-width: 92vw;
+            height: 100vh;
+            background: #fdfbf7;
+            border-left: 2px solid #d4cec4;
+            box-shadow: -4px 0 12px rgba(0,0,0,0.15);
+            z-index: 1000;
+            overflow: hidden;
+            padding: 0;
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+        }
+
+        .quote-drawer.show {
+            display: block;
+            transform: translateX(0);
+        }
+
+        .quote-drawer-inner {
+            width: 100%;
+            height: 100vh;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+            padding: 72px 20px 84px 20px;
+        }
+
+        @media (max-width: 768px) {
+            .quote-drawer {
+                width: 75vw;
+                max-width: 75vw;
+            }
+            .quote-drawer-inner {
+                padding: 72px 16px calc(140px + env(safe-area-inset-bottom, 0px)) 16px;
+            }
+        }
+
+        #unifiedDrawerControls {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 10150;
+            pointer-events: none;
+            display: none;
+        }
+
+        #unifiedDrawerControls .drawer-close-btn,
+        #unifiedDrawerControls .drawer-scroll-btn-top,
+        #unifiedDrawerControls .drawer-scroll-btn-bottom {
+            pointer-events: auto;
+        }
+
+        .drawer-close-btn {
+            position: fixed;
+            top: 14px;
+            right: 14px;
+            background: rgba(44, 37, 32, 0.9);
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            transition: all 0.2s;
+            z-index: 10160;
+        }
+
+        .drawer-scroll-btn-top,
+        .drawer-scroll-btn-bottom {
+            position: fixed;
+            right: var(--scroll-btn-right, 14px);
+            background: rgba(44, 37, 32, 0.7);
+            color: white;
+            border: none;
+            width: var(--scroll-btn-size, 44px);
+            height: var(--scroll-btn-size, 44px);
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            transition: all 0.2s;
+            z-index: 10155;
+            transform: translateY(-50%);
+        }
+
+        .drawer-scroll-btn-top {
+            top: calc(50% + var(--scroll-btn-center-shift, 0px) - (var(--scroll-btn-gap, 18px) / 2) - (var(--scroll-btn-size, 44px) / 2));
+        }
+        .drawer-scroll-btn-bottom {
+            top: calc(50% + var(--scroll-btn-center-shift, 0px) + (var(--scroll-btn-gap, 18px) / 2) + (var(--scroll-btn-size, 44px) / 2));
+            bottom: auto;
+        }
+
+        .result-section {
+            background: #fdfbf7;
+            border: 1px solid #e8e4dc;
+            border-radius: 12px;
+            padding: 18px;
+            margin-bottom: 16px;
+        }
+
+        .result-section h2 {
+            font-size: 1.15rem;
+            margin-bottom: 12px;
+        }
+
+        .letter-section {
+            margin-bottom: 8px;
+        }
+
+        .letter-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 16px;
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.15s, border-color 0.15s;
+        }
+
+        .letter-header:hover {
+            border-color: #1f1b16;
+            background: #f9f7f3;
+        }
+
+        .letter-header h3 {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .letter-content {
+            display: none;
+            padding: 12px 0 0 0;
+        }
+
+        .letter-content.show {
+            display: block;
+        }
+
+        .subcategory-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .subcategory-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 16px;
+            background: #f7f3ee;
+            border: 1px solid #d4cec4;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 700;
+            font-style: italic;
+            color: #2c2520;
+            transition: all 0.15s;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+        }
+
+        .subcategory-chip:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.14);
+        }
+
+        .subcategory-chip .chip-dot {
+            width: 8px;
+            height: 8px;
+            background: #38ef7d;
+            border-radius: 50%;
+            flex: 0 0 auto;
+        }
+
+        .subcategory-chip-count {
+            font-size: 0.85rem;
+            color: rgba(111, 103, 92, 0.55);
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        .quote-set-card {
+            background: white;
+            border: 1px solid #e8e4dc;
+            border-radius: 12px;
+            padding: 14px;
+            margin-bottom: 14px;
+        }
+
+        .quote-set-category {
+            font-size: 0.9rem;
+            letter-spacing: 0.02em;
+            color: #6f675c;
+            font-weight: 650;
+            margin-bottom: 10px;
+        }
+
+        .quote-set-item {
+            background: #fffdf8;
+            border: 1px solid #e8e4dc;
+            border-radius: 12px;
+            padding: 12px 12px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            margin-bottom: 10px;
+        }
+
+        .quote-set-item:hover {
+            background: #f9f7f3;
+            border-color: #d4cec4;
+            transform: translateY(-1px);
+        }
+
+        .quote-set-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .quote-set-text {
+            font-size: 0.98rem;
+            color: #1f1b16;
+            line-height: 1.5;
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        .quote-set-meta {
+            margin-top: 8px;
+            display: flex;
+            gap: 6px;
+        }
+
+        .phrase-badge {
+            background: #e8e4dc;
+            color: #4b4338;
+            padding: 4px 10px;
+            border-radius: 999px;
+            font-size: 0.78rem;
+            font-weight: 700;
+        }
+
+        .copy-all-btn {
+            background: transparent;
+            color: #4b4338;
+            border: 1px solid #d4cec4;
+            border-radius: 999px;
+            padding: 8px 12px;
+            font-size: 0.85rem;
+            cursor: pointer;
+        }
+
+        .copy-all-btn:hover { background: #f4eee1; }
+
+        .loading {
+            text-align: center;
+            padding: 60px;
+            color: #6f675c;
+            font-size: 1.1rem;
+        }
+
+        .copied-toast {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background: #1f1b16;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            z-index: 10000;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        .copied-toast.show {
+            transform: translateX(-50%) translateY(0);
+            opacity: 1;
+        }
+
+        .bucket-count {
+            color: #6f675c;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div id="drawerBackdrop" class="drawer-backdrop"></div>
+    <div id="quoteDrawer" class="quote-drawer"></div>
+    <div id="copiedToast" class="copied-toast">Copied to clipboard!</div>
+    <div class="container">
+        <div class="header">
+            <h1>Creative Quotes</h1>
+            <p>22,000+ quotes with transformative metaphors, organized by theme</p>
+        </div>
+
+        <div id="browse" style="margin-top: 16px;">
+            <div class="result-section">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                    <h2>Browse by Theme</h2>
+                </div>
+                <p id="browseDescription" style="color: #6f675c; margin-bottom: 16px;">Click a theme to expand and see all sub-categories</p>
+                <div id="quoteBrowser"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/shared-cache.js"></script>
+    <script>
+        let allQuotes = [];
+        let categoriesGrouped = null;
+        let quoteCounts = {};
+
+        async function init() {
+            try {
+                const [quotesData, groupedData] = await Promise.all([
+                    window.MetaphorGymCache.getCreativeQuotesData(),
+                    window.MetaphorGymCache.getCreativeQuotesCategoriesGrouped()
+                ]);
+
+                allQuotes = quotesData.quotes || quotesData || [];
+                categoriesGrouped = groupedData;
+
+                // Build counts per sub-category
+                allQuotes.forEach(q => {
+                    const cat = q.category || 'Uncategorized';
+                    quoteCounts[cat] = (quoteCounts[cat] || 0) + 1;
+                });
+
+                renderBrowser();
+
+                // Check for URL param
+                const params = new URLSearchParams(window.location.search);
+                const cat = (params.get('cat') || '').trim();
+                if (cat) {
+                    openSubcategoryDrawer(cat);
+                }
+            } catch (err) {
+                console.error("Failed to load data", err);
+                document.getElementById('quoteBrowser').innerHTML = '<div class="loading">Failed to load data. Please try refreshing.</div>';
+            }
+        }
+
+        function renderBrowser() {
+            if (!categoriesGrouped || !categoriesGrouped.groups) {
+                document.getElementById('quoteBrowser').innerHTML = '<div class="loading">No category data available.</div>';
+                return;
+            }
+
+            const groups = categoriesGrouped.groups;
+            const counts = categoriesGrouped.counts || {};
+            const bucketNames = Object.keys(groups).sort();
+
+            let html = '';
+            bucketNames.forEach(bucketName => {
+                const subcategories = groups[bucketName] || [];
+                const bucketCount = counts[bucketName] || subcategories.reduce((sum, cat) => sum + (quoteCounts[cat] || 0), 0);
+                const bucketId = sanitizeKey(bucketName);
+
+                html += `
+                    <div class="letter-section">
+                        <div class="letter-header" onclick="toggleSection('${bucketId}')">
+                            <h3>${escapeHtml(bucketName)}</h3>
+                            <span class="bucket-count">${bucketCount.toLocaleString()} quotes <span id="chevron-${bucketId}">▼</span></span>
+                        </div>
+                        <div id="section-${bucketId}" class="letter-content">
+                            <div class="subcategory-list">
+                                ${subcategories.sort().map(subcat => {
+                                    const count = quoteCounts[subcat] || 0;
+                                    const safeSubcat = subcat.replace(/'/g, "\\'");
+                                    return `
+                                        <div class="subcategory-chip" onclick="openSubcategoryDrawer('${safeSubcat}')">
+                                            <span class="chip-dot" aria-hidden="true"></span>
+                                            <span>${formatCategoryLabel(subcat)}</span>
+                                            <span class="subcategory-chip-count">${count}</span>
+                                        </div>
+                                    `;
+                                }).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            // Add unassigned categories if any
+            const unassigned = categoriesGrouped.unassigned || [];
+            if (unassigned.length > 0) {
+                const unassignedCount = unassigned.reduce((sum, cat) => sum + (quoteCounts[cat] || 0), 0);
+                html += `
+                    <div class="letter-section">
+                        <div class="letter-header" onclick="toggleSection('unassigned')">
+                            <h3>Other</h3>
+                            <span class="bucket-count">${unassignedCount.toLocaleString()} quotes <span id="chevron-unassigned">▼</span></span>
+                        </div>
+                        <div id="section-unassigned" class="letter-content">
+                            <div class="subcategory-list">
+                                ${unassigned.sort().map(subcat => {
+                                    const count = quoteCounts[subcat] || 0;
+                                    const safeSubcat = subcat.replace(/'/g, "\\'");
+                                    return `
+                                        <div class="subcategory-chip" onclick="openSubcategoryDrawer('${safeSubcat}')">
+                                            <span class="chip-dot" aria-hidden="true"></span>
+                                            <span>${formatCategoryLabel(subcat)}</span>
+                                            <span class="subcategory-chip-count">${count}</span>
+                                        </div>
+                                    `;
+                                }).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            document.getElementById('quoteBrowser').innerHTML = html;
+        }
+
+        function sanitizeKey(value) {
+            return (value || '')
+                .toString()
+                .toLowerCase()
+                .replace(/[^a-z0-9]+/g, '-')
+                .replace(/^-+/, '')
+                .replace(/-+$/, '');
+        }
+
+        function toggleSection(id) {
+            const content = document.getElementById(`section-${id}`);
+            const chevron = document.getElementById(`chevron-${id}`);
+            if (!content || !chevron) return;
+            content.classList.toggle('show');
+            chevron.textContent = content.classList.contains('show') ? '▲' : '▼';
+        }
+
+        function formatCategoryLabel(value) {
+            const raw = (value || '').toString().trim();
+            if (!raw) return '';
+            const isAllCaps = raw.toUpperCase() === raw && /[A-Z]/.test(raw);
+            const normalized = raw.replace(/_/g, ' ').toLowerCase();
+            const titled = normalized.replace(/\b\w/g, ch => ch.toUpperCase());
+            return isAllCaps ? titled : raw;
+        }
+
+        let activeCategory = '';
+        let activeCategoryOrder = null;
+        const CATEGORY_PAGE_SIZE = 24;
+        let activeCategoryPage = 0;
+
+        function openSubcategoryDrawer(category) {
+            const drawer = document.getElementById('quoteDrawer');
+            const backdrop = document.getElementById('drawerBackdrop');
+            if (!drawer || !backdrop) return;
+
+            const prevCategory = activeCategory;
+            activeCategory = category;
+            const categoryQuotes = allQuotes.filter(q => q.category === category);
+            activeCategoryOrder = (activeCategoryOrder && prevCategory === category) ? activeCategoryOrder : categoryQuotes.slice();
+            if (!activeCategoryOrder || prevCategory !== category) {
+                activeCategoryPage = 0;
+            }
+            const count = activeCategoryOrder.length;
+
+            backdrop.classList.add('show');
+            drawer.classList.add('show');
+
+            const safeCategory = escapeHtml(formatCategoryLabel(category));
+            let html = '<div class="quote-drawer-inner">'
+                + '<div style="font-weight: 700; color: #1f1b16; font-size: 1.1rem;">' + safeCategory + '</div>'
+                + '<div style="margin-top: 4px; margin-bottom: 14px; font-weight: 500; color: #6f675c; font-size: 0.9rem;">' + count + ' quotes</div>'
+                + '<div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom: 12px;">'
+                + '<button class="copy-all-btn" onclick="shuffleCategoryDrawer()">Shuffle</button>'
+                + '<button class="copy-all-btn" onclick="copyAllCategoryQuotes()">Copy all</button>'
+                + '</div>'
+                + '<div id="categoryDrawerPager" style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom: 10px;"></div>'
+                + '<div id="categoryDrawerItems" style="display: flex; flex-direction: column; gap: 10px;"></div>'
+                + '<div id="categoryDrawerPagerBottom" style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-top: 14px;"></div>'
+                + '</div>';
+            drawer.innerHTML = html;
+
+            renderCategoryDrawerItems();
+
+            showDrawerControls();
+            setTimeout(function() {
+                attachDrawerScrollHandlers();
+            }, 60);
+        }
+
+        function shuffleArray(arr) {
+            const copy = (Array.isArray(arr) ? arr.slice() : []);
+            for (let i = copy.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                const temp = copy[i];
+                copy[i] = copy[j];
+                copy[j] = temp;
+            }
+            return copy;
+        }
+
+        function shuffleCategoryDrawer() {
+            if (!activeCategoryOrder) return;
+            activeCategoryOrder = shuffleArray(activeCategoryOrder);
+            activeCategoryPage = 0;
+            renderCategoryDrawerItems();
+        }
+
+        function setCategoryDrawerPage(nextPage) {
+            if (!activeCategoryOrder) return;
+            const totalPages = Math.max(1, Math.ceil(activeCategoryOrder.length / CATEGORY_PAGE_SIZE));
+            activeCategoryPage = Math.min(Math.max(0, nextPage), totalPages - 1);
+            renderCategoryDrawerItems();
+        }
+
+        function quoteToAllText(quote) {
+            const t = quote && quote.transformations ? quote.transformations : {};
+            const titleRaw = t.title || '';
+            const metaphoricalRaw = t.metaphorical || '';
+            const boldRaw = t.bold || '';
+            return [
+                titleRaw && `Title: ${titleRaw}`,
+                metaphoricalRaw && `Metaphorical: ${metaphoricalRaw}`,
+                boldRaw && `Bold: ${boldRaw}`
+            ].filter(Boolean).join('\n');
+        }
+
+        function copyAllCategoryQuotes() {
+            if (!activeCategoryOrder) return;
+            const allText = activeCategoryOrder.map(quoteToAllText).filter(Boolean).join('\n\n');
+            if (!allText) return;
+            if (window.SharedInteractions && typeof window.SharedInteractions.copyToClipboard === 'function') {
+                window.SharedInteractions.copyToClipboard(allText);
+            } else {
+                navigator.clipboard.writeText(allText);
+                showCopiedToast();
+            }
+        }
+
+        function renderCategoryDrawerItems() {
+            const container = document.getElementById('categoryDrawerItems');
+            if (!container || !activeCategoryOrder) return;
+
+            const total = activeCategoryOrder.length;
+            const totalPages = Math.max(1, Math.ceil(total / CATEGORY_PAGE_SIZE));
+            const start = activeCategoryPage * CATEGORY_PAGE_SIZE;
+            const end = Math.min(start + CATEGORY_PAGE_SIZE, total);
+            const slice = activeCategoryOrder.slice(start, end);
+
+            const pagerTop = document.getElementById('categoryDrawerPager');
+            const pagerBottom = document.getElementById('categoryDrawerPagerBottom');
+            const showPager = totalPages > 1;
+            if (pagerTop) {
+                pagerTop.innerHTML = '';
+                pagerTop.style.display = showPager ? 'flex' : 'none';
+            }
+            if (pagerBottom) {
+                pagerBottom.innerHTML = '';
+                pagerBottom.style.display = showPager ? 'flex' : 'none';
+            }
+            if (showPager) {
+                const pageLabel = `${(start + 1).toLocaleString()}–${end.toLocaleString()} of ${total.toLocaleString()} quotes`;
+                const pagerHtml = `
+                    <div style="color:#6f675c; font-size: 0.9rem;">${pageLabel}</div>
+                    <div style="display:flex; gap:10px; align-items:center;">
+                        <button class="copy-all-btn" type="button" onclick="setCategoryDrawerPage(${activeCategoryPage - 1})" ${activeCategoryPage <= 0 ? 'disabled' : ''}>Prev</button>
+                        <div style="color:#6f675c; font-size: 0.9rem;">Page ${(activeCategoryPage + 1)} / ${totalPages}</div>
+                        <button class="copy-all-btn" type="button" onclick="setCategoryDrawerPage(${activeCategoryPage + 1})" ${activeCategoryPage >= totalPages - 1 ? 'disabled' : ''}>Next</button>
+                    </div>
+                `;
+                if (pagerTop) pagerTop.innerHTML = pagerHtml;
+                if (pagerBottom) pagerBottom.innerHTML = pagerHtml;
+            }
+
+            let html = '';
+            slice.forEach(function(q) {
+                const t = q && q.transformations ? q.transformations : {};
+                const cat = (q && q.category) ? q.category : 'Uncategorized';
+                const setItems = [];
+                if (t && t.title) {
+                    setItems.push({ label: 'Title Idea', value: t.title });
+                }
+                if (t && t.metaphorical) {
+                    setItems.push({ label: 'Metaphorical', value: t.metaphorical });
+                }
+                if (t && t.bold) {
+                    setItems.push({ label: 'Bold/Direct', value: t.bold });
+                }
+                if (!setItems.length) return;
+
+                html += '<div class="quote-set-card">';
+                html += '<div class="quote-set-category">' + escapeHtml(formatCategoryLabel(cat)) + '</div>';
+                setItems.forEach(function(it) {
+                    const raw = (it.value || '').toString();
+                    const encoded = encodeURIComponent(raw);
+                    html += '<div class="quote-set-item" data-clickable data-text="' + encoded + '">'
+                        + '<div class="quote-set-text">' + escapeHtml(raw) + '</div>'
+                        + '<div class="quote-set-meta"><span class="phrase-badge">' + escapeHtml(it.label) + '</span></div>'
+                        + '</div>';
+                });
+                html += '</div>';
+            });
+
+            container.innerHTML = html || '<div style="color:#6f675c; font-size: 0.95rem; padding: 8px 0;">No quote versions available.</div>';
+            if (window.SharedInteractions && typeof window.SharedInteractions.autoApplyClickable === 'function') {
+                window.SharedInteractions.autoApplyClickable();
+            }
+            requestAnimationFrame(function() {
+                updateDrawerScrollButtons();
+            });
+        }
+
+        function closeQuoteDrawer() {
+            const drawer = document.getElementById('quoteDrawer');
+            const backdrop = document.getElementById('drawerBackdrop');
+            const controls = document.getElementById('unifiedDrawerControls');
+            if (drawer) {
+                drawer.classList.remove('show');
+                drawer.innerHTML = '';
+            }
+            if (backdrop) {
+                backdrop.classList.remove('show');
+            }
+            if (controls) {
+                controls.innerHTML = '';
+                controls.style.display = 'none';
+                controls.remove();
+            }
+        }
+
+        function getDrawerScroller() {
+            const drawer = document.getElementById('quoteDrawer');
+            if (!drawer) return null;
+            return drawer.querySelector('.quote-drawer-inner') || drawer;
+        }
+
+        function scrollDrawerToTop() {
+            const scroller = getDrawerScroller();
+            if (!scroller) return;
+            scroller.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function scrollDrawerToBottom() {
+            const scroller = getDrawerScroller();
+            if (!scroller) return;
+            scroller.scrollTo({ top: scroller.scrollHeight, behavior: 'smooth' });
+        }
+
+        function updateDrawerScrollButtons() {
+            const drawer = document.getElementById('quoteDrawer');
+            const scroller = getDrawerScroller();
+            if (!drawer || !scroller) return;
+            const controls = document.getElementById('unifiedDrawerControls');
+            if (!controls) return;
+
+            if (!drawer.classList.contains('show')) {
+                controls.innerHTML = '';
+                controls.style.display = 'none';
+                return;
+            }
+
+            const topBtn = controls.querySelector('.drawer-scroll-btn-top');
+            const bottomBtn = controls.querySelector('.drawer-scroll-btn-bottom');
+            if (!topBtn || !bottomBtn) return;
+
+            const scrollTop = scroller.scrollTop;
+            const scrollBottom = scroller.scrollHeight - scrollTop - scroller.clientHeight;
+            topBtn.style.display = scrollTop < 10 ? 'none' : 'flex';
+            bottomBtn.style.display = scrollBottom < 10 ? 'none' : 'flex';
+        }
+
+        function attachDrawerScrollHandlers() {
+            const scroller = getDrawerScroller();
+            if (!scroller) return;
+            scroller.removeEventListener('scroll', updateDrawerScrollButtons);
+            scroller.addEventListener('scroll', updateDrawerScrollButtons, { passive: true });
+            updateDrawerScrollButtons();
+        }
+
+        function ensureDrawerControls() {
+            let controls = document.getElementById('unifiedDrawerControls');
+            if (!controls) {
+                controls = document.createElement('div');
+                controls.id = 'unifiedDrawerControls';
+                controls.style.display = 'none';
+                document.body.appendChild(controls);
+            }
+            return controls;
+        }
+
+        function showDrawerControls() {
+            const drawer = document.getElementById('quoteDrawer');
+            if (!drawer || !drawer.classList.contains('show')) return;
+            const controls = ensureDrawerControls();
+            controls.innerHTML = '';
+            controls.style.display = 'block';
+
+            const closeBtn = document.createElement('button');
+            closeBtn.className = 'drawer-close-btn';
+            closeBtn.title = 'Close';
+            closeBtn.textContent = '×';
+            closeBtn.onclick = closeQuoteDrawer;
+
+            const topBtn = document.createElement('button');
+            topBtn.className = 'drawer-scroll-btn-top';
+            topBtn.title = 'Scroll to top';
+            topBtn.textContent = '↑';
+            topBtn.onclick = function(e) { e.stopPropagation(); scrollDrawerToTop(); };
+
+            const bottomBtn = document.createElement('button');
+            bottomBtn.className = 'drawer-scroll-btn-bottom';
+            bottomBtn.title = 'Scroll to bottom';
+            bottomBtn.textContent = '↓';
+            bottomBtn.onclick = function(e) { e.stopPropagation(); scrollDrawerToBottom(); };
+
+            controls.appendChild(closeBtn);
+            controls.appendChild(topBtn);
+            controls.appendChild(bottomBtn);
+
+            updateDrawerScrollButtons();
+        }
+
+        function escapeHtml(text) {
+            if (text === null || text === undefined) return '';
+            return String(text)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function showCopiedToast() {
+            const toast = document.getElementById('copiedToast');
+            if (!toast) return;
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 2000);
+        }
+
+        document.getElementById('drawerBackdrop').addEventListener('click', function() {
+            closeQuoteDrawer();
+        });
+
+        // Boot
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', init);
+        } else {
+            init();
+        }
+    </script>
+</body>
+</html>

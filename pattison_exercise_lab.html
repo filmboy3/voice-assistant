@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Pattison Exercise Lab</title>
+  <script defer src="/global-nav.js"></script>
+  <script defer src="/notes_manager.js"></script>
+  <script defer src="/shared_interactions.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f6f4ee;
+      color: #1f1b16;
+      padding: 10px 20px 20px 20px;
+      min-height: 100vh;
+    }
+
+    @media (max-width: 768px) {
+      body { padding: 10px 12px 20px 12px; }
+    }
+
+    body.has-global-nav > .container,
+    body.has-global-nav > div:not(.global-nav) {
+      margin-top: 8px !important;
+    }
+
+    .container { max-width: 1200px; margin: 0 auto; }
+
+    .page-header { margin-bottom: 12px; }
+    .page-title {
+      font-size: 1.5rem;
+      font-weight: 750;
+      color: #1f1b16;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .page-subtitle { color: #6f675c; font-size: 0.95rem; line-height: 1.35; }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      gap: 12px;
+      align-items: start;
+    }
+
+    @media (max-width: 980px) {
+      .layout { grid-template-columns: 1fr; }
+    }
+
+    .panel {
+      background: #fdfbf7;
+      border: 1px solid #e8e4dc;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      overflow: hidden;
+    }
+
+    .panel-header {
+      padding: 12px 14px;
+      border-bottom: 1px solid #efeae2;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .panel-title { font-weight: 800; font-size: 0.98rem; color: #1f1b16; }
+
+    .panel-body { padding: 14px; }
+
+    .tab-row {
+      display: inline-flex;
+      gap: 6px;
+      background: #e8e4dc;
+      padding: 4px;
+      border-radius: 10px;
+    }
+
+    .tab-btn {
+      border: none;
+      background: transparent;
+      padding: 8px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 750;
+      color: #6f675c;
+      font-size: 0.88rem;
+    }
+
+    .tab-btn.active {
+      background: #fff;
+      color: #1f1b16;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+
+    .list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .list-item {
+      border: 1px solid #e8e4dc;
+      background: #fff;
+      border-radius: 12px;
+      padding: 10px 12px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: border-color 0.15s ease, transform 0.15s ease;
+    }
+
+    .list-item:hover { border-color: #d4cec4; transform: translateY(-1px); }
+
+    .list-item.active {
+      border-color: #1f1b16;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+    }
+
+    .item-title { font-weight: 850; color: #1f1b16; font-size: 0.92rem; }
+    .item-meta { color: #6f675c; font-size: 0.82rem; }
+    .item-preview { color: #4b4338; font-size: 0.86rem; white-space: pre-wrap; line-height: 1.35; }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      appearance: none;
+      border: 1px solid #d4cec4;
+      background: transparent;
+      color: #1f1b16;
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-weight: 800;
+      font-size: 0.9rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .btn.primary {
+      border-color: #1f1b16;
+      background: #1f1b16;
+      color: #fff;
+    }
+
+    .btn:disabled { opacity: 0.55; cursor: not-allowed; }
+    .btn:hover:not(:disabled) { background: #f4eee1; }
+    .btn.primary:hover:not(:disabled) { filter: brightness(0.96); }
+
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+
+    .field label { font-weight: 800; font-size: 0.9rem; color: #1f1b16; }
+    .field .hint { color: #6f675c; font-size: 0.85rem; line-height: 1.35; }
+
+    input[type="text"], textarea {
+      width: 100%;
+      border: 1px solid #d4cec4;
+      border-radius: 10px;
+      padding: 10px 12px;
+      font-size: 0.95rem;
+      font-family: inherit;
+      outline: none;
+      background: #fff;
+      color: #1f1b16;
+    }
+
+    textarea { min-height: 120px; resize: vertical; }
+
+    input[type="text"]:focus, textarea:focus {
+      border-color: #1f1b16;
+      box-shadow: 0 0 0 3px rgba(31, 27, 22, 0.10);
+    }
+
+    .detail-title { font-weight: 900; font-size: 1.1rem; color: #1f1b16; margin-bottom: 4px; }
+    .detail-meta { color: #6f675c; font-size: 0.9rem; margin-bottom: 12px; }
+
+    .detail-block {
+      border: 1px solid #e8e4dc;
+      background: #fff;
+      border-radius: 12px;
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+
+    .detail-block-title { font-weight: 900; font-size: 0.95rem; color: #1f1b16; margin-bottom: 8px; }
+    .detail-block-body { color: #2c2520; font-size: 0.95rem; line-height: 1.5; white-space: pre-wrap; }
+
+    .output {
+      background: #0f172a;
+      color: #e2e8f0;
+      border-radius: 12px;
+      padding: 12px;
+      overflow: auto;
+      max-height: 520px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 0.86rem;
+      line-height: 1.35;
+      border: 1px solid rgba(15, 23, 42, 0.4);
+    }
+
+    .output-human {
+      border: 1px solid #e8e4dc;
+      background: #fff;
+      border-radius: 12px;
+      padding: 12px;
+      color: #1f1b16;
+    }
+
+    .pat-table {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-top: 8px;
+    }
+
+    .pat-row {
+      display: grid;
+      grid-template-columns: 56px 64px 1fr;
+      gap: 10px;
+      align-items: start;
+      padding: 6px 8px;
+      border-radius: 10px;
+      border: 1px solid #efeae2;
+      background: #fdfbf7;
+    }
+
+    .pat-row.bad {
+      border-color: #e0b4b4;
+      background: #fff6f6;
+    }
+
+    .pat-cell-label {
+      font-weight: 900;
+      font-size: 0.78rem;
+      color: #6f675c;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 4px;
+    }
+
+    .pat-rhyme {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 34px;
+      border-radius: 10px;
+      border: 1px solid #d4cec4;
+      background: #fff;
+      font-weight: 950;
+      font-size: 1.05rem;
+    }
+
+    .pat-stress {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 52px;
+      height: 34px;
+      border-radius: 10px;
+      border: 1px solid #d4cec4;
+      background: #fff;
+      font-weight: 900;
+    }
+
+    .pat-line {
+      white-space: pre-wrap;
+      line-height: 1.45;
+      color: #1f1b16;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid #d4cec4;
+      background: #fff;
+      font-weight: 850;
+      font-size: 0.86rem;
+    }
+
+    .pill.good { border-color: #7fbf9a; background: #f0fff6; }
+    .pill.bad { border-color: #e0b4b4; background: #fff6f6; }
+
+    details.raw-details {
+      margin-top: 10px;
+      border-radius: 12px;
+    }
+
+    details.raw-details > summary {
+      cursor: pointer;
+      font-weight: 900;
+      color: #1f1b16;
+      padding: 8px 0;
+    }
+
+    .notice {
+      background: #fff;
+      border: 1px solid #e8e4dc;
+      border-radius: 12px;
+      padding: 10px 12px;
+      color: #6f675c;
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+
+    .timer-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+
+    .timer-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      border: 1px solid #d4cec4;
+      background: #fdfbf7;
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-weight: 850;
+      color: #1f1b16;
+      font-size: 0.9rem;
+    }
+
+    .timer-muted { color: #6f675c; font-weight: 750; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="page-header">
+      <div class="page-title">Pattison Exercise Lab</div>
+      <div class="page-subtitle">
+        A dedicated place to run the Pattison Engine drills (deterministic checks) and also browse/run the original book exercises as prompts.
+        Use <strong>Regen</strong> to randomize starter words / suggested inputs so each run feels fresh.
+      </div>
+    </div>
+
+    <div class="layout">
+      <div class="panel" id="leftPanel">
+        <div class="panel-header">
+          <div class="panel-title">Exercises</div>
+          <div class="tab-row">
+            <button class="tab-btn active" id="tabEngine" type="button">Engine</button>
+            <button class="tab-btn" id="tabBook" type="button">Book</button>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div id="exerciseList" class="list"></div>
+          <div id="leftNotice" class="notice" style="display:none; margin-top: 12px;"></div>
+        </div>
+      </div>
+
+      <div class="panel" id="rightPanel">
+        <div class="panel-header">
+          <div class="panel-title">Runner</div>
+          <div class="controls">
+            <button class="btn" id="btnRegen" type="button" disabled>Regen</button>
+            <button class="btn primary" id="btnRun" type="button" disabled>Run</button>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div id="detail"></div>
+          <div id="outputWrap" style="display:none;">
+            <div class="detail-block" style="margin-top: 12px;">
+              <div class="detail-block-title">Results</div>
+              <div id="outputHuman" class="output-human"></div>
+              <details class="raw-details">
+                <summary>Raw JSON (audit)</summary>
+                <pre class="output" id="output"></pre>
+              </details>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      const state = {
+        mode: 'engine',
+        engineExercises: [],
+        bookExercises: [],
+        selected: null,
+        timer: { running: false, startTs: 0, durationSec: 600, tick: null }
+      };
+
+      const els = {
+        tabEngine: document.getElementById('tabEngine'),
+        tabBook: document.getElementById('tabBook'),
+        list: document.getElementById('exerciseList'),
+        leftNotice: document.getElementById('leftNotice'),
+        detail: document.getElementById('detail'),
+        btnRun: document.getElementById('btnRun'),
+        btnRegen: document.getElementById('btnRegen'),
+        output: document.getElementById('output'),
+        outputHuman: document.getElementById('outputHuman'),
+        outputWrap: document.getElementById('outputWrap')
+      };
+
+      function setTab(mode) {
+        state.mode = mode;
+        els.tabEngine.classList.toggle('active', mode === 'engine');
+        els.tabBook.classList.toggle('active', mode === 'book');
+        state.selected = null;
+        els.btnRun.disabled = true;
+        els.btnRegen.disabled = true;
+        els.outputWrap.style.display = 'none';
+        renderList();
+        renderDetail();
+      }
+
+      function pretty(obj) {
+        try { return JSON.stringify(obj, null, 2); } catch (e) { return String(obj); }
+      }
+
+      function clearOutput() {
+        els.outputHuman.innerHTML = '';
+        els.output.textContent = '';
+      }
+
+      function el(tag, attrs, children) {
+        const n = document.createElement(tag);
+        if (attrs && typeof attrs === 'object') {
+          Object.keys(attrs).forEach((k) => {
+            const v = attrs[k];
+            if (k === 'className') n.className = v;
+            else if (k === 'text') n.textContent = v;
+            else if (k === 'html') n.innerHTML = v;
+            else if (v !== null && v !== undefined) n.setAttribute(k, String(v));
+          });
+        }
+        (children || []).forEach((c) => {
+          if (c === null || c === undefined) return;
+          n.appendChild(typeof c === 'string' ? document.createTextNode(c) : c);
+        });
+        return n;
+      }
+
+      function schemeChar(s, idx) {
+        if (!s || typeof s !== 'string') return '';
+        return idx < s.length ? s[idx] : '';
+      }
+
+      function renderPatTableFromRows(rows, opts) {
+        const options = (opts && typeof opts === 'object') ? opts : {};
+        const schemeKey = options.schemeKey;
+        const stressKey = options.stressKey;
+        const lineKey = options.lineKey;
+        const extraBadFn = options.extraBadFn;
+
+        const tbl = el('div', { className: 'pat-table' }, []);
+        (rows || []).forEach((r, i) => {
+          const rhyme = r && schemeKey ? (r[schemeKey] || '') : '';
+          const stress = r && stressKey ? (r[stressKey] === null || r[stressKey] === undefined ? '' : String(r[stressKey])) : '';
+          const bad = typeof extraBadFn === 'function' ? !!extraBadFn(r, i) : false;
+          // Prefer customLineRender if present; otherwise fallback to text
+          const lineNode = r && r.customLineRender ? r.customLineRender :
+            el('div', { className: 'pat-line', text: r && lineKey ? (r[lineKey] || '') : '' });
+          tbl.appendChild(
+            el('div', { className: `pat-row${bad ? ' bad' : ''}` }, [
+              el('div', null, [
+                el('div', { className: 'pat-cell-label', text: 'Rhyme' }),
+                el('div', { className: 'pat-rhyme', text: rhyme || 'X' })
+              ]),
+              el('div', null, [
+                el('div', { className: 'pat-cell-label', text: 'Stresses' }),
+                el('div', { className: 'pat-stress', text: stress || '—' })
+              ]),
+              el('div', null, [
+                el('div', { className: 'pat-cell-label', text: 'Line' }),
+                lineNode
+              ])
+            ])
+          );
+        });
+        return tbl;
+      }
+
+      function renderEngineHuman(data) {
+        const exId = data && data.exercise_id ? data.exercise_id : '';
+        const result = (data && data.result) ? data.result : null;
+        const req = (data && data._request && typeof data._request === 'object') ? data._request : null;
+        if (!data || data.success !== true) {
+          return el('div', null, [
+            el('div', { className: 'pill bad', text: 'Error' }),
+            el('div', { style: 'margin-top:8px; white-space:pre-wrap;' }, [String((data && data.error) ? data.error : 'Unknown error')])
+          ]);
+        }
+
+        if (exId === 'ch4_rhyme_classify') {
+          const t = result && result.pattison_type ? String(result.pattison_type) : '';
+          const st = result && result.pattison_stability !== undefined ? String(result.pattison_stability) : '';
+          const w1 = result && result.word1 ? String(result.word1) : '';
+          const w2 = result && result.word2 ? String(result.word2) : '';
+          const exp = result && result.explanation ? String(result.explanation) : '';
+          return el('div', null, [
+            el('div', { className: 'pill', text: `${w1} / ${w2}` }),
+            el('div', { style: 'margin-top:8px; display:flex; gap:10px; flex-wrap:wrap;' }, [
+              el('div', { className: 'pill', text: `Type: ${t || '—'}` }),
+              el('div', { className: 'pill', text: `Stability: ${st || '—'}` }),
+            ]),
+            el('div', { style: 'margin-top:10px; white-space:pre-wrap;' , text: exp || '' })
+          ]);
+        }
+
+        if (exId === 'ch14_stress_count') {
+          const line = result && result.line ? String(result.line) : '';
+          const n = result && result.primary_stress_count !== undefined ? String(result.primary_stress_count) : '';
+          return el('div', null, [
+            el('div', { className: 'pill', text: `Primary stresses: ${n || '—'}` }),
+            el('div', { style: 'margin-top:10px;' }, [
+              el('div', { className: 'pat-row' }, [
+                el('div', null, [el('div', { className: 'pat-cell-label', text: 'Rhyme' }), el('div', { className: 'pat-rhyme', text: '—' })]),
+                el('div', null, [el('div', { className: 'pat-cell-label', text: 'Stresses' }), el('div', { className: 'pat-stress', text: n || '—' })]),
+                el('div', null, [el('div', { className: 'pat-cell-label', text: 'Line' }), el('div', { className: 'pat-line', text: line })])
+              ])
+            ])
+          ]);
+        }
+
+        if (exId === 'ch14_common_meter_check') {
+          const counts = result && Array.isArray(result.line_stress_counts) ? result.line_stress_counts : [];
+          const ok = !!(result && result.is_common_meter);
+          const pillClass = ok ? 'pill good' : 'pill bad';
+          const inputLines = req && Array.isArray(req.lines) ? req.lines : [];
+          const rows = inputLines.map((t, i) => ({
+            rhyme: '—',
+            stresses: (i < counts.length ? counts[i] : ''),
+            text: String(t || '')
+          }));
+          return el('div', null, [
+            el('div', { className: pillClass, text: ok ? 'Common meter: PASS (4-3-4-3-ish)' : 'Common meter: FAIL' }),
+            el('div', { style: 'margin-top:10px; white-space:pre-wrap;', text: `Stress counts: ${counts.join('-')}` }),
+            rows.length ? renderPatTableFromRows(rows, { schemeKey: 'rhyme', stressKey: 'stresses', lineKey: 'text' }) : null
+          ]);
+        }
+
+        if (exId === 'ch19_pattern_drill') {
+          const scheme = result && result.rhyme_scheme ? String(result.rhyme_scheme) : '';
+          const raw = result && result.raw_rhyme_scheme ? String(result.raw_rhyme_scheme) : '';
+          const lines = result && Array.isArray(result.lines) ? result.lines : [];
+          const rows = lines.map((lr, idx) => {
+            const text = lr && lr.text ? String(lr.text) : '';
+            const stresses = lr && lr.primary_stress_count !== undefined ? lr.primary_stress_count : '';
+            return {
+              rhyme: schemeChar(scheme, idx) || schemeChar(raw, idx) || 'X',
+              stresses,
+              text
+            };
+          });
+          return el('div', null, [
+            el('div', { style: 'display:flex; gap:10px; flex-wrap:wrap;' }, [
+              el('div', { className: 'pill', text: `Scheme: ${scheme || '—'}` }),
+              el('div', { className: 'pill', text: `Raw: ${raw || '—'}` })
+            ]),
+            renderPatTableFromRows(rows, { schemeKey: 'rhyme', stressKey: 'stresses', lineKey: 'text' })
+          ]);
+        }
+
+        if (exId === 'ch19_comprehensive_section_readout') {
+          const schemes = result && result.schemes ? result.schemes : {};
+          const table = result && Array.isArray(result.patbook_style_table) ? result.patbook_style_table : [];
+          const pairs = result && Array.isArray(result.pairwise_end_rhymes) ? result.pairwise_end_rhymes : [];
+          const report = result && result.report_markdown ? String(result.report_markdown) : '';
+          const perLineRender = result && Array.isArray(result.per_line_render) ? result.per_line_render : [];
+
+          // Helper to render a line with bold stressed words and highlighted end word
+          function renderLineWithHighlights(lineRender) {
+            const text = lineRender.text || '';
+            const spans = Array.isArray(lineRender.stress_spans) ? lineRender.stress_spans : [];
+            const endSpan = lineRender.end_word_span;
+            const fragments = [];
+            let pos = 0;
+            spans.forEach((sp) => {
+              // Add text before this span
+              if (sp.start > pos) fragments.push(document.createTextNode(text.substring(pos, sp.start)));
+              // Render the token
+              let node = document.createTextNode(sp.text);
+              if (sp.is_word && sp.has_primary_stress) {
+                node = el('strong', {}, [node]);
+              }
+              // Highlight end word
+              if (endSpan && sp.start === endSpan.start && sp.end === endSpan.end) {
+                node = el('span', { style: 'background:#ffeb3b; padding:1px 2px; border-radius:2px;' }, [node]);
+              }
+              fragments.push(node);
+              pos = sp.end;
+            });
+            if (pos < text.length) fragments.push(document.createTextNode(text.substring(pos)));
+            return el('div', { className: 'pat-line' }, fragments);
+          }
+
+          const rows = table.map((r, i) => {
+            const lineRender = perLineRender[i];
+            return {
+              rhyme: r.rhyme_structural || r.rhyme_raw || 'X',
+              stresses: r.stresses,
+              text: '',
+              customLineRender: lineRender ? renderLineWithHighlights(lineRender) : el('div', { className: 'pat-line', text: r.text })
+            };
+          });
+
+          const schemeRow = el('div', { style: 'display:flex; gap:10px; flex-wrap:wrap;' }, []);
+          ['default', 'perfect_only', 'perfect_or_family'].forEach((k) => {
+            const obj = schemes && schemes[k] ? schemes[k] : null;
+            const s = obj && obj.structural ? String(obj.structural) : '';
+            schemeRow.appendChild(el('div', { className: 'pill', text: `${k}: ${s || '—'}` }));
+          });
+
+          const pairList = el('div', null, []);
+          if (pairs.length) {
+            pairList.appendChild(el('div', { style: 'margin-top:12px; font-weight:900;', text: 'End-word rhyme classifications' }));
+            const filteredPairs = pairs.filter(p => p.pattison_type !== 'none');
+            filteredPairs.slice(0, 24).forEach((p) => {
+              const l1 = p.line1;
+              const l2 = p.line2;
+              const w1 = p.word1;
+              const w2 = p.word2;
+              const t = p.pattison_type;
+              const st = p.pattison_stability;
+              pairList.appendChild(el('div', { style: 'margin-top:6px; white-space:pre-wrap;' , text: `L${l1}-${l2}: ${w1} / ${w2} -> ${t} (${st})` }));
+            });
+            if (filteredPairs.length > 24) pairList.appendChild(el('div', { style: 'margin-top:6px; color:#6f675c;', text: `… plus ${filteredPairs.length - 24} more (see Raw JSON)` }));
+            if (filteredPairs.length === 0) {
+              pairList.appendChild(el('div', { style: 'margin-top:6px; color:#6f675c;', text: 'No non‑“none” rhyme pairs found.' }));
+            }
+          }
+
+          const reportBlock = el('div', null, []);
+          if (report && report.trim()) {
+            reportBlock.appendChild(el('div', { style: 'margin-top:12px; font-weight:900;', text: 'Report (markdown)' }));
+            reportBlock.appendChild(el('pre', { className: 'output', style: 'margin-top:8px; max-height:260px;', text: report }));
+          }
+
+          return el('div', null, [
+            schemeRow,
+            renderPatTableFromRows(rows, { schemeKey: 'rhyme', stressKey: 'stresses', lineKey: 'text' }),
+            pairList,
+            reportBlock
+          ]);
+        }
+
+        if (exId === 'ch19_section_constraints_validator') {
+          const passed = !!(result && result.passed);
+          const pillClass = passed ? 'pill good' : 'pill bad';
+          const diag = result && result.diagnostics ? result.diagnostics : {};
+          const per = diag && Array.isArray(diag.per_line) ? diag.per_line : [];
+          const rows = per.map((p) => {
+            const rhyme = (p && p.scheme && p.scheme.actual) ? String(p.scheme.actual) : 'X';
+            const stresses = (p && p.stresses && p.stresses.actual !== undefined) ? p.stresses.actual : '';
+            const text = p && p.text ? String(p.text) : '';
+            return {
+              rhyme,
+              stresses,
+              text,
+              _bad: !((p && p.scheme && p.scheme.ok !== false) && (p && p.stresses && p.stresses.ok !== false))
+            };
+          });
+          const errs = [];
+          (diag.scheme_errors || []).forEach((e) => errs.push(String(e)));
+          (diag.stress_errors || []).forEach((e) => errs.push(String(e)));
+          return el('div', null, [
+            el('div', { className: pillClass, text: passed ? 'PASS: constraints satisfied' : 'FAIL: constraints not satisfied' }),
+            errs.length ? el('div', { style: 'margin-top:10px; white-space:pre-wrap;', text: errs.join('\n') }) : null,
+            renderPatTableFromRows(rows, { schemeKey: 'rhyme', stressKey: 'stresses', lineKey: 'text', extraBadFn: (r) => !!r._bad })
+          ]);
+        }
+
+        return el('div', { style: 'white-space:pre-wrap;' }, ['No renderer for this exercise yet. See Raw JSON (audit).']);
+      }
+
+      function renderBookHuman(out) {
+        const writing = out && out.writing ? String(out.writing) : '';
+        const val = out && out.validation ? out.validation : null;
+        const blocks = [];
+        if (writing && writing.trim()) {
+          blocks.push(el('div', { className: 'pill', text: 'Draft writing' }));
+          blocks.push(el('div', { style: 'margin-top:10px; white-space:pre-wrap; border:1px solid #efeae2; border-radius:12px; padding:10px; background:#fdfbf7;', text: writing }));
+        }
+        if (val) {
+          blocks.push(el('div', { style: 'margin-top:12px; font-weight:900;', text: 'Validation' }));
+          if (val.success && val.result) blocks.push(renderEngineHuman({ success: true, exercise_id: 'ch19_section_constraints_validator', result: val.result }));
+          else blocks.push(renderEngineHuman(val));
+        } else {
+          blocks.push(el('div', { style: 'color:#6f675c; margin-top:6px;', text: 'No validation run. Add a target scheme/stress pattern in the Structure validator section, then Run.' }));
+        }
+        return el('div', null, blocks);
+      }
+
+      function setRenderedOutput(rawObj) {
+        els.outputWrap.style.display = 'block';
+        clearOutput();
+        els.output.textContent = pretty(rawObj);
+        if (state.mode === 'engine') {
+          els.outputHuman.appendChild(renderEngineHuman(rawObj));
+          return;
+        }
+        els.outputHuman.appendChild(renderBookHuman(rawObj));
+      }
+
+      function clearTimer() {
+        if (state.timer.tick) {
+          clearInterval(state.timer.tick);
+          state.timer.tick = null;
+        }
+        state.timer.running = false;
+      }
+
+      function pickRandom(arr) {
+        if (!Array.isArray(arr) || !arr.length) return '';
+        return arr[Math.floor(Math.random() * arr.length)];
+      }
+
+      function normalizeExerciseId(ex) {
+        return ex && ex.exercise_id ? ex.exercise_id : (ex && ex.id ? ex.id : '');
+      }
+
+      function currentList() {
+        return state.mode === 'engine' ? state.engineExercises : state.bookExercises;
+      }
+
+      function renderList() {
+        const list = currentList();
+        els.list.innerHTML = '';
+
+        if (!list.length) {
+          els.leftNotice.style.display = 'block';
+          els.leftNotice.textContent = state.mode === 'engine'
+            ? 'No engine exercises found.'
+            : 'No book exercises found (book text missing or parser found none).';
+          return;
+        }
+
+        els.leftNotice.style.display = 'none';
+
+        list.forEach((ex) => {
+          const id = normalizeExerciseId(ex);
+          const item = document.createElement('div');
+          item.className = 'list-item' + ((state.selected && normalizeExerciseId(state.selected) === id) ? ' active' : '');
+
+          const title = document.createElement('div');
+          title.className = 'item-title';
+          title.textContent = state.mode === 'engine' ? (ex.title || id) : (ex.exercise_label || id);
+
+          const meta = document.createElement('div');
+          meta.className = 'item-meta';
+          if (state.mode === 'engine') {
+            meta.textContent = `Chapter ${ex.chapter || '?'} · ${id}`;
+          } else {
+            meta.textContent = `${ex.chapter || ''}${ex.chapter ? ' · ' : ''}${id}`;
+          }
+
+          item.appendChild(title);
+          item.appendChild(meta);
+
+          if (state.mode === 'book') {
+            const prev = document.createElement('div');
+            prev.className = 'item-preview';
+            prev.textContent = (ex.preview || '').trim();
+            item.appendChild(prev);
+          }
+
+          item.addEventListener('click', () => {
+            state.selected = ex;
+            els.outputWrap.style.display = 'none';
+            renderList();
+            renderDetail();
+            els.btnRun.disabled = false;
+            els.btnRegen.disabled = false;
+          });
+
+          els.list.appendChild(item);
+        });
+      }
+
+      function renderEngineDetail(ex) {
+        const id = normalizeExerciseId(ex);
+
+        const wrap = document.createElement('div');
+
+        const h = document.createElement('div');
+        h.className = 'detail-title';
+        h.textContent = ex.title || id;
+
+        const meta = document.createElement('div');
+        meta.className = 'detail-meta';
+        meta.textContent = `Chapter ${ex.chapter || '?'} · ${id}`;
+
+        const writeup = document.createElement('div');
+        writeup.className = 'detail-block';
+        writeup.innerHTML = `<div class="detail-block-title">What this exercise is (prompt + purpose)</div><div class="detail-block-body"></div>`;
+        writeup.querySelector('.detail-block-body').textContent = (ex.writeup || ex.prompt || '');
+
+        const presets = Array.isArray(ex.presets) ? ex.presets : [];
+        let presetsBlock = null;
+        if (presets.length) {
+          presetsBlock = document.createElement('div');
+          presetsBlock.className = 'detail-block';
+          presetsBlock.innerHTML = `<div class="detail-block-title">Canon presets</div>`;
+
+          const presetField = document.createElement('div');
+          presetField.className = 'field';
+
+          const presetLabel = document.createElement('label');
+          presetLabel.textContent = 'preset';
+
+          const presetHint = document.createElement('div');
+          presetHint.className = 'hint';
+          presetHint.textContent = 'Pick a canon example (from PatBook / Pattison canon) and load it into the inputs.';
+
+          const presetRow = document.createElement('div');
+          presetRow.style.display = 'flex';
+          presetRow.style.gap = '8px';
+
+          const presetSelect = document.createElement('select');
+          presetSelect.id = 'enginePresetSelect';
+          presetSelect.style.flex = '1';
+          presets.forEach((p, idx) => {
+            const opt = document.createElement('option');
+            opt.value = String(idx);
+            opt.textContent = (p && p.label) ? p.label : `Preset ${idx + 1}`;
+            presetSelect.appendChild(opt);
+          });
+
+          const btnLoad = document.createElement('button');
+          btnLoad.className = 'btn';
+          btnLoad.type = 'button';
+          btnLoad.textContent = 'Load';
+
+          const applyPreset = () => {
+            const idx = parseInt(presetSelect.value, 10);
+            const preset = Number.isFinite(idx) ? presets[idx] : null;
+            const presetInputs = preset && preset.inputs ? preset.inputs : null;
+            if (!presetInputs || typeof presetInputs !== 'object') return;
+
+            const inputs = Array.isArray(ex.inputs) ? ex.inputs : [];
+            inputs.forEach((name) => {
+              const el = document.getElementById(`input_${name}`);
+              if (!el) return;
+              const v = presetInputs[name];
+              if (v === undefined || v === null) return;
+              if (name === 'lines') {
+                if (Array.isArray(v)) {
+                  el.value = v.join('\n');
+                } else {
+                  el.value = String(v);
+                }
+                return;
+              }
+              el.value = String(v);
+            });
+          };
+
+          btnLoad.addEventListener('click', applyPreset);
+
+          presetRow.appendChild(presetSelect);
+          presetRow.appendChild(btnLoad);
+
+          presetField.appendChild(presetLabel);
+          presetField.appendChild(presetHint);
+          presetField.appendChild(presetRow);
+
+          presetsBlock.appendChild(presetField);
+        }
+
+        const form = document.createElement('div');
+        form.className = 'detail-block';
+        form.innerHTML = `<div class="detail-block-title">Inputs</div>`;
+
+        const inputs = Array.isArray(ex.inputs) ? ex.inputs : [];
+        inputs.forEach((name) => {
+          const field = document.createElement('div');
+          field.className = 'field';
+
+          const label = document.createElement('label');
+          label.textContent = name;
+
+          const hint = document.createElement('div');
+          hint.className = 'hint';
+          hint.textContent = (ex.input_hints && ex.input_hints[name]) ? ex.input_hints[name] : '';
+
+          let control;
+          if (name === 'lines') {
+            control = document.createElement('textarea');
+            control.placeholder = 'Enter one line per row';
+            control.rows = 6;
+          } else {
+            control = document.createElement('input');
+            control.type = 'text';
+            control.placeholder = (ex.input_placeholders && ex.input_placeholders[name]) ? ex.input_placeholders[name] : '';
+          }
+          control.id = `input_${name}`;
+
+          field.appendChild(label);
+          if (hint.textContent) field.appendChild(hint);
+          field.appendChild(control);
+          form.appendChild(field);
+        });
+
+        const note = document.createElement('div');
+        note.className = 'notice';
+        note.textContent = 'Run executes the engine deterministically. Regen randomizes suggested inputs/placeholders to help you explore quickly.';
+
+        wrap.appendChild(h);
+        wrap.appendChild(meta);
+        wrap.appendChild(writeup);
+        if (presetsBlock) wrap.appendChild(presetsBlock);
+        wrap.appendChild(form);
+        wrap.appendChild(note);
+
+        return wrap;
+      }
+
+      function renderBookDetail(ex) {
+        const wrap = document.createElement('div');
+
+        const h = document.createElement('div');
+        h.className = 'detail-title';
+        h.textContent = ex.exercise_label || ex.id;
+
+        const meta = document.createElement('div');
+        meta.className = 'detail-meta';
+        meta.textContent = `${ex.chapter || ''}${ex.chapter ? ' · ' : ''}${ex.id}`;
+
+        const prompt = document.createElement('div');
+        prompt.className = 'detail-block';
+        prompt.innerHTML = `<div class="detail-block-title">Original Prompt (from the book)</div><div class="detail-block-body" id="bookPrompt"></div>`;
+        prompt.querySelector('#bookPrompt').textContent = (ex.prompt_text || '').trim();
+
+        const starter = document.createElement('div');
+        starter.className = 'detail-block';
+        starter.innerHTML = `<div class="detail-block-title">Starter word (optional)</div>`;
+        const starterField = document.createElement('div');
+        starterField.className = 'field';
+        starterField.innerHTML = `<label>starter_word</label><div class="hint">If the book prompt includes a starter word (e.g. “puddle”), you can override it here for a fresh run.</div>`;
+        const starterInput = document.createElement('input');
+        starterInput.type = 'text';
+        starterInput.id = 'bookStarterWord';
+        starterInput.placeholder = ex.starter_word || 'e.g. puddle';
+        starterInput.value = ex.starter_word || '';
+        starterField.appendChild(starterInput);
+        starter.appendChild(starterField);
+
+        const suggestions = Array.isArray(ex.starter_suggestions) ? ex.starter_suggestions : [];
+        if (suggestions.length) {
+          const suggField = document.createElement('div');
+          suggField.className = 'field';
+
+          const suggLabel = document.createElement('label');
+          suggLabel.textContent = 'starter_suggestions';
+
+          const suggHint = document.createElement('div');
+          suggHint.className = 'hint';
+          suggHint.textContent = 'Canon suggestions derived from the book prompt (click to load).';
+
+          const row = document.createElement('div');
+          row.style.display = 'flex';
+          row.style.flexWrap = 'wrap';
+          row.style.gap = '8px';
+
+          suggestions.slice(0, 12).forEach((s) => {
+            const b = document.createElement('button');
+            b.type = 'button';
+            b.className = 'btn';
+            b.textContent = s;
+            b.addEventListener('click', () => {
+              const el = document.getElementById('bookStarterWord');
+              if (el) el.value = s;
+            });
+            row.appendChild(b);
+          });
+
+          suggField.appendChild(suggLabel);
+          suggField.appendChild(suggHint);
+          suggField.appendChild(row);
+          starter.appendChild(suggField);
+        }
+
+        const writing = document.createElement('div');
+        writing.className = 'detail-block';
+        writing.innerHTML = `<div class="detail-block-title">Your writing area</div>`;
+        const wField = document.createElement('div');
+        wField.className = 'field';
+        wField.innerHTML = `<label>notes</label><div class="hint">Write your response here. For timed drills, hit Start Timer and write until it ends.</div>`;
+        const wArea = document.createElement('textarea');
+        wArea.id = 'bookWriting';
+        wArea.placeholder = 'Write here…';
+        wArea.rows = 10;
+        wField.appendChild(wArea);
+        writing.appendChild(wField);
+
+        const validator = document.createElement('div');
+        validator.className = 'detail-block';
+        validator.innerHTML = `<div class="detail-block-title">Structure validator (optional)</div>`;
+
+        const promptText = (ex.prompt_text || '').toString();
+        const rawSchemeMatches = (promptText.match(/\b[ABCDX]{3,12}\b/g) || []).map((s) => (s || '').toUpperCase());
+        const schemeMatches = [];
+        rawSchemeMatches.forEach((m) => {
+          const mm = (m || '').trim();
+          if (!mm) return;
+          const hasRepeat = /(.).*\1/.test(mm);
+          if (mm.length < 4 && !hasRepeat && !mm.includes('X')) return;
+          if (!schemeMatches.includes(mm)) schemeMatches.push(mm);
+        });
+        const stressMatches = [];
+        (promptText.match(/\b\d+(?:-\d+){1,11}\b/g) || []).forEach((m) => {
+          const mm = (m || '').trim();
+          if (!mm) return;
+          if (!stressMatches.includes(mm)) stressMatches.push(mm);
+        });
+
+        const vLinesField = document.createElement('div');
+        vLinesField.className = 'field';
+        vLinesField.innerHTML = `<label>lines_to_validate</label><div class="hint">Paste the lines you want to validate (one line per row). If blank, Run will use the writing area above.</div>`;
+        const vLines = document.createElement('textarea');
+        vLines.id = 'bookLinesToValidate';
+        vLines.rows = 6;
+        vLines.placeholder = 'Line 1\nLine 2\nLine 3\nLine 4';
+        vLinesField.appendChild(vLines);
+        validator.appendChild(vLinesField);
+
+        const vSchemeField = document.createElement('div');
+        vSchemeField.className = 'field';
+        vSchemeField.innerHTML = `<label>target_scheme</label><div class="hint">Optional. e.g. ABAB, XAXA, AABAAB. Use X for unrhymed lines.</div>`;
+        const vScheme = document.createElement('input');
+        vScheme.type = 'text';
+        vScheme.id = 'bookTargetScheme';
+        vScheme.placeholder = schemeMatches.length ? schemeMatches[0] : 'e.g. ABAB';
+        if (schemeMatches.length === 1) vScheme.value = schemeMatches[0];
+        vSchemeField.appendChild(vScheme);
+        if (schemeMatches.length) {
+          const row = document.createElement('div');
+          row.style.display = 'flex';
+          row.style.flexWrap = 'wrap';
+          row.style.gap = '8px';
+          schemeMatches.slice(0, 10).forEach((s) => {
+            const b = document.createElement('button');
+            b.type = 'button';
+            b.className = 'btn';
+            b.textContent = s;
+            b.addEventListener('click', () => {
+              const el = document.getElementById('bookTargetScheme');
+              if (el) el.value = s;
+            });
+            row.appendChild(b);
+          });
+          vSchemeField.appendChild(row);
+        }
+        validator.appendChild(vSchemeField);
+
+        const vStressField = document.createElement('div');
+        vStressField.className = 'field';
+        vStressField.innerHTML = `<label>target_stresses</label><div class="hint">Optional. Hyphen-separated stress counts, e.g. 4-3-4-3.</div>`;
+        const vStress = document.createElement('input');
+        vStress.type = 'text';
+        vStress.id = 'bookTargetStresses';
+        vStress.placeholder = stressMatches.length ? stressMatches[0] : 'e.g. 4-3-4-3';
+        if (stressMatches.length === 1) vStress.value = stressMatches[0];
+        vStressField.appendChild(vStress);
+        if (stressMatches.length) {
+          const row = document.createElement('div');
+          row.style.display = 'flex';
+          row.style.flexWrap = 'wrap';
+          row.style.gap = '8px';
+          stressMatches.slice(0, 8).forEach((s) => {
+            const b = document.createElement('button');
+            b.type = 'button';
+            b.className = 'btn';
+            b.textContent = s;
+            b.addEventListener('click', () => {
+              const el = document.getElementById('bookTargetStresses');
+              if (el) el.value = s;
+            });
+            row.appendChild(b);
+          });
+          vStressField.appendChild(row);
+        }
+        validator.appendChild(vStressField);
+
+        const vModeField = document.createElement('div');
+        vModeField.className = 'field';
+        vModeField.innerHTML = `<label>scheme_mode</label><div class="hint">Optional. default, perfect_only, perfect_or_family.</div>`;
+        const vMode = document.createElement('input');
+        vMode.type = 'text';
+        vMode.id = 'bookSchemeMode';
+        vMode.placeholder = 'default';
+        vMode.value = 'default';
+        vModeField.appendChild(vMode);
+        validator.appendChild(vModeField);
+
+        const vConsField = document.createElement('div');
+        vConsField.className = 'field';
+        vConsField.innerHTML = `<label>include_consonance_in_scheme</label><div class="hint">Optional. Only affects scheme_mode=default. true/false.</div>`;
+        const vCons = document.createElement('input');
+        vCons.type = 'text';
+        vCons.id = 'bookIncludeConsonanceInScheme';
+        vCons.placeholder = 'false';
+        vCons.value = 'false';
+        vConsField.appendChild(vCons);
+        validator.appendChild(vConsField);
+
+        const timer = document.createElement('div');
+        timer.className = 'detail-block';
+        timer.innerHTML = `<div class="detail-block-title">Timer</div>`;
+
+        const timerRow = document.createElement('div');
+        timerRow.className = 'timer-row';
+
+        const pill = document.createElement('div');
+        pill.className = 'timer-pill';
+        pill.innerHTML = `<span id="timerValue">10:00</span><span class="timer-muted" id="timerState">ready</span>`;
+
+        const btnStart = document.createElement('button');
+        btnStart.className = 'btn primary';
+        btnStart.type = 'button';
+        btnStart.textContent = 'Start Timer (10m)';
+
+        const btnStop = document.createElement('button');
+        btnStop.className = 'btn';
+        btnStop.type = 'button';
+        btnStop.textContent = 'Stop';
+
+        btnStart.addEventListener('click', () => {
+          clearTimer();
+          state.timer.running = true;
+          state.timer.startTs = Date.now();
+          state.timer.durationSec = 600;
+          const tick = () => {
+            const elapsed = Math.floor((Date.now() - state.timer.startTs) / 1000);
+            const remain = Math.max(0, state.timer.durationSec - elapsed);
+            const mm = String(Math.floor(remain / 60)).padStart(2, '0');
+            const ss = String(remain % 60).padStart(2, '0');
+            const tv = document.getElementById('timerValue');
+            const ts = document.getElementById('timerState');
+            if (tv) tv.textContent = `${mm}:${ss}`;
+            if (ts) ts.textContent = remain > 0 ? 'running' : 'done';
+            if (remain <= 0) {
+              clearTimer();
+            }
+          };
+          tick();
+          state.timer.tick = setInterval(tick, 250);
+        });
+
+        btnStop.addEventListener('click', () => {
+          clearTimer();
+          const ts = document.getElementById('timerState');
+          if (ts) ts.textContent = 'stopped';
+        });
+
+        timerRow.appendChild(pill);
+        timerRow.appendChild(btnStart);
+        timerRow.appendChild(btnStop);
+        timer.appendChild(timerRow);
+
+        const note = document.createElement('div');
+        note.className = 'notice';
+        note.textContent = 'Run saves nothing server-side. Use Notes drawer if you want to capture results. Regen changes starter word suggestions.';
+
+        wrap.appendChild(h);
+        wrap.appendChild(meta);
+        wrap.appendChild(prompt);
+        wrap.appendChild(starter);
+        wrap.appendChild(writing);
+        wrap.appendChild(validator);
+        wrap.appendChild(timer);
+        wrap.appendChild(note);
+
+        return wrap;
+      }
+
+      async function fetchJSON(url, opts) {
+        const resp = await fetch(url, Object.assign({ cache: 'no-store' }, opts || {}));
+        let data = null;
+        try { data = await resp.json(); } catch (e) {}
+        if (!resp.ok) {
+          const msg = (data && data.error) ? data.error : `HTTP ${resp.status}`;
+          throw new Error(msg);
+        }
+        return data;
+      }
+
+      async function loadEngineExercises() {
+        const data = await fetchJSON('/api/pattison/exercises');
+        const list = (data && data.exercises) ? data.exercises : [];
+        state.engineExercises = Array.isArray(list) ? list : [];
+      }
+
+      async function loadBookList() {
+        const data = await fetchJSON('/api/pattison/book-exercises');
+        const list = (data && data.exercises) ? data.exercises : [];
+        state.bookExercises = Array.isArray(list) ? list : [];
+      }
+
+      async function loadBookExercise(exId) {
+        const data = await fetchJSON(`/api/pattison/book-exercises/${encodeURIComponent(exId)}`);
+        if (data && data.exercise) return data.exercise;
+        return null;
+      }
+
+      function renderDetail() {
+        clearTimer();
+        els.detail.innerHTML = '';
+        if (!state.selected) {
+          const msg = document.createElement('div');
+          msg.className = 'notice';
+          msg.textContent = state.mode === 'engine'
+            ? 'Select an Engine exercise to run it.'
+            : 'Select a Book exercise to view the original prompt and run it as a writing drill.';
+          els.detail.appendChild(msg);
+          return;
+        }
+
+        if (state.mode === 'engine') {
+          els.detail.appendChild(renderEngineDetail(state.selected));
+          return;
+        }
+
+        const placeholder = document.createElement('div');
+        placeholder.className = 'notice';
+        placeholder.textContent = 'Loading…';
+        els.detail.appendChild(placeholder);
+
+        const id = normalizeExerciseId(state.selected);
+        loadBookExercise(id).then((full) => {
+          if (!full) {
+            placeholder.textContent = 'Unable to load exercise.';
+            return;
+          }
+          state.selected = full;
+          els.detail.innerHTML = '';
+          els.detail.appendChild(renderBookDetail(full));
+        }).catch((e) => {
+          placeholder.textContent = `Unable to load exercise: ${e && e.message ? e.message : 'error'}`;
+        });
+      }
+
+      function gatherEnginePayload(ex) {
+        const payload = { action: 'solve' };
+        const inputs = Array.isArray(ex.inputs) ? ex.inputs : [];
+        inputs.forEach((name) => {
+          const el = document.getElementById(`input_${name}`);
+          if (!el) return;
+          if (name === 'lines') {
+            const raw = (el.value || '').toString();
+            const lines = raw.split(/\r?\n/).map((s) => (s || '').trim()).filter(Boolean);
+            payload.lines = lines;
+          } else {
+            payload[name] = (el.value || '').toString();
+          }
+        });
+        return payload;
+      }
+
+      function applyEngineRegen(ex) {
+        const id = normalizeExerciseId(ex);
+
+        const hints = {
+          word: ['love', 'time', 'fire', 'dream', 'night', 'light', 'gone'],
+          word1: ['fun', 'rub', 'love', 'strum', 'safe', 'drum'],
+          word2: ['sun', 'up', 'buzz', 'run', 'waif', 'hum'],
+          line: ['Mary had a little lamb', 'Its fleece was white as snow', 'And everywhere that Mary went'],
+          lines: [
+            ['Mary had a little lamb', 'Its fleece was white as snow', 'And everywhere that Mary went', 'The lamb was sure to go'],
+            ['I hitched to Tulsa worn and soaked', 'I stopped to get a bite', 'The waitress stared before she spoke', "Then asked me what I'd like"],
+            ['I heard a fly buzz when I died,', 'The stillness in the room', 'Was like the stillness in the air', 'Between the heaves of storm.']
+          ]
+        };
+
+        if (id === 'ch4_rhyme_classify') {
+          const a = pickRandom(hints.word1);
+          const b = pickRandom(hints.word2);
+          const el1 = document.getElementById('input_word1');
+          const el2 = document.getElementById('input_word2');
+          if (el1) el1.value = a;
+          if (el2) el2.value = b;
+        }
+
+        if (id === 'ch14_stress_count') {
+          const el = document.getElementById('input_line');
+          if (el) el.value = pickRandom(hints.line);
+        }
+
+        if (id === 'ch14_common_meter_check') {
+          const el = document.getElementById('input_lines');
+          const pick = pickRandom(hints.lines);
+          if (el && Array.isArray(pick)) el.value = pick.join('\n');
+        }
+
+        if (id === 'ch19_pattern_drill') {
+          const el = document.getElementById('input_lines');
+          const pick = pickRandom(hints.lines);
+          if (el && Array.isArray(pick)) el.value = pick.join('\n');
+        }
+
+        if (id === 'ch19_comprehensive_section_readout') {
+          const el = document.getElementById('input_lines');
+          const pick = pickRandom(hints.lines);
+          if (el && Array.isArray(pick)) el.value = pick.join('\n');
+
+          const flag = document.getElementById('input_include_consonance_in_scheme');
+          if (flag) flag.value = 'false';
+        }
+      }
+
+      function applyBookRegen(ex) {
+        const suggestions = Array.isArray(ex && ex.starter_suggestions) ? ex.starter_suggestions : [];
+        const starterBank = suggestions.length ? suggestions : [
+          'puddle', 'pepper', 'mirror', 'cigarette', 'coffee', 'rust', 'lilac', 'aluminum',
+          'wool', 'neon', 'train', 'thunder', 'suitcase', 'blood orange', 'streetlight', 'velvet'
+        ];
+        const el = document.getElementById('bookStarterWord');
+        if (el) el.value = pickRandom(starterBank);
+      }
+
+      async function handleRun() {
+        if (!state.selected) return;
+
+        els.outputWrap.style.display = 'block';
+        clearOutput();
+        els.outputHuman.textContent = 'Running…';
+
+        try {
+          if (state.mode === 'engine') {
+            const exId = normalizeExerciseId(state.selected);
+            const payload = gatherEnginePayload(state.selected);
+            const data = await fetchJSON(`/api/pattison/exercise/${encodeURIComponent(exId)}`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(payload)
+            });
+            setRenderedOutput(Object.assign({}, data || {}, { _request: payload }));
+            return;
+          }
+
+          const starter = document.getElementById('bookStarterWord');
+          const writing = document.getElementById('bookWriting');
+          const vLinesEl = document.getElementById('bookLinesToValidate');
+          const vSchemeEl = document.getElementById('bookTargetScheme');
+          const vStressEl = document.getElementById('bookTargetStresses');
+          const vModeEl = document.getElementById('bookSchemeMode');
+          const vConsEl = document.getElementById('bookIncludeConsonanceInScheme');
+
+          const targetScheme = vSchemeEl ? (vSchemeEl.value || '').trim() : '';
+          const targetStresses = vStressEl ? (vStressEl.value || '').trim() : '';
+          const schemeMode = vModeEl ? (vModeEl.value || '').trim() : '';
+          const includeConsonance = vConsEl ? (vConsEl.value || '').trim() : '';
+
+          const rawLines = vLinesEl && (vLinesEl.value || '').trim()
+            ? (vLinesEl.value || '')
+            : (writing ? (writing.value || '') : '');
+          const lines = rawLines.split(/\r?\n/).map((s) => (s || '').trim()).filter(Boolean);
+
+          const out = {
+            success: true,
+            mode: 'book',
+            exercise: {
+              id: normalizeExerciseId(state.selected),
+              exercise_label: state.selected.exercise_label,
+              chapter: state.selected.chapter,
+              starter_word: starter ? (starter.value || '').trim() : '',
+            },
+            writing: writing ? (writing.value || '') : ''
+          };
+
+          if ((targetScheme || targetStresses) && lines.length) {
+            const payload = {
+              action: 'solve',
+              lines: lines,
+              target_scheme: targetScheme,
+              target_stresses: targetStresses,
+              scheme_mode: schemeMode,
+              include_consonance_in_scheme: includeConsonance,
+            };
+            const data = await fetchJSON('/api/pattison/exercise/ch19_section_constraints_validator', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(payload)
+            });
+            out.validation = data;
+          }
+          setRenderedOutput(out);
+        } catch (e) {
+          setRenderedOutput({ success: false, error: e && e.message ? e.message : String(e) });
+        }
+      }
+
+      function handleRegen() {
+        if (!state.selected) return;
+        if (state.mode === 'engine') {
+          applyEngineRegen(state.selected);
+          return;
+        }
+        applyBookRegen(state.selected);
+      }
+
+      async function boot() {
+        try {
+          await loadEngineExercises();
+        } catch (e) {
+          state.engineExercises = [];
+        }
+
+        try {
+          await loadBookList();
+        } catch (e) {
+          state.bookExercises = [];
+        }
+
+        renderList();
+        renderDetail();
+      }
+
+      els.tabEngine.addEventListener('click', () => setTab('engine'));
+      els.tabBook.addEventListener('click', () => setTab('book'));
+      els.btnRun.addEventListener('click', handleRun);
+      els.btnRegen.addEventListener('click', handleRegen);
+
+      boot();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,2009 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songsmith v5.2 - Ultra-Granular</title>
+    <script>
+        // CRITICAL: Emergency Cleanup for QuotaExceededError
+        // This runs immediately to kill any rogue Service Workers
+        (async function() {
+            console.log('Starting emergency cleanup...');
+            try {
+                if ('serviceWorker' in navigator) {
+                    const registrations = await navigator.serviceWorker.getRegistrations();
+                    for(let registration of registrations) {
+                        console.log('Force unregistering SW:', registration);
+                        await registration.unregister();
+                    }
+                }
+                if ('caches' in window) {
+                    const keys = await caches.keys();
+                    for(const key of keys) {
+                        console.log('Deleting cache:', key);
+                        await caches.delete(key);
+                    }
+                }
+                console.log('Cleanup complete.');
+            } catch(e) {
+                console.error('Cleanup failed:', e);
+            }
+        })();
+    </script>
+    <script defer src="/global-nav.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+            background: #f6f4ee;
+            color: #1c1c1e;
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(246, 244, 238, 0.95);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            border-bottom: 0.5px solid rgba(0,0,0,0.08);
+            padding: 12px 16px;
+        }
+        
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        
+        .hamburger-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 4px;
+            color: #1c1c1e;
+        }
+        
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 0;
+            flex-shrink: 0;
+        }
+        
+        .search-container {
+            position: relative;
+            flex: 1;
+            max-width: 600px;
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: 10px 16px 10px 36px;
+            background: rgba(255,255,255,0.9);
+            border: none;
+            border-radius: 10px;
+            font-size: 15px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        }
+        
+        .search-input:focus {
+            outline: none;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .search-icon {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #8e8e93;
+            font-size: 16px;
+        }
+        
+        .results-count {
+            font-size: 13px;
+            color: #8e8e93;
+            white-space: nowrap;
+        }
+        
+        .layout {
+            display: flex;
+            height: calc(100vh - 65px); /* Header height approx */
+            overflow: hidden;
+        }
+
+        .sidebar {
+            width: 260px;
+            background: white;
+            border-right: 1px solid #e5e5ea;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            flex-shrink: 0;
+            padding: 16px;
+        }
+
+        .sidebar-section {
+            margin-bottom: 24px;
+        }
+
+        .sidebar-title {
+            font-size: 12px;
+            font-weight: 700;
+            color: #8e8e93;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+            padding-left: 8px;
+        }
+
+        .filter-item {
+            padding: 8px 12px;
+            margin-bottom: 4px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            color: #1c1c1e;
+            transition: background 0.15s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .filter-item:hover {
+            background: #f2f2f7;
+        }
+
+        .filter-item.active {
+            background: #e3f2fd;
+            color: #1565c0;
+            font-weight: 500;
+        }
+        
+        .filter-count {
+            font-size: 12px;
+            color: #8e8e93;
+            background: #f2f2f7;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        
+        .filter-item.active .filter-count {
+            background: rgba(255,255,255,0.5);
+            color: #1565c0;
+        }
+
+        .main-panel {
+            flex: 1;
+            overflow-y: auto;
+            padding: 24px;
+            position: relative;
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                display: none; /* TODO: Implement hamburger/drawer for mobile */
+            }
+        }
+
+        
+        .song-list.artist-chip-view {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            grid-template-columns: none;
+        }
+
+        .artist-chip {
+            display: inline-flex;
+            align-items: center;
+            background: white;
+            border: 1px solid #e5e5ea;
+            border-radius: 100px;
+            padding: 6px 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+            user-select: none;
+        }
+
+        .artist-chip:hover {
+            background: #f2f2f7;
+            border-color: #d1d1d6;
+            transform: translateY(-1px);
+        }
+
+        .artist-name {
+            font-weight: 600;
+            color: #1c1c1e;
+            font-size: 14px;
+            margin-right: 8px;
+        }
+
+        .artist-count {
+            font-size: 11px;
+            color: #636366;
+            background: #f2f2f7;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-weight: 500;
+        }
+
+        .load-more-btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background: #f2f2f7;
+            color: #007aff;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .load-more-btn:hover {
+            background: #e5e5ea;
+        }
+
+        .song-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .song-card {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        
+        .song-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        }
+        
+        .artist-card {
+            border-left: 4px solid #10b981; /* Emerald/Green accent for artists */
+        }
+        
+        .artist-card .song-title {
+            color: #059669;
+        }
+
+        .song-title {
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 4px;
+            color: #1c1c1e;
+        }
+        
+        .song-artist {
+            font-size: 14px;
+            color: #8e8e93;
+            margin-bottom: 12px;
+        }
+        
+        .song-meta {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+        
+        .meta-badge {
+            font-size: 11px;
+            padding: 4px 8px;
+            border-radius: 6px;
+            background: #f2f2f7;
+            color: #8e8e93;
+            font-weight: 500;
+        }
+        
+        .meta-badge.genome {
+            background: #e3f2fd;
+            color: #1976d2;
+        }
+        
+        .meta-badge.pattison {
+            background: #f3e5f5;
+            color: #7b1fa2;
+        }
+        
+        /* Song Detail View */
+        .detail-view {
+            display: none;
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .detail-view.active {
+            display: block;
+        }
+        
+        .back-button {
+            background: #f2f2f7;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        
+        .back-button:hover {
+            background: #e5e5ea;
+        }
+        
+        .detail-header {
+            margin-bottom: 24px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #f2f2f7;
+        }
+        
+        .detail-title {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #1c1c1e;
+        }
+        
+        .detail-artist {
+            font-size: 20px;
+            color: #8e8e93;
+            margin-bottom: 16px;
+        }
+        
+        .detail-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 12px;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 12px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+        
+        .stat-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: #667eea;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            color: #8e8e93;
+            margin-top: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        /* Pattison Section Styling */
+        .section-container {
+            margin-bottom: 32px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+        
+        .section-name {
+            font-size: 18px;
+            font-weight: 700;
+            color: #667eea;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .section-scheme {
+            font-family: monospace;
+            font-size: 11px;
+            color: #8e8e93;
+            background: white;
+            padding: 4px 8px;
+            border-radius: 6px;
+            max-width: 150px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            cursor: help;
+        }
+        
+        .lyrics-container {
+            line-height: 2;
+            font-size: 17px;
+            color: #1c1c1e;
+        }
+        
+        .lyric-line {
+            margin: 8px 0;
+            padding: 8px 12px;
+            border-radius: 8px;
+            transition: background 0.2s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .lyric-line:hover {
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .line-text {
+            flex: 1;
+        }
+        
+        .line-scheme {
+            font-family: monospace;
+            font-weight: bold;
+            color: #667eea;
+            width: 30px;
+            text-align: center;
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 4px;
+            padding: 2px 0;
+            margin-left: 10px;
+        }
+        
+        .line-stress {
+            font-family: monospace;
+            font-weight: bold;
+            color: #e53e3e;
+            width: 30px;
+            text-align: center;
+            background: rgba(229, 62, 62, 0.1);
+            border-radius: 4px;
+            padding: 2px 0;
+            margin-left: 10px;
+        }
+        
+        /* Rhyme Highlighting */
+        .end-word {
+            font-weight: 600;
+            padding: 2px 4px;
+            border-radius: 3px;
+            background: rgba(102, 126, 234, 0.1);
+            border-bottom: 2px solid #667eea;
+        }
+        
+        .internal-rhyme {
+            font-weight: 600;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        /* Color classes for internal rhymes - Softened for readability */
+        .internal-rhyme-0 { color: #c53030; background: rgba(229, 62, 62, 0.08); border-bottom: 2px solid rgba(229, 62, 62, 0.2); }
+        .internal-rhyme-1 { color: #c05621; background: rgba(221, 107, 32, 0.08); border-bottom: 2px solid rgba(221, 107, 32, 0.2); }
+        .internal-rhyme-2 { color: #b7791f; background: rgba(214, 158, 46, 0.08); border-bottom: 2px solid rgba(214, 158, 46, 0.2); }
+        .internal-rhyme-3 { color: #2f855a; background: rgba(56, 161, 105, 0.08); border-bottom: 2px solid rgba(56, 161, 105, 0.2); }
+        .internal-rhyme-4 { color: #2c7a7b; background: rgba(49, 151, 149, 0.08); border-bottom: 2px solid rgba(49, 151, 149, 0.2); }
+        .internal-rhyme-5 { color: #2b6cb0; background: rgba(49, 130, 206, 0.08); border-bottom: 2px solid rgba(49, 130, 206, 0.2); }
+        .internal-rhyme-6 { color: #6b46c1; background: rgba(128, 90, 213, 0.08); border-bottom: 2px solid rgba(128, 90, 213, 0.2); }
+        .internal-rhyme-7 { color: #b83280; background: rgba(213, 63, 140, 0.08); border-bottom: 2px solid rgba(213, 63, 140, 0.2); }
+        .internal-rhyme-8 { color: #0096c7; background: rgba(0, 181, 216, 0.08); border-bottom: 2px solid rgba(0, 181, 216, 0.2); }
+        .internal-rhyme-9 { color: #0087a3; background: rgba(0, 163, 196, 0.08); border-bottom: 2px solid rgba(0, 163, 196, 0.2); }
+        
+        .rhyme-pairs-section {
+            margin-top: 20px;
+            padding: 16px;
+            background: white;
+            border-radius: 8px;
+        }
+        
+        .rhyme-pairs-title {
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #1c1c1e;
+            font-size: 16px;
+        }
+        
+        .rhyme-pair {
+            padding: 8px 12px;
+            margin: 6px 0;
+            background: #f9f9f9;
+            border-radius: 6px;
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .rhyme-words {
+            font-weight: 600;
+            color: #667eea;
+        }
+        
+        .rhyme-badge {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: white;
+            margin-left: 8px;
+        }
+        
+        .rhyme-perfect { background: #48bb78; }
+        .rhyme-family { background: #4299e1; }
+        .rhyme-additive { background: #ed8936; }
+        .rhyme-subtractive { background: #ecc94b; color: #744210; }
+        .rhyme-assonance { background: #9f7aea; }
+        .rhyme-consonance { background: #ed64a6; }
+        .rhyme-unknown { background: #a0aec0; }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #8e8e93;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        /* ELI5 Genome Section */
+        .eli5-section {
+            margin-bottom: 32px;
+        }
+        
+        .eli5-header {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1e40af;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .eli5-plot-item {
+            margin: 16px 0;
+            padding: 16px;
+            background: #f9fafb;
+            border-radius: 8px;
+            border-left: 3px solid #60a5fa;
+        }
+        
+        .eli5-line-number {
+            font-size: 12px;
+            color: #3b82f6;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .eli5-lyric {
+            font-style: italic;
+            color: #374151;
+            margin-bottom: 12px;
+            font-size: 16px;
+            line-height: 1.6;
+            padding-left: 12px;
+            border-left: 3px solid #d1d5db;
+        }
+        
+        .eli5-explanation {
+            color: #1f2937;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+        
+        .eli5-metadata {
+            display: flex;
+            gap: 8px;
+            margin-top: 8px;
+            flex-wrap: wrap;
+        }
+        
+        .genome-tag {
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .tag-plot {
+            background: #e0f2fe;
+            color: #0369a1;
+            border: 1px solid #bae6fd;
+        }
+        
+        .tag-emotion {
+            background: #fdf2f8;
+            color: #be185d;
+            border: 1px solid #fbcfe8;
+        }
+        
+        .eli5-label {
+            font-weight: 700;
+            color: #1f2937;
+            margin-right: 4px;
+        }
+        
+        .eli5-toggle-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .eli5-toggle {
+            background: white;
+            color: #3b82f6;
+            border: 1px solid #3b82f6;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        
+        .eli5-toggle:hover {
+            background: #f0f9ff;
+        }
+        
+        .rhyme-toggle-icon.rotated {
+            transform: rotate(180deg);
+        }
+        
+        .eli5-repeats {
+            display: none;
+            margin-top: 20px;
+            border-top: 1px dashed #bfdbfe;
+            padding-top: 20px;
+        }
+        
+        .eli5-repeats.visible {
+            display: block;
+        }
+
+        .rhyme-pairs-section {
+            margin-top: 20px;
+            padding: 16px;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #e5e5ea;
+        }
+
+        .rhyme-pairs-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        .rhyme-pairs-title {
+            font-weight: 700;
+            color: #1c1c1e;
+            font-size: 16px;
+            margin: 0;
+        }
+        
+        .rhyme-toggle-icon {
+            font-size: 12px;
+            color: #8e8e93;
+            transition: transform 0.2s;
+        }
+        
+        .rhyme-pairs-content {
+            display: none;
+            margin-top: 12px;
+        }
+        
+        .rhyme-pairs-content.visible {
+            display: block;
+        }
+        
+        .rhyme-toggle-icon.rotated {
+            transform: rotate(180deg);
+        }
+
+        .eli5-toggle-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .eli5-toggle {
+            background: white;
+            color: #3b82f6;
+            border: 1px solid #3b82f6;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        
+        .eli5-toggle:hover {
+            background: #f0f9ff;
+        }
+        
+        .eli5-repeats {
+            display: none;
+            margin-top: 20px;
+            border-top: 1px dashed #bfdbfe;
+            padding-top: 20px;
+        }
+        
+        .eli5-repeats.visible {
+            display: block;
+        }
+
+        .rhyme-pairs-section {
+            margin-top: 20px;
+            padding: 16px;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #e5e5ea;
+        }
+
+        .rhyme-pairs-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        .rhyme-pairs-title {
+            font-weight: 700;
+            color: #1c1c1e;
+            font-size: 16px;
+            margin: 0;
+        }
+        
+        .rhyme-toggle-icon {
+            font-size: 12px;
+            color: #8e8e93;
+            transition: transform 0.2s;
+        }
+        
+        .rhyme-pairs-content {
+            display: none;
+            margin-top: 12px;
+        }
+        
+        .rhyme-pairs-content.visible {
+            display: block;
+        }
+        
+        /* Artist Profile Section */
+        .artist-section {
+            margin-bottom: 32px;
+            padding: 24px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            border-left: 4px solid #8b5cf6;
+        }
+
+        .artist-bio-text {
+            line-height: 1.7;
+            color: #2c2c2e;
+            font-size: 15px;
+            margin-bottom: 20px;
+            white-space: pre-wrap;
+        }
+        
+        .artist-meta-group {
+            margin-top: 16px;
+        }
+        
+        .artist-meta-label {
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #8e8e93;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+        
+        .chip-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .meta-chip {
+            padding: 6px 12px;
+            background: #f2f2f7;
+            border-radius: 16px;
+            font-size: 13px;
+            color: #1c1c1e;
+            font-weight: 500;
+        }
+        
+        .meta-chip.act {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .meta-chip.tag {
+            background: #f3f4f6;
+            color: #374151;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <button class="hamburger-btn" onclick="toggleSidebar()">☰</button>
+            <h1>Songsmith</h1>
+            <div class="search-container">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="searchInput" class="search-input" placeholder="Search 100k+ songs, artists, lyrics...">
+            </div>
+            <div class="results-count" id="resultsCount">Initializing...</div>
+        </div>
+    </header>
+    
+    <div class="sidebar-overlay" onclick="window.toggleSidebar()"></div>
+    
+    <div class="layout">
+        <aside class="sidebar" id="sidebar">
+            <!-- Filters -->
+            <div class="filter-section">
+                <div class="filter-title">DECADES</div>
+                <div id="decadeList">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <!-- DEBUG PANEL -->
+            <div style="margin: 20px; padding: 10px; background: #333; border: 1px solid #f00; font-family: monospace; font-size: 10px; color: #fff; word-break: break-all;">
+                <strong>DEBUG INFO</strong><br>
+                <div id="debugInfo">Initializing...</div>
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-title">GENRES</div>
+                <div id="categoryList">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-panel">
+            <div id="songList" class="song-list"></div>
+            <div id="detailView" class="detail-view"></div>
+            <div id="loading" class="loading hidden">Loading...</div>
+        </main>
+    </div>
+    
+    <script>
+        // CRITICAL: Emergency Cleanup for QuotaExceededError
+        // This runs before anything else to free up space
+        (async function() {
+            try {
+                if ('serviceWorker' in navigator) {
+                    const registrations = await navigator.serviceWorker.getRegistrations();
+                    for(let registration of registrations) {
+                        console.log('Force unregistering SW:', registration);
+                        await registration.unregister();
+                    }
+                }
+                if ('caches' in window) {
+                    const keys = await caches.keys();
+                    for(const key of keys) {
+                        console.log('Deleting cache:', key);
+                        await caches.delete(key);
+                    }
+                }
+            } catch(e) {
+                console.error('Cleanup failed:', e);
+            }
+        })();
+
+        // Define utility functions FIRST (before anything else)
+        window.escapeHtml = function(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        };
+        
+        window.escapeRegex = function(str) {
+            if (!str) return '';
+            return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        };
+        
+        // Global variables
+        window.allSongs = [];
+        window.filteredSongs = [];
+        window.currentSong = null;
+        window.activeFilters = {
+            status: null,
+            category: null,
+            decade: null,
+            artist: null
+        };
+        
+        let allSongs = window.allSongs;
+        let filteredSongs = window.filteredSongs;
+        let currentSong = window.currentSong;
+        let activeFilters = window.activeFilters;
+        window.viewMode = 'songs'; // 'songs' or 'artists'
+        let viewMode = window.viewMode;
+        
+        let searchDebounceTimer;
+
+        // R2 Configuration
+        const R2_BASE_URL = 'https://pub-53b5eb7528ba49eaaf533b48541508ae.r2.dev/genome_shards_v3';
+        
+        // IndexedDB removed - was causing QuotaExceededError and load failures
+
+        async function init() {
+            // CRITICAL: Unregister any existing Service Workers to prevent stale caching
+            if ('serviceWorker' in navigator) {
+                try {
+                    const registrations = await navigator.serviceWorker.getRegistrations();
+                    for(let registration of registrations) {
+                        await registration.unregister();
+                        console.log('Unregistered Service Worker:', registration);
+                    }
+                } catch(e) {
+                    console.error('SW Cleanup failed:', e);
+                }
+            }
+
+            await loadAllShards();
+            console.log('Initial load complete. executing search/filter...');
+            executeSearchAndFilter(); // This will populate sidebar counts AND render content
+            
+            document.getElementById('searchInput').addEventListener('input', (e) => {
+                clearTimeout(searchDebounceTimer);
+                searchDebounceTimer = setTimeout(() => {
+                    executeSearchAndFilter();
+                }, 300);
+            });
+
+            // Handle URL routing
+            window.addEventListener('hashchange', handleRouting);
+            handleRouting(); // Handle initial load
+        }
+        
+        function slugify(text) {
+            return text.toString().toLowerCase()
+                .replace(/\s+/g, '-')           // Replace spaces with -
+                .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
+                .replace(/\-\-+/g, '-')         // Replace multiple - with single -
+                .replace(/^-+/, '')             // Trim - from start
+                .replace(/-+$/, '');            // Trim - from end
+        }
+
+        function handleRouting() {
+            const hash = window.location.hash.slice(1); // Remove #
+            if (!hash) {
+                hideSongDetail();
+                return;
+            }
+
+            const [type, slug] = hash.split('/');
+            
+            if (type === 'song' && slug) {
+                // Find song by slug (approximated by title-artist match since we don't store slugs)
+                const song = window.allSongs.find(s => slugify(`${s.title}-${s.artist}`) === slug);
+                if (song) {
+                    showSongDetail(song, false); // false = don't update URL again
+                }
+            } else if (type === 'artist' && slug) {
+                 // Only filter if we have data
+                 if (window.allSongs.length > 0) {
+                     // Try to match artist name from slug (imperfect reverse slugify)
+                     // Better: search allSongs for matching slugified artist
+                     const artistMatch = window.allSongs.find(s => slugify(s.artist) === slug);
+                     if (artistMatch) {
+                         setFilter('artist', artistMatch.artist, null, null, false); // Don't push URL
+                     }
+                 }
+            }
+        }
+        
+        function showSongDetail(song, updateUrl = true) {
+            currentSong = song;
+            const detailView = document.getElementById('detailView');
+            const songList = document.getElementById('songList');
+            
+            songList.classList.add('hidden');
+            detailView.classList.add('active');
+
+            if (updateUrl) {
+                const slug = slugify(`${song.title}-${song.artist}`);
+                history.pushState(null, null, `#song/${slug}`);
+            }
+            
+            detailView.innerHTML = `
+                <button class="back-button" onclick="window.hideSongDetail()">← Back to List</button>
+                <div class="detail-header">
+                    <div class="detail-title">${escapeHtml(song.title)}</div>
+                    <div class="detail-artist">${escapeHtml(song.artist)}</div>
+                </div>
+                <div id="artistProfileContainer"></div>
+                <div id="sectionsContainer"></div>
+                <div id="eli5Container"></div>
+                <div style="position: fixed; bottom: 10px; right: 10px; background: rgba(0,0,0,0.7); color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 11px; z-index: 9999;">v7.9 (Readability Fixes)</div>
+            `;
+            
+            console.log('Rendering song:', song.title, 'Artist:', song.artist, 'Bio length:', song.artist_bio ? song.artist_bio.length : 0);
+            
+            document.getElementById('artistProfileContainer').innerHTML = renderArtistProfile(song);
+            renderSections(); // Clean lyrics / Pattison sections
+            renderELI5();     // ELI5 Analysis
+            
+            detailView.scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        // Make critical functions globally accessible
+        window.setFilter = function(type, value, element, context, updateUrl = true) {
+            // Handle Artist Filter
+            if (type === 'artist') {
+                if (window.activeFilters.artist === value) {
+                    window.activeFilters.artist = null;
+                } else {
+                    window.activeFilters.artist = value;
+                }
+            }
+            
+            // Handle Decade Filter
+            if (type === 'decade') {
+                const list = document.getElementById('decadeList');
+                if(list) {
+                    list.querySelectorAll('.filter-item').forEach(el => el.classList.remove('active'));
+                }
+                
+                if (window.activeFilters.decade === value) {
+                    window.activeFilters.decade = null; // Toggle off
+                } else {
+                    window.activeFilters.decade = value;
+                    window.activeFilters.artist = null; // Clear artist when changing major filter
+                    if (element) element.classList.add('active');
+                }
+            }
+            
+            // Handle Category (Genre) Filter
+            if (type === 'category') {
+                const list = document.getElementById('categoryList');
+                if(list) {
+                    list.querySelectorAll('.filter-item').forEach(el => el.classList.remove('active'));
+                }
+
+                if (window.activeFilters.category === value) {
+                    window.activeFilters.category = null;
+                } else {
+                    window.activeFilters.category = value;
+                    window.activeFilters.artist = null; // Clear artist when changing major filter
+                    if (element) element.classList.add('active');
+                }
+            }
+            
+            executeSearchAndFilter();
+
+            // Update URL for artist filter
+            if (updateUrl && type === 'artist') {
+                if (window.activeFilters.artist) {
+                    const slug = slugify(window.activeFilters.artist);
+                    if (window.location.hash !== `#artist/${slug}`) {
+                        history.pushState(null, null, `#artist/${slug}`);
+                    }
+                } else {
+                    // If clearing artist, clear hash or go back to root
+                    history.pushState(null, null, ' ');
+                }
+            }
+        };
+        
+        window.toggleSidebar = function() {
+            document.getElementById('sidebar').classList.toggle('active');
+        };
+        
+        window.toggleRhymes = function(header) {
+            const content = header.nextElementSibling;
+            const icon = header.querySelector('.rhyme-toggle-icon');
+            
+            // Toggle visibility class instead of manually setting display
+            if (content.classList.contains('visible')) {
+                content.classList.remove('visible');
+                content.style.display = 'none'; // Force hide
+                icon.textContent = '▼';
+                icon.classList.remove('rotated');
+            } else {
+                content.classList.add('visible');
+                content.style.display = 'block'; // Force show
+                icon.textContent = '▲';
+                icon.classList.add('rotated');
+            }
+        };
+        
+        window.hideSongDetail = function() {
+            document.getElementById('detailView').classList.remove('active');
+            document.getElementById('songList').classList.remove('hidden');
+            window.currentSong = null;
+            currentSong = null;
+            history.pushState(null, null, ' '); // Clear hash
+        };
+        
+
+        async function loadAllShards() {
+            const loading = document.getElementById('loading');
+            loading.classList.remove('hidden');
+            
+            try {
+                // Load manifest to know which shards exist
+                const manifestResp = await fetch(`${R2_BASE_URL}/manifest.json?t=${Date.now()}`);
+                if (!manifestResp.ok) throw new Error('Failed to load manifest');
+                const manifest = await manifestResp.json();
+                
+                // FALLBACK: If shard_list is missing (v3 manifest), generate it from count
+                if (!manifest.shard_list && manifest.shards_count) {
+                    console.log('Generating shard list from count:', manifest.shards_count);
+                    manifest.shard_list = [];
+                    for (let i = 0; i < manifest.shards_count; i++) {
+                        const hex = i.toString(16).toLowerCase().padStart(2, '0');
+                        manifest.shard_list.push(`${hex}.json.gz`);
+                    }
+                }
+                
+                console.log(`Loading ${manifest.shard_list ? manifest.shard_list.length : 0} shards with ${manifest.total_songs} total songs...`);
+
+                // Load all shards in parallel (with batching to avoid overwhelming)
+                if (!manifest.shard_list) throw new Error('No shard list found in manifest');
+                
+                const shardIds = manifest.shard_list.map(name => name.replace('.json.gz', ''));
+                const batchSize = 32;
+                let loadedShards = 0;
+                let failedShards = 0;
+                
+                for (let i = 0; i < shardIds.length; i += batchSize) {
+                    const batch = shardIds.slice(i, i + batchSize);
+                    console.log(`Loading batch ${Math.floor(i/batchSize) + 1}/${Math.ceil(shardIds.length/batchSize)}: shards ${i}-${i+batch.length-1}`);
+                    
+                    const promises = batch.map(async (shardId) => {
+                        try {
+                            const data = await loadShard(shardId);
+                            if (data && data.length > 0) {
+                                loadedShards++;
+                                return data;
+                            }
+                            failedShards++;
+                            return [];
+                        } catch (e) {
+                            console.error(`Failed to load shard ${shardId}:`, e);
+                            failedShards++;
+                            return [];
+                        }
+                    });
+                    
+                    const results = await Promise.all(promises);
+                    results.forEach(songs => {
+                        if (songs && songs.length > 0) {
+                            window.allSongs.push(...songs);
+                        }
+                    });
+                    
+                    document.getElementById('resultsCount').textContent = 
+                        `Loaded ${window.allSongs.length.toLocaleString()} / ${manifest.total_songs.toLocaleString()} songs (${loadedShards} shards, ${failedShards} failed)...`;
+                }
+                
+                console.log(`Finished loading: ${window.allSongs.length} songs from ${loadedShards} shards (${failedShards} failed)`);
+                
+                // DEBUG: Check first 5 songs for new fields
+                if (window.allSongs.length > 0) {
+                    console.log("--- DEBUG: INSPECTING SONGS ---");
+                    window.allSongs.slice(0, 5).forEach((s, i) => {
+                        console.log(`Song ${i}:`, s.title, "| Genre:", s.primary_genre, "| Decade:", s.decade);
+                    });
+                    console.log("-------------------------------");
+                }
+
+                // window.filteredSongs = window.allSongs; // REMOVED FALLBACK to ensure filtering logic runs
+                // filteredSongs = window.filteredSongs;
+                document.getElementById('resultsCount').textContent = 
+                    `${window.allSongs.length.toLocaleString()} songs loaded. Filtering...`;
+                    
+            } catch (e) {
+                console.error('Error loading shards:', e);
+                document.getElementById('resultsCount').textContent = 'Error loading songs';
+            } finally {
+                loading.classList.add('hidden');
+            }
+        }
+        
+        async function loadShard(shardId) {
+            try {
+                const resp = await fetch(`${R2_BASE_URL}/${shardId}.json.gz?t=${Date.now()}`);
+                if (!resp.ok) {
+                    console.warn(`Shard ${shardId} returned ${resp.status}`);
+                    return [];
+                }
+                
+                // Decompress gzip response
+                const blob = await resp.blob();
+                const ds = new DecompressionStream('gzip');
+                const decompressedStream = blob.stream().pipeThrough(ds);
+                const decompressedBlob = await new Response(decompressedStream).blob();
+                const text = await decompressedBlob.text();
+                
+                // V2 shards are JSON arrays, not JSONL
+                const parsed = JSON.parse(text);
+                console.log(`Loaded shard ${shardId}: ${parsed.length} songs`);
+                return parsed;
+            } catch (e) {
+                console.error(`Error loading shard ${shardId}:`, e);
+                return [];
+            }
+        }
+        
+        // --- Configuration ---
+        // MATCHING THE NEW GRANULAR BATCH JOB ENUMS
+        const GENRE_ENUMS = [
+            // Rock & Metal
+            "Rock & Roll (50s/60s)", "Classic Rock", "Hard Rock", "Heavy Metal", 
+            "Punk Rock", "New Wave", "Post-Punk", "Grunge", "Alternative Rock", 
+            "Indie Rock", "Psychedelic Rock", "Prog Rock", "Soft Rock", "Pop Rock",
+            "Industrial & Goth",
+
+            // Pop
+            "Dance Pop", "Synth Pop", "Electropop", "Teen Pop & Boy Bands", 
+            "Adult Contemporary", "Singer-Songwriter", "Art Pop", "Bubblegum Pop",
+            "K-Pop", "J-Pop", "Latin Pop",
+
+            // Hip Hop & R&B
+            "Hip Hop", "Gangsta Rap", "Pop Rap", "Trap & Drill", "Conscious Hip Hop", "Old School Hip Hop",
+            "R&B", "Soul", "Neo Soul", "Funk", "Disco", "Motown & Doo-Wop",
+
+            // Country & Folk
+            "Country Mainstream", "Classic Country", "Outlaw Country", "Americana", 
+            "Bluegrass", "Folk",
+
+            // Jazz, Blues, Gospel
+            "Jazz", "Vocal Jazz & Standards", "Blues", "Gospel", "Christian Contemporary",
+
+            // Global & Other
+            "Reggae", "Ska", "Reggaeton & Urbano", "Regional Mexican", "Afrobeat",
+            "Samba & Pagode", "MPB (Música Popular Brasileira)", "Forró & Sertanejo", "Axé & Brega",
+            "Latin Rock & Alternative", "Cumbia & Tango", "Bolero & Ranchera",
+            "Bollywood & Indian Pop", "Chanson & French Pop", "Flamenco & Spanish Folk",
+            
+            // Electronic
+            "Electronic & House", "Techno & Trance", "Ambient & Downtempo", "Drum and Bass & Dubstep",
+
+            // Stage & Screen
+            "Musical Theatre", "Soundtrack & Score", "Classical",
+
+            // Misc
+            "Comedy & Novelty", "Children's Music", "Holiday & Christmas", "Other"
+        ];
+
+        const DECADES_ENUMS = [
+            "1950s", "1960s", "1970s", "1980s", "1990s", "2000s", "2010s", "2020s"
+        ];
+        
+        // Maps for color coding or grouping if needed
+        const GENRE_COLORS = {
+            'Rock': '#e74c3c', 'Pop': '#3498db', 'Hip Hop': '#f1c40f',
+            'R&B': '#9b59b6', 'Country': '#e67e22', 'Electronic': '#1abc9c',
+            'Jazz': '#34495e', 'Classical': '#95a5a6'
+        };
+
+        const COLLECTION_KEYWORDS = {
+            'Christmas & Holiday': ['christmas', 'holiday', 'santa', 'jingle', 'noel', 'rudolph', 'sleigh', 'winter wonderland', 'silent night', 'joy to the world', 'merry', 'xmas']
+        };
+
+        function getMasterGroups(song) {
+            // Priority 1: Use LLM Classification if available
+            if (song.primary_genre && GENRE_ENUMS.includes(song.primary_genre)) {
+                return [song.primary_genre];
+            }
+            
+            // Fallback: If primary_genre is missing or invalid, try to map from legacy data
+            // But prefer "Other" to avoid misclassification in the new strict system
+            return ['Other'];
+        }
+
+        function getCollections(song) {
+            const collections = new Set();
+            const title = (song.title || '').toLowerCase();
+            const tags = (song.artist_tags || []).join(' ').toLowerCase();
+            
+            // Check Christmas
+            if (COLLECTION_KEYWORDS['Christmas & Holiday'].some(k => title.includes(k) || tags.includes(k))) {
+                collections.add('Christmas & Holiday');
+            }
+            
+            return Array.from(collections);
+        }
+
+        function executeSearchAndFilter() {
+            const query = document.getElementById('searchInput').value;
+            const lowerQuery = query ? query.toLowerCase().trim() : '';
+            
+            console.log('--- executeSearchAndFilter Running ---');
+            console.log('Active Filters:', JSON.stringify(window.activeFilters));
+            
+            // Step 1: Base Search & Status Filter
+            // We calculate this first to drive the faceted counts
+            const baseMatches = window.allSongs.filter(song => {
+                // Text search
+                let matchesSearch = true;
+                if (lowerQuery) {
+                    const title = (song.title || '').toLowerCase();
+                    const artist = (song.artist || '').toLowerCase();
+                    const lyrics = (song.raw_lyrics || song.cleaned_lyrics || '').toLowerCase();
+                    matchesSearch = title.includes(lowerQuery) || artist.includes(lowerQuery) || lyrics.includes(lowerQuery);
+                }
+                
+                // Status filter
+                let matchesStatus = true;
+                if (window.activeFilters.status === 'pattison') matchesStatus = !!song.pattison;
+                else if (window.activeFilters.status === 'bio') matchesStatus = !!song.artist_bio;
+                
+                return matchesSearch && matchesStatus;
+            });
+            console.log('Base Matches:', baseMatches.length);
+            
+            // Step 2: Apply Decade Filter (for Genre counts & Final List)
+            const decadeMatches = baseMatches.filter(song => {
+                if (!window.activeFilters.decade) return true;
+                return song.decade === window.activeFilters.decade;
+            });
+            console.log('Decade Matches:', decadeMatches.length);
+
+            // Step 3: Apply Genre Filter (for Final List)
+            window.filteredSongs = decadeMatches.filter(song => {
+                if (!window.activeFilters.category) return true;
+                
+                if (window.activeFilters.type === 'collection') {
+                    const cols = getCollections(song);
+                    return cols.includes(window.activeFilters.category);
+                } else {
+                    // Strict checking against primary_genre
+                    return song.primary_genre === window.activeFilters.category;
+                }
+            });
+            console.log('Genre Matches:', window.filteredSongs.length);
+
+            // Step 4: Apply Artist Filter (if any)
+            if (window.activeFilters.artist) {
+                console.log('Filtering by artist:', window.activeFilters.artist);
+                window.filteredSongs = window.filteredSongs.filter(song => song.artist === window.activeFilters.artist);
+                console.log('Artist Matches:', window.filteredSongs.length);
+            }
+            
+            // Determine View Mode
+            // If Search is active OR Artist is selected -> Show Songs
+            // If Only Decade/Genre is selected (or nothing) -> Show Artists
+            const hasSearch = lowerQuery.length > 0;
+            const hasArtist = !!window.activeFilters.artist;
+            
+            if (hasSearch || hasArtist) {
+                window.viewMode = 'songs';
+            } else {
+                window.viewMode = 'artists';
+            }
+            // Sync local var just in case
+            viewMode = window.viewMode;
+            
+            // Update Sidebar Counts based on the faceted tiers
+            // MOVED TO END so debug panel shows correct View Mode
+            populateSidebarCounts(baseMatches, decadeMatches);
+            
+            // Reset pagination when filters change (unless it's a scroll event, but we don't pass that here yet)
+            // Ideally we should reset this only if filters CHANGED. 
+            // For now, let's reset it here, but we need to handle pagination scrolling carefully.
+            // (Assuming this function is called on filter change, not scroll)
+            virtualScrollOffset = 0;
+            currentArtistLimit = ARTIST_ITEMS_PER_PAGE; // Reset artist limit
+
+            renderContent();
+        }
+
+        function renderContent() {
+            const container = document.getElementById('songList');
+            const loading = document.getElementById('loading');
+            
+            // Show back button if in artist mode with a filter, or just ensure correct state
+            // actually 'back' is handled by clearing filters usually.
+            
+            if (window.viewMode === 'artists') {
+                renderArtistList();
+            } else {
+                renderSongList();
+            }
+        }
+        
+        function populateSidebarCounts(baseMatches, decadeMatches) {
+            // Default to allSongs if not provided (e.g. initial load)
+            if (!baseMatches) baseMatches = window.allSongs || [];
+            if (!decadeMatches) decadeMatches = window.allSongs || [];
+
+            // 1. Decade Counts: Derived from Base Matches (Search + Status only)
+            // This shows "How many results in each decade?"
+            const decadeCounts = {};
+            DECADES_ENUMS.forEach(d => decadeCounts[d] = 0);
+            
+            baseMatches.forEach(song => {
+                 if (song.decade && DECADES_ENUMS.includes(song.decade)) {
+                    decadeCounts[song.decade]++;
+                }
+            });
+            
+            // 2. Genre Counts: Derived from Decade Matches (Search + Status + Selected Decade)
+            // This shows "How many results in each genre *within this decade*?"
+            const catCounts = {};
+            GENRE_ENUMS.forEach(g => catCounts[g] = 0);
+            catCounts['Other'] = 0; // Ensure Other is tracked
+            
+            decadeMatches.forEach(song => {
+                if (song.primary_genre && GENRE_ENUMS.includes(song.primary_genre)) {
+                    catCounts[song.primary_genre]++;
+                } else {
+                    catCounts['Other']++;
+                }
+            });
+            
+            // Render Genres
+            const catList = document.getElementById('categoryList');
+            if (catList) {
+                // Show genres that have counts OR are currently active
+                const activeGenres = GENRE_ENUMS.filter(g => catCounts[g] > 0 || g === window.activeFilters.category);
+                // Always show "Other" if it has counts
+                if (catCounts['Other'] > 0 && !activeGenres.includes('Other')) activeGenres.push('Other');
+                
+                catList.innerHTML = activeGenres.map(cat => {
+                    const count = catCounts[cat] || 0;
+                    const isActive = window.activeFilters.category === cat ? 'active' : '';
+                    return `
+                        <div class="filter-item ${isActive}" onclick="setFilter('category', '${cat}', this, 'master')">
+                            <span class="filter-name">${cat}</span>
+                            <span class="filter-count">${count.toLocaleString()}</span>
+                        </div>
+                    `;
+                }).join('');
+            }
+            
+            // Render Decades
+            const decadeList = document.getElementById('decadeList');
+            if (decadeList) { 
+                decadeList.innerHTML = DECADES_ENUMS.map(dec => {
+                    const count = decadeCounts[dec] || 0;
+                    const isActive = window.activeFilters.decade === dec ? 'active' : '';
+                    return `
+                        <div class="filter-item ${isActive}" onclick="setFilter('decade', '${dec}', this)">
+                            <span class="filter-name">${dec}</span>
+                            <span class="filter-count">${count.toLocaleString()}</span>
+                        </div>
+                    `;
+                }).join('');
+            }
+
+            // Update Debug Info
+            const debugEl = document.getElementById('debugInfo');
+            if (debugEl && window.allSongs.length > 0) {
+                const s = window.allSongs[0];
+                debugEl.innerHTML = `
+                    <strong>URL:</strong> ${R2_BASE_URL.split('/').pop()}<br>
+                    <strong>Songs:</strong> ${window.allSongs.length.toLocaleString()}<br>
+                    <strong>Mode:</strong> ${window.viewMode}<br>
+                    <strong>Artist:</strong> ${window.activeFilters.artist || 'None'}
+                `;
+            }
+        }
+        
+        let virtualScrollOffset = 0;
+        const ITEMS_PER_PAGE = 100;
+        const ARTIST_ITEMS_PER_PAGE = 500;
+        let currentArtistLimit = ARTIST_ITEMS_PER_PAGE;
+
+        function renderArtistList() {
+            const container = document.getElementById('songList');
+            container.className = 'song-list artist-chip-view'; // Switch to chip view
+            
+            // 1. Extract Unique Artists from filtered set
+            // We use a Map to keep track of song counts per artist
+            const artistMap = new Map();
+            window.filteredSongs.forEach(song => {
+                const name = song.artist || 'Unknown Artist';
+                if (!artistMap.has(name)) {
+                    artistMap.set(name, { count: 0, genres: new Set() });
+                }
+                const data = artistMap.get(name);
+                data.count++;
+                if (song.primary_genre) data.genres.add(song.primary_genre);
+            });
+            
+            // 2. Convert to Array and Sort Alphabetically
+            const artists = Array.from(artistMap.entries()).map(([name, data]) => ({
+                name,
+                count: data.count,
+                genres: Array.from(data.genres).slice(0, 3) // Top 3 genres for display
+            })).sort((a, b) => a.name.localeCompare(b.name));
+            
+            // 3. Paginate (Simple limit for now)
+            const artistsToShow = artists.slice(0, currentArtistLimit);
+            
+            // 4. Render
+            container.innerHTML = '';
+            
+            // Add "Reset Filters" header if filtered
+            if (window.activeFilters.category || window.activeFilters.decade) {
+                const header = document.createElement('div');
+                header.style.width = '100%';
+                header.style.marginBottom = '16px';
+                header.innerHTML = `
+                    <div style="font-size: 14px; color: #8e8e93; margin-bottom: 8px;">
+                        Showing artists in 
+                        <strong>${window.activeFilters.decade || ''}</strong> 
+                        ${window.activeFilters.decade && window.activeFilters.category ? '•' : ''}
+                        <strong>${window.activeFilters.category || ''}</strong>
+                    </div>
+                `;
+                container.appendChild(header);
+            }
+
+            const fragment = document.createDocumentFragment();
+            
+            artistsToShow.forEach(artist => {
+                const chip = document.createElement('div');
+                chip.className = 'artist-chip';
+                chip.onclick = () => setFilter('artist', artist.name);
+                
+                chip.innerHTML = `
+                    <span class="artist-name">${window.escapeHtml(artist.name)}</span>
+                    <span class="artist-count">${artist.count}</span>
+                `;
+                fragment.appendChild(chip);
+            });
+            
+            container.appendChild(fragment);
+
+            // Load More Button
+            if (artists.length > currentArtistLimit) {
+                const loadMoreBtn = document.createElement('button');
+                loadMoreBtn.className = 'load-more-btn';
+                loadMoreBtn.textContent = `Load More Artists (${(artists.length - currentArtistLimit).toLocaleString()} remaining)`;
+                loadMoreBtn.onclick = () => {
+                    currentArtistLimit += ARTIST_ITEMS_PER_PAGE;
+                    renderArtistList();
+                };
+                container.appendChild(loadMoreBtn);
+            }
+            
+            // Update counts
+            document.getElementById('resultsCount').textContent = 
+                `${artists.length.toLocaleString()} artists`;
+        }
+        
+        function renderSongList() {
+            const container = document.getElementById('songList');
+            container.className = 'song-list'; // Reset to grid view
+            const songsToShow = window.filteredSongs.slice(virtualScrollOffset, virtualScrollOffset + ITEMS_PER_PAGE);
+            
+            // Clear and render
+            container.innerHTML = '';
+            
+            // Add "Back to Artists" header if an artist is selected
+            if (window.activeFilters.artist) {
+                const header = document.createElement('div');
+                header.style.padding = '0 0 16px 0';
+                header.style.gridColumn = '1 / -1';
+                header.innerHTML = `
+                    <button class="back-button" onclick="setFilter('artist', null)">← Back to All Artists</button>
+                    <div style="font-size: 20px; font-weight: 700; color: #1c1c1e; margin-top: 8px;">
+                        ${window.escapeHtml(window.activeFilters.artist)}
+                    </div>
+                `;
+                container.appendChild(header);
+
+                // Inject Artist Profile
+                const profileSong = window.filteredSongs.find(s => s.artist_bio || (s.artist_tags && s.artist_tags.length > 0) || (s.artist_associated_acts && s.artist_associated_acts.length > 0)) || window.filteredSongs[0];
+                
+                if (profileSong) {
+                    const profileHTML = renderArtistProfile(profileSong);
+                    if (profileHTML) {
+                        const profileDiv = document.createElement('div');
+                        profileDiv.style.gridColumn = '1 / -1';
+                        profileDiv.style.marginBottom = '20px';
+                        profileDiv.innerHTML = profileHTML;
+                        container.appendChild(profileDiv);
+                    }
+                }
+            }
+
+            const fragment = document.createDocumentFragment();
+            
+            songsToShow.forEach(song => {
+                const card = document.createElement('div');
+                card.className = 'song-card';
+                card.onclick = () => showSongDetail(song);
+                
+                const badges = [];
+                if (song.eli5_genome) badges.push('<span class="meta-badge genome">Genome</span>');
+                if (song.pattison) badges.push('<span class="meta-badge pattison">Rhyme</span>');
+                
+                card.innerHTML = `
+                    <div class="song-title">${window.escapeHtml(song.title || 'Unknown')}</div>
+                    <div class="song-artist">${window.escapeHtml(song.artist || 'Unknown Artist')}</div>
+                    <div class="song-meta">${badges.join('')}</div>
+                `;
+                
+                fragment.appendChild(card);
+            });
+            
+            container.appendChild(fragment);
+            
+            const totalPages = Math.ceil(window.filteredSongs.length / ITEMS_PER_PAGE);
+            const currentPage = Math.floor(virtualScrollOffset / ITEMS_PER_PAGE) + 1;
+            
+            document.getElementById('resultsCount').textContent = 
+                `${window.filteredSongs.length.toLocaleString()} songs (page ${currentPage}/${totalPages})`;
+        }
+        
+        function renderArtistProfile(song) {
+            if (!song.artist_bio && (!song.artist_associated_acts || song.artist_associated_acts.length === 0) && (!song.artist_tags || song.artist_tags.length === 0)) {
+                return '';
+            }
+
+            const associatedActs = song.artist_associated_acts || [];
+            const tags = song.artist_tags || [];
+            const styles = song.artist_styles || [];
+            const allTags = [...new Set([...tags, ...styles])];
+
+            const actsHTML = associatedActs.length > 0 ? `
+                <div class="artist-meta-group">
+                    <div class="artist-meta-label">Associated Acts</div>
+                    <div class="chip-container">
+                        ${associatedActs.map(act => `<span class="meta-chip act">${escapeHtml(act)}</span>`).join('')}
+                    </div>
+                </div>
+            ` : '';
+
+            const tagsHTML = allTags.length > 0 ? `
+                <div class="artist-meta-group">
+                    <div class="artist-meta-label">Genres & Styles</div>
+                    <div class="chip-container">
+                        ${allTags.map(tag => `<span class="meta-chip tag">${escapeHtml(tag)}</span>`).join('')}
+                    </div>
+                </div>
+            ` : '';
+            
+            const bioHTML = song.artist_bio ? `
+                <div class="artist-bio-text">${escapeHtml(song.artist_bio)}</div>
+            ` : '';
+
+            return `
+                <div class="artist-section">
+                    <div class="section-header">
+                        <div class="section-name" style="color: #8b5cf6;">Artist Profile</div>
+                    </div>
+                    ${bioHTML}
+                    ${actsHTML}
+                    ${tagsHTML}
+                </div>
+            `;
+        }
+        
+        function renderELI5() {
+            if (!currentSong || !currentSong.eli5_genome) return;
+            
+            const eli5 = currentSong.eli5_genome;
+            const plot = eli5.line_by_line_plot || [];
+            
+            if (plot.length === 0) return;
+            
+            const container = document.getElementById('eli5Container');
+            
+            const plotHTML = plot.map(item => {
+                const lineNums = item.line_numbers || [];
+                const lyric = item.original_lyric || '';
+                const explanation = item.eli5_simplification || item.explanation || '';
+                const plotFunc = item.plot_function || '';
+                const emotion = item.emotion_primary || '';
+                
+                const tagsHTML = [];
+                if (plotFunc) tagsHTML.push(`<span class="genome-tag tag-plot">${escapeHtml(plotFunc)}</span>`);
+                if (emotion) tagsHTML.push(`<span class="genome-tag tag-emotion">${escapeHtml(emotion)}</span>`);
+                
+                return `
+                    <div class="eli5-plot-item">
+                        <div class="eli5-line-number">Lines ${lineNums.join(', ')}</div>
+                        <div class="eli5-lyric">"${escapeHtml(lyric)}"</div>
+                        <div class="eli5-explanation"><span class="eli5-label">ELI5:</span>${escapeHtml(explanation)}</div>
+                        ${tagsHTML.length ? `<div class="eli5-metadata">${tagsHTML.join('')}</div>` : ''}
+                    </div>
+                `;
+            }).join('');
+            
+            container.innerHTML = `
+                <div class="eli5-section">
+                    <div class="eli5-header">
+                        <span>🧬</span>
+                        <span>Genome Analysis</span>
+                    </div>
+                    ${plotHTML}
+                </div>
+            `;
+        }
+        
+        function renderSections() {
+            if (!currentSong || !currentSong.pattison) return;
+            
+            const pattison = currentSong.pattison;
+            const stanzas = pattison.stanzas || [];
+            const lines = pattison.lines || [];
+            const rhymePairs = pattison.rhyme_pairs || [];
+            const internalRhymes = pattison.internal_rhymes || [];
+            const rawScheme = (pattison.raw_rhyme_scheme || '').split('');
+            
+            // Create global rhyme color map
+            const globalRhymeColorMap = new Map();
+            let globalColorIndex = 0;
+            
+            internalRhymes.forEach(rhyme => {
+                const key = [rhyme.word1, rhyme.word2].sort().join('|');
+                if (!globalRhymeColorMap.has(key)) {
+                    globalRhymeColorMap.set(key, globalColorIndex % 10);
+                    globalColorIndex++;
+                }
+            });
+            
+            const container = document.getElementById('sectionsContainer');
+            
+            // If no stanzas, treat as single section
+            if (stanzas.length === 0 && lines.length > 0) {
+                container.innerHTML = renderSection({
+                    name: 'Full Song',
+                    lines: lines,
+                    rawScheme: rawScheme,
+                    rhymePairs: rhymePairs,
+                    internalRhymes: internalRhymes,
+                    globalRhymeColorMap: globalRhymeColorMap
+                });
+                return;
+            }
+            
+            // Render each stanza as a section
+            let lineOffset = 0;
+            container.innerHTML = stanzas.map((stanza, idx) => {
+                const stanzaLines = lines.slice(lineOffset, lineOffset + stanza.length);
+                const stanzaScheme = rawScheme.slice(lineOffset, lineOffset + stanza.length);
+                
+                // Filter rhymes for this section
+                const sectionRhymes = rhymePairs.filter(r => 
+                    r.line1 > lineOffset && r.line1 <= lineOffset + stanza.length
+                );
+                const sectionInternalRhymes = internalRhymes.filter(r => 
+                    (r.line1 && r.line1 > lineOffset && r.line1 <= lineOffset + stanza.length) ||
+                    (r.line && r.line > lineOffset && r.line <= lineOffset + stanza.length)
+                );
+                
+                lineOffset += stanza.length;
+                
+                return renderSection({
+                    name: `Section ${idx + 1}`,
+                    lines: stanzaLines,
+                    rawScheme: stanzaScheme,
+                    rhymePairs: sectionRhymes,
+                    internalRhymes: sectionInternalRhymes,
+                    globalRhymeColorMap: globalRhymeColorMap,
+                    lineOffset: lineOffset - stanza.length
+                });
+            }).join('');
+        }
+        
+        function renderSection({ name, lines, rawScheme, rhymePairs, internalRhymes, globalRhymeColorMap, lineOffset = 0 }) {
+            // FILTER: Remove self-rhymes and trivial words (the, a, and, etc.)
+            const STOP_WORDS = new Set([
+                'the', 'a', 'an', 'and', 'or', 'but', 'if', 'of', 'in', 'on', 'to', 'for', 'is', 'it', 'that', 'this', 
+                'at', 'by', 'from', 'into', 'onto', 'with', 'as', 'nor', 'am', 'are', 'was', 'were', 'be', 'been', 'being',
+                'i', 'me', 'my', 'mine', 'you', 'your', 'yours', 'he', 'him', 'his', 'she', 'her', 'hers', 
+                'we', 'us', 'our', 'ours', 'they', 'them', 'their', 'theirs', 'its', 'oh', 'ah', 'yeah', 'so', 'just', 'now', 'then',
+                'can', 'do', 'did', 'does', 'don', 't', 's', 'll', 'm', 're', 've', 'd'
+            ]);
+            
+            const filterRhyme = (r) => {
+                const w1 = (r.word1 || '').toLowerCase().trim();
+                const w2 = (r.word2 || '').toLowerCase().trim();
+                
+                // 1. No self-rhymes
+                if (w1 === w2) return false;
+                
+                // 2. No stop words (if EITHER word is a stop word, filter the pair)
+                if (STOP_WORDS.has(w1) || STOP_WORDS.has(w2)) return false;
+                
+                return true;
+            };
+
+            const filteredRhymePairs = rhymePairs.filter(filterRhyme);
+            const filteredInternalRhymes = internalRhymes.filter(filterRhyme);
+
+            const lyricsHTML = lines.map((line, i) => {
+                let text = line.text || '';
+                const schemeChar = rawScheme[i] || '';
+                
+                // Highlight end word
+                const endWord = line.end_word;
+                if (endWord) {
+                    const regex = new RegExp(`\\b${escapeRegex(endWord)}\\b`, 'gi');
+                    text = text.replace(regex, `<span class="end-word">${endWord}</span>`);
+                }
+                
+                // Highlight internal rhymes - PREVENT STACKING
+                // 1. Collect all unique words to highlight for this line and their colors
+                const wordsToHighlight = new Map(); // word -> colorIdx
+                
+                const lineInternalRhymes = filteredInternalRhymes.filter(ir => 
+                    ir.line1 === i + 1 + lineOffset || ir.line2 === i + 1 + lineOffset || ir.line === i + 1 + lineOffset
+                );
+                
+                lineInternalRhymes.forEach(rhyme => {
+                    const words = [rhyme.word1, rhyme.word2];
+                    const key = words.sort().join('|');
+                    const colorIdx = globalRhymeColorMap.get(key) || 0;
+                    
+                    words.forEach(word => {
+                        const w = word.toLowerCase();
+                        if (!STOP_WORDS.has(w)) {
+                            // Only set if not present to avoid stacking/overwriting
+                            // (First rhyme found dictates the color)
+                            if (!wordsToHighlight.has(w)) {
+                                wordsToHighlight.set(w, colorIdx);
+                            }
+                        }
+                    });
+                });
+                
+                // 2. Apply highlights in one pass (conceptually)
+                // We iterate the map, which contains unique words.
+                wordsToHighlight.forEach((colorIdx, word) => {
+                    // Use a lookahead/lookbehind or careful replacement to ensure we don't break HTML tags?
+                    // Since we are replacing text with <span>text</span>, subsequent replacements of DIFFERENT words are safe.
+                    // We just need to be careful not to match inside existing tags.
+                    // But since we operate on 'word' boundaries, and our previous replacements added tags...
+                    // A simple regex might match the word inside the class name? e.g. class="... word ..."
+                    // To be safe, we can try to only replace if not inside a tag.
+                    
+                    // Simple hack: We trust that words don't collide with our class names (internal-rhyme-X).
+                    // Our class names are 'internal-rhyme-X', 'end-word'.
+                    // If a word is 'internal', it might match. 
+                    // Let's assume lyrics don't contain markup words.
+                    
+                    const regex = new RegExp(`\\b${escapeRegex(word)}\\b`, 'gi');
+                    
+                    // To avoid matching inside tags, we can use a callback, but JS regex lookbehind is limited in some browsers.
+                    // Instead, we can rely on the fact that we are building the string.
+                    // Actually, if we replaced 'honey' with '<span...>honey</span>', 
+                    // and then try to replace 'honey' again, we will match the inner text AND potentially attributes.
+                    // BUT: We de-duplicated! 'wordsToHighlight' has 'honey' ONLY ONCE.
+                    // So we will only call replace ONCE for 'honey'.
+                    
+                    text = text.replace(regex, (match) => {
+                        // Check if we are inside a tag? Hard to tell.
+                        // But since we unique-ified the words, we won't try to replace 'honey' twice.
+                        // The only risk is if Word A is a substring of Word B?
+                        // \b guards against substrings.
+                        // Risk: If Word A is 'span'?
+                        return `<span class="internal-rhyme internal-rhyme-${colorIdx}">${match}</span>`;
+                    });
+                });
+                
+                return `
+                    <div class="lyric-line">
+                        <span class="line-text">${text}</span>
+                        <span class="line-stress" title="Stressed Syllables">${line.primary_stress_count || 0}</span>
+                        <span class="line-scheme" title="Rhyme Scheme">${schemeChar || '-'}</span>
+                    </div>
+                `;
+            }).join('');
+            
+            const allRhymes = [];
+            filteredRhymePairs.forEach(pair => {
+                allRhymes.push({
+                    word1: pair.word1,
+                    word2: pair.word2,
+                    type: pair.pattison_type || 'perfect',
+                    category: 'End-Word Rhyme'
+                });
+            });
+            filteredInternalRhymes.forEach(rhyme => {
+                allRhymes.push({
+                    word1: rhyme.word1,
+                    word2: rhyme.word2,
+                    type: rhyme.pattison_type || 'perfect',
+                    category: 'Internal Rhyme'
+                });
+            });
+            
+            const rhymesHTML = allRhymes.length > 0 ? `
+                <div class="rhyme-pairs-section">
+                    <div class="rhyme-pairs-header" onclick="toggleRhymes(this)">
+                        <div class="rhyme-pairs-title">Rhymes (${allRhymes.length})</div>
+                        <div class="rhyme-toggle-icon">▼</div>
+                    </div>
+                    <div class="rhyme-pairs-content" style="display: none;">
+                        ${allRhymes.map(rhyme => `
+                            <div class="rhyme-pair">
+                                <div>
+                                    <span class="rhyme-words">${rhyme.word1 || ''}</span> / 
+                                    <span class="rhyme-words">${rhyme.word2 || ''}</span>
+                                    <span class="rhyme-badge rhyme-${rhyme.type.toLowerCase()}">${rhyme.type}</span>
+                                </div>
+                                <span style="font-size: 12px; color: #8e8e93;">${rhyme.category}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            ` : '';
+            
+            const schemeStr = rawScheme.join('');
+            const displayScheme = schemeStr.length > 20 ? schemeStr.substring(0, 20) + '...' : schemeStr;
+            
+            return `
+                <div class="section-container">
+                    <div class="section-header">
+                        <div class="section-name">${name}</div>
+                        <div class="section-scheme" title="${schemeStr}">${displayScheme || 'N/A'}</div>
+                    </div>
+                    <div class="lyrics-container">
+                        ${lyricsHTML}
+                    </div>
+                    ${rhymesHTML}
+                </div>
+            `;
+        }
+        
+        // Legacy function references (now use window.* versions)
+        function hideSongDetail() { window.hideSongDetail(); }
+        function escapeHtml(text) { return window.escapeHtml(text); }
+        function escapeRegex(str) { return window.escapeRegex(str); }
+        function toggleRhymes(headerElement) { window.toggleRhymes(headerElement); }
+        
+        function toggleELI5Repeats(element) {
+            const repeatsDiv = element.nextElementSibling;
+            if (repeatsDiv && repeatsDiv.classList.contains('eli5-repeats')) {
+                if (repeatsDiv.style.display === 'none') {
+                    repeatsDiv.style.display = 'block';
+                    element.textContent = '▼ Hide repeats';
+                } else {
+                    repeatsDiv.style.display = 'none';
+                    element.textContent = '▶ See repeats (' + repeatsDiv.children.length + ')';
+                }
+            }
+        }
+        
+        init();
+    </script>
+</body>
+</html>

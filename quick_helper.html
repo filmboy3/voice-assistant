@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Reference</title>
+    <script>
+        (function() {
+            try {
+                const params = new URLSearchParams(window.location.search);
+                if (params.get('embed') === '1') {
+                    document.documentElement.classList.add('embed-mode');
+                }
+                if (params.get('embed') === '1') return;
+            } catch (e) {
+            }
+            const s = document.createElement('script');
+            s.defer = true;
+            s.src = '/global-nav.js';
+            document.head.appendChild(s);
+        })();
+    </script>
+    <script defer src="/notes_manager.js"></script>
+    <script defer src="/shared_interactions.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        .embed-mode .header {
+            display: none;
+        }
+
+        .embed-mode .container {
+            max-width: none;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f6f4ee;
+            color: #1f1b16;
+            padding: 10px 20px 20px 20px;
+            min-height: 100vh;
+        }
+
+        .embed-mode body {
+            padding: 0;
+            min-height: auto;
+        }
+
+        .embed-mode .panel-body {
+            padding: 10px 12px 12px 12px;
+        }
+
+        .embed-mode .group-filter {
+            margin-bottom: 8px;
+        }
+
+        body.has-global-nav > .container,
+        body.has-global-nav > div:not(.global-nav) {
+            margin-top: 8px !important;
+        }
+
+        @media (max-width: 768px) {
+            body.has-global-nav > .container,
+            body.has-global-nav > div:not(.global-nav) {
+                margin-top: 10px !important;
+            }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        .header {
+            margin-bottom: 14px;
+        }
+
+        .header h1 {
+            font-size: 1.7rem;
+            font-weight: 650;
+            color: #1f1b16;
+            margin-bottom: 6px;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                margin-top: 6px;
+                margin-bottom: 16px;
+            }
+            .header h1 {
+                font-size: 1.9rem;
+            }
+            .header p {
+                font-size: 1.02rem;
+            }
+        }
+
+        .header p {
+            color: #6f675c;
+            font-size: 0.95rem;
+        }
+
+        .btn {
+            border: 1px solid #d4cec4;
+            background: transparent;
+            color: #4b4338;
+            border-radius: 999px;
+            padding: 10px 14px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .btn.primary {
+            background: #1f1b16;
+            border-color: #1f1b16;
+            color: white;
+        }
+
+        .btn:hover { background: #f4eee1; }
+        .btn.primary:hover { background: #3b342c; }
+
+        .layout {
+            display: grid;
+            grid-template-columns: 220px 1fr;
+            gap: 12px;
+            min-height: 62vh;
+        }
+
+        .embed-mode .layout {
+            min-height: 0;
+        }
+
+        @media (max-width: 980px) {
+            .layout { grid-template-columns: 1fr; }
+        }
+
+        .mobile-category-bar {
+            display: none;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 10px 12px;
+            background: #fdfbf7;
+            border: 1px solid #e8e4dc;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            position: sticky;
+            top: calc(var(--global-nav-height, 76px) + 8px);
+            z-index: 60;
+            margin-bottom: 12px;
+        }
+
+        .mobile-category-title {
+            font-weight: 750;
+            color: #1f1b16;
+            font-size: 0.98rem;
+            flex: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .mobile-category-btn {
+            border: 1px solid #d4cec4;
+            background: transparent;
+            color: #4b4338;
+            border-radius: 999px;
+            padding: 10px 14px;
+            cursor: pointer;
+            font-weight: 650;
+            font-size: 0.95rem;
+            flex: 0 0 auto;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            max-width: 52vw;
+        }
+
+        .mobile-category-btn:hover { background: #f4eee1; }
+
+        .mobile-category-btn .label {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            max-width: 44vw;
+        }
+
+        .mobile-category-btn .chev {
+            font-weight: 900;
+            opacity: 0.7;
+        }
+
+        .mobile-category-backdrop {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.45);
+            z-index: 20050;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .mobile-category-backdrop.show {
+            display: block;
+            opacity: 1;
+        }
+
+        .mobile-category-sheet {
+            position: fixed;
+            left: 50%;
+            top: 12px;
+            transform: translateX(-50%);
+            width: min(560px, calc(100vw - 24px));
+            max-height: calc(100vh - 24px);
+            background: #fdfbf7;
+            border: 1px solid #e8e4dc;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.22);
+            z-index: 20060;
+            display: none;
+            overflow: hidden;
+        }
+
+        .mobile-category-sheet.show {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .mobile-category-sheet-header {
+            padding: 12px 14px;
+            border-bottom: 1px solid #efeae2;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .mobile-category-sheet-title {
+            font-weight: 800;
+            color: #1f1b16;
+            font-size: 1.05rem;
+        }
+
+        .mobile-category-close {
+            border: 1px solid #d4cec4;
+            background: transparent;
+            color: #4b4338;
+            border-radius: 999px;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+        .mobile-category-close:hover { background: #f4eee1; }
+
+        .mobile-category-sheet-body {
+            padding: 10px;
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        @media (max-width: 1000px) {
+            .categories-panel {
+                display: none;
+            }
+            .mobile-category-bar {
+                display: flex;
+            }
+        }
+
+        .panel {
+            background: #fdfbf7;
+            border: 1px solid #e8e4dc;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            min-height: 220px;
+        }
+
+        .embed-mode .panel {
+            min-height: 0;
+        }
+
+        .panel-header {
+            padding: 12px 14px;
+            border-bottom: 1px solid #efeae2;
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .panel-title {
+            font-weight: 750;
+            color: #1f1b16;
+            font-size: 1.06rem;
+        }
+
+        .panel-subtitle {
+            color: #6f675c;
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+
+        .panel-body {
+            padding: 10px 10px 14px 10px;
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .category-btn {
+            width: 100%;
+            text-align: left;
+            padding: 10px 12px;
+            border-radius: 10px;
+            border: 1px solid transparent;
+            background: transparent;
+            cursor: pointer;
+            font-weight: 700;
+            color: #1f1b16;
+            font-size: 1.06rem;
+        }
+
+        .category-btn:hover { background: #f4eee1; }
+        .category-btn.active {
+            background: #1f1b16;
+            color: white;
+        }
+
+        .filter-input {
+            width: 100%;
+            border: 1px solid #d4cec4;
+            border-radius: 10px;
+            padding: 10px 12px;
+            font-size: 0.95rem;
+            background: white;
+            margin-bottom: 10px;
+        }
+
+        .group-row {
+            width: 100%;
+            text-align: left;
+            padding: 10px 12px;
+            border: 1px solid #e8e4dc;
+            background: white;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .group-row:hover { border-color: #1f1b16; background: #f9f7f3; }
+        .group-row.active { border-color: #1f1b16; background: #f4eee1; }
+
+        .group-name {
+            font-weight: 650;
+            color: #1f1b16;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-size: 1.05rem;
+        }
+
+        .group-count {
+            color: #6f675c;
+            font-size: 0.95rem;
+            font-weight: 650;
+            white-space: nowrap;
+        }
+
+        .group-section {
+            margin-bottom: 10px;
+        }
+
+        .group-section-header {
+            width: 100%;
+            text-align: left;
+            padding: 10px 12px;
+            border: 1px solid #e8e4dc;
+            background: white;
+            border-radius: 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            font-weight: 750;
+            color: #1f1b16;
+            font-size: 1.05rem;
+        }
+
+        .group-section-header:hover { border-color: #1f1b16; background: #f9f7f3; }
+
+        .group-section-title {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .group-section-meta {
+            color: #6f675c;
+            font-size: 0.95rem;
+            font-weight: 650;
+            white-space: nowrap;
+        }
+
+        .group-section-chevron {
+            color: #6f675c;
+            font-size: 0.95rem;
+            font-weight: 900;
+            white-space: nowrap;
+        }
+
+        .group-subgrid {
+            display: none;
+            padding: 14px 0 6px 0;
+            margin-left: 16px;
+            border-left: 3px solid #d4cec4;
+            padding-left: 16px;
+            background: linear-gradient(to right, rgba(244, 238, 225, 0.4), transparent);
+            border-radius: 0 8px 8px 0;
+        }
+
+        .group-subgrid.show {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        @media (max-width: 560px) {
+            .group-subgrid {
+                margin-left: 10px;
+                padding-left: 12px;
+            }
+        }
+
+        .subcat-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 14px;
+            border: 1px solid #d4cec4;
+            background: #fffdf8;
+            border-radius: 999px;
+            cursor: pointer;
+            font-size: 0.92rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+            transition: all 0.15s;
+            white-space: nowrap;
+        }
+
+        .subcat-btn:hover { 
+            border-color: #1f1b16; 
+            background: #f9f7f3; 
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+
+        .subcat-btn.active { border-color: #1f1b16; background: #f4eee1; font-weight: 600; }
+
+        .subcat-indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #4ade80;
+            flex-shrink: 0;
+        }
+
+        .subcat-label {
+            font-weight: 700;
+            color: #1f1b16;
+            font-size: 0.95rem;
+        }
+
+        .subcat-count {
+            color: rgba(111, 103, 92, 0.6);
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .chip {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 14px;
+            border-radius: 999px;
+            border: 1px solid #d4cec4;
+            background: white;
+            cursor: pointer;
+            font-weight: 750;
+            font-style: italic;
+            color: #1f1b16;
+            user-select: none;
+            font-size: 1.05rem;
+        }
+
+        .chip:hover { background: #f4eee1; }
+
+        .actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 16px;
+            right: 16px;
+            background: rgba(31, 27, 22, 0.92);
+            color: white;
+            padding: 10px 12px;
+            border-radius: 10px;
+            font-weight: 650;
+            opacity: 0;
+            pointer-events: none;
+            transform: translateY(8px);
+            transition: opacity 0.18s ease, transform 0.18s ease;
+            z-index: 20000;
+        }
+
+        .toast.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .drawer-backdrop {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 999;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .drawer-backdrop.show {
+            display: block;
+            opacity: 1;
+        }
+
+        .items-drawer {
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 460px;
+            max-width: 92vw;
+            height: 100vh;
+            background: #fdfbf7;
+            border-left: 2px solid #d4cec4;
+            box-shadow: -4px 0 12px rgba(0,0,0,0.15);
+            z-index: 1000;
+            overflow: hidden;
+            padding: 0;
+            transform: translateX(100%);
+            transition: transform 0.25s ease;
+        }
+
+        .items-drawer.show {
+            display: block;
+            transform: translateX(0);
+        }
+
+        .items-drawer-inner {
+            width: 100%;
+            height: 100vh;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+            padding: 72px 20px 84px 20px;
+        }
+
+        @media (max-width: 768px) {
+            .items-drawer {
+                width: 75vw;
+                max-width: 75vw;
+            }
+            .items-drawer-inner {
+                padding: 72px 16px calc(140px + env(safe-area-inset-bottom, 0px)) 16px;
+            }
+        }
+
+        #unifiedDrawerControls {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 10150;
+            pointer-events: none;
+            display: none;
+        }
+
+        #unifiedDrawerControls .drawer-close-btn,
+        #unifiedDrawerControls .drawer-scroll-btn-top,
+        #unifiedDrawerControls .drawer-scroll-btn-bottom {
+            pointer-events: auto;
+        }
+
+        .drawer-close-btn {
+            position: fixed;
+            top: 14px;
+            right: 14px;
+            background: rgba(44, 37, 32, 0.9);
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            transition: all 0.2s;
+            z-index: 10160;
+
+        }
+
+.drawer-scroll-btn-top,
+.drawer-scroll-btn-bottom {
+    position: fixed;
+    left: 50%;
+    right: auto;
+    background: rgba(44, 37, 32, 0.7);
+    color: white;
+    border: none;
+    width: var(--scroll-btn-size, 44px);
+    height: var(--scroll-btn-size, 44px);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    z-index: 10160;
+    transition: all 0.2s;
+    transform: translateX(-50%);
+}
+
+.drawer-scroll-btn-top {
+    top: calc(12px + env(safe-area-inset-top, 0px));
+}
+
+.drawer-scroll-btn-bottom {
+    top: auto;
+    bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+}
+
+.loading {
+    padding: 18px;
+    color: #6f675c;
+}
+</style>
+</head>
+<body>
+    <div id="drawerBackdrop" class="drawer-backdrop"></div>
+    <div id="itemsDrawer" class="items-drawer"></div>
+    <div class="container">
+        <div class="header">
+            <h1>Reference</h1>
+            <p>Browse evocative language and copy with one click.</p>
+        </div>
+
+        <div class="mobile-category-bar" id="mobileCategoryBar">
+            <div class="mobile-category-title">Categories</div>
+            <button class="mobile-category-btn" id="mobileCategoryBtn" type="button">
+                <span class="label" id="mobileCategoryLabel">Choose</span>
+                <span class="chev" aria-hidden="true">▾</span>
+            </button>
+        </div>
+
+        <div class="layout">
+            <div class="panel categories-panel">
+                <div class="panel-header">
+                    <div class="panel-title">Categories</div>
+                    <div class="panel-subtitle" id="catCount"></div>
+                </div>
+                <div class="panel-body" id="categoryList">
+                    <div class="loading">Loading…</div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-header">
+                    <div class="panel-title" id="groupTitle">Groups</div>
+                    <div class="panel-subtitle" id="groupCount"></div>
+                </div>
+                <div class="panel-body">
+                    <div id="groupList"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="toast" id="toast">Copied</div>
+    </div>
+
+    <div id="mobileCategoryBackdrop" class="mobile-category-backdrop"></div>
+    <div id="mobileCategorySheet" class="mobile-category-sheet">
+        <div class="mobile-category-sheet-header">
+            <div class="mobile-category-sheet-title">Pick a category</div>
+            <button class="mobile-category-close" id="mobileCategoryClose" type="button">Close</button>
+        </div>
+        <div class="mobile-category-sheet-body" id="mobileCategoryList"></div>
+    </div>
+
+    <script>
+        let quickHits = null;
+        let categoryOrder = [];
+        let leafGroupsByCategory = {}; // { category: [{ key, title, items }] }
+        let activeCategory = '';
+        let activeGroupKey = '';
+        let expandedGroupSections = new Set();
+
+        function toast(message) {
+            const el = document.getElementById('toast');
+            if (!el) return;
+            el.textContent = message;
+            el.classList.add('show');
+            setTimeout(function() {
+                el.classList.remove('show');
+            }, 850);
+        }
+
+        function copyText(value, message) {
+            const text = (value || '').toString();
+            if (!text) return;
+            if (window.SharedInteractions && typeof window.SharedInteractions.copyToClipboard === 'function') {
+                window.SharedInteractions.copyToClipboard(text);
+                return;
+            }
+            navigator.clipboard.writeText(text);
+            toast(message || 'Copied');
+        }
+
+        function normalizeTitle(text) {
+            return (text || '').toString().replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+        }
+
+        function compactPathTitle(fullTitle, categoryKey) {
+            const parts = (fullTitle || '').toString().split(' / ').map(p => p.trim()).filter(Boolean);
+            const toDrop = new Set([
+                'categories',
+                'category',
+                'characteristics',
+                'characteristic',
+                'subcategories',
+                'items'
+            ]);
+            const catTitle = normalizeTitle(categoryKey);
+
+            const filtered = [];
+            parts.forEach(function(part, idx) {
+                const lower = part.toLowerCase();
+                if (idx === 0 && part === catTitle) return;
+                if (toDrop.has(lower)) return;
+                filtered.push(part);
+            });
+
+            const slice = filtered.length > 2 ? filtered.slice(filtered.length - 2) : filtered;
+            const scrubbed = (categoryKey === 'verbs')
+                ? slice.map(function(p) {
+                    const first = (p || '').toString().trim().split(/\s+/)[0];
+                    return first || p;
+                })
+                : slice;
+            return scrubbed.join(' / ') || fullTitle;
+        }
+
+        function isStringArray(value) {
+            return Array.isArray(value) && value.every(v => typeof v === 'string');
+        }
+
+        function isPhraseObjectArray(value) {
+            return Array.isArray(value) && value.every(v => v && typeof v === 'object' && typeof v.phrase === 'string');
+        }
+
+        function normalizeItem(value) {
+            if (value && typeof value === 'object') {
+                if (typeof value.text === 'string') {
+                    return { text: value.text, definition: (typeof value.definition === 'string') ? value.definition : '' };
+                }
+                if (typeof value.phrase === 'string') {
+                    return { text: value.phrase, definition: (typeof value.definition === 'string') ? value.definition : '' };
+                }
+            }
+            return { text: String(value || ''), definition: '' };
+        }
+
+        function escapeHtml(input) {
+            const s = (input || '').toString();
+            return s
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function mergeArray(targetArr, sourceArr) {
+            const out = [];
+            const seen = new Map();
+
+            const add = function(v) {
+                const item = normalizeItem(v);
+                const key = (item.text || '').toLowerCase();
+                if (!key) return;
+                if (!seen.has(key)) {
+                    seen.set(key, item);
+                    out.push(item);
+                } else {
+                    const existing = seen.get(key);
+                    if (!existing.definition && item.definition) {
+                        existing.definition = item.definition;
+                    }
+                }
+            };
+
+            (Array.isArray(targetArr) ? targetArr : []).forEach(add);
+            (Array.isArray(sourceArr) ? sourceArr : []).forEach(add);
+            return out;
+        }
+
+        function deepMerge(target, source) {
+            if (Array.isArray(source)) {
+                if (!Array.isArray(target)) return source.slice();
+                return mergeArray(target, source);
+            }
+            if (!source || typeof source !== 'object') {
+                return (target === undefined) ? source : target;
+            }
+            if (!target || typeof target !== 'object' || Array.isArray(target)) {
+                target = {};
+            }
+            Object.entries(source).forEach(function(entry) {
+                const key = entry[0];
+                const value = entry[1];
+                if (key === 'metadata') return;
+                if (key in target) {
+                    target[key] = deepMerge(target[key], value);
+                } else {
+                    target[key] = Array.isArray(value) ? value.slice() : (value && typeof value === 'object' ? deepMerge({}, value) : value);
+                }
+            });
+            if (typeof source.description === 'string' && !target.description) {
+                target.description = source.description;
+            }
+            return target;
+        }
+
+        function mergeQuickHitsWithIdioms(base, idioms) {
+            if (!idioms || typeof idioms !== 'object') return base;
+            if (!base || typeof base !== 'object') base = {};
+
+            Object.keys(idioms).forEach(function(key) {
+                if (key === 'metadata') return;
+                base[key] = deepMerge(base[key], idioms[key]);
+            });
+
+            const baseMeta = base.metadata && typeof base.metadata === 'object' ? base.metadata : {};
+            const idiomMeta = idioms.metadata && typeof idioms.metadata === 'object' ? idioms.metadata : {};
+            const baseCats = Array.isArray(baseMeta.categories) ? baseMeta.categories : [];
+            const idiomCats = Array.isArray(idiomMeta.categories) ? idiomMeta.categories : [];
+
+            const out = [];
+            const seen = new Set();
+            idiomCats.forEach(function(c) {
+                if (!c || seen.has(c)) return;
+                seen.add(c);
+                out.push(c);
+            });
+            baseCats.forEach(function(c) {
+                if (!c || seen.has(c)) return;
+                seen.add(c);
+                out.push(c);
+            });
+            baseMeta.categories = out;
+            base.metadata = baseMeta;
+            return base;
+        }
+
+        function extractLeafGroups(node, pathParts, inheritedDescription) {
+            const path = pathParts || [];
+            const groups = [];
+            let currentDescription = inheritedDescription || '';
+
+            if (!node || typeof node !== 'object') {
+                return groups;
+            }
+
+            if (typeof node.description === 'string') {
+                currentDescription = node.description;
+            }
+
+            if (Array.isArray(node)) {
+                if (isStringArray(node)) {
+                    const title = path.map(normalizeTitle).join(' / ') || 'Items';
+                    groups.push({ key: path.join('::'), title, items: mergeArray([], node), description: currentDescription });
+                } else if (isPhraseObjectArray(node)) {
+                    const title = path.map(normalizeTitle).join(' / ') || 'Items';
+                    groups.push({ key: path.join('::'), title, items: mergeArray([], node), description: currentDescription });
+                }
+                return groups;
+            }
+
+            Object.entries(node).forEach(function(entry) {
+                const key = entry[0];
+                const value = entry[1];
+                if (key === 'description' || key === 'metadata') return;
+
+                if (key === 'items' && isStringArray(value)) {
+                    const title = path.map(normalizeTitle).join(' / ') || 'Items';
+                    groups.push({ key: path.join('::'), title, items: mergeArray([], value), description: currentDescription });
+                    return;
+                }
+
+                if (key === 'items' && isPhraseObjectArray(value)) {
+                    const title = path.map(normalizeTitle).join(' / ') || 'Items';
+                    groups.push({ key: path.join('::'), title, items: mergeArray([], value), description: currentDescription });
+                    return;
+                }
+
+                if (key === 'subcategories' && value && typeof value === 'object' && !Array.isArray(value)) {
+                    groups.push(...extractLeafGroups(value, path, currentDescription));
+                    return;
+                }
+
+                if (isStringArray(value)) {
+                    const title = [...path, key].map(normalizeTitle).join(' / ');
+                    groups.push({ key: [...path, key].join('::'), title, items: mergeArray([], value), description: currentDescription });
+                    return;
+                }
+
+                if (isPhraseObjectArray(value)) {
+                    const title = [...path, key].map(normalizeTitle).join(' / ');
+                    groups.push({ key: [...path, key].join('::'), title, items: mergeArray([], value), description: currentDescription });
+                    return;
+                }
+
+                if (value && typeof value === 'object') {
+                    groups.push(...extractLeafGroups(value, [...path, key], currentDescription));
+                }
+            });
+
+            return groups;
+        }
+
+        function buildIndex() {
+            const meta = quickHits && quickHits.metadata ? quickHits.metadata : null;
+            const declared = (meta && Array.isArray(meta.categories)) ? meta.categories.slice() : [];
+            const topLevel = Object.keys(quickHits || {}).filter(k => k !== 'metadata');
+
+            categoryOrder = declared.length ? declared : topLevel;
+            leafGroupsByCategory = {};
+
+            categoryOrder.forEach(function(cat) {
+                const node = quickHits[cat];
+                if (!node) return;
+                const groups = extractLeafGroups(node, [cat], (node && typeof node.description === 'string') ? node.description : '');
+                // De-dupe groups by key and remove empties
+                const seen = new Set();
+                leafGroupsByCategory[cat] = groups.filter(g => g && Array.isArray(g.items) && g.items.length).filter(g => {
+                    if (seen.has(g.key)) return false;
+                    seen.add(g.key);
+                    return true;
+                });
+            });
+        }
+
+        function setActiveCategory(cat) {
+            activeCategory = cat;
+            activeGroupKey = '';
+            expandedGroupSections = new Set();
+
+            document.querySelectorAll('.category-btn').forEach(function(btn) {
+                btn.classList.toggle('active', btn.dataset.cat === cat);
+            });
+
+            const groups = leafGroupsByCategory[cat] || [];
+            document.getElementById('groupTitle').textContent = normalizeTitle(cat);
+            document.getElementById('groupCount').textContent = groups.length ? `${groups.length} groups` : '';
+            renderGroups();
+
+            updateMobileCategoryLabel();
+            closeMobileCategoryPicker();
+
+            const groupPanel = document.getElementById('groupTitle');
+            if (groupPanel) {
+                groupPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+
+            closeItemsDrawer();
+        }
+
+        function clearActiveCategory() {
+            activeCategory = '';
+            activeGroupKey = '';
+            expandedGroupSections = new Set();
+            document.querySelectorAll('.category-btn').forEach(function(btn) {
+                btn.classList.remove('active');
+            });
+            updateMobileCategoryLabel();
+            renderGroups();
+            closeItemsDrawer();
+        }
+
+        function updateMobileCategoryLabel() {
+            const label = document.getElementById('mobileCategoryLabel');
+            if (!label) return;
+            label.textContent = activeCategory ? normalizeTitle(activeCategory) : 'Choose';
+        }
+
+        function openMobileCategoryPicker() {
+            const backdrop = document.getElementById('mobileCategoryBackdrop');
+            const sheet = document.getElementById('mobileCategorySheet');
+            if (!backdrop || !sheet) return;
+            backdrop.classList.add('show');
+            sheet.classList.add('show');
+        }
+
+        function closeMobileCategoryPicker() {
+            const backdrop = document.getElementById('mobileCategoryBackdrop');
+            const sheet = document.getElementById('mobileCategorySheet');
+            if (backdrop) backdrop.classList.remove('show');
+            if (sheet) sheet.classList.remove('show');
+        }
+
+        function setActiveGroup(groupKey) {
+            activeGroupKey = groupKey;
+            renderGroups();
+            const group = (leafGroupsByCategory[activeCategory] || []).find(g => g.key === groupKey);
+            if (group) {
+                openItemsDrawer(group);
+            } else {
+                closeItemsDrawer();
+            }
+        }
+
+        function renderCategories() {
+            const list = document.getElementById('categoryList');
+            const mobileList = document.getElementById('mobileCategoryList');
+            const count = document.getElementById('catCount');
+            const cats = categoryOrder.filter(c => leafGroupsByCategory[c] && leafGroupsByCategory[c].length);
+
+            if (count) {
+                count.textContent = `${cats.length}`;
+            }
+
+            list.innerHTML = cats.map(function(cat) {
+                const node = quickHits ? quickHits[cat] : null;
+                const desc = (node && typeof node.description === 'string') ? node.description : '';
+                const titleAttr = desc ? ` title="${escapeHtml(desc)}"` : '';
+                return `<button class="category-btn" data-cat="${cat}"${titleAttr}>${normalizeTitle(cat)}</button>`;
+            }).join('');
+
+            if (mobileList) {
+                mobileList.innerHTML = cats.map(function(cat) {
+                    const node = quickHits ? quickHits[cat] : null;
+                    const desc = (node && typeof node.description === 'string') ? node.description : '';
+                    const titleAttr = desc ? ` title="${escapeHtml(desc)}"` : '';
+                    return `<button class="category-btn" data-cat="${cat}"${titleAttr} type="button">${normalizeTitle(cat)}</button>`;
+                }).join('');
+            }
+
+            document.querySelectorAll('.category-btn').forEach(function(btn) {
+                if (btn.__quickHelperCatBound) return;
+                btn.__quickHelperCatBound = true;
+                btn.addEventListener('click', function() {
+                    setActiveCategory(btn.dataset.cat);
+                });
+            });
+
+            updateMobileCategoryLabel();
+        }
+
+        function renderGroups() {
+            const container = document.getElementById('groupList');
+            const filterValue = '';
+            const filterInput = null;
+
+            if (!activeCategory) {
+                document.getElementById('groupTitle').textContent = 'Browse All Categories';
+                const cats = categoryOrder.filter(c => leafGroupsByCategory[c] && leafGroupsByCategory[c].length);
+                document.getElementById('groupCount').textContent = cats.length ? `${cats.length}` : '';
+                
+
+                container.innerHTML = '<div style="color:#6f675c; font-size: 0.95rem; padding: 6px 0 10px 0;">Pick a category to browse its groups.</div>'
+                    + cats.map(function(cat) {
+                        return `<button class="category-btn" data-cat="${cat}" type="button">${normalizeTitle(cat)}</button>`;
+                    }).join('');
+
+                container.querySelectorAll('.category-btn').forEach(function(btn) {
+                    btn.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        setActiveCategory(btn.dataset.cat);
+                    });
+                });
+
+                return;
+            }
+
+            const all = leafGroupsByCategory[activeCategory] || [];
+
+            const matches = all.filter(function(g) {
+                if (!filterValue) return true;
+                const full = (g.title || '').toLowerCase();
+                const compact = compactPathTitle(g.title, activeCategory).toLowerCase();
+                return full.includes(filterValue) || compact.includes(filterValue);
+            });
+
+            const order = [];
+            const map = new Map();
+            matches.forEach(function(g) {
+                const compact = compactPathTitle(g.title, activeCategory);
+                const parts = compact.split(' / ').map(p => p.trim()).filter(Boolean);
+                const parent = parts[0] || compact;
+                const child = parts.slice(1).join(' / ');
+                if (!map.has(parent)) {
+                    map.set(parent, []);
+                    order.push(parent);
+                }
+                map.get(parent).push({ key: g.key, child, count: g.items.length, compact, description: g.description || '' });
+            });
+
+            if (filterValue) {
+                expandedGroupSections = new Set(order);
+            }
+
+            const subIcon = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="7" height="7" rx="1"></rect><rect x="13" y="4" width="7" height="7" rx="1"></rect><rect x="4" y="13" width="7" height="7" rx="1"></rect><rect x="13" y="13" width="7" height="7" rx="1"></rect></svg>`;
+
+            container.innerHTML = order.map(function(parent) {
+                const entries = map.get(parent) || [];
+                const expanded = expandedGroupSections.has(parent);
+                const encodedParent = encodeURIComponent(parent);
+                const chevron = expanded ? '▾' : '▸';
+
+                const singleLeafKey = (entries.length === 1 && !entries[0].child) ? entries[0].key : '';
+
+                const subButtons = entries.map(function(e) {
+                    const label = e.child || parent;
+                    const isActive = e.key === activeGroupKey;
+                    const titleAttr = e.description ? ` title="${escapeHtml(e.description)}"` : '';
+                    return `
+                        <button class="subcat-btn ${isActive ? 'active' : ''}" data-key="${e.key}" type="button"${titleAttr}>
+                            <span class="subcat-indicator"></span>
+                            <span class="subcat-label">${label}</span>
+                            <span class="subcat-count">${e.count}</span>
+                        </button>
+                    `;
+                }).join('');
+
+                return `
+                    <div class="group-section" data-parent="${encodedParent}">
+                        <button class="group-section-header" data-parent="${encodedParent}" data-open-key="${singleLeafKey}" type="button">
+                            <div class="group-section-title">${parent}</div>
+                            <div style="display:flex; align-items:center; gap:10px;">
+                                <div class="group-section-meta">${entries.length}</div>
+                                <div class="group-section-chevron">${chevron}</div>
+                            </div>
+                        </button>
+                        <div class="group-subgrid ${expanded && !singleLeafKey ? 'show' : ''}">
+                            ${subButtons}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            container.querySelectorAll('.group-section-header').forEach(function(btn) {
+                btn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const parent = decodeURIComponent(btn.dataset.parent || '');
+                    if (!parent) return;
+                    const openKey = (btn.dataset.openKey || '').toString();
+                    if (openKey) {
+                        setActiveGroup(openKey);
+                        return;
+                    }
+                    if (expandedGroupSections.has(parent)) expandedGroupSections.delete(parent);
+                    else expandedGroupSections.add(parent);
+                    renderGroups();
+                });
+            });
+
+            container.querySelectorAll('.subcat-btn').forEach(function(btn) {
+                btn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    setActiveGroup(btn.dataset.key);
+                });
+            });
+        }
+
+        function shuffleArray(arr) {
+            const copy = arr.slice();
+            for (let i = copy.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                const temp = copy[i];
+                copy[i] = copy[j];
+                copy[j] = temp;
+            }
+            return copy;
+        }
+
+        function ensureDrawerControls() {
+            let controls = document.getElementById('unifiedDrawerControls');
+            if (!controls) {
+                controls = document.createElement('div');
+                controls.id = 'unifiedDrawerControls';
+                controls.style.display = 'none';
+                document.body.appendChild(controls);
+            }
+            return controls;
+        }
+
+        function getDrawerScroller() {
+            const drawer = document.getElementById('itemsDrawer');
+            if (!drawer) return null;
+            return drawer.querySelector('.items-drawer-inner') || drawer;
+        }
+
+        function scrollDrawerToTop() {
+            const scroller = getDrawerScroller();
+            if (!scroller) return;
+            scroller.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function scrollDrawerToBottom() {
+            const scroller = getDrawerScroller();
+            if (!scroller) return;
+            scroller.scrollTo({ top: scroller.scrollHeight, behavior: 'smooth' });
+        }
+
+        function updateDrawerScrollButtons() {
+            const drawer = document.getElementById('itemsDrawer');
+            const scroller = getDrawerScroller();
+            if (!drawer || !scroller) return;
+            const controls = document.getElementById('unifiedDrawerControls');
+            if (!controls) return;
+
+            if (!drawer.classList.contains('show')) {
+                controls.innerHTML = '';
+                controls.style.display = 'none';
+                return;
+            }
+
+            const topBtn = controls.querySelector('.drawer-scroll-btn-top');
+            const bottomBtn = controls.querySelector('.drawer-scroll-btn-bottom');
+            if (!topBtn || !bottomBtn) return;
+
+            const scrollTop = scroller.scrollTop;
+            const scrollBottom = scroller.scrollHeight - scrollTop - scroller.clientHeight;
+            topBtn.style.display = scrollTop < 10 ? 'none' : 'flex';
+            bottomBtn.style.display = scrollBottom < 10 ? 'none' : 'flex';
+        }
+
+        function attachDrawerScrollHandlers() {
+            const scroller = getDrawerScroller();
+            if (!scroller) return;
+            scroller.removeEventListener('scroll', updateDrawerScrollButtons);
+            scroller.addEventListener('scroll', updateDrawerScrollButtons, { passive: true });
+            updateDrawerScrollButtons();
+        }
+
+        function closeItemsDrawer() {
+            const drawer = document.getElementById('itemsDrawer');
+            const backdrop = document.getElementById('drawerBackdrop');
+            const controls = document.getElementById('unifiedDrawerControls');
+            if (drawer) {
+                drawer.classList.remove('show');
+                drawer.innerHTML = '';
+            }
+            if (backdrop) {
+                backdrop.classList.remove('show');
+            }
+            if (controls) {
+                controls.innerHTML = '';
+                controls.style.display = 'none';
+                controls.remove();
+            }
+        }
+
+        function showDrawerControls() {
+            const drawer = document.getElementById('itemsDrawer');
+            if (!drawer || !drawer.classList.contains('show')) return;
+            const controls = ensureDrawerControls();
+            controls.innerHTML = '';
+            controls.style.display = 'block';
+
+            const closeBtn = document.createElement('button');
+            closeBtn.className = 'drawer-close-btn';
+            closeBtn.title = 'Close';
+            closeBtn.textContent = '×';
+            closeBtn.onclick = closeItemsDrawer;
+
+            const topBtn = document.createElement('button');
+            topBtn.className = 'drawer-scroll-btn-top';
+            topBtn.title = 'Scroll to top';
+            topBtn.textContent = '↑';
+            topBtn.onclick = function(e) { e.stopPropagation(); scrollDrawerToTop(); };
+
+            const bottomBtn = document.createElement('button');
+            bottomBtn.className = 'drawer-scroll-btn-bottom';
+            bottomBtn.title = 'Scroll to bottom';
+            bottomBtn.textContent = '↓';
+            bottomBtn.onclick = function(e) { e.stopPropagation(); scrollDrawerToBottom(); };
+
+            controls.appendChild(closeBtn);
+            controls.appendChild(topBtn);
+            controls.appendChild(bottomBtn);
+
+            updateDrawerScrollButtons();
+        }
+
+        function openItemsDrawer(group) {
+            const drawer = document.getElementById('itemsDrawer');
+            const backdrop = document.getElementById('drawerBackdrop');
+            if (!drawer || !backdrop || !group) return;
+
+            const title = compactPathTitle(group.title, activeCategory);
+            const items = Array.isArray(group.items) ? group.items.map(normalizeItem).filter(function(it) { return it && it.text; }) : [];
+
+            const chipsHtml = items.map(function(text) {
+                const encoded = encodeURIComponent(text.text);
+                const titleAttr = text.definition ? ` title="${escapeHtml(text.definition)}"` : '';
+                return `<button class="chip" data-clickable data-text="${encoded}"${titleAttr}>${escapeHtml(text.text)}</button>`;
+            }).join('');
+
+            const encodedAll = encodeURIComponent(items.map(function(it) { return it.text; }).join('\n'));
+
+            drawer.innerHTML =
+                '<div class="items-drawer-inner">'
+                + '<div class="panel-header" style="padding: 0 0 14px 0; border: none;">'
+                + '<div>'
+                + '<div class="panel-title" style="font-size: 1.08rem;">' + title + '</div>'
+                + '<div class="panel-subtitle" style="margin-top: 4px;">' + items.length + ' items</div>'
+                + '</div>'
+                + '</div>'
+                + '<div class="actions" style="margin-bottom: 12px;">'
+                + '<button class="btn" id="drawerCopyAll" data-all="' + encodedAll + '">Copy all</button>'
+                + '<button class="btn" id="drawerShuffle">Shuffle</button>'
+                + '</div>'
+                + '<div class="chips" id="drawerChips">' + chipsHtml + '</div>'
+                + '</div>';
+
+            backdrop.classList.add('show');
+            drawer.classList.add('show');
+
+            if (document.documentElement.classList.contains('embed-mode')) {
+                const container = document.querySelector('.container');
+                container.style.minHeight = '0';
+                container.style.height = 'auto';
+            }
+
+            showDrawerControls();
+            setTimeout(function() {
+                attachDrawerScrollHandlers();
+            }, 60);
+
+            if (window.SharedInteractions && typeof window.SharedInteractions.autoApplyClickable === 'function') {
+                window.SharedInteractions.autoApplyClickable();
+            }
+
+            const copyAllBtn = document.getElementById('drawerCopyAll');
+            if (copyAllBtn) {
+                copyAllBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const all = decodeURIComponent(copyAllBtn.dataset.all || '');
+                    if (!all) return;
+                    copyText(all, 'Copied all');
+                });
+            }
+
+            const shuffleBtn = document.getElementById('drawerShuffle');
+            if (shuffleBtn) {
+                shuffleBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const shuffled = shuffleArray(items);
+                    openItemsDrawer({ title: group.title, key: group.key, items: shuffled });
+                });
+            }
+        }
+
+        async function init() {
+            try {
+                const resp = await fetch('/api/quick-hits');
+                if (!resp.ok) throw new Error('Failed to load quick hits data');
+                quickHits = await resp.json();
+
+                try {
+                    const idiomsResp = await fetch('/api/idioms-list');
+                    if (idiomsResp && idiomsResp.ok) {
+                        const idioms = await idiomsResp.json();
+                        quickHits = mergeQuickHitsWithIdioms(quickHits, idioms);
+                    }
+                } catch (e) {
+                }
+
+                buildIndex();
+                renderCategories();
+
+                document.getElementById('drawerBackdrop').addEventListener('click', function() {
+                    closeItemsDrawer();
+                });
+
+                // Removed group filter input
+
+                const mobileBtn = document.getElementById('mobileCategoryBtn');
+                if (mobileBtn) {
+                    mobileBtn.addEventListener('click', function() {
+                        openMobileCategoryPicker();
+                    });
+                }
+                const mobileBackdrop = document.getElementById('mobileCategoryBackdrop');
+                if (mobileBackdrop) {
+                    mobileBackdrop.addEventListener('click', function() {
+                        closeMobileCategoryPicker();
+                    });
+                }
+                const mobileClose = document.getElementById('mobileCategoryClose');
+                if (mobileClose) {
+                    mobileClose.addEventListener('click', function() {
+                        closeMobileCategoryPicker();
+                    });
+                }
+            } catch (err) {
+                console.error(err);
+                const list = document.getElementById('categoryList');
+                if (list) {
+                    list.innerHTML = '<div class="loading">Failed to load Reference data.</div>';
+                }
+            }
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', init);
+        } else {
+            init();
+        }
+    </script>
+</body>
+</html>
