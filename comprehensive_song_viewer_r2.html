@@ -593,7 +593,8 @@
 
             const addOptions = (select, values) => {
                 const existing = new Set(Array.from(select.options).map(o => o.value));
-                (values || []).forEach(val => {
+                const items = Array.isArray(values) ? values : (values ? Object.keys(values) : []);
+                items.forEach(val => {
                     if (!existing.has(val)) {
                         const opt = document.createElement('option');
                         opt.value = val;
@@ -604,9 +605,9 @@
             };
 
             if (facets) {
-                addOptions(categoryFilter, facets.categories || []);
-                addOptions(sourceFilter, facets.sources || []);
-                addOptions(collectionFilter, facets.collections || []);
+                addOptions(categoryFilter, facets.categories);
+                addOptions(sourceFilter, facets.sources);
+                addOptions(collectionFilter, facets.special_collections || facets.collections);
             }
         }
 
@@ -614,7 +615,8 @@
             const genreList = document.getElementById('genreList');
             genreList.innerHTML = '';
 
-            const genres = facets && facets.genres ? facets.genres : [];
+            const genresData = facets && facets.genres ? facets.genres : [];
+            const genres = Array.isArray(genresData) ? genresData : Object.keys(genresData);
             const allItem = document.createElement('div');
             allItem.className = 'list-item' + (activeGenre === 'all' ? ' active' : '');
             allItem.textContent = 'All Genres';
