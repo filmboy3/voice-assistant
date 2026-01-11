@@ -27,7 +27,7 @@ R2_SONG_SHARDS_BASE_URL = R2_SONG_DATASET_BASE_URL
 R2_INDEX_BASE_URL = R2_SONG_DATASET_BASE_URL
 
 # R2 object names
-ARTISTS_INDEX_OBJECT = "index.json.gz" # Note: Confirmation showed this might be 404
+ARTISTS_INDEX_OBJECT = "index.json.gz"
 SONGS_INDEX_OBJECT = "songs_index_v4.json.gz"
 
 def _rename_source(source):
@@ -121,6 +121,16 @@ def fetch_songs_index_from_r2():
         print(f"Error fetching songs index: {e}")
         return None
 
+def fetch_artists_index_from_r2():
+    url = f"{R2_INDEX_BASE_URL}{ARTISTS_INDEX_OBJECT}"
+    try:
+        response = requests.get(url, timeout=20)
+        response.raise_for_status()
+        return json.loads(gzip.decompress(response.content))
+    except Exception as e:
+        print(f"Error fetching artists index: {e}")
+        return None
+
 def get_shard_key(song_id):
     if not song_id: return '00'
     return hashlib.md5(str(song_id).encode('utf-8')).hexdigest()[:2].lower()
@@ -128,13 +138,6 @@ def get_shard_key(song_id):
 @lru_cache(maxsize=4096)
 def _find_shard_key_for_song_id(song_id: str):
     if not isinstance(song_id, str) or not song_id: return None
-    
-    index_data = fetch_songs_index_from_r2()
-    if index_data and 'songs' in index_data:
-        # Optimization: binary search or dictionary would be better if index is sorted
-        # For now, let's just use the hashing as primary since it was confirmed working
-        pass
-    
     return get_shard_key(song_id)
 
 @lru_cache(maxsize=32)
@@ -156,28 +159,23 @@ def get_song(song_id):
     if not shard_data: return jsonify({'error': 'Shard not found'}), 404
     song = shard_data.get('songs', {}).get(song_id)
     if not song: return jsonify({'error': 'Song not found'}), 404
-    
     if song.get('source') == 'production_pipeline_v3_inclusive':
         song['source'] = 'V4 R2 Master'
-    
     return jsonify(song)
 
 @bp.route('/api/songs/index', methods=['GET'])
 def get_songs_index():
     if request.args.get('refresh') == '1':
         fetch_songs_index_from_r2.cache_clear()
-    
     index = fetch_songs_index_from_r2()
     if not index:
         return jsonify({'error': 'Songs index not available'}), 503
-    
     return jsonify(_process_index_for_display(index))
 
 @bp.route('/api/songs/stats', methods=['GET'])
 def get_stats():
     manifest = fetch_manifest_from_r2()
     if not manifest: return jsonify({'error': 'Manifest not available'}), 503
-    
     total_songs = sum(s.get('song_count', 0) for s in manifest.get('shards', {}).values())
     return jsonify({
         'total_songs': total_songs,
@@ -192,17 +190,13 @@ def search_songs():
     artist_filter = request.args.get('artist', '').strip()
     category_filter = request.args.get('category', '').strip()
     genre_filter = request.args.get('genre', '').strip()
-    
     try: limit = int(request.args.get('limit', 50))
     except: limit = 50
     limit = max(1, min(200, limit))
-    
     index_data = fetch_songs_index_from_r2()
     if not index_data: return jsonify({'error': 'Songs index not available'}), 503
-    
     songs = index_data.get('songs', [])
     results = []
-    
     for song in songs:
         if query:
             if query not in song.get('title', '').lower() and query not in song.get('artist', '').lower():
@@ -210,55 +204,36 @@ def search_songs():
         if artist_filter and song.get('artist', '').lower() != artist_filter.lower(): continue
         if category_filter and song.get('category', '').lower() != category_filter.lower(): continue
         if genre_filter:
-            genres = [g.lower() for g in song.get('genres', [])]
+            genres = [g.lower() for g in (song.get('genres') or [])]
             if genre_filter.lower() not in genres: continue
-
-        source = _rename_source(song.get('source', ''))
-        results.append({
-            'song_id': song.get('song_id', ''),
-            'artist': song.get('artist', ''),
-            'title': song.get('title', ''),
-            'category': song.get('category', ''),
-            'genres': song.get('genres', []),
-            'year': song.get('year'),
-            'has_genome': song.get('has_genome', False),
-            'has_pattison': song.get('has_pattison', False),
-            'verified': song.get('verified', False),
-            'source': source,
-            'special_collection': song.get('special_collection', '')
-        })
+        res = song.copy()
+        res['source'] = _rename_source(res.get('source', ''))
+        results.append(res)
         if len(results) >= limit: break
-    
     return jsonify({'results': results, 'total_returned': len(results)})
 
 @bp.route('/api/songs/facets', methods=['GET'])
 def get_facets():
     index_data = fetch_songs_index_from_r2()
     if not index_data: return jsonify({'error': 'Facets not available'}), 503
-    
     facets = index_data.get('facets', {})
-    # Process facets for display
     def _facet_list(val):
         if isinstance(val, dict):
             return [{'name': _rename_source(k), 'count': v} for k, v in val.items() if k.lower() != 'unknown']
         return []
-
     artist_counts = Counter()
     decades = set()
     for song in index_data.get('songs', []):
         if song.get('artist'): artist_counts[song['artist']] += 1
         if song.get('decade'): decades.add(song['decade'])
-    
     artists_by_letter = {}
     for artist, count in artist_counts.items():
         letter = artist[0].upper() if artist else '#'
         if not letter.isalpha(): letter = '#'
         if letter not in artists_by_letter: artists_by_letter[letter] = []
         artists_by_letter[letter].append({'name': artist, 'count': count})
-    
     for letter in artists_by_letter:
         artists_by_letter[letter].sort(key=lambda x: x['name'].lower())
-
     return jsonify({
         'artists': [{'name': artist, 'count': count} for artist, count in artist_counts.most_common(100)],
         'artists_by_letter': artists_by_letter,
@@ -269,4 +244,92 @@ def get_facets():
         'sources': _facet_list(facets.get('sources')),
         'special_collections': _facet_list(facets.get('special_collections'))
     })
-"""
+
+@bp.route('/api/songs/random', methods=['GET'])
+def get_random_song():
+    import random
+    manifest = fetch_manifest_from_r2()
+    if not manifest: return jsonify({'error': 'Manifest not available'}), 503
+    shard_keys = list(manifest.get('shards', {}).keys())
+    if not shard_keys: return jsonify({'error': 'No shards available'}), 503
+    random_shard_key = random.choice(shard_keys)
+    shard_data = fetch_shard_from_r2(random_shard_key)
+    if not shard_data or not shard_data.get('songs'): return jsonify({'error': 'Shard empty'}), 503
+    song_ids = list(shard_data['songs'].keys())
+    random_song_id = random.choice(song_ids)
+    song = shard_data['songs'][random_song_id]
+    if song.get('source') == 'production_pipeline_v3_inclusive':
+        song['source'] = 'V4 R2 Master'
+    return jsonify(song)
+
+@bp.route('/api/songs/browse', methods=['GET'])
+def browse_songs():
+    try: offset = int(request.args.get('offset', 0))
+    except: offset = 0
+    try: limit = int(request.args.get('limit', 50))
+    except: limit = 50
+    offset = max(0, offset)
+    limit = max(1, min(200, limit))
+    manifest = fetch_manifest_from_r2()
+    if not manifest: return jsonify({'error': 'Manifest not available'}), 503
+    shards = manifest.get('shards', {})
+    ordered_keys = sorted(shards.keys())
+    total_songs = sum(s.get('song_count', 0) for s in shards.values())
+    results = []
+    curr = 0
+    for skey in ordered_keys:
+        scount = shards[skey].get('song_count', 0)
+        if curr + scount <= offset:
+            curr += scount
+            continue
+        shard_data = fetch_shard_from_r2(skey)
+        if not shard_data: continue
+        songs = sorted(shard_data['songs'].values(), key=lambda x: x.get('song_id'))
+        for s in songs:
+            if curr < offset:
+                curr += 1
+                continue
+            res = {
+                'song_id': s.get('song_id'),
+                'artist': s.get('artist'),
+                'title': s.get('title'),
+                'category': s.get('category'),
+                'genres': s.get('genres'),
+                'source': _rename_source(s.get('source')),
+                'has_genome': _song_has_genome(s),
+                'has_pattison': _song_has_pattison(s),
+                'verified': _song_is_verified(s)
+            }
+            results.append(res)
+            curr += 1
+            if len(results) >= limit: break
+        if len(results) >= limit: break
+    return jsonify({
+        'results': results,
+        'offset': offset,
+        'limit': limit,
+        'total_songs': total_songs,
+        'next_offset': offset + len(results) if offset + len(results) < total_songs else None
+    })
+
+@bp.route('/api/songs/artist/<artist_name>', methods=['GET'])
+def get_artist_songs(artist_name):
+    index = fetch_artists_index_from_r2()
+    if not index: return jsonify({'error': 'Artists index not available'}), 503
+    target = None
+    for a in index.get('artists', []):
+        if a.get('artist', '').lower() == artist_name.lower():
+            target = a
+            break
+    if not target: return jsonify({'artist': artist_name, 'songs': [], 'count': 0})
+    return jsonify({
+        'artist': target.get('artist', artist_name),
+        'songs': target.get('songs', []),
+        'count': target.get('song_count', len(target.get('songs', [])))
+    })
+
+@bp.route('/api/songs/artists', methods=['GET'])
+def get_artists():
+    index = fetch_artists_index_from_r2()
+    if not index: return jsonify({'error': 'Artists index not available'}), 503
+    return jsonify(_process_index_for_display(index))
