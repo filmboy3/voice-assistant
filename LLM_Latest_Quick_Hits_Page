@@ -1,0 +1,1306 @@
+Here are some fast-browsing interface concepts for this library:
+
+## **1. Card-Based Cascade (Recommended)**
+
+```
+┌─────────────────────────────────────┐
+│  🎨 CONCRETE IMAGERY                │
+│  ⚡ VERBS                           │
+│  💭 EMOTIONS                        │
+│  ✨ OBJECT CHARACTERISTICS          │
+│  🔗 EMOTIONAL MAPPINGS              │
+└─────────────────────────────────────┘
+         ↓ (click any)
+┌─────────────────────────────────────┐
+│  VERBS                              │
+│  ┌────────┐ ┌────────┐ ┌────────┐ │
+│  │Violent │ │Tender  │ │Motion  │ │
+│  │Destruct│ │Gentle  │ │Energy  │ │
+│  └────────┘ └────────┘ └────────┘ │
+│  ┌────────┐ ┌────────┐            │
+│  │Transform│ │Sensory│            │
+│  └────────┘ └────────┘            │
+└─────────────────────────────────────┘
+         ↓ (hover shows preview, click expands)
+┌─────────────────────────────────────┐
+│  VIOLENT/DESTRUCTIVE                │
+│                                     │
+│  shatter • fracture • splinter     │
+│  rupture • crack • cleave • split  │
+│  tear • rip • slice • sever        │
+│  devour • consume • swallow        │
+│  destroy • demolish • obliterate   │
+│                                     │
+│  [Copy All] [Shuffle] [+ Favorite] │
+└─────────────────────────────────────┘
+```
+
+**Key features:**
+- **2-click max** to any word
+- **Hover previews** show 5-6 words before clicking
+- **Tag-style layout** - easy to scan, click individual words to copy
+- **Action buttons**: Copy all, shuffle order, favorite the category
+
+---
+
+## **2. Slot Machine / Randomizer**
+
+```
+┌──────────────────────────────────────────┐
+│        INSPIRE ME                        │
+│  ┌──────────┐ ┌──────────┐ ┌──────────┐│
+│  │ EMOTION  │ │  OBJECT  │ │   VERB   ││
+│  │          │ │          │ │          ││
+│  │ crushed  │ │lighthouse│ │ burning  ││
+│  │          │ │          │ │          ││
+│  └──────────┘ └──────────┘ └──────────┘│
+│                                          │
+│  🎲 [Randomize]  📌 [Lock crushed]      │
+│                                          │
+│  💡 "crushed lighthouse burning"         │
+│                                          │
+│  [Copy Phrase] [Save Combo] [New Roll]  │
+└──────────────────────────────────────────┘
+```
+
+**Key features:**
+- **Zero clicks** for initial inspiration
+- **Lock individual slots** to keep what you like, randomize others
+- **Auto-generates phrases** from combinations
+- **One-click copy** of the whole phrase
+
+---
+
+## **3. Expandable Drawer Navigation**
+
+```
+LEFT SIDEBAR (always visible)
+
+📂 Concrete Imagery          →
+📂 Verbs                     →
+📂 Emotions                  →
+📂 Object Characteristics    →
+📂 Emotional Mappings        →
+
+   ↓ (click arrow)
+
+📂 Verbs                     ↓
+   📁 Violent/Destructive    →
+   📁 Tender/Gentle          →
+   📁 Motion/Energy          →
+   📁 Transformation         →
+   📁 Psychological          →
+
+      ↓ (click arrow)
+
+   📁 Violent/Destructive    ↓
+      • Breaking/Shattering
+      • Consuming/Devouring
+      • Destroying
+      • Attacking/Assaulting
+
+         ↓ (click any)
+
+MAIN PANEL (fills right side)
+═══════════════════════════════
+BREAKING/SHATTERING
+
+shatter  fracture  splinter  fragment
+rupture  crack     cleave    split
+rend     tear      rip       slice
+sever    snap      break     crumble
+
+[each word is clickable to copy]
+```
+
+**Key features:**
+- **Persistent navigation** - no going back
+- **Progressive disclosure** - see depth at a glance
+- **Words displayed as chips** - one-click copy
+- **Breadcrumb trail** at top shows where you are
+
+---
+
+## **4. Tag Cloud with Filters (My Favorite for Speed)**
+
+```
+┌────────────────────────────────────────────┐
+│ QUICK FILTERS:                             │
+│ [All] [☀️Heat] [❄️Cold] [⚡Energy] [🌊Flow]│
+│                                            │
+│ ┌─ Verbs ──────────────────────┐          │
+│ │                               │          │
+│ │  SHATTER   burn   CRUSH       │          │
+│ │   tear  DEVOUR  melt          │          │
+│ │  explode   sear  FRAGMENT     │          │
+│ │   bloom  CARESS  whisper      │          │
+│ │  SPIRAL   drift   pulse       │          │
+│ │                               │          │
+│ └───────────────────────────────┘          │
+│                                            │
+│ ┌─ Concrete Imagery ───────────┐          │
+│ │                               │          │
+│ │  lighthouse  FIRE  ocean      │          │
+│ │   whiskey  MIRROR  highway    │          │
+│ │  cigarette   rain  KNIFE      │          │
+│ │                               │          │
+│ └───────────────────────────────┘          │
+└────────────────────────────────────────────┘
+
+(Size = frequency/importance)
+(Click any word = instant copy + toast notification)
+```
+
+**Key features:**
+- **Everything visible** at once (with infinite scroll)
+- **Visual weight** indicates most evocative/useful terms
+- **One-click copy** any word
+- **Thematic filters** instead of categories (heat, cold, violence, tenderness)
+- **No drilling required** - just scan and click
+
+---
+
+## **5. Mood-Based Entry (Songwriter-Focused)**
+
+```
+┌────────────────────────────────────┐
+│  What feeling are you chasing?     │
+│                                    │
+│  ┌────────┐ ┌────────┐ ┌────────┐│
+│  │   💔   │ │   🔥   │ │   ✨   ││
+│  │Heartbre│ │ Rage/  │ │Wonder/ ││
+│  │  oken  │ │ Anger  │ │  Awe   ││
+│  └────────┘ └────────┘ └────────┘│
+│  ┌────────┐ ┌────────┐ ┌────────┐│
+│  │   🌊   │ │   ⚡   │ │   🕊️   ││
+│  │ Longing│ │ Energy │ │ Peace  ││
+│  └────────┘ └────────┘ └────────┘│
+└────────────────────────────────────┘
+
+         ↓ (select "Heartbroken")
+
+┌────────────────────────────────────┐
+│  💔 HEARTBROKEN                    │
+│                                    │
+│  EMOTIONS:                         │
+│  shattered • hollow • empty        │
+│  crushed • broken • aching         │
+│                                    │
+│  VERBS:                            │
+│  crumble • shatter • bleed         │
+│  fracture • dissolve • wither      │
+│                                    │
+│  OBJECTS:                          │
+│  glass • mirror • ruins • ash      │
+│  wreckage • fragments • dust       │
+│                                    │
+│  COMBINATIONS:                     │
+│  "shattered glass heart" ← click   │
+│  "bleeding empty rooms"  ← click   │
+│                                    │
+│  [🎲 Generate More]                │
+└────────────────────────────────────┘
+```
+
+**Key features:**
+- **Emotion-first** navigation (how songwriters think)
+- **Pre-curated combinations** ready to go
+- **Cross-category automatically** (verbs + objects + emotions together)
+- **Generate button** for more combos
+
+---
+
+## **My Recommendation: Hybrid Approach**
+
+Combine **#4 (Tag Cloud)** for browsing + **#2 (Randomizer)** as a floating widget:
+
+```
+┌─────────────────────────────────────────────┐
+│  [Browse All] [By Mood] [Random] [Saved ⭐] │ ← Tabs
+├─────────────────────────────────────────────┤
+│                                             │
+│  🎲 RANDOMIZER (floating widget, top-right) │
+│  ┌─────────────────────────────┐           │
+│  │ burning + lighthouse + torn │ [🎲][📋]  │
+│  └─────────────────────────────┘           │
+│                                             │
+│  ═ BROWSE ALL ═                            │
+│                                             │
+│  Quick Filter: [🔥Heat] [❄️Cold] [⚡Fast]   │
+│                                             │
+│  SHATTER  ocean  BURN  whiskey             │
+│   tear   highway  melt  STORM              │
+│  FRACTURE  rain  sear  cigarette           │
+│   bloom   MIRROR drift  KNIFE              │
+│                                             │
+│  (infinite scroll, click to copy)          │
+│                                             │
+└─────────────────────────────────────────────┘
+
+✅ Click word → auto-copy + show ✓
+✅ Hover → see category/context
+✅ Double-click → see related words
+```
+
+**Why this works:**
+- **Random widget** for instant inspiration (0 clicks)
+- **Tag cloud** for when you know vaguely what you want
+- **Quick filters** narrow without hiding
+- **Everything is 1 click** to copy
+- **No typing ever required**
+
+Would you like me to mock up the actual HTML/CSS/JS for any of these approaches?
+
+I'll create a comprehensive, well-organized JSON library from this songwriting/creative writing resource. Let me structure it logically:
+
+```json
+{
+  "metadata": {
+    "name": "Evocative Language Master Library",
+    "version": "1.0",
+    "description": "Comprehensive database of evocative words, phrases, and mappings for creative writing and songwriting",
+    "categories": [
+      "concrete_imagery",
+      "verbs",
+      "emotions",
+      "object_characteristics",
+      "emotional_mappings"
+    ]
+  },
+
+  "concrete_imagery": {
+    "coastal_millennial": {
+      "description": "Contemporary cultural touchpoints and lifestyle elements",
+      "items": [
+        "tote bag", "New Yorker tote", "canvas bag", "Patagonia", "fleece",
+        "puffer jacket", "beanie", "vintage tee", "oversized sweater",
+        "leggings", "Lululemon", "yoga pants", "biker shorts",
+        "Birkenstocks", "Blundstones", "Docs", "white sneakers", "loafers",
+        "Apple Watch", "AirPods", "film camera", "point and shoot",
+        "Kindle", "yoga mat", "hydro flask", "water bottle", "Oura ring",
+        "oat milk", "oat latte", "iced coffee", "cold brew", "matcha",
+        "chai", "kombucha", "green juice", "smoothie", "acai bowl",
+        "avocado toast", "sourdough", "bagel", "everything bagel",
+        "Trader Joe's", "Whole Foods", "Erewhon", "Sweetgreen", "Farmers Market",
+        "flea market", "bookstore", "coffee shop", "wine bar", "dive bar",
+        "natural wine", "orange wine", "pet nat", "craft beer", "IPA", "sour beer",
+        "aperol spritz", "negroni", "martini", "espresso martini", "mezcal",
+        "therapy", "astrology", "horoscope", "co-star", "tarot", "mercury retrograde",
+        "pilates", "reformer", "yoga", "spin class", "Peloton", "hike", "hiking",
+        "meditation", "journaling", "manifesting", "plant mom", "succulent",
+        "monstera", "fiddle leaf", "fresh flowers", "eucalyptus", "sage",
+        "podcast", "NPR", "PBS", "newsletter", "crossword", "Wordle", "Connections",
+        "Brooklyn", "Williamsburg", "Greenpoint", "Bushwick", "Brownstone",
+        "West Village", "SoHo", "The LES", "Dumbo", "The Hamptons", "Montauk",
+        "Hudson Valley", "Upstate", "Catskills", "The train", "L Train",
+        "Silver Lake", "Echo Park", "Los Feliz", "Venice Beach", "Abbot Kinney",
+        "West Hollywood", "Santa Monica", "Malibu", "Canyon drive",
+        "Palm Springs", "Joshua Tree", "Napa", "Sonoma", "Big Sur",
+        "loft", "apartment", "studio", "fire escape", "rooftop", "stoop"
+      ]
+    },
+
+    "vehicles_transport": {
+      "description": "Vehicles and modes of transportation",
+      "subcategories": {
+        "cars": [
+          "Cadillac", "Mustang", "Corvette", "Thunderbird", "Continental",
+          "convertible", "fast car", "getaway car", "black car", "white car",
+          "limousine", "limo", "taxi", "cab", "yellow cab", "vintage benz",
+          "Silverado", "Chevy", "Ford", "pickup truck", "old truck", "flatbed",
+          "Jeep", "four-wheel drive", "tailgate", "Bronco", "Rover", "Defender"
+        ],
+        "motorcycles_bikes": [
+          "motorcycle", "Harley", "chopper", "bicycle", "bike", "fixie"
+        ],
+        "public_transport": [
+          "train", "midnight train", "freight train", "subway", "metro", "tube",
+          "streetcar", "trolley"
+        ],
+        "air_water": [
+          "airplane", "jet plane", "private jet", "red eye", "paper plane",
+          "boat", "yacht", "ferry", "ship", "sailboat", "canoe"
+        ],
+        "car_parts": [
+          "dashboard", "backseat", "passenger side", "shotgun", "radio",
+          "steering wheel", "headlights", "taillights", "rearview", "window"
+        ]
+      }
+    },
+
+    "roads_paths": {
+      "description": "Roads, streets, and pathways",
+      "items": [
+        "highway", "freeway", "interstate", "expressway", "turnpike", "boulevard",
+        "avenue", "broadway", "main street", "downtown", "city street",
+        "sidewalk", "pavement", "concrete", "parking lot", "rooftop",
+        "bridge", "tunnel", "underpass", "exit ramp", "fast lane", "cul-de-sac",
+        "backroads", "gravel road", "dirt road", "two-lane", "county line",
+        "state line", "coastline", "dead end", "crossroads", "old road",
+        "winding road", "mile marker", "train tracks", "river road",
+        "Route 66", "Pacific Coast", "driveway", "the 405", "the 101"
+      ]
+    },
+
+    "drinks": {
+      "description": "Beverages and drinking culture",
+      "subcategories": {
+        "alcohol_spirits": [
+          "whiskey", "bourbon", "scotch", "rye", "Jack", "Jim Beam",
+          "double shot", "on the rocks", "neat", "old no. 7",
+          "cognac", "brandy", "Hennessy",
+          "tequila", "Patron", "Casamigos", "vodka", "gin", "rum", "Bacardi", "Grey Goose",
+          "moonshine", "shots", "shooters"
+        ],
+        "alcohol_beer": [
+          "beer", "cold beer", "draft beer", "cheap beer", "tall boy",
+          "six-pack", "twelve-pack", "keg", "brew", "Budweiser", "Miller",
+          "Coors", "Corona", "Heineken", "Guinness", "IPA", "PBR"
+        ],
+        "alcohol_wine": [
+          "wine", "red wine", "white wine", "rosé", "champagne", "bubbly",
+          "Cabernet", "Merlot", "Pinot", "Chardonnay", "cheap wine", "boxed wine",
+          "sparkling wine", "Prosecco", "Dom Perignon", "pet nat", "skin contact"
+        ],
+        "cocktails": [
+          "martini", "dirty martini", "margarita", "spicy marg", "old fashioned",
+          "Manhattan", "gin and tonic", "negroni", "aperol spritz", "espresso martini",
+          "cosmo", "cocktail", "mixed drink"
+        ],
+        "non_alcoholic": [
+          "coffee", "black coffee", "morning coffee", "iced coffee", "espresso",
+          "latte", "oat latte", "caffeine", "tea", "sweet tea", "iced tea", "lemonade",
+          "water", "ice water", "holy water", "Coca-Cola", "Coke", "Diet Coke",
+          "Pepsi", "soda", "pop", "cherry coke", "milkshake", "juice",
+          "green juice", "orange juice", "ginger ale", "seltzer", "sparkling water"
+        ],
+        "containers": [
+          "cup", "red cup", "Solo cup", "paper cup", "plastic cup", "glass",
+          "bottle", "empty bottle", "broken bottle", "flask", "shot glass",
+          "wine glass", "champagne flute", "beer can", "aluminum can",
+          "mason jar", "coffee mug", "teacup", "shaker", "hydro flask"
+        ]
+      }
+    },
+
+    "food": {
+      "description": "Food items and dining",
+      "items": [
+        "burger", "cheeseburger", "fries", "french fries", "pizza",
+        "slice of pizza", "tacos", "burrito", "hot dog", "takeout",
+        "diner food", "greasy spoon", "waffle", "pancakes", "breakfast",
+        "sugar", "honey", "candy", "chocolate", "strawberry", "cherry",
+        "peach", "lemon", "lime", "coconut", "watermelon", "berries",
+        "vanilla", "cinnamon", "spice", "cake", "birthday cake", "pie",
+        "apple pie", "cherry pie", "ice cream", "gelato", "sorbet",
+        "bread", "wine", "salt", "pepper", "black coffee", "toast",
+        "mama's cooking", "Sunday dinner", "barbecue", "fried chicken",
+        "cornbread", "biscuit", "gravy", "sweet potato", "peaches"
+      ]
+    },
+
+    "clothing_accessories": {
+      "description": "Clothing, accessories, and personal items",
+      "subcategories": {
+        "tops": [
+          "t-shirt", "white tee", "tank top", "hoodie", "sweatshirt",
+          "flannel", "button-down", "sweater", "cardigan", "crop top",
+          "jersey", "silk shirt", "vintage tee"
+        ],
+        "outerwear": [
+          "leather jacket", "denim jacket", "coat", "raincoat",
+          "pea coat", "parka", "puffer", "blazer"
+        ],
+        "bottoms": [
+          "jeans", "blue jeans", "ripped jeans", "skinny jeans", "denim",
+          "shorts", "cutoffs", "daisy dukes", "skirt", "mini skirt",
+          "leggings", "sweatpants", "track suit", "bell-bottoms", "cargo pants",
+          "slacks", "trousers"
+        ],
+        "dresses_formal": [
+          "dress", "sundress", "summer dress", "black dress", "little black dress",
+          "red dress", "white dress", "wedding dress", "prom dress", "gown",
+          "suit", "tie", "black tie", "tuxedo", "sunday best", "silk dress"
+        ],
+        "footwear": [
+          "shoes", "sneakers", "kicks", "white sneakers", "Converse", "Vans",
+          "boots", "cowboy boots", "combat boots", "work boots", "high heels",
+          "stilettos", "heels", "sandals", "flip-flops", "barefoot", "between my toes",
+          "loafers", "platforms"
+        ],
+        "headwear_eyewear": [
+          "hat", "cap", "baseball cap", "fitted cap", "cowboy hat", "beanie",
+          "sunglasses", "shades", "aviators", "Ray-Bans", "glasses"
+        ],
+        "jewelry_accessories": [
+          "jewelry", "gold chain", "silver chain", "diamond", "ring", "pearls",
+          "watch", "Rolex", "makeup", "lipstick", "red lip", "perfume", "cologne"
+        ]
+      }
+    },
+
+    "body_sensory": {
+      "description": "Body parts and sensory experiences",
+      "items": [
+        "eyes", "blue eyes", "brown eyes", "green eyes", "hazel eyes", "lips", "red lips",
+        "hair", "blonde hair", "dark hair", "long hair", "curls", "messy hair", "bedhead",
+        "skin", "tan lines", "tattoo", "ink", "scars", "hands", "fingertips",
+        "face", "smile", "tears", "sweat", "blood", "bones", "heart", "pulse",
+        "breath", "voice", "shoulders", "spine",
+        "touch", "kiss", "breath", "whisper", "shiver", "shake", "stare",
+        "glance", "laugh", "cry", "scream", "silhouette", "shadow", "reflection",
+        "ghost", "memory", "dream", "nightmare", "dizzy", "high", "low"
+      ]
+    },
+
+    "places": {
+      "description": "Locations and geographical references",
+      "subcategories": {
+        "generic": [
+          "paradise", "heaven", "hell", "wonderland", "nowhere", "somewhere",
+          "anywhere", "home", "hometown", "ghost town", "boom town",
+          "city", "big city", "sin city", "the valley", "the hills",
+          "the coast", "the island", "the boondocks", "the sticks"
+        ],
+        "us_states": [
+          "California", "Cali", "New York", "Texas", "Tennessee", "Georgia",
+          "Florida", "Carolina", "Alabama", "Mississippi", "Louisiana",
+          "Kentucky", "Virginia", "Colorado", "Nevada", "Arizona", "Montana",
+          "Ohio", "Illinois", "Michigan", "Hawaii", "Alaska"
+        ],
+        "cities": [
+          "Nashville", "New York", "NYC", "LA", "Los Angeles", "Hollywood",
+          "Miami", "Vegas", "Las Vegas", "Chicago", "Detroit", "Atlanta",
+          "New Orleans", "Austin", "Dallas", "Houston", "Memphis", "Seattle",
+          "London", "Paris", "Tokyo", "Rome", "Berlin", "Toronto"
+        ]
+      }
+    },
+
+    "spaces": {
+      "description": "Physical spaces and venues",
+      "subcategories": {
+        "social_venues": [
+          "bar", "club", "nightclub", "dance floor", "VIP", "lounge",
+          "dive bar", "pub", "tavern", "honky tonk", "saloon", "speakeasy",
+          "karaoke bar", "rooftop bar", "pool hall", "casino", "after party",
+          "hotel", "motel", "hotel room", "motel room", "lobby", "penthouse",
+          "suite", "balcony", "elevator", "hallway", "airport", "station",
+          "bus stop", "subway station", "platform", "backseat",
+          "diner", "café", "coffee shop", "restaurant", "drive-thru",
+          "gas station", "parking lot", "corner store", "liquor store",
+          "cinema", "movie theater", "stadium", "arena", "bleachers",
+          "school", "high school", "gym", "church", "chapel", "altar",
+          "thrift store", "record store"
+        ],
+        "home_spaces": [
+          "house", "apartment", "loft", "condo", "room", "bedroom", "kitchen",
+          "living room", "bathroom", "shower", "floor", "kitchen floor",
+          "ceiling", "wall", "window", "door", "front door", "back door",
+          "porch", "front porch", "steps", "stairs", "driveway", "garage",
+          "backyard", "garden", "gate", "fence", "mailbox", "roof", "basement"
+        ],
+        "nature_spaces": [
+          "beach", "ocean", "sea", "waves", "sand", "shore", "pier", "boardwalk",
+          "river", "creek", "lake", "dock", "water", "waterfall",
+          "mountain", "hill", "canyon", "cliff", "valley", "desert", "dunes",
+          "forest", "woods", "pines", "tree", "palm tree", "field", "meadow",
+          "grass", "wildflowers", "sky", "stars", "moon", "sun", "cloud"
+        ]
+      }
+    },
+
+    "time": {
+      "description": "Temporal references and time periods",
+      "subcategories": {
+        "specific_times": [
+          "midnight", "high noon", "2 AM", "3 AM", "4 AM", "closing time",
+          "last call", "sunrise", "sunset", "dawn", "dusk", "twilight",
+          "golden hour", "blue hour", "rush hour", "happy hour",
+          "today", "tonight", "tomorrow", "yesterday", "the weekend",
+          "Friday night", "Saturday night", "Sunday morning", "Monday",
+          "minute", "second", "hour", "moment", "forever", "lifetime"
+        ],
+        "seasons_holidays": [
+          "summer", "summer night", "dog days", "July", "August", "June",
+          "winter", "winter night", "December", "January", "snow day",
+          "spring", "spring break", "April", "May",
+          "fall", "autumn", "September", "October", "Halloween",
+          "holiday", "Christmas", "New Year's", "New Year's Eve",
+          "birthday", "anniversary", "graduation"
+        ]
+      }
+    },
+
+    "weather": {
+      "description": "Weather conditions and atmospheric phenomena",
+      "items": [
+        "sun", "sunshine", "sunny", "heat", "heatwave", "hot",
+        "rain", "rainy", "pouring rain", "storm", "thunder", "lightning",
+        "hurricane", "tornado", "wind", "breeze", "windy",
+        "snow", "ice", "cold", "freezing", "frost", "blizzard",
+        "clouds", "cloudy", "gray", "fog", "mist", "haze",
+        "rainbow", "clear sky", "blue sky", "starry night"
+      ]
+    },
+
+    "objects": {
+      "description": "Physical objects and items",
+      "subcategories": {
+        "music_related": [
+          "song", "melody", "rhythm", "beat", "bass", "drum", "guitar",
+          "piano", "keys", "strings", "acoustic", "electric", "microphone",
+          "speaker", "stereo", "radio", "volume", "playlist", "mixtape",
+          "record", "vinyl", "cassette", "CD", "track", "headphones"
+        ],
+        "memory_items": [
+          "photo", "photograph", "picture", "polaroid", "frame", "camera",
+          "letter", "note", "postcard", "ticket", "diary", "journal",
+          "phone", "screen", "text", "message", "call", "number",
+          "ring", "locket", "gift", "box", "souvenir"
+        ],
+        "everyday_objects": [
+          "cigarette", "smoke", "lighter", "match", "flame", "fire", "ash",
+          "ashtray", "vape", "pills", "medicine",
+          "keys", "car keys", "wallet", "money", "cash", "dollar", "change",
+          "credit card", "ID", "passport", "suitcase", "bag", "purse",
+          "umbrella", "coat",
+          "bed", "pillow", "sheets", "blanket", "couch", "sofa", "chair",
+          "table", "lamp", "light", "bulb", "switch", "clock", "mirror",
+          "glass", "candle", "flower", "vase"
+        ],
+        "nature_objects": [
+          "rose", "thorn", "daisy", "sunflower", "lily", "weed",
+          "leaf", "leaves", "petal", "root", "branch", "stone", "rock",
+          "dust", "dirt", "mud", "sand", "gold", "diamond", "crystal"
+        ]
+      }
+    },
+
+    "domestic_objects": {
+      "description": "The artifacts of daily life, household clutter, and lived-in textures",
+      "subcategories": {
+        "kitchen_culinary": [
+          "kettle", "whistle", "steam", "cast iron", "skillet", "pan",
+          "spatula", "wooden spoon", "knife block", "butcher block",
+          "fridge", "magnet", "grocery list", "freezer", "ice tray", "frost",
+          "tupperware", "leftovers", "takeout box", "foil", "cling wrap",
+          "mason jar", "lid", "can opener", "corkscrew", "bottle opener",
+          "sink", "faucet", "drip", "dishes", "stack", "pile", "sponge",
+          "dish soap", "suds", "bubbles", "grease", "oil", "crumb", "stain",
+          "coffee pot", "filter", "grounds", "dregs", "mug", "chipped mug",
+          "toaster", "burn", "oven", "pilot light", "gas", "flame", "dial",
+          "trash", "bin", "garbage", "recycling", "compost", "peel", "rind",
+          "pantry", "can", "soup", "beans", "box", "cereal", "dust", "spice",
+          "salt", "pepper", "sugar", "flour", "jar", "lid", "seal"
+        ],
+        "bathroom_ritual": [
+          "mirror", "fog", "steam", "reflection", "glass", "crack",
+          "sink", "basin", "porcelain", "enamel", "tap", "drain", "clog",
+          "hair", "strand", "knot", "razor", "blade", "nick", "cut", "blood",
+          "toothbrush", "paste", "spit", "floss", "mint", "rinse",
+          "shower", "curtain", "liner", "mildew", "mold", "tile", "grout",
+          "tub", "bath", "ring", "scum", "bubble", "soap", "bar", "lather",
+          "towel", "damp", "wet", "rag", "cloth", "mat", "rug",
+          "toilet", "flush", "seat", "lid", "plunger", "roll", "paper",
+          "medicine cabinet", "shelf", "pill", "bottle", "cap", "prescription",
+          "aspirin", "vitamin", "cream", "lotion", "perfume", "cologne",
+          "scale", "weight", "number", "tile", "floor", "cold"
+        ],
+        "bedroom_sleep": [
+          "bed", "mattress", "spring", "frame", "headboard", "post",
+          "sheet", "fitted sheet", "tangle", "wrinkle", "crease", "fold",
+          "duvet", "comforter", "quilt", "blanket", "throw", "cover",
+          "pillow", "feather", "down", "foam", "case", "sham", "cool side",
+          "nightstand", "table", "lamp", "shade", "bulb", "switch",
+          "alarm", "clock", "radio", "snooze", "phone", "charger", "cord",
+          "book", "bookmark", "glass of water", "dust", "jewelry box",
+          "wardrobe", "closet", "hanger", "wire", "wood", "hook",
+          "drawer", "sock", "underwear", "laundry", "hamper", "pile",
+          "clothes", "floor", "carpet", "rug", "under the bed", "monster"
+        ],
+        "living_leisure": [
+          "couch", "sofa", "cushion", "pillow", "velvet", "leather",
+          "armchair", "recliner", "rocking chair", "stool", "ottoman",
+          "coffee table", "coaster", "ring", "stain", "remote", "clicker",
+          "tv", "screen", "glare", "static", "pixel", "glow", "blue light",
+          "bookshelf", "spine", "jacket", "dust jacket", "paperback",
+          "plant", "fern", "ivy", "pot", "dirt", "leaf", "dead leaf",
+          "window", "pane", "sill", "ledge", "curtain", "drape", "blind",
+          "candle", "wick", "wax", "scent", "smoke", "flame", "match",
+          "picture", "frame", "photo", "gallery", "wall", "paint", "chip",
+          "rug", "carpet", "floorboard", "creak", "shadow", "corner"
+        ],
+        "utility_maintenance": [
+          "radiator", "heater", "vent", "furnace", "boiler", "hiss", "clank",
+          "thermostat", "dial", "temperature", "heat", "ac", "fan", "blade",
+          "broom", "dustpan", "sweep", "mop", "bucket", "water", "slosh",
+          "vacuum", "cord", "suction", "noise", "bag", "dust bunny",
+          "washer", "dryer", "lint", "trap", "spin", "cycle", "hum",
+          "bleach", "ammonia", "chemical", "spray", "wipe", "rag",
+          "toolbox", "hammer", "nail", "screwdriver", "screw", "wrench",
+          "pliers", "drill", "bit", "tape", "glue", "fix", "patch",
+          "lightbulb", "filament", "burnout", "fuse", "breaker", "box"
+        ],
+        "ephemera_junk_drawer": [
+          "junk drawer", "clutter", "mess", "jumble", "tangle",
+          "battery", "dead battery", "double a", "triple a", "9 volt",
+          "rubber band", "elastic", "twist tie", "clip", "pin", "tack",
+          "pen", "cap", "dry pen", "pencil", "nub", "eraser", "shaving",
+          "change", "penny", "dime", "nickel", "quarter", "loose change",
+          "key", "spare key", "mystery key", "ring", "chain", "fob",
+          "receipt", "old receipt", "coupon", "ticket", "stub", "list",
+          "mail", "letter", "envelope", "bill", "flyer", "spam",
+          "matchbook", "lighter", "fluid", "flint", "string", "thread"
+        ]
+      }
+    },
+
+    "objects_ephemera": {
+      "description": "Tangible items, keepsakes, and detritus",
+      "items": [
+        "key", "lock", "latch", "hinge", "knob", "handle",
+        "wallet", "purse", "bag", "suitcase", "trunk", "box",
+        "money", "cash", "bill", "coin", "change", "penny", "dime", "quarter",
+        "card", "plastic", "check", "receipt", "stub", "ticket",
+        "paper", "pen", "pencil", "ink", "letter", "note", "envelope",
+        "stamp", "postcard", "book", "page", "chapter", "cover", "spine",
+        "magazine", "newspaper", "flyer", "poster", "billboard",
+        "photo", "picture", "snapshot", "polaroid", "negative", "film",
+        "frame", "album", "camera", "lens", "shutter", "flash",
+        "phone", "screen", "wire", "cord", "plug", "socket", "switch",
+        "bulb", "lamp", "light", "candle", "wick", "wax", "flame",
+        "match", "matchbook", "lighter", "zippo", "ashtray", "cigarette",
+        "smoke", "ash", "butt", "filter", "vape", "juul", "cartridge",
+        "bottle", "can", "glass", "cup", "mug", "plate", "dish",
+        "fork", "spoon", "knife", "blade", "razor", "needle", "pin",
+        "thread", "string", "rope", "knot", "tangle", "web", "net",
+        "umbrella", "coat", "hat", "gloves", "scarf", "ring", "watch",
+        "glasses", "sunglasses", "mask", "mirror", "comb", "brush",
+        "soap", "towel", "sheet", "blanket", "pillow", "mattress"
+      ]
+    },
+
+    "places_spaces": {
+      "description": "Specific locations, from grand to intimate",
+      "subcategories": {
+        "urban": [
+          "skyscraper", "high-rise", "tower", "block", "grid", "corner",
+          "intersection", "crosswalk", "stoop", "fire escape", "balcony",
+          "rooftop", "penthouse", "basement", "cellar", "boiler room",
+          "elevator", "lift", "escalator", "stairwell", "landing", "hallway",
+          "corridor", "lobby", "vestibule", "foyer", "reception", "desk",
+          "cubicle", "office", "boardroom", "break room", "water cooler",
+          "warehouse", "factory", "mill", "plant", "refinery", "smokestack",
+          "dock", "pier", "wharf", "harbor", "port", "terminal", "station",
+          "platform", "turnstile", "ticket booth", "waiting room", "bench",
+          "gutter", "sewer", "manhole", "grate", "scaffold", "construction site"
+        ],
+        "suburban_domestic": [
+          "driveway", "garage", "carport", "lawn", "yard", "garden", "patio",
+          "deck", "porch", "swing", "fence", "gate", "mailbox", "curb",
+          "kitchen", "island", "sink", "fridge", "pantry", "oven", "stove",
+          "living room", "couch", "sofa", "recliner", "rug", "carpet",
+          "fireplace", "hearth", "mantle", "chimney", "window", "sill",
+          "curtain", "blind", "shade", "shutter", "bedroom", "closet",
+          "drawer", "dresser", "vanity", "mirror", "bathroom", "shower",
+          "tub", "toilet", "tile", "faucet", "drain", "attic", "crawlspace"
+        ],
+        "commercial_social": [
+          "bar", "pub", "tavern", "saloon", "taproom", "lounge", "club",
+          "disco", "dancefloor", "dj booth", "vip", "booth", "stool", "rail",
+          "diner", "cafe", "bistro", "automat", "buffet", "cafeteria",
+          "bodega", "delhi", "corner store", "gas station", "pump", "minimart",
+          "strip mall", "parking lot", "garage", "drive-thru", "window",
+          "laundromat", "dry cleaner", "pharmacy", "drugstore", "aisle",
+          "checkout", "counter", "register", "motel", "hotel", "inn", "hostel"
+        ],
+        "nature_wild": [
+          "mountain", "peak", "summit", "ridge", "cliff", "bluff", "crag",
+          "canyon", "gorge", "ravine", "gulch", "valley", "basin", "plain",
+          "prairie", "meadow", "field", "pasture", "farm", "orchard", "grove",
+          "forest", "woods", "thicket", "bramble", "jungle", "rainforest",
+          "swamp", "marsh", "bog", "bayou", "wetland", "desert", "dune",
+          "oasis", "tundra", "glacier", "iceberg", "volcano", "crater",
+          "cave", "cavern", "grotto", "beach", "coast", "shore", "sand",
+          "dune", "tide pool", "reef", "ocean", "sea", "bay", "gulf",
+          "cove", "inlet", "strait", "sound", "lake", "pond", "pool",
+          "river", "stream", "creek", "brook", "spring", "waterfall"
+        ]
+      }
+    },
+
+    "time_weather": {
+      "description": "Temporal markers and atmospheric conditions",
+      "items": [
+        "dawn", "sunrise", "daybreak", "morning", "noon", "afternoon",
+        "dusk", "sunset", "sundown", "twilight", "gloaming", "evening",
+        "night", "midnight", "witching hour", "dead of night", "pre-dawn",
+        "second", "minute", "hour", "day", "week", "month", "year",
+        "decade", "century", "millennium", "era", "age", "epoch",
+        "spring", "summer", "fall", "autumn", "winter", "season",
+        "holiday", "vacation", "weekend", "workday", "sick day",
+        "yesterday", "today", "tomorrow", "tonight", "someday", "never",
+        "sun", "sunlight", "rays", "beam", "glare", "shadow", "shade",
+        "cloud", "mist", "fog", "haze", "smog", "smoke", "vapor",
+        "rain", "drizzle", "mist", "shower", "pour", "deluge", "flood",
+        "storm", "thunder", "lightning", "bolt", "flash", "gale", "wind",
+        "breeze", "gust", "draft", "cyclone", "hurricane", "tornado",
+        "snow", "flake", "flurry", "blizzard", "drift", "slush", "sleet",
+        "hail", "ice", "frost", "freeze", "thaw", "melt", "dew",
+        "humidity", "heat", "cold", "chill", "temperature", "climate"
+      ]
+    },
+
+    "colors": {
+      "description": "Colors and color descriptors",
+      "subcategories": {
+        "basic_colors": [
+          "Crimson", "Scarlet", "Cherry Red", "Burgundy", "Wine", "Ruby",
+          "Rose", "Blush", "Coral", "Pink", "Hot Pink", "Magenta", "Raspberry",
+          "Midnight Blue", "Navy", "Indigo", "Royal Blue", "Electric Blue",
+          "Sky Blue", "Baby Blue", "Powder Blue", "Teal", "Turquoise", "Aqua",
+          "Lavender", "Lilac", "Violet", "Purple", "Plum", "Amethyst",
+          "Emerald", "Forest Green", "Olive", "Sage", "Lime", "Kelly Green", "Mint",
+          "Gold", "Golden", "Mustard", "Canary Yellow", "Sunshine", "Lemon",
+          "Rust", "Orange", "Tangerine", "Copper", "Bronze", "Peach", "Salmon",
+          "Beige", "Tan", "Brown", "Chocolate", "Mocha", "Coffee", "Sand", "Khaki",
+          "Silver", "Chrome", "Platinum", "Gray", "Slate", "Charcoal", "Gunmetal",
+          "Black", "Jet Black", "White", "Ivory", "Cream", "Pearl", "Champagne"
+        ],
+        "color_modifiers": [
+          "neon", "neon pink", "neon blue", "neon green", "fluorescent",
+          "pastel", "faded", "rusted", "chrome", "platinum", "matte", "glossy",
+          "midnight", "electric", "blood red", "cherry", "rose gold",
+          "forest", "jet black", "pitch black", "pearl", "ivory", "cream"
+        ]
+      }
+    },
+
+    "moods_descriptors": {
+      "description": "Mood and pace descriptors",
+      "subcategories": {
+        "pace": [
+          "fast", "slow", "quick", "rush", "race", "run", "chase",
+          "wild", "crazy", "reckless", "dangerous", "loud", "quiet",
+          "still", "calm", "easy", "lazy", "smooth", "rough", "hard",
+          "soft", "gentle", "high", "low", "deep", "shallow", "steady"
+        ],
+        "emotional_states": [
+          "happy", "sad", "lonely", "lonesome", "broken", "heartbroken",
+          "blue", "melancholy", "numb", "cold", "bitter", "sweet",
+          "angry", "mad", "crazy", "lucky", "free", "young", "old",
+          "lost", "found", "ready", "scared", "brave", "sorry",
+          "jealous", "guilty", "honest", "reckless", "wild"
+        ]
+      }
+    },
+
+    "brands": {
+      "description": "Iconic brand names and cultural markers",
+      "items": [
+        "Coca-Cola", "Pepsi", "Jack Daniel's", "Jim Beam", "Hennessy",
+        "Patron", "Dom Perignon", "Budweiser", "Corona", "Heineken",
+        "Mercedes", "Benz", "Cadillac", "Chevy", "Ford", "Ferrari",
+        "Lamborghini", "Bugatti", "Rover", "Range Rover", "Bentley",
+        "Gucci", "Prada", "Chanel", "Dior", "Louis Vuitton", "Nike",
+        "Adidas", "Converse", "Vans", "Levi's", "Ray-Ban", "Rolex",
+        "iPhone", "Polaroid", "Kodak", "Uber", "Netflix"
+      ]
+    }
+  },
+
+  "verbs": {
+    "violent_destructive": {
+      "description": "Verbs expressing destruction, violence, and breaking",
+      "subcategories": {
+        "breaking_shattering": [
+          "shatter", "fracture", "splinter", "fragment", "rupture", "crack", "cleave",
+          "split", "rend", "tear", "rip", "slice", "sever", "snap", "break", "crumble",
+          "collapse", "implode", "explode", "burst", "erupt", "detonate", "blast"
+        ],
+        "consuming_devouring": [
+          "devour", "consume", "swallow", "engulf", "absorb", "inhale", "ingest",
+          "gorge", "ravage", "pillage", "plunder", "strip", "drain", "bleed", "sap",
+          "leech", "siphon", "gut", "hollow", "excavate", "carve", "gnaw", "erode"
+        ],
+        "destroying_annihilating": [
+          "destroy", "demolish", "ruin", "wreck", "obliterate", "annihilate", "erase",
+          "extinguish", "snuff", "quench", "smother", "choke", "suffocate", "strangle",
+          "throttle", "crush", "pulverize", "grind", "mash", "flatten", "compress"
+        ],
+        "attacking_assaulting": [
+          "assault", "attack", "strike", "smite", "pummel", "batter", "pound", "hammer",
+          "beat", "thrash", "lash", "whip", "flog", "scourge", "maul", "savage", "brutalize",
+          "torture", "torment", "plague", "haunt", "stalk", "hunt", "ambush"
+        ],
+        "corroding_decaying": [
+          "corrode", "rust", "tarnish", "rot", "decay", "decompose", "putrefy", "fester",
+          "curdle", "sour", "spoil", "wither", "wilt", "shrivel", "shrink", "atrophy",
+          "degenerate", "deteriorate", "disintegrate", "dissolve", "melt"
+        ]
+      }
+    },
+
+    "tender_gentle": {
+      "description": "Verbs expressing gentleness, care, and delicacy",
+      "subcategories": {
+        "holding_cradling": [
+          "cradle", "nestle", "cocoon", "swaddle", "embrace", "enfold", "envelop",
+          "wrap", "shroud", "cloak", "veil", "shelter", "shield", "protect", "guard",
+          "harbor", "house", "hold", "clutch", "grip", "grasp", "clasp", "cling"
+        ],
+        "whispering_murmuring": [
+          "whisper", "murmur", "breathe", "sigh", "hum", "croon", "lullaby", "sing",
+          "chant", "intone", "utter", "speak", "voice", "vocalize", "articulate",
+          "pronounce", "enunciate", "mouth", "lip", "mutter", "mumble"
+        ],
+        "caressing_touching": [
+          "caress", "stroke", "brush", "graze", "skim", "glide", "slide", "slip",
+          "drift", "float", "hover", "waft", "wander", "meander", "roam", "amble",
+          "stroll", "saunter", "coast", "cruise", "sail"
+        ],
+        "lingering_dwelling": [
+          "linger", "dwell", "reside", "inhabit", "occupy", "settle", "nest", "roost",
+          "perch", "rest", "pause", "halt", "stop", "stay", "remain", "persist",
+          "endure", "last", "survive", "weather", "withstand", "bear"
+        ],
+        "blooming_flourishing": [
+          "bloom", "blossom", "flourish", "thrive", "prosper", "burgeon", "sprout",
+          "germinate", "grow", "develop", "mature", "ripen", "evolve", "unfold",
+          "open", "expand", "spread", "extend", "stretch", "reach", "aspire"
+        ]
+      }
+    },
+
+    "motion_energy": {
+      "description": "Verbs expressing movement, energy, and dynamism",
+      "subcategories": {
+        "rapid_explosive": [
+          "surge", "rush", "flood", "cascade", "pour", "gush", "spill", "overflow",
+          "burst", "erupt", "explode", "detonate", "ignite", "kindle", "spark",
+          "flare", "blaze", "burn", "scorch", "sear", "singe", "char"
+        ],
+        "flowing_streaming": [
+          "flow", "stream", "course", "run", "race", "sprint", "dash", "bolt",
+          "dart", "shoot", "rocket", "launch", "propel", "thrust", "drive",
+          "push", "shove", "force", "compel", "impel", "urge", "press"
+        ],
+        "pulsing_throbbing": [
+          "pulse", "throb", "beat", "pound", "hammer", "drum", "tap", "rap",
+          "knock", "bang", "slam", "crash", "collide", "smash", "impact",
+          "strike", "hit", "batter", "pummel", "punch", "jab", "stab"
+        ],
+        "spiraling_whirling": [
+          "spiral", "whirl", "spin", "twirl", "rotate", "revolve", "circle",
+          "orbit", "gyrate", "swirl", "eddy", "vortex", "cyclone", "tornado",
+          "twist", "coil", "wind", "curl", "loop", "snake", "weave"
+        ],
+        "trembling_quivering": [
+          "tremble", "quiver", "shiver", "shudder", "quake", "shake", "rattle",
+          "vibrate", "oscillate", "fluctuate", "waver", "falter", "stumble",
+          "stagger", "teeter", "totter", "wobble", "sway", "rock", "roll"
+        ],
+        "creeping_crawling": [
+          "creep", "crawl", "slither", "slide", "slink", "skulk", "lurk", "prowl",
+          "stalk", "hunt", "track", "trail", "follow", "shadow", "tail", "dog",
+          "pursue", "chase", "hound", "harry", "harass", "badger"
+        ]
+      }
+    },
+
+    "transformation": {
+      "description": "Verbs expressing change and metamorphosis",
+      "subcategories": {
+        "changing_form": [
+          "transform", "transmute", "transfigure", "metamorphose", "morph", "shift",
+          "change", "alter", "modify", "adjust", "adapt", "evolve", "mutate",
+          "convert", "turn", "become", "grow", "develop", "mature", "ripen"
+        ],
+        "hardening_solidifying": [
+          "harden", "solidify", "crystallize", "fossilize", "petrify", "calcify",
+          "ossify", "stiffen", "rigidify", "set", "congeal", "coagulate", "clot",
+          "gel", "jell", "thicken", "curdle", "cake", "crust", "scab"
+        ],
+        "softening_melting": [
+          "soften", "melt", "thaw", "defrost", "dissolve", "liquefy", "liquify",
+          "dilute", "thin", "water", "weaken", "attenuate", "diminish",
+          "reduce", "lessen", "decrease", "dwindle", "fade", "wane", "ebb"
+        ],
+        "spreading_metastasizing": [
+          "spread", "metastasize", "proliferate", "multiply", "propagate", "breed",
+          "spawn", "generate", "reproduce", "replicate", "clone", "duplicate",
+          "copy", "mirror", "reflect", "echo", "resonate", "reverberate"
+        ],
+        "condensing_concentrating": [
+          "condense", "concentrate", "compress", "compact", "consolidate", "coalesce",
+          "merge", "fuse", "weld", "bond", "cement", "glue", "stick", "adhere",
+          "attach", "affix", "fasten", "secure", "anchor", "root", "ground"
+        ]
+      }
+    },
+
+    "psychological_emotional": {
+      "description": "Verbs expressing mental and emotional states",
+      "subcategories": {
+        "haunting_plaguing": [
+          "haunt", "plague", "torment", "torture", "agonize", "afflict", "trouble",
+          "disturb", "perturb", "unsettle", "unnerve", "rattle", "shake", "jar",
+          "jolt", "shock", "stun", "startle", "surprise", "astonish", "amaze"
+        ],
+        "convincing_persuading": [
+          "convince", "persuade", "sway", "influence", "affect", "move", "touch",
+          "reach", "strike", "hit", "resonate", "speak", "talk", "whisper",
+          "murmur", "suggest", "hint", "imply", "insinuate", "intimate"
+        ],
+        "deceiving_betraying": [
+          "deceive", "betray", "trick", "fool", "dupe", "con", "scam", "cheat",
+          "swindle", "defraud", "mislead", "misguide", "misdirect", "divert",
+          "distract", "confuse", "confound", "perplex", "puzzle", "baffle"
+        ],
+        "revealing_exposing": [
+          "reveal", "expose", "unveil", "uncover", "unearth", "disclose", "divulge",
+          "betray", "give", "show", "display", "exhibit", "present", "offer",
+          "proffer", "tender", "extend", "reach", "stretch", "strain", "stress"
+        ],
+        "concealing_hiding": [
+          "conceal", "hide", "bury", "inter", "entomb", "shroud", "veil", "cloak",
+          "mask", "disguise", "camouflage", "obscure", "cloud", "fog", "blur",
+          "dim", "darken", "shadow", "shade", "eclipse", "occult", "obfuscate"
+        ]
+      }
+    },
+
+    "sensory_textured": {
+      "description": "Verbs with strong sensory associations",
+      "subcategories": {
+        "burning_searing": [
+          "burn", "sear", "scorch", "char", "singe", "blister", "blaze", "flame",
+          "smolder", "smoke", "steam", "simmer", "boil", "bubble", "fizz",
+          "effervesce", "foam", "froth", "lather", "suds", "ferment", "brew"
+        ],
+        "freezing_chilling": [
+          "freeze", "chill", "ice", "frost", "glaze", "crystallize", "solidify",
+          "harden", "stiffen", "numb", "deaden", "dull", "blunt", "dampen",
+          "mute", "muffle", "quiet", "silence", "hush", "still", "calm"
+        ],
+        "crackling_snapping": [
+          "crackle", "snap", "pop", "crack", "split", "break", "fracture", "splinter",
+          "chip", "flake", "peel", "shed", "molt", "slough", "cast", "drop",
+          "fall", "tumble", "topple", "collapse", "crumble", "disintegrate"
+        ],
+        "dripping_oozing": [
+          "drip", "ooze", "seep", "leak", "trickle", "dribble", "drizzle", "weep",
+          "cry", "sob", "bawl", "wail", "keen", "lament", "mourn", "grieve",
+          "sorrow", "ache", "hurt", "pain", "sting", "burn", "smart"
+        ]
+      }
+    },
+
+    "specialized": {
+      "description": "Domain-specific and technical verbs",
+      "subcategories": {
+        "medical_biological": [
+          "metastasize", "calcify", "atrophy", "hemorrhage", "coagulate", "congeal",
+          "fester", "suppurate", "putrefy", "necrose", "gangrene", "ulcerate",
+          "lesion", "scar", "scab", "bruise", "contuse", "lacerate", "abrade"
+        ],
+        "chemical_physical": [
+          "oxidize", "corrode", "rust", "tarnish", "patina", "verdigris", "effervesce",
+          "volatilize", "evaporate", "sublimate", "condense", "precipitate", "crystallize",
+          "dissolve", "dilute", "concentrate", "saturate", "supersaturate", "percolate"
+        ],
+        "geological": [
+          "erode", "weather", "abrade", "grind", "pulverize", "crush", "compress",
+          "compact", "consolidate", "lithify", "fossilize", "petrify", "mineralize",
+          "crystallize", "metamorphose", "sediment", "deposit", "accrete"
+        ]
+      }
+    },
+
+    "physical_actions": {
+      "description": "Physical actions and bodily movements",
+      "items": [
+        "dancing", "running", "driving", "walking", "flying", "falling",
+        "crashing", "burning", "breaking", "shaking", "spinning",
+        "crying", "laughing", "screaming", "whispering", "singing",
+        "kissing", "touching", "holding", "letting go", "moving on",
+        "staying", "leaving", "coming back", "dreaming", "waking up",
+        "chasing", "wasting", "saving", "losing", "finding"
+      ]
+    }
+  },
+
+  "emotions": {
+    "description": "Comprehensive emotion vocabulary",
+    "categories": {
+      "joy_spectrum": {
+        "ecstatic": ["celebration", "victory", "triumph", "success", "breakthrough"],
+        "euphoric": ["drug", "high", "peak", "climax", "summit"],
+        "exhilarated": ["roller-coaster", "freefall", "rush", "thrill", "adventure"],
+        "jubilant": ["crowd", "parade", "festival", "carnival", "celebration"],
+        "blissful": ["ignorance", "peace", "meditation", "sleep", "dream"],
+        "happy": ["sunshine", "rainbow", "laughter", "spring", "song"],
+        "delighted": ["child", "sunrise", "gift", "surprise", "treasure"],
+        "pleased": ["cat-purr", "smile", "satisfaction", "contentment"],
+        "content": ["cat", "hearth", "nest", "home", "garden"],
+        "satisfied": ["feast", "fullness", "completion", "harvest", "rest"]
+      },
+
+      "sadness_spectrum": {
+        "desolate": ["wasteland", "ruins", "aftermath", "wreckage", "remains"],
+        "despairing": ["pit", "abyss", "void", "darkness", "depths"],
+        "anguished": ["scream", "cry", "wail", "keening", "lament"],
+        "heartbroken": ["glass", "mirror", "vase", "china", "crystal"],
+        "shattered": ["glass", "mirror", "window", "dreams", "hopes"],
+        "wistful": ["autumn", "sunset", "photograph", "memory", "song"],
+        "forlorn": ["orphan", "widow", "exile", "castaway", "refugee"],
+        "bereft": ["parent", "lover", "friend", "home", "country"],
+        "hollow": ["tree", "drum", "echo", "shell", "husk"],
+        "empty": ["room", "house", "nest", "promise", "threat"],
+        "numb": ["fingers", "heart", "soul", "spirit", "emotion"],
+        "melancholy": ["autumn", "twilight", "rain", "cello", "blues"],
+        "sad": ["rain", "gray-sky", "winter", "tears"],
+        "unhappy": ["gray", "cloud", "shadow", "winter", "fog"],
+        "gloomy": ["fog", "overcast", "shadow", "twilight", "dusk"]
+      },
+
+      "anger_spectrum": {
+        "seething": ["ocean", "volcano", "cauldron", "pot", "core"],
+        "fuming": ["volcano", "chimney", "exhaust", "engine", "furnace"],
+        "raging": ["storm", "fire", "river", "bull", "beast"],
+        "wrathful": ["god", "king", "judge", "parent", "teacher"],
+        "inflamed": ["wound", "tissue", "rhetoric", "passion", "debate"],
+        "bitter": ["poison", "wormwood", "gall", "vinegar", "ash"],
+        "resentful": ["employee", "child", "sibling", "competitor", "rival"],
+        "vengeful": ["spirit", "ghost", "fury", "goddess", "demon"],
+        "spiteful": ["remark", "comment", "action", "gesture", "look"],
+        "vindictive": ["ex", "enemy", "rival", "competitor", "opponent"],
+        "furious": ["hurricane", "wildfire", "tornado", "inferno"],
+        "enraged": ["volcano", "inferno", "explosion", "hurricane"],
+        "angry": ["volcano", "storm", "fire", "thunder", "rage"],
+        "frustrated": ["cage", "wall", "roadblock", "maze", "gridlock"],
+        "irritated": ["rash", "itch", "sandpaper", "static", "buzz"]
+      },
+
+      "fear_spectrum": {
+        "terrified": ["child", "animal", "prey", "victim", "witness"],
+        "petrified": ["statue", "stone", "fossil", "wood", "body"],
+        "horrified": ["witness", "observer", "bystander", "spectator"],
+        "panicked": ["crowd", "herd", "stampede", "flight", "retreat"],
+        "frantic": ["search", "attempt", "effort", "struggle", "motion"],
+        "anxious": ["parent", "student", "patient", "candidate"],
+        "apprehensive": ["traveler", "visitor", "guest", "stranger"],
+        "paranoid": ["conspiracy-theorist", "surveillance", "camera"],
+        "haunted": ["house", "castle", "mansion", "memory", "past"],
+        "afraid": ["rabbit", "deer", "mouse", "child", "prey"],
+        "scared": ["rabbit", "deer", "mouse", "prey", "victim"],
+        "frightened": ["rabbit", "deer", "child", "prey"],
+        "nervous": ["live-wire", "tremor", "vibration", "static"],
+        "worried": ["storm-cloud", "knot", "tangle", "weight"]
+      },
+
+      "love_spectrum": {
+        "passionate": ["affair", "romance", "kiss", "embrace", "dance"],
+        "ardent": ["supporter", "believer", "fan", "follower"],
+        "fervent": ["prayer", "wish", "hope", "desire", "belief"],
+        "consuming": ["fire", "flame", "passion", "desire", "obsession"],
+        "obsessive": ["love", "fan", "collector", "hoarder"],
+        "tender": ["kiss", "touch", "moment", "mercy", "care"],
+        "gentle": ["rain", "breeze", "touch", "voice", "approach"],
+        "devoted": ["servant", "follower", "disciple", "fan"],
+        "affectionate": ["kitten", "puppy", "embrace", "kiss"],
+        "loving": ["fire", "ocean", "gravity", "home", "heartbeat"],
+        "caring": ["mother", "shepherd", "guardian", "nurse"],
+        "warm": ["hearth", "fireplace", "sun", "blanket", "embrace"]
+      },
+
+      "complex_emotions": {
+        "ambivalent": ["crossroads", "fork", "pendulum", "scale"],
+        "conflicted": ["parent", "lover", "friend", "employee"],
+        "torn": ["fabric", "paper", "family", "nation", "heart"],
+        "fragmented": ["memory", "identity", "self", "narrative"],
+        "bittersweet": ["victory", "triumph", "success", "memory"],
+        "nostalgic": ["sepia", "faded-photograph", "old-song"],
+        "yearning": ["exile", "hunger", "thirst", "desert"],
+        "longing": ["horizon", "distance", "exile", "hunger"],
+        "hopeful": ["seed", "dawn", "horizon", "spring", "candle"],
+        "hopeless": ["void", "abyss", "wasteland", "desert"]
+      }
+    }
+  },
+
+  "object_characteristics": {
+    "description": "Descriptive qualities of objects and experiences",
+    "categories": {
+      "texture_rough": {
+        "jagged": ["glass", "rock", "cliff", "edge", "coastline"],
+        "gnarled": ["tree", "hands", "roots", "branches", "wood"],
+        "serrated": ["knife", "blade", "edge", "teeth", "saw"],
+        "corrugated": ["metal", "cardboard", "roof", "surface"],
+        "pitted": ["moon", "surface", "skin", "metal", "stone"],
+        "weathered": ["wood", "stone", "face", "barn", "boat"],
+        "scarred": ["face", "land", "earth", "memory", "history"],
+        "fractured": ["glass", "bone", "relationship", "trust"],
+        "brittle": ["bone", "glass", "ice", "peace", "truce"],
+        "cracked": ["mirror", "glass", "wall", "foundation"]
+      },
+
+      "texture_smooth": {
+        "silken": ["hair", "fabric", "voice", "touch", "skin"],
+        "velvety": ["moss", "petals", "voice", "darkness", "night"],
+        "satiny": ["fabric", "finish", "surface", "skin", "sheen"],
+        "glossy": ["magazine", "surface", "facade", "image"],
+        "polished": ["marble", "performance", "lies", "image"],
+        "glazed": ["ceramic", "eyes", "stare", "expression"],
+        "burnished": ["metal", "reputation", "glory", "legend"],
+        "sleek": ["surface", "design", "cat", "car", "movement"],
+        "smooth": ["silk", "glass", "water", "stone", "marble"]
+      },
+
+      "visual_luminosity": {
+        "incandescent": ["bulb", "rage", "fury", "passion", "truth"],
+        "phosphorescent": ["plankton", "ghost", "memory", "trace"],
+        "opalescent": ["pearl", "bubble", "illusion", "dream"],
+        "lustrous": ["pearl", "silk", "hair", "reputation"],
+        "radiant": ["bride", "joy", "happiness", "health"],
+        "gleaming": ["knife", "sword", "truth", "blade", "metal"],
+        "glowing": ["ember", "skin", "praise", "health"],
+        "shimmering": ["water", "heat", "mirage", "illusion"],
+        "flickering": ["candle", "hope", "consciousness", "life"],
+        "glinting": ["metal", "eyes", "threat", "warning"]
+      },
+
+      "temperature_heat": {
+        "scalding": ["water", "tears", "truth", "shame"],
+        "blistering": ["heat", "criticism", "attack", "fury"],
+        "searing": ["pain", "heat", "truth", "memory", "regret"],
+        "smoldering": ["embers", "resentment", "anger", "desire"],
+        "fevered": ["dream", "imagination", "pace", "mind"],
+        "torrid": ["affair", "romance", "passion", "summer"],
+        "burning": ["fire", "fever", "inflammation", "acid"],
+        "hot": ["fire", "fever", "summer", "furnace", "lava"]
+      },
+
+      "temperature_cold": {
+        "frigid": ["air", "reception", "stare", "silence", "heart"],
+        "icy": ["stare", "silence", "contempt", "hatred", "heart"],
+        "arctic": ["wind", "blast", "stare", "silence"],
+        "glacial": ["pace", "stare", "indifference", "beauty"],
+        "frozen": ["landscape", "heart", "moment", "time"],
+        "frostbitten": ["fingers", "hope", "dreams", "love"],
+        "freezing": ["silence", "stare", "reception", "response"],
+        "cold": ["ice", "frost", "winter", "stone", "marble"]
+      },
+
+      "weight": {
+        "heavy": ["lead", "anchor", "stone", "gravity", "weight"],
+        "leaden": ["sky", "silence", "atmosphere", "heart"],
+        "crushing": ["weight", "defeat", "news", "truth", "burden"],
+        "oppressive": ["heat", "silence", "regime", "atmosphere"],
+        "light": ["feather", "air", "helium", "cloud", "balloon"],
+        "weightless": ["dancer", "feeling", "relief", "freedom"],
+        "buoyant": ["mood", "spirit", "personality", "economy"],
+        "ethereal": ["beauty", "voice", "presence", "being"]
+      },
+
+      "motion_quality": {
+        "pulsing": ["vein", "music", "rhythm", "light", "energy"],
+        "throbbing": ["pain", "music", "bass", "heart", "desire"],
+        "seething": ["ocean", "volcano", "anger", "resentment"],
+        "cascading": ["waterfall", "consequences", "failures"],
+        "writhing": ["snake", "pain", "guilt", "shame", "regret"],
+        "flowing": ["river", "current", "stream", "tide"],
+        "trembling": ["voice", "hands", "body", "fear"],
+        "vibrating": ["tuning-fork", "string", "phone", "energy"]
+      }
+    }
+  },
+
+  "emotional_mappings": {
+    "description": "Comprehensive mappings of emotions to concrete imagery",
+    "note": "Maps abstract emotions to tangible objects, creating powerful metaphorical connections",
+    
+    "accepting": ["harbor", "shore", "embrace", "door", "gateway"],
+    "anguish": ["scream", "wound", "crucifixion", "torture", "agony"],
+    "bliss": ["paradise", "heaven", "nirvana", "eden", "rapture"],
+    "brave": ["warrior", "lion", "knight", "soldier", "hero"],
+    "broken": ["glass", "mirror", "shattered-vase", "ruins"],
+    "calm": ["lake", "mirror", "glass", "surface", "water"],
+    "compassion": ["Buddha", "saint", "mother", "healer", "shelter"],
+    "confident": ["king", "queen", "eagle", "lion", "champion"],
+    "crushed": ["weight", "vise", "avalanche", "defeat"],
+    "desperate": ["cliff-edge", "drowning", "last-gasp"],
+    "determined": ["bull", "locomotive", "hammer", "anvil"],
+    "empty": ["vessel", "shell", "husk", "void", "hollow"],
+    "free": ["bird", "wind", "ocean", "sky", "horizon"],
+    "grief": ["ocean", "abyss", "chasm", "wound", "widow"],
+    "guilt": ["weight", "stain", "shadow", "chain", "burden"],
+    "hope": ["seed", "dawn", "horizon", "candle", "ember"],
+    "isolated": ["island", "cell", "tower", "exile", "quarantine"],
+    "lonely": ["island", "desert", "moon", "lighthouse", "echo"],
+    "love": ["fire", "ocean", "gravity", "home", "heartbeat"],
+    "numb": ["ice", "anesthetic", "void", "nothing", "frozen"],
+    "overwhelmed": ["tsunami", "avalanche", "flood", "deluge"],
+    "peaceful": ["dove", "calm-water", "meditation", "sanctuary"],
+    "powerful": ["oak", "steel", "mountain", "fortress", "titan"],
+    "proud": ["lion", "peacock", "eagle", "tower", "monument"],
+    "rage": ["inferno", "hurricane", "volcano", "storm"],
+    "safe": ["harbor", "fortress", "shelter", "sanctuary", "nest"],
+    "scared": ["rabbit", "deer", "mouse", "prey", "child"],
+    "shattered": ["glass", "dreams", "hopes", "illusions", "mirror"],
+    "strong": ["oak", "steel", "mountain", "fortress", "lion"],
+    "tender": ["dawn", "dew", "petal", "whisper", "caress"],
+    "trapped": ["cage", "prison", "net", "web", "quicksand"],
+    "vulnerable": ["exposed-nerve", "wound", "skin", "openness"],
+    "wild": ["storm", "fire", "ocean", "wind", "animal"],
+    "worthy": ["gold", "diamond", "treasure", "crown", "champion"]
+  },
+
+  "usage_guidelines": {
+    "description": "Best practices for using this library in creative work",
+    "tips": [
+      "Pair concrete imagery with abstract emotions for powerful metaphors",
+      "Mix categories to create unexpected juxtapositions",
+      "Use verbs to add energy and movement to static descriptions",
+      "Layer sensory details from multiple categories for richness",
+      "Balance familiar imagery with surprising combinations",
+      "Consider cultural resonance when selecting brands and locations",
+      "Use color psychology to reinforce emotional tone",
+      "Match verb energy to the desired pace of the piece",
+      "Employ object characteristics to deepen sensory experience",
+      "Draw from emotional mappings to ground abstract concepts"
+    ],
+    
+    "pattern_examples": [
+      {
+        "pattern": "emotion + concrete_object",
+        "example": "lonely lighthouse",
+        "effect": "Makes abstract emotion tangible"
+      },
+      {
+        "pattern": "color + object + verb",
+        "example": "crimson leaves falling",
+        "effect": "Creates vivid, dynamic imagery"
+      },
+      {
+        "pattern": "place + time + weather",
+        "example": "Brooklyn at midnight in the rain",
+        "effect": "Establishes atmospheric setting"
+      },
+      {
+        "pattern": "texture + object + emotion",
+        "example": "jagged glass heart",
+        "effect": "Combines physical and emotional qualities"
+      },
+      {
+        "pattern": "brand + emotion",
+        "example": "Coca-Cola nostalgia",
+        "effect": "Leverages cultural associations"
+      }
+    ]
+  }
+}
+```
+
+This JSON library organizes over 2,000+ evocative elements into a comprehensive, searchable structure. It includes everything from the original Python script plus organizational improvements that make it easier to use for songwriting, creative writing, and metaphor generation. The structure is hierarchical, allowing you to drill down from broad categories to specific subcategories and items.
