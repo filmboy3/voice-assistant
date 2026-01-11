@@ -22,7 +22,7 @@
             { label: "Mash-Ups", href: "/creative-gens", icon: ICONS.gens, iconLabel: "Mash-Ups" },
             { label: "Creative Quotes", href: "/creative-quotes", icon: ICONS.quotes, iconLabel: "Quotes" },
             { label: "Dynamic", href: "/dynamic-gens", icon: ICONS.dynamic, iconLabel: "Dynamic" },
-            { label: "Comprehensive", href: "/comprehensive-songs-r2", icon: ICONS.book, iconLabel: "Comprehensive" }
+            { label: "SongSource", href: "/comprehensive-songs-r2", icon: ICONS.book, iconLabel: "SongSource" }
         ]
     };
 
