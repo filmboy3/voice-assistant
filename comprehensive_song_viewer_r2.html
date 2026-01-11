@@ -288,6 +288,7 @@
 
         function sanitizeLabel(s) {
             if (s === null || s === undefined) return '';
+            if (s === 'V4 R2 Master') return s;
             let out = String(s).trim();
             if (out.startsWith('[')) out = out.slice(1);
             if (out.endsWith(']')) out = out.slice(0, -1);
@@ -298,7 +299,10 @@
             try {
                 const response = await fetch('/api/songs/index');
                 const data = await response.json();
-                songsIndex = (data && data.songs) ? data.songs : [];
+                songsIndex = ((data && data.songs) ? data.songs : []).map(song => {
+                    if (song.source === "production_pipeline_v3_inclusive") song.source = "V4 R2 Master";
+                    return song;
+                });
                 facets = (data && data.facets) ? data.facets : null;
                 hydrateFilters();
                 renderGenreList();
