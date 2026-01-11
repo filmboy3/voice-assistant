@@ -473,6 +473,7 @@
 
                     const badges = [];
                     if (song.category && song.category !== 'unknown') badges.push(`<span class="pill">${song.category}</span>`);
+                    if (song.source === "production_pipeline_v3_inclusive") song.source = "V4 R2 Master";
                     if (song.has_genome) badges.push(`<span class="pill genome">Genome</span>`);
                     if (song.has_pattison) badges.push(`<span class="pill pattison">Pattison</span>`);
                     if (song.verified) badges.push(`<span class="pill verified">Verified</span>`);
@@ -888,7 +889,7 @@
                     <div class="artist" style="cursor:pointer;" onclick="showArtistBySlug('${artistSlug}')">${artistName || 'Unknown Artist'}</div>
                     <div>
                         ${song.category ? `<span class="pill">${song.category}</span>` : ''}
-                        ${song.source ? `<span class="pill">${song.source}</span>` : ''}
+                        ${(song.source === "production_pipeline_v3_inclusive" ? "V4 R2 Master" : song.source) ? `<span class="pill">${song.source === "production_pipeline_v3_inclusive" ? "V4 R2 Master" : song.source}</span>` : ''}
                         ${song.special_collection ? `<span class="pill">${song.special_collection}</span>` : ''}
                         ${song.verified ? `<span class="pill verified">Verified</span>` : ''}
                     </div>
