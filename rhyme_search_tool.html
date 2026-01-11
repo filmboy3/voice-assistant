@@ -1,0 +1,4753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Search a Topic</title>
+    <script src="shared_interactions.js"></script>
+    <script src="notes_manager.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f6f4ee;
+            color: #2c2520;
+            margin: 0;
+            padding: 10px 20px 20px 20px;
+            min-height: 100vh;
+        }
+
+        .embed-mode body {
+            padding: 0;
+            min-height: auto;
+            background: transparent;
+        }
+
+        .embed-mode .header {
+            display: none;
+        }
+
+        .embed-mode .container {
+            max-width: none;
+            padding: 0;
+        }
+
+        .embed-mode .search-container {
+            max-width: none;
+            margin: 0;
+            background: transparent;
+            padding: 0;
+            border-radius: 0;
+            box-shadow: none;
+        }
+
+        .embed-mode .search-box {
+            background: transparent;
+            padding: 10px 12px 8px 12px;
+            border-radius: 0;
+            box-shadow: none;
+            margin: 0;
+        }
+
+        .embed-mode .results-container.show {
+            padding: 0 12px 12px 12px;
+        }
+
+        body.has-global-nav>.container,
+        body.has-global-nav>div:not(.global-nav) {
+            margin-top: 8px !important;
+        }
+
+        @media (max-width: 768px) {
+
+            body.has-global-nav>.container,
+            body.has-global-nav>div:not(.global-nav) {
+                margin-top: 0 !important;
+            }
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0px 20px 40px 20px;
+        }
+
+        .header {
+            margin-bottom: 32px;
+        }
+
+        .header h1 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            font-size: 0.95rem;
+            color: #666;
+            display: none;
+        }
+
+        .search-container {
+            max-width: 800px;
+            margin: 10px auto 40px;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        body.has-global-nav .search-container {
+            margin-top: 16px;
+        }
+
+        .search-box {
+            background: white;
+            border: 1px solid #d4d4d4;
+            border-radius: 6px;
+            padding: 16px;
+            margin-bottom: 24px;
+            position: sticky;
+            top: var(--global-nav-height, 76px);
+            z-index: 200;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+        }
+
+        .search-help-trigger {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background: #e8e4dc;
+            color: #6f675c;
+            font-size: 0.8rem;
+            font-weight: 700;
+            cursor: help;
+            margin-left: 8px;
+            flex-shrink: 0;
+            border: none;
+            padding: 0;
+            line-height: 1;
+        }
+
+        .search-help-trigger:hover {
+            background: #d4cec4;
+            color: #4b4338;
+        }
+
+        .search-help-popover {
+            position: absolute;
+            top: calc(100% + 10px);
+            left: 50%;
+            transform: translateX(-50%);
+            width: min(420px, calc(100vw - 32px));
+            background: rgba(255, 255, 255, 0.98);
+            border: 1px solid #d4cec4;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            padding: 12px 14px;
+            color: #2c2520;
+            z-index: 500;
+            display: none;
+        }
+
+        .search-help-popover.show {
+            display: block;
+        }
+
+        .search-help-title {
+            font-weight: 800;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+
+        .search-help-list {
+            margin: 0;
+            padding-left: 18px;
+            color: #4b4338;
+            font-size: 0.93rem;
+            line-height: 1.4;
+        }
+
+        .embed-mode .search-box {
+            position: static;
+            top: auto;
+            box-shadow: none;
+        }
+
+        .sticky-results-bar {
+            display: none;
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid #e8e4dc;
+        }
+
+        /* Smooth show/hide on mobile (avoid snapping while scrolling) */
+        #noticeBanner,
+        #searchBtn,
+        .sticky-results-bar {
+            transition: opacity 0.22s ease, transform 0.22s ease, max-height 0.22s ease, margin 0.22s ease, padding 0.22s ease, border-width 0.22s ease;
+            will-change: opacity, transform, max-height;
+        }
+
+        .sticky-results-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .sticky-pill {
+            width: auto;
+            flex: 0 0 auto;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 10px 12px;
+            border-radius: 999px;
+            border: 1px solid #d4d4d4;
+            background: rgba(255, 255, 255, 0.85);
+            cursor: pointer;
+            transition: all 0.15s;
+            color: #2c2520;
+            font-weight: 750;
+            font-size: 1.02rem;
+            line-height: 1;
+        }
+
+        .sticky-pill:hover {
+            background: #f9f9f9;
+        }
+
+        .sticky-pill-dot {
+            width: 8px;
+            height: 8px;
+            background: #38ef7d;
+            border-radius: 50%;
+            flex: 0 0 auto;
+        }
+
+        .sticky-pill-label {
+            font-style: italic;
+            white-space: nowrap;
+        }
+
+        .sticky-pill-count {
+            color: #6f675c;
+            font-weight: 750;
+            white-space: nowrap;
+        }
+
+        /* Toggle Switch */
+        .family-toggle-container {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-left: 10px;
+            font-size: 0.95rem;
+            color: #2c2520;
+            font-weight: 700;
+        }
+
+        .toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 44px;
+            height: 24px;
+        }
+
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .toggle-slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 34px;
+        }
+
+        .toggle-slider:before {
+            position: absolute;
+            content: "";
+            height: 18px;
+            width: 18px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+
+        input:checked+.toggle-slider {
+            background-color: #9333ea;
+            /* Purple for Family */
+        }
+
+        input:checked+.toggle-slider:before {
+            transform: translateX(20px);
+        }
+
+        @media (max-width: 768px) {
+            .sticky-results-pills {
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 8px;
+                align-items: stretch;
+            }
+
+            .sticky-results-pills::-webkit-scrollbar {
+                display: none;
+            }
+
+            .sticky-pill {
+                font-size: 1.0rem;
+                padding: 10px 8px;
+                gap: 6px;
+            }
+        }
+
+        @media (max-width: 520px) {
+            .sticky-pill-count {
+                display: none;
+            }
+        }
+
+        body.search-collapsed .sticky-results-bar {
+            opacity: 0;
+            transform: translateY(-6px);
+            max-height: 0;
+            margin-top: 0;
+            padding-top: 0;
+            border-top-width: 0;
+            pointer-events: none;
+        }
+
+        body.search-collapsed #noticeBanner {
+            opacity: 0;
+            transform: translateY(-6px);
+            max-height: 0;
+            margin: 0;
+            padding: 0;
+            border-width: 0;
+            pointer-events: none;
+        }
+
+        body.search-collapsed #searchBtn {
+            opacity: 0;
+            transform: translateY(-6px);
+            max-height: 0;
+            margin-top: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            border-width: 0;
+            pointer-events: none;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+
+            #noticeBanner,
+            #searchBtn,
+            .sticky-results-bar {
+                transition: none;
+            }
+        }
+
+        .search-input-wrapper {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            position: relative;
+        }
+
+        .rhyme-letter-sections {
+            margin-top: 18px;
+        }
+
+        #searchInput {
+            flex: 1;
+            padding: 10px 14px;
+            font-size: 1.05rem;
+            border: 1px solid #d4d4d4;
+            border-radius: 4px;
+            outline: none;
+            font-family: inherit;
+        }
+
+        #searchInput:focus {
+            border-color: #999;
+        }
+
+        #searchBtn {
+            padding: 10px 24px;
+            font-size: 1.05rem;
+            background: #2c2c2c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+            font-family: inherit;
+            transition: background 0.2s;
+        }
+
+        #searchBtn:hover {
+            background: #1a1a1a;
+        }
+
+        .results-container {
+            display: none;
+        }
+
+        .results-container.show {
+            display: block;
+        }
+
+        .section {
+            background: white;
+            border: 1px solid #d4d4d4;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 16px;
+            transition: all 0.2s;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .family-toggle-wrapper {
+            display: flex;
+            align-items: center;
+        }
+
+        .section-title {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .section-count {
+            font-size: 0.9rem;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .section-button {
+            margin-top: 12px;
+            width: 100%;
+            padding: 12px;
+            background: #2c2c2c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s;
+            font-family: inherit;
+        }
+
+        .section-button:hover {
+            background: #1a1a1a;
+        }
+
+        #drawerBackdrop {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            z-index: 9998;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+
+        #drawerBackdrop.show {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .rhyme-chip-bubble {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 90%;
+            max-width: 500px;
+            height: 100vh;
+            background: #fdfbf7;
+            z-index: 10000;
+            overflow: hidden;
+            padding: 0;
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+            box-shadow: -4px 0 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .drawer-close-btn {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            background: rgba(44, 37, 32, 0.9);
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.2s;
+            z-index: 10012;
+        }
+
+        .drawer-close-btn:hover {
+            background: rgba(26, 20, 16, 1);
+            transform: scale(1.1);
+        }
+
+        .rhyme-chip-bubble.show {
+            transform: translateX(0);
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 5px 15px 20px 15px;
+            }
+
+            .search-container {
+                margin: 5px auto 30px;
+                padding: 20px 15px;
+            }
+
+            .rhyme-chip-bubble {
+                width: 75vw;
+                max-width: 75vw;
+            }
+
+            .drawer-close-btn {
+                top: 12px;
+                right: 12px;
+            }
+
+            :root {
+                --scroll-btn-right: 12px;
+            }
+
+            .drawer-close-btn {
+                display: flex !important;
+            }
+
+            .section {
+                font-size: 0.85rem;
+                padding: 8px 12px;
+                margin-right: 8px;
+                margin-bottom: 8px;
+            }
+
+            .drawer-item {
+                padding: 12px;
+            }
+
+            .drawer-item-text {
+                font-size: 0.95rem;
+            }
+
+            .rhyme-chip-bubble-inner {
+                padding: 72px 16px calc(140px + env(safe-area-inset-bottom, 0px)) 16px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 16px 24px 16px;
+            }
+        }
+
+        .rhyme-chip-bubble-inner {
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+            padding: 72px 20px 84px 20px;
+        }
+
+        .drawer-item {
+            background: white;
+            border: 1px solid #e8e4dc;
+            border-radius: 8px;
+            padding: 14px 16px;
+            margin-bottom: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+
+        .drawer-item:hover {
+            background: #f9f9f9;
+            border-color: #2c2520;
+            transform: translateX(3px);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .rhyme-chip-bubble-inner .drawer-item:nth-child(odd) {
+            background: #fdfbf7;
+        }
+
+        .rhyme-chip-bubble-inner .drawer-item:nth-child(odd):hover {
+            background: #f5f3ef;
+        }
+
+        .drawer-item-meta {
+            margin-top: 8px;
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .drawer-category-card {
+            background: white;
+            padding: 16px;
+            border-radius: 4px;
+            border: 1px solid #d4d4d4;
+            margin-bottom: 16px;
+        }
+
+        .drawer-category-title {
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #2c2520;
+        }
+
+        .drawer-header {
+            margin-bottom: 20px;
+        }
+
+        .drawer-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #1f1b16;
+        }
+
+        .drawer-item-text {
+            font-size: 1rem;
+            color: #2c2520;
+            line-height: 1.5;
+            font-style: italic;
+            font-weight: 600;
+        }
+
+        .drawer-item-text::first-letter {
+            text-transform: uppercase;
+        }
+
+        .search-term-highlight {
+            background: #fff4e6;
+            color: #d97706;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-weight: 700;
+        }
+
+        .drawer-subtitle {
+            font-size: 0.9rem;
+            color: #6f675c;
+        }
+
+        .drawer-actions {
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .drawer-action-btn {
+            border-radius: 999px;
+            border: 1px solid #d4cec4;
+            background: transparent;
+            color: #4b4338;
+            padding: 8px 14px;
+            font-weight: 650;
+            cursor: pointer;
+        }
+
+        .drawer-action-btn:hover {
+            background: #f4eee1;
+        }
+
+        :root {
+            --scroll-btn-size: 44px;
+            --scroll-btn-gap: 18px;
+            --scroll-btn-right: 14px;
+            --scroll-btn-center-shift: 0px;
+        }
+
+        .drawer-scroll-btn-top,
+        .drawer-scroll-btn-bottom {
+            position: fixed;
+            left: 50%;
+            right: auto;
+            background: rgba(44, 37, 32, 0.7);
+            color: white;
+            border: none;
+            width: var(--scroll-btn-size, 44px);
+            height: var(--scroll-btn-size, 44px);
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            z-index: 10160;
+            transition: all 0.2s;
+            transform: translateX(-50%);
+        }
+
+        .drawer-scroll-btn-top {
+            top: calc(12px + env(safe-area-inset-top, 0px));
+        }
+
+        .drawer-scroll-btn-bottom {
+            top: auto;
+            bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+        }
+
+        .drawer-scroll-btn-top:hover,
+        .drawer-scroll-btn-bottom:hover {
+            background: rgba(26, 20, 16, 0.9);
+        }
+
+        #unifiedDrawerControls {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 10050;
+            pointer-events: none;
+            display: none;
+        }
+
+        #unifiedDrawerControls .drawer-close-btn,
+        #unifiedDrawerControls .drawer-scroll-btn-top,
+        #unifiedDrawerControls .drawer-scroll-btn-bottom {
+            pointer-events: auto;
+        }
+
+        .rhyme-chip-bubble .drawer-close-btn,
+        .rhyme-chip-bubble .drawer-scroll-btn-top,
+        .rhyme-chip-bubble .drawer-scroll-btn-bottom {
+            display: flex !important;
+        }
+
+        .rhyme-chip-bubble .drawer-scroll-btn,
+        .rhyme-chip-bubble .drawer-scroll-buttons {
+            display: none !important;
+        }
+
+
+        .drawer-category-count {
+            color: #666;
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        .drawer-category-section {
+            margin-bottom: 20px;
+        }
+
+        .drawer-category-header {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #2c2520;
+            margin-bottom: 10px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #e8e4dc;
+            text-transform: capitalize;
+        }
+
+        .rhyme-chip-bubble-close {
+            position: sticky;
+            top: 0;
+            right: 0;
+            background: transparent;
+            border: none;
+            font-size: 2rem;
+            color: #2c2520;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.2s;
+            z-index: 10001;
+            margin-left: auto;
+            margin-bottom: 12px;
+        }
+
+        .rhyme-chip-bubble-close:hover {
+            background: rgba(0, 0, 0, 0.05);
+        }
+
+        .rhyme-chip-bubble-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 12px;
+            margin-bottom: 16px;
+            margin-top: 8px;
+            font-weight: 700;
+            color: #1f1b16;
+            font-size: 1.1rem;
+        }
+
+        .rhyme-chip-bubble-header .count {
+            font-weight: 500;
+            color: #6f675c;
+            font-size: 0.9rem;
+        }
+
+        .rhyme-chip-bubble-list {
+            display: grid;
+            gap: 8px;
+        }
+
+        .rhyme-chip-bubble-item {
+            background: rgba(255, 255, 255, 0.7);
+            border: 1px solid rgba(31, 27, 22, 0.12);
+            border-radius: 10px;
+            padding: 10px 12px;
+            font-size: 0.95rem;
+            line-height: 1.35;
+            color: #1f1b16;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .rhyme-chip-bubble-item:hover {
+            background: rgba(255, 255, 255, 0.95);
+            border-color: rgba(31, 27, 22, 0.25);
+            transform: translateY(-1px);
+        }
+
+        .rhyme-chip-bubble-item:active {
+            transform: translateY(0);
+        }
+
+        .rhyme-chip-bubble-item.copied {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+        }
+
+        .chip-copied {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%) !important;
+        }
+
+        @media (max-width: 768px) {
+            .rhyme-chip {
+                font-size: 0.85rem;
+                padding: 6px 12px;
+            }
+        }
+
+        .phrase-group-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #1f1f1f;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+        }
+
+        .phrase-group-title .count {
+            font-size: 0.85rem;
+            color: #999;
+            font-weight: 400;
+        }
+
+        .phrase-group+.phrase-group {
+            margin-top: 24px;
+        }
+
+        .rhyme-groups {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .rhyme-entry {
+            border: 1px solid #e8e8e8;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .rhyme-entry:nth-child(even) .rhyme-group-header,
+        .rhyme-entry:nth-child(even) .rhyme-row {
+            background: #fdfdfd;
+        }
+
+        .rhyme-row {
+            width: 100%;
+            background: #f8f8f8;
+            border: none;
+            padding: 10px 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #2c2c2c;
+            cursor: pointer;
+        }
+
+        .rhyme-row .chevron {
+            font-size: 1rem;
+        }
+
+        .rhyme-group {
+            border: none;
+            border-radius: 0;
+            background: transparent;
+        }
+
+        .rhyme-group-header {
+            width: 100%;
+            background: #f8f8f8;
+            border: none;
+            padding: 10px 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #2c2c2c;
+            cursor: pointer;
+        }
+
+        .rhyme-group-header .count {
+            font-size: 0.85rem;
+            color: #666;
+            font-weight: 400;
+            margin-left: 8px;
+        }
+
+        .rhyme-group .chevron {
+            font-size: 0.85rem;
+            margin-left: 12px;
+            transition: transform 0.2s ease;
+        }
+
+        .rhyme-group-body {
+            display: none;
+            padding: 12px 16px;
+            border-top: 1px solid #e8e8e8;
+        }
+
+        .rhyme-group.open .rhyme-group-body {
+            display: block;
+        }
+
+        .rhyme-group.open .chevron {
+            transform: rotate(180deg);
+        }
+
+        .phrase-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+            max-height: 500px;
+            overflow-y: auto;
+            padding-right: 8px;
+        }
+
+        .phrase-list::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .phrase-list::-webkit-scrollbar-track {
+            background: #f8f8f8;
+        }
+
+        .phrase-list::-webkit-scrollbar-thumb {
+            background: #d4d4d4;
+            border-radius: 4px;
+        }
+
+        .phrase-list::-webkit-scrollbar-thumb:hover {
+            background: #999;
+        }
+
+        .phrase-item {
+            padding: 12px 16px;
+            background: #f8f8f8;
+            border-left: 2px solid #e8e8e8;
+            font-size: 0.9rem;
+        }
+
+        .phrase-item:hover {
+            background: #f0f0f0;
+            border-left-color: #999;
+        }
+
+        .phrase-text {
+            color: #2c2c2c;
+            line-height: 1.5;
+        }
+
+        .phrase-meta {
+            font-size: 0.8rem;
+            color: #999;
+            margin-top: 4px;
+        }
+
+        .phrase-badge {
+            display: inline-block;
+            padding: 2px 6px;
+            background: #e8e8e8;
+            border-radius: 3px;
+            font-size: 0.75rem;
+            color: #666;
+        }
+
+        .phrase-badge+.phrase-badge {
+            margin-left: 6px;
+        }
+
+        .phrase-badge.badge-positive {
+            background: #ecf9f1;
+            color: #1b6a3b;
+        }
+
+        .phrase-badge.badge-negative {
+            background: #fdecec;
+            color: #8a1f1f;
+        }
+
+        .phrase-badge.badge-idiom {
+            background: #f4f0ff;
+            color: #4b3fa3;
+        }
+
+        .phrase-badge.badge-rhyme {
+            background: #eef3ff;
+            color: #243c8f;
+        }
+
+        .phrase-badge.emoji-only {
+            background: transparent;
+            color: inherit;
+            padding: 0;
+            font-size: 1rem;
+        }
+
+        .phrase-inline-emojis {
+            margin-left: 6px;
+            display: inline-flex;
+            gap: 4px;
+        }
+
+        .phrase-highlight {
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: #999;
+        }
+
+        .empty-state-action {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 10px 14px;
+            border-radius: 999px;
+            border: 1px solid #d4cec4;
+            background: transparent;
+            color: #1f1b16;
+            font-weight: 750;
+            text-decoration: none;
+        }
+
+        .empty-state-action:hover {
+            background: #f4eee1;
+        }
+
+        .empty-note {
+            color: #777;
+            font-size: 0.9rem;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+
+        .spinner {
+            border: 2px solid #f0f0f0;
+            border-top: 2px solid #999;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 12px;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .show-more {
+            width: 100%;
+            padding: 10px;
+            margin-top: 12px;
+            background: #f8f8f8;
+            border: 1px solid #e8e8e8;
+            border-radius: 4px;
+            color: #666;
+            font-weight: 500;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+
+        .show-more:hover {
+            background: #f0f0f0;
+            border-color: #d4d4d4;
+            color: #2c2c2c;
+        }
+
+        .rhyme-actions {
+            margin-bottom: 12px;
+        }
+
+        .rhyme-chip,
+        .search-chip,
+        .synonym-chip {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            padding: 10px 14px;
+            border-radius: 999px;
+            border: 1px solid #d4cec4;
+            background: white;
+            cursor: pointer;
+            font-weight: 750;
+            font-style: italic;
+            color: #1f1b16;
+            user-select: none;
+            gap: 8px;
+        }
+
+        .rhyme-chips-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: flex-start;
+        }
+
+        .rhyme-chip {
+            transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease, border-color 0.12s ease;
+        }
+
+        .rhyme-chip:hover {
+            transform: translateY(-1px);
+            border-color: #1f1b16;
+            background: #fffdfa;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        .rhyme-chip:active {
+            transform: translateY(0px);
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+        }
+
+        .rhyme-chip:focus-visible {
+            outline: 2px solid rgba(31, 27, 22, 0.35);
+            outline-offset: 2px;
+        }
+
+        .rhyme-chip .indicator-dot {
+            display: none;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #22c55e;
+            flex-shrink: 0;
+        }
+
+        .rhyme-chip.has-phrases .indicator-dot {
+            display: inline-block;
+        }
+
+        .rhyme-chip.has-refs {
+            border-color: #22c55e;
+            background: #f0fdf4;
+        }
+
+        .rhyme-chip.has-refs .indicator-dot {
+            display: inline-block;
+        }
+
+        .rhyme-chip {
+            display: inline-flex;
+            align-items: center;
+            /* Star on the left, so let's ensure padding/gap */
+            gap: 4px;
+        }
+
+        .rhyme-quality-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 12px;
+            height: 12px;
+            font-size: 10px;
+            background: transparent !important;
+            border: none !important;
+            margin-left: 0;
+            margin-right: -2px;
+            flex-shrink: 0;
+            cursor: help;
+            /* Star color will come from classification-specific rules below */
+        }
+
+        .rhyme-quality-badge.rq-perfect {
+            border-color: rgba(22, 163, 74, 0.35);
+            background: rgba(220, 252, 231, 0.9);
+            color: #14532d;
+        }
+
+        .rhyme-quality-badge.rq-near {
+            color: #b45309;
+        }
+
+        .rhyme-quality-badge.rq-slant {
+            color: #1d4ed8;
+        }
+
+        .rhyme-quality-badge.rq-family {
+            color: #7c3aed;
+        }
+
+        .rhyme-quality-badge.rq-additive,
+        .rhyme-quality-badge.rq-subtractive {
+            color: #db2777;
+        }
+
+        .rhyme-quality-badge.rq-assonance {
+            color: #ea580c;
+        }
+
+        .rhyme-quality-badge.rq-consonance {
+            color: #475569;
+        }
+
+
+        .rhyme-letter-section {
+            margin-bottom: 10px;
+            border: 1px solid #e8e4dc;
+            border-radius: 14px;
+            overflow: hidden;
+            background: #ffffff;
+        }
+
+        .rhyme-letter-section.alt {
+            background: #fbfaf7;
+        }
+
+        .rhyme-letter-header {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 16px;
+            background: transparent;
+            border: none;
+            border-radius: 0;
+            cursor: pointer;
+            transition: all 0.15s;
+            font-weight: 600;
+            color: #1f1b16;
+        }
+
+        .rhyme-letter-header:hover {
+            background: rgba(31, 27, 22, 0.04);
+        }
+
+        .rhyme-letter-header.open {
+            background: rgba(31, 27, 22, 0.05);
+            border-bottom: 1px solid #e8e4dc;
+        }
+
+        .rhyme-letter-label {
+            font-size: 1.1rem;
+            font-weight: 700;
+            min-width: 32px;
+        }
+
+        .rhyme-letter-count {
+            color: #6f675c;
+            font-size: 0.9rem;
+            font-weight: 600;
+            flex: 1;
+            text-align: right;
+            margin-right: 12px;
+        }
+
+        .rhyme-letter-chevron {
+            color: #6f675c;
+            font-size: 0.9rem;
+            font-weight: 900;
+            transition: transform 0.15s;
+        }
+
+        .rhyme-letter-content {
+            padding: 12px 16px 16px 16px;
+        }
+
+        .synonym-chip {
+            padding: 10px 14px;
+        }
+
+        .notice {
+            margin-bottom: 16px;
+            padding: 12px 16px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            border: 1px solid transparent;
+        }
+
+        .notice-warning {
+            background: #fff7e6;
+            border-color: #f5d27a;
+            color: #8a5a00;
+        }
+
+        .notice-error {
+            background: #fdecec;
+            border-color: #f5b2b2;
+            color: #8a1f1f;
+        }
+
+        .notice-success {
+            background: #ecfff1;
+            border-color: #a6e2bb;
+            color: #0f6b33;
+        }
+
+        .tool-links-footer {
+            margin-top: 40px;
+            padding: 24px 0;
+            border-top: 1px solid #e8e4dc;
+        }
+
+        .tool-links-footer-title {
+            font-size: 0.9rem;
+            font-weight: 650;
+            color: #6f675c;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .tool-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tool-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            padding: 10px 16px;
+            border-radius: 999px;
+            border: 1px solid #d4d4d4;
+            background: rgba(255, 255, 255, 0.85);
+            color: #2c2520;
+            text-decoration: none;
+            font-weight: 650;
+            font-size: 0.92rem;
+            transition: all 0.15s;
+        }
+
+        .tool-link:hover {
+            background: #f9f9f9;
+            border-color: #a79f93;
+        }
+
+        .section {
+            background: white;
+            border: 1px solid #d4d4d4;
+            border-radius: 6px;
+            color: #6f675c;
+        }
+
+        .empty-search-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #6f675c;
+        }
+
+        .empty-search-state h3 {
+            font-size: 1.1rem;
+            font-weight: 650;
+            color: #2c2520;
+            margin-bottom: 8px;
+        }
+
+        .empty-search-state p {
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 16px 24px 16px;
+            }
+
+            .search-input-wrapper {
+                display: grid;
+                grid-template-columns: 1fr auto;
+                gap: 10px;
+                align-items: center;
+            }
+
+            #searchInput {
+                grid-column: 1 / 2;
+            }
+
+            .search-help-trigger {
+                grid-column: 2 / 3;
+                justify-self: center;
+                align-self: center;
+            }
+
+            #searchBtn {
+                grid-column: 1 / 3;
+                width: 100%;
+                margin-top: 0;
+                max-height: 60px;
+            }
+
+            .search-box {
+                top: var(--global-nav-height, 76px);
+            }
+
+            .rhyme-grid {
+                grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+            }
+
+            .phrase-list {
+                max-height: 400px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        (function () {
+            try {
+                const params = new URLSearchParams(window.location.search);
+                if (params.get('embed') === '1') {
+                    document.documentElement.classList.add('embed-mode');
+                }
+                if (params.get('embed') === '1') return;
+            } catch (e) {
+            }
+            const s = document.createElement('script');
+            s.defer = true;
+            s.src = '/global-nav.js';
+            document.head.appendChild(s);
+        })();
+    </script>
+    <script defer src="/notes_manager.js"></script>
+    <script src="/shared-cache.js"></script>
+    <div id="drawerBackdrop" class="drawer-backdrop"></div>
+    <div class="container">
+        <div class="header">
+            <h1>Search a Topic</h1>
+            <p>Unified search across rhymes, references, quotes, clusters, and tones</p>
+        </div>
+
+        <div class="search-box">
+            <div id="noticeBanner" class="notice notice-success" role="status">
+                Lazy-loading rhyme dictionary ready! Shards load on-demand.
+            </div>
+            <div class="search-input-wrapper">
+                <input type="text" id="searchInput" placeholder="Enter a word">
+                <button id="searchBtn">Search</button>
+                <button class="search-help-trigger" id="searchHelpTrigger" type="button"
+                    aria-label="Search tips">?</button>
+                <div class="search-help-popover" id="searchHelpPopover" role="dialog" aria-label="Search tips">
+                    <div class="search-help-title">Search Tips</div>
+                    <ol class="search-help-list">
+                        <li><strong>Single word:</strong> love → exact match</li>
+                        <li><strong>Phrase:</strong> red light → matches phrase</li>
+                        <li><strong>Wildcard prefix:</strong> *tion → ends with “tion”</li>
+                        <li><strong>Wildcard suffix:</strong> love* → starts with “love”</li>
+                        <li><strong>Both:</strong> *heart* → contains “heart”</li>
+                    </ol>
+                </div>
+            </div>
+            <div id="stickyResultsBar" class="sticky-results-bar"></div>
+        </div>
+
+        <div class="results-container" id="resultsContainer">
+            <div class="empty-search-state">
+                <h3>Search for a word to get started</h3>
+                <p>Enter any word above to find rhymes, phrases, tones, and creative references.</p>
+                <div style="margin-top: 12px;">
+                    <a class="empty-state-action" href="/dynamic-gens">Open Dynamic Generations</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="tool-links-footer">
+            <div class="tool-links-footer-title">Explore Other Tools</div>
+            <div class="tool-links" aria-label="Other tools">
+                <a class="tool-link" href="/quick-helper">Reference <span aria-hidden="true">→</span></a>
+                <a class="tool-link" href="/tones">Tones <span aria-hidden="true">→</span></a>
+                <a class="tool-link" href="/creative-gens">Mash-Ups <span aria-hidden="true">→</span></a>
+                <a class="tool-link" href="/creative-quotes">Creative Quotes <span aria-hidden="true">→</span></a>
+                <a class="tool-link" href="/dynamic-gens">Dynamic Generations <span aria-hidden="true">→</span></a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let shardCache = {};
+        const INITIAL_PHRASE_LIMIT = 20;
+        const MAX_RHYME_WORDS = 40;
+        const remainingPhraseSets = {};
+        const remainingRhymeSets = {};
+        const synonymCache = {};
+        const BADGE_DEFS = {
+            positive: { emoji: '😊', className: 'emoji-only', display: 'emoji' },
+            negative: { emoji: '😢', className: 'emoji-only', display: 'emoji' },
+            idiom: { emoji: '✍️', className: 'emoji-only', display: 'emoji' }
+        };
+
+        function createBadge(def, overrideLabel) {
+            if (!def) return null;
+            return {
+                label: overrideLabel || def.emoji || def.label || '',
+                className: def.className || '',
+                display: def.display || 'label'
+            };
+        }
+
+        function buildBadgeHtml(badge) {
+            if (!badge) return '';
+            const className = badge.className || '';
+            return '<span class="phrase-badge ' + className + '">' + badge.label + '</span>';
+        }
+
+        function addRhymePhrase(target, rhymeWord, entry) {
+            if (!rhymeWord || !entry) return;
+            const key = rhymeWord.toLowerCase();
+            if (!target[key]) {
+                target[key] = [];
+            }
+            target[key].push(entry);
+        }
+
+        function buildSectionKey(base, word) {
+            return sanitizeKey((base || '') + '-' + (word || ''));
+        }
+
+        function isEmbedMode() {
+            try {
+                return document.documentElement.classList.contains('embed-mode');
+            } catch (e) {
+                return false;
+            }
+        }
+
+        function setEmbedDrawerOpen(isOpen) {
+            try {
+                if (!isEmbedMode()) return;
+                document.documentElement.classList.toggle('drawer-open', !!isOpen);
+            } catch (e) {
+            }
+            try {
+                if (window.NotesManager && typeof window.NotesManager.closeNotesDrawer === 'function') {
+                    window.NotesManager.closeNotesDrawer();
+                }
+            } catch (e) {
+            }
+        }
+
+        function renderDrawerButtonSection(key, title, countValue, buttonText, onClickFunction) {
+            const normalizedKey = sanitizeKey(key);
+            const sectionId = 'section-' + normalizedKey;
+            const countText = (countValue === null || countValue === undefined) ? '' : countValue;
+
+            const safeTitle = (buttonText || title || '').toString().replace(/"/g, '&quot;');
+            const safeDisplay = (title || '').toString().replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            return '<button class="sticky-pill" id="' + sectionId + '" type="button" onclick="' + onClickFunction + '" title="' + safeTitle + '">' +
+                '<span class="sticky-pill-dot" aria-hidden="true"></span>' +
+                '<span class="sticky-pill-label">' + safeDisplay + '</span>' +
+                (countText ? '<span class="sticky-pill-count">' + countText + '</span>' : '') +
+                '</button>';
+        }
+
+        function renderCollapsibleSection(key, title, countValue, bodyHtml, defaultOpen) {
+            const normalizedKey = sanitizeKey(key);
+            const sectionId = 'section-' + normalizedKey;
+            const bodyId = 'section-body-' + normalizedKey;
+            const countId = 'section-count-' + normalizedKey;
+            const openClass = defaultOpen ? ' open' : '';
+            const countText = (countValue === null || countValue === undefined) ? '' : countValue;
+            const labelHtml = '<span class="section-label">' + title + '<span class="count" id="' + countId + '">' + countText + '</span></span>';
+            const content = bodyHtml || '<div class="empty-note">No entries yet.</div>';
+            return '<div class="section collapsible' + openClass + '" id="' + sectionId + '">' +
+                '<button class="section-toggle" onclick="toggleSection(\'' + normalizedKey + '\')">' +
+                labelHtml +
+                '<span class="chevron">⌃</span>' +
+                '</button>' +
+                '<div class="section-body" id="' + bodyId + '">' + content + '</div>' +
+                '</div>';
+        }
+
+        function escapeRegExp(value) {
+            return (value || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        }
+
+        function sanitizeDisplayText(text) {
+            if (!text) return '';
+            let sanitized = String(text)
+                .replace(/[\u2018\u2019]/g, "'")
+                .replace(/[\u201C\u201D]/g, '"')
+                .replace(/[\u2013\u2014]/g, '-')
+                .replace(/\u2026/g, '...')
+                .replace(/\u00A0/g, ' ');
+            sanitized = sanitized.replace(/[\u2000-\u200F]/g, ' ');
+            sanitized = sanitized.replace(/[^\x20-\x7E]/g, ' ');
+            sanitized = sanitized.replace(/\b1n\b/g, 'in');
+            return sanitized.replace(/\s+/g, ' ').trim();
+        }
+
+        function formatHighlightedPhrase(text, highlights) {
+            let sanitized = sanitizeDisplayText(text);
+            if (!sanitized) return '';
+            if (!Array.isArray(highlights) || !highlights.length) {
+                return sanitized;
+            }
+            const uniqueWords = Array.from(new Set(highlights.filter(Boolean).map(function (word) {
+                return String(word).toLowerCase();
+            })));
+            uniqueWords.forEach(function (word) {
+                if (!word) return;
+                const pattern = new RegExp('\\b(' + escapeRegExp(word) + ')\\b', 'gi');
+                sanitized = sanitized.replace(pattern, '<span class="phrase-highlight"><strong><em>$1</em></strong></span>');
+            });
+            return sanitized;
+        }
+
+        function capitalizeFirst(text) {
+            if (text === null || text === undefined) return '';
+            const value = String(text);
+            let insideTag = false;
+            for (let i = 0; i < value.length; i++) {
+                const ch = value[i];
+                if (ch === '<') {
+                    insideTag = true;
+                    continue;
+                }
+                if (insideTag) {
+                    if (ch === '>') {
+                        insideTag = false;
+                    }
+                    continue;
+                }
+                if (/[A-Za-z]/.test(ch)) {
+                    return value.slice(0, i) + ch.toUpperCase() + value.slice(i + 1);
+                }
+            }
+            return value;
+        }
+
+        function highlightSearchTerm(text, term) {
+            if (text === null || text === undefined) return '';
+            const value = String(text);
+            const needle = (term || '').trim();
+            if (!needle) return value;
+            const lowerNeedle = needle.toLowerCase();
+            const lowerValue = value.toLowerCase();
+
+            // First, try to match the FULL phrase (for multi-word queries)
+            // If found, highlight the entire matched phrase
+            const fullPhraseIndex = lowerValue.indexOf(lowerNeedle);
+            if (fullPhraseIndex !== -1) {
+                // Full phrase match - highlight it
+                const before = value.slice(0, fullPhraseIndex);
+                const match = value.slice(fullPhraseIndex, fullPhraseIndex + lowerNeedle.length);
+                const after = value.slice(fullPhraseIndex + lowerNeedle.length);
+                return before + '<span class="search-term-highlight">' + match + '</span>' + after;
+            }
+
+            // No full phrase match - fall back to highlighting individual words
+            function isWordChar(ch) {
+                return /[A-Za-z0-9']/i.test(ch);
+            }
+
+            function highlightSegment(segment) {
+                const lower = segment.toLowerCase();
+                const ranges = [];
+                // Try each word in the search term
+                const words = lowerNeedle.split(/\s+/).filter(Boolean);
+                words.forEach(function (word) {
+                    let idx = 0;
+                    while (idx < segment.length) {
+                        const matchIndex = lower.indexOf(word, idx);
+                        if (matchIndex === -1) break;
+                        let start = matchIndex;
+                        let end = matchIndex + word.length;
+                        while (start > 0 && isWordChar(segment[start - 1])) start--;
+                        while (end < segment.length && isWordChar(segment[end])) end++;
+                        ranges.push([start, end]);
+                        idx = end;
+                    }
+                });
+
+                if (!ranges.length) return segment;
+                ranges.sort(function (a, b) { return a[0] - b[0]; });
+                const merged = [];
+                ranges.forEach(function (r) {
+                    const last = merged[merged.length - 1];
+                    if (!last || r[0] > last[1]) {
+                        merged.push([r[0], r[1]]);
+                    } else {
+                        last[1] = Math.max(last[1], r[1]);
+                    }
+                });
+
+                let out = '';
+                let pos = 0;
+                merged.forEach(function (r) {
+                    out += segment.slice(pos, r[0]);
+                    out += '<span class="search-term-highlight">' + segment.slice(r[0], r[1]) + '</span>';
+                    pos = r[1];
+                });
+                out += segment.slice(pos);
+                return out;
+            }
+
+            return value
+                .split(/(<[^>]+>)/g)
+                .map(function (part) {
+                    if (!part || part[0] === '<') return part;
+                    return highlightSegment(part);
+                })
+                .join('');
+        }
+
+        function escapeRegexLiteral(input) {
+            return String(input || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        }
+
+        function parseSearchQueryTokens(query) {
+            const q = (query || '').toString().trim().toLowerCase();
+            if (!q) return [];
+            return q
+                .split(/\s+/)
+                .map(function (raw) {
+                    const token = (raw || '').toString().trim();
+                    if (!token) return null;
+                    const leadingStar = token.startsWith('*');
+                    const trailingStar = token.endsWith('*');
+                    const core = token.replace(/^\*+/, '').replace(/\*+$/, '');
+                    if (!core) return null;
+                    return { raw: token, core: core, leadingStar: leadingStar, trailingStar: trailingStar };
+                })
+                .filter(Boolean);
+        }
+
+        function buildQueryRegex(query) {
+            const tokens = parseSearchQueryTokens(query);
+            if (!tokens.length) return null;
+
+            const boundaryStart = "(?:^|[^A-Za-z0-9'])";
+            const boundaryEnd = "(?:$|[^A-Za-z0-9'])";
+            const sep = "[^A-Za-z0-9']+";
+
+            // Build pattern: boundary only at edges, sep between tokens
+            // For multi-word: boundaryStart + word1 + sep + word2 + ... + wordN + boundaryEnd
+            const parts = tokens.map(function (tok, idx) {
+                const core = escapeRegexLiteral(tok.core);
+                const isFirst = idx === 0;
+                const isLast = idx === tokens.length - 1;
+
+                // Wildcards override boundary behavior
+                const needStartBoundary = isFirst && !tok.leadingStar;
+                const needEndBoundary = isLast && !tok.trailingStar;
+
+                let pattern = core;
+                if (needStartBoundary) pattern = boundaryStart + pattern;
+                if (needEndBoundary) pattern = pattern + boundaryEnd;
+                return pattern;
+            });
+
+            return new RegExp(parts.join(sep), 'i');
+        }
+
+        function matchesSearchQuery(text, query) {
+            const hay = (text || '').toString();
+            const q = (query || '').toString().trim();
+            if (!q) return false;
+            const rx = buildQueryRegex(q);
+            if (!rx) return false;
+            return rx.test(hay);
+        }
+
+        function getShuffledCopy(items) {
+            const arr = Array.isArray(items) ? items.slice() : [];
+            for (let i = arr.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                const tmp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = tmp;
+            }
+            return arr;
+        }
+
+        function phraseEndsWithWord(phrase, word) {
+            const text = (phrase || '').toString().trim();
+            const target = (word || '').toString().trim().toLowerCase();
+            if (!text || !target) return false;
+
+            const trimmed = text.replace(/[\s\u00A0]+$/g, '').replace(/["”]+$/g, '');
+            const parts = trimmed.split(/\s+/).filter(Boolean);
+            if (!parts.length) return false;
+            let last = parts[parts.length - 1];
+            last = last.replace(/^[^A-Za-z0-9']+/, '').replace(/[^A-Za-z0-9']+$/g, '');
+            return last.toLowerCase() === target;
+        }
+
+        function partitionRhymes(rhymes) {
+            const buckets = {
+                perfect: { label: 'Perfect Rhymes', rhymes: [] },
+                family: { label: 'Family Rhymes', rhymes: [] },
+                secondary: { label: 'Secondary / Subtractive', rhymes: [] },
+                assonance: { label: 'Assonance Rhymes', rhymes: [] },
+                consonance: { label: 'Consonance Rhymes', rhymes: [] },
+                near: { label: 'Near / Other', rhymes: [] }
+            };
+            (rhymes || []).forEach(function (rhyme) {
+                if (!rhyme || !rhyme.word) return;
+                const word = rhyme.word || '';
+                if (isRhymeArtifact(word)) return;
+                const matchType = (rhyme.match_type || '').toLowerCase();
+                if (matchType === 'perfect' || matchType === 'rel_rhy') {
+                    buckets.perfect.rhymes.push(rhyme);
+                } else if (matchType === 'family') {
+                    buckets.family.rhymes.push(rhyme);
+                } else if (matchType === 'additive' || matchType === 'subtractive') {
+                    buckets.secondary.rhymes.push(rhyme);
+                } else if (matchType === 'assonance') {
+                    buckets.assonance.rhymes.push(rhyme);
+                } else if (matchType === 'consonance') {
+                    buckets.consonance.rhymes.push(rhyme);
+                } else {
+                    buckets.near.rhymes.push(rhyme);
+                }
+            });
+            return buckets;
+        }
+
+        function isRhymeArtifact(word) {
+            const w = (word || '').toString().toLowerCase();
+            if (!w) return true;
+            if (w.includes('...find index') || w.includes('find index')) return true;
+            if (w.includes('return to') && w.includes('index')) return true;
+            if (w.includes('(as in') && w.includes('index')) return true;
+            if (/return\s+to.*\bindex\b/.test(w)) return true;
+            return false;
+        }
+
+        function buildRhymeTypeMap(buckets) {
+            const map = new Map();
+            ['perfect', 'near'].forEach(function (type) {
+                if (buckets[type] && buckets[type].rhymes) {
+                    buckets[type].rhymes.forEach(function (rhyme) {
+                        map.set(rhyme.word.toLowerCase(), type);
+                    });
+                }
+            });
+            return map;
+        }
+
+        function renderRhymeQualityBadge(rhyme) {
+            const mt = (rhyme && rhyme.match_type ? String(rhyme.match_type) : '').toLowerCase();
+            if (!mt) return '';
+
+            const explanation = (rhyme && rhyme.explanation) ? rhyme.explanation.replace(/"/g, '&quot;') : '';
+            const titleAttr = explanation ? ' title="' + explanation + '"' : '';
+
+            // If perfect, no star needed? Or just show nothing.
+            // User: "chips displaying the types of the rhymes (except perhaps we can put a tasteful/light SVG of a star on anything NOT perfect rhyme)"
+            if (mt === 'perfect' || mt === 'rel_rhy') return '';
+
+            // Icon for non-perfect rhymes: a light star
+            const starSvg = '<svg viewBox="0 0 24 24" width="10" height="10" fill="currentColor" style="opacity:0.6"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>';
+
+            if (mt === 'family') return '<span class="rhyme-quality-badge rq-family"' + titleAttr + '>' + starSvg + '</span>';
+            if (mt === 'additive') return '<span class="rhyme-quality-badge rq-additive"' + titleAttr + '>' + starSvg + '</span>';
+            if (mt === 'subtractive') return '<span class="rhyme-quality-badge rq-subtractive"' + titleAttr + '>' + starSvg + '</span>';
+            if (mt === 'assonance') return '<span class="rhyme-quality-badge rq-assonance"' + titleAttr + '>' + starSvg + '</span>';
+            if (mt === 'consonance') return '<span class="rhyme-quality-badge rq-consonance"' + titleAttr + '>' + starSvg + '</span>';
+            if (mt === 'slant') return '<span class="rhyme-quality-badge rq-slant"' + titleAttr + '>' + starSvg + '</span>';
+            return '<span class="rhyme-quality-badge rq-near"' + titleAttr + '>' + starSvg + '</span>';
+        }
+
+        function extractFrequency(rhyme) {
+            if (Array.isArray(rhyme.tags)) {
+                for (let i = 0; i < rhyme.tags.length; i++) {
+                    const tag = rhyme.tags[i];
+                    if (typeof tag === 'string' && tag.startsWith('freq:')) {
+                        const value = parseFloat(tag.split(':')[1]);
+                        if (!Number.isNaN(value)) {
+                            return value;
+                        }
+                    }
+                }
+            }
+            if (typeof rhyme.score === 'number') {
+                return rhyme.score / 1000;
+            }
+            return 0;
+        }
+
+        function sortRhymesByFrequency(rhymes) {
+            return rhymes.slice().sort(function (a, b) {
+                return extractFrequency(b) - extractFrequency(a);
+            });
+        }
+
+        function sortRhymesAlphabetically(rhymes) {
+            return rhymes.slice().sort(function (a, b) {
+                const wordA = (a.word || '').toLowerCase();
+                const wordB = (b.word || '').toLowerCase();
+                return wordA.localeCompare(wordB);
+            });
+        }
+
+        function createPhraseEntry(phrase, badges, highlights) {
+            return {
+                phrase: phrase,
+                badges: (badges || []).filter(Boolean),
+                highlights: Array.isArray(highlights) ? highlights.filter(Boolean) : []
+            };
+        }
+
+        function sanitizeKey(value) {
+            return (value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-');
+        }
+
+        function addReferencePhrase(target, entry) {
+            if (!entry || !entry.phrase) return;
+            target.push(entry);
+        }
+
+        function addRhymePhraseToBucket(map, bucketKey, rhymeWord, entry) {
+            if (!rhymeWord || !entry) return;
+            if (!map[bucketKey]) {
+                map[bucketKey] = {};
+            }
+            const key = rhymeWord.toLowerCase();
+            if (!map[bucketKey][key]) {
+                map[bucketKey][key] = { label: rhymeWord, items: [] };
+            }
+            map[bucketKey][key].items.push(entry);
+        }
+
+        function renderRhymeSections(word, buckets, phraseMap) {
+            // Combine all rhymes (perfect + near) for alphabetical grouping
+            const allRhymes = [];
+            Object.values(buckets).forEach(bucket => {
+                if (bucket && bucket.rhymes) {
+                    allRhymes.push(...bucket.rhymes);
+                }
+            });
+
+            if (allRhymes.length === 0) {
+                return '';
+            }
+
+            return renderRhymesAlphabetically(word, allRhymes);
+        }
+
+        function renderRhymesAlphabetically(word, rhymes) {
+            if (!rhymes || rhymes.length === 0) return '';
+
+            // Group rhymes by first letter
+            const letterGroups = {};
+            rhymes.forEach(function (rhyme) {
+                if (!rhyme || !rhyme.word) return;
+                const firstLetter = rhyme.word.charAt(0).toUpperCase();
+                if (!letterGroups[firstLetter]) {
+                    letterGroups[firstLetter] = [];
+                }
+                letterGroups[firstLetter].push(rhyme);
+            });
+
+            // Sort letters
+            const letters = Object.keys(letterGroups).sort();
+
+            const bubbleId = 'rhyme-chip-bubble-main';
+
+            let html = '<div class="section" id="rhymes-section-' + sanitizeKey(word) + '">';
+            html += '<div class="section-header">';
+            html += '<div class="section-title">Rhymes</div>';
+
+            html += '<div class="family-toggle-wrapper">';
+            html += '<label class="family-toggle-container" title="Show/Hide Perfect Rhymes">';
+            html += '<div class="toggle-switch"><input type="checkbox" checked onchange="toggleRhymeVisibility(\'perfect\', this.checked, \'' + sanitizeKey(word) + '\')"><span class="toggle-slider"></span></div>';
+            html += '<span>Perfect Rhymes</span>';
+            html += '</label>';
+            html += '</div>';
+
+            html += '<div class="section-count" id="rhyme-total-count-' + sanitizeKey(word) + '">' + rhymes.length + '</div></div>';
+
+            // Add the drawer bubble for rhyme chip expansion
+            html += '<div class="rhyme-chip-bubble" id="' + bubbleId + '" data-open-key=""></div>';
+
+            html += '<div class="rhyme-letter-sections">';
+            letters.forEach(function (letter, idx) {
+                const letterRhymes = letterGroups[letter];
+                const sortedRhymes = sortRhymesAlphabetically(letterRhymes);
+                const sectionKey = 'rhyme-letter-' + letter.toLowerCase() + '-' + sanitizeKey(word);
+                const altClass = (idx % 2 === 1) ? ' alt' : '';
+
+                html += '<div class="rhyme-letter-section' + altClass + '" data-letter="' + letter + '">';
+                html += '<button class="rhyme-letter-header" onclick="toggleRhymeLetterSection(\'' + sectionKey + '\')">';
+                html += '<span class="rhyme-letter-label">' + letter + '</span>';
+                html += '<span class="rhyme-letter-count">' + letterRhymes.length + '</span>';
+                html += '<span class="rhyme-letter-chevron">▸</span>';
+                html += '</button>';
+
+                html += '<div class="rhyme-letter-content" id="' + sectionKey + '" style="display:none;">';
+                html += '<div class="rhyme-chips-container">';
+                sortedRhymes.forEach(function (rhyme) {
+                    const rhymeWord = rhyme.word || '';
+                    const safeWord = rhymeWord.replace(/'/g, "\\'");
+                    const matchType = (rhyme.match_type || '').toLowerCase();
+                    const version = (rhyme.version || '').toLowerCase();
+
+                    html += '<button class="rhyme-chip" data-rhyme-word="' + sanitizeDisplayText(rhymeWord) + '" data-match-type="' + matchType + '" data-version="' + version + '" onclick="handleRhymeChipClick(\'' + bubbleId + '\', \'' + safeWord + '\', \'main\', this)" title="Click to see phrases ending with this word">';
+                    html += renderRhymeQualityBadge(rhyme);
+                    html += sanitizeDisplayText(rhymeWord);
+                    html += '<span class="indicator-dot"></span>';
+                    html += '</button>';
+                });
+                html += '</div></div></div>';
+            });
+            html += '</div>';
+
+            html += '</div>';
+            return html;
+        }
+
+        const remainingPlainPhraseSets = {};
+        const chipPhraseGroupsCache = {};
+
+        function copyToClipboard(text, chipElement) {
+            navigator.clipboard.writeText(text).then(function () {
+                chipElement.classList.add('chip-copied');
+                setTimeout(function () {
+                    chipElement.classList.remove('chip-copied');
+                }, 1000);
+            }).catch(function (err) {
+                console.error('Failed to copy:', err);
+            });
+        }
+
+        function buildPlainPhraseItem(entry) {
+            if (!entry) return '';
+            const highlightedPhrase = formatHighlightedPhrase(entry.phrase, entry.highlights || []);
+            const encodedPhrase = encodeURIComponent((entry.phrase || '').toString());
+            return '<div class="rhyme-chip-bubble-item drawer-item" data-clickable data-text="' + encodedPhrase + '">' + highlightedPhrase + '</div>';
+        }
+
+        function copyDrawerItem(element, text) {
+            if (!element || !text) return;
+
+            // Copy to clipboard
+            copyToClipboard(text, element);
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            textarea.style.position = 'fixed';
+            textarea.style.opacity = '0';
+            document.body.appendChild(textarea);
+            textarea.select();
+
+            try {
+                document.execCommand('copy');
+                // Visual feedback
+                element.classList.add('copied');
+                setTimeout(() => {
+                    element.classList.remove('copied');
+                }, 300);
+            } catch (err) {
+                console.warn('Failed to copy:', err);
+            }
+
+            document.body.removeChild(textarea);
+        }
+
+        function renderRhymeChipDrawer(bubbleId) {
+            const state = window.__rhymeChipDrawerState && window.__rhymeChipDrawerState[bubbleId];
+            if (!state || !state.phrases || !state.phrases.length) return;
+            const bubble = document.getElementById(bubbleId);
+            if (!bubble) return;
+
+            let listHtml = '';
+            state.phrases.forEach(function (p) {
+                const phraseText = (p && p.phrase) ? p.phrase : '';
+                const encodedPhrase = encodeURIComponent(phraseText.toString());
+                listHtml += '<div class="drawer-item" data-clickable data-text="' + encodedPhrase + '">'
+                    + '<div class="drawer-item-text">' + formatHighlightedPhrase(phraseText, p.highlights || []) + '</div>'
+                    + '</div>';
+            });
+
+            const totalNote = state.phrases.length + ' phrase' + (state.phrases.length !== 1 ? 's' : '');
+            bubble.innerHTML = '<button class="drawer-close-btn" onclick="closeRhymeBubble(\'' + bubbleId + '\')">&times;</button>'
+                + '<button class="drawer-scroll-btn-top" onclick="scrollRhymeDrawerToTop(\'' + bubbleId + '\')" title="Scroll to top">↑</button>'
+                + '<button class="drawer-scroll-btn-bottom" onclick="scrollRhymeDrawerToBottom(\'' + bubbleId + '\')" title="Scroll to bottom">↓</button>'
+                + '<div class="rhyme-chip-bubble-inner">'
+                + '<div class="drawer-header">'
+                + '<div class="drawer-title">Phrases ending with "' + state.rhymeWord + '"</div>'
+                + '<div class="drawer-subtitle">' + totalNote + '</div>'
+                + '<div class="drawer-actions"><button class="drawer-action-btn" onclick="event.stopPropagation(); shuffleRhymeChipDrawer(\'' + bubbleId + '\')">Shuffle</button></div>'
+                + '</div>'
+                + listHtml
+                + '</div>';
+
+            try {
+                if (window.SharedInteractions && typeof window.SharedInteractions.autoApplyClickable === 'function') {
+                    window.SharedInteractions.autoApplyClickable();
+                }
+            } catch (e) {
+            }
+        }
+
+        function shuffleRhymeChipDrawer(bubbleId) {
+            const state = window.__rhymeChipDrawerState && window.__rhymeChipDrawerState[bubbleId];
+            if (!state || !state.phrases) return;
+            state.phrases = getShuffledCopy(state.phrases);
+            renderRhymeChipDrawer(bubbleId);
+        }
+
+        function toggleRhymeLetterSection(sectionKey) {
+            const content = document.getElementById(sectionKey);
+            if (!content) return;
+
+            const isOpen = content.style.display !== 'none';
+            const header = content.previousElementSibling;
+            const chevron = header ? header.querySelector('.rhyme-letter-chevron') : null;
+
+            if (isOpen) {
+                content.style.display = 'none';
+                if (chevron) chevron.textContent = '▸';
+                if (header) header.classList.remove('open');
+            } else {
+                content.style.display = 'block';
+                if (chevron) chevron.textContent = '▾';
+                if (header) header.classList.add('open');
+            }
+        }
+
+        function toggleRhymeVisibility(type, show, sectionId) {
+            const container = document.getElementById('rhymes-section-' + sectionId);
+            if (!container) return;
+
+            const chips = container.querySelectorAll('.rhyme-chip');
+            let visibleCount = 0;
+            const letterCounts = {};
+
+            chips.forEach(function (chip) {
+                const mt = (chip.dataset.matchType || '').toLowerCase();
+                const isPerfect = (mt === 'perfect' || mt === 'rel_rhy');
+
+                let shouldShow = true;
+                if (isPerfect && !show) shouldShow = false;
+
+                chip.style.display = shouldShow ? 'inline-flex' : 'none';
+
+                if (shouldShow) {
+                    visibleCount++;
+                    const word = chip.dataset.rhymeWord || '';
+                    const firstLetter = word.charAt(0).toUpperCase();
+                    letterCounts[firstLetter] = (letterCounts[firstLetter] || 0) + 1;
+                }
+            });
+
+            // Update total count
+            const totalEl = document.getElementById('rhyme-total-count-' + sectionId);
+            if (totalEl) totalEl.textContent = visibleCount;
+
+            // Update letter counts
+            const letterSections = container.querySelectorAll('.rhyme-letter-section');
+            letterSections.forEach(section => {
+                const letter = section.dataset.letter;
+                const countEl = section.querySelector('.rhyme-letter-count');
+                const count = letterCounts[letter] || 0;
+                if (countEl) countEl.textContent = count;
+
+                // Dim the section if count is 0
+                section.style.opacity = count === 0 ? '0.5' : '1';
+                section.style.pointerEvents = count === 0 ? 'none' : 'auto';
+            });
+        }
+
+        function copyRhymeWord(word, element) {
+            if (!word) return;
+
+            navigator.clipboard.writeText(word).then(function () {
+                element.classList.add('chip-copied');
+                setTimeout(function () {
+                    element.classList.remove('chip-copied');
+                }, 1000);
+            }).catch(function (err) {
+                console.error('Failed to copy:', err);
+            });
+        }
+
+        function showAllPlainPhrases(key, buttonEl) {
+            const config = remainingPlainPhraseSets[key];
+            if (!config) return;
+
+            const phraseList = document.getElementById('plain-phrase-list-' + key);
+            if (!phraseList) return;
+            let html = '';
+            config.items.forEach(function (item) {
+                html += buildPlainPhraseItem(item);
+            });
+
+            phraseList.insertAdjacentHTML('beforeend', html);
+            delete remainingPlainPhraseSets[key];
+            if (buttonEl) {
+                buttonEl.remove();
+            }
+        }
+
+        function isReferenceLikeEntry(entry) {
+            if (!entry) return false;
+            if (Array.isArray(entry.idioms) && entry.idioms.length) return true;
+            if (entry.imagery_alts) {
+                const happy = entry.imagery_alts.happiness;
+                const dep = entry.imagery_alts.depressing;
+                if (happy && Array.isArray(happy.direct_matches) && happy.direct_matches.length) return true;
+                if (dep && Array.isArray(dep.direct_matches) && dep.direct_matches.length) return true;
+            }
+            return false;
+        }
+
+        function extractReferencePhrasesFromEntry(entry, word) {
+            const phrases = [];
+            const seen = new Set();
+            const highlights = [word];
+            const searchTerm = word.toLowerCase();
+
+            if (entry && Array.isArray(entry.idioms)) {
+                entry.idioms.forEach(function (idiom) {
+                    if (!idiom || !idiom.phrase) return;
+                    if (hasInvalidUnicode(idiom.phrase)) return;
+                    // Filter out quote transformations (same logic as quote filter)
+                    if (isQuoteTransformation(idiom.phrase)) return;
+                    // Filter out phrases that end with the search word (those belong in Ends With)
+                    const phraseLower = idiom.phrase.toLowerCase().trim();
+                    if (phraseLower.endsWith(' ' + searchTerm) ||
+                        phraseLower === searchTerm ||
+                        phraseLower.match(new RegExp(searchTerm + '[\\s\\.,!?;:\'"]*$'))) {
+                        return; // Skip - this belongs in Ends With
+                    }
+                    // Deduplicate
+                    if (!seen.has(phraseLower)) {
+                        seen.add(phraseLower);
+                        phrases.push(createPhraseEntry(idiom.phrase, [], highlights));
+                    }
+                });
+            }
+
+            if (entry && entry.imagery_alts) {
+                ['happiness', 'depressing'].forEach(function (category) {
+                    const data = entry.imagery_alts[category];
+                    if (!data) return;
+                    (data.direct_matches || []).forEach(function (match) {
+                        if (!match || !match.phrase) return;
+                        if (hasInvalidUnicode(match.phrase)) return;
+                        // Filter out quote transformations
+                        if (isQuoteTransformation(match.phrase)) return;
+                        // Filter out phrases that end with the search word
+                        const phraseLower = match.phrase.toLowerCase().trim();
+                        if (phraseLower.endsWith(' ' + searchTerm) ||
+                            phraseLower === searchTerm ||
+                            phraseLower.match(new RegExp(searchTerm + '[\\\\s\\\\.,!?;:\\\\\'\\"]*$'))) {
+                            return; // Skip - this belongs in Ends With
+                        }
+                        // Deduplicate
+                        if (!seen.has(phraseLower)) {
+                            seen.add(phraseLower);
+                            phrases.push(createPhraseEntry(match.phrase, [], highlights));
+                        }
+                    });
+                });
+            }
+
+            return phrases;
+        }
+
+        // Check if a phrase is a quote transformation (to filter from References)
+        function isQuoteTransformation(phrase) {
+            if (!quotesData) return false;
+            const quotesArray = Array.isArray(quotesData) ? quotesData : (quotesData.quotes || []);
+            const phraseLower = phrase.toLowerCase().trim();
+
+            // Check if phrase matches any quote transformation
+            return quotesArray.some(function (q) {
+                if (!q || !q.transformations) return false;
+                const t = q.transformations;
+                return (t.title && t.title.toLowerCase().trim() === phraseLower) ||
+                    (t.metaphorical && t.metaphorical.toLowerCase().trim() === phraseLower) ||
+                    (t.bold && t.bold.toLowerCase().trim() === phraseLower);
+            });
+        }
+
+        function closeRhymeBubble(bubbleId) {
+            if (bubbleId === 'unifiedDrawer') {
+                closeUnifiedDrawer();
+                return;
+            }
+            const bubble = document.getElementById(bubbleId);
+            const backdrop = document.getElementById('drawerBackdrop');
+            if (bubble) {
+                bubble.classList.remove('show');
+                bubble.dataset.openKey = '';
+            }
+            if (backdrop) {
+                backdrop.classList.remove('show');
+            }
+
+            setEmbedDrawerOpen(false);
+        }
+
+        async function handleRhymeChipClick(bubbleId, rhymeWord, bucketKey, chipEl) {
+            copyToClipboard(rhymeWord, chipEl);
+
+            try {
+                if (chipEl && chipEl.dataset && chipEl.dataset.phrasesKnown === '1' && chipEl.dataset.hasPhrases !== '1') {
+                    return;
+                }
+            } catch (e) {
+            }
+
+            const bubble = document.getElementById(bubbleId);
+            if (!bubble) return;
+
+            const stateKey = sanitizeKey(bubbleId + '-' + (rhymeWord || '').toLowerCase());
+            if (bubble.dataset.openKey === stateKey) {
+                closeRhymeBubble(bubbleId);
+                return;
+            }
+
+            const backdrop = document.getElementById('drawerBackdrop');
+            if (backdrop) {
+                backdrop.classList.add('show');
+            }
+
+            bubble.classList.add('show');
+            bubble.dataset.openKey = stateKey;
+
+            setEmbedDrawerOpen(true);
+
+            // Show loading state with proper drawer structure
+            bubble.innerHTML = '<button class="drawer-close-btn" onclick="closeRhymeBubble(\'' + bubbleId + '\')">&times;</button>'
+                + '<button class="drawer-scroll-btn-top" onclick="scrollRhymeDrawerToTop(\'' + bubbleId + '\')" title="Scroll to top">↑</button>'
+                + '<button class="drawer-scroll-btn-bottom" onclick="scrollRhymeDrawerToBottom(\'' + bubbleId + '\')" title="Scroll to bottom">↓</button>'
+                + '<div class="rhyme-chip-bubble-inner">'
+                + '<div class="drawer-header">'
+                + '<div class="drawer-title">Phrases ending with "' + rhymeWord + '"</div>'
+                + '<div class="drawer-subtitle">Loading...</div>'
+                + '</div>'
+                + '<div class="empty-note">Loading phrases...</div>'
+                + '</div>';
+
+            // Fetch phrases that END with this rhyme word from the new API
+            let apiPhrases = [];
+            try {
+                const response = await fetch('/api/rhyme-word-phrases/' + encodeURIComponent(rhymeWord.toLowerCase()) + '?limit=50');
+                if (response.ok) {
+                    const data = await response.json();
+                    if (data.success && data.phrases) {
+                        apiPhrases = data.phrases.map(function (p) {
+                            return createPhraseEntry(p.text, [], [rhymeWord]);
+                        });
+                    }
+                }
+            } catch (error) {
+                console.warn('Failed to fetch rhyme word phrases from API:', error);
+            }
+
+            try {
+                const normalizedRhymeWord = (rhymeWord || '').toString().trim().toLowerCase();
+                apiPhrases = apiPhrases.filter(function (entry) {
+                    const raw = (entry && entry.phrase ? entry.phrase : '').toString().trim().toLowerCase();
+                    return raw && raw !== normalizedRhymeWord;
+                });
+            } catch (e) {
+            }
+
+            // Skip legacy lookup - just use API data for speed
+            const allPhrases = apiPhrases;
+
+            if (!allPhrases.length) {
+                bubble.classList.remove('show');
+                bubble.dataset.openKey = '';
+                bubble.innerHTML = '';
+                if (backdrop) backdrop.classList.remove('show');
+                setEmbedDrawerOpen(false);
+                return;
+            }
+
+            chipEl.classList.add('has-phrases');
+
+            try {
+                chipEl.dataset.phrasesKnown = '1';
+                chipEl.dataset.hasPhrases = '1';
+            } catch (e) {
+            }
+
+            window.__rhymeChipDrawerState = window.__rhymeChipDrawerState || {};
+            window.__rhymeChipDrawerState[bubbleId] = {
+                bubbleId: bubbleId,
+                rhymeWord: rhymeWord,
+                phrases: allPhrases
+            };
+
+            renderRhymeChipDrawer(bubbleId);
+        }
+
+        function scrollRhymeDrawerToTop(bubbleId) {
+            const bubble = document.getElementById(bubbleId);
+            if (!bubble) return;
+            const inner = bubble.querySelector('.rhyme-chip-bubble-inner');
+            if (inner) inner.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function scrollRhymeDrawerToBottom(bubbleId) {
+            const bubble = document.getElementById(bubbleId);
+            if (!bubble) return;
+            const inner = bubble.querySelector('.rhyme-chip-bubble-inner');
+            if (inner) inner.scrollTo({ top: inner.scrollHeight, behavior: 'smooth' });
+        }
+
+        function renderRhymeChipSection(word, bucketKey, title, rhymes, phraseGroups, defaultOpen) {
+            const sorted = sortRhymesAlphabetically(rhymes);
+            const visible = sorted.slice(0, MAX_RHYME_WORDS);
+            const hidden = sorted.slice(MAX_RHYME_WORDS);
+
+            const listId = 'rhyme-chip-list-' + sanitizeKey(word + '-' + bucketKey);
+            const bubbleId = 'rhyme-chip-bubble-' + sanitizeKey(word + '-' + bucketKey);
+            chipPhraseGroupsCache[bubbleId] = phraseGroups || {};
+
+            if (hidden.length) {
+                remainingRhymeSets[listId] = {
+                    items: hidden,
+                    bucketKey: bucketKey,
+                    phraseGroups: phraseGroups,
+                    word: word,
+                    mode: 'chips'
+                };
+            } else {
+                delete remainingRhymeSets[listId];
+            }
+
+            let bodyHtml = '<div class="rhyme-chip-bubble" id="' + bubbleId + '" data-open-key=""></div>';
+            bodyHtml += '<div class="rhyme-chips-container" id="' + listId + '">';
+            visible.forEach(function (rhyme) {
+                const rhymeWord = rhyme.word || '';
+                const chipClass = 'rhyme-chip';
+                const safeWord = rhymeWord.replace(/'/g, "\\'");
+                bodyHtml += '<button class="' + chipClass + '" data-rhyme-word="' + sanitizeDisplayText(rhymeWord) + '" data-bucket="' + bucketKey + '" onclick="handleRhymeChipClick(\'' + bubbleId + '\', \'' + safeWord + '\', \'' + bucketKey + '\', this)" title="Click to copy">' + sanitizeDisplayText(rhymeWord) + renderRhymeQualityBadge(rhyme) + '<span class="indicator-dot"></span></button>';
+            });
+            bodyHtml += '</div>';
+            if (hidden.length) {
+                bodyHtml += '<button class="show-more" onclick="showAllRhymes(\'' + listId + '\', this)">More</button>';
+            }
+
+            return renderCollapsibleSection(
+                buildSectionKey(bucketKey, word),
+                title,
+                rhymes.length,
+                bodyHtml,
+                defaultOpen
+            );
+        }
+
+        function renderRhymeBucketSection(word, bucketKey, title, rhymes, phraseGroups, defaultOpen) {
+            const sorted = sortRhymesAlphabetically(rhymes);
+            const visible = sorted.slice(0, MAX_RHYME_WORDS);
+            const hidden = sorted.slice(MAX_RHYME_WORDS);
+            const listId = 'rhyme-list-' + sanitizeKey(word + '-' + bucketKey);
+            if (hidden.length) {
+                remainingRhymeSets[listId] = {
+                    items: hidden,
+                    bucketKey: bucketKey,
+                    phraseGroups: phraseGroups,
+                    word: word
+                };
+            } else {
+                delete remainingRhymeSets[listId];
+            }
+
+            let bodyHtml = '<div class="rhyme-groups" id="' + listId + '">';
+            visible.forEach(function (rhyme) {
+                bodyHtml += renderRhymeWordEntry(word, bucketKey, rhyme, phraseGroups, false);
+            });
+
+            bodyHtml += '</div>';
+            if (hidden.length) {
+                bodyHtml += '<button class="show-more" onclick="showAllRhymes(\'' + listId + '\', this)">More</button>';
+            }
+
+            return renderCollapsibleSection(
+                buildSectionKey(bucketKey, word),
+                title,
+                rhymes.length,
+                bodyHtml,
+                defaultOpen
+            );
+        }
+
+        function renderRhymeFallbackSection(wordData, deferredActions) {
+            const sectionId = 'fallback-rhymes-' + sanitizeKey(wordData.word);
+            let html = '<div class="section" id="' + sectionId + '">';
+            html += '<div class="section-header">Rhymes for "' + wordData.word + '"<span class="count" id="' + sectionId + '-count">Loading fallback rhymes...</span></div>';
+            html += '<div class="rhyme-grid" id="' + sectionId + '-grid"></div>';
+            html += '<div class="phrase-meta" id="' + sectionId + '-meta">Fetching fallback rhymes...</div>';
+            html += '</div>';
+            deferredActions.push(function () { applyFallbackRhymes(wordData.word, sectionId); });
+            return html;
+        }
+
+        const isHeroku = window.location.hostname.includes('herokuapp.com');
+        const isLocalhost = ['localhost', '127.0.0.1'].includes(window.location.hostname);
+        const SHARD_ENDPOINT_BASE = isHeroku ? '/api/rhyme-data-shard/' : '/api/rhyme-data-shard/';
+        const DB_NAME = 'RhymeShardCache';
+        const DB_VERSION = 1;
+        const STORE_NAME = 'shards';
+        const SHARD_CACHE_VERSION = 'v2v3q-20251219c';
+        let noticeBanner = null;
+        let isDataReady = true;
+
+        function hasInvalidUnicode(text) {
+            if (!text) return false;
+            return /[\u2018\u2019\u201C\u201D\u2013\u2014\u2026\u00A0-\u00AF\u2600-\u27BF]/.test(text);
+        }
+
+        function setNotice(type, message) {
+            if (!noticeBanner) return;
+            noticeBanner.className = 'notice notice-' + type;
+            noticeBanner.textContent = message;
+        }
+
+        function setInputsEnabled(enabled) {
+            document.getElementById('searchInput').disabled = !enabled;
+            document.getElementById('searchBtn').disabled = !enabled;
+        }
+
+        function openDB() {
+            return new Promise(function (resolve, reject) {
+                const request = indexedDB.open(DB_NAME, DB_VERSION);
+                request.onerror = function () { reject(request.error); };
+                request.onsuccess = function () { resolve(request.result); };
+                request.onupgradeneeded = function (event) {
+                    const db = event.target.result;
+                    if (!db.objectStoreNames.contains(STORE_NAME)) {
+                        db.createObjectStore(STORE_NAME);
+                    }
+                };
+            });
+        }
+
+        function sha256FirstByte(text) {
+            const encoder = new TextEncoder();
+            const data = encoder.encode(text.toLowerCase());
+            return crypto.subtle.digest('SHA-256', data).then(function (hash) {
+                const hashArray = new Uint8Array(hash);
+                return hashArray[0].toString(16).padStart(2, '0');
+            });
+        }
+
+        async function clearOldCache() {
+            try {
+                const db = await openDB();
+                return new Promise(function (resolve, reject) {
+                    const transaction = db.transaction(STORE_NAME, 'readwrite');
+                    const store = transaction.objectStore(STORE_NAME);
+                    const request = store.clear();
+                    request.onsuccess = function () {
+                        console.log('🗑️ Cleared old shard cache for version ' + SHARD_CACHE_VERSION);
+                        resolve();
+                    };
+                    request.onerror = function () { reject(request.error); };
+                });
+            } catch (error) {
+                console.warn('Failed to clear cache:', error);
+            }
+        }
+
+        async function getCachedShard(shardId) {
+            try {
+                const db = await openDB();
+                return new Promise(function (resolve, reject) {
+                    const transaction = db.transaction(STORE_NAME, 'readonly');
+                    const store = transaction.objectStore(STORE_NAME);
+                    const request = store.get(shardId);
+                    request.onsuccess = function () { resolve(request.result); };
+                    request.onerror = function () { reject(request.error); };
+                });
+            } catch (error) {
+                console.warn('IndexedDB not available:', error);
+                return null;
+            }
+        }
+
+        async function setCachedShard(shardId, data) {
+            try {
+                const db = await openDB();
+                return new Promise(function (resolve, reject) {
+                    const transaction = db.transaction(STORE_NAME, 'readwrite');
+                    const store = transaction.objectStore(STORE_NAME);
+                    const request = store.put(data, shardId);
+                    request.onsuccess = function () { resolve(); };
+                    request.onerror = function () { reject(request.error); };
+                });
+            } catch (error) {
+                console.warn('Failed to cache shard:', error);
+            }
+        }
+
+        let cacheCleared = false;
+
+        // Unified search data
+        let quotesData = null;
+        let tonesData = null;
+        let creativeGensData = null;
+        let quickHelperData = null;
+
+        // Load additional data sources for unified search
+        async function loadUnifiedSearchData() {
+            if (!window.MetaphorGymCache) {
+                console.warn('MetaphorGymCache not available yet');
+                return;
+            }
+
+            try {
+                if (!quotesData) {
+                    quotesData = await window.MetaphorGymCache.getCreativeQuotesData();
+                    const quotesCount = Array.isArray(quotesData) ? quotesData.length : (quotesData?.quotes?.length || 0);
+                    console.log('✅ Loaded quotes data, count:', quotesCount, 'type:', typeof quotesData);
+                }
+                if (!tonesData) {
+                    const response = await fetch('/api/tone-associations');
+                    if (!response.ok) {
+                        console.error('Failed to fetch tone associations:', response.status);
+                        tonesData = [];
+                    } else {
+                        tonesData = await response.json();
+                        tonesData = Array.isArray(tonesData) ? tonesData : [];
+                        console.log('✅ Loaded tone associations, count:', tonesData.length);
+                        console.log('Sample tone data:', tonesData[0]);
+                    }
+                }
+                if (!creativeGensData) {
+                    creativeGensData = await window.MetaphorGymCache.getCreativeGensData();
+                    console.log('✅ Loaded Mash-Ups data');
+                }
+                if (!quickHelperData) {
+                    try {
+                        const [quickHitsResp, idiomsResp] = await Promise.all([
+                            fetch('/api/quick-hits'),
+                            fetch('/api/idioms-list')
+                        ]);
+                        const quickHits = quickHitsResp.ok ? await quickHitsResp.json() : {};
+                        const idiomsList = idiomsResp.ok ? await idiomsResp.json() : {};
+                        quickHelperData = mergeQuickHelperData(quickHits, idiomsList);
+                        console.log('✅ Loaded Reference data (IRL references)');
+                    } catch (err) {
+                        console.warn('Failed to load Reference data:', err);
+                        quickHelperData = { allItems: [] };
+                    }
+                }
+            } catch (error) {
+                console.warn('Failed to load unified search data:', error);
+            }
+        }
+
+        // Merge Quick Hits and IdiomsList into a flat searchable structure
+        function mergeQuickHelperData(quickHits, idiomsList) {
+            const allItems = [];
+            const seen = new Set();
+
+            function addItem(text, category, source) {
+                const key = (text || '').toString().toLowerCase().trim();
+                if (!key || seen.has(key)) return;
+                seen.add(key);
+                allItems.push({ text: text, category: category, source: source });
+            }
+
+            function extractItems(node, category, source) {
+                if (!node || typeof node !== 'object') return;
+
+                if (Array.isArray(node)) {
+                    node.forEach(function (item) {
+                        if (typeof item === 'string') {
+                            addItem(item, category, source);
+                        } else if (item && typeof item === 'object') {
+                            if (item.text) addItem(item.text, category, source);
+                            else if (item.phrase) addItem(item.phrase, category, source);
+                        }
+                    });
+                    return;
+                }
+
+                Object.entries(node).forEach(function (entry) {
+                    const key = entry[0];
+                    const value = entry[1];
+                    if (key === 'metadata' || key === 'description') return;
+
+                    if (key === 'items' && Array.isArray(value)) {
+                        extractItems(value, category, source);
+                        return;
+                    }
+
+                    if (Array.isArray(value)) {
+                        extractItems(value, category || key, source);
+                    } else if (value && typeof value === 'object') {
+                        extractItems(value, category || key, source);
+                    }
+                });
+            }
+
+            // Extract from Quick Hits
+            if (quickHits && typeof quickHits === 'object') {
+                Object.keys(quickHits).forEach(function (cat) {
+                    if (cat === 'metadata') return;
+                    extractItems(quickHits[cat], cat, 'quick_hits');
+                });
+            }
+
+            // Extract from IdiomsList
+            if (idiomsList && typeof idiomsList === 'object') {
+                Object.keys(idiomsList).forEach(function (cat) {
+                    if (cat === 'metadata') return;
+                    extractItems(idiomsList[cat], cat, 'idioms_list');
+                });
+            }
+
+            console.log('[IRL] Extracted', allItems.length, 'unique items from Reference sources');
+            return { allItems: allItems };
+        }
+
+        // Search quotes by word - show ALL matches
+        function searchQuotes(word) {
+            if (!quotesData) return [];
+            const searchTerm = (word || '').toString().trim();
+
+            // Handle both array and object with quotes property
+            const quotesArray = Array.isArray(quotesData) ? quotesData : (quotesData.quotes || []);
+
+            const matches = quotesArray.filter(q => {
+                if (!q) return false;
+                // Show ONLY generated versions (those with transformations)
+                // Hide original quote field
+                const t = q.transformations || {};
+                const hasTransformations = t.title || t.metaphorical || t.bold;
+                if (!hasTransformations) return false; // Skip if no generated versions
+
+                // Search in transformation fields, not the original quote
+                const title = (t.title || '').toLowerCase();
+                const metaphorical = (t.metaphorical || '').toLowerCase();
+                const bold = (t.bold || '').toLowerCase();
+                const category = (q.category || '').toLowerCase();
+
+                return matchesSearchQuery(title, searchTerm) || matchesSearchQuery(metaphorical, searchTerm) || matchesSearchQuery(bold, searchTerm) || matchesSearchQuery(category, searchTerm);
+            });
+
+            console.log('Quote search for "' + word + '":', matches.length, 'matches (showing all)');
+            return matches;
+        }
+
+        // Search tone associations by word - group by category
+        function searchTones(word) {
+            const categoryOrder = ['emotional', 'sensory', 'visual', 'temporal', 'spatial', 'movement', 'objects', 'general'];
+            if (!tonesData || !Array.isArray(tonesData)) {
+                return { directToneName: '', directCategories: categoryOrder.map(function (c) { return { category: c, count: 0, items: [] }; }), directTotal: 0, otherTones: [], otherTotal: 0, total: 0 };
+            }
+            const rawQuery = (word || '').toString().trim();
+            const searchTerm = rawQuery.toLowerCase();
+            const tokens = parseSearchQueryTokens(rawQuery);
+            const isSimpleExact = tokens.length === 1 && tokens[0].core === searchTerm && !tokens[0].leadingStar && !tokens[0].trailingStar;
+            let directTone = null;
+            const otherToneMap = new Map();
+
+            tonesData.forEach(function (tone) {
+                if (!tone || !tone.associations_by_category) return;
+                const toneName = (tone.tone || '').toString().trim();
+                const toneNameLower = toneName.toLowerCase();
+                if (!directTone && isSimpleExact && toneNameLower && toneNameLower === searchTerm) {
+                    directTone = tone;
+                }
+
+                categoryOrder.forEach(function (category) {
+                    const items = tone.associations_by_category[category] || [];
+                    if (!Array.isArray(items) || !items.length) return;
+                    items.forEach(function (item) {
+                        if (typeof item !== 'string') return;
+                        if (!searchTerm) return;
+                        if (matchesSearchQuery(item, rawQuery) && (!isSimpleExact || toneNameLower !== searchTerm)) {
+                            if (!otherToneMap.has(toneName)) {
+                                otherToneMap.set(toneName, new Set());
+                            }
+                            otherToneMap.get(toneName).add(item);
+                        }
+                    });
+                });
+            });
+
+            const directToneName = directTone ? (directTone.tone || '').toString().trim() : '';
+            const directCategories = categoryOrder.map(function (category) {
+                const items = (directTone && directTone.associations_by_category && Array.isArray(directTone.associations_by_category[category]))
+                    ? directTone.associations_by_category[category].filter(function (item) { return typeof item === 'string'; })
+                    : [];
+                const sorted = items.slice().sort(function (a, b) { return String(a).localeCompare(String(b)); });
+                return { category: category, count: sorted.length, items: sorted };
+            });
+            const directTotal = directCategories.reduce(function (sum, c) { return sum + (c.count || 0); }, 0);
+
+            const otherTones = Array.from(otherToneMap.entries())
+                .filter(function (entry) { return entry[0] && entry[0].toString().trim(); })
+                .map(function (entry) {
+                    const toneName = entry[0];
+                    const set = entry[1] || new Set();
+                    const items = Array.from(set).sort(function (a, b) { return String(a).localeCompare(String(b)); });
+                    return { tone: toneName, count: items.length, items: items };
+                })
+                .sort(function (a, b) { return String(a.tone).localeCompare(String(b.tone)); });
+
+            const otherTotal = otherTones.reduce(function (sum, t) { return sum + (t.count || 0); }, 0);
+            const total = directTotal + otherTotal;
+            console.log('Tone search for "' + word + '": directTone=', !!directTone, 'directTotal=', directTotal, 'otherTones=', otherTones.length, 'otherTotal=', otherTotal, '(tones total:', tonesData.length, ')');
+            return { directToneName, directCategories, directTotal, otherTones, otherTotal, total };
+        }
+
+        // Search ALL sources for phrases ending with the search term
+        // Only applies to SINGLE-WORD queries (multi-word phrases don't make sense for "ends with")
+        function searchEndsWith(word) {
+            const rawQuery = (word || '').toString().trim();
+            const tokens = parseSearchQueryTokens(rawQuery);
+
+            // Skip "ends with" for multi-word queries - doesn't make semantic sense
+            if (tokens.length > 1 || rawQuery.split(/\s+/).length > 1) {
+                console.log('Skipping "Ends with" search for multi-word query:', rawQuery);
+                return [];
+            }
+
+            const lastToken = tokens.length ? tokens[tokens.length - 1].core : rawQuery;
+            const searchTerm = (lastToken || '').toString().trim().toLowerCase();
+            const endingPhrases = [];
+            const seen = new Set();
+
+            // Helper to check if phrase ends with word
+            function endsWithWord(text) {
+                if (!text || !searchTerm) return false;
+                return phraseEndsWithWord(text, searchTerm);
+            }
+
+            // Helper to add unique phrase
+            function addPhrase(phrase, source, sourceType) {
+                const key = phrase.toLowerCase().trim();
+                if (!seen.has(key)) {
+                    seen.add(key);
+                    endingPhrases.push({ phrase: phrase, exercise: source, sourceType: sourceType });
+                }
+            }
+
+            // 1. Search Mash-Ups
+            if (creativeGensData && creativeGensData.sections) {
+                creativeGensData.sections.forEach(function (section) {
+                    if (!section.items || !Array.isArray(section.items)) return;
+                    section.items.forEach(function (item) {
+                        if (item.title && endsWithWord(item.title)) {
+                            addPhrase(item.title, 'Mash-Ups', 'creative_gens');
+                        }
+                    });
+                });
+            }
+
+            // 2. Search Quote Transformations
+            if (quotesData) {
+                const quotesArray = Array.isArray(quotesData) ? quotesData : (quotesData.quotes || []);
+                quotesArray.forEach(function (q) {
+                    if (!q || !q.transformations) return;
+                    const t = q.transformations;
+                    if (t.title && endsWithWord(t.title)) addPhrase(t.title, 'In Other Words (Title)', 'in_other_words');
+                    if (t.metaphorical && endsWithWord(t.metaphorical)) addPhrase(t.metaphorical, 'In Other Words (Metaphorical)', 'in_other_words');
+                    if (t.bold && endsWithWord(t.bold)) addPhrase(t.bold, 'In Other Words (Bold)', 'in_other_words');
+                });
+            }
+
+            // 3. Search Tone Associations
+            if (tonesData && Array.isArray(tonesData)) {
+                tonesData.forEach(function (tone) {
+                    if (!tone || !tone.associations_by_category) return;
+                    Object.values(tone.associations_by_category).forEach(function (assocList) {
+                        if (!Array.isArray(assocList)) return;
+                        assocList.forEach(function (assoc) {
+                            if (typeof assoc === 'string' && endsWithWord(assoc)) {
+                                addPhrase(assoc, tone.tone || '', 'tone');
+                            }
+                        });
+                    });
+                });
+            }
+
+            console.log('Ends with search for "' + word + '":', endingPhrases.length, 'phrases from Mash-Ups (searched', (creativeGensData?.sections?.length || 0), 'sections)');
+            return endingPhrases;
+        }
+
+        // Search Mash-Ups - REPLICATE EXACT LOGIC FROM creative_gens.html
+        function searchCreativeGens(word) {
+            if (!creativeGensData || !creativeGensData.sections) {
+                console.log('No Mash-Ups data available');
+                return [];
+            }
+            const searchTerm = (word || '').toString().trim();
+            const matchingPhrases = [];
+            const seen = new Set();
+
+            console.log('[Mash-Ups Search] Searching for:', searchTerm);
+            console.log('[Mash-Ups Search] Total sections:', creativeGensData.sections.length);
+
+            // Flatten all items from all sections (same as Mash-Ups page)
+            const allItems = [];
+            creativeGensData.sections.forEach(function (section) {
+                if (!section.items || !Array.isArray(section.items)) return;
+                section.items.forEach(function (item) {
+                    allItems.push({
+                        ...item,
+                        exercise_name: section.name,
+                        exercise_id: section.id
+                    });
+                });
+            });
+
+            console.log('[Mash-Ups Search] Total items to search:', allItems.length);
+
+            // Search through all items (checking title, text, phrase, polished fields)
+            let matchCount = 0;
+            allItems.forEach(function (item) {
+                const title = item.title ? String(item.title).toLowerCase() : '';
+                const text = item.text ? String(item.text).toLowerCase() : '';
+                const phrase = item.phrase ? String(item.phrase).toLowerCase() : '';
+                const polished = item.polished ? String(item.polished).toLowerCase() : '';
+
+                // Check if search term appears in any field
+                if (matchesSearchQuery(title, searchTerm) || matchesSearchQuery(text, searchTerm) ||
+                    matchesSearchQuery(phrase, searchTerm) || matchesSearchQuery(polished, searchTerm)) {
+                    // Prefer polished, then title, then text, then phrase
+                    const displayText = item.polished || item.title || item.text || item.phrase;
+                    if (displayText) {
+                        const key = displayText.toLowerCase().trim();
+                        if (!seen.has(key)) {
+                            seen.add(key);
+                            matchingPhrases.push({
+                                phrase: displayText,
+                                exercise: item.exercise_name || 'Mash-Ups'
+                            });
+                            matchCount++;
+                        }
+                    }
+                }
+            });
+
+            console.log('[Mash-Ups Search] Found', matchCount, 'unique matches for "' + word + '"');
+            return matchingPhrases;
+        }
+
+        // Search Reference (IRL References) - real-world phrases, idioms, concrete imagery
+        function searchIRL(word) {
+            if (!quickHelperData || !quickHelperData.allItems) {
+                console.log('No Reference data available');
+                return [];
+            }
+            const searchTerm = (word || '').toString().trim().toLowerCase();
+            if (!searchTerm) return [];
+
+            const matchingItems = [];
+            const seen = new Set();
+
+            quickHelperData.allItems.forEach(function (item) {
+                const text = (item.text || '').toString();
+                const textLower = text.toLowerCase();
+
+                // Check if search term appears in the text
+                if (matchesSearchQuery(textLower, searchTerm)) {
+                    const key = textLower.trim();
+                    if (!seen.has(key)) {
+                        seen.add(key);
+                        matchingItems.push({
+                            phrase: text,
+                            category: item.category || '',
+                            source: item.source || 'quick_helper'
+                        });
+                    }
+                }
+            });
+
+            console.log('[IRL Search] Found', matchingItems.length, 'matches for "' + word + '"');
+            return matchingItems;
+        }
+
+        async function loadShardForWord(word) {
+            const shardId = await sha256FirstByte(word);
+
+            if (shardCache[shardId]) {
+                console.log('✅ Shard ' + shardId + ' loaded from memory cache (instant)');
+                return shardCache[shardId];
+            }
+
+            const cached = await getCachedShard(shardId);
+            if (cached && cached.version === SHARD_CACHE_VERSION) {
+                console.log('✅ Shard ' + shardId + ' loaded from IndexedDB cache (~50ms)');
+                shardCache[shardId] = cached.data;
+                return cached.data;
+            }
+
+            // Clear old cache on first version mismatch
+            if (cached && cached.version !== SHARD_CACHE_VERSION && !cacheCleared) {
+                console.log('⚠️ Cache version mismatch: ' + cached.version + ' !== ' + SHARD_CACHE_VERSION);
+                await clearOldCache();
+                cacheCleared = true;
+            }
+
+            console.log('⬇️ Fetching shard ' + shardId + ' from server (~500KB)...');
+            const response = await fetch(SHARD_ENDPOINT_BASE + shardId + '?v=' + encodeURIComponent(SHARD_CACHE_VERSION));
+            if (!response.ok) {
+                throw new Error('Failed to fetch shard ' + shardId);
+            }
+            const shardData = await response.json();
+
+            shardCache[shardId] = shardData;
+            await setCachedShard(shardId, { version: SHARD_CACHE_VERSION, data: shardData });
+            console.log('✅ Shard ' + shardId + ' cached to IndexedDB for future searches');
+
+            return shardData;
+        }
+
+        async function getWordData(word) {
+            const shard = await loadShardForWord(word);
+            const lowerWord = word.toLowerCase();
+
+            // Try exact match first
+            if (shard[lowerWord]) {
+                return { data: shard[lowerWord], actualWord: lowerWord, searchedWord: lowerWord };
+            }
+
+            // Try common word forms if exact match not found
+            const forms = tryWordForms(lowerWord);
+            for (let i = 0; i < forms.length; i++) {
+                const form = forms[i];
+                if (shard[form]) {
+                    console.log('Found rhymes for word form:', form, '(searched:', lowerWord, ')');
+                    return { data: shard[form], actualWord: form, searchedWord: lowerWord };
+                }
+            }
+
+            return null;
+        }
+
+        function tryWordForms(word) {
+            const forms = [];
+
+            // Try removing common suffixes
+            if (word.endsWith('tion')) {
+                forms.push(word.slice(0, -4) + 'te'); // motivation -> motivate
+                forms.push(word.slice(0, -4)); // motivation -> motivat
+            }
+            if (word.endsWith('ing')) {
+                forms.push(word.slice(0, -3)); // running -> run
+                forms.push(word.slice(0, -3) + 'e'); // making -> make
+            }
+            if (word.endsWith('ed')) {
+                forms.push(word.slice(0, -2)); // walked -> walk
+                forms.push(word.slice(0, -1)); // created -> create
+            }
+            if (word.endsWith('s') && word.length > 2) {
+                forms.push(word.slice(0, -1)); // cats -> cat
+            }
+            if (word.endsWith('es') && word.length > 3) {
+                forms.push(word.slice(0, -2)); // boxes -> box
+            }
+            if (word.endsWith('ly')) {
+                forms.push(word.slice(0, -2)); // quickly -> quick
+            }
+            if (word.endsWith('ness')) {
+                forms.push(word.slice(0, -4)); // happiness -> happi
+                forms.push(word.slice(0, -4) + 'y'); // happiness -> happy
+            }
+
+            return forms;
+        }
+
+        function showError(message) {
+            const container = document.getElementById('resultsContainer');
+            const stickyBar = document.getElementById('stickyResultsBar');
+            if (stickyBar) {
+                stickyBar.style.display = 'none';
+                stickyBar.innerHTML = '';
+            }
+            container.innerHTML = '<div class="section"><div style="color: #c33; text-align: center;"><div style="font-size: 1.5rem; margin-bottom: 10px;">Error</div><div>' + message + '</div></div></div>';
+            container.classList.add('show');
+        }
+
+        function showLoading() {
+            const container = document.getElementById('resultsContainer');
+            const stickyBar = document.getElementById('stickyResultsBar');
+            if (stickyBar) {
+                stickyBar.style.display = 'none';
+                stickyBar.innerHTML = '';
+            }
+            container.innerHTML = '<div class="section"><div class="loading"><div class="spinner"></div><p>Searching...</p></div></div>';
+            container.classList.add('show');
+        }
+
+        async function searchRhymes(word) {
+            const inputEl = document.getElementById('searchInput');
+            const displayWord = (word !== undefined && word !== null)
+                ? (word || '').toString()
+                : ((inputEl && inputEl.value) ? inputEl.value.toString() : '');
+            if (inputEl) {
+                inputEl.value = displayWord;
+            }
+            // Keep full query for unified search (quotes, tones, mash-ups, ends with)
+            const fullQuery = displayWord.toLowerCase().trim();
+            if (!fullQuery) return;
+
+            // Extract last word ONLY for rhyme dictionary lookup
+            const words = fullQuery.split(/\s+/);
+            const rhymeWord = words.length > 1 ? words[words.length - 1] : fullQuery;
+
+            showLoading();
+
+            // Load unified search data if not already loaded
+            await loadUnifiedSearchData();
+
+            try {
+                // Rhyme lookup uses last word only
+                const wordDataResult = await getWordData(rhymeWord);
+                const wordData = wordDataResult ? wordDataResult.data : null;
+                const actualWord = wordDataResult ? wordDataResult.actualWord : rhymeWord;
+                const isWordForm = wordDataResult && wordDataResult.actualWord !== wordDataResult.searchedWord;
+
+                // Unified search uses FULL query (multi-word supported)
+                const quotes = searchQuotes(fullQuery);
+                const tones = searchTones(fullQuery);
+                const endsWithPhrases = searchEndsWith(fullQuery);
+                const creativeGensPhrases = searchCreativeGens(fullQuery);
+                const irlPhrases = searchIRL(fullQuery);
+
+                console.log('=== UNIFIED SEARCH RESULTS ===');
+                console.log('Full query:', fullQuery);
+                console.log('Rhyme word:', rhymeWord);
+                console.log('Actual word (for rhymes):', actualWord);
+                console.log('Is word form:', isWordForm);
+                console.log('Quotes found:', quotes.length);
+                console.log('Tones found:', tones && typeof tones === 'object' ? (tones.total || 0) : 0);
+                console.log('Ends with found:', endsWithPhrases.length);
+                console.log('Mash-Ups found:', creativeGensPhrases.length);
+                console.log('IRL found:', irlPhrases.length);
+                console.log('Has rhyme data:', !!wordData);
+
+                const tonesHasAny = tones && typeof tones === 'object' && ((tones.directToneName && tones.directTotal > 0) || tones.otherTotal > 0);
+                if (!wordData && quotes.length === 0 && !tonesHasAny && endsWithPhrases.length === 0 && creativeGensPhrases.length === 0 && irlPhrases.length === 0) {
+                    showNoResults(fullQuery);
+                    return;
+                }
+
+                await displayResults(wordData, fullQuery, { quotes, tones, endsWithPhrases, creativeGensPhrases, irlPhrases, actualWord, isWordForm, rhymeWord });
+            } catch (error) {
+                console.error('Search error:', error);
+                showError('Failed to search. Please try again.');
+            }
+        }
+
+        function showNoResults(word) {
+            const container = document.getElementById('resultsContainer');
+            const stickyBar = document.getElementById('stickyResultsBar');
+            if (stickyBar) {
+                stickyBar.style.display = 'none';
+                stickyBar.innerHTML = '';
+            }
+            container.innerHTML = '<div class="section"><div class="empty-state"><h3>No results found for "' + word + '"</h3><p>Try a different word from the vocabulary, or jump into Dynamic Generations.</p><div style="margin-top: 14px;"><a class="empty-state-action" href="/dynamic-gens">Open Dynamic Generations</a></div></div></div>';
+            container.classList.add('show');
+        }
+
+        async function fetchFallbackRhymes(word) {
+            const url = '/api/fallback/rhymes?word=' + encodeURIComponent(word);
+            const response = await fetch(url);
+            if (!response.ok) throw new Error('Fallback fetch failed');
+            const data = await response.json();
+            return data.map(function (entry) {
+                return { word: entry.word, score: entry.score || 0 };
+            });
+        }
+
+        function applyFallbackRhymes(word, sectionId) {
+            const countEl = document.getElementById(sectionId + '-count');
+            const gridEl = document.getElementById(sectionId + '-grid');
+            const metaEl = document.getElementById(sectionId + '-meta');
+            if (!countEl || !gridEl || !metaEl) return;
+
+            fetchFallbackRhymes(word)
+                .then(function (results) {
+                    if (!results.length) {
+                        countEl.textContent = '0 fallback words';
+                        metaEl.textContent = 'No rhymes were found via the fallback service either.';
+                        return;
+                    }
+
+                    countEl.textContent = results.length + ' fallback words';
+                    metaEl.textContent = 'Loaded via fallback rhyme service (tap a word to search it).';
+
+                    let html = '';
+                    results.forEach(function (entry) {
+                        html += '<div class="rhyme-item" onclick="searchRhymes(\'' + entry.word + '\')">' + entry.word + '</div>';
+                    });
+                    gridEl.innerHTML = html;
+                })
+                .catch(function () {
+                    countEl.textContent = 'Unavailable';
+                    metaEl.textContent = 'Fallback rhyme service could not be reached. Please retry in a moment.';
+                });
+        }
+
+        async function collectPhraseDataAsync(wordData, rhymeTypeMap, searchWord) {
+            const references = [];
+            const rhymePhraseMap = { perfect: {}, near: {} };
+            const idiomBadge = createBadge(BADGE_DEFS.idiom);
+            const categoryBadges = {
+                happiness: createBadge(BADGE_DEFS.positive),
+                depressing: createBadge(BADGE_DEFS.negative)
+            };
+
+            function routeRhymePhrase(rhymeWord, entry) {
+                const bucket = rhymeTypeMap.get(rhymeWord.toLowerCase()) || 'near';
+                addRhymePhraseToBucket(rhymePhraseMap, bucket, rhymeWord, entry);
+            }
+
+            if (wordData.idioms && wordData.idioms.length > 0) {
+                wordData.idioms.forEach(function (idiom) {
+                    if (hasInvalidUnicode(idiom.phrase)) return;
+                    if (idiom.type === 'quote') {
+                        return;
+                    }
+                    const badges = [idiomBadge];
+                    if (idiom.match_type === 'rhyme' && idiom.ending_word) {
+                        routeRhymePhrase(idiom.ending_word, createPhraseEntry(idiom.phrase, badges, [idiom.ending_word]));
+                    } else {
+                        addReferencePhrase(references, createPhraseEntry(idiom.phrase, badges, [searchWord]));
+                    }
+                });
+            }
+
+            if (wordData.imagery_alts) {
+                ['happiness', 'depressing'].forEach(function (category) {
+                    const data = wordData.imagery_alts[category];
+                    if (!data) return;
+                    const moodBadge = categoryBadges[category];
+
+                    (data.direct_matches || []).forEach(function (match) {
+                        if (!hasInvalidUnicode(match.phrase)) {
+                            addReferencePhrase(references, createPhraseEntry(match.phrase, [moodBadge], [searchWord]));
+                        }
+                    });
+
+                    if (data.rhyme_matches) {
+                        Object.entries(data.rhyme_matches).forEach(function (entry) {
+                            const rhymeWord = entry[0];
+                            const matches = entry[1];
+                            matches.forEach(function (match) {
+                                if (!hasInvalidUnicode(match.phrase)) {
+                                    const badges = [moodBadge];
+                                    routeRhymePhrase(rhymeWord, createPhraseEntry(match.phrase, badges, [rhymeWord]));
+                                }
+                            });
+                        });
+                    }
+                });
+            }
+
+            return { references, rhymePhraseMap };
+        }
+
+        function renderSynonymSection(word) {
+            const sectionKey = buildSectionKey('synonyms', word);
+            const listId = 'synonyms-list-' + sanitizeKey(word);
+            const body = '<div class="synonym-grid" id="' + listId + '"><div class="empty-note">Loading synonyms...</div></div>';
+            return renderCollapsibleSection(sectionKey, 'Thesaurus for "' + word + '"', '', body, false);
+        }
+
+        async function fetchAndRenderSynonyms(word) {
+            const listId = 'synonyms-list-' + sanitizeKey(word);
+            const target = document.getElementById(listId);
+            const countEl = document.getElementById('section-count-' + buildSectionKey('synonyms', word));
+            if (!target) return;
+            target.innerHTML = '<div class="empty-note">Loading synonyms...</div>';
+            try {
+                const synonyms = await getSynonyms(word);
+                if (countEl) {
+                    countEl.textContent = synonyms.length;
+                }
+                if (!synonyms.length) {
+                    target.innerHTML = '<div class="empty-note">No synonyms found.</div>';
+                    return;
+                }
+                const items = synonyms.map(function (entry) {
+                    const safeWord = entry.word.replace(/'/g, "\\'");
+                    return '<button class="synonym-chip" onclick="searchRhymes(\'' + safeWord + '\')">' + sanitizeDisplayText(entry.word) + '</button>';
+                }).join('');
+                target.innerHTML = items;
+            } catch (error) {
+                target.innerHTML = '<div class="empty-note">Unable to load synonyms right now.</div>';
+            }
+        }
+
+        async function getSynonyms(word) {
+            const cacheKey = word.toLowerCase();
+            if (synonymCache[cacheKey]) {
+                return synonymCache[cacheKey];
+            }
+            const response = await fetch('/api/fallback/synonyms?word=' + encodeURIComponent(word));
+            if (!response.ok) {
+                throw new Error('Failed to fetch synonyms');
+            }
+            const data = await response.json();
+            synonymCache[cacheKey] = data || [];
+            return synonymCache[cacheKey];
+        }
+
+        async function displayResults(wordData, searchWord, unifiedResults) {
+            const container = document.getElementById('resultsContainer');
+            const stickyBar = document.getElementById('stickyResultsBar');
+            let html = '';
+            Object.keys(remainingPhraseSets).forEach(function (key) {
+                delete remainingPhraseSets[key];
+            });
+            Object.keys(remainingRhymeSets).forEach(function (key) {
+                delete remainingRhymeSets[key];
+            });
+            const deferredActions = [];
+
+            const query = searchWord;
+            const word = (wordData && wordData.word) || searchWord;
+            const actualWord = (unifiedResults && unifiedResults.actualWord) || searchWord;
+            const isWordForm = (unifiedResults && unifiedResults.isWordForm) || false;
+
+            // Show word-form notice if displaying rhymes for a different form
+            if (isWordForm && wordData) {
+                html += '<div class="section" style="background: #fffbf0; border-left: 3px solid #f4d078; padding: 12px 16px; margin-bottom: 12px;">';
+                html += '<div style="font-weight: 600; color: #8b6914; margin-bottom: 4px;">Showing rhymes for related word form</div>';
+                html += '<div style="color: #6f675c; font-size: 0.9rem;">Searched: <strong>' + searchWord + '</strong> → Displaying rhymes for: <strong>' + actualWord + '</strong></div>';
+                html += '</div>';
+            }
+
+            // Build results summary
+            const summaryParts = [];
+            let totalRhymes = 0;
+            let totalEndings = 0;
+            let totalTones = 0;
+            let totalExperiments = 0;
+            let totalRewrites = 0;
+            let totalIRL = 0;
+
+            console.log('=== RENDERING RESULTS ===');
+            console.log('unifiedResults:', unifiedResults);
+
+            // Store data globally for drawer access
+            if (unifiedResults && !unifiedResults.searchQuery) {
+                unifiedResults.searchQuery = query;
+            }
+            window.unifiedSearchResults = unifiedResults;
+
+            // Store rhyme data globally for drawer access FIRST
+            if (wordData) {
+                const rhymeBuckets = partitionRhymes(wordData.rhymes || []);
+                const rhymeTypeMap = buildRhymeTypeMap(rhymeBuckets);
+                const phraseData = await collectPhraseDataAsync(wordData, rhymeTypeMap, word);
+
+                if (unifiedResults) {
+                    if (!unifiedResults.endsWithPhrases) {
+                        unifiedResults.endsWithPhrases = [];
+                    }
+                    const endsWithKeys = new Set((unifiedResults.endsWithPhrases || []).map(function (item) {
+                        return (item && item.phrase ? item.phrase : '').toString().toLowerCase().trim();
+                    }).filter(Boolean));
+                    const remainingRefs = [];
+                    (phraseData.references || []).forEach(function (item) {
+                        const phrase = (item && item.phrase) ? item.phrase : '';
+                        if (phrase && phraseEndsWithWord(phrase, word)) {
+                            const key = phrase.toString().toLowerCase().trim();
+                            if (!endsWithKeys.has(key)) {
+                                endsWithKeys.add(key);
+                                unifiedResults.endsWithPhrases.push({ phrase: phrase, exercise: '' });
+                            }
+                        } else {
+                            remainingRefs.push(item);
+                        }
+                    });
+                    phraseData.references = remainingRefs;
+                }
+
+                window.rhymeSearchResults = {
+                    word: word,
+                    buckets: rhymeBuckets,
+                    phraseData: phraseData
+                };
+
+                // 1. Rhymes - FIRST (now inline alphabetically)
+                console.log('Rendering rhyme sections, buckets:', Object.keys(rhymeBuckets));
+                let totalRhymesCount = 0;
+                Object.values(rhymeBuckets).forEach(b => { totalRhymesCount += (b.rhymes?.length || 0); });
+
+                if (totalRhymesCount > 0) {
+                    console.log('Rendering alphabetical rhymes section with', totalRhymesCount, 'total rhymes');
+                    html += renderRhymeSections(word, rhymeBuckets, phraseData.rhymePhraseMap || {});
+                }
+            }
+
+            // Calculate counts for summary
+            if (wordData) {
+                const rhymeBuckets = partitionRhymes(wordData.rhymes || []);
+                let totalRhymesCount = 0;
+                Object.values(rhymeBuckets).forEach(b => { totalRhymesCount += (b.rhymes?.length || 0); });
+                if (totalRhymesCount > 0) {
+                    summaryParts.push(totalRhymesCount + ' rhyme' + (totalRhymesCount !== 1 ? 's' : ''));
+                }
+            }
+            if (unifiedResults) {
+                if (unifiedResults.endsWithPhrases && unifiedResults.endsWithPhrases.length > 0) {
+                    totalEndings = unifiedResults.endsWithPhrases.length;
+                    summaryParts.push(totalEndings + ' ending' + (totalEndings !== 1 ? 's' : ''));
+                }
+                if (unifiedResults.tones && typeof unifiedResults.tones === 'object') {
+                    totalTones = (unifiedResults.tones.directTotal || 0) + (unifiedResults.tones.otherTotal || 0);
+                    if (totalTones > 0) {
+                        summaryParts.push(totalTones + ' tone' + (totalTones !== 1 ? 's' : ''));
+                    }
+                }
+                if (unifiedResults.creativeGensPhrases && unifiedResults.creativeGensPhrases.length > 0) {
+                    totalExperiments = unifiedResults.creativeGensPhrases.length;
+                    summaryParts.push(totalExperiments + ' mash-up' + (totalExperiments !== 1 ? 's' : ''));
+                }
+                if (unifiedResults.quotes && unifiedResults.quotes.length > 0) {
+                    totalRewrites = unifiedResults.quotes.length;
+                    summaryParts.push(totalRewrites + ' rewrite' + (totalRewrites !== 1 ? 's' : ''));
+                }
+                // Combine IRL phrases with existing references for unified "IRL" count
+                const existingRefs = (window.rhymeSearchResults && window.rhymeSearchResults.phraseData)
+                    ? window.rhymeSearchResults.phraseData.references
+                    : [];
+                const combinedIRL = combineIRLReferences(unifiedResults.irlPhrases || [], existingRefs);
+                if (combinedIRL.length > 0) {
+                    totalIRL = combinedIRL.length;
+                    summaryParts.push(totalIRL + ' IRL');
+                }
+            }
+
+            // Sticky results bar (summary + pill shortcuts)
+            if (stickyBar) {
+                let stickyHtml = '';
+                let pillsHtml = '';
+                if (unifiedResults) {
+                    if (unifiedResults.endsWithPhrases && unifiedResults.endsWithPhrases.length > 0) {
+                        pillsHtml += renderDrawerButtonSection('ends-with-' + word, 'Ends with...', totalEndings, 'Endings', 'showEndsWithDrawer(\'' + query.replace(/'/g, "\\\\'") + '\')');
+                    }
+                    if (unifiedResults.tones && typeof unifiedResults.tones === 'object') {
+                        const hasDirect = !!(unifiedResults.tones.directToneName) && ((unifiedResults.tones.directTotal || 0) > 0);
+                        const otherToneCount = unifiedResults.tones.otherTones ? unifiedResults.tones.otherTones.length : 0;
+                        const totalMatches = unifiedResults.tones.total || 0;
+                        if (totalMatches > 0 || hasDirect || otherToneCount > 0) {
+                            pillsHtml += renderDrawerButtonSection('tones-' + word, 'Tones', totalTones, 'Tones', 'showAllTonesDrawer(\'' + query.replace(/'/g, "\\\\'") + '\')');
+                        }
+                    }
+                    if (unifiedResults.creativeGensPhrases && unifiedResults.creativeGensPhrases.length > 0) {
+                        pillsHtml += renderDrawerButtonSection('creative-gens-' + word, 'Mash-Ups', totalExperiments, 'Mash-Ups', 'showCreativeGensDrawer(\'' + query.replace(/'/g, "\\\\'") + '\')');
+                    }
+                    // IRL pill (combines Reference + existing references)
+                    if (totalIRL > 0) {
+                        pillsHtml += renderDrawerButtonSection('irl-' + word, 'IRL', totalIRL, 'IRL References', 'showIRLDrawer(\'' + query.replace(/'/g, "\\\\'") + '\')');
+                    }
+                }
+
+                if (unifiedResults && unifiedResults.quotes && unifiedResults.quotes.length > 0) {
+                    pillsHtml += renderDrawerButtonSection('quotes-' + word, 'Quotes', totalRewrites, 'Quotes', 'showQuotesDrawer(\'' + query.replace(/'/g, "\\\\'") + '\')');
+                }
+
+                if (pillsHtml) {
+                    stickyHtml += '<div class="sticky-results-pills">' + pillsHtml + '</div>';
+                }
+
+                if (stickyHtml) {
+                    stickyBar.innerHTML = stickyHtml;
+                    stickyBar.style.display = 'block';
+                } else {
+                    stickyBar.innerHTML = '';
+                    stickyBar.style.display = 'none';
+                }
+            }
+
+            // Render unified search sections in order
+            if (unifiedResults) {
+                console.log('Rendering unified sections...');
+            }
+
+            // Render all HTML at once
+            container.innerHTML = html;
+            container.classList.add('show');
+
+            try {
+                if (wordData) {
+                    setTimeout(function () {
+                        warmRhymeChipIndicators(word, partitionRhymes(wordData.rhymes || []));
+                    }, 0);
+                }
+            } catch (e) {
+            }
+
+            // Fetch synonyms if we have word data
+            if (wordData) {
+                fetchAndRenderSynonyms(word);
+                // Note: Removed warmRhymeChipIndicators for performance - indicators show on click
+            }
+
+            deferredActions.forEach(function (action) { action(); });
+        }
+
+        async function warmRhymeChipIndicators(word, rhymeBuckets) {
+            try {
+                const chipNodes = Array.from(document.querySelectorAll('.rhyme-chip[data-rhyme-word]'));
+                const words = chipNodes.slice(0, 100).map(function (node) {
+                    return (node.dataset.rhymeWord || '').toLowerCase();
+                }).filter(Boolean);
+                const unique = Array.from(new Set(words));
+
+                if (unique.length === 0) return;
+
+                // Use batch API to check which words have phrases
+                try {
+                    const response = await fetch('/api/rhyme-words-phrases', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ words: unique, limit: 1 })
+                    });
+
+                    if (response.ok) {
+                        const data = await response.json();
+                        if (data.success && data.phrases_by_word) {
+                            const wordsWithPhrases = new Set(Object.keys(data.phrases_by_word));
+                            chipNodes.forEach(function (node) {
+                                const w = (node.dataset.rhymeWord || '').toLowerCase();
+                                try {
+                                    node.dataset.phrasesKnown = '1';
+                                    if (wordsWithPhrases.has(w)) {
+                                        node.dataset.hasPhrases = '1';
+                                        node.classList.add('has-phrases');
+                                    } else {
+                                        node.dataset.hasPhrases = '0';
+                                        node.classList.remove('has-phrases');
+                                    }
+                                } catch (e) {
+                                }
+                            });
+                        }
+                    }
+                } catch (batchError) {
+                    console.warn('Batch indicator check failed:', batchError);
+                }
+            } catch (error) {
+                console.warn('Indicator warmup failed:', error);
+            }
+        }
+
+        function renderPhraseGroup(key, title, items) {
+            let html = '<div class="phrase-group"><div class="phrase-group-title">' + title + '</div>';
+            html += '<div class="phrase-list" id="phrase-list-' + key + '">';
+
+            const displayCount = Math.min(INITIAL_PHRASE_LIMIT, items.length);
+            for (let i = 0; i < displayCount; i++) {
+                html += buildPhraseItem(items[i]);
+            }
+
+            html += '</div>';
+
+            if (items.length > INITIAL_PHRASE_LIMIT) {
+                remainingPhraseSets[key] = {
+                    items: items.slice(INITIAL_PHRASE_LIMIT)
+                };
+                const remaining = items.length - INITIAL_PHRASE_LIMIT;
+                html += '<button class="show-more" onclick="showAllPhrases(\'' + key + '\', this)">More</button>';
+            }
+
+            html += '</div>';
+            return html;
+        }
+
+        function renderRhymeWordEntry(word, bucketKey, rhyme, phraseGroups, defaultOpen) {
+            const rhymeKey = sanitizeKey(bucketKey + '-' + rhyme.word);
+            const groupId = 'rhyme-word-' + rhymeKey;
+            const displayWord = rhyme.word.replace(/'/g, "\\'");
+            const phrases = (phraseGroups[rhyme.word.toLowerCase()] || { items: [] }).items;
+            const hasPhrases = phrases.length > 0;
+            let html = '<div class="rhyme-entry">';
+            if (hasPhrases) {
+                html += '<div class="rhyme-group ' + (defaultOpen ? 'open' : '') + '" id="rhyme-group-' + groupId + '">';
+                html += '<button class="rhyme-group-header" onclick="toggleRhymeGroup(\'' + groupId + '\')">';
+                html += '<span>' + rhyme.word + '</span>' + renderRhymeQualityBadge(rhyme);
+                html += '<span class="chevron">⌃</span>';
+                html += '</button>';
+                html += '<div class="rhyme-group-body">';
+                html += '<div class="rhyme-actions"><button class="search-chip" onclick="searchRhymes(\'' + displayWord + '\')">Search ' + rhyme.word + '</button></div>';
+                html += '<div class="phrase-list" id="phrase-list-' + groupId + '">';
+                const displayCount = Math.min(INITIAL_PHRASE_LIMIT, phrases.length);
+                for (let i = 0; i < displayCount; i++) {
+                    html += buildPhraseItem(phrases[i]);
+                }
+                html += '</div>';
+                if (phrases.length > INITIAL_PHRASE_LIMIT) {
+                    remainingPhraseSets[groupId] = { items: phrases.slice(INITIAL_PHRASE_LIMIT) };
+                    const remaining = phrases.length - INITIAL_PHRASE_LIMIT;
+                    html += '<button class="show-more" onclick="showAllPhrases(\'' + groupId + '\', this)">More</button>';
+                }
+                html += '</div></div>';
+            } else {
+                html += '<button class="rhyme-row" onclick="searchRhymes(\'' + displayWord + '\')">';
+                html += '<span>' + rhyme.word + '</span>' + renderRhymeQualityBadge(rhyme);
+                html += '<span class="chevron">→</span>';
+                html += '</button>';
+            }
+            html += '</div>';
+            return html;
+        }
+
+        function buildPhraseItem(entry) {
+            if (!entry) return '';
+            let html = '<div class="phrase-item">';
+            const highlightedPhrase = formatHighlightedPhrase(entry.phrase, entry.highlights || []);
+            const capitalizedPhrase = capitalizeFirst(highlightedPhrase);
+            html += '<div class="phrase-text">' + capitalizedPhrase;
+            const emojiBadges = [];
+            const labelBadges = [];
+            (entry.badges || []).forEach(function (badge) {
+                if (!badge) return;
+                if (badge.display === 'emoji') {
+                    emojiBadges.push(buildBadgeHtml(badge));
+                } else {
+                    labelBadges.push(buildBadgeHtml(badge));
+                }
+            });
+            if (emojiBadges.length > 0) {
+                html += '<span class="phrase-inline-emojis">' + emojiBadges.join('') + '</span>';
+            }
+            html += '</div>';
+            if (labelBadges.length > 0) {
+                html += '<div class="phrase-meta">' + labelBadges.join('') + '</div>';
+            }
+            html += '</div>';
+            return html;
+        }
+
+        function toggleRhymeGroup(groupKey) {
+            const group = document.getElementById('rhyme-group-' + groupKey);
+            if (group) {
+                group.classList.toggle('open');
+            }
+        }
+
+        function showAllPhrases(key, buttonEl) {
+            const config = remainingPhraseSets[key];
+            if (!config) return;
+
+            const phraseList = document.getElementById('phrase-list-' + key);
+            let html = '';
+            config.items.forEach(function (item) {
+                html += buildPhraseItem(item);
+            });
+
+            phraseList.insertAdjacentHTML('beforeend', html);
+            delete remainingPhraseSets[key];
+            if (buttonEl) {
+                buttonEl.remove();
+            }
+        }
+
+        function showAllRhymes(bucketId, buttonEl) {
+            const config = remainingRhymeSets[bucketId];
+            if (!config || !config.items || !config.items.length) return;
+            const target = document.getElementById(bucketId);
+            if (!target) return;
+
+            if (config.mode === 'chips') {
+                config.items.forEach(function (rhyme) {
+                    const rhymeWord = rhyme.word || '';
+                    const chipClass = 'rhyme-chip';
+                    const bubbleId = 'rhyme-chip-bubble-' + sanitizeKey((config.word || 'extra') + '-' + (config.bucketKey || 'extra'));
+                    chipPhraseGroupsCache[bubbleId] = config.phraseGroups || {};
+                    const safeWord = rhymeWord.replace(/'/g, "\\'");
+                    target.insertAdjacentHTML(
+                        'beforeend',
+                        '<button class="' + chipClass + '" data-rhyme-word="' + sanitizeDisplayText(rhymeWord) + '" data-bucket="' + (config.bucketKey || 'extra') + '" onclick="handleRhymeChipClick(\'' + bubbleId + '\', \'' + safeWord + '\', \'' + (config.bucketKey || 'extra') + '\', this)" title="Click to copy">' + sanitizeDisplayText(rhymeWord) + renderRhymeQualityBadge(rhyme) + '<span class="indicator-dot"></span></button>'
+                    );
+                });
+            } else {
+                config.items.forEach(function (rhyme) {
+                    target.insertAdjacentHTML('beforeend', renderRhymeWordEntry(config.word || 'extra', config.bucketKey || 'extra', rhyme, config.phraseGroups || {}, false));
+                });
+            }
+            delete remainingRhymeSets[bucketId];
+            if (buttonEl) {
+                buttonEl.remove();
+            }
+        }
+
+        function toggleSection(key) {
+            const section = document.getElementById('section-' + key);
+            if (section) {
+                section.classList.toggle('open');
+            }
+        }
+
+        function closeUnifiedDrawer() {
+            const drawer = document.getElementById('unifiedDrawer');
+            const backdrop = document.getElementById('drawerBackdrop');
+            const controls = document.getElementById('unifiedDrawerControls');
+            if (drawer) {
+                drawer.classList.remove('show');
+                drawer.innerHTML = '';
+            }
+            if (backdrop) {
+                backdrop.classList.remove('show');
+            }
+            if (controls) {
+                controls.innerHTML = '';
+                controls.style.display = 'none';
+                controls.remove();
+            }
+
+            setEmbedDrawerOpen(false);
+        }
+
+        function hideUnifiedDrawerControls() {
+            const controls = document.getElementById('unifiedDrawerControls');
+            if (!controls) return;
+            controls.innerHTML = '';
+            controls.style.display = 'none';
+        }
+
+        function getUnifiedDrawerScroller() {
+            const drawer = document.getElementById('unifiedDrawer');
+            if (!drawer) return null;
+            return drawer.querySelector('.rhyme-chip-bubble-inner') || drawer;
+        }
+
+        function scrollUnifiedDrawerToTop() {
+            const scroller = getUnifiedDrawerScroller();
+            if (!scroller) return;
+            scroller.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function scrollUnifiedDrawerToBottom() {
+            const scroller = getUnifiedDrawerScroller();
+            if (!scroller) return;
+            scroller.scrollTo({ top: scroller.scrollHeight, behavior: 'smooth' });
+        }
+
+        function scrollUnifiedDrawerToElement(elementId) {
+            const scroller = getUnifiedDrawerScroller();
+            if (!scroller) return;
+            const el = document.getElementById(elementId);
+            if (!el) return;
+            try {
+                const scrollerRect = scroller.getBoundingClientRect();
+                const elRect = el.getBoundingClientRect();
+                const delta = elRect.top - scrollerRect.top;
+                scroller.scrollTo({ top: scroller.scrollTop + delta - 12, behavior: 'smooth' });
+            } catch (e) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+
+        function updateScrollButtons() {
+            const drawer = document.getElementById('unifiedDrawer');
+            const scroller = getUnifiedDrawerScroller();
+            if (!drawer || !scroller) return;
+
+            if (!drawer.classList.contains('show')) {
+                hideUnifiedDrawerControls();
+                return;
+            }
+
+            const controls = document.getElementById('unifiedDrawerControls');
+            const topBtn = (controls && controls.querySelector('.drawer-scroll-btn-top')) || drawer.querySelector('.drawer-scroll-btn-top');
+            const bottomBtn = (controls && controls.querySelector('.drawer-scroll-btn-bottom')) || drawer.querySelector('.drawer-scroll-btn-bottom');
+
+            if (!topBtn || !bottomBtn) return;
+
+            const scrollTop = scroller.scrollTop;
+            const scrollHeight = scroller.scrollHeight;
+            const clientHeight = scroller.clientHeight;
+            const scrollBottom = scrollHeight - scrollTop - clientHeight;
+
+            // Hide top button if at top (within 10px threshold)
+            if (scrollTop < 10) {
+                topBtn.style.display = 'none';
+            } else {
+                topBtn.style.display = 'flex';
+            }
+
+            // Hide bottom button if at bottom (within 10px threshold)
+            if (scrollBottom < 10) {
+                bottomBtn.style.display = 'none';
+            } else {
+                bottomBtn.style.display = 'flex';
+            }
+        }
+
+        function attachUnifiedDrawerScrollHandlers(drawer) {
+            if (!drawer) return;
+            const scroller = getUnifiedDrawerScroller();
+            if (!scroller) return;
+            scroller.removeEventListener('scroll', updateScrollButtons);
+            scroller.addEventListener('scroll', updateScrollButtons, { passive: true });
+            updateScrollButtons();
+        }
+
+        function ensureUnifiedDrawerControls() {
+            let controls = document.getElementById('unifiedDrawerControls');
+            if (!controls) {
+                controls = document.createElement('div');
+                controls.id = 'unifiedDrawerControls';
+                controls.style.display = 'none';
+                document.body.appendChild(controls);
+            }
+            return controls;
+        }
+
+        function showUnifiedDrawerControls() {
+            const drawer = document.getElementById('unifiedDrawer');
+            if (!drawer || !drawer.classList.contains('show')) return;
+            const controls = ensureUnifiedDrawerControls();
+            controls.innerHTML = ''; // Clear previous buttons
+            controls.style.display = 'block';
+
+            const closeBtn = document.createElement('button');
+            closeBtn.className = 'drawer-close-btn';
+            closeBtn.title = 'Close';
+            closeBtn.textContent = '×';
+            closeBtn.onclick = closeUnifiedDrawer;
+
+            const topBtn = document.createElement('button');
+            topBtn.className = 'drawer-scroll-btn-top';
+            topBtn.title = 'Scroll to top';
+            topBtn.textContent = '↑';
+            topBtn.onclick = function (e) { e.stopPropagation(); scrollUnifiedDrawerToTop(); };
+
+            const bottomBtn = document.createElement('button');
+            bottomBtn.className = 'drawer-scroll-btn-bottom';
+            bottomBtn.title = 'Scroll to bottom';
+            bottomBtn.textContent = '↓';
+            bottomBtn.onclick = function (e) { e.stopPropagation(); scrollUnifiedDrawerToBottom(); };
+
+            controls.appendChild(closeBtn);
+            controls.appendChild(topBtn);
+            controls.appendChild(bottomBtn);
+
+            updateScrollButtons();
+        }
+
+        function shuffleEndsWithDrawer() {
+            const state = window.__endsWithDrawerState;
+            if (!state || !state.phrases) return;
+            const shuffled = getShuffledCopy(state.phrases);
+            showEndsWithDrawer(state.word, shuffled);
+        }
+
+        function showEndsWithDrawer(word, phrasesOverride) {
+            console.log('showEndsWithDrawer called for:', word);
+            if (!window.unifiedSearchResults || !window.unifiedSearchResults.endsWithPhrases) {
+                console.error('No endsWithPhrases data available');
+                return;
+            }
+            const highlightTerm = (window.unifiedSearchResults && window.unifiedSearchResults.searchQuery)
+                ? window.unifiedSearchResults.searchQuery
+                : word;
+            const phrases = phrasesOverride || window.unifiedSearchResults.endsWithPhrases;
+            window.__endsWithDrawerState = { word: word, phrases: phrases };
+
+            let backdrop = document.getElementById('drawerBackdrop');
+            if (!backdrop) {
+                console.error('drawerBackdrop not found');
+                return;
+            }
+
+            let drawer = document.getElementById('unifiedDrawer');
+            if (!drawer) {
+                drawer = document.createElement('div');
+                drawer.id = 'unifiedDrawer';
+                drawer.className = 'rhyme-chip-bubble';
+                document.body.appendChild(drawer);
+            }
+
+            let html = '<div class="rhyme-chip-bubble-inner">';
+            html += '<div class="drawer-header">';
+            html += '<div class="drawer-title">Endings</div>';
+            html += '<div class="drawer-subtitle"></div>';
+            html += '<div class="drawer-actions"><button class="drawer-action-btn" onclick="event.stopPropagation(); shuffleEndsWithDrawer()">Shuffle</button></div>';
+            html += '</div>';
+
+            phrases.forEach(function (item, idx) {
+                const phraseText = capitalizeFirst(item.phrase);
+                const highlightedText = highlightSearchTerm(phraseText, highlightTerm);
+                html += '<div class="drawer-item" data-clickable data-text="' + item.phrase.replace(/"/g, '&quot;') + '">';
+                html += '<div class="drawer-item-text">' + highlightedText + '</div>';
+                if (item && item.sourceType === 'tone') {
+                    const toneLabel = (item.exercise || '').toString().trim();
+                    if (toneLabel && toneLabel.toLowerCase() !== (word || '').toString().trim().toLowerCase()) {
+                        html += '<div class="drawer-item-meta"><span class="phrase-badge">Key of \'' + capitalizeFirst(toneLabel) + '\'</span></div>';
+                    }
+                }
+                html += '</div>';
+            });
+
+            html += '</div>';
+
+            drawer.innerHTML = html;
+            backdrop.classList.add('show');
+            drawer.classList.add('show');
+            showUnifiedDrawerControls();
+
+            setEmbedDrawerOpen(true);
+
+            // Add scroll event listener
+            setTimeout(function () {
+                attachUnifiedDrawerScrollHandlers(drawer);
+                if (window.SharedInteractions) {
+                    window.SharedInteractions.autoApplyClickable();
+                }
+            }, 100);
+        }
+
+        function shuffleCreativeGensDrawer() {
+            const state = window.__creativeGensDrawerState;
+            if (!state || !state.phrases) return;
+            const shuffled = getShuffledCopy(state.phrases);
+            showCreativeGensDrawer(state.word, shuffled);
+        }
+
+        function showCreativeGensDrawer(word, phrasesOverride) {
+            console.log('showCreativeGensDrawer called for:', word);
+            if (!window.unifiedSearchResults || !window.unifiedSearchResults.creativeGensPhrases) {
+                console.error('No creativeGensPhrases data available');
+                return;
+            }
+            const highlightTerm = (window.unifiedSearchResults && window.unifiedSearchResults.searchQuery)
+                ? window.unifiedSearchResults.searchQuery
+                : word;
+            const phrases = phrasesOverride || window.unifiedSearchResults.creativeGensPhrases;
+            window.__creativeGensDrawerState = { word: word, phrases: phrases };
+
+            let backdrop = document.getElementById('drawerBackdrop');
+            if (!backdrop) {
+                console.error('drawerBackdrop not found');
+                return;
+            }
+
+            let drawer = document.getElementById('unifiedDrawer');
+            if (!drawer) {
+                drawer = document.createElement('div');
+                drawer.id = 'unifiedDrawer';
+                drawer.className = 'rhyme-chip-bubble';
+                document.body.appendChild(drawer);
+            }
+
+            let html = '<div class="rhyme-chip-bubble-inner">';
+            html += '<div class="drawer-header">';
+            html += '<div class="drawer-title">Mash-Ups</div>';
+            html += '<div class="drawer-subtitle"></div>';
+            html += '<div class="drawer-actions"><button class="drawer-action-btn" onclick="event.stopPropagation(); shuffleCreativeGensDrawer()">Shuffle</button></div>';
+            html += '</div>';
+
+            phrases.forEach(function (item, idx) {
+                const phraseText = capitalizeFirst(item.phrase);
+                const highlightedText = highlightSearchTerm(phraseText, highlightTerm);
+                html += '<div class="drawer-item" data-clickable data-text="' + item.phrase.replace(/"/g, '&quot;') + '">';
+                html += '<div class="drawer-item-text">' + highlightedText + '</div>';
+                if (item.exercise) {
+                    html += '<div class="drawer-item-meta"><span class="phrase-badge">' + item.exercise + '</span></div>';
+                }
+                html += '</div>';
+            });
+
+            html += '</div>';
+
+            drawer.innerHTML = html;
+            backdrop.classList.add('show');
+            drawer.classList.add('show');
+            showUnifiedDrawerControls();
+
+            setEmbedDrawerOpen(true);
+
+            // Add scroll event listener
+            setTimeout(function () {
+                attachUnifiedDrawerScrollHandlers(drawer);
+                if (window.SharedInteractions) {
+                    window.SharedInteractions.autoApplyClickable();
+                }
+            }, 100);
+        }
+
+        function shuffleQuotesDrawer() {
+            const state = window.__quotesDrawerState;
+            if (!state || !state.quotes) return;
+            const shuffled = getShuffledCopy(state.quotes);
+            showQuotesDrawer(state.word, shuffled);
+        }
+
+        function showQuotesDrawer(word, quotesOverride) {
+            console.log('showQuotesDrawer called for:', word);
+            if (!window.unifiedSearchResults || !window.unifiedSearchResults.quotes) {
+                console.error('No quotes data available');
+                return;
+            }
+            const highlightTerm = (window.unifiedSearchResults && window.unifiedSearchResults.searchQuery)
+                ? window.unifiedSearchResults.searchQuery
+                : word;
+            const quotes = quotesOverride || window.unifiedSearchResults.quotes;
+            window.__quotesDrawerState = { word: word, quotes: quotes };
+
+            let backdrop = document.getElementById('drawerBackdrop');
+            if (!backdrop) {
+                console.error('drawerBackdrop not found');
+                return;
+            }
+
+            let drawer = document.getElementById('unifiedDrawer');
+            if (!drawer) {
+                drawer = document.createElement('div');
+                drawer.id = 'unifiedDrawer';
+                drawer.className = 'rhyme-chip-bubble';
+                document.body.appendChild(drawer);
+            }
+
+            // Count total versions
+            let totalVersions = 0;
+            quotes.forEach(function (q) {
+                const t = q.transformations || {};
+                if (t.title) totalVersions++;
+                if (t.metaphorical) totalVersions++;
+                if (t.bold) totalVersions++;
+            });
+
+            let html = '<div class="rhyme-chip-bubble-inner">';
+            html += '<div class="drawer-header">';
+            html += '<div class="drawer-title">Rewrites</div>';
+            html += '<div class="drawer-subtitle"></div>';
+            html += '<div class="drawer-actions"><button class="drawer-action-btn" onclick="event.stopPropagation(); shuffleQuotesDrawer()">Shuffle</button></div>';
+            html += '</div>';
+
+            // Group by quote and display as units
+            quotes.forEach(function (q) {
+                const t = q.transformations || {};
+                const category = q.category && q.category !== 'null' ? q.category : 'Uncategorized';
+
+                // Create a quote unit with all three versions together
+                html += '<div class="drawer-category-card" style="margin-bottom: 16px;">';
+                html += '<h3 class="drawer-category-title" style="font-size: 0.85rem; text-transform: uppercase; color: #666; margin-bottom: 8px;">' + category + '</h3>';
+
+                // Display all three generated versions
+                if (t.title) {
+                    const titleText = capitalizeFirst(t.title);
+                    const highlightedTitle = highlightSearchTerm(titleText, highlightTerm);
+                    html += '<div class="drawer-item" data-clickable data-text="' + t.title.replace(/"/g, '&quot;') + '" style="margin-bottom: 6px;">';
+                    html += '<div class="drawer-item-text">' + highlightedTitle + '</div>';
+                    html += '<div class="drawer-item-meta"><span class="phrase-badge">Title Idea</span></div>';
+                    html += '</div>';
+                }
+                if (t.metaphorical) {
+                    const metaText = capitalizeFirst(t.metaphorical);
+                    const highlightedMeta = highlightSearchTerm(metaText, highlightTerm);
+                    html += '<div class="drawer-item" data-clickable data-text="' + t.metaphorical.replace(/"/g, '&quot;') + '" style="margin-bottom: 6px;">';
+                    html += '<div class="drawer-item-text">' + highlightedMeta + '</div>';
+                    html += '<div class="drawer-item-meta"><span class="phrase-badge">Metaphorical</span></div>';
+                    html += '</div>';
+                }
+                if (t.bold) {
+                    const boldText = capitalizeFirst(t.bold);
+                    const highlightedBold = highlightSearchTerm(boldText, highlightTerm);
+                    html += '<div class="drawer-item" data-clickable data-text="' + t.bold.replace(/"/g, '&quot;') + '" style="margin-bottom: 6px;">';
+                    html += '<div class="drawer-item-text">' + highlightedBold + '</div>';
+                    html += '<div class="drawer-item-meta"><span class="phrase-badge">Bold/Direct</span></div>';
+                    html += '</div>';
+                }
+
+                html += '</div>';
+            });
+            html += '</div>';
+
+            drawer.innerHTML = html;
+            backdrop.classList.add('show');
+            drawer.classList.add('show');
+            showUnifiedDrawerControls();
+
+            setEmbedDrawerOpen(true);
+
+            setTimeout(function () {
+                attachUnifiedDrawerScrollHandlers(drawer);
+                if (window.SharedInteractions) {
+                    window.SharedInteractions.autoApplyClickable();
+                }
+            }, 100);
+        }
+
+        function scrollToOtherTones() {
+            scrollUnifiedDrawerToElement('other-tones-section');
+        }
+
+        function shuffleOtherTones() {
+            const state = window.__tonesDrawerState;
+            if (!state || !state.toneResult) return;
+            const base = state.toneResult;
+            const next = Object.assign({}, base);
+            next.otherTones = getShuffledCopy(Array.isArray(base.otherTones) ? base.otherTones : []).map(function (tone) {
+                if (!tone) return tone;
+                const copy = Object.assign({}, tone);
+                if (Array.isArray(copy.items)) {
+                    copy.items = getShuffledCopy(copy.items);
+                }
+                return copy;
+            });
+            showAllTonesDrawer(state.word, next);
+        }
+
+        function showAllTonesDrawer(word, toneOverride) {
+            console.log('showAllTonesDrawer called for:', word);
+            if (!window.unifiedSearchResults || !window.unifiedSearchResults.tones) {
+                console.error('No tones data available');
+                return;
+            }
+            const highlightTerm = (window.unifiedSearchResults && window.unifiedSearchResults.searchQuery)
+                ? window.unifiedSearchResults.searchQuery
+                : word;
+            const toneResult = toneOverride || window.unifiedSearchResults.tones;
+            window.__tonesDrawerState = { word: word, toneResult: toneResult };
+            const directToneName = (toneResult.directToneName || '').toString().trim();
+            const directCategories = Array.isArray(toneResult.directCategories) ? toneResult.directCategories : [];
+            const directTotal = toneResult.directTotal || 0;
+            const otherTones = Array.isArray(toneResult.otherTones) ? toneResult.otherTones : [];
+            const otherTotal = toneResult.otherTotal || 0;
+            const totalMatches = toneResult.total || 0;
+            const hasDirectSection = !!directToneName && directTotal > 0;
+            const nonEmptyOtherTones = otherTones.filter(function (t) { return t && (t.count || 0) > 0; });
+            const drawerTitle = hasDirectSection ? 'Tones' : (nonEmptyOtherTones.length > 0 ? 'Other Tones' : 'Tones');
+
+            let backdrop = document.getElementById('drawerBackdrop');
+            if (!backdrop) {
+                console.error('drawerBackdrop not found');
+                return;
+            }
+
+            let drawer = document.getElementById('unifiedDrawer');
+            if (!drawer) {
+                drawer = document.createElement('div');
+                drawer.id = 'unifiedDrawer';
+                drawer.className = 'rhyme-chip-bubble';
+                document.body.appendChild(drawer);
+            }
+
+            let html = '<div class="rhyme-chip-bubble-inner">';
+            html += '<div class="drawer-header">';
+            html += '<div class="drawer-title">' + drawerTitle + '</div>';
+            html += '<div class="drawer-subtitle"></div>';
+            if (nonEmptyOtherTones.length > 0) {
+                html += '<div class="drawer-actions">';
+                html += '<button class="drawer-action-btn" onclick="event.stopPropagation(); scrollToOtherTones()">See Other Tones</button>';
+                html += '<button class="drawer-action-btn" onclick="event.stopPropagation(); shuffleOtherTones()">Shuffle</button>';
+                html += '</div>';
+            }
+            html += '</div>';
+
+            if (hasDirectSection) {
+                html += '<div style="margin-top: 16px; margin-bottom: 12px;">';
+                html += '<h3 style="font-size: 1rem; font-weight: 700; color: #2c2520; border-bottom: 2px solid #e8e4dc; padding-bottom: 8px;">Key of \'' + capitalizeFirst(directToneName) + '\'</h3>';
+                html += '</div>';
+
+                directCategories.forEach(function (category) {
+                    if (!category || !category.count) return;
+                    html += '<div class="drawer-category-card">';
+                    html += '<h3 class="drawer-category-title">' + String(category.category || '').toUpperCase() + '</h3>';
+                    (category.items || []).forEach(function (item) {
+                        const rawText = (item || '').toString();
+                        const itemText = capitalizeFirst(rawText);
+                        const highlighted = highlightSearchTerm(itemText, highlightTerm);
+                        html += '<div class="drawer-item" data-clickable data-text="' + rawText.replace(/"/g, '&quot;') + '" style="margin-bottom: 6px;">';
+                        html += '<div class="drawer-item-text" style="font-style: italic;">' + highlighted + '</div>';
+                        html += '</div>';
+                    });
+                    html += '</div>';
+                });
+            }
+
+            if (nonEmptyOtherTones.length > 0) {
+                html += '<div id="other-tones-section" style="margin-top: 20px; margin-bottom: 12px;">';
+                html += '<h3 style="font-size: 1rem; font-weight: 700; color: #2c2520; border-bottom: 2px solid #e8e4dc; padding-bottom: 8px;">Other Tones</h3>';
+                html += '</div>';
+
+                nonEmptyOtherTones.forEach(function (tone) {
+                    const toneName = (tone.tone || '').toString().trim();
+                    html += '<div class="drawer-category-card">';
+                    html += '<h3 class="drawer-category-title">Key of \'' + capitalizeFirst(toneName) + '\'</h3>';
+                    (tone.items || []).forEach(function (item) {
+                        const rawText = (item || '').toString();
+                        const itemText = capitalizeFirst(rawText);
+                        const highlighted = highlightSearchTerm(itemText, highlightTerm);
+                        html += '<div class="drawer-item" data-clickable data-text="' + rawText.replace(/"/g, '&quot;') + '" style="margin-bottom: 6px;">';
+                        html += '<div class="drawer-item-text" style="font-style: italic;">' + highlighted + '</div>';
+                        html += '</div>';
+                    });
+                    html += '</div>';
+                });
+            }
+
+            html += '</div>';
+
+            drawer.innerHTML = html;
+            backdrop.classList.add('show');
+            drawer.classList.add('show');
+            showUnifiedDrawerControls();
+
+            // Add scroll event listener and apply clickable behavior
+            setTimeout(() => {
+                attachUnifiedDrawerScrollHandlers(drawer);
+                if (window.SharedInteractions) {
+                    window.SharedInteractions.autoApplyClickable();
+                }
+            }, 100);
+
+            setEmbedDrawerOpen(true);
+        }
+
+        function showCombinedRhymesDrawer(word) {
+            console.log('showCombinedRhymesDrawer called for:', word);
+            if (!window.rhymeSearchResults) {
+                console.error('No rhyme search results available');
+                return;
+            }
+
+            const buckets = window.rhymeSearchResults.buckets;
+            const phraseData = window.rhymeSearchResults.phraseData;
+            const searchWord = window.rhymeSearchResults.word;
+
+            let backdrop = document.getElementById('drawerBackdrop');
+            if (!backdrop) {
+                console.error('drawerBackdrop not found');
+                return;
+            }
+
+            let drawer = document.getElementById('unifiedDrawer');
+            if (!drawer) {
+                drawer = document.createElement('div');
+                drawer.id = 'unifiedDrawer';
+                drawer.className = 'rhyme-chip-bubble';
+                document.body.appendChild(drawer);
+            }
+
+            const totalRhymes = (buckets.perfect?.rhymes?.length || 0) + (buckets.near?.rhymes?.length || 0);
+
+            let html = '<div class="rhyme-chip-bubble-inner">';
+            html += '<div class="drawer-header">';
+            html += '<div class="drawer-title">Rhymes</div>';
+            html += '<div class="drawer-subtitle">' + totalRhymes + ' total • ' + (buckets.perfect?.rhymes?.length || 0) + ' perfect • ' + (buckets.near?.rhymes?.length || 0) + ' near</div>';
+            html += '</div>';
+
+            // Near rhymes first (alphabetical)
+            if (buckets.near && buckets.near.rhymes && buckets.near.rhymes.length > 0) {
+                html += '<div style="margin-top: 20px; margin-bottom: 12px;">';
+                html += '<h3 style="font-size: 1rem; font-weight: 700; color: #2c2520; border-bottom: 2px solid #e8e4dc; padding-bottom: 8px;">Near Rhymes</h3>';
+                html += '</div>';
+
+                // Sort alphabetically
+                const sortedNear = buckets.near.rhymes.slice().sort((a, b) => a.word.localeCompare(b.word));
+
+                sortedNear.forEach(function (rhyme) {
+                    const rhymeWord = capitalizeFirst(rhyme.word);
+                    const highlightedWord = highlightSearchTerm(rhymeWord, searchWord);
+                    html += '<div class="drawer-item" data-clickable data-text="' + rhyme.word.replace(/"/g, '&quot;') + '">';
+                    html += '<div class="drawer-item-text">' + highlightedWord + '</div>';
+                    html += '</div>';
+                });
+            }
+
+            // Perfect rhymes below (alphabetical)
+            if (buckets.perfect && buckets.perfect.rhymes && buckets.perfect.rhymes.length > 0) {
+                html += '<div id="perfect-rhymes-section" style="margin-top: 24px; margin-bottom: 12px;">';
+                html += '<h3 style="font-size: 1rem; font-weight: 700; color: #2c2520; border-bottom: 2px solid #e8e4dc; padding-bottom: 8px;">Perfect Rhymes</h3>';
+                html += '</div>';
+
+                // Sort alphabetically
+                const sortedPerfect = buckets.perfect.rhymes.slice().sort((a, b) => a.word.localeCompare(b.word));
+
+                sortedPerfect.forEach(function (rhyme) {
+                    const rhymeWord = capitalizeFirst(rhyme.word);
+                    const highlightedWord = highlightSearchTerm(rhymeWord, searchWord);
+                    html += '<div class="drawer-item" data-clickable data-text="' + rhyme.word.replace(/"/g, '&quot;') + '">';
+                    html += '<div class="drawer-item-text">' + highlightedWord + '</div>';
+                    html += '</div>';
+                });
+            }
+
+            html += '</div>';
+
+            drawer.innerHTML = html;
+            backdrop.classList.add('show');
+            drawer.classList.add('show');
+            showUnifiedDrawerControls();
+
+            setEmbedDrawerOpen(true);
+
+            setTimeout(function () {
+                attachUnifiedDrawerScrollHandlers(drawer);
+            }, 100);
+        }
+
+        function showRhymeDrawer(bucketKey) {
+            console.log('showRhymeDrawer called for:', bucketKey);
+            if (!window.rhymeSearchResults) {
+                console.error('No rhyme search results available');
+                return;
+            }
+
+            const bucket = window.rhymeSearchResults.buckets[bucketKey];
+            const phraseData = window.rhymeSearchResults.phraseData;
+            const word = window.rhymeSearchResults.word;
+
+            if (!bucket) {
+                console.error('Bucket not found:', bucketKey);
+                return;
+            }
+
+            let backdrop = document.getElementById('drawerBackdrop');
+            if (!backdrop) {
+                console.error('drawerBackdrop not found');
+                return;
+            }
+
+            let drawer = document.getElementById('unifiedDrawer');
+            if (!drawer) {
+                drawer = document.createElement('div');
+                drawer.id = 'unifiedDrawer';
+                drawer.className = 'rhyme-chip-bubble';
+                document.body.appendChild(drawer);
+            }
+
+            let html = '<div class="rhyme-chip-bubble-inner">';
+            html += '<div class="drawer-header">';
+            html += '<div class="drawer-title">' + bucket.label + '</div>';
+            html += '<div class="drawer-subtitle"></div>';
+            html += '</div>';
+
+            // Render each rhyme word
+            bucket.rhymes.forEach(function (rhyme) {
+                const rhymeKey = rhyme.word.toLowerCase();
+                const phrases = (phraseData.rhymePhraseMap && phraseData.rhymePhraseMap[bucketKey] && phraseData.rhymePhraseMap[bucketKey][rhymeKey])
+                    ? phraseData.rhymePhraseMap[bucketKey][rhymeKey].items || []
+                    : [];
+                const hasPhrases = phrases.length > 0;
+
+                html += '<div class="drawer-category-card">';
+                html += '<h3 class="drawer-category-title">';
+                html += rhyme.word;
+                html += '</h3>';
+
+                if (hasPhrases) {
+                    phrases.forEach(function (phrase) {
+                        const phraseText = phrase.phrase || '';
+                        html += '<div class="drawer-item" data-clickable data-text="' + phraseText.replace(/"/g, '&quot;') + '" style="margin-bottom: 6px;">';
+                        html += '<div class="drawer-item-text">' + phraseText + '</div>';
+                        html += '</div>';
+                    });
+                }
+
+                html += '</div>';
+            });
+
+            html += '</div>';
+
+            drawer.innerHTML = html;
+            backdrop.classList.add('show');
+            drawer.classList.add('show');
+            showUnifiedDrawerControls();
+
+            setTimeout(function () {
+                attachUnifiedDrawerScrollHandlers(drawer);
+            }, 100);
+
+            setEmbedDrawerOpen(true);
+        }
+
+        // Combine IRL phrases from Reference with existing references from rhyme data
+        function combineIRLReferences(irlPhrases, existingRefs) {
+            const combined = [];
+            const seen = new Set();
+
+            // Add IRL phrases from Reference search
+            (irlPhrases || []).forEach(function (item) {
+                const text = (item.phrase || item.text || '').toString().toLowerCase().trim();
+                if (text && !seen.has(text)) {
+                    seen.add(text);
+                    combined.push({
+                        phrase: item.phrase || item.text || '',
+                        category: item.category || '',
+                        source: item.source || 'quick_helper'
+                    });
+                }
+            });
+
+            // Add existing references from rhyme data (idioms, imagery_alts)
+            (existingRefs || []).forEach(function (item) {
+                const text = (item.phrase || '').toString().toLowerCase().trim();
+                if (text && !seen.has(text)) {
+                    seen.add(text);
+                    combined.push({
+                        phrase: item.phrase || '',
+                        category: '',
+                        source: 'rhyme_data'
+                    });
+                }
+            });
+
+            return combined;
+        }
+
+        // Show IRL drawer - combines Reference results with existing references
+        function showIRLDrawer(word) {
+            const highlightTerm = (window.unifiedSearchResults && window.unifiedSearchResults.searchQuery)
+                ? window.unifiedSearchResults.searchQuery
+                : word;
+
+            // Get IRL phrases from unified search results
+            const irlPhrases = (window.unifiedSearchResults && window.unifiedSearchResults.irlPhrases) || [];
+
+            // Get existing references from rhyme data
+            const existingRefs = (window.rhymeSearchResults && window.rhymeSearchResults.phraseData)
+                ? window.rhymeSearchResults.phraseData.references || []
+                : [];
+
+            // Combine them
+            const combined = combineIRLReferences(irlPhrases, existingRefs);
+
+            if (combined.length === 0) {
+                console.log('No IRL references to display');
+                return;
+            }
+
+            let backdrop = document.getElementById('drawerBackdrop');
+            if (!backdrop) {
+                console.error('drawerBackdrop not found');
+                return;
+            }
+
+            let drawer = document.getElementById('unifiedDrawer');
+            if (!drawer) {
+                drawer = document.createElement('div');
+                drawer.id = 'unifiedDrawer';
+                drawer.className = 'rhyme-chip-bubble';
+                document.body.appendChild(drawer);
+            }
+
+            let html = '<div class="rhyme-chip-bubble-inner">';
+            html += '<div class="drawer-header">';
+            html += '<div class="drawer-title">IRL References</div>';
+            html += '<div class="drawer-subtitle">' + combined.length + ' real-world phrases, idioms & imagery</div>';
+            html += '</div>';
+
+            // Group by category for better organization
+            const byCategory = {};
+            combined.forEach(function (item) {
+                const cat = item.category || 'General';
+                if (!byCategory[cat]) byCategory[cat] = [];
+                byCategory[cat].push(item);
+            });
+
+            // Sort categories alphabetically
+            const categories = Object.keys(byCategory).sort();
+
+            categories.forEach(function (cat) {
+                const items = byCategory[cat];
+                const displayCat = cat.replace(/_/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase(); });
+
+                html += '<div class="drawer-category-section">';
+                html += '<div class="drawer-category-header">' + displayCat + ' <span style="color:#6f675c;font-weight:500;">(' + items.length + ')</span></div>';
+
+                items.forEach(function (item) {
+                    const phraseText = item.phrase || '';
+                    const capitalizedText = capitalizeFirst(phraseText);
+                    const highlightedText = highlightSearchTerm(capitalizedText, highlightTerm);
+                    html += '<div class="drawer-item" data-clickable data-text="' + encodeURIComponent(phraseText) + '">';
+                    html += '<div class="drawer-item-text">' + highlightedText + '</div>';
+                    html += '</div>';
+                });
+
+                html += '</div>';
+            });
+
+            html += '</div>';
+
+            drawer.innerHTML = html;
+            backdrop.classList.add('show');
+            drawer.classList.add('show');
+            showUnifiedDrawerControls();
+
+            setTimeout(function () {
+                attachUnifiedDrawerScrollHandlers(drawer);
+                if (window.SharedInteractions && typeof window.SharedInteractions.autoApplyClickable === 'function') {
+                    window.SharedInteractions.autoApplyClickable();
+                }
+            }, 100);
+
+            setEmbedDrawerOpen(true);
+        }
+
+        function showReferencesDrawer(word) {
+            // Redirect to IRL drawer which now handles all references
+            showIRLDrawer(word);
+        }
+
+        function triggerSearchFromUI() {
+            const raw = document.getElementById('searchInput')?.value || '';
+            const word = raw.toString().trim();
+            if (!word) return;
+            const url = new URL(window.location);
+            url.searchParams.set('q', word);
+            window.history.pushState({}, '', url);
+            searchRhymes(word);
+        }
+
+        document.getElementById('searchBtn').addEventListener('click', function () {
+            triggerSearchFromUI();
+        });
+
+        document.getElementById('searchInput').addEventListener('keydown', function (e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                triggerSearchFromUI();
+            }
+        });
+
+        (function installSearchHelpPopover() {
+            const trigger = document.getElementById('searchHelpTrigger');
+            const popover = document.getElementById('searchHelpPopover');
+            if (!trigger || !popover) return;
+
+            function setOpen(next) {
+                popover.classList.toggle('show', !!next);
+            }
+
+            trigger.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                setOpen(!popover.classList.contains('show'));
+            });
+
+            document.addEventListener('click', function (e) {
+                const target = e.target;
+                if (!target) return;
+                if (target === trigger || trigger.contains(target)) return;
+                if (target === popover || popover.contains(target)) return;
+                setOpen(false);
+            });
+
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') {
+                    setOpen(false);
+                }
+            });
+
+            window.addEventListener('scroll', function () {
+                setOpen(false);
+            }, { passive: true });
+        })();
+
+        (function installSearchCollapseOnScroll() {
+            let rafPending = false;
+            let isCollapsed = false;
+            let lastToggleAt = 0;
+
+            const COLLAPSE_Y = 240;
+            const EXPAND_Y = 80;
+            const TOGGLE_COOLDOWN_MS = 220;
+
+            function updateCollapsedState() {
+                rafPending = false;
+                const inputEl = document.getElementById('searchInput');
+                if (!inputEl) return;
+
+                // Only apply this behavior on smaller screens.
+                if (!window.matchMedia || !window.matchMedia('(max-width: 768px)').matches) {
+                    if (isCollapsed) {
+                        isCollapsed = false;
+                        document.body.classList.remove('search-collapsed');
+                    }
+                    return;
+                }
+
+                if (document.activeElement === inputEl) {
+                    if (isCollapsed) {
+                        isCollapsed = false;
+                        document.body.classList.remove('search-collapsed');
+                    }
+                    return;
+                }
+
+                const y = window.scrollY || window.pageYOffset || 0;
+                // Hysteresis (separate thresholds) prevents oscillation when the sticky header changes height.
+                const now = Date.now();
+                if (now - lastToggleAt < TOGGLE_COOLDOWN_MS) return;
+
+                let nextCollapsed = isCollapsed;
+                if (!isCollapsed && y > COLLAPSE_Y) nextCollapsed = true;
+                if (isCollapsed && y < EXPAND_Y) nextCollapsed = false;
+
+                if (nextCollapsed !== isCollapsed) {
+                    isCollapsed = nextCollapsed;
+                    lastToggleAt = now;
+                    document.body.classList.toggle('search-collapsed', isCollapsed);
+                    // Re-check after layout settles.
+                    setTimeout(function () {
+                        try { updateCollapsedState(); } catch (e) { }
+                    }, 60);
+                }
+            }
+
+            function onScrollOrResize() {
+                if (rafPending) return;
+                rafPending = true;
+                window.requestAnimationFrame(updateCollapsedState);
+            }
+
+            window.addEventListener('scroll', onScrollOrResize, { passive: true });
+            window.addEventListener('resize', onScrollOrResize, { passive: true });
+
+            const inputEl = document.getElementById('searchInput');
+            if (inputEl) {
+                inputEl.addEventListener('focus', function () {
+                    document.body.classList.remove('search-collapsed');
+                });
+                inputEl.addEventListener('blur', function () {
+                    setTimeout(updateCollapsedState, 0);
+                });
+            }
+
+            // Initialize state.
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', updateCollapsedState);
+            } else {
+                updateCollapsedState();
+            }
+        })();
+
+        // Load search from URL on page load
+        window.addEventListener('DOMContentLoaded', function () {
+            const urlParams = new URLSearchParams(window.location.search);
+            const searchQuery = urlParams.get('q');
+            if (searchQuery) {
+                document.getElementById('searchInput').value = searchQuery;
+                searchRhymes(searchQuery);
+            }
+        });
+
+        // Click backdrop to close drawer
+        document.getElementById('drawerBackdrop').addEventListener('click', function () {
+            const allBubbles = document.querySelectorAll('.rhyme-chip-bubble.show');
+            allBubbles.forEach(function (bubble) {
+                closeRhymeBubble(bubble.id);
+            });
+        });
+
+        noticeBanner = document.getElementById('noticeBanner');
+        if (noticeBanner) {
+            noticeBanner.style.display = 'none';
+        }
+        setInputsEnabled(true);
+
+        // Check for URL parameter and auto-search
+        const urlParams = new URLSearchParams(window.location.search);
+        const searchParam = urlParams.get('search');
+        if (searchParam) {
+            // Wait for data to load, then search
+            const checkDataInterval = setInterval(function () {
+                if (isDataReady) {
+                    clearInterval(checkDataInterval);
+                    document.getElementById('searchInput').value = searchParam;
+                    searchRhymes(searchParam);
+                }
+            }, 100);
+        }
+    </script>
+</body>
+
+</html>
