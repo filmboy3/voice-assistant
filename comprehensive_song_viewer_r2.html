@@ -593,7 +593,8 @@
         
         
         function renderELI5() {
-            if (!currentSong || !currentSong.eli5_genome) return;
+            if (!currentSong || (!currentSong.eli5_genome && !currentSong.genome)) return;
+            const eli5 = currentSong.eli5_genome || currentSong.genome;
             
             const eli5 = currentSong.eli5_genome;
             const plot = eli5.line_by_line_plot || [];
@@ -640,7 +641,8 @@
         }
 
         function renderSections() {
-            if (!currentSong || !currentSong.pattison) return;
+            if (!currentSong || (!currentSong.pattison && !currentSong.pattison_analysis)) return;
+            const pattison = currentSong.pattison || currentSong.pattison_analysis;
             
             const pattison = currentSong.pattison;
             const stanzas = pattison.stanzas || [];
