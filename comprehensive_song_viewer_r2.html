@@ -206,7 +206,7 @@
         .eli5-line-number { font-size: 0.75rem; font-weight: 700; color: #3b82f6; text-transform: uppercase; margin-bottom: 12px; }
         .eli5-lyric { font-style: italic; font-size: 1rem; color: #4b5563; margin: 16px 0; padding-left: 16px; border-left: 3px solid #e5e7eb; }
         .eli5-explanation { font-size: 1.1rem; line-height: 1.6; color: #1f2937; }
-        .genome-tag { font-size: 0.7rem; font-weight: 700; padding: 4px 10px; border-radius: 100px; text-transform: uppercase; margin-right: 8px; }
+        .genome-tag { box-shadow: 0 1px 2px rgba(0,0,0,0.05); border: 1px solid rgba(0,0,0,0.05); font-size: 0.7rem; font-weight: 700; padding: 4px 10px; border-radius: 100px; text-transform: uppercase; margin-right: 8px; }
         .tag-plot { background: #dbeafe; color: #1e40af; }
         .tag-emotion { background: #fce7f3; color: #9d174d; }
 
@@ -271,7 +271,7 @@
         let facets = null;
         let activeGenre = 'all';
         let pageSize = 60;
-        let currentLimit = pageSize; currentSongId = null;
+        let currentLimit = pageSize;
         let didHandleInitialRoute = false;
         let searchDebounceTimer;
         let pendingHashRoute = null;
@@ -626,6 +626,33 @@
                 
                 const tagsHTML = [];
                 if (plotFunc) tagsHTML.push(`<span class="genome-tag tag-plot">${escapeHtml(plotFunc)}</span>`);
+                if (emotion) tagsHTML.push(`<span class="genome-tag tag-emotion">${escapeHtml(emotion)}</span>`);
+                
+                return `
+                    <div class="eli5-plot-item">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+                            <div class="eli5-line-number">Lines ${lineNums.join(', ')}</div>
+                            ${tagsHTML.length ? `<div class="eli5-metadata">${tagsHTML.join('')}</div>` : ''}
+                        </div>
+                        <div class="eli5-lyric">"${escapeHtml(lyric)}"</div>
+                        <div class="eli5-explanation">
+                            <span style="font-weight: 800; color: #1e40af; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 8px;">Analysis:</span>
+                            ${escapeHtml(explanation)}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            container.innerHTML = `
+                <div class="eli5-section">
+                    <div class="eli5-header">
+                        <span>🧬</span>
+                        <span>Genome Analysis</span>
+                    </div>
+                    ${plotHTML}
+                </div>
+            `;
+        }</span>`);
                 if (emotion) tagsHTML.push(`<span class="genome-tag tag-emotion">${escapeHtml(emotion)}</span>`);
                 
                 return `
