@@ -12,6 +12,7 @@
             --accent-color: #8b7355;
             --sidebar-width: 280px;
             --header-height: 64px;
+            --rhyme-color: #8b5cf6;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -22,15 +23,14 @@
             color: var(--text-color);
             line-height: 1.5;
             height: 100vh;
-            overflow: hidden; /* Main body shouldn't scroll, layout panel will */
+            overflow: hidden;
             -webkit-font-smoothing: antialiased;
         }
+
         header {
             height: var(--header-height);
             position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
+            top: 0; left: 0; right: 0;
             z-index: 1000;
             background: rgba(246, 244, 238, 0.95);
             backdrop-filter: blur(20px) saturate(180%);
@@ -50,20 +50,11 @@
             gap: 20px;
         }
 
-        .header-title {
-            display: flex;
-            flex-direction: column;
-        }
-
+        .header-title { display: flex; flex-direction: column; }
         h1 { font-size: 1.25rem; font-weight: 700; margin: 0; color: #1a1a1a; line-height: 1.2; }
         .v-badge { font-size: 0.7rem; color: #8e8e93; font-weight: 500; }
 
-        .search-container {
-            flex: 1;
-            max-width: 600px;
-            position: relative;
-        }
-
+        .search-container { flex: 1; max-width: 600px; position: relative; }
         .search-input {
             width: 100%;
             padding: 10px 16px 10px 36px;
@@ -73,27 +64,14 @@
             font-size: 14px;
             transition: all 0.2s;
         }
-        
-        .search-input:focus {
-            outline: none;
-            background: white;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            border-color: var(--accent-color);
-        }
-
-        .search-icon {
-            position: absolute;
-            left: 12px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: #8e8e93;
-            font-size: 14px;
-        }
+        .search-input:focus { outline: none; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-color: var(--accent-color); }
+        .search-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: #8e8e93; font-size: 14px; }
 
         .layout {
             display: flex;
             height: calc(100vh - var(--header-height));
             margin-top: var(--header-height);
+            overflow: hidden;
         }
 
         .sidebar {
@@ -110,7 +88,7 @@
             overflow-y: auto;
             padding: 32px;
             background: var(--bg-color);
-            scroll-behavior: smooth;
+            scroll-behavior: auto; /* Changed to auto to prevent smooth scroll interference with resets */
         }
 
         @media (max-width: 900px) {
@@ -118,79 +96,33 @@
             .main-panel { padding: 20px; }
         }
 
-        .panel-title {
-            font-size: 0.75rem;
-            font-weight: 700;
-            color: #8e8e93;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            margin-bottom: 12px;
-        }
-
-        .list-item {
-            padding: 8px 12px;
-            margin-bottom: 4px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 14px;
-            transition: all 0.15s;
-        }
-
+        .panel-title { font-size: 0.75rem; font-weight: 700; color: #8e8e93; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px; }
+        .list-item { padding: 8px 12px; margin-bottom: 4px; border-radius: 8px; cursor: pointer; font-size: 14px; transition: all 0.15s; }
         .list-item:hover { background: #f2f2f7; }
         .list-item.active { background: #e3f2fd; color: #1565c0; font-weight: 600; }
 
-        .song-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 16px;
-        }
-
-        .song-card {
-            background: white;
-            border-radius: 12px;
-            padding: 16px;
-            cursor: pointer;
-            transition: all 0.2s;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-            border: 0.5px solid rgba(0,0,0,0.05);
-        }
-
-        .song-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
-        }
-
+        .song-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+        .song-card { background: white; border-radius: 12px; padding: 16px; cursor: pointer; transition: all 0.2s; box-shadow: 0 1px 3px rgba(0,0,0,0.05); border: 0.5px solid rgba(0,0,0,0.05); }
+        .song-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
         .song-card h3 { font-size: 1rem; font-weight: 600; margin-bottom: 4px; }
         .song-card .artist { font-size: 0.85rem; color: #8e8e93; margin-bottom: 12px; }
 
-        .pill {
-            display: inline-block;
-            padding: 2px 8px;
-            background: #f2f2f7;
-            color: #636366;
-            border-radius: 4px;
-            font-size: 0.7rem;
-            font-weight: 600;
-            margin-right: 4px;
-            margin-bottom: 4px;
-            text-transform: uppercase;
-        }
+        .pill { display: inline-block; padding: 2px 8px; background: #f2f2f7; color: #636366; border-radius: 4px; font-size: 0.7rem; font-weight: 600; margin-right: 4px; margin-bottom: 4px; text-transform: uppercase; }
+        .pill.genome { background: #e8f5e9; color: #2e7d32; }
+        .pill.pattison { background: #fff3e0; color: #ef6c00; }
+        .pill.verified { background: #f3e5f5; color: #7b1fa2; }
 
-        .song-viewer {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
+        .song-viewer { max-width: 900px; margin: 0 auto; }
         .song-header { margin-bottom: 40px; }
         .song-header h2 { font-size: 2.25rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 8px; }
-        .song-header .artist { font-size: 1.25rem; color: #8e8e93; font-weight: 500; }
+        .song-header .artist { font-size: 1.25rem; color: #8e8e93; font-weight: 500; margin-bottom: 16px; }
 
         .section-container {
             background: white;
             padding: 32px;
             border-radius: 16px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-            margin-bottom: 24px;
+            margin-bottom: 32px;
             border: 0.5px solid rgba(0,0,0,0.05);
         }
 
@@ -203,9 +135,10 @@
             padding-bottom: 12px;
         }
 
-        .section-name { font-size: 0.9rem; font-weight: 700; color: #8b5cf6; text-transform: uppercase; letter-spacing: 0.05em; }
-        .section-scheme { font-family: ui-monospace, monospace; font-size: 0.75rem; color: #8e8e93; }
+        .section-name { font-size: 0.9rem; font-weight: 700; color: var(--rhyme-color); text-transform: uppercase; letter-spacing: 0.05em; }
+        .section-scheme { font-family: ui-monospace, monospace; font-size: 0.8rem; font-weight: 700; color: #8e8e93; background: #f2f2f7; padding: 4px 8px; border-radius: 6px; }
 
+        .lyrics-container { margin-bottom: 24px; }
         .lyric-line {
             display: flex;
             align-items: flex-start;
@@ -214,56 +147,73 @@
             border-radius: 8px;
             transition: background 0.15s;
         }
-
         .lyric-line:hover { background: #f9f9fb; }
-        .line-text { flex: 1; font-size: 1.1rem; line-height: 1.6; }
+        .line-text { flex: 1; font-size: 1.15rem; line-height: 1.7; color: #1a1a1a; }
         .line-scheme, .line-stress {
             flex-shrink: 0;
             margin-left: 12px;
             font-family: ui-monospace, monospace;
-            font-size: 0.8rem;
-            font-weight: 600;
-            padding: 2px 6px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            padding: 2px 8px;
             border-radius: 4px;
-            min-width: 32px;
+            min-width: 36px;
             text-align: center;
         }
-        .line-scheme { background: rgba(139, 92, 246, 0.1); color: #8b5cf6; }
+        .line-scheme { background: rgba(139, 92, 246, 0.1); color: var(--rhyme-color); }
         .line-stress { background: rgba(239, 68, 68, 0.1); color: #ef4444; }
 
-        .artist-section {
-            background: white;
-            padding: 32px;
-            border-radius: 16px;
-            margin-bottom: 32px;
-            border-left: 4px solid #8b5cf6;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-        }
+        /* Rhyme Highlighting Parity */
+        .end-word { font-weight: 700; color: var(--rhyme-color); border-bottom: 2.5px solid var(--rhyme-color); padding-bottom: 1px; }
+        .internal-rhyme { font-weight: 700; padding: 0 2px; border-radius: 3px; }
+        
+        .internal-rhyme-0 { color: #c53030; background: rgba(229, 62, 62, 0.08); border-bottom: 2px solid rgba(229, 62, 62, 0.2); }
+        .internal-rhyme-1 { color: #c05621; background: rgba(221, 107, 32, 0.08); border-bottom: 2px solid rgba(221, 107, 32, 0.2); }
+        .internal-rhyme-2 { color: #b7791f; background: rgba(214, 158, 46, 0.08); border-bottom: 2px solid rgba(214, 158, 46, 0.2); }
+        .internal-rhyme-3 { color: #2f855a; background: rgba(56, 161, 105, 0.08); border-bottom: 2px solid rgba(56, 161, 105, 0.2); }
+        .internal-rhyme-4 { color: #2c7a7b; background: rgba(49, 151, 149, 0.08); border-bottom: 2px solid rgba(49, 151, 149, 0.2); }
+        .internal-rhyme-5 { color: #2b6cb0; background: rgba(49, 130, 206, 0.08); border-bottom: 2px solid rgba(49, 130, 206, 0.2); }
+        .internal-rhyme-6 { color: #6b46c1; background: rgba(128, 90, 213, 0.08); border-bottom: 2px solid rgba(128, 90, 213, 0.2); }
+        .internal-rhyme-7 { color: #b83280; background: rgba(213, 63, 140, 0.08); border-bottom: 2px solid rgba(213, 63, 140, 0.2); }
+        .internal-rhyme-8 { color: #0096c7; background: rgba(0, 181, 216, 0.08); border-bottom: 2px solid rgba(0, 181, 216, 0.2); }
+        .internal-rhyme-9 { color: #0087a3; background: rgba(0, 163, 196, 0.08); border-bottom: 2px solid rgba(0, 163, 196, 0.2); }
 
-        .eli5-section { margin-top: 48px; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 32px; }
-        .eli5-header { font-size: 1.5rem; font-weight: 700; color: #1e40af; margin-bottom: 24px; display: flex; align-items: center; gap: 12px; }
-        .eli5-plot-item {
-            background: rgba(255,255,255,0.6);
-            padding: 24px;
-            border-radius: 12px;
-            border-left: 4px solid #3b82f6;
-            margin-bottom: 20px;
-        }
+        .rhyme-pairs-section { margin-top: 24px; padding-top: 20px; border-top: 1px solid #f2f2f7; }
+        .rhyme-pairs-header { display: flex; justify-content: space-between; align-items: center; cursor: pointer; user-select: none; }
+        .rhyme-pairs-title { font-weight: 700; color: #1c1c1e; font-size: 0.95rem; }
+        .rhyme-toggle-icon { font-size: 0.8rem; color: #8e8e93; transition: transform 0.2s; }
+        .rhyme-pairs-content { display: none; margin-top: 16px; }
+        
+        .rhyme-pair { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px; background: #f9f9fb; border-radius: 10px; margin-bottom: 8px; }
+        .rhyme-words { font-weight: 700; color: var(--rhyme-color); font-size: 1rem; }
+        .rhyme-badge { padding: 4px 10px; border-radius: 6px; font-size: 0.7rem; font-weight: 800; text-transform: uppercase; color: white; margin-left: 12px; }
+        .rhyme-perfect { background: #10b981; }
+        .rhyme-family { background: #3b82f6; }
+        .rhyme-additive { background: #f59e0b; }
+        .rhyme-subtractive { background: #eab308; color: #713f12; }
+        .rhyme-assonance { background: #8b5cf6; }
+        .rhyme-consonance { background: #ec4899; }
 
-        .back-button {
-            padding: 8px 16px;
-            background: #f2f2f7;
-            border: none;
-            border-radius: 8px;
-            font-weight: 600;
-            cursor: pointer;
-            margin-bottom: 24px;
-            font-size: 14px;
-        }
-        .back-button:hover { background: #e5e5ea; }
+        .artist-section { background: white; padding: 32px; border-radius: 16px; margin-bottom: 32px; border-left: 4px solid var(--rhyme-color); box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .artist-bio-text { font-size: 1rem; line-height: 1.7; color: #374151; margin-bottom: 24px; white-space: pre-wrap; }
+        .meta-chip { padding: 6px 14px; background: #f3f4f6; border-radius: 100px; font-size: 0.85rem; color: #1f2937; font-weight: 600; display: inline-block; margin: 0 8px 8px 0; }
+        .meta-chip.act { background: #e0f2fe; color: #0369a1; }
+
+        .eli5-section { margin-top: 48px; border-top: 1.5px solid #e8e4dc; padding-top: 40px; }
+        .eli5-header { font-size: 1.5rem; font-weight: 800; color: #1e40af; margin-bottom: 24px; display: flex; align-items: center; gap: 12px; }
+        .eli5-plot-item { background: white; padding: 24px; border-radius: 16px; border-left: 4px solid #3b82f6; margin-bottom: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .eli5-line-number { font-size: 0.75rem; font-weight: 700; color: #3b82f6; text-transform: uppercase; margin-bottom: 12px; }
+        .eli5-lyric { font-style: italic; font-size: 1rem; color: #4b5563; margin: 16px 0; padding-left: 16px; border-left: 3px solid #e5e7eb; }
+        .eli5-explanation { font-size: 1.1rem; line-height: 1.6; color: #1f2937; }
+        .genome-tag { font-size: 0.7rem; font-weight: 700; padding: 4px 10px; border-radius: 100px; text-transform: uppercase; margin-right: 8px; }
+        .tag-plot { background: #dbeafe; color: #1e40af; }
+        .tag-emotion { background: #fce7f3; color: #9d174d; }
+
+        .back-button { padding: 10px 20px; background: white; border: 1px solid #e5e7eb; border-radius: 10px; font-weight: 700; cursor: pointer; margin-bottom: 32px; font-size: 0.9rem; transition: all 0.2s; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+        .back-button:hover { background: #f9fafb; border-color: #d1d5db; transform: translateX(-2px); }
 
         .hidden { display: none; }
-    </style>
+</style>
 </head>
 <body>
     <header>
@@ -308,7 +258,7 @@
             </div>
 
             <div id="songView" class="hidden">
-                <button class="back-button" onclick="showArtistList()">← Back to List</button>
+                <button class="back-button" onclick="showArtistList()">← Back</button>
                 <div class="song-viewer" id="songContent"></div>
             </div>
         </main>
@@ -318,10 +268,11 @@
         let facets = null;
         let activeGenre = 'all';
         let pageSize = 60;
-        let currentLimit = pageSize;
+        let currentLimit = pageSize; currentSongId = null;
         let didHandleInitialRoute = false;
         let searchDebounceTimer;
         let pendingHashRoute = null;
+        let currentSongId = null;
 
         function slugify(text) {
             return (text || '').toString().toLowerCase()
@@ -402,11 +353,11 @@
             const input = document.getElementById('searchInput');
             input.value = artistName;
             activeGenre = 'all';
-            currentLimit = pageSize;
+            currentLimit = pageSize; currentSongId = null;
             renderGenreList();
             setBrowseView();
             renderSongResults();
-            document.getElementById('mainPanel').scrollTop = 0;
+            const mainPanel = document.getElementById('mainPanel'); if (mainPanel) mainPanel.scrollTop = 0;
 
             if (push) {
                 history.pushState({ view: 'artist', artistSlug }, '', `/comprehensive-songs-r2`);
@@ -448,14 +399,14 @@
             const allItem = document.createElement('div');
             allItem.className = 'list-item' + (activeGenre === 'all' ? ' active' : '');
             allItem.textContent = 'All Genres';
-            allItem.onclick = () => { activeGenre = 'all'; currentLimit = pageSize; renderGenreList(); renderSongResults(); };
+            allItem.onclick = () => { activeGenre = 'all'; currentLimit = pageSize; currentSongId = null; renderGenreList(); renderSongResults(); };
             genreList.appendChild(allItem);
 
             genres.forEach(genre => {
                 const item = document.createElement('div');
                 item.className = 'list-item' + (activeGenre === genre ? ' active' : '');
                 item.textContent = sanitizeLabel(genre);
-                item.onclick = () => { activeGenre = genre; currentLimit = pageSize; renderGenreList(); renderSongResults(); };
+                item.onclick = () => { activeGenre = genre; currentLimit = pageSize; currentSongId = null; renderGenreList(); renderSongResults(); };
                 genreList.appendChild(item);
             });
         }
@@ -542,14 +493,40 @@
         }
 
         async function showSongById(songId, updateHash = true) {
+            // Prevent looping if we are already showing this song via a non-hash update
+            if (currentSongId === songId && !updateHash) return;
+            currentSongId = songId;
+
             setSongView();
 
             const match = songsIndex.find(s => (s && s.song_id) === songId) || null;
             const songSlug = match ? slugifySongTitleArtist(match.title, match.artist) : '';
             
             if (updateHash) {
-                if (songSlug) {
-                    history.pushState({ view: 'song', songId }, '', `#song/${encodeURIComponent(songSlug)}`);
+                const newHash = songSlug ? `#song/${encodeURIComponent(songSlug)}` : '#';
+                if (window.location.hash !== newHash) {
+                    lastProcessedHash = newHash;
+                    history.pushState({ view: 'song', songId }, '', newHash);
+                }
+            }
+
+            const content = document.getElementById('songContent');
+            content.innerHTML = '<div style="padding: 40px; text-align: center; color: #8e8e93;">Loading song analysis...</div>';
+            
+            // Scroll to top of content panel immediately
+            const mainPanel = document.getElementById('mainPanel');
+            if (mainPanel) mainPanel.scrollTop = 0;
+
+            try {
+                const response = await fetch(`/api/songs/${encodeURIComponent(songId)}`);
+                const song = await response.json();
+                content.innerHTML = renderSongContent(song);
+                initPattisonRhymeUI();
+            } catch (error) {
+                console.error('Failed to load song:', error);
+                content.innerHTML = '<div style="color:#c62828; padding: 20px;">Failed to load song data.</div>';
+            }
+        }, '', `#song/${encodeURIComponent(songSlug)}`);
                 } else {
                     history.pushState({ view: 'song', songId }, '', '#');
                 }
@@ -558,7 +535,7 @@
             const content = document.getElementById('songContent');
             content.innerHTML = '';
             // Scroll to top of content when loading new song
-            document.getElementById('mainPanel').scrollTop = 0;
+            const mainPanel = document.getElementById('mainPanel'); if (mainPanel) mainPanel.scrollTop = 0;
 
             try {
                 const response = await fetch(`/api/songs/${encodeURIComponent(songId)}`);
@@ -1005,64 +982,62 @@
             if (currentHash === lastProcessedHash) return;
             lastProcessedHash = currentHash;
             didHandleInitialRoute = false;
-            lastProcessedHash = window.location.hash; handleInitialRoute();
+            handleInitialRoute();
         });
 
         window.addEventListener('popstate', (e) => {
             const state = e.state || null;
             if (state && state.view === 'song' && state.songId) {
-                setSongView();
-                const songId = state.songId;
-                const content = document.getElementById('songContent');
-                content.innerHTML = '';
-                fetch(`/api/songs/${encodeURIComponent(songId)}`)
-                    .then(r => r.json())
-                    .then(song => { content.innerHTML = renderSongContent(song); initPattisonRhymeUI(); })
-                    .catch(err => { content.innerHTML = '<div style="color:#c62828;">Failed to load song.</div>'; });
+                showSongById(state.songId, false);
                 return;
             }
             if (state && state.view === 'artist' && state.artistSlug) {
                 showArtistBySlug(state.artistSlug, false);
                 return;
             }
-            lastProcessedHash = window.location.hash; handleInitialRoute();
+            if (state && state.view === 'browse') {
+                navigateToBrowse(false);
+                return;
+            }
+            didHandleInitialRoute = false;
+            handleInitialRoute();
         });
 
         document.getElementById('searchInput').addEventListener('input', (e) => {
             clearTimeout(searchDebounceTimer);
             searchDebounceTimer = setTimeout(() => {
-                currentLimit = pageSize;
+                currentLimit = pageSize; currentSongId = null;
                 renderSongResults();
             }, 300);
         });
 
         document.getElementById('categoryFilter').addEventListener('change', () => {
-            currentLimit = pageSize;
+            currentLimit = pageSize; currentSongId = null;
             renderSongResults();
         });
 
         document.getElementById('sourceFilter').addEventListener('change', () => {
-            currentLimit = pageSize;
+            currentLimit = pageSize; currentSongId = null;
             renderSongResults();
         });
 
         document.getElementById('collectionFilter').addEventListener('change', () => {
-            currentLimit = pageSize;
+            currentLimit = pageSize; currentSongId = null;
             renderSongResults();
         });
 
         document.getElementById('hasGenomeToggle').addEventListener('change', () => {
-            currentLimit = pageSize;
+            currentLimit = pageSize; currentSongId = null;
             renderSongResults();
         });
 
         document.getElementById('hasPattisonToggle').addEventListener('change', () => {
-            currentLimit = pageSize;
+            currentLimit = pageSize; currentSongId = null;
             renderSongResults();
         });
 
         document.getElementById('verifiedToggle').addEventListener('change', () => {
-            currentLimit = pageSize;
+            currentLimit = pageSize; currentSongId = null;
             renderSongResults();
         });
 
