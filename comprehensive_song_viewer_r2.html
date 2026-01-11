@@ -529,26 +529,6 @@
                 console.error('Failed to load song:', error);
                 content.innerHTML = '<div style="color:#c62828; padding: 20px;">Failed to load song data.</div>';
             }
-        }, '', `#song/${encodeURIComponent(songSlug)}`);
-                } else {
-                    history.pushState({ view: 'song', songId }, '', '#');
-                }
-            }
-
-            const content = document.getElementById('songContent');
-            content.innerHTML = '';
-            // Scroll to top of content when loading new song
-            const mainPanel = document.getElementById('mainPanel'); if (mainPanel) mainPanel.scrollTop = 0;
-
-            try {
-                const response = await fetch(`/api/songs/${encodeURIComponent(songId)}`);
-                const song = await response.json();
-                content.innerHTML = renderSongContent(song);
-                initPattisonRhymeUI();
-            } catch (error) {
-                console.error('Failed to load song:', error);
-                content.innerHTML = '<div style="color:#c62828;">Failed to load song data.</div>';
-            }
         }
 
         function escapeHtml(text) {
@@ -652,31 +632,8 @@
                     ${plotHTML}
                 </div>
             `;
-        }</span>`);
-                if (emotion) tagsHTML.push(`<span class="genome-tag tag-emotion">${escapeHtml(emotion)}</span>`);
-                
-                return `
-                    <div class="eli5-plot-item">
-                        <div class="eli5-line-number">Lines ${lineNums.join(', ')}</div>
-                        <div class="eli5-lyric">"${escapeHtml(lyric)}"</div>
-                        <div class="eli5-explanation"><span class="eli5-label">ELI5:</span>${escapeHtml(explanation)}</div>
-                        ${tagsHTML.length ? `<div class="eli5-metadata">${tagsHTML.join('')}</div>` : ''}
-                    </div>
-                `;
-            }).join('');
-            
-            container.innerHTML = `
-                <div class="eli5-section">
-                    <div class="eli5-header">
-                        <span>🧬</span>
-                        <span>Genome Analysis</span>
-                    </div>
-                    ${plotHTML}
-                </div>
-            `;
         }
-        
-        
+
         function renderSections() {
             if (!currentSong || !currentSong.pattison) return;
             
