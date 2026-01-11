@@ -745,118 +745,377 @@
             return div.innerHTML;
         }
 
+
+        function escapeRegex(str) {
+            return (str || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        }
+
+        function renderArtistProfile(song) {
+            if (!song.artist_bio && (!song.artist_associated_acts || song.artist_associated_acts.length === 0) && (!song.artist_tags || song.artist_tags.length === 0)) {
+                return '';
+            }
+
+            const associatedActs = song.artist_associated_acts || [];
+            const tags = song.artist_tags || [];
+            const styles = song.artist_styles || [];
+            const allTags = [...new Set([...tags, ...styles])];
+
+            const actsHTML = associatedActs.length > 0 ? `
+                <div class="artist-meta-group">
+                    <div class="artist-meta-label">Associated Acts</div>
+                    <div class="chip-container">
+                        ${associatedActs.map(act => `<span class="meta-chip act">${escapeHtml(act)}</span>`).join('')}
+                    </div>
+                </div>
+            ` : '';
+
+            const tagsHTML = allTags.length > 0 ? `
+                <div class="artist-meta-group">
+                    <div class="artist-meta-label">Genres & Styles</div>
+                    <div class="chip-container">
+                        ${allTags.map(tag => `<span class="meta-chip tag">${escapeHtml(tag)}</span>`).join('')}
+                    </div>
+                </div>
+            ` : '';
+            
+            const bioHTML = song.artist_bio ? `
+                <div class="artist-bio-text">${escapeHtml(song.artist_bio)}</div>
+            ` : '';
+
+            return `
+                <div class="artist-section">
+                    <div class="section-header">
+                        <div class="section-name" style="color: #8b5cf6;">Artist Profile</div>
+                    </div>
+                    ${bioHTML}
+                    ${actsHTML}
+                    ${tagsHTML}
+                </div>
+            `;
+        }
+        
+        
+        function renderELI5() {
+            if (!currentSong || !currentSong.eli5_genome) return;
+            
+            const eli5 = currentSong.eli5_genome;
+            const plot = eli5.line_by_line_plot || [];
+            
+            if (plot.length === 0) return;
+            
+            const container = document.getElementById('eli5Container');
+            
+            const plotHTML = plot.map(item => {
+                const lineNums = item.line_numbers || [];
+                const lyric = item.original_lyric || '';
+                const explanation = item.eli5_simplification || item.explanation || '';
+                const plotFunc = item.plot_function || '';
+                const emotion = item.emotion_primary || '';
+                
+                const tagsHTML = [];
+                if (plotFunc) tagsHTML.push(`<span class="genome-tag tag-plot">${escapeHtml(plotFunc)}</span>`);
+                if (emotion) tagsHTML.push(`<span class="genome-tag tag-emotion">${escapeHtml(emotion)}</span>`);
+                
+                return `
+                    <div class="eli5-plot-item">
+                        <div class="eli5-line-number">Lines ${lineNums.join(', ')}</div>
+                        <div class="eli5-lyric">"${escapeHtml(lyric)}"</div>
+                        <div class="eli5-explanation"><span class="eli5-label">ELI5:</span>${escapeHtml(explanation)}</div>
+                        ${tagsHTML.length ? `<div class="eli5-metadata">${tagsHTML.join('')}</div>` : ''}
+                    </div>
+                `;
+            }).join('');
+            
+            container.innerHTML = `
+                <div class="eli5-section">
+                    <div class="eli5-header">
+                        <span>🧬</span>
+                        <span>Genome Analysis</span>
+                    </div>
+                    ${plotHTML}
+                </div>
+            `;
+        }
+        
+        
+        function renderSections() {
+            if (!currentSong || !currentSong.pattison) return;
+            
+            const pattison = currentSong.pattison;
+            const stanzas = pattison.stanzas || [];
+            const lines = pattison.lines || [];
+            const rhymePairs = pattison.rhyme_pairs || [];
+            const internalRhymes = pattison.internal_rhymes || [];
+            const rawScheme = (pattison.raw_rhyme_scheme || '').split('');
+            
+            // Create global rhyme color map
+            const globalRhymeColorMap = new Map();
+            let globalColorIndex = 0;
+            
+            internalRhymes.forEach(rhyme => {
+                const key = [rhyme.word1, rhyme.word2].sort().join('|');
+                if (!globalRhymeColorMap.has(key)) {
+                    globalRhymeColorMap.set(key, globalColorIndex % 10);
+                    globalColorIndex++;
+                }
+            });
+            
+            const container = document.getElementById('sectionsContainer');
+            
+            // If no stanzas, treat as single section
+            if (stanzas.length === 0 && lines.length > 0) {
+                container.innerHTML = renderSection({
+                    name: 'Full Song',
+                    lines: lines,
+                    rawScheme: rawScheme,
+                    rhymePairs: rhymePairs,
+                    internalRhymes: internalRhymes,
+                    globalRhymeColorMap: globalRhymeColorMap
+                });
+                return;
+            }
+            
+            // Render each stanza as a section
+            let lineOffset = 0;
+            container.innerHTML = stanzas.map((stanza, idx) => {
+                const stanzaLines = lines.slice(lineOffset, lineOffset + stanza.length);
+                const stanzaScheme = rawScheme.slice(lineOffset, lineOffset + stanza.length);
+                
+                // Filter rhymes for this section
+                const sectionRhymes = rhymePairs.filter(r => 
+                    r.line1 > lineOffset && r.line1 <= lineOffset + stanza.length
+                );
+                const sectionInternalRhymes = internalRhymes.filter(r => 
+                    (r.line1 && r.line1 > lineOffset && r.line1 <= lineOffset + stanza.length) ||
+                    (r.line && r.line > lineOffset && r.line <= lineOffset + stanza.length)
+                );
+                
+                lineOffset += stanza.length;
+                
+                return renderSection({
+                    name: `Section ${idx + 1}`,
+                    lines: stanzaLines,
+                    rawScheme: stanzaScheme,
+                    rhymePairs: sectionRhymes,
+                    internalRhymes: sectionInternalRhymes,
+                    globalRhymeColorMap: globalRhymeColorMap,
+                    lineOffset: lineOffset - stanza.length
+                });
+            }).join('');
+        }
+        
+        
+        function renderSection({ name, lines, rawScheme, rhymePairs, internalRhymes, globalRhymeColorMap, lineOffset = 0 }) {
+            // FILTER: Remove self-rhymes and trivial words (the, a, and, etc.)
+            const STOP_WORDS = new Set([
+                'the', 'a', 'an', 'and', 'or', 'but', 'if', 'of', 'in', 'on', 'to', 'for', 'is', 'it', 'that', 'this', 
+                'at', 'by', 'from', 'into', 'onto', 'with', 'as', 'nor', 'am', 'are', 'was', 'were', 'be', 'been', 'being',
+                'i', 'me', 'my', 'mine', 'you', 'your', 'yours', 'he', 'him', 'his', 'she', 'her', 'hers', 
+                'we', 'us', 'our', 'ours', 'they', 'them', 'their', 'theirs', 'its', 'oh', 'ah', 'yeah', 'so', 'just', 'now', 'then',
+                'can', 'do', 'did', 'does', 'don', 't', 's', 'll', 'm', 're', 've', 'd'
+            ]);
+            
+            const filterRhyme = (r) => {
+                const w1 = (r.word1 || '').toLowerCase().trim();
+                const w2 = (r.word2 || '').toLowerCase().trim();
+                
+                // 1. No self-rhymes
+                if (w1 === w2) return false;
+                
+                // 2. No stop words (if EITHER word is a stop word, filter the pair)
+                if (STOP_WORDS.has(w1) || STOP_WORDS.has(w2)) return false;
+                
+                return true;
+            };
+
+            const filteredRhymePairs = rhymePairs.filter(filterRhyme);
+            const filteredInternalRhymes = internalRhymes.filter(filterRhyme);
+
+            const lyricsHTML = lines.map((line, i) => {
+                let text = line.text || '';
+                const schemeChar = rawScheme[i] || '';
+                
+                // Highlight end word
+                const endWord = line.end_word;
+                if (endWord) {
+                    const regex = new RegExp(`\\b${escapeRegex(endWord)}\\b`, 'gi');
+                    text = text.replace(regex, `<span class="end-word">${endWord}</span>`);
+                }
+                
+                // Highlight internal rhymes - PREVENT STACKING
+                // 1. Collect all unique words to highlight for this line and their colors
+                const wordsToHighlight = new Map(); // word -> colorIdx
+                
+                const lineInternalRhymes = filteredInternalRhymes.filter(ir => 
+                    ir.line1 === i + 1 + lineOffset || ir.line2 === i + 1 + lineOffset || ir.line === i + 1 + lineOffset
+                );
+                
+                lineInternalRhymes.forEach(rhyme => {
+                    const words = [rhyme.word1, rhyme.word2];
+                    const key = words.sort().join('|');
+                    const colorIdx = globalRhymeColorMap.get(key) || 0;
+                    
+                    words.forEach(word => {
+                        const w = word.toLowerCase();
+                        if (!STOP_WORDS.has(w)) {
+                            // Only set if not present to avoid stacking/overwriting
+                            // (First rhyme found dictates the color)
+                            if (!wordsToHighlight.has(w)) {
+                                wordsToHighlight.set(w, colorIdx);
+                            }
+                        }
+                    });
+                });
+                
+                // 2. Apply highlights in one pass (conceptually)
+                // We iterate the map, which contains unique words.
+                wordsToHighlight.forEach((colorIdx, word) => {
+                    // Use a lookahead/lookbehind or careful replacement to ensure we don't break HTML tags?
+                    // Since we are replacing text with <span>text</span>, subsequent replacements of DIFFERENT words are safe.
+                    // We just need to be careful not to match inside existing tags.
+                    // But since we operate on 'word' boundaries, and our previous replacements added tags...
+                    // A simple regex might match the word inside the class name? e.g. class="... word ..."
+                    // To be safe, we can try to only replace if not inside a tag.
+                    
+                    // Simple hack: We trust that words don't collide with our class names (internal-rhyme-X).
+                    // Our class names are 'internal-rhyme-X', 'end-word'.
+                    // If a word is 'internal', it might match. 
+                    // Let's assume lyrics don't contain markup words.
+                    
+                    const regex = new RegExp(`\\b${escapeRegex(word)}\\b`, 'gi');
+                    
+                    // To avoid matching inside tags, we can use a callback, but JS regex lookbehind is limited in some browsers.
+                    // Instead, we can rely on the fact that we are building the string.
+                    // Actually, if we replaced 'honey' with '<span...>honey</span>', 
+                    // and then try to replace 'honey' again, we will match the inner text AND potentially attributes.
+                    // BUT: We de-duplicated! 'wordsToHighlight' has 'honey' ONLY ONCE.
+                    // So we will only call replace ONCE for 'honey'.
+                    
+                    text = text.replace(regex, (match) => {
+                        // Check if we are inside a tag? Hard to tell.
+                        // But since we unique-ified the words, we won't try to replace 'honey' twice.
+                        // The only risk is if Word A is a substring of Word B?
+                        // \b guards against substrings.
+                        // Risk: If Word A is 'span'?
+                        return `<span class="internal-rhyme internal-rhyme-${colorIdx}">${match}</span>`;
+                    });
+                });
+                
+                return `
+                    <div class="lyric-line">
+                        <span class="line-text">${text}</span>
+                        <span class="line-stress" title="Stressed Syllables">${line.primary_stress_count || 0}</span>
+                        <span class="line-scheme" title="Rhyme Scheme">${schemeChar || '-'}</span>
+                    </div>
+                `;
+            }).join('');
+            
+            const allRhymes = [];
+            filteredRhymePairs.forEach(pair => {
+                allRhymes.push({
+                    word1: pair.word1,
+                    word2: pair.word2,
+                    type: pair.pattison_type || 'perfect',
+                    category: 'End-Word Rhyme'
+                });
+            });
+            filteredInternalRhymes.forEach(rhyme => {
+                allRhymes.push({
+                    word1: rhyme.word1,
+                    word2: rhyme.word2,
+                    type: rhyme.pattison_type || 'perfect',
+                    category: 'Internal Rhyme'
+                });
+            });
+            
+            const rhymesHTML = allRhymes.length > 0 ? `
+                <div class="rhyme-pairs-section">
+                    <div class="rhyme-pairs-header" onclick="toggleRhymes(this)">
+                        <div class="rhyme-pairs-title">Rhymes (${allRhymes.length})</div>
+                        <div class="rhyme-toggle-icon">▼</div>
+                    </div>
+                    <div class="rhyme-pairs-content" style="display: none;">
+                        ${allRhymes.map(rhyme => `
+                            <div class="rhyme-pair">
+                                <div>
+                                    <span class="rhyme-words">${rhyme.word1 || ''}</span> / 
+                                    <span class="rhyme-words">${rhyme.word2 || ''}</span>
+                                    <span class="rhyme-badge rhyme-${rhyme.type.toLowerCase()}">${rhyme.type}</span>
+                                </div>
+                                <span style="font-size: 12px; color: #8e8e93;">${rhyme.category}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            ` : '';
+            
+            const schemeStr = rawScheme.join('');
+            const displayScheme = schemeStr.length > 20 ? schemeStr.substring(0, 20) + '...' : schemeStr;
+            
+            return `
+                <div class="section-container">
+                    <div class="section-header">
+                        <div class="section-name">${name}</div>
+                        <div class="section-scheme" title="${schemeStr}">${displayScheme || 'N/A'}</div>
+                    </div>
+                    <div class="lyrics-container">
+                        ${lyricsHTML}
+                    </div>
+                    ${rhymesHTML}
+                </div>
+            `;
+        }
+        
+        function toggleRhymes(header) {
+            const content = header.nextElementSibling;
+            const icon = header.querySelector('.rhyme-toggle-icon');
+            if (content && icon) {
+                if (content.style.display === 'none') {
+                    content.style.display = 'block';
+                    icon.textContent = '▲';
+                } else {
+                    content.style.display = 'none';
+                    icon.textContent = '▼';
+                }
+            }
+        }
+
         function renderSongContent(song) {
-            let html = '';
-
-            const genome = song.genome || song.emotional_genome;
-            const pattison = song.pattison || song.pattison_analysis;
-
+            currentSong = song;
+            
             const artistName = song.artist || '';
             const artistSlug = slugifyArtist(artistName);
-
-            html += `
+            
+            let html = `
                 <div class="song-header">
                     <h2>${song.title || 'Untitled'}</h2>
                     <div class="artist" style="cursor:pointer;" onclick="showArtistBySlug('${artistSlug}')">${artistName || 'Unknown Artist'}</div>
                     <div>
                         ${song.category ? `<span class="pill">${song.category}</span>` : ''}
                         ${song.source ? `<span class="pill">${song.source}</span>` : ''}
-                        ${song.collection ? `<span class="pill">${song.collection}</span>` : ''}
+                        ${song.special_collection ? `<span class="pill">${song.special_collection}</span>` : ''}
                         ${song.verified ? `<span class="pill verified">Verified</span>` : ''}
                     </div>
                 </div>
+                <div id="artistProfileContainer"></div>
+                <div id="sectionsContainer"></div>
+                <div id="eli5Container"></div>
             `;
-
-            if (pattison) {
-                html += `<div class="section"><div class="section-title">Pattison Analysis</div>`;
-                const analysis = pattison.analysis || pattison;
-                if (Array.isArray(analysis)) {
-                    analysis.forEach((section, idx) => {
-                        const sectionName = section.section_name || `Section ${idx + 1}`;
-                        const lines = section.lines || [];
-                        const rhymeScheme = (section.rhyme_scheme || []).join(' ');
-                        const pairs = section.rhyme_pairs || [];
-
-                        html += `
-                            <div class="pattison-section">
-                                <div class="pattison-section-title">${sectionName}</div>
-                                ${rhymeScheme ? `<div class="rhyme-scheme">Rhyme Scheme: ${rhymeScheme}</div>` : ''}
-                                <div class="pattison-lyrics">
-                                    ${lines.map((line, i) => {
-                                        const letter = (section.rhyme_scheme && section.rhyme_scheme[i]) || '';
-                                        const lineText = line.text || line.line || '';
-                                        return `<div class="pattison-lyric-line"><span class="rhyme-letter">${letter}</span>${escapeHtml(lineText)}</div>`;
-                                    }).join('')}
-                                </div>
-                                ${pairs.length > 0 ? `
-                                    <div style="margin-top: 16px;">
-                                        <strong style="font-size: 0.95rem; color: #666;">Rhyme Pairs:</strong>
-                                        ${pairs.map(pair => {
-                                            const l1 = pair.line1 !== undefined ? pair.line1 + 1 : '?';
-                                            const l2 = pair.line2 !== undefined ? pair.line2 + 1 : '?';
-                                            const w1 = pair.word1 || '';
-                                            const w2 = pair.word2 || '';
-                                            const t = pair.pattison_type;
-                                            const stab = typeof pair.pattison_stability === 'number' ? `${Math.round(pair.pattison_stability * 100)}%` : '';
-                                            
-                                            const flags = [];
-                                            if (pair.deferred) flags.push('<span class="mini-badge" style="background:#e8f5e9; color:#2e7d32; border:1px solid #c8e6c9;">Deferred 🔗</span>');
-                                            if (pair.spotlight) flags.push('<span class="mini-badge" style="background:#fff3e0; color:#ef6c00; border:1px solid #ffe0b2;">Spotlight ⭐</span>');
-                                            if (pair.hanging) flags.push('<span class="mini-badge" style="background:#ffebee; color:#c62828; border:1px solid #ffcdd2;">Hanging 🎯</span>');
-                                            const flagHtml = flags.length ? ' ' + flags.join(' ') : '';
-
-                                            const typeRaw = (t || '').toString().toLowerCase().trim();
-                                            const typeClassMap = {
-                                                perfect: 'rhyme-perfect',
-                                                family: 'rhyme-family',
-                                                additive: 'rhyme-additive',
-                                                subtractive: 'rhyme-subtractive',
-                                                assonance: 'rhyme-assonance',
-                                                consonance: 'rhyme-consonance',
-                                            };
-                                            const typeCss = typeClassMap[typeRaw] || 'rhyme-unknown';
-                                            const typeBadge = `<span class="rhyme-type-badge ${typeCss}">${escapeHtml(typeRaw || 'unknown')}</span>`;
-                                            return `<div style="margin-left: 16px; color: #555;">- Lines ${l1}-${l2}: <strong>${escapeHtml(w1 || '')}</strong> / <strong>${escapeHtml(w2 || '')}</strong> ${typeBadge} <span style="color:#64748b;">${stab ? `(${stab})` : ''}</span>${flagHtml}</div>`;
-                                        }).join('')}
-                                    </div>
-                                ` : ''}
-                            </div>
-                        `;
-                    });
-                } else {
-                    html += `<div class="code-block">${JSON.stringify(analysis, null, 2)}</div>`;
-                }
-
-                html += `</div>`;
-            }
-
-            if (genome) {
-                html += `<div class="section"><div class="section-title">Emotional Genome (ELI5)</div>`;
-                const genomeData = genome.eli5 || genome;
-                if (genomeData && typeof genomeData === 'object') {
-                    html += `<div class="genome-plot">`;
-                    Object.entries(genomeData).forEach(([key, value]) => {
-                        if (key !== 'summary' && key !== 'explanation') {
-                            html += `
-                                <div class="genome-item">
-                                    <strong>${key.replace(/_/g, ' ').toUpperCase()}</strong>
-                                    <span>${value}</span>
-                                </div>
-                            `;
-                        }
-                    });
-                    html += `</div>`;
-                    if (genomeData.summary) {
-                        html += `<div style="margin-top:20px; padding:16px; background:#fdfbf7; border-radius:8px; border:1.5px solid #e8e4dc;"><strong>Summary:</strong> ${genomeData.summary}</div>`;
-                    }
-                } else {
-                    html += `<div class="code-block">${JSON.stringify(genomeData, null, 2)}</div>`;
-                }
-                html += `</div>`;
-            }
-
+            
+            // Render after DOM is ready
+            setTimeout(() => {
+                const artistContainer = document.getElementById('artistProfileContainer');
+                const sectionsContainer = document.getElementById('sectionsContainer');
+                const eli5Container = document.getElementById('eli5Container');
+                
+                if (artistContainer) artistContainer.innerHTML = renderArtistProfile(song);
+                if (sectionsContainer) renderSections();
+                if (eli5Container) renderELI5();
+            }, 0);
+            
             return html;
         }
+
 
         function handleInitialRoute() {
             if (didHandleInitialRoute) return;
