@@ -39,7 +39,22 @@
         }
         
         header {
-            margin-bottom: 32px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(246, 244, 238, 0.98);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0,0,0,0.08);
+            padding: 16px 20px;
+            margin-bottom: 24px;
+        }
+        
+        /* Adjust container for sticky header */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px 40px 20px;
         }
         
         h1 {
@@ -435,6 +450,204 @@
         .hidden {
             display: none;
         }
+    
+        /* Parity Layout Fixes */
+        html, body {
+            height: 100%;
+            overflow-x: hidden;
+        }
+
+        .container {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #songView {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .song-viewer {
+            flex: 1;
+            padding: 24px;
+            max-width: 100%;
+        }
+
+        /* Improved Song Detail Spacing */
+        .artist-section {
+            margin-bottom: 24px !important;
+        }
+        
+        .section-container {
+            margin-bottom: 24px !important;
+            padding: 24px !important;
+            border-radius: 12px !important;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
+        }
+
+        .lyrics-container {
+            font-size: 1.1rem !important;
+            line-height: 1.8 !important;
+        }
+
+        .lyric-line {
+            display: flex !important;
+            align-items: flex-start !important;
+            padding: 4px 8px !important;
+            border-radius: 6px !important;
+            transition: background 0.2s !important;
+        }
+
+        .line-text {
+            flex: 1 !important;
+            word-break: break-word !important;
+        }
+
+        .line-scheme, .line-stress {
+            flex-shrink: 0 !important;
+            margin-left: 12px !important;
+            font-size: 0.9rem !important;
+            opacity: 0.8 !important;
+        }
+
+        /* Detail View Parity Styles */
+        .song-viewer {
+            background: white;
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            border: 1px solid #e8e4dc;
+        }
+
+        .song-header h2 {
+            font-size: 2.2rem;
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+        }
+
+        .artist-section {
+            background: #fdfbf7;
+            padding: 24px;
+            border-radius: 12px;
+            border-left: 4px solid #8b5cf6;
+            margin-bottom: 32px;
+        }
+
+        .section-container {
+            background: #f9f9f9;
+            padding: 24px;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+            margin-bottom: 24px;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .section-name {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #667eea;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .lyric-line {
+            display: flex;
+            align-items: flex-start;
+            padding: 6px 12px;
+            border-radius: 8px;
+            transition: all 0.2s;
+            margin-bottom: 4px;
+        }
+
+        .lyric-line:hover {
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .line-text {
+            flex: 1;
+            font-size: 1.1rem;
+            color: #1a1a1a;
+        }
+
+        .line-scheme, .line-stress {
+            flex-shrink: 0;
+            margin-left: 12px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            font-size: 0.85rem;
+            font-weight: 600;
+            padding: 2px 6px;
+            border-radius: 4px;
+            min-width: 28px;
+            text-align: center;
+        }
+
+        .line-scheme {
+            background: rgba(102, 126, 234, 0.1);
+            color: #667eea;
+        }
+
+        .line-stress {
+            background: rgba(229, 62, 62, 0.1);
+            color: #e53e3e;
+        }
+
+        .rhyme-pairs-section {
+            margin-top: 20px;
+            border-top: 1px solid #eee;
+            padding-top: 16px;
+        }
+
+        .eli5-section {
+            margin-top: 40px;
+            border-top: 2px solid #e8e4dc;
+            padding-top: 32px;
+        }
+
+        .eli5-header {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1e40af;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .eli5-plot-item {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 4px solid #3b82f6;
+            margin-bottom: 20px;
+        }
+
+        .eli5-lyric {
+            font-style: italic;
+            font-size: 1rem;
+            color: #4b5563;
+            margin: 12px 0;
+            padding-left: 16px;
+            border-left: 3px solid #e5e7eb;
+        }
+
+        .eli5-explanation {
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+
+        /* Prevent scroll jumping by ensuring min-height */
+        #songView {
+            min-height: 100vh;
+        }
     </style>
 </head>
 <body>
@@ -522,7 +735,7 @@
                 hydrateFilters();
                 renderGenreList();
                 renderSongResults();
-                handleInitialRoute();
+                lastProcessedHash = window.location.hash; handleInitialRoute();
             } catch (error) {
                 console.error('Failed to load songs index:', error);
             }
@@ -579,6 +792,7 @@
             renderGenreList();
             setBrowseView();
             renderSongResults();
+            window.scrollTo(0, 0);
 
             if (push) {
                 history.pushState({ view: 'artist', artistSlug }, '', `/comprehensive-songs-r2`);
@@ -687,7 +901,7 @@
                 visible.forEach(song => {
                     const card = document.createElement('div');
                     card.className = 'song-card';
-                    card.onclick = () => showSongById(song.song_id);
+                    card.onclick = () => showSongById(song.song_id, false);
 
                     const badges = [];
                     if (song.category && song.category !== 'unknown') badges.push(`<span class="pill">${song.category}</span>`);
@@ -713,20 +927,24 @@
             }
         }
 
-        async function showSongById(songId) {
+        async function showSongById(songId, updateHash = true) {
             setSongView();
 
             const match = songsIndex.find(s => (s && s.song_id) === songId) || null;
             const songSlug = match ? slugifySongTitleArtist(match.title, match.artist) : '';
-            history.pushState({ view: 'song', songId }, '', `/comprehensive-songs-r2`);
-            if (songSlug) {
-                window.location.hash = `#song/${encodeURIComponent(songSlug)}`;
-            } else {
-                window.location.hash = '';
+            
+            if (updateHash) {
+                if (songSlug) {
+                    history.pushState({ view: 'song', songId }, '', `#song/${encodeURIComponent(songSlug)}`);
+                } else {
+                    history.pushState({ view: 'song', songId }, '', '#');
+                }
             }
 
             const content = document.getElementById('songContent');
             content.innerHTML = '';
+            // Scroll to top of content when loading new song
+            window.scrollTo(0, 0);
 
             try {
                 const response = await fetch(`/api/songs/${encodeURIComponent(songId)}`);
@@ -1134,7 +1352,7 @@
                     const decoded = decodeURIComponent(slug);
                     const song = findSongByTitleArtistSlug(decoded);
                     if (song && song.song_id) {
-                        showSongById(song.song_id);
+                        showSongById(song.song_id, false);
                         return;
                     }
                 }
@@ -1167,9 +1385,13 @@
             navigateToBrowse(false);
         }
 
+        let lastProcessedHash = null;
         window.addEventListener('hashchange', () => {
+            const currentHash = window.location.hash;
+            if (currentHash === lastProcessedHash) return;
+            lastProcessedHash = currentHash;
             didHandleInitialRoute = false;
-            handleInitialRoute();
+            lastProcessedHash = window.location.hash; handleInitialRoute();
         });
 
         window.addEventListener('popstate', (e) => {
@@ -1189,7 +1411,7 @@
                 showArtistBySlug(state.artistSlug, false);
                 return;
             }
-            handleInitialRoute();
+            lastProcessedHash = window.location.hash; handleInitialRoute();
         });
 
         document.getElementById('searchInput').addEventListener('input', (e) => {
