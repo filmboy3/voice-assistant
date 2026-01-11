@@ -646,10 +646,13 @@
             const verified = document.getElementById('verifiedToggle').checked;
 
             let filtered = songsIndex.filter(song => {
-                if (activeGenre !== 'all' && song.category !== activeGenre) return false;
+                if (activeGenre !== 'all') {
+                    const genres = Array.isArray(song.genres) ? song.genres : [];
+                    if (!genres.includes(activeGenre)) return false;
+                }
                 if (categoryFilter && song.category !== categoryFilter) return false;
                 if (sourceFilter && song.source !== sourceFilter) return false;
-                if (collectionFilter && song.collection !== collectionFilter) return false;
+                if (collectionFilter && song.special_collection !== collectionFilter) return false;
                 if (hasGenome && !song.has_genome) return false;
                 if (hasPattison && !song.has_pattison) return false;
                 if (verified && !song.verified) return false;
